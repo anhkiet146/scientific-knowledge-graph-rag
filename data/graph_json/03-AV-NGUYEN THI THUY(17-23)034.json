@@ -1,0 +1,175 @@
+{
+  "filename": "03-AV-NGUYEN THI THUY(17-23)034.json",
+  "paper_title": "Effect of organic acid products on growth performance and intestine health of Tam Hoang chicken",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Poultry Science",
+        "type": "Domain",
+        "description": "The main field of research focusing on chicken production and health."
+      },
+      {
+        "id": "Nguyen Thi Thuy Nhien",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi My Phung",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Luu Thi Ty",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Hoang Bich",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Thai Viet An",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "Growth Performance",
+        "type": "Concept",
+        "description": "The measurement of how well the chickens grow over the 12-week period."
+      },
+      {
+        "id": "Intestine health",
+        "type": "Concept",
+        "description": "The health status and microflora balance within the chicken's gastrointestinal tract."
+      },
+      {
+        "id": "Antibiotic substitution",
+        "type": "Concept",
+        "description": "The study of alternatives to antibiotics for disease prevention and growth stimulation."
+      },
+      {
+        "id": "Menacid",
+        "type": "Method",
+        "description": "An organic acid product used as a dietary supplement."
+      },
+      {
+        "id": "Poulacid",
+        "type": "Method",
+        "description": "An organic acid product used as a dietary supplement."
+      },
+      {
+        "id": "6*2 factorial design",
+        "type": "Method",
+        "description": "The statistical experimental design used in the study."
+      },
+      {
+        "id": "Colony counting method",
+        "type": "Method",
+        "description": "Method used to determine levels of bacteria in fecal samples."
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Analysis of variance used for data interpretation."
+      },
+      {
+        "id": "Minitab Software version 16.2",
+        "type": "Method",
+        "description": "Statistical software used for data analysis."
+      },
+      {
+        "id": "Experimental performance data",
+        "type": "Dataset",
+        "description": "The numerical records of weight, feed intake, and bacteria counts collected during the 12-week trial."
+      },
+      {
+        "id": "Growth rate improvement (8%)",
+        "type": "Metric",
+        "description": "The percentage increase in growth rate observed with supplementation."
+      },
+      {
+        "id": "Morbidity (13.3 - 19.1%)",
+        "type": "Metric",
+        "description": "The range of disease incidence observed in the treatments."
+      },
+      {
+        "id": "Mortality (10-15%)",
+        "type": "Metric",
+        "description": "The range of death rates recorded during the experiment."
+      },
+      {
+        "id": "Carcass yield (65-68%)",
+        "type": "Metric",
+        "description": "The percentage of usable meat from the slaughtered chickens."
+      },
+      {
+        "id": "pH (<3.5)",
+        "type": "Metric",
+        "description": "The acidity level required to limit harmful bacteria."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effect of organic acid products on growth performance and intestine health of Tam Hoang chicken",
+        "target": "Poultry Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi Thuy Nhien",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi My Phung",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luu Thi Ty",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Hoang Bich",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thai Viet An",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Menacid",
+        "target": "Growth rate improvement (8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Menacid",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Poulacid",
+        "target": "Intestine health",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "6*2 factorial design",
+        "target": "Experimental performance data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Colony counting method",
+        "target": "Intestine health",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

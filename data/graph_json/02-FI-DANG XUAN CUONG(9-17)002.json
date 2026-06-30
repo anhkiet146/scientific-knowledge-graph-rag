@@ -1,0 +1,170 @@
+{
+  "filename": "02-FI-DANG XUAN CUONG(9-17)002.json",
+  "paper_title": "Stability of antioxidant phlorotannin beverage originated from Sargassum serratum on the storage time and temperature",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Food Science",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về thực phẩm và đồ uống"
+      },
+      {
+        "id": "Dang Xuan Cuong",
+        "type": "Author",
+        "description": "Tác giả chính từ Viện Nghiên cứu và Ứng dụng Công nghệ Nha Trang"
+      },
+      {
+        "id": "Nguyen Van Thanh",
+        "type": "Author",
+        "description": "Tác giả từ Đại học Kiên Giang"
+      },
+      {
+        "id": "Vu Ngoc Boi",
+        "type": "Author",
+        "description": "Tác giả từ Đại học Nha Trang"
+      },
+      {
+        "id": "Nha Trang Institute of Technology Research and Application",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam"
+      },
+      {
+        "id": "Tien Giang University",
+        "type": "Institution",
+        "description": "Trường đại học tại Việt Nam"
+      },
+      {
+        "id": "Nha Trang University",
+        "type": "Institution",
+        "description": "Trường đại học tại Việt Nam"
+      },
+      {
+        "id": "Phlorotannin stability",
+        "type": "Concept",
+        "description": "Sự ổn định của hợp chất phlorotannin trong quá trình bảo quản"
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "Khả năng chống oxy hóa của sản phẩm"
+      },
+      {
+        "id": "Sargassum serratum",
+        "type": "Method",
+        "description": "Nguyên liệu tảo biển nâu được sử dụng để sản xuất đồ uống"
+      },
+      {
+        "id": "Pasteurisation",
+        "type": "Method",
+        "description": "Quy trình thanh trùng xử lý nhiệt cho đồ uống"
+      },
+      {
+        "id": "Konica machine",
+        "type": "Method",
+        "description": "Thiết bị đo giá trị màu sắc X, Y, Z của đồ uống"
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Phương pháp phân tích phương sai để xử lý số liệu"
+      },
+      {
+        "id": "Ethanol 96%",
+        "type": "Method",
+        "description": "Hóa chất dùng để chiết xuất phlorotannin"
+      },
+      {
+        "id": "Beverage quality measurement records",
+        "type": "Dataset",
+        "description": "Dữ liệu đo lường chất lượng của 675 chai đồ uống trong 12 tháng"
+      },
+      {
+        "id": "Phlorotannin content (66-79%)",
+        "type": "Metric",
+        "description": "Hàm lượng phlorotannin còn lại sau 12 tháng bảo quản"
+      },
+      {
+        "id": "Total antioxidant activity (63.7-76.87%)",
+        "type": "Metric",
+        "description": "Hoạt tính chống oxy hóa tổng số sau 12 tháng"
+      },
+      {
+        "id": "DPPH scavenging (66.57-78.72%)",
+        "type": "Metric",
+        "description": "Khả năng kháng gốc tự do DPPH sau 12 tháng"
+      },
+      {
+        "id": "Cd level (0.001 ppm)",
+        "type": "Metric",
+        "description": "Hàm lượng kim loại nặng Cadmium đo được"
+      },
+      {
+        "id": "Total aerobic bacteria (1.9 x 10^1 CFU/mL)",
+        "type": "Metric",
+        "description": "Số lượng vi khuẩn hiếu khí sau 12 tháng bảo quản lạnh"
+      },
+      {
+        "id": "Initial Phloroglucinols (30 ± 0.01 mg)",
+        "type": "Metric",
+        "description": "Hàm lượng phloroglucinols ban đầu trong 200ml đồ uống"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Stability of antioxidant phlorotannin beverage originated from Sargassum serratum",
+        "target": "Food Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dang Xuan Cuong",
+        "target": "Nha Trang Institute of Technology Research and Application",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Thanh",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vu Ngoc Boi",
+        "target": "Nha Trang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Sargassum serratum",
+        "target": "Phlorotannin stability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pasteurisation",
+        "target": "Antioxidant activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Beverage quality measurement records",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Sargassum serratum",
+        "target": "Initial Phloroglucinols (30 ± 0.01 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pasteurisation",
+        "target": "Total aerobic bacteria (1.9 x 10^1 CFU/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sargassum serratum",
+        "target": "Phlorotannin content (66-79%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ANOVA",
+        "target": "DPPH scavenging (66.57-78.72%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

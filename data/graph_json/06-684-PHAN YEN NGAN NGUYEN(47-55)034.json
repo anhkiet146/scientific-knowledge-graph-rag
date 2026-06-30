@@ -1,0 +1,170 @@
+{
+  "filename": "06-684-PHAN YEN NGAN NGUYEN(47-55)034.json",
+  "paper_title": "Factorizing social advanced aspects in modern life on human health",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phan Yen Ngan Nguyen",
+        "type": "Author",
+        "description": "Author from Computer Science Program, Vietnamese-German University"
+      },
+      {
+        "id": "Dung Hai Dinh",
+        "type": "Author",
+        "description": "Author from Business Information System Program, Vietnamese-German University"
+      },
+      {
+        "id": "Ngoc Hong Tran",
+        "type": "Author",
+        "description": "Author from Computer Science Program, Vietnamese-German University"
+      },
+      {
+        "id": "Vietnamese - German University, Vietnam",
+        "type": "Institution",
+        "description": "University in Viet Nam where the researchers are affiliated"
+      },
+      {
+        "id": "Healthcare",
+        "type": "Domain",
+        "description": "The main research field focusing on human well-being and life quality"
+      },
+      {
+        "id": "Data Science",
+        "type": "Domain",
+        "description": "The field involving statistical analysis and data interpretation"
+      },
+      {
+        "id": "Human Health",
+        "type": "Concept",
+        "description": "The state of physical and mental well-being in modern life"
+      },
+      {
+        "id": "Lifestyle",
+        "type": "Concept",
+        "description": "Daily habits including eating, sleeping, and physical activities"
+      },
+      {
+        "id": "Data analysis",
+        "type": "Method",
+        "description": "Process of investigating the relationship between lifestyle and health"
+      },
+      {
+        "id": "R programming language",
+        "type": "Method",
+        "description": "Tool used for data calculation, visualization, and preprocessing"
+      },
+      {
+        "id": "Correlation coefficient",
+        "type": "Method",
+        "description": "Statistical method to study the strength of linear relationships"
+      },
+      {
+        "id": "Pearson's formula",
+        "type": "Method",
+        "description": "Specific calculation method for pair-wise correlation in R"
+      },
+      {
+        "id": "Regression",
+        "type": "Method",
+        "description": "Statistical technique for modeling relationships between variables"
+      },
+      {
+        "id": "Google Forms",
+        "type": "Method",
+        "description": "Tool used for collecting survey data from participants"
+      },
+      {
+        "id": "Heatmap",
+        "type": "Method",
+        "description": "Visualization method to show correlation matrices"
+      },
+      {
+        "id": "Survey Dataset 2009",
+        "type": "Dataset",
+        "description": "Data collected from 114 replies with 30 attributes"
+      },
+      {
+        "id": "Lifestyle influence on health (60%)",
+        "type": "Metric",
+        "description": "Percentage of health status influenced by lifestyle as reported by WHO"
+      },
+      {
+        "id": "Age 18-24 (74.8%)",
+        "type": "Metric",
+        "description": "Percentage of participants in the student/young worker age group"
+      },
+      {
+        "id": "Internal dysfunction correlation (+0.2/1)",
+        "type": "Metric",
+        "description": "Correlation value between device frequency and internal health issues"
+      },
+      {
+        "id": "Meal frequency correlation (+0.01)",
+        "type": "Metric",
+        "description": "Near-zero correlation between meal frequency and health issues"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Phan Yen Ngan Nguyen",
+        "target": "Vietnamese - German University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dung Hai Dinh",
+        "target": "Vietnamese - German University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngoc Hong Tran",
+        "target": "Vietnamese - German University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Healthcare",
+        "target": "Healthcare",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Data Science",
+        "target": "Healthcare",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Data analysis",
+        "target": "Human Health",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Correlation coefficient",
+        "target": "Survey Dataset 2009",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "R programming language",
+        "target": "Lifestyle",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pearson's formula",
+        "target": "Internal dysfunction correlation (+0.2/1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Data analysis",
+        "target": "Lifestyle influence on health (60%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Google Forms",
+        "target": "Survey Dataset 2009",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Heatmap",
+        "target": "Meal frequency correlation (+0.01)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

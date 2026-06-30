@@ -1,0 +1,130 @@
+{
+  "filename": "11-ED-PHAM THI THANH THUY(84-89)011.json",
+  "paper_title": "Teaching practice collaborative learning in English for academic Purposes writing classes at Vietnam National Economics University",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Pham Thi Thanh Thuy",
+        "type": "Author",
+        "description": "The author of the research paper from the Faculty of Foreign Languages."
+      },
+      {
+        "id": "National Economics University",
+        "type": "Institution",
+        "description": "The university where the research and teaching practice were conducted."
+      },
+      {
+        "id": "English for Academic Purposes (EAP) Writing",
+        "type": "Domain",
+        "description": "The specific field of English language teaching focused on academic writing."
+      },
+      {
+        "id": "Collaborative Learning",
+        "type": "Concept",
+        "description": "A learning approach involving joint learning and peer interaction."
+      },
+      {
+        "id": "Action research",
+        "type": "Method",
+        "description": "A reflective problem-solving process used to improve teaching situations, following Lewin's cycle."
+      },
+      {
+        "id": "Zone of Proximal Development",
+        "type": "Concept",
+        "description": "The theoretical gap between what a learner can do with and without help."
+      },
+      {
+        "id": "Communicative Approach",
+        "type": "Concept",
+        "description": "A language teaching approach that emphasizes interaction and communication."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "A tool used by students to collect primary data for their business projects."
+      },
+      {
+        "id": "Interviews",
+        "type": "Method",
+        "description": "A method used to gather first-hand experience from experts and company employees."
+      },
+      {
+        "id": "Seminar Presentation",
+        "type": "Method",
+        "description": "Small-group presentations used to share project proposals and findings."
+      },
+      {
+        "id": "Authentic Materials",
+        "type": "Method",
+        "description": "Real-world documents like business journals and case studies used in the learning process."
+      },
+      {
+        "id": "Project Duration (13 weeks)",
+        "type": "Metric",
+        "description": "The total time allocated for students to develop and conduct their research project."
+      },
+      {
+        "id": "Topic decision timeframe (first 5 weeks)",
+        "type": "Metric",
+        "description": "The period within which topic changes were reduced through group discussion."
+      },
+      {
+        "id": "Lecture duration (30-minute)",
+        "type": "Metric",
+        "description": "The length of theoretical instruction provided by the teacher before group work."
+      },
+      {
+        "id": "Oral presentation duration (15-minute)",
+        "type": "Metric",
+        "description": "The specific time limit for the final project report presentation."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Teaching practice collaborative learning in English for academic Purposes writing classes at Vietnam National Economics University",
+        "target": "English for Academic Purposes (EAP) Writing",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Pham Thi Thanh Thuy",
+        "target": "National Economics University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Action research",
+        "target": "Collaborative Learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Collaborative Learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Interviews",
+        "target": "Collaborative Learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Seminar Presentation",
+        "target": "Oral presentation duration (15-minute)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Seminar Presentation",
+        "target": "Collaborative Learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Authentic Materials",
+        "target": "Collaborative Learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Action research",
+        "target": "Project Duration (13 weeks)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

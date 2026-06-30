@@ -1,0 +1,175 @@
+{
+    "filename": "17-NS-BUI THI BUU HUE(138-142)048.json",
+    "paper_title": "Synthesis and cytotoxicity evaluation of naphthalenecarboxamide derivatives",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Synthesis and cytotoxicity evaluation of naphthalenecarboxamide derivatives",
+                "type": "Concept",
+                "description": "Main research objective focusing on creating and testing naphthalene derivatives"
+            },
+            {
+                "id": "Naphthalene derivatives",
+                "type": "Concept",
+                "description": "Compounds known to possess potential bioactivities like anti-cancer"
+            },
+            {
+                "id": "Cytotoxicity",
+                "type": "Concept",
+                "description": "The quality of being toxic to cells"
+            },
+            {
+                "id": "Organic Chemistry",
+                "type": "Domain",
+                "description": "The primary field of research"
+            },
+            {
+                "id": "Bui Thi Buu Hue",
+                "type": "Author",
+                "description": "Lead author and correspondence"
+            },
+            {
+                "id": "Duong Huynh Luong",
+                "type": "Author",
+                "description": "Co-author"
+            },
+            {
+                "id": "Huynh Minh Huy",
+                "type": "Author",
+                "description": "Co-author"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic organization for the authors"
+            },
+            {
+                "id": "Stobbe condensation",
+                "type": "Method",
+                "description": "Chemical reaction sequence for naphthalene core substructure construction"
+            },
+            {
+                "id": "Cyclization",
+                "type": "Method",
+                "description": "Step following Stobbe condensation to form rings"
+            },
+            {
+                "id": "MTT assay",
+                "type": "Method",
+                "description": "Method used for evaluating cytotoxicity against cancer cell lines"
+            },
+            {
+                "id": "1H-NMR",
+                "type": "Method",
+                "description": "Spectroscopy used for structure confirmation"
+            },
+            {
+                "id": "13C-NMR",
+                "type": "Method",
+                "description": "Spectroscopy used for structure confirmation"
+            },
+            {
+                "id": "MS",
+                "type": "Method",
+                "description": "Mass Spectrometry used for compound identification"
+            },
+            {
+                "id": "Thionyl chloride",
+                "type": "Method",
+                "description": "Chemical reagent used to convert carboxyl group to acid chloride"
+            },
+            {
+                "id": "Yield (71%)",
+                "type": "Metric",
+                "description": "Overall yield for the tandem Stobbe/cyclization sequence"
+            },
+            {
+                "id": "Yield (84%)",
+                "type": "Metric",
+                "description": "Yield for the synthesis of derivative 5a"
+            },
+            {
+                "id": "Yield (51%)",
+                "type": "Metric",
+                "description": "Yield for the synthesis of derivative 5b"
+            },
+            {
+                "id": "IC50 of 5a against Hep G2 (11.74 µg/mL)",
+                "type": "Metric",
+                "description": "Cytotoxicity indicator for compound 5a on liver cancer cells"
+            },
+            {
+                "id": "IC50 of 5b against Hep G2 (12.25 µg/mL)",
+                "type": "Metric",
+                "description": "Cytotoxicity indicator for compound 5b on liver cancer cells"
+            },
+            {
+                "id": "IC50 of 5a against LU (59.53 µg/mL)",
+                "type": "Metric",
+                "description": "Cytotoxicity indicator for compound 5a on lung cancer cells"
+            },
+            {
+                "id": "IC50 of 5b against LU (58.32 µg/mL)",
+                "type": "Metric",
+                "description": "Cytotoxicity indicator for compound 5b on lung cancer cells"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Synthesis and cytotoxicity evaluation of naphthalenecarboxamide derivatives",
+                "target": "Organic Chemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Bui Thi Buu Hue",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Huynh Luong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Minh Huy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Stobbe condensation",
+                "target": "Synthesis and cytotoxicity evaluation of naphthalenecarboxamide derivatives",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "MTT assay",
+                "target": "Cytotoxicity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Stobbe condensation",
+                "target": "Yield (71%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "MTT assay",
+                "target": "IC50 of 5a against Hep G2 (11.74 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "MTT assay",
+                "target": "IC50 of 5b against Hep G2 (12.25 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "MTT assay",
+                "target": "IC50 of 5a against LU (59.53 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "MTT assay",
+                "target": "IC50 of 5b against LU (58.32 µg/mL)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

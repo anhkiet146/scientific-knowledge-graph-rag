@@ -1,0 +1,190 @@
+{
+    "filename": "06-761-TRAN NHUT THANH(57-65)291.json",
+    "paper_title": "An entire fruit surface imaging system with the support of a mirror system and a flipping mechanism",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Computer Vision",
+                "type": "Domain",
+                "description": "The main field of research using technology for visual inspection."
+            },
+            {
+                "id": "Agricultural Engineering",
+                "type": "Domain",
+                "description": "The application of engineering principles to agricultural products."
+            },
+            {
+                "id": "External quality evaluation of fruits",
+                "type": "Concept",
+                "description": "The process of assessing fruit based on size, shape, color, and surface damage."
+            },
+            {
+                "id": "Entire fruit surface imaging",
+                "type": "Concept",
+                "description": "The goal of capturing 100% of a fruit's surface for quality assessment."
+            },
+            {
+                "id": "Mirror system and flipping mechanism",
+                "type": "Method",
+                "description": "The proposed system combining mirrors and a mechanical flip for two-shot imaging."
+            },
+            {
+                "id": "Supporting mirror system",
+                "type": "Method",
+                "description": "Consists of a pyramid mirror and a tube mirror to capture top and lateral surfaces."
+            },
+            {
+                "id": "Flipping mechanism",
+                "type": "Method",
+                "description": "Includes clamping arms and pneumatic rotary cylinders to rotate the fruit 180 degrees."
+            },
+            {
+                "id": "Nikon D3300",
+                "type": "Method",
+                "description": "Digital camera used for image capturing."
+            },
+            {
+                "id": "digiCamControl",
+                "type": "Method",
+                "description": "Open-source software used to control camera parameters."
+            },
+            {
+                "id": "Pneumatic cylinders",
+                "type": "Method",
+                "description": "Actuators used for clamping and rotating the flipping mechanism."
+            },
+            {
+                "id": "50 W LED bulbs",
+                "type": "Method",
+                "description": "Light source with integrated light-scattering surfaces."
+            },
+            {
+                "id": "Two shots",
+                "type": "Metric",
+                "description": "The number of images required to observe the entire surface."
+            },
+            {
+                "id": "1.0 x 1.0 x 2.0 m",
+                "type": "Metric",
+                "description": "Overall dimensions of the proposed system."
+            },
+            {
+                "id": "20 cm",
+                "type": "Metric",
+                "description": "Maximum designed diameter of fruits for the system."
+            },
+            {
+                "id": "1.6 kg",
+                "type": "Metric",
+                "description": "Weight of the Da Xanh pomelo used in testing."
+            },
+            {
+                "id": "18 cm",
+                "type": "Metric",
+                "description": "Diameter of the pomelo used in testing."
+            },
+            {
+                "id": "Tran Nhut Thanh",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Truong Minh Thuan",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Huynh Cao Tan Toi",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Pham Quoc Cong",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Nguyen Chanh Nghiem",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Nguyen Chi Ngon",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Viet Nam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "An entire fruit surface imaging system with the support of a mirror system and a flipping mechanism",
+                "target": "Computer Vision",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "An entire fruit surface imaging system with the support of a mirror system and a flipping mechanism",
+                "target": "Agricultural Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Mirror system and flipping mechanism",
+                "target": "Two shots",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mirror system and flipping mechanism",
+                "target": "1.0 x 1.0 x 2.0 m",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mirror system and flipping mechanism",
+                "target": "Entire fruit surface imaging",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Supporting mirror system",
+                "target": "External quality evaluation of fruits",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Flipping mechanism",
+                "target": "Entire fruit surface imaging",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Tran Nhut Thanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Minh Thuan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Cao Tan Toi",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Quoc Cong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Chanh Nghiem",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Chi Ngon",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

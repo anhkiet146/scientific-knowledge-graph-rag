@@ -1,0 +1,200 @@
+{
+    "filename": "10-810-QUOC PHONG HO(64-73)283.json",
+    "paper_title": "Optimization of non-thermal plasma process to remove methyl blue towards application in wastewater treatment",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Wastewater treatment",
+                "type": "Domain",
+                "description": "The main field of research focusing on treating industrial sewage."
+            },
+            {
+                "id": "Removal of methyl blue",
+                "type": "Concept",
+                "description": "The research problem of eliminating methyl blue dye from aqueous solutions."
+            },
+            {
+                "id": "Advanced oxidation processes (AOPs)",
+                "type": "Concept",
+                "description": "Chemical treatment procedures to remove organic compounds through oxidation."
+            },
+            {
+                "id": "Dielectric barrier discharge (DBD) plasma",
+                "type": "Method",
+                "description": "A type of non-thermal plasma used for the degradation of organic pollutants."
+            },
+            {
+                "id": "RSM-CCD",
+                "type": "Method",
+                "description": "Response surface methodology and central composite design used for experimental design and optimization."
+            },
+            {
+                "id": "Quadratic polynomial model",
+                "type": "Method",
+                "description": "Mathematical model used to fit experimental data and predict responses."
+            },
+            {
+                "id": "UV-visible spectrophotometer",
+                "type": "Method",
+                "description": "Equipment used to analyze the concentration of methyl blue at 663 nm."
+            },
+            {
+                "id": "Experimental data",
+                "type": "Dataset",
+                "description": "The set of numerical results obtained from the plasma treatment experiments."
+            },
+            {
+                "id": "Degradation percentage (95.8%)",
+                "type": "Metric",
+                "description": "The efficiency of methyl blue removal at optimal conditions."
+            },
+            {
+                "id": "Concentration of methyl blue (1.06 ppm)",
+                "type": "Metric",
+                "description": "The final remaining concentration of dye after treatment."
+            },
+            {
+                "id": "Plasma power (100 W)",
+                "type": "Metric",
+                "description": "The optimized power setting for the plasma process."
+            },
+            {
+                "id": "Liquid flow rate (1.5 lpm)",
+                "type": "Metric",
+                "description": "The optimized rate of liquid flow through the system."
+            },
+            {
+                "id": "Air flow rate (6 lpm)",
+                "type": "Metric",
+                "description": "The optimized rate of air supply for ozone generation."
+            },
+            {
+                "id": "Exposure time (108.8 minutes)",
+                "type": "Metric",
+                "description": "The optimized duration of plasma treatment."
+            },
+            {
+                "id": "R-squared (0.9686)",
+                "type": "Metric",
+                "description": "Statistical measure of how close the data are to the fitted regression line."
+            },
+            {
+                "id": "Quoc-Phong Ho",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Hoang-Nam Truong",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Phuc-Thong Lam",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Bich-Thuyen Nguyen Thi",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Van-Dung Nguyen",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Pham Huu Ha-Giang",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Lien-Huong Huynh",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Faculty of Chemical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department of the authors in Viet Nam."
+            },
+            {
+                "id": "Faculty of Electrical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department of Van-Dung Nguyen."
+            },
+            {
+                "id": "Faculty of Transportation Engineering, College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department of Pham Huu Ha-Giang."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Optimization of non-thermal plasma process to remove methyl blue towards application in wastewater treatment",
+                "target": "Wastewater treatment",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Dielectric barrier discharge (DBD) plasma",
+                "target": "Removal of methyl blue",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Dielectric barrier discharge (DBD) plasma",
+                "target": "Degradation percentage (95.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Dielectric barrier discharge (DBD) plasma",
+                "target": "Concentration of methyl blue (1.06 ppm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "RSM-CCD",
+                "target": "Experimental data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Quadratic polynomial model",
+                "target": "R-squared (0.9686)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Quoc-Phong Ho",
+                "target": "Faculty of Chemical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang-Nam Truong",
+                "target": "Faculty of Chemical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phuc-Thong Lam",
+                "target": "Faculty of Chemical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bich-Thuyen Nguyen Thi",
+                "target": "Faculty of Chemical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lien-Huong Huynh",
+                "target": "Faculty of Chemical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Van-Dung Nguyen",
+                "target": "Faculty of Electrical Engineering, College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Huu Ha-Giang",
+                "target": "Faculty of Transportation Engineering, College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

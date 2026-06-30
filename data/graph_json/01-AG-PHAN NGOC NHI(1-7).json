@@ -1,0 +1,200 @@
+{
+  "filename": "01-AG-PHAN NGOC NHI(1-7).json",
+  "paper_title": "EFFECTS OF COLOR LED LIGHT INTENSITIES AND DIFFERENT PHOTOPERIOD REGIMES ON GROWTH OF HYDROPONIC LETTUCE (Latuca sativa L.)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Agriculture",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu chính của bài báo."
+      },
+      {
+        "id": "Plant Science",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về sự phát triển của thực vật."
+      },
+      {
+        "id": "Growth of hydroponic lettuce",
+        "type": "Concept",
+        "description": "Sự sinh trưởng của xà lách trong môi trường thủy canh."
+      },
+      {
+        "id": "Plant factory",
+        "type": "Concept",
+        "description": "Mô hình nhà máy thực vật sản xuất rau sạch."
+      },
+      {
+        "id": "Photosynthesis",
+        "type": "Concept",
+        "description": "Quá trình quang hợp của thực vật."
+      },
+      {
+        "id": "Pham Ngoc Nhan",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Pham Ngoc Long",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Tong Thi Sa Non",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Vo Thi Bich Thuy",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Le Vinh Thuc",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Tran Thi Ba",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "College of Agricultural and Applied Biology",
+        "type": "Institution",
+        "description": "Khoa Nông nghiệp và Sinh học Ứng dụng."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Trường Đại học Cần Thơ."
+      },
+      {
+        "id": "Purple LED (75% red, 25% blue)",
+        "type": "Method",
+        "description": "Hệ thống đèn LED tím kết hợp đỏ và xanh."
+      },
+      {
+        "id": "White LED",
+        "type": "Method",
+        "description": "Hệ thống đèn LED trắng."
+      },
+      {
+        "id": "Hoagland nutrient solution",
+        "type": "Method",
+        "description": "Dung dịch dinh dưỡng Hoagland dùng cho thủy canh."
+      },
+      {
+        "id": "SPSS 16.0",
+        "type": "Method",
+        "description": "Phần mềm xử lý thống kê dữ liệu."
+      },
+      {
+        "id": "Lettuce variety GN 63",
+        "type": "Method",
+        "description": "Giống xà lách GN 63 được sử dụng trong thí nghiệm."
+      },
+      {
+        "id": "N, N-dimethyl formamide method",
+        "type": "Method",
+        "description": "Phương pháp phân tích hàm lượng chlorophyll."
+      },
+      {
+        "id": "80-24/0 treatment (2 purple LEDs)",
+        "type": "Method",
+        "description": "Nghiệm thức cường độ 80 µmol/m2.s với chu kỳ chiếu sáng 24h/ngày."
+      },
+      {
+        "id": "Light intensity (48-98 μmol/m2.s PPFD)",
+        "type": "Metric",
+        "description": "Chỉ số cường độ ánh sáng sử dụng."
+      },
+      {
+        "id": "Fresh weight (34.93 g/plant)",
+        "type": "Metric",
+        "description": "Trọng lượng tươi cao nhất đạt được tại nghiệm thức 80-24/0."
+      },
+      {
+        "id": "Length of main stem (26.18 cm)",
+        "type": "Metric",
+        "description": "Chiều dài thân chính tại nghiệm thức 3 đèn LED trắng 24/0."
+      },
+      {
+        "id": "Leaf number (17.60 leaves)",
+        "type": "Metric",
+        "description": "Số lượng lá đạt được tại nghiệm thức 2 đèn LED tím 18/6."
+      },
+      {
+        "id": "Chlorophyll value (3.92-4.75 µg/g)",
+        "type": "Metric",
+        "description": "Hàm lượng chlorophyll đạt giá trị cao nhất tại nghiệm thức 2 và 3 đèn tím."
+      },
+      {
+        "id": "Temperature (32-35 oC)",
+        "type": "Metric",
+        "description": "Nhiệt độ trong nhà lưới trong suốt quá trình thí nghiệm."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Pham Ngoc Nhan",
+        "target": "College of Agricultural and Applied Biology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Ngoc Nhan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Ngoc Long",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tong Thi Sa Non",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Thi Bich Thuy",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Vinh Thuc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Ba",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "80-24/0 treatment (2 purple LEDs)",
+        "target": "Fresh weight (34.93 g/plant)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "80-24/0 treatment (2 purple LEDs)",
+        "target": "Chlorophyll value (3.92-4.75 µg/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Purple LED (75% red, 25% blue)",
+        "target": "Growth of hydroponic lettuce",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "White LED",
+        "target": "Length of main stem (26.18 cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "EFFECTS OF COLOR LED LIGHT INTENSITIES AND DIFFERENT PHOTOPERIOD REGIMES ON GROWTH OF HYDROPONIC LETTUCE",
+        "target": "Agriculture",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

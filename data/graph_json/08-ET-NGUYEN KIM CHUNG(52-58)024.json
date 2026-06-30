@@ -1,0 +1,190 @@
+{
+  "filename": "08-ET-NGUYEN KIM CHUNG(52-58)024.json",
+  "paper_title": "Superparamagnetic nanoparticles as a recyclable heterogeneous catalyst for the direct synthesis of carbamates containing biothiazole moiety",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Kim Chung",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Tran Nhut Kien",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Dang Huynh Giao",
+        "type": "Author",
+        "description": "Author of the research paper affiliated with two institutions"
+      },
+      {
+        "id": "Le Thanh Dung",
+        "type": "Author",
+        "description": "Corresponding author of the research paper"
+      },
+      {
+        "id": "Phan Thanh Son Nam",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Faculty of Chemical Engineering, HCMC University of Technology, VNU-HCM",
+        "type": "Institution",
+        "description": "Academic institution in Ho Chi Minh City"
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Can Tho City"
+      },
+      {
+        "id": "Nanocatalysis",
+        "type": "Domain",
+        "description": "Research field involving catalytic processes using nanomaterials"
+      },
+      {
+        "id": "Organic Synthesis",
+        "type": "Domain",
+        "description": "Branch of chemistry focused on constructing organic compounds"
+      },
+      {
+        "id": "Cross-dehydrogenative coupling",
+        "type": "Concept",
+        "description": "Reaction involving coupling of C-H bonds with loss of hydrogen"
+      },
+      {
+        "id": "Heterogeneous catalysis",
+        "type": "Concept",
+        "description": "Catalysis where the catalyst is in a different phase from the reactants"
+      },
+      {
+        "id": "Recyclability",
+        "type": "Concept",
+        "description": "Capability of a catalyst to be recovered and reused"
+      },
+      {
+        "id": "CuFe2O4 superparamagnetic nanoparticles",
+        "type": "Method",
+        "description": "Superparamagnetic copper ferrite used as a recyclable catalyst"
+      },
+      {
+        "id": "Magnetic separation",
+        "type": "Method",
+        "description": "Process to recover nanoparticles using a magnetic field"
+      },
+      {
+        "id": "Gas chromatography",
+        "type": "Method",
+        "description": "Analytical method for separating and analyzing volatile compounds"
+      },
+      {
+        "id": "tert-butyl hydroperoxide (tBuOOH)",
+        "type": "Method",
+        "description": "Chemical oxidant used in the reaction"
+      },
+      {
+        "id": "N,N'-diethylformamide (DEF)",
+        "type": "Method",
+        "description": "Reactant and solvent used in the synthesis"
+      },
+      {
+        "id": "Reaction yield (71%)",
+        "type": "Metric",
+        "description": "Highest yield achieved using CuFe2O4 catalyst after 60 mins"
+      },
+      {
+        "id": "Nanoparticle diameter (< 50 nm)",
+        "type": "Metric",
+        "description": "Size measurement of the CuFe2O4 particles"
+      },
+      {
+        "id": "Saturation magnetization (30 emu/g)",
+        "type": "Metric",
+        "description": "Magnetic property measurement of the nanoparticles"
+      },
+      {
+        "id": "Yield in the 5th run (69%)",
+        "type": "Metric",
+        "description": "Metric showing the stability and recyclability of the catalyst"
+      },
+      {
+        "id": "Reaction time (9 hours)",
+        "type": "Metric",
+        "description": "Duration required to produce reasonable yields"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Kim Chung",
+        "target": "Faculty of Chemical Engineering, HCMC University of Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Nhut Kien",
+        "target": "Faculty of Chemical Engineering, HCMC University of Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Huynh Giao",
+        "target": "Faculty of Chemical Engineering, HCMC University of Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Huynh Giao",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thanh Dung",
+        "target": "Faculty of Chemical Engineering, HCMC University of Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Thanh Son Nam",
+        "target": "Faculty of Chemical Engineering, HCMC University of Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "CuFe2O4 superparamagnetic nanoparticles",
+        "target": "Nanocatalysis",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "CuFe2O4 superparamagnetic nanoparticles",
+        "target": "Cross-dehydrogenative coupling",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "CuFe2O4 superparamagnetic nanoparticles",
+        "target": "Reaction yield (71%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CuFe2O4 superparamagnetic nanoparticles",
+        "target": "Nanoparticle diameter (< 50 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CuFe2O4 superparamagnetic nanoparticles",
+        "target": "Saturation magnetization (30 emu/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CuFe2O4 superparamagnetic nanoparticles",
+        "target": "Yield in the 5th run (69%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Magnetic separation",
+        "target": "Recyclability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "CuFe2O4 superparamagnetic nanoparticles",
+        "target": "Reaction time (9 hours)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

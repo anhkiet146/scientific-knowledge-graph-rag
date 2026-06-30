@@ -1,0 +1,210 @@
+{
+    "filename": "01-AV-PHAN VU HAI(1-6)018.json",
+    "paper_title": "The dietary supplement efficiency of essential oil of chive (Allium macrostemon) on the productivity and health performance of broilers",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Animal Science",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về chăn nuôi và sức khỏe động vật"
+            },
+            {
+                "id": "Phan Vu Hai",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu"
+            },
+            {
+                "id": "Ho Thi Dung",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu"
+            },
+            {
+                "id": "Tran Ngoc Liem",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu"
+            },
+            {
+                "id": "Nguyen Dinh Thuy Khuong",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu"
+            },
+            {
+                "id": "Pham Hoang Son Hung",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu"
+            },
+            {
+                "id": "Nguyen Xuan Hoa",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu"
+            },
+            {
+                "id": "College of Agriculture and Forestry, Hue University",
+                "type": "Institution",
+                "description": "Tổ chức học thuật tại Việt Nam"
+            },
+            {
+                "id": "Productivity and health performance of broilers",
+                "type": "Concept",
+                "description": "Năng suất và tình trạng sức khỏe của gà thịt"
+            },
+            {
+                "id": "Antibacterial activity",
+                "type": "Concept",
+                "description": "Khả năng kháng khuẩn của tinh dầu hẹ"
+            },
+            {
+                "id": "Growth promoter alternative",
+                "type": "Concept",
+                "description": "Thay thế chất kích thích tăng trưởng"
+            },
+            {
+                "id": "Chive essential oil (CEO)",
+                "type": "Method",
+                "description": "Tinh dầu hẹ (Allium macrostemon) dùng làm chất bổ sung"
+            },
+            {
+                "id": "Dietary supplementation",
+                "type": "Method",
+                "description": "Phương pháp bổ sung vào khẩu phần ăn"
+            },
+            {
+                "id": "Non-volatile solvent extraction",
+                "type": "Method",
+                "description": "Chiết xuất bằng dung môi không bay hơi"
+            },
+            {
+                "id": "Meizan gold vegetable oil",
+                "type": "Method",
+                "description": "Dầu thực vật sử dụng làm dung môi chiết xuất"
+            },
+            {
+                "id": "Ethanol (C2H5OH)",
+                "type": "Method",
+                "description": "Hóa chất dùng để tách tinh dầu hẹ"
+            },
+            {
+                "id": "Sodium sulfate (Na2SO4)",
+                "type": "Method",
+                "description": "Hóa chất dùng để làm khô tinh dầu"
+            },
+            {
+                "id": "IKA vacuum evaporator (RV10 Basic V)",
+                "type": "Method",
+                "description": "Thiết bị cô quay chân không"
+            },
+            {
+                "id": "ANOVA",
+                "type": "Method",
+                "description": "Phương pháp phân tích thống kê"
+            },
+            {
+                "id": "SPSS (version 26.0)",
+                "type": "Method",
+                "description": "Phần mềm phân tích dữ liệu"
+            },
+            {
+                "id": "Experimental production data",
+                "type": "Dataset",
+                "description": "Dữ liệu thu thập từ 120 con gà Ross 308 trong 42 ngày"
+            },
+            {
+                "id": "Extraction efficiency (2.03%)",
+                "type": "Metric",
+                "description": "Hiệu suất chiết xuất tinh dầu hẹ"
+            },
+            {
+                "id": "Initial broiler weight (33.21±0.12g)",
+                "type": "Metric",
+                "description": "Trọng lượng ban đầu của gà con"
+            },
+            {
+                "id": "PEI (296.15)",
+                "type": "Metric",
+                "description": "Chỉ số hiệu quả sản xuất của nhóm T2 (300 mg/kg)"
+            },
+            {
+                "id": "Syndrome reduction (>50%)",
+                "type": "Metric",
+                "description": "Tỷ lệ giảm các hội chứng hô hấp và tiêu chảy"
+            },
+            {
+                "id": "Mortality rate in control group (10%)",
+                "type": "Metric",
+                "description": "Tỷ lệ tử vong ở nhóm đối chứng"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Animal Science",
+                "target": "Productivity and health performance of broilers",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Phan Vu Hai",
+                "target": "College of Agriculture and Forestry, Hue University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Thi Dung",
+                "target": "College of Agriculture and Forestry, Hue University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Ngoc Liem",
+                "target": "College of Agriculture and Forestry, Hue University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Dinh Thuy Khuong",
+                "target": "College of Agriculture and Forestry, Hue University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Hoang Son Hung",
+                "target": "College of Agriculture and Forestry, Hue University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Xuan Hoa",
+                "target": "College of Agriculture and Forestry, Hue University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chive essential oil (CEO)",
+                "target": "Productivity and health performance of broilers",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Chive essential oil (CEO)",
+                "target": "Growth promoter alternative",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Non-volatile solvent extraction",
+                "target": "Extraction efficiency (2.03%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Dietary supplementation",
+                "target": "PEI (296.15)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Dietary supplementation",
+                "target": "Syndrome reduction (>50%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ANOVA",
+                "target": "Experimental production data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SPSS (version 26.0)",
+                "target": "Experimental production data",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

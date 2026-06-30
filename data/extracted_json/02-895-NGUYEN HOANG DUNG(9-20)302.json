@@ -1,0 +1,150 @@
+{
+    "filename": "02-895-NGUYEN HOANG DUNG(9-20)302.json",
+    "paper_title": "Development of the intelligent traffic light system based on image processing and fuzzy control techniques",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Intelligent Traffic Management",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về quản lý giao thông thông minh sử dụng công nghệ."
+            },
+            {
+                "id": "Traffic congestion",
+                "type": "Concept",
+                "description": "Vấn đề ùn tắc giao thông tại các giao lộ trong giờ cao điểm."
+            },
+            {
+                "id": "Vehicle density",
+                "type": "Concept",
+                "description": "Mật độ phương tiện giao thông được sử dụng để điều chỉnh thời gian đèn tín hiệu."
+            },
+            {
+                "id": "Hoang-Dung Nguyen",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Hoang-Dang Le",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Van Khanh Nguyen",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Hung-Minh Lam",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam."
+            },
+            {
+                "id": "YOLOv8",
+                "type": "Method",
+                "description": "Thuật toán nhận diện đối tượng thời gian thực dựa trên CNN."
+            },
+            {
+                "id": "Fuzzy logic model",
+                "type": "Method",
+                "description": "Mô hình logic mờ dùng để tính toán thời gian tín hiệu tối ưu."
+            },
+            {
+                "id": "PLC S7-1500",
+                "type": "Method",
+                "description": "Bộ điều khiển logic lập trình được sử dụng để điều khiển hệ thống đèn."
+            },
+            {
+                "id": "Skfuzzy",
+                "type": "Method",
+                "description": "Thư viện thuật toán logic mờ trong Python."
+            },
+            {
+                "id": "SCADA",
+                "type": "Method",
+                "description": "Hệ thống giám sát và thu thập dữ liệu để quản lý vận hành."
+            },
+            {
+                "id": "800 labeled traffic images",
+                "type": "Dataset",
+                "description": "Tập dữ liệu gồm hơn 800 hình ảnh giao thông được dán nhãn thủ công."
+            },
+            {
+                "id": "Accuracy (88%)",
+                "type": "Metric",
+                "description": "Độ chính xác trong việc phát hiện, đếm và phân loại phương tiện."
+            },
+            {
+                "id": "Standard deviation time (0.506s)",
+                "type": "Metric",
+                "description": "Độ lệch chuẩn của thời gian thay đổi tín hiệu."
+            },
+            {
+                "id": "Longest green light duration (98 ± 1s)",
+                "type": "Metric",
+                "description": "Thời gian đèn xanh dài nhất được thiết lập."
+            },
+            {
+                "id": "Shortest green light duration (19 ± 1s)",
+                "type": "Metric",
+                "description": "Thời gian đèn xanh ngắn nhất được thiết lập."
+            }
+        ],
+        "relations": [
+            {
+                "source": "YOLOv8",
+                "target": "Intelligent Traffic Management",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "YOLOv8",
+                "target": "Accuracy (88%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "YOLOv8",
+                "target": "800 labeled traffic images",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "YOLOv8",
+                "target": "Vehicle density",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fuzzy logic model",
+                "target": "Traffic congestion",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PLC S7-1500",
+                "target": "Standard deviation time (0.506s)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hoang-Dung Nguyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang-Dang Le",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Van Khanh Nguyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hung-Minh Lam",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

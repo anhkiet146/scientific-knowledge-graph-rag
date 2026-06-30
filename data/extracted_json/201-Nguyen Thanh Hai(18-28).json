@@ -1,0 +1,215 @@
+{
+    "filename": "201-Nguyen Thanh Hai(18-28).json",
+    "paper_title": "MODIFIED CONTROLS FOR DOUBLY FED INDUCTION GENERATOR UNDER UNBALANCED VOLTAGE FOR TORQUE STABILITY CONTROLLER",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "The main research field of the study as indicated by the journal name."
+            },
+            {
+                "id": "Nguyen Thanh Hai",
+                "type": "Author",
+                "description": "Primary author affiliated with multiple institutions."
+            },
+            {
+                "id": "Phan Quoc Dzung",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Vo Viet Cuong",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology and Education",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Le Hong Phong High School for the Gifted",
+                "type": "Institution",
+                "description": "Educational institution in Ho Chi Minh City."
+            },
+            {
+                "id": "Torque Stability",
+                "type": "Concept",
+                "description": "The ability of the generator to maintain constant electromagnetic torque."
+            },
+            {
+                "id": "Grid Voltage Unbalance",
+                "type": "Concept",
+                "description": "A condition where the three-phase voltages of the grid are not equal in magnitude or phase."
+            },
+            {
+                "id": "Active and Reactive Power Control",
+                "type": "Concept",
+                "description": "The regulation of electrical power delivered to the grid."
+            },
+            {
+                "id": "Stator Flux Oriented Control (SFOC)",
+                "type": "Method",
+                "description": "A control strategy for DFIG systems."
+            },
+            {
+                "id": "Pulse Width Modulation (PWM)",
+                "type": "Method",
+                "description": "A technique used for controlling power converters."
+            },
+            {
+                "id": "Hysteresis Current Controller (HCC)",
+                "type": "Method",
+                "description": "A current control method for power electronics."
+            },
+            {
+                "id": "Torque Stability Controller (TSC)",
+                "type": "Method",
+                "description": "A specific controller designed to eliminate negative sequence components."
+            },
+            {
+                "id": "PI controller with Fuzzy logic (PI-F)",
+                "type": "Method",
+                "description": "A hybrid controller combining Proportional-Integral and Fuzzy logic rules."
+            },
+            {
+                "id": "Notch filters",
+                "type": "Method",
+                "description": "Filters used to eliminate second-order harmonic components."
+            },
+            {
+                "id": "Matlab/Simulink",
+                "type": "Method",
+                "description": "Software used for simulation and modeling."
+            },
+            {
+                "id": "Simulation statistics (Tables 2, 3, 4)",
+                "type": "Dataset",
+                "description": "Numerical data generated from simulations comparing PWM and HCC schemes."
+            },
+            {
+                "id": "Stator current THD (2.7% for PWM)",
+                "type": "Metric",
+                "description": "Total Harmonic Distortion of stator current for the PWM method."
+            },
+            {
+                "id": "Stator current THD (5.3% for HCC)",
+                "type": "Metric",
+                "description": "Total Harmonic Distortion of stator current for the HCC method."
+            },
+            {
+                "id": "Rotor current THD (6.2% for PWM)",
+                "type": "Metric",
+                "description": "Total Harmonic Distortion of rotor current for the PWM method."
+            },
+            {
+                "id": "Rotor current THD (10.9% for HCC)",
+                "type": "Metric",
+                "description": "Total Harmonic Distortion of rotor current for the HCC method."
+            },
+            {
+                "id": "Active power deviation (within 1%)",
+                "type": "Metric",
+                "description": "The measured variance in active power during voltage unbalance."
+            },
+            {
+                "id": "Reactive power deviation (+/-1.5%)",
+                "type": "Metric",
+                "description": "The measured variance in reactive power using TSC with PI-F (HCC)."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Torque Stability",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thanh Hai",
+                "target": "Ho Chi Minh City University of Technology and Education",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Hai",
+                "target": "Le Hong Phong High School for the Gifted",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Quoc Dzung",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Viet Cuong",
+                "target": "Ho Chi Minh City University of Technology and Education",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "SFOC",
+                "target": "Torque Stability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "TSC",
+                "target": "Torque Stability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PI-F",
+                "target": "Grid Voltage Unbalance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Notch filters",
+                "target": "Grid Voltage Unbalance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PWM",
+                "target": "Simulation statistics (Tables 2, 3, 4)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "HCC",
+                "target": "Simulation statistics (Tables 2, 3, 4)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "PWM",
+                "target": "Stator current THD (2.7% for PWM)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HCC",
+                "target": "Stator current THD (5.3% for HCC)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PWM",
+                "target": "Rotor current THD (6.2% for PWM)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HCC",
+                "target": "Rotor current THD (10.9% for HCC)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HCC",
+                "target": "Active power deviation (within 1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HCC",
+                "target": "Reactive power deviation (+/-1.5%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "03-AV-TRUONG THANH TRUNG(13-19).json",
+  "paper_title": "EFFECTS OF DIETARY CRUDE PROTEIN LEVELS ON GROWTH RATE, MEAT PRODUCTION, DIGESTIBLE NUTRIENTS AND ECONOMIC RETURN OF CALIFORNIAN RABBITS (Oryctolagus cuniculus) IN MEKONG DELTA OF VIETNAM",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Growth rate",
+        "type": "Concept",
+        "description": "The rate at which the rabbits increase in body weight over the experimental period."
+      },
+      {
+        "id": "Nutrient Digestibility",
+        "type": "Concept",
+        "description": "The extent to which nutrients from the diet are absorbed by the rabbits."
+      },
+      {
+        "id": "Economic Return",
+        "type": "Concept",
+        "description": "The profitability analysis of the different dietary protein treatments."
+      },
+      {
+        "id": "Meat Production",
+        "type": "Concept",
+        "description": "The physical output of carcass and meat quality from the rabbits."
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "Experimental design involving 5 treatments and 3 replications used to arrange the rabbits."
+      },
+      {
+        "id": "Dietary Protein Treatments (CP15-CP23)",
+        "type": "Method",
+        "description": "Experimental diets with crude protein levels of 15, 17, 19, 21, and 23%."
+      },
+      {
+        "id": "Soybean extraction meal",
+        "type": "Method",
+        "description": "A crude protein supplement feed material used in the diets."
+      },
+      {
+        "id": "Kjeldahl methods",
+        "type": "Method",
+        "description": "Chemical analysis method used for determining total nitrogen."
+      },
+      {
+        "id": "Minitab Software version 16.2",
+        "type": "Method",
+        "description": "Statistical software used for analyzing experimental data via analysis of variance."
+      },
+      {
+        "id": "Daily weight gain (18.0, 20.2, 22.4, 23.3 and 23.2 g/rabbit/day)",
+        "type": "Metric",
+        "description": "The measured weight gain per day across the five treatment levels."
+      },
+      {
+        "id": "Correlation coefficient (R2 = 0.97-0.99)",
+        "type": "Metric",
+        "description": "The linear relationship value between CP intake and daily weight gain."
+      },
+      {
+        "id": "Protein levels (15, 17, 19, 21 and 23%)",
+        "type": "Metric",
+        "description": "The specific crude protein percentages evaluated in the study."
+      },
+      {
+        "id": "Animal Science",
+        "type": "Domain",
+        "description": "The primary research field involving livestock production and nutrition."
+      },
+      {
+        "id": "Truong Thanh Trung",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Kim Dong",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "The academic institution in Vietnam where the authors are affiliated."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Animal Science",
+        "target": "Growth rate",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dietary Protein Treatments (CP15-CP23)",
+        "target": "Daily weight gain (18.0, 20.2, 22.4, 23.3 and 23.2 g/rabbit/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Minitab Software version 16.2",
+        "target": "Correlation coefficient (R2 = 0.97-0.99)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dietary Protein Treatments (CP15-CP23)",
+        "target": "Growth rate",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Completely randomized design",
+        "target": "Meat Production",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Truong Thanh Trung",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Kim Dong",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

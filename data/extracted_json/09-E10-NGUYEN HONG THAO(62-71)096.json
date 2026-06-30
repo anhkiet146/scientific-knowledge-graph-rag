@@ -1,0 +1,155 @@
+{
+    "filename": "09-E10-NGUYEN HONG THAO(62-71)096.json",
+    "paper_title": "Establishing an integrated model for supporting agricultural land use planning: A case study in Tran De district, Soc Trang province",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Establishing an integrated model for supporting agricultural land use planning: A case study in Tran De district, Soc Trang province",
+                "type": "Concept",
+                "description": "The title of the research paper"
+            },
+            {
+                "id": "Agricultural land use planning",
+                "type": "Domain",
+                "description": "Main research field of the paper"
+            },
+            {
+                "id": "Nguyen Hong Thao",
+                "type": "Author",
+                "description": "Author of the research article"
+            },
+            {
+                "id": "Nguyen Hieu Trung",
+                "type": "Author",
+                "description": "Author of the research article"
+            },
+            {
+                "id": "Can Tho Technical Economic College",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam"
+            },
+            {
+                "id": "College of Environment and Natural Resources, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam"
+            },
+            {
+                "id": "ST-IALUP model",
+                "type": "Method",
+                "description": "Integrated model between LandOptimizer and ST-LUAM for multi-objective optimization"
+            },
+            {
+                "id": "LandOptimizer",
+                "type": "Method",
+                "description": "Open source application based on LpSolve for solving optimization problems"
+            },
+            {
+                "id": "ST-LUAM model",
+                "type": "Method",
+                "description": "Model used for spatial distribution and allocation of land use"
+            },
+            {
+                "id": "LpSolve",
+                "type": "Method",
+                "description": "Open source code used for optimization"
+            },
+            {
+                "id": "Individual interviews",
+                "type": "Method",
+                "description": "Data collection method involving local farmers"
+            },
+            {
+                "id": "Multi-objective optimization",
+                "type": "Concept",
+                "description": "Mathematical problem-solving technique for multiple conflicting objectives"
+            },
+            {
+                "id": "Sustainable development",
+                "type": "Concept",
+                "description": "Goal of optimizing agricultural land use"
+            },
+            {
+                "id": "Input database from household interviews",
+                "type": "Dataset",
+                "description": "Digital data collected from 30 interview cards per LUT"
+            },
+            {
+                "id": "Agricultural land percentage (87.8%)",
+                "type": "Metric",
+                "description": "Proportion of agricultural land in Tran De district"
+            },
+            {
+                "id": "Total natural area (37,798 ha)",
+                "type": "Metric",
+                "description": "Total area of the study location"
+            },
+            {
+                "id": "Salinity (2-12 ‰)",
+                "type": "Metric",
+                "description": "Measurement of water salinity in the area"
+            },
+            {
+                "id": "Profit for SC 1 and SC 3 (2,113 billion VND)",
+                "type": "Metric",
+                "description": "Highest profit achieved in optimization scenarios"
+            },
+            {
+                "id": "Total labor supply (25,125,600 working days per year)",
+                "type": "Metric",
+                "description": "Measure of available labor resources in the district"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Establishing an integrated model for supporting agricultural land use planning: A case study in Tran De district, Soc Trang province",
+                "target": "Agricultural land use planning",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Hong Thao",
+                "target": "Can Tho Technical Economic College",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hong Thao",
+                "target": "College of Environment and Natural Resources, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hieu Trung",
+                "target": "College of Environment and Natural Resources, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "ST-IALUP model",
+                "target": "Multi-objective optimization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ST-IALUP model",
+                "target": "Agricultural land use planning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ST-IALUP model",
+                "target": "Input database from household interviews",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "ST-IALUP model",
+                "target": "Profit for SC 1 and SC 3 (2,113 billion VND)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "LandOptimizer",
+                "target": "LpSolve",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "LandOptimizer",
+                "target": "Agricultural land percentage (87.8%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

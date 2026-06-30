@@ -1,0 +1,175 @@
+{
+    "filename": "08-AV-TRAN NGOC BICH(56-62)027.json",
+    "paper_title": "Molecular characterization of infectious bronchitis virus (IBV) isolated from commercial chicken farms",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Virology",
+                "type": "Domain",
+                "description": "The study of viruses and virus-like agents."
+            },
+            {
+                "id": "Molecular characterization of infectious bronchitis virus (IBV)",
+                "type": "Concept",
+                "description": "The research focus on identifying genetic traits of the IBV virus."
+            },
+            {
+                "id": "Genotype classification",
+                "type": "Concept",
+                "description": "Categorizing IBV isolates into specific genetic groups like 793/B or QX-like."
+            },
+            {
+                "id": "Infectious bronchitis (IB)",
+                "type": "Concept",
+                "description": "A highly infectious respiratory disease in commercial chickens."
+            },
+            {
+                "id": "RT-PCR",
+                "type": "Method",
+                "description": "Reverse transcription-polymerase chain reaction used to amplify RNA."
+            },
+            {
+                "id": "Sanger sequencing",
+                "type": "Method",
+                "description": "A method of DNA sequencing based on the selective incorporation of chain-terminating dideoxynucleotides."
+            },
+            {
+                "id": "Phylogenetic analysis",
+                "type": "Method",
+                "description": "Study of evolutionary relationships among biological entities."
+            },
+            {
+                "id": "Inoculation in 9 day-old embryonated SPF eggs",
+                "type": "Method",
+                "description": "Method for virus isolation using specific pathogen-free eggs."
+            },
+            {
+                "id": "Trizol ® Reagent",
+                "type": "Method",
+                "description": "Chemical used for viral RNA extraction."
+            },
+            {
+                "id": "GenBank NCBI",
+                "type": "Dataset",
+                "description": "Digital database of genetic sequences used for comparison."
+            },
+            {
+                "id": "Similarity with IBV genotype 793/B (> 99%)",
+                "type": "Metric",
+                "description": "Genetic identity score for Group 1 isolates."
+            },
+            {
+                "id": "Similarity with genotype QX-like (98%)",
+                "type": "Metric",
+                "description": "Genetic identity score for Group 2 isolate."
+            },
+            {
+                "id": "Genetic distance (8% to 10%)",
+                "type": "Metric",
+                "description": "Divergence between Group 3 and other reported genotypes."
+            },
+            {
+                "id": "Expected band size (464 bp)",
+                "type": "Metric",
+                "description": "The size of the amplified partial S1 gene fragment on agarose gel."
+            },
+            {
+                "id": "Tran Ngoc Bich",
+                "type": "Author",
+                "description": "Lead author of the study."
+            },
+            {
+                "id": "Nguyen Phuc Khanh",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Pham Hoang Dung",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Nguyen Thi Cam Loan",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Universiti Putra Malaysia",
+                "type": "Institution",
+                "description": "Academic institution in Malaysia."
+            },
+            {
+                "id": "Vinh Long Community College",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Molecular characterization of infectious bronchitis virus (IBV) isolated from commercial chicken farms",
+                "target": "Virology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "RT-PCR",
+                "target": "Molecular characterization of infectious bronchitis virus (IBV)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Sanger sequencing",
+                "target": "Genotype classification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Phylogenetic analysis",
+                "target": "GenBank NCBI",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "RT-PCR",
+                "target": "Expected band size (464 bp)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Sanger sequencing",
+                "target": "Similarity with IBV genotype 793/B (> 99%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Sanger sequencing",
+                "target": "Similarity with genotype QX-like (98%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Tran Ngoc Bich",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Phuc Khanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Phuc Khanh",
+                "target": "Universiti Putra Malaysia",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Hoang Dung",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Cam Loan",
+                "target": "Vinh Long Community College",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

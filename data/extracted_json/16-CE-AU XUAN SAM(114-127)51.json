@@ -1,0 +1,140 @@
+{
+    "filename": "16-CE-AU XUAN SAM(114-127)51.json",
+    "paper_title": "CULTURAL APPROACH: A POTENTIAL PEDAGOGY FOR PROMOTING LEARNERS' INSIGHTS INTO CULTURAL ASPECTS IN LITERARY WORKS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Cultural Approach",
+                "type": "Method",
+                "description": "A pedagogy for promoting learners' insights into cultural aspects in literary works."
+            },
+            {
+                "id": "New Historicism",
+                "type": "Method",
+                "description": "A literary theory and critical approach that considers literature as a product of its historical context."
+            },
+            {
+                "id": "Descriptive research",
+                "type": "Method",
+                "description": "The research design used to analyze authors' viewpoints and literary works."
+            },
+            {
+                "id": "Uncle Tom’s Cabin (1853)",
+                "type": "Method",
+                "description": "A literary work by Harriet Beecher Stowe used as experimental material for analysis."
+            },
+            {
+                "id": "A Rose for Emily (1930)",
+                "type": "Method",
+                "description": "A literary work by William Faulkner used as experimental material for analysis."
+            },
+            {
+                "id": "The Awakening (1921)",
+                "type": "Method",
+                "description": "A literary work by Kate Chopin used as experimental material for analysis."
+            },
+            {
+                "id": "Relationship between culture and literature",
+                "type": "Concept",
+                "description": "The study of how literature is culture-bound and reflects societal values."
+            },
+            {
+                "id": "Learners' insights into cultural aspects",
+                "type": "Concept",
+                "description": "The target learning outcome of using a cultural approach in pedagogy."
+            },
+            {
+                "id": "Creole culture",
+                "type": "Concept",
+                "description": "Specific cultural context analyzed within The Awakening."
+            },
+            {
+                "id": "Language Education",
+                "type": "Domain",
+                "description": "The main field of study involving teaching methods for literature and culture."
+            },
+            {
+                "id": "Au Xuan Sam",
+                "type": "Author",
+                "description": "Researcher from Can Tho University of Medicine-Pharmacy."
+            },
+            {
+                "id": "Truong Thi Kim Lien",
+                "type": "Author",
+                "description": "Researcher from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Thai Cong Dan",
+                "type": "Author",
+                "description": "Researcher from the School of Social Sciences & Humanities, Can Tho University."
+            },
+            {
+                "id": "Basic Sciences Faculty, Can Tho University of Medicine-Pharmacy",
+                "type": "Institution",
+                "description": "The institutional affiliation of Au Xuan Sam."
+            },
+            {
+                "id": "Department of English Language & Cultures, School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "The institutional affiliation of Truong Thi Kim Lien."
+            },
+            {
+                "id": "School of Social Sciences & Humanities, Can Tho University",
+                "type": "Institution",
+                "description": "The institutional affiliation of Thai Cong Dan."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Cultural Approach",
+                "target": "Language Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Cultural Approach",
+                "target": "Learners' insights into cultural aspects",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "New Historicism",
+                "target": "Learners' insights into cultural aspects",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Descriptive research",
+                "target": "Relationship between culture and literature",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Au Xuan Sam",
+                "target": "Basic Sciences Faculty, Can Tho University of Medicine-Pharmacy",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Thi Kim Lien",
+                "target": "Department of English Language & Cultures, School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Thai Cong Dan",
+                "target": "School of Social Sciences & Humanities, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Uncle Tom’s Cabin (1853)",
+                "target": "Relationship between culture and literature",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "A Rose for Emily (1930)",
+                "target": "Relationship between culture and literature",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "The Awakening (1921)",
+                "target": "Relationship between culture and literature",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,190 @@
+{
+  "filename": "02-BT-HUYNH THANH DUY(8-15)002.json",
+  "paper_title": "Determination of total polyphenol, saponin contents, antioxidant and antibacterial activities of Melastoma malabathricum leaves by liquid-liquid extraction",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Biotechnology",
+        "type": "Domain",
+        "description": "The primary field of research concerning biological systems and products."
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "The ability of compounds to inhibit oxidation and scavenge free radicals."
+      },
+      {
+        "id": "Antibacterial activity",
+        "type": "Concept",
+        "description": "The ability of substances to inhibit the growth or destroy bacteria."
+      },
+      {
+        "id": "Total polyphenol content",
+        "type": "Concept",
+        "description": "The measurement of phenolic compounds in plant extracts."
+      },
+      {
+        "id": "Total saponin content",
+        "type": "Concept",
+        "description": "The measurement of saponin glycosides in plant extracts."
+      },
+      {
+        "id": "Huynh Thanh Duy",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Van Thanh",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Le Nhu Thuy",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Trieu Nhat Uyen",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Duc Do",
+        "type": "Author",
+        "description": "Corresponding author at Can Tho University."
+      },
+      {
+        "id": "Biotechnology Research and Development Institute",
+        "type": "Institution",
+        "description": "A research institute within Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "A major university in Vietnam."
+      },
+      {
+        "id": "Liquid-liquid extraction",
+        "type": "Method",
+        "description": "A method to separate compounds based on their relative solubilities in two different immiscible liquids."
+      },
+      {
+        "id": "Folin-Ciocalteu assay",
+        "type": "Method",
+        "description": "A colorimetric assay used for the determination of total polyphenol content."
+      },
+      {
+        "id": "Vanillin/H2SO4 method",
+        "type": "Method",
+        "description": "A chemical method used to determine total saponin content."
+      },
+      {
+        "id": "DPPH free radical scavenging activity assay",
+        "type": "Method",
+        "description": "An antioxidant assay based on the scavenging of DPPH free radicals."
+      },
+      {
+        "id": "Agar wells diffusion method",
+        "type": "Method",
+        "description": "A method used to test the antibacterial activity of extracts."
+      },
+      {
+        "id": "TPC of CE (430 mg GAE/g extract)",
+        "type": "Metric",
+        "description": "The highest total polyphenol content found in the crude extract."
+      },
+      {
+        "id": "TSC of F1 (95.2 mg/g extract)",
+        "type": "Metric",
+        "description": "The highest total saponin content found in the n-hexane fraction."
+      },
+      {
+        "id": "IC50 DPPH F4 (1.61 μg/mL)",
+        "type": "Metric",
+        "description": "The concentration of methanol fraction required to scavenge 50% of DPPH radicals."
+      },
+      {
+        "id": "IC50 H2O2 F3 (33.5 μg/mL)",
+        "type": "Metric",
+        "description": "The concentration of ethyl acetate fraction required for 50% hydrogen peroxide scavenging."
+      },
+      {
+        "id": "Antibacterial concentration (100 mg/mL)",
+        "type": "Metric",
+        "description": "The concentration used for testing extracts against bacteria."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Liquid-liquid extraction",
+        "target": "Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Huynh Thanh Duy",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Thanh",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Nhu Thuy",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trieu Nhat Uyen",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Duc Do",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Biotechnology Research and Development Institute",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Folin-Ciocalteu assay",
+        "target": "TPC of CE (430 mg GAE/g extract)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vanillin/H2SO4 method",
+        "target": "TSC of F1 (95.2 mg/g extract)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "DPPH free radical scavenging activity assay",
+        "target": "IC50 DPPH F4 (1.61 μg/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agar wells diffusion method",
+        "target": "Antibacterial concentration (100 mg/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Liquid-liquid extraction",
+        "target": "Antioxidant activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Liquid-liquid extraction",
+        "target": "Antibacterial activity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Folin-Ciocalteu assay",
+        "target": "Total polyphenol content",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

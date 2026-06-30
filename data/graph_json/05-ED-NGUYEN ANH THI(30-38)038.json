@@ -1,0 +1,165 @@
+{
+  "filename": "05-ED-NGUYEN ANH THI(30-38)038.json",
+  "paper_title": "Vietnamese EFL pre-service teachers' perceptions of the quality of a training course on English Language Teacher Education",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thu Anh",
+        "type": "Author",
+        "description": "Author from School of Foreign Languages, Can Tho University"
+      },
+      {
+        "id": "Nguyen Thi Ngoc Lien",
+        "type": "Author",
+        "description": "Author from Department of Administration and Planning, Can Tho University"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Higher education institution in Viet Nam"
+      },
+      {
+        "id": "English Language Teacher Education",
+        "type": "Domain",
+        "description": "The field of training and educating English language teachers"
+      },
+      {
+        "id": "Perceptions of training course quality",
+        "type": "Concept",
+        "description": "The viewpoints of students regarding the educational quality of a training program"
+      },
+      {
+        "id": "Student satisfaction",
+        "type": "Concept",
+        "description": "The degree of a person's sensory state based on comparing results with prior expectations"
+      },
+      {
+        "id": "Semi-structured individual interviews",
+        "type": "Method",
+        "description": "Qualitative data collection tool using a series of questions"
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "Instrument consisting of Likert-type items and open questions"
+      },
+      {
+        "id": "Cronbach's Alpha analysis",
+        "type": "Method",
+        "description": "Statistical procedure used to check the reliability of the instrument"
+      },
+      {
+        "id": "SPSS program Version 20.0",
+        "type": "Method",
+        "description": "Software used for quantitative data analysis"
+      },
+      {
+        "id": "Multidimensional ALSCAL analysis",
+        "type": "Method",
+        "description": "A test run to identify variances in pre-service teachers' responses"
+      },
+      {
+        "id": "Pearson product-moment correlation coefficients",
+        "type": "Method",
+        "description": "Correlation analysis between dimension values and questionnaire items"
+      },
+      {
+        "id": "Survey data from 39 EFL pre-service teachers",
+        "type": "Dataset",
+        "description": "Digital response data collected from 39 participants"
+      },
+      {
+        "id": "Cronbach's Alpha (0.843)",
+        "type": "Metric",
+        "description": "Reliability coefficient for the pilot questionnaire"
+      },
+      {
+        "id": "Response rate (22.67%)",
+        "type": "Metric",
+        "description": "The percentage of questionnaires returned and usable"
+      },
+      {
+        "id": "Satisfaction with curriculum (M = 3.37)",
+        "type": "Metric",
+        "description": "Mean score representing high satisfaction with the syllabus"
+      },
+      {
+        "id": "Satisfaction with teaching methods (M = 3.36)",
+        "type": "Metric",
+        "description": "Mean score for student teachers' view on educators' methods"
+      },
+      {
+        "id": "Satisfaction with services (M = 3.33)",
+        "type": "Metric",
+        "description": "Mean score for university facilities and support services"
+      },
+      {
+        "id": "RSQ value (0.71)",
+        "type": "Metric",
+        "description": "Squared correlation value from the ALSCAL analysis"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Vietnamese EFL pre-service teachers' perceptions of the quality of a training course on English Language Teacher Education",
+        "target": "English Language Teacher Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thu Anh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Ngoc Lien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Semi-structured individual interviews",
+        "target": "Perceptions of training course quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Student satisfaction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Cronbach's Alpha analysis",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Cronbach's Alpha analysis",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Multidimensional ALSCAL analysis",
+        "target": "RSQ value (0.71)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Satisfaction with curriculum (M = 3.37)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Satisfaction with teaching methods (M = 3.36)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Satisfaction with services (M = 3.33)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Survey data from 39 EFL pre-service teachers",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

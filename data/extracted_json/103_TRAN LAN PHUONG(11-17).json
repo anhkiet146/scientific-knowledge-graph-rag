@@ -1,0 +1,165 @@
+{
+    "filename": "103_TRAN LAN PHUONG(11-17).json",
+    "paper_title": "POTENTIAL OF USING ACTIVATED SLUDGE AS FEEDSTOCK FOR BIODIESEL PRODUCTION IN TAIWAN",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Biodiesel production",
+                "type": "Concept",
+                "description": "The process of producing renewable fuel from organic feedstocks."
+            },
+            {
+                "id": "Activated sludge",
+                "type": "Concept",
+                "description": "Waste material from wastewater treatment used as a potential feedstock for biodiesel."
+            },
+            {
+                "id": "Economic feasibility",
+                "type": "Concept",
+                "description": "The assessment of whether biodiesel production from sludge is cost-competitive."
+            },
+            {
+                "id": "Subcritical water treatment",
+                "type": "Method",
+                "description": "A process using water at subcritical states to enhance lipid extraction from biomass."
+            },
+            {
+                "id": "Gas chromatography",
+                "type": "Method",
+                "description": "Analytical technique used to determine fatty acid profiles."
+            },
+            {
+                "id": "Solvent extraction",
+                "type": "Method",
+                "description": "Using n-hexane to extract crude lipids from pretreated samples."
+            },
+            {
+                "id": "Methanol",
+                "type": "Method",
+                "description": "Chemical reactant used for esterification and transesterification."
+            },
+            {
+                "id": "n-hexane",
+                "type": "Method",
+                "description": "Solvent used for extracting lipids from sludge samples."
+            },
+            {
+                "id": "FAME standard mixture (47885-U)",
+                "type": "Dataset",
+                "description": "A standard numerical data reference for 37 components of fatty acid methyl esters."
+            },
+            {
+                "id": "2012 Taiwan sludge declaration data",
+                "type": "Dataset",
+                "description": "Statistical records of annual activated sludge production in Taiwan."
+            },
+            {
+                "id": "Neutral lipids increase (2 to 3.5 times)",
+                "type": "Metric",
+                "description": "The factor of increase in extractable neutral lipids after SCW treatment."
+            },
+            {
+                "id": "FAME yield (90%)",
+                "type": "Metric",
+                "description": "The percentage yield of fatty acid methyl esters achieved at 300°C."
+            },
+            {
+                "id": "FAME conversion (81%)",
+                "type": "Metric",
+                "description": "Conversion rate of neutral lipids to FAME in subcritical conditions."
+            },
+            {
+                "id": "Biodiesel cost ($3.23 per gallon)",
+                "type": "Metric",
+                "description": "The estimated production cost of biodiesel from sludge."
+            },
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "The main research field focusing on sustainable energy sources."
+            },
+            {
+                "id": "Phuong Lan Tran-Nguyen",
+                "type": "Author",
+                "description": "Researcher from the Department of Mechanical Engineering, Can Tho University."
+            },
+            {
+                "id": "Meng-Jiy Wang",
+                "type": "Author",
+                "description": "Researcher from the Department of Chemical Engineering, NTUST."
+            },
+            {
+                "id": "Jhy-Chern Liu",
+                "type": "Author",
+                "description": "Researcher from the Department of Chemical Engineering, NTUST."
+            },
+            {
+                "id": "Yi-Hsu Ju",
+                "type": "Author",
+                "description": "Researcher from the Department of Chemical Engineering, NTUST."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "National Taiwan University of Science and Technology",
+                "type": "Institution",
+                "description": "Academic institution in Taiwan, also known as NTUST."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Potential of using activated sludge as feedstock for biodiesel production in Taiwan",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Phuong Lan Tran-Nguyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Meng-Jiy Wang",
+                "target": "National Taiwan University of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Jhy-Chern Liu",
+                "target": "National Taiwan University of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Yi-Hsu Ju",
+                "target": "National Taiwan University of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Subcritical water treatment",
+                "target": "Neutral lipids increase (2 to 3.5 times)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Subcritical water treatment",
+                "target": "Biodiesel production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Subcritical water treatment",
+                "target": "FAME conversion (81%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Methanol",
+                "target": "Biodiesel production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Gas chromatography",
+                "target": "FAME standard mixture (47885-U)",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

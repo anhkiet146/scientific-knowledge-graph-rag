@@ -1,0 +1,215 @@
+{
+  "filename": "CE-NGAN COLLINS(109-117)056.json",
+  "paper_title": "Environmental and human resource development issues in Vietnam: The case study of the Mekong Delta",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Environmental Science",
+        "type": "Domain",
+        "description": "The study of the environment and solutions to environmental problems."
+      },
+      {
+        "id": "Human Resource Development",
+        "type": "Domain",
+        "description": "The framework for helping employees develop their personal and organizational skills, knowledge, and abilities."
+      },
+      {
+        "id": "Ngan Collins",
+        "type": "Author",
+        "description": "Researcher from RMIT University."
+      },
+      {
+        "id": "Nguyen Hong Tin",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Sandra Jones",
+        "type": "Author",
+        "description": "Researcher from RMIT University."
+      },
+      {
+        "id": "Pauline Stanton",
+        "type": "Author",
+        "description": "Researcher from RMIT University."
+      },
+      {
+        "id": "School of Management, RMIT University, Australia",
+        "type": "Institution",
+        "description": "Academic institution in Australia."
+      },
+      {
+        "id": "Mekong Delta Development Research Institute, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Research institute in Vietnam."
+      },
+      {
+        "id": "Climate change",
+        "type": "Concept",
+        "description": "Long-term shifts in temperatures and weather patterns."
+      },
+      {
+        "id": "Internal Migration",
+        "type": "Concept",
+        "description": "Movement of people from one area to another within the same country."
+      },
+      {
+        "id": "Sea Level Rise",
+        "type": "Concept",
+        "description": "An increase in the level of the world's oceans due to the effects of global warming."
+      },
+      {
+        "id": "Skill Development",
+        "type": "Concept",
+        "description": "The process of identifying skill gaps and developing these skills."
+      },
+      {
+        "id": "Secondary data analysis",
+        "type": "Method",
+        "description": "Analysis of data that was collected by someone else for another primary purpose."
+      },
+      {
+        "id": "Interdisciplinary approach",
+        "type": "Method",
+        "description": "A method that combines two or more academic disciplines into one activity."
+      },
+      {
+        "id": "Conceptual research framework",
+        "type": "Method",
+        "description": "A structure that the researcher believes can best explain the natural progression of the phenomenon to be studied."
+      },
+      {
+        "id": "Survey",
+        "type": "Method",
+        "description": "Research method used for collecting data from a predefined group of respondents."
+      },
+      {
+        "id": "2009 Population and Housing Census",
+        "type": "Dataset",
+        "description": "Statistical data regarding the population and housing in Vietnam in 2009."
+      },
+      {
+        "id": "2011 Vietnam labour force supply report",
+        "type": "Dataset",
+        "description": "Statistical report on the labor force in Vietnam."
+      },
+      {
+        "id": "Submerged area of Mekong Delta (38%)",
+        "type": "Metric",
+        "description": "Predicted portion of the delta underwater if sea level rises by 1m."
+      },
+      {
+        "id": "Agriculture land flooded (90%)",
+        "type": "Metric",
+        "description": "Percentage of agricultural land affected by flooding."
+      },
+      {
+        "id": "Saline water intrusion increase (70%)",
+        "type": "Metric",
+        "description": "Projected increase in saltwater entering freshwater areas."
+      },
+      {
+        "id": "Average sea level rise (28-33 cm by 2050)",
+        "type": "Metric",
+        "description": "Predicted increase in sea level in Vietnam."
+      },
+      {
+        "id": "Population under 15 (32%)",
+        "type": "Metric",
+        "description": "Percentage of the Mekong Delta population under 15 years old."
+      },
+      {
+        "id": "Potential rice yield decline (50% by 2100)",
+        "type": "Metric",
+        "description": "Predicted reduction in rice production due to climate shifts."
+      },
+      {
+        "id": "Internal migrants in Vietnam (6.6 million)",
+        "type": "Metric",
+        "description": "Total count of internal migrants recorded in the 2009 census."
+      },
+      {
+        "id": "Unemployment rate increase in clusters (5.6%)",
+        "type": "Metric",
+        "description": "Rise in unemployment following resettlement."
+      },
+      {
+        "id": "Migrants lacking professional training (76%)",
+        "type": "Metric",
+        "description": "Percentage of migrants in Hanoi and HCMC without professional skills."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Environmental and human resource development issues in Vietnam: The case study of the Mekong Delta",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Environmental and human resource development issues in Vietnam: The case study of the Mekong Delta",
+        "target": "Human Resource Development",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ngan Collins",
+        "target": "School of Management, RMIT University, Australia",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Sandra Jones",
+        "target": "School of Management, RMIT University, Australia",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pauline Stanton",
+        "target": "School of Management, RMIT University, Australia",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hong Tin",
+        "target": "Mekong Delta Development Research Institute, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Secondary data analysis",
+        "target": "Climate change",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Secondary data analysis",
+        "target": "Internal Migration",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Conceptual research framework",
+        "target": "Human Resource Development (HRD)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Survey",
+        "target": "Internal Migration",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Secondary data analysis",
+        "target": "2009 Population and Housing Census",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Secondary data analysis",
+        "target": "Submerged area of Mekong Delta (38%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Secondary data analysis",
+        "target": "Internal migrants in Vietnam (6.6 million)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Survey",
+        "target": "Unemployment rate increase in clusters (5.6%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+    "filename": "03-1133-MAI LE BICH TUYEN(17-24)318.json",
+    "paper_title": "Product recommendation for online sales systems based on transaction sessions",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Information Technology",
+                "type": "Domain",
+                "description": "The general field of research involving the study and application of systems for storing and retrieving information."
+            },
+            {
+                "id": "E-commerce",
+                "type": "Domain",
+                "description": "The specific field of online sales and digital business transactions."
+            },
+            {
+                "id": "Mai Le Bich Tuyen",
+                "type": "Author",
+                "description": "First author of the paper."
+            },
+            {
+                "id": "Nguyen Thanh Hai",
+                "type": "Author",
+                "description": "Second author of the paper."
+            },
+            {
+                "id": "Tran Thanh Dien",
+                "type": "Author",
+                "description": "Third and corresponding author of the paper."
+            },
+            {
+                "id": "FPT Can Tho",
+                "type": "Institution",
+                "description": "Organization located in Viet Nam."
+            },
+            {
+                "id": "College of Information and Communication Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department at Can Tho University."
+            },
+            {
+                "id": "Can Tho University Publishing House, Can Tho University",
+                "type": "Institution",
+                "description": "Institutional publishing entity at Can Tho University."
+            },
+            {
+                "id": "Product recommendation",
+                "type": "Concept",
+                "description": "The process of suggesting items to users in online sales systems."
+            },
+            {
+                "id": "Transaction sessions",
+                "type": "Concept",
+                "description": "Historical data sequence of user interactions used for modeling preferences."
+            },
+            {
+                "id": "Memory-based collaborative filtering",
+                "type": "Method",
+                "description": "A collaborative filtering approach that uses user-item rating data to calculate similarity."
+            },
+            {
+                "id": "Model-based collaborative filtering",
+                "type": "Method",
+                "description": "A collaborative filtering approach that uses mathematical models to predict ratings."
+            },
+            {
+                "id": "SVD",
+                "type": "Method",
+                "description": "Singular Value Decomposition, a matrix factorization technique."
+            },
+            {
+                "id": "KNN",
+                "type": "Method",
+                "description": "K-Nearest Neighbors, an algorithm that identifies similar users or items."
+            },
+            {
+                "id": "User-based CF",
+                "type": "Method",
+                "description": "Collaborative filtering based on similarity between users."
+            },
+            {
+                "id": "Item-based CF",
+                "type": "Method",
+                "description": "Collaborative filtering based on similarity between items."
+            },
+            {
+                "id": "Amazon Ratings dataset",
+                "type": "Dataset",
+                "description": "A collection of over 2 million beauty product reviews from Amazon.com."
+            },
+            {
+                "id": "MAE (0.7784)",
+                "type": "Metric",
+                "description": "Mean Absolute Error achieved by the SVD model."
+            },
+            {
+                "id": "RMSE (0.9593)",
+                "type": "Metric",
+                "description": "Root Mean Square Error achieved by the SVD model."
+            },
+            {
+                "id": "KNN Training time (96 hours)",
+                "type": "Metric",
+                "description": "The duration required to train the KNN model."
+            },
+            {
+                "id": "SVD Training time (93 hours)",
+                "type": "Metric",
+                "description": "The duration required to train the SVD model, noted as 3 hours faster than KNN."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Product recommendation for online sales systems based on transaction sessions",
+                "target": "E-commerce",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Mai Le Bich Tuyen",
+                "target": "FPT Can Tho",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Hai",
+                "target": "College of Information and Communication Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thanh Dien",
+                "target": "Can Tho University Publishing House, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "SVD",
+                "target": "MAE (0.7784)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SVD",
+                "target": "RMSE (0.9593)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SVD",
+                "target": "SVD Training time (93 hours)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "KNN",
+                "target": "KNN Training time (96 hours)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SVD",
+                "target": "Product recommendation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "KNN",
+                "target": "Product recommendation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "User-based CF",
+                "target": "Product recommendation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Item-based CF",
+                "target": "Product recommendation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SVD",
+                "target": "Amazon Ratings dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "KNN",
+                "target": "Amazon Ratings dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "User-based CF",
+                "target": "Amazon Ratings dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Item-based CF",
+                "target": "Amazon Ratings dataset",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

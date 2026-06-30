@@ -1,0 +1,155 @@
+{
+  "filename": "10-IT-TRAN TUAN MINH(91-98)010.json",
+  "paper_title": "An object detection method for aerial hazy images",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Tuan Minh",
+        "type": "Author",
+        "description": "Lead author of the study from University of Information Technology, VNU-HCM."
+      },
+      {
+        "id": "Tran Van Bao",
+        "type": "Author",
+        "description": "Co-author from University of Information Technology, VNU-HCM."
+      },
+      {
+        "id": "Vo Duy Nguyen",
+        "type": "Author",
+        "description": "Co-author from University of Information Technology, VNU-HCM."
+      },
+      {
+        "id": "Nguyen Tan Tran Minh Khang",
+        "type": "Author",
+        "description": "Co-author from University of Information Technology, VNU-HCM."
+      },
+      {
+        "id": "University of Information Technology, VNU-HCM",
+        "type": "Institution",
+        "description": "Academic institution in Ho Chi Minh City, Viet Nam."
+      },
+      {
+        "id": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "Institution",
+        "description": "National university system in Viet Nam."
+      },
+      {
+        "id": "Object detection in aerial hazy images",
+        "type": "Concept",
+        "description": "The primary research problem involving identifying objects in images taken from UAVs under poor visibility."
+      },
+      {
+        "id": "Computer Vision",
+        "type": "Domain",
+        "description": "The broad field of research covering image processing and object detection."
+      },
+      {
+        "id": "Feature Fusion Attention Network (FFA-Net)",
+        "type": "Method",
+        "description": "A deep learning dehazing method used to remove haze from images."
+      },
+      {
+        "id": "Probabilistic Anchor Assignment (PAA)",
+        "type": "Method",
+        "description": "An object detection method based on RetinaNet architecture."
+      },
+      {
+        "id": "Selective dehazing hypothesis",
+        "type": "Concept",
+        "description": "A hypothesis treating haze as part of specific objects (trucks) to improve detection results."
+      },
+      {
+        "id": "UAVDT-Benchmark-M",
+        "type": "Dataset",
+        "description": "A dataset containing hazy aerial images used for evaluation."
+      },
+      {
+        "id": "RESIDE Outdoor Training Set (OTS)",
+        "type": "Dataset",
+        "description": "A dataset used for pre-training the FFA-Net model."
+      },
+      {
+        "id": "PSNR score (30.23dB to 36.39dB)",
+        "type": "Metric",
+        "description": "Evaluation score for dehazing effectiveness."
+      },
+      {
+        "id": "AP for car (21.9%)",
+        "type": "Metric",
+        "description": "Average Precision for car detection using the selective dehazing hypothesis."
+      },
+      {
+        "id": "AP for bus (4.4%)",
+        "type": "Metric",
+        "description": "Average Precision for bus detection using the selective dehazing hypothesis."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Tuan Minh",
+        "target": "University of Information Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Van Bao",
+        "target": "University of Information Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Duy Nguyen",
+        "target": "University of Information Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tan Tran Minh Khang",
+        "target": "University of Information Technology, VNU-HCM",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Tuan Minh",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Computer Vision",
+        "target": "Object detection in aerial hazy images",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Feature Fusion Attention Network (FFA-Net)",
+        "target": "Object detection in aerial hazy images",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Probabilistic Anchor Assignment (PAA)",
+        "target": "Object detection in aerial hazy images",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Feature Fusion Attention Network (FFA-Net)",
+        "target": "RESIDE Outdoor Training Set (OTS)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Probabilistic Anchor Assignment (PAA)",
+        "target": "UAVDT-Benchmark-M",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Feature Fusion Attention Network (FFA-Net)",
+        "target": "PSNR score (30.23dB to 36.39dB)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Probabilistic Anchor Assignment (PAA)",
+        "target": "AP for car (21.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Probabilistic Anchor Assignment (PAA)",
+        "target": "AP for bus (4.4%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "13-AE-PHAN HONG PHUONG(109-113)013.json",
+  "paper_title": "BLENDING OF VEGETABLE OILS AND CHEMICAL MODIFICATION BY EPOXIDATION FOLLOWED BY OXIRANE RING-OPENING REACTION",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phan Hong Phuong",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Nguyen Kim Trung",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Dao Thi Kim Thoa",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Hoang Chi Phu",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "Institution",
+        "description": "The institution the authors are affiliated with"
+      },
+      {
+        "id": "Chemical Engineering",
+        "type": "Domain",
+        "description": "The primary field of research involving chemical modification and lubricant development"
+      },
+      {
+        "id": "Epoxidation",
+        "type": "Method",
+        "description": "Chemical process to convert double bonds C=C into oxirane rings"
+      },
+      {
+        "id": "Oxirane ring-opening reaction",
+        "type": "Method",
+        "description": "Chemical reaction following epoxidation to modify the structure of vegetable oils"
+      },
+      {
+        "id": "Blending of vegetable oils",
+        "type": "Method",
+        "description": "Process of mixing refined soybean and sunflower oils in specific proportions"
+      },
+      {
+        "id": "Refined soybean oil",
+        "type": "Method",
+        "description": "Raw material used in the blending and modification process"
+      },
+      {
+        "id": "Refined sunflower oil",
+        "type": "Method",
+        "description": "Raw material used in the blending and modification process"
+      },
+      {
+        "id": "n-butanol",
+        "type": "Method",
+        "description": "Chemical reagent used in the oxirane ring-opening reaction"
+      },
+      {
+        "id": "CH3COOH",
+        "type": "Method",
+        "description": "Acetic acid used as a reagent in the epoxidation step"
+      },
+      {
+        "id": "H2O2",
+        "type": "Method",
+        "description": "Hydrogen peroxide used as a reagent in the epoxidation step"
+      },
+      {
+        "id": "Oxidation stability",
+        "type": "Concept",
+        "description": "The resistance of the oil to oxidation, influenced by the presence of C=C bonds"
+      },
+      {
+        "id": "Iodine value (88.8)",
+        "type": "Metric",
+        "description": "Measurement of unsaturation achieved after the epoxidation reaction"
+      },
+      {
+        "id": "Viscosity index (235.71)",
+        "type": "Metric",
+        "description": "Highest viscosity index achieved for the 80:20 sunflower-soybean blend"
+      },
+      {
+        "id": "Conversion of C=C bond (92.36%)",
+        "type": "Metric",
+        "description": "Percentage of double bonds converted during the epoxidation process"
+      },
+      {
+        "id": "Pour point (5 oC)",
+        "type": "Metric",
+        "description": "The lowest temperature at which the final ring-opened product becomes semi-solid"
+      },
+      {
+        "id": "BLENDING OF VEGETABLE OILS AND CHEMICAL MODIFICATION BY EPOXIDATION FOLLOWED BY OXIRANE RING-OPENING REACTION",
+        "type": "Concept",
+        "description": "The core study/paper investigating oil modification for lubricants"
+      }
+    ],
+    "relations": [
+      {
+        "source": "BLENDING OF VEGETABLE OILS AND CHEMICAL MODIFICATION BY EPOXIDATION FOLLOWED BY OXIRANE RING-OPENING REACTION",
+        "target": "Chemical Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Phan Hong Phuong",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Kim Trung",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dao Thi Kim Thoa",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hoang Chi Phu",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Epoxidation",
+        "target": "Iodine value (88.8)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Epoxidation",
+        "target": "Conversion of C=C bond (92.36%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Blending of vegetable oils",
+        "target": "Viscosity index (235.71)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Oxirane ring-opening reaction",
+        "target": "Pour point (5 oC)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Epoxidation",
+        "target": "Oxidation stability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Blending of vegetable oils",
+        "target": "Oxidation stability",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

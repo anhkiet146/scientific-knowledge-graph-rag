@@ -1,0 +1,120 @@
+{
+  "filename": "303-NGUYEN VO CHAU NGAN(92-105).json",
+  "paper_title": "VIETNAM'S RENEWABLE ENERGY -AN OVERVIEW OF CURRENT STATUS AND LEGAL NORMATIVE DOCUMENTS",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Vietnam's Renewable Energy - An Overview of Current Status and Legal Normative Documents",
+        "type": "Concept",
+        "description": "The title and main research topic of the scientific paper."
+      },
+      {
+        "id": "Renewable Energy",
+        "type": "Domain",
+        "description": "The primary field of research concerning sustainable energy sources."
+      },
+      {
+        "id": "Nguyen Vo Chau Ngan",
+        "type": "Author",
+        "description": "Researcher from the Department of International Relations, Can Tho University."
+      },
+      {
+        "id": "Nguyen Lan Huong",
+        "type": "Author",
+        "description": "Researcher from the School of Law, Can Tho University."
+      },
+      {
+        "id": "Department of International Relations, Can Tho University",
+        "type": "Institution",
+        "description": "An academic department located in Vietnam."
+      },
+      {
+        "id": "School of Law, Can Tho University",
+        "type": "Institution",
+        "description": "An academic institution located in Vietnam."
+      },
+      {
+        "id": "Anaerobic digestion",
+        "type": "Method",
+        "description": "A process used to produce biogas from organic waste."
+      },
+      {
+        "id": "Solar water heater",
+        "type": "Method",
+        "description": "A thermal device used to heat water using solar radiation."
+      },
+      {
+        "id": "Three-legged stoves",
+        "type": "Method",
+        "description": "Traditional cooking equipment used in rural areas."
+      },
+      {
+        "id": "Wind resource database",
+        "type": "Dataset",
+        "description": "Records from provincial meteorological stations used to assess wind power."
+      },
+      {
+        "id": "Primary energy supply in 2008 (59,415 ktoe)",
+        "type": "Metric",
+        "description": "The total energy supply of Vietnam in 2008."
+      },
+      {
+        "id": "Renewable energy share in 2013 (6.13%)",
+        "type": "Metric",
+        "description": "The percentage of renewable energy in the total installed power capacity."
+      },
+      {
+        "id": "Efficiency of three-legged stoves (8 to 15%)",
+        "type": "Metric",
+        "description": "The thermal efficiency range of traditional cooking stoves."
+      },
+      {
+        "id": "Wind power potential (> 500,000 MW)",
+        "type": "Metric",
+        "description": "Estimated total potential for wind energy in Vietnam."
+      },
+      {
+        "id": "Energy demand",
+        "type": "Concept",
+        "description": "The total energy requirement for economic growth and industrialization."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Vietnam's Renewable Energy - An Overview of Current Status and Legal Normative Documents",
+        "target": "Renewable Energy",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Vo Chau Ngan",
+        "target": "Department of International Relations, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Lan Huong",
+        "target": "School of Law, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Anaerobic digestion",
+        "target": "Energy demand",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Three-legged stoves",
+        "target": "Efficiency of three-legged stoves (8 to 15%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Solar water heater",
+        "target": "Renewable energy share in 2013 (6.13%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Anaerobic digestion",
+        "target": "Wind resource database",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

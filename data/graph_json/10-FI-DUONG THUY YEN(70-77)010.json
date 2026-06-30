@@ -1,0 +1,215 @@
+{
+  "filename": "10-FI-DUONG THUY YEN(70-77)010.json",
+  "paper_title": "Variation in morphometric characteristics between cultured and wild striped snakehead (Channa striata) populations in the Mekong Delta",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Variation in morphometric characteristics between cultured and wild striped snakehead (Channa striata) populations in the Mekong Delta",
+        "type": "Concept",
+        "description": "The title and primary research topic investigating morphological differences in snakehead populations."
+      },
+      {
+        "id": "Aquaculture and Fisheries",
+        "type": "Domain",
+        "description": "The primary research field of the study."
+      },
+      {
+        "id": "Duong Thuy Yen",
+        "type": "Author",
+        "description": "Author from College of Aquaculture and Fisheries, Can Tho University."
+      },
+      {
+        "id": "Vo Ngoc Duyen",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Tran Thi Thanh Hien",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Robert Pomeroy",
+        "type": "Author",
+        "description": "Author from University of Connecticut."
+      },
+      {
+        "id": "Egna Hillary",
+        "type": "Author",
+        "description": "Author from Oregon State University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University in Vietnam."
+      },
+      {
+        "id": "University of Connecticut",
+        "type": "Institution",
+        "description": "University in the USA."
+      },
+      {
+        "id": "Oregon State University",
+        "type": "Institution",
+        "description": "University in the USA."
+      },
+      {
+        "id": "Morphometric indices-based approach",
+        "type": "Method",
+        "description": "Method of converting measurements into ratios to standard or head length."
+      },
+      {
+        "id": "Elliot et al. (1995) approach",
+        "type": "Method",
+        "description": "Method for adjusting morphometric data for body size effects."
+      },
+      {
+        "id": "Principal component analysis (PCA)",
+        "type": "Method",
+        "description": "Statistical method to identify important characters contributing to population differences."
+      },
+      {
+        "id": "Discriminant analysis (DA)",
+        "type": "Method",
+        "description": "Method used to visualize population differentiation and individual assignment."
+      },
+      {
+        "id": "Univariate analyses",
+        "type": "Method",
+        "description": "Statistical analysis for testing differences between groups."
+      },
+      {
+        "id": "Calipers",
+        "type": "Method",
+        "description": "Measurement tool used for morphometric data collection."
+      },
+      {
+        "id": "SPSS 20.0",
+        "type": "Method",
+        "description": "Statistical software used for data analysis."
+      },
+      {
+        "id": "Table 10",
+        "type": "Dataset",
+        "description": "Data on fish sizes and sampling populations."
+      },
+      {
+        "id": "Table 6",
+        "type": "Dataset",
+        "description": "Classification results based on morphometric indices."
+      },
+      {
+        "id": "Overall correct individual assignment - indices (90.7%)",
+        "type": "Metric",
+        "description": "The accuracy rate of individual classification using ratios."
+      },
+      {
+        "id": "Overall correct individual assignment - adjusted (79.6%)",
+        "type": "Metric",
+        "description": "The accuracy rate of individual classification using body size-adjusted data."
+      },
+      {
+        "id": "Statistical significance (P < 0.05)",
+        "type": "Metric",
+        "description": "Measure of statistical variation among populations."
+      },
+      {
+        "id": "PC1 variation explained (33.9%)",
+        "type": "Metric",
+        "description": "Percentage of variation explained by the first principal component in indices data."
+      },
+      {
+        "id": "PC1 adjusted variation explained (62.5%)",
+        "type": "Metric",
+        "description": "Percentage of variation explained by the first principal component in adjusted data."
+      },
+      {
+        "id": "Caliper accuracy (0.1 mm)",
+        "type": "Metric",
+        "description": "The precision of the measuring instrument used."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Variation in morphometric characteristics between cultured and wild striped snakehead (Channa striata) populations in the Mekong Delta",
+        "target": "Aquaculture and Fisheries",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Duong Thuy Yen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Ngoc Duyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Thanh Hien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Robert Pomeroy",
+        "target": "University of Connecticut",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Egna Hillary",
+        "target": "Oregon State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Morphometric indices-based approach",
+        "target": "Overall correct individual assignment - indices (90.7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Elliot et al. (1995) approach",
+        "target": "Overall correct individual assignment - adjusted (79.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Univariate analyses",
+        "target": "Statistical significance (P < 0.05)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Principal component analysis (PCA)",
+        "target": "PC1 variation explained (33.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Principal component analysis (PCA)",
+        "target": "PC1 adjusted variation explained (62.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Morphometric indices-based approach",
+        "target": "Variation in morphometric characteristics between cultured and wild striped snakehead (Channa striata) populations in the Mekong Delta",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Discriminant analysis (DA)",
+        "target": "Variation in morphometric characteristics between cultured and wild striped snakehead (Channa striata) populations in the Mekong Delta",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Discriminant analysis (DA)",
+        "target": "Table 6",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Discriminant analysis (DA)",
+        "target": "Table 6",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Univariate analyses",
+        "target": "Table 10",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

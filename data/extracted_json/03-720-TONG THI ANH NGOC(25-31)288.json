@@ -1,0 +1,165 @@
+{
+    "filename": "03-720-TONG THI ANH NGOC(25-31)288.json",
+    "paper_title": "Effects of salt concentration and Lactobacillus plantarum population on grey oyster mushroom fermentation",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary field of research concerning food processing and preservation."
+            },
+            {
+                "id": "Tong Thi Anh Ngoc",
+                "type": "Author",
+                "description": "Corresponding author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Le Thanh Cao",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Le Thanh Bach",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Cam Tu",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Phan Nguyen Trang",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Viet Nam."
+            },
+            {
+                "id": "Grey oyster mushroom fermentation",
+                "type": "Concept",
+                "description": "The process of preserving Pleurotus sajor-caju using lactic acid bacteria."
+            },
+            {
+                "id": "Antioxidant activities",
+                "type": "Concept",
+                "description": "The ability of the fermented product to reduce oxidative damage."
+            },
+            {
+                "id": "Shelf-life preservation",
+                "type": "Concept",
+                "description": "Techniques used to prolong the usability of fresh mushrooms."
+            },
+            {
+                "id": "Lactobacillus plantarum",
+                "type": "Method",
+                "description": "Starter culture strain used for lactic acid fermentation."
+            },
+            {
+                "id": "NaCl",
+                "type": "Method",
+                "description": "Salt used at various concentrations to control the fermentation process."
+            },
+            {
+                "id": "Foline-Ciocalteu method",
+                "type": "Method",
+                "description": "Spectrophotometric procedure used to determine total polyphenol content."
+            },
+            {
+                "id": "DPPH assay",
+                "type": "Method",
+                "description": "Method used to evaluate free radical scavenging activity."
+            },
+            {
+                "id": "Salt concentration (3.5% to 4.5%)",
+                "type": "Metric",
+                "description": "The range of salt levels tested in the experiment."
+            },
+            {
+                "id": "Initial L. plantarum population (10^4 to 10^6 CFU/mL)",
+                "type": "Metric",
+                "description": "The concentration range of the starter culture used."
+            },
+            {
+                "id": "pH (< 4.0)",
+                "type": "Metric",
+                "description": "The acidity level reached to ensure product stability."
+            },
+            {
+                "id": "Total polyphenol content (1.10±0.04 mg GAE/g DW)",
+                "type": "Metric",
+                "description": "The measured concentration of polyphenols on day 25."
+            },
+            {
+                "id": "DPPH scavenging activity (2.95 ± 0.31 mg TE/g)",
+                "type": "Metric",
+                "description": "The measured antioxidant capacity on day 25."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Tong Thi Anh Ngoc",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Le Thanh Cao",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Le Thanh Bach",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Cam Tu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Nguyen Trang",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lactobacillus plantarum",
+                "target": "Grey oyster mushroom fermentation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "NaCl",
+                "target": "Grey oyster mushroom fermentation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Lactobacillus plantarum",
+                "target": "pH (< 4.0)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Lactobacillus plantarum",
+                "target": "Total polyphenol content (1.10±0.04 mg GAE/g DW)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DPPH assay",
+                "target": "DPPH scavenging activity (2.95 ± 0.31 mg TE/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Foline-Ciocalteu method",
+                "target": "Total polyphenol content (1.10±0.04 mg GAE/g DW)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Grey oyster mushroom fermentation",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

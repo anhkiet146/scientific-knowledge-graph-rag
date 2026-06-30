@@ -1,0 +1,175 @@
+{
+    "filename": "12-FI-NGO THI THU THAO(89-96)028.json",
+    "paper_title": "Growth and survival rate of mud clam larvae (Geloina sp.) in relation to rearing densities and diets",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Mud clam larvae growth and survival",
+                "type": "Concept",
+                "description": "Research on factors affecting the development and mortality of mud clam larvae."
+            },
+            {
+                "id": "Artificial seed production",
+                "type": "Concept",
+                "description": "The process of producing clam seeds in hatchery conditions."
+            },
+            {
+                "id": "100% fresh algae (Nannochloropsis sp and Chaetoceros sp)",
+                "type": "Method",
+                "description": "A diet treatment consisting entirely of live algae in a 1:1 ratio."
+            },
+            {
+                "id": "100% dry algae (Spirulina powder)",
+                "type": "Method",
+                "description": "A diet treatment consisting entirely of powdered Spirulina."
+            },
+            {
+                "id": "Stocking density of 2,000 larvae/L",
+                "type": "Method",
+                "description": "A low-density rearing environment for clam larvae."
+            },
+            {
+                "id": "Thermal shock method",
+                "type": "Method",
+                "description": "A technique used to induce spawning in matured clam broodstocks."
+            },
+            {
+                "id": "SPSS version 22.0",
+                "type": "Method",
+                "description": "Software used for statistical data analysis."
+            },
+            {
+                "id": "Larvae length and width on day 17 (217.3µm and 230.0 µm)",
+                "type": "Metric",
+                "description": "Growth measurements for the fresh algae treatment in experiment 1."
+            },
+            {
+                "id": "Metamorphosis rate (31.2%)",
+                "type": "Metric",
+                "description": "The rate of larvae transitioning to the umbo stage in experiment 1."
+            },
+            {
+                "id": "Survival rate (10.5%)",
+                "type": "Metric",
+                "description": "Percentage of larvae surviving to day 17 in the fresh algae treatment."
+            },
+            {
+                "id": "Larvae length and width (218.3µm and 231.3µm)",
+                "type": "Metric",
+                "description": "Growth measurements for the 2,000 ind./L density treatment in experiment 2."
+            },
+            {
+                "id": "Metamorphosis rate (34.9%)",
+                "type": "Metric",
+                "description": "The highest transition rate observed in experiment 2."
+            },
+            {
+                "id": "Survival rate (10.3%)",
+                "type": "Metric",
+                "description": "Survival percentage for the optimal stocking density treatment."
+            },
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "The primary field of research involving aquatic organism cultivation."
+            },
+            {
+                "id": "Ngo Thi Thu Thao",
+                "type": "Author",
+                "description": "Lead researcher affiliated with Can Tho University."
+            },
+            {
+                "id": "Danh Nhiet",
+                "type": "Author",
+                "description": "Researcher affiliated with Kien Giang province's extension department."
+            },
+            {
+                "id": "Cao My An",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Tran Ngoc Hai",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Department of Agriculture Extension, Kien Giang province",
+                "type": "Institution",
+                "description": "Provincial government department in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Mud clam larvae growth and survival",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ngo Thi Thu Thao",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cao My An",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Ngoc Hai",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Danh Nhiet",
+                "target": "Department of Agriculture Extension, Kien Giang province",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "100% fresh algae (Nannochloropsis sp and Chaetoceros sp)",
+                "target": "Larvae length and width on day 17 (217.3µm and 230.0 µm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "100% fresh algae (Nannochloropsis sp and Chaetoceros sp)",
+                "target": "Metamorphosis rate (31.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "100% fresh algae (Nannochloropsis sp and Chaetoceros sp)",
+                "target": "Survival rate (10.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Stocking density of 2,000 larvae/L",
+                "target": "Larvae length and width (218.3µm and 231.3µm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Stocking density of 2,000 larvae/L",
+                "target": "Metamorphosis rate (34.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Stocking density of 2,000 larvae/L",
+                "target": "Survival rate (10.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Thermal shock method",
+                "target": "Artificial seed production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "100% fresh algae (Nannochloropsis sp and Chaetoceros sp)",
+                "target": "Mud clam larvae growth and survival",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

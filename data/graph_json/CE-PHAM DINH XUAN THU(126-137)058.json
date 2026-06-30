@@ -1,0 +1,155 @@
+{
+  "filename": "CE-PHAM DINH XUAN THU(126-137)058.json",
+  "paper_title": "Leadership styles of Vietnamese higher education leaders: Transformational, transactional, or laissez-faire",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Pham Dinh Xuan Thu",
+        "type": "Author",
+        "description": "First author of the paper from Can Tho Medical College."
+      },
+      {
+        "id": "Hitendra Pillay",
+        "type": "Author",
+        "description": "Second author of the paper from Queensland University of Technology."
+      },
+      {
+        "id": "Amanda Mergler",
+        "type": "Author",
+        "description": "Third author of the paper from Queensland University of Technology."
+      },
+      {
+        "id": "Can Tho Medical College",
+        "type": "Institution",
+        "description": "Medical college in Vietnam where Pham Dinh Xuan Thu is affiliated."
+      },
+      {
+        "id": "Queensland University of Technology",
+        "type": "Institution",
+        "description": "Australian university where Hitendra Pillay and Amanda Mergler are affiliated."
+      },
+      {
+        "id": "Higher Education Leadership",
+        "type": "Domain",
+        "description": "The primary field of study regarding leadership in Vietnamese higher education."
+      },
+      {
+        "id": "Transformational leadership",
+        "type": "Concept",
+        "description": "A leadership style that focuses on changing human values and improving organizational practices."
+      },
+      {
+        "id": "Transactional leadership",
+        "type": "Concept",
+        "description": "A leadership style based on the exchange of values between leaders and followers."
+      },
+      {
+        "id": "Laissez-faire leadership",
+        "type": "Concept",
+        "description": "A passive leadership style characterized by risk avoidance and lack of involvement."
+      },
+      {
+        "id": "Multifactor leadership questionnaire (MLQ)",
+        "type": "Method",
+        "description": "The primary research instrument used to measure leadership styles."
+      },
+      {
+        "id": "Principal component analysis (PCA)",
+        "type": "Method",
+        "description": "Statistical method used to confirm the validity of the MLQ instrument."
+      },
+      {
+        "id": "Multivariate analysis of variance (MANOVA)",
+        "type": "Method",
+        "description": "Statistical method used to analyze the impact of demographics on leadership styles."
+      },
+      {
+        "id": "MLQ Factor Data (190 senior managers)",
+        "type": "Dataset",
+        "description": "Survey responses collected from 190 senior managers in nine State institutions."
+      },
+      {
+        "id": "Cronbach's Alpha (0.843)",
+        "type": "Metric",
+        "description": "Reliability and validity coefficient for the Vietnamese MLQ sample."
+      },
+      {
+        "id": "Rate of return (91.8%)",
+        "type": "Metric",
+        "description": "The percentage of complete and trustworthy survey responses returned."
+      },
+      {
+        "id": "Multivariate effect size (0.686)",
+        "type": "Metric",
+        "description": "The estimated variance in leadership styles accounted for by educational level."
+      },
+      {
+        "id": "Transformational leadership mean score (3.10)",
+        "type": "Metric",
+        "description": "Average score for transformational leadership at the 75th percentile."
+      },
+      {
+        "id": "Transactional leadership mean score (3.38)",
+        "type": "Metric",
+        "description": "Average score for transactional leadership at the 75th percentile."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Pham Dinh Xuan Thu",
+        "target": "Can Tho Medical College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hitendra Pillay",
+        "target": "Queensland University of Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Amanda Mergler",
+        "target": "Queensland University of Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Multifactor leadership questionnaire (MLQ)",
+        "target": "Transformational leadership",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Multifactor leadership questionnaire (MLQ)",
+        "target": "Transactional leadership",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Multifactor leadership questionnaire (MLQ)",
+        "target": "Laissez-faire leadership",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Multifactor leadership questionnaire (MLQ)",
+        "target": "MLQ Factor Data (190 senior managers)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Multifactor leadership questionnaire (MLQ)",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Multifactor leadership questionnaire (MLQ)",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Principal component analysis (PCA)",
+        "target": "MLQ Factor Data (190 senior managers)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Multivariate analysis of variance (MANOVA)",
+        "target": "Multivariate effect size (0.686)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

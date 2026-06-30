@@ -1,0 +1,155 @@
+{
+    "filename": "06-ED-NGUYEN THI KIEU DIEM(39-47)039.json",
+    "paper_title": "Effects of Voki-supported self-practice on high school students' English speaking performance",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Effects of Voki-supported self-practice on high school students' English speaking performance",
+                "type": "Concept",
+                "description": "The main research topic investigating the impact of a Web 2.0 tool on language skills."
+            },
+            {
+                "id": "Nguyen Thi Kieu Diem",
+                "type": "Author",
+                "description": "First author of the research paper."
+            },
+            {
+                "id": "Nguyen Van Loi",
+                "type": "Author",
+                "description": "Second author of the research paper."
+            },
+            {
+                "id": "Nguyen Thi Minh Khai High School",
+                "type": "Institution",
+                "description": "Educational institution in Soc Trang, Viet Nam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam."
+            },
+            {
+                "id": "English Language Teaching (EFL)",
+                "type": "Domain",
+                "description": "The primary field of research concerning English as a foreign language."
+            },
+            {
+                "id": "Speaking performance",
+                "type": "Concept",
+                "description": "The ability to produce verbal utterances and manipulate pronunciation, grammar, and fluency."
+            },
+            {
+                "id": "Voki",
+                "type": "Method",
+                "description": "A Web 2.0 application with multimedia affordances used for speaking practice."
+            },
+            {
+                "id": "Quasi-experimental control group design",
+                "type": "Method",
+                "description": "The research design involving experimental and control groups."
+            },
+            {
+                "id": "IELTS Cue Cards",
+                "type": "Method",
+                "description": "Materials used for pre-test and post-test speaking assessments."
+            },
+            {
+                "id": "Semi-structured interview",
+                "type": "Method",
+                "description": "A qualitative data collection method used to explore student feedback."
+            },
+            {
+                "id": "SPSS",
+                "type": "Method",
+                "description": "Statistical software used for quantitative data analysis."
+            },
+            {
+                "id": "Pre-and post-test scores",
+                "type": "Dataset",
+                "description": "Numerical data collected from the speaking assessments of 47 students."
+            },
+            {
+                "id": "Interview transcripts",
+                "type": "Dataset",
+                "description": "Qualitative data recorded and transcribed from eight student interviews."
+            },
+            {
+                "id": "Scale reliability coefficients (α = 0.986)",
+                "type": "Metric",
+                "description": "The high level of internal consistency for the test data."
+            },
+            {
+                "id": "Inter-rater reliability (r=0.99)",
+                "type": "Metric",
+                "description": "The strength of agreement between the two speaking test raters."
+            },
+            {
+                "id": "Post-test mean for EG (4.44)",
+                "type": "Metric",
+                "description": "The average speaking score for the experimental group after treatment."
+            },
+            {
+                "id": "Post-test mean for CG (3.57)",
+                "type": "Metric",
+                "description": "The average speaking score for the control group after treatment."
+            },
+            {
+                "id": "Wilcoxon Signed-Ranks result for EG (p = 0.000)",
+                "type": "Metric",
+                "description": "The statistical significance of the improvement in the experimental group."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effects of Voki-supported self-practice on high school students' English speaking performance",
+                "target": "English Language Teaching (EFL)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Kieu Diem",
+                "target": "Nguyen Thi Minh Khai High School",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Loi",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Voki",
+                "target": "Speaking performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Voki",
+                "target": "Post-test mean for EG (4.44)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Voki",
+                "target": "Wilcoxon Signed-Ranks result for EG (p = 0.000)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "IELTS Cue Cards",
+                "target": "Pre-and post-test scores",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Semi-structured interview",
+                "target": "Interview transcripts",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SPSS",
+                "target": "Scale reliability coefficients (α = 0.986)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SPSS",
+                "target": "Inter-rater reliability (r=0.99)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

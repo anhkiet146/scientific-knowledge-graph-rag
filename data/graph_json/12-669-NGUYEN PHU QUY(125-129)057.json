@@ -1,0 +1,225 @@
+{
+  "filename": "12-669-NGUYEN PHU QUY(125-129)057.json",
+  "paper_title": ",3,4-Oxadiazole derivatives as potent antifungal agents: Synthesis, biological evaluation and an in silico study",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phu Quang Nguyen",
+        "type": "Author",
+        "description": "Researcher and first author of the study."
+      },
+      {
+        "id": "Nguyen Cuong Quoc",
+        "type": "Author",
+        "description": "Researcher contributing to the study."
+      },
+      {
+        "id": "Tran Quang De",
+        "type": "Author",
+        "description": "Researcher contributing to the study."
+      },
+      {
+        "id": "Le Dang Quang",
+        "type": "Author",
+        "description": "Corresponding author and researcher."
+      },
+      {
+        "id": "Bui Thi Buu Hue",
+        "type": "Author",
+        "description": "Corresponding author and researcher."
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "Faculty of Pharmacy and Nursing, Tay Do University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "Center for High Technology Development, Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "Research center in Vietnam."
+      },
+      {
+        "id": "Institute of Temperature Technology, Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "Research institute in Vietnam."
+      },
+      {
+        "id": "Medicinal Chemistry",
+        "type": "Domain",
+        "description": "The study focuses on synthesizing chemical derivatives for biological activity."
+      },
+      {
+        "id": "Antifungal activity",
+        "type": "Concept",
+        "description": "The ability of compounds to inhibit fungal growth."
+      },
+      {
+        "id": "Molecular docking",
+        "type": "Concept",
+        "description": "In silico study to predict binding affinity between ligands and receptors."
+      },
+      {
+        "id": "1,3,4-oxadiazole derivatives",
+        "type": "Method",
+        "description": "Chemical compounds synthesized and tested (4a-c, 7a-f)."
+      },
+      {
+        "id": "Poisoned food technique",
+        "type": "Method",
+        "description": "In vitro bioassay used to evaluate antifungal efficacy."
+      },
+      {
+        "id": "LeadIT software",
+        "type": "Method",
+        "description": "Computational tool used for molecular docking."
+      },
+      {
+        "id": "Potato dextrose agar (PDA) medium",
+        "type": "Method",
+        "description": "Culture medium used for fungal growth."
+      },
+      {
+        "id": "ID: 5ZXH",
+        "type": "Dataset",
+        "description": "3D structure of F. oxysporum beta-tubulin from a database."
+      },
+      {
+        "id": "Total yield (83-87%)",
+        "type": "Metric",
+        "description": "Yield for compounds 4a-c."
+      },
+      {
+        "id": "Total yield (54-65%)",
+        "type": "Metric",
+        "description": "Yield for compounds 7a-f."
+      },
+      {
+        "id": "Control efficacy of 4a (16.0%)",
+        "type": "Metric",
+        "description": "Percentage inhibition of mycelial growth for compound 4a."
+      },
+      {
+        "id": "Control efficacy of 7f (18.0%)",
+        "type": "Metric",
+        "description": "Percentage inhibition of mycelial growth for compound 7a."
+      },
+      {
+        "id": "Binding energy of 7a (-17.88 kJ/mol)",
+        "type": "Metric",
+        "description": "Computational energy result for compound 7a docking."
+      },
+      {
+        "id": "Binding energy of 4a (-4.40 kJ/mol)",
+        "type": "Metric",
+        "description": "Computational energy result for compound 4a docking."
+      },
+      {
+        "id": "RMSD (< 2 Angstrom)",
+        "type": "Metric",
+        "description": "Root-mean-square deviation value for re-docking validation."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Phu Quang Nguyen",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phu Quang Nguyen",
+        "target": "Faculty of Pharmacy and Nursing, Tay Do University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Cuong Quoc",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Quang De",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Dang Quang",
+        "target": "Center for High Technology Development, Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Dang Quang",
+        "target": "Institute of Temperature Technology, Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Thi Buu Hue",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "1,3,4-oxadiazole derivatives",
+        "target": "Medicinal Chemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "1,3,4-oxadiazole derivatives",
+        "target": "Antifungal activity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "LeadIT software",
+        "target": "Molecular docking",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "1,3,4-oxadiazole derivatives",
+        "target": "Total yield (83-87%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "1,3,4-oxadiazole derivatives",
+        "target": "Total yield (54-65%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Poisoned food technique",
+        "target": "Control efficacy of 4a (16.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Poisoned food technique",
+        "target": "Control efficacy of 7f (18.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Poisoned food technique",
+        "target": "Control efficacy of 7f (18.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "LeadIT software",
+        "target": "Binding energy of 7a (-17.88 kJ/mol)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "LeadIT software",
+        "target": "Binding energy of 7a (-17.88 kJ/mol)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "LeadIT software",
+        "target": "Binding energy of 4a (-4.40 kJ/mol)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "LeadIT software",
+        "target": "ID: 5ZXH",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

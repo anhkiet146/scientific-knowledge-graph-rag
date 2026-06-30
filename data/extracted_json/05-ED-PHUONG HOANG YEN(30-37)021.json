@@ -1,0 +1,145 @@
+{
+    "filename": "05-ED-PHUONG HOANG YEN(30-37)021.json",
+    "paper_title": "English-as-a-medium-of-instruction students' evaluation of an English foundation program at a university in Vietnam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "English-as-a-medium-of-instruction (EMI)",
+                "type": "Concept",
+                "description": "The use of the English language to teach academic subjects in non-native English speaking contexts."
+            },
+            {
+                "id": "English language proficiency (ELP)",
+                "type": "Concept",
+                "description": "The ability of students and teachers to use the English language effectively in academic settings."
+            },
+            {
+                "id": "English foundation program (EFP)",
+                "type": "Method",
+                "description": "A 390-hour intensive English program designed to prepare students for EMI courses."
+            },
+            {
+                "id": "13-item questionnaire",
+                "type": "Method",
+                "description": "Research instrument using a 5-point Likert Scale to evaluate student perceptions."
+            },
+            {
+                "id": "5-point Likert Scale",
+                "type": "Method",
+                "description": "A psychometric scale used in the questionnaire ranging from strongly agree to strongly disagree."
+            },
+            {
+                "id": "Reliability test",
+                "type": "Method",
+                "description": "Statistical procedure used to measure the internal consistency of the research instrument."
+            },
+            {
+                "id": "Student response data",
+                "type": "Dataset",
+                "description": "The numerical data collected from 115 student participants regarding their evaluation of the EFP."
+            },
+            {
+                "id": "Duration (390 hours)",
+                "type": "Metric",
+                "description": "The total number of hours implemented for the English foundation program."
+            },
+            {
+                "id": "Cronbach's alpha (.85)",
+                "type": "Metric",
+                "description": "Coefficient of reliability indicating high internal consistency for the questionnaire."
+            },
+            {
+                "id": "Overall agreement (50.4%)",
+                "type": "Metric",
+                "description": "Percentage of student participants who found the EFP helpful for their EMI courses."
+            },
+            {
+                "id": "Target proficiency (CEFR B1 or IELTS 4.5)",
+                "type": "Metric",
+                "description": "The minimum English proficiency level students are expected to achieve after the first semester."
+            },
+            {
+                "id": "Applied Linguistics",
+                "type": "Domain",
+                "description": "The primary field of research involving language education and instruction."
+            },
+            {
+                "id": "Education",
+                "type": "Domain",
+                "description": "The broad field concerning teaching methods and program evaluation."
+            },
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "Lead author and corresponding researcher from Can Tho University."
+            },
+            {
+                "id": "Huynh Chi Minh Huyen",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Nguyen Hai Quan",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The university in Vietnam where the study was conducted and authors are affiliated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "English-as-a-medium-of-instruction (EMI)",
+                "target": "Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "English foundation program (EFP)",
+                "target": "English-as-a-medium-of-instruction (EMI)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "English foundation program (EFP)",
+                "target": "Duration (390 hours)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "13-item questionnaire",
+                "target": "Cronbach's alpha (.85)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "13-item questionnaire",
+                "target": "Student response data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Chi Minh Huyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hai Quan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "English foundation program (EFP)",
+                "target": "Overall agreement (50.4%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "English foundation program (EFP)",
+                "target": "Target proficiency (CEFR B1 or IELTS 4.5)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

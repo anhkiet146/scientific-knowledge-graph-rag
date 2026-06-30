@@ -1,0 +1,205 @@
+{
+  "filename": "05-641-NGUYEN THI HUYNH PHUONG(36-47)272.json",
+  "paper_title": "An evaluation on community participation in ecotourism activities post Covid-19 pandemic at Tan Loc islet, Thot Not district, Can Tho city",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Ecotourism",
+        "type": "Domain",
+        "description": "The primary research field focusing on environmentally responsible travel to natural areas."
+      },
+      {
+        "id": "Community participation",
+        "type": "Concept",
+        "description": "The involvement of local people in tourism activities and decision-making."
+      },
+      {
+        "id": "Perception of economic benefits",
+        "type": "Concept",
+        "description": "A factor affecting community participation related to income and job opportunities."
+      },
+      {
+        "id": "Social capital",
+        "type": "Concept",
+        "description": "Social resources, culture, and relationships contributing to the community."
+      },
+      {
+        "id": "Local policies",
+        "type": "Concept",
+        "description": "Regulations and guidelines by local authorities governing ecotourism."
+      },
+      {
+        "id": "Local resources",
+        "type": "Concept",
+        "description": "The capacity of a locality to provide quality tourism experiences and attract tourists."
+      },
+      {
+        "id": "Lessons from the Covid-19 pandemic",
+        "type": "Concept",
+        "description": "Experiences and coping strategies learned post-pandemic to improve tourism resilience."
+      },
+      {
+        "id": "Exploratory Factors Analysis (EFA)",
+        "type": "Method",
+        "description": "Statistical method used to assess convergent and discriminant validity of measurement scales."
+      },
+      {
+        "id": "Multiple linear regression analysis",
+        "type": "Method",
+        "description": "Statistical process for estimating the relationships among variables."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "A 5-point Likert scale survey tool used for primary data collection."
+      },
+      {
+        "id": "Survey Dataset 2009",
+        "type": "Dataset",
+        "description": "Primary data collected from 120 valid survey responses from households in Tan Loc islet."
+      },
+      {
+        "id": "KMO coefficient (0.748)",
+        "type": "Metric",
+        "description": "Measure of sampling adequacy for factor analysis."
+      },
+      {
+        "id": "Adjusted R-squared (0.523)",
+        "type": "Metric",
+        "description": "Explains 52.3% of the variation in community participation."
+      },
+      {
+        "id": "Cronbach's Alpha (0.843)",
+        "type": "Metric",
+        "description": "Internal consistency reliability coefficient for measurement scales."
+      },
+      {
+        "id": "Total variance extracted (69.450%)",
+        "type": "Metric",
+        "description": "The amount of variance explained by the five extracted factor groups."
+      },
+      {
+        "id": "Nguyen Thi Huynh Phuong",
+        "type": "Author",
+        "description": "First author and corresponding author."
+      },
+      {
+        "id": "Thai Cong Dan",
+        "type": "Author",
+        "description": "Co-author."
+      },
+      {
+        "id": "Le Viet Nghia",
+        "type": "Author",
+        "description": "Co-author."
+      },
+      {
+        "id": "Nguyen Thi Be Ba",
+        "type": "Author",
+        "description": "Co-author."
+      },
+      {
+        "id": "Ly My Tien",
+        "type": "Author",
+        "description": "Co-author."
+      },
+      {
+        "id": "Le Thi To Quyen",
+        "type": "Author",
+        "description": "Co-author."
+      },
+      {
+        "id": "Hue University",
+        "type": "Institution",
+        "description": "Institution of Nguyen Thi Huynh Phuong."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution of multiple authors including Phuong, Dan, Ba, Tien, and Quyen."
+      },
+      {
+        "id": "Tra Vinh University",
+        "type": "Institution",
+        "description": "Institution of Le Viet Nghia."
+      }
+    ],
+    "relations": [
+      {
+        "source": "An evaluation on community participation in ecotourism activities post Covid-19 pandemic at Tan Loc islet",
+        "target": "Ecotourism",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Exploratory Factors Analysis (EFA)",
+        "target": "KMO coefficient (0.748)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Exploratory Factors Analysis (EFA)",
+        "target": "Total variance extracted (69.450%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Multiple linear regression analysis",
+        "target": "Adjusted R-squared (0.523)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Exploratory Factors Analysis (EFA)",
+        "target": "Survey Dataset 2009",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Multiple linear regression analysis",
+        "target": "Survey Dataset 2009",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Multiple linear regression analysis",
+        "target": "Community participation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Nguyen Thi Huynh Phuong",
+        "target": "Hue University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Huynh Phuong",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thai Cong Dan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Viet Nghia",
+        "target": "Tra Vinh University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Be Ba",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ly My Tien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi To Quyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

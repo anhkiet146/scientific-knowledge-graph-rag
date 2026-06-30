@@ -1,0 +1,185 @@
+{
+  "filename": "10-NS-TRAN THI THANH BINH(75-82)041.json",
+  "paper_title": "Diversity of centipedes (Chilopoda: Scolopendromorpha and Scutigeromorpha) in Xuan Nha Nature Reserve, Son La province, Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Biodiversity of centipedes",
+        "type": "Domain",
+        "description": "The study focus on the diversity, composition and distribution of centipedes in Xuan Nha Nature Reserve."
+      },
+      {
+        "id": "Nguyen Duc Hung",
+        "type": "Author",
+        "description": "Author from Faculty of Biology, Hanoi National University of Education."
+      },
+      {
+        "id": "Dang Quoc Trung Chinh",
+        "type": "Author",
+        "description": "Author from Faculty of Biology, Hanoi National University of Education."
+      },
+      {
+        "id": "Nguyen Thi Thanh Huyen",
+        "type": "Author",
+        "description": "Author from Faculty of Biology, Hanoi National University of Education."
+      },
+      {
+        "id": "Le Xuan Son",
+        "type": "Author",
+        "description": "Author from Vietnamese-Russian Tropical Center."
+      },
+      {
+        "id": "Tran Thi Thanh Binh",
+        "type": "Author",
+        "description": "Author and correspondence from Faculty of Biology, Hanoi National University of Education."
+      },
+      {
+        "id": "Faculty of Biology, Hanoi National University of Education",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "Vietnamese-Russian Tropical Center",
+        "type": "Institution",
+        "description": "Research center in Vietnam."
+      },
+      {
+        "id": "Species diversity",
+        "type": "Concept",
+        "description": "The variety and abundance of centipede species in different habitats."
+      },
+      {
+        "id": "Taxonomy of Scolopendromorpha and Scutigeromorpha",
+        "type": "Concept",
+        "description": "Classification and identification of specific centipede orders."
+      },
+      {
+        "id": "Barber trapping method",
+        "type": "Method",
+        "description": "Qualitative sampling method for collecting ground-dwelling specimens."
+      },
+      {
+        "id": "Soil-sieving method",
+        "type": "Method",
+        "description": "Quantitative sampling method used in various forest types."
+      },
+      {
+        "id": "Morphological comparison and classification",
+        "type": "Method",
+        "description": "Identification technique based on physical characteristics like antennomeres and sternites."
+      },
+      {
+        "id": "Primer V.5.2.4",
+        "type": "Method",
+        "description": "Software used for calculating community diversity indexes."
+      },
+      {
+        "id": "Ethanol 70%",
+        "type": "Method",
+        "description": "Chemical used for preserving centipede specimens."
+      },
+      {
+        "id": "Olympus SZX10",
+        "type": "Method",
+        "description": "Microscope used for specimen observation."
+      },
+      {
+        "id": "Chilobase 2.0",
+        "type": "Dataset",
+        "description": "Digital database used for comparing centipede distribution and records."
+      },
+      {
+        "id": "Total species (14)",
+        "type": "Metric",
+        "description": "Total count of centipede species and subspecies recorded."
+      },
+      {
+        "id": "Diversity index H' (1.00 - 3.00)",
+        "type": "Metric",
+        "description": "Range of Shannon-Wever index indicating medium diversity."
+      },
+      {
+        "id": "Broadleaf forest diversity (H' = 2.11)",
+        "type": "Metric",
+        "description": "Specific Shannon-Wever index for broadleaf forest habitat."
+      },
+      {
+        "id": "Mixed forest density (1.20 individuals/m2)",
+        "type": "Metric",
+        "description": "Highest recorded density of centipedes among habitats."
+      },
+      {
+        "id": "Homogeneous index J' (1.00)",
+        "type": "Metric",
+        "description": "Highest homogeneity index recorded in bamboo forest."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Duc Hung",
+        "target": "Faculty of Biology, Hanoi National University of Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Quoc Trung Chinh",
+        "target": "Faculty of Biology, Hanoi National University of Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Thanh Huyen",
+        "target": "Faculty of Biology, Hanoi National University of Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Thanh Binh",
+        "target": "Faculty of Biology, Hanoi National University of Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Xuan Son",
+        "target": "Vietnamese-Russian Tropical Center",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Barber trapping method",
+        "target": "Species diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Soil-sieving method",
+        "target": "Species diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Morphological comparison and classification",
+        "target": "Taxonomy of Scolopendromorpha and Scutigeromorpha",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Primer V.5.2.4",
+        "target": "Diversity index H' (1.00 - 3.00)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Primer V.5.2.4",
+        "target": "Broadleaf forest diversity (H' = 2.11)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Primer V.5.2.4",
+        "target": "Homogeneous index J' (1.00)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Morphological comparison and classification",
+        "target": "Chilobase 2.0",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Biodiversity of centipedes",
+        "target": "Biodiversity of centipedes",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

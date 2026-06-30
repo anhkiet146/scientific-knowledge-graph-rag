@@ -1,0 +1,170 @@
+{
+    "filename": "AE-NGUYEN HUYNH ANH DUY(19-26)044.json",
+    "paper_title": "Design a model of glass cleaning device",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Mechatronics",
+                "type": "Domain",
+                "description": "The main field of research involving mechanical engineering and electronics."
+            },
+            {
+                "id": "Automatic control",
+                "type": "Domain",
+                "description": "Field concerning the automation of devices and robots."
+            },
+            {
+                "id": "Nguyen Huynh Anh Duy",
+                "type": "Author",
+                "description": "Lead author of the study."
+            },
+            {
+                "id": "Nguyen Van Khanh",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Nguyen Chi Ngon",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the authors are affiliated."
+            },
+            {
+                "id": "Occupational safety",
+                "type": "Concept",
+                "description": "The concern for protecting workers from hazards when cleaning skyscrapers."
+            },
+            {
+                "id": "Glass cleaning",
+                "type": "Concept",
+                "description": "The primary problem being solved by the developed device."
+            },
+            {
+                "id": "Wall climbing",
+                "type": "Concept",
+                "description": "The ability of a robot to move on vertical surfaces."
+            },
+            {
+                "id": "Trapezoidal velocity profile (TVP)",
+                "type": "Method",
+                "description": "A control method used to manage the velocity and acceleration of the device."
+            },
+            {
+                "id": "Crane-like model",
+                "type": "Method",
+                "description": "The mechanical design structure used to move the device horizontally and vertically."
+            },
+            {
+                "id": "Arduino Mega 2560",
+                "type": "Method",
+                "description": "The microcontroller board used to control sensors, motors, and pumps."
+            },
+            {
+                "id": "Vacuum pump",
+                "type": "Method",
+                "description": "A 45W device used to create pressure gaps for adhesive force."
+            },
+            {
+                "id": "Venturi principle",
+                "type": "Method",
+                "description": "Physical principle used to design the vacuum chamber shape."
+            },
+            {
+                "id": "Glass size (1.45m x 0.85m)",
+                "type": "Metric",
+                "description": "The dimensions of the glass frame used for the experiment."
+            },
+            {
+                "id": "Pressure drop (0.08 mbar)",
+                "type": "Metric",
+                "description": "The calculated difference in pressure inside the vacuum chamber."
+            },
+            {
+                "id": "Attractive force (81.63 N)",
+                "type": "Metric",
+                "description": "The force generated to keep the device attached to the glass."
+            },
+            {
+                "id": "Max rotor speed (56 rpm)",
+                "type": "Metric",
+                "description": "The maximum speed calculated for the motor during operation."
+            },
+            {
+                "id": "Time to complete horizontal move (8s)",
+                "type": "Metric",
+                "description": "The physical model's duration to complete a full horizontal sweep."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Huynh Anh Duy",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Khanh",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Chi Ngon",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Design a model of glass cleaning device",
+                "target": "Mechatronics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Design a model of glass cleaning device",
+                "target": "Automatic control",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Trapezoidal velocity profile (TVP)",
+                "target": "Glass cleaning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Trapezoidal velocity profile (TVP)",
+                "target": "Max rotor speed (56 rpm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Trapezoidal velocity profile (TVP)",
+                "target": "Time to complete horizontal move (8s)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Vacuum pump",
+                "target": "Pressure drop (0.08 mbar)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Vacuum pump",
+                "target": "Attractive force (81.63 N)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Crane-like model",
+                "target": "Wall climbing",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Arduino Mega 2560",
+                "target": "Glass cleaning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Venturi principle",
+                "target": "Vacuum pump",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "filename": "14-CE-TRINH CHI THAM(96-109).json",
+    "paper_title": "LECTURERS' PERCEPTIONS ABOUT EMPLOYING CRITICAL THINKING IN EDUCATING GEOGRAPHY PEDAGOGY STUDENTS AT CAN THO UNIVERSITY, VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Trinh Chi Tham",
+                "type": "Author",
+                "description": "The primary author of the study."
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the author is affiliated."
+            },
+            {
+                "id": "Geography Pedagogy",
+                "type": "Domain",
+                "description": "The main research field focusing on teaching geography students."
+            },
+            {
+                "id": "Critical Thinking",
+                "type": "Concept",
+                "description": "A higher thinking skill involving interpretation and evaluation of arguments."
+            },
+            {
+                "id": "Lecturers' Perceptions",
+                "type": "Concept",
+                "description": "The main research problem investigating attitudes and beliefs of educators."
+            },
+            {
+                "id": "Qualitative research approach",
+                "type": "Method",
+                "description": "The overall research design used to explore meanings and understanding."
+            },
+            {
+                "id": "Exploratory case study",
+                "type": "Method",
+                "description": "The specific research methodology used to investigate the topic in depth."
+            },
+            {
+                "id": "Semi-structured interviews",
+                "type": "Method",
+                "description": "Data collection technique using open-ended questions."
+            },
+            {
+                "id": "Purposeful sampling",
+                "type": "Method",
+                "description": "Selection strategy based on specific criteria for participants."
+            },
+            {
+                "id": "Bloom's Taxonomy",
+                "type": "Method",
+                "description": "A framework for classifying educational learning objectives into levels of complexity."
+            },
+            {
+                "id": "Interview transcripts",
+                "type": "Dataset",
+                "description": "The collected verbal data from the seven interviewed lecturers."
+            },
+            {
+                "id": "Number of participants (7)",
+                "type": "Metric",
+                "description": "The specific count of lecturers interviewed in the study."
+            },
+            {
+                "id": "Teaching experience (5 years)",
+                "type": "Metric",
+                "description": "The minimum experience criterion for selecting participants."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Trinh Chi Tham",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Qualitative research approach",
+                "target": "Geography Pedagogy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Exploratory case study",
+                "target": "Critical Thinking",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Semi-structured interviews",
+                "target": "Lecturers' Perceptions",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Qualitative research approach",
+                "target": "Interview transcripts",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Purposeful sampling",
+                "target": "Number of participants (7)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Purposeful sampling",
+                "target": "Teaching experience (5 years)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Bloom's Taxonomy",
+                "target": "Critical Thinking",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

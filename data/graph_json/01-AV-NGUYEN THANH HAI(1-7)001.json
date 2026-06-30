@@ -1,0 +1,175 @@
+{
+  "filename": "01-AV-NGUYEN THANH HAI(1-7)001.json",
+  "paper_title": "Efficacy of PCDairy application in optimal ration formulation for milking cows on milk productivity and quality",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Hai Thanh Nguyen",
+        "type": "Author",
+        "description": "Lead author of the research paper"
+      },
+      {
+        "id": "Diep Tan Toan",
+        "type": "Author",
+        "description": "Co-author of the research paper"
+      },
+      {
+        "id": "Nong Lam University",
+        "type": "Institution",
+        "description": "Educational institution in Ho Chi Minh City, Vietnam"
+      },
+      {
+        "id": "Dairy Demonstration and Experimental Farm with High Technology",
+        "type": "Institution",
+        "description": "High-tech experimental farm in Ho Chi Minh City, Vietnam"
+      },
+      {
+        "id": "Dairy Science",
+        "type": "Domain",
+        "description": "The primary field of research concerning milk production and dairy cow nutrition"
+      },
+      {
+        "id": "PCDairy",
+        "type": "Method",
+        "description": "A package of computer programs used for optimal ration formulation and evaluation for dairy cows"
+      },
+      {
+        "id": "Total Mixed Ration (TMR)",
+        "type": "Method",
+        "description": "A feeding method that combines specific nutrients into a complete feed mixture"
+      },
+      {
+        "id": "Completely randomized block design",
+        "type": "Method",
+        "description": "The experimental design used for the study"
+      },
+      {
+        "id": "Ekomilk Total machine",
+        "type": "Method",
+        "description": "Equipment used for rapid analysis of milk quality indicators"
+      },
+      {
+        "id": "Minitab Software version 16.2",
+        "type": "Method",
+        "description": "Statistical software used for data analysis"
+      },
+      {
+        "id": "NRC (2001)",
+        "type": "Dataset",
+        "description": "Nutritional requirements database for lactating dairy cows"
+      },
+      {
+        "id": "Optimal ration formulation",
+        "type": "Concept",
+        "description": "The process of calculating the best nutrient balance for livestock"
+      },
+      {
+        "id": "Milk productivity",
+        "type": "Concept",
+        "description": "The efficiency and volume of milk produced by cows"
+      },
+      {
+        "id": "Milk quality",
+        "type": "Concept",
+        "description": "The composition and health standards of milk (fat, protein, solids)"
+      },
+      {
+        "id": "Average milk yield (29.48 kg/cow/day)",
+        "type": "Metric",
+        "description": "Yield achieved by the PCDairy corrected ration treatment"
+      },
+      {
+        "id": "DMI/kg milk (0.69 kg DMI/kg milk)",
+        "type": "Metric",
+        "description": "Dry matter intake efficiency achieved by the PCDairy treatment"
+      },
+      {
+        "id": "Feed cost reduction (10.89%)",
+        "type": "Metric",
+        "description": "Percentage decrease in feed cost per kg of milk using PCDairy"
+      },
+      {
+        "id": "Milk fat (3.60%)",
+        "type": "Metric",
+        "description": "Percentage of fat in milk from PCDairy treatment"
+      },
+      {
+        "id": "Milk protein (3.95%)",
+        "type": "Metric",
+        "description": "Percentage of protein in milk from PCDairy treatment"
+      },
+      {
+        "id": "Solid-not-fat (10.18%)",
+        "type": "Metric",
+        "description": "Percentage of SNF in milk from PCDairy treatment"
+      },
+      {
+        "id": "Digestive disease rate (7.14%)",
+        "type": "Metric",
+        "description": "Incidence of digestive issues in the PCDairy treatment group"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Hai Thanh Nguyen",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Diep Tan Toan",
+        "target": "Dairy Demonstration and Experimental Farm with High Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "PCDairy",
+        "target": "Dairy Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "PCDairy",
+        "target": "Optimal ration formulation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "PCDairy",
+        "target": "Milk productivity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "PCDairy",
+        "target": "Average milk yield (29.48 kg/cow/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCDairy",
+        "target": "Feed cost reduction (10.89%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCDairy",
+        "target": "DMI/kg milk (0.69 kg DMI/kg milk)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCDairy",
+        "target": "Milk fat (3.60%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCDairy",
+        "target": "Digestive disease rate (7.14%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCDairy",
+        "target": "NRC (2001)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Ekomilk Total machine",
+        "target": "Milk quality",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "filename": "03-AG-DOAN THI KIEU TIEN(17-22)036.json",
+  "paper_title": "Applications of bacteriophages in controlling rice bacterial grain rot caused by Burkholderia glumae",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Agriculture",
+        "type": "Domain",
+        "description": "The research focuses on plant disease control within the agricultural sector."
+      },
+      {
+        "id": "Doan Thi Kieu Tien",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Ngo Ngoc Tai",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Kamei Kaeko",
+        "type": "Author",
+        "description": "Researcher from Kyoto Institute of Technology."
+      },
+      {
+        "id": "Tran Thi Thu Thuy",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Thu Nga",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam."
+      },
+      {
+        "id": "Department of Biomolecular Engineering, Kyoto Institute of Technology",
+        "type": "Institution",
+        "description": "Academic institution in Japan."
+      },
+      {
+        "id": "Bacterial grain rot",
+        "type": "Concept",
+        "description": "A serious rice disease caused by Burkholderia glumae."
+      },
+      {
+        "id": "Burkholderia glumae",
+        "type": "Concept",
+        "description": "The bacterial pathogen responsible for rice grain rot."
+      },
+      {
+        "id": "Phage therapy",
+        "type": "Concept",
+        "description": "A method using bacteriophages to control bacterial diseases."
+      },
+      {
+        "id": "Bacteriophage ФBurAG58",
+        "type": "Method",
+        "description": "Lytic phage used to control B. glumae."
+      },
+      {
+        "id": "King's B medium",
+        "type": "Method",
+        "description": "Culture medium used for bacteria and phage preparation."
+      },
+      {
+        "id": "Phage titer 10^8 PFU/mL",
+        "type": "Method",
+        "description": "The highest concentration of phage used in the experiment."
+      },
+      {
+        "id": "Spraying 2 hours before pathogen inoculation",
+        "type": "Method",
+        "description": "Application timing treatment for disease prevention."
+      },
+      {
+        "id": "Duncan Test",
+        "type": "Method",
+        "description": "Statistical test used to compare means."
+      },
+      {
+        "id": "MstatC software",
+        "type": "Method",
+        "description": "Statistical computer package program."
+      },
+      {
+        "id": "Experimental disease data",
+        "type": "Dataset",
+        "description": "Recorded data on percentage of infected grains and AUDPC."
+      },
+      {
+        "id": "Yield loss (up to 65%)",
+        "type": "Metric",
+        "description": "Recorded yield loss in the USA due to B. glumae."
+      },
+      {
+        "id": "AUDPC (103-409)",
+        "type": "Metric",
+        "description": "Area under the disease progress curve for phage treatments."
+      },
+      {
+        "id": "Control AUDPC (725)",
+        "type": "Metric",
+        "description": "Area under the disease progress curve for untreated control."
+      },
+      {
+        "id": "Bacterial suspension (9 x 10^8 CFU/mL)",
+        "type": "Metric",
+        "description": "Concentration of adjusted bacterial suspension."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Applications of bacteriophages in controlling rice bacterial grain rot caused by Burkholderia glumae",
+        "target": "Agriculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Doan Thi Kieu Tien",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Ngoc Tai",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Thu Thuy",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Thu Nga",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kamei Kaeko",
+        "target": "Department of Biomolecular Engineering, Kyoto Institute of Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bacteriophage ФBurAG58",
+        "target": "Bacterial grain rot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Phage therapy",
+        "target": "Bacterial grain rot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Phage titer 10^8 PFU/mL",
+        "target": "AUDPC (103-409)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Duncan Test",
+        "target": "Experimental disease data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "MstatC software",
+        "target": "Experimental disease data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Spraying 2 hours before pathogen inoculation",
+        "target": "Bacterial grain rot",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+    "filename": "06-PHAN VAN LONG EM(43-51)029.json",
+    "paper_title": "Synchronization in complete networks of reaction-diffusion equations of FitzHugh-Nagumo type with nonlinear coupling",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phan Van Long Em",
+                "type": "Author",
+                "description": "The primary author of the research paper."
+            },
+            {
+                "id": "An Giang University",
+                "type": "Institution",
+                "description": "An academic institution in Vietnam where the author is affiliated."
+            },
+            {
+                "id": "Viet Nam National University, Ho Chi Minh City",
+                "type": "Institution",
+                "description": "A major national university system in Vietnam."
+            },
+            {
+                "id": "Nonlinear Science",
+                "type": "Domain",
+                "description": "The broader scientific field involving nonlinear systems and dynamics."
+            },
+            {
+                "id": "Synchronization",
+                "type": "Concept",
+                "description": "The phenomenon of dynamical systems having the same behavior at the same time."
+            },
+            {
+                "id": "Complete networks",
+                "type": "Concept",
+                "description": "A network topology where each node is connected to all other nodes."
+            },
+            {
+                "id": "Reaction-diffusion equations",
+                "type": "Concept",
+                "description": "Mathematical models describing how the concentration of substances changes under influence of local reactions and diffusion."
+            },
+            {
+                "id": "FitzHugh-Nagumo model",
+                "type": "Method",
+                "description": "A simplified version of the Hodgkin-Huxley model used to describe neuron excitation."
+            },
+            {
+                "id": "Numerical simulations",
+                "type": "Method",
+                "description": "Computational experiments used to verify theoretical results."
+            },
+            {
+                "id": "Partial differential equations (PDE)",
+                "type": "Method",
+                "description": "Differential equations that contain unknown multivariable functions and their partial derivatives."
+            },
+            {
+                "id": "Cable equation",
+                "type": "Method",
+                "description": "A mathematical equation describing current flow and voltage change in neurons."
+            },
+            {
+                "id": "Coupling strength (g=0.025)",
+                "type": "Metric",
+                "description": "The value required to achieve synchronization in a three-neuron network."
+            },
+            {
+                "id": "g_n = 0.038/n + 0.004",
+                "type": "Metric",
+                "description": "The representative law/formula for the coupling strength of synchronization according to the number of neurons."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Phan Van Long Em",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Van Long Em",
+                "target": "Viet Nam National University, Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Synchronization",
+                "target": "Nonlinear Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "FitzHugh-Nagumo model",
+                "target": "Synchronization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Numerical simulations",
+                "target": "Coupling strength (g=0.025)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Numerical simulations",
+                "target": "g_n = 0.038/n + 0.004",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Partial differential equations (PDE)",
+                "target": "Reaction-diffusion equations",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "FitzHugh-Nagumo model",
+                "target": "Numerical simulations",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

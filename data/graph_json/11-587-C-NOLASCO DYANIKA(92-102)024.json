@@ -1,0 +1,185 @@
+{
+  "filename": "11-587-C-NOLASCO DYANIKA(92-102)024.json",
+  "paper_title": "Learning Management System usage: Unwrapping its potentials and drawbacks",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Learning Management System usage: Unwrapping its potentials and drawbacks",
+        "type": "Concept",
+        "description": "The title and core research problem of the paper exploring the pros and cons of LMS."
+      },
+      {
+        "id": "Dyanika P. Nolasco",
+        "type": "Author",
+        "description": "Lead author of the study from Quirino State University."
+      },
+      {
+        "id": "Danisse Mae P. Hernandez",
+        "type": "Author",
+        "description": "Co-author of the study from Quirino State University."
+      },
+      {
+        "id": "Quirino State University",
+        "type": "Institution",
+        "description": "The educational institution in the Philippines where the research was conducted."
+      },
+      {
+        "id": "Educational Technology",
+        "type": "Domain",
+        "description": "The primary field of research involving digital systems in learning."
+      },
+      {
+        "id": "Learning Management System (LMS)",
+        "type": "Concept",
+        "description": "Web-based platforms like Moodle used for organizing and executing academic learning."
+      },
+      {
+        "id": "Connectivism",
+        "type": "Concept",
+        "description": "A learning philosophy for the Digital Age that grounds the study."
+      },
+      {
+        "id": "User-Centred Design Theory",
+        "type": "Concept",
+        "description": "Theory used to framework the customized design of the LMS."
+      },
+      {
+        "id": "System quality",
+        "type": "Concept",
+        "description": "A dimension of LMS potential assessment involving layout and navigation."
+      },
+      {
+        "id": "Information quality",
+        "type": "Concept",
+        "description": "Assessment of content currency, accuracy, and sufficiency."
+      },
+      {
+        "id": "QSU e-ARAL",
+        "type": "Method",
+        "description": "The specific customized Moodle-based Learning Management System used at Quirino State University."
+      },
+      {
+        "id": "Mixed-methods research design",
+        "type": "Method",
+        "description": "The overarching research approach involving both quantitative and qualitative techniques."
+      },
+      {
+        "id": "Survey instrument",
+        "type": "Method",
+        "description": "A validated and pilot-tested tool used to collect quantitative data."
+      },
+      {
+        "id": "Social media interviews",
+        "type": "Method",
+        "description": "Qualitative data collection method using Messenger chats."
+      },
+      {
+        "id": "Thematic analysis",
+        "type": "Method",
+        "description": "A methodical data coding procedure used to examine qualitative statements."
+      },
+      {
+        "id": "Moodle",
+        "type": "Method",
+        "description": "The open-source platform used to build and customize QSU e-ARAL."
+      },
+      {
+        "id": "Student survey and interview records",
+        "type": "Dataset",
+        "description": "The collection of digital responses from 1,372 quantitative and 10 qualitative participants."
+      },
+      {
+        "id": "Quantitative sample size (1,372 students)",
+        "type": "Metric",
+        "description": "The number of randomly chosen students for the quantitative phase."
+      },
+      {
+        "id": "Qualitative sample size (10 students)",
+        "type": "Metric",
+        "description": "The number of students chosen for the in-depth interview phase."
+      },
+      {
+        "id": "Female student ratio (74.71%)",
+        "type": "Metric",
+        "description": "The percentage of female respondents in the survey."
+      },
+      {
+        "id": "Male student ratio (25.29%)",
+        "type": "Metric",
+        "description": "The percentage of male respondents in the survey."
+      },
+      {
+        "id": "Maximum file size limit (16MB)",
+        "type": "Metric",
+        "description": "Technical storage constraint for video outputs in the LMS."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Learning Management System usage: Unwrapping its potentials and drawbacks",
+        "target": "Educational Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dyanika P. Nolasco",
+        "target": "Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Danisse Mae P. Hernandez",
+        "target": "Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mixed-methods research design",
+        "target": "Quantitative sample size (1,372 students)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Mixed-methods research design",
+        "target": "Qualitative sample size (10 students)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Mixed-methods research design",
+        "target": "Female student ratio (74.71%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Mixed-methods research design",
+        "target": "Male student ratio (25.29%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "QSU e-ARAL",
+        "target": "Maximum file size limit (16MB)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "QSU e-ARAL",
+        "target": "Learning Management System (LMS)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Mixed-methods research design",
+        "target": "Connectivism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Mixed-methods research design",
+        "target": "Student survey and interview records",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Survey instrument",
+        "target": "Student survey and interview records",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Social media interviews",
+        "target": "Student survey and interview records",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

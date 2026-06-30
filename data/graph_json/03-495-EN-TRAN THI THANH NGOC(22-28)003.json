@@ -1,0 +1,165 @@
+{
+  "filename": "03-495-EN-TRAN THI THANH NGOC(22-28)003.json",
+  "paper_title": "Evaluating household coal slag emissions in Binh Chanh District, Ho Chi Minh City, Viet Nam and recommended solutions",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Thi Thanh Ngoc",
+        "type": "Author",
+        "description": "Author of the research article"
+      },
+      {
+        "id": "Thai Phuong Vu",
+        "type": "Author",
+        "description": "Corresponding author of the research article"
+      },
+      {
+        "id": "Dong Thap University",
+        "type": "Institution",
+        "description": "Department of Scientific Management, Da Nang, Viet Nam"
+      },
+      {
+        "id": "Ho Chi Minh City University of Natural Resources and Environment",
+        "type": "Institution",
+        "description": "Faculty of Environment, Ho Chi Minh City, Viet Nam"
+      },
+      {
+        "id": "Environmental Science",
+        "type": "Domain",
+        "description": "Study of coal slag emissions and environmental impact management"
+      },
+      {
+        "id": "Household coal slag emissions",
+        "type": "Concept",
+        "description": "The release of solid waste from coal burning in domestic settings"
+      },
+      {
+        "id": "Air quality",
+        "type": "Concept",
+        "description": "Concentration of pollutants like HCHO, TVOC, and particulate matter"
+      },
+      {
+        "id": "Fact-finding survey",
+        "type": "Method",
+        "description": "A questionnaire-based investigation to determine emission volume"
+      },
+      {
+        "id": "GPS",
+        "type": "Method",
+        "description": "Used to pin emission sources and plot distribution spatially"
+      },
+      {
+        "id": "Coal burning experiments",
+        "type": "Method",
+        "description": "Experiments performed to estimate quantity of slag and air pollution"
+      },
+      {
+        "id": "Honeycomb charcoal",
+        "type": "Method",
+        "description": "Fuel material used in experiments (large and small sizes)"
+      },
+      {
+        "id": "Multifunctional Air Quality Detector",
+        "type": "Method",
+        "description": "Equipment used to record HCHO and TVOC levels"
+      },
+      {
+        "id": "Benetech GM8803 air quality meter",
+        "type": "Method",
+        "description": "Equipment used to determine PM2.5 and PM10 parameters"
+      },
+      {
+        "id": "Lutron YK-80AP anemometer",
+        "type": "Method",
+        "description": "Equipment used to measure wind speed and direction"
+      },
+      {
+        "id": "Survey data from 120 objects",
+        "type": "Dataset",
+        "description": "Statistical data collected from 100 household businesses and 20 households"
+      },
+      {
+        "id": "Annual household coal slag emissions (146 tonnes)",
+        "type": "Metric",
+        "description": "Total estimated slag emission per year in the study area"
+      },
+      {
+        "id": "Direct discharge rate (60%)",
+        "type": "Metric",
+        "description": "Percentage of slag directly discharged into the environment"
+      },
+      {
+        "id": "Daily coal slag generation (400 kg)",
+        "type": "Metric",
+        "description": "The total amount of slag obtained per day from surveyed objects"
+      },
+      {
+        "id": "Allowable HCHO concentration (20 µg/m3)",
+        "type": "Metric",
+        "description": "National standard limit for Formaldehyde concentration"
+      },
+      {
+        "id": "Permissible PM2.5 concentration (50 µg/m3)",
+        "type": "Metric",
+        "description": "National standard limit for PM2.5 in one day"
+      },
+      {
+        "id": "Shortness of breath (18.3%)",
+        "type": "Metric",
+        "description": "Percentage of respondents reporting breathing difficulties"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Evaluating household coal slag emissions in Binh Chanh District",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Thi Thanh Ngoc",
+        "target": "Dong Thap University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thai Phuong Vu",
+        "target": "Ho Chi Minh City University of Natural Resources and Environment",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Fact-finding survey",
+        "target": "Household coal slag emissions",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Coal burning experiments",
+        "target": "Air quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Fact-finding survey",
+        "target": "Survey data from 120 objects",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Fact-finding survey",
+        "target": "Annual household coal slag emissions (146 tonnes)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fact-finding survey",
+        "target": "Direct discharge rate (60%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Coal burning experiments",
+        "target": "Daily coal slag generation (400 kg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fact-finding survey",
+        "target": "Shortness of breath (18.3%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

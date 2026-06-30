@@ -1,0 +1,130 @@
+{
+  "filename": "DE-NGUYEN PHAM THANH NAM(160-169)061.json",
+  "paper_title": "Managerial human resource quality of firms in the Mekong Delta, Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Pham Thanh Nam",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Le Khuong Ninh",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "College of Economics, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution where the authors are affiliated."
+      },
+      {
+        "id": "Economics",
+        "type": "Domain",
+        "description": "The primary research field of the paper."
+      },
+      {
+        "id": "Managerial human resource quality",
+        "type": "Concept",
+        "description": "The core problem examining the professional knowledge, experience, and training of firm managers."
+      },
+      {
+        "id": "Echelon theory",
+        "type": "Concept",
+        "description": "A theory developed by Hambrick and Mason (1986) used to examine the impact of human resources on firm growth."
+      },
+      {
+        "id": "t-tests",
+        "type": "Method",
+        "description": "Statistical method used for hypothesis testing and comparing means."
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Analysis of variance used to analyze the differences among group means."
+      },
+      {
+        "id": "Survey",
+        "type": "Method",
+        "description": "Method of primary data collection involving 450 firms."
+      },
+      {
+        "id": "Primary data set of 450 firms",
+        "type": "Dataset",
+        "description": "Digital data collected directly from firms in the Mekong Delta."
+      },
+      {
+        "id": "Secondary data set",
+        "type": "Dataset",
+        "description": "Data provided by relevant organizations, including the General Statistical Office of Vietnam."
+      },
+      {
+        "id": "Growth rate of sales in 2011 (35.6%)",
+        "type": "Metric",
+        "description": "Measurement of sales performance for firms in the region."
+      },
+      {
+        "id": "Managers without bachelor degree (25.3%)",
+        "type": "Metric",
+        "description": "Educational qualification metric showing the percentage of managers lacking a degree."
+      },
+      {
+        "id": "Average amount of bribes (VND 115.7 million per year)",
+        "type": "Metric",
+        "description": "Metric measuring the cost of business environment constraints."
+      },
+      {
+        "id": "Number of firms in Mekong Delta 2014 (31,146)",
+        "type": "Metric",
+        "description": "The total count of firms in the research region."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Pham Thanh Nam",
+        "target": "College of Economics, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Khuong Ninh",
+        "target": "College of Economics, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "t-tests",
+        "target": "Managerial human resource quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Managerial human resource quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "t-tests",
+        "target": "Primary data set of 450 firms",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Primary data set of 450 firms",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "t-tests",
+        "target": "Managers without bachelor degree (25.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Managers without bachelor degree (25.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Managerial human resource quality of firms in the Mekong Delta, Vietnam",
+        "target": "Economics",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

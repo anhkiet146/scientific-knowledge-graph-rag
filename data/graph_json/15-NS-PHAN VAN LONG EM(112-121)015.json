@@ -1,0 +1,110 @@
+{
+  "filename": "15-NS-PHAN VAN LONG EM(112-121)015.json",
+  "paper_title": "A study of fixed points and Hopf bifurcation of Fitzhugh-Nagumo model",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phan Van Long Em",
+        "type": "Author",
+        "description": "Tác giả của nghiên cứu về mô hình FitzHugh-Nagumo."
+      },
+      {
+        "id": "Tien Giang University",
+        "type": "Institution",
+        "description": "Cơ quan công tác của tác giả tại Việt Nam."
+      },
+      {
+        "id": "Neurophysiology",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về chức năng của hệ thần kinh."
+      },
+      {
+        "id": "FitzHugh-Nagumo model",
+        "type": "Method",
+        "description": "Mô hình toán học rút gọn từ mô hình Hodgkin-Huxley dùng để mô tả xung thần kinh."
+      },
+      {
+        "id": "Hodgkin-Huxley model",
+        "type": "Method",
+        "description": "Mô hình toán học nổi tiếng trong nghiên cứu sinh lý thần kinh."
+      },
+      {
+        "id": "Hopf's theorem",
+        "type": "Method",
+        "description": "Định lý toán học dùng để chứng minh sự tồn tại của phân nhánh Hopf."
+      },
+      {
+        "id": "Jacobian matrix",
+        "type": "Method",
+        "description": "Ma trận đạo hàm riêng dùng để phân tích tính ổn định của hệ thống."
+      },
+      {
+        "id": "Method of Hassard, Kazarinoff and Wan",
+        "type": "Method",
+        "description": "Phương pháp toán học để phân tích các hệ số trong hệ động lực."
+      },
+      {
+        "id": "Fixed points",
+        "type": "Concept",
+        "description": "Điểm cố định (điểm cân bằng) của hệ thống động lực."
+      },
+      {
+        "id": "Hopf bifurcation",
+        "type": "Concept",
+        "description": "Sự xuất hiện hoặc mất đi tính ổn định của điểm cố định dẫn đến chu trình giới hạn."
+      },
+      {
+        "id": "Stability",
+        "type": "Concept",
+        "description": "Trạng thái ổn định của các nghiệm trong hệ phương trình vi phân."
+      },
+      {
+        "id": "Limit cycle",
+        "type": "Concept",
+        "description": "Quỹ đạo đóng trong không gian pha của hệ động lực."
+      },
+      {
+        "id": "Excitability",
+        "type": "Concept",
+        "description": "Khả năng phản ứng mạnh mẽ của hệ thống trước một kích thích nhỏ."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Phan Van Long Em",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "FitzHugh-Nagumo model",
+        "target": "Neurophysiology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "FitzHugh-Nagumo model",
+        "target": "Fixed points",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "FitzHugh-Nagumo model",
+        "target": "Hopf bifurcation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Hopf's theorem",
+        "target": "Hopf bifurcation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Jacobian matrix",
+        "target": "Stability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Method of Hassard, Kazarinoff and Wan",
+        "target": "Hopf bifurcation",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+    "filename": "13-NS-LA PHAN PHUONG HA(81-87)029.json",
+    "paper_title": "The properties of ZnO nanorods modified by Au nanoparticles for galactose biosensor application",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "The properties of ZnO nanorods modified by Au nanoparticles for galactose biosensor application",
+                "type": "Concept",
+                "description": "The title and core research topic of the paper"
+            },
+            {
+                "id": "Nanotechnology",
+                "type": "Domain",
+                "description": "The general field of study involving nanomaterials"
+            },
+            {
+                "id": "Biosensors",
+                "type": "Domain",
+                "description": "The specific field involving biological sensing devices"
+            },
+            {
+                "id": "Galactose biosensor",
+                "type": "Concept",
+                "description": "The primary application being developed"
+            },
+            {
+                "id": "ZnO nanorods",
+                "type": "Method",
+                "description": "One-dimensional nanostructures used as the base for the biosensor"
+            },
+            {
+                "id": "Au nanoparticles",
+                "type": "Method",
+                "description": "Gold nanoparticles used to modify the ZnO nanorods to improve activity"
+            },
+            {
+                "id": "Galactose oxidase enzyme (GOx)",
+                "type": "Method",
+                "description": "The enzyme immobilized on the electrode for sensing galactose"
+            },
+            {
+                "id": "Sol-gel method",
+                "type": "Method",
+                "description": "Process used to grow ZnO nanorods on substrates"
+            },
+            {
+                "id": "Hydrothermal method",
+                "type": "Method",
+                "description": "Process used to modify ZnO nanorods with Au nanoparticles"
+            },
+            {
+                "id": "Cyclic voltammetry method",
+                "type": "Method",
+                "description": "Analytical method used to test the activity of the working electrode"
+            },
+            {
+                "id": "FTO substrate",
+                "type": "Method",
+                "description": "Indium tin oxide-coated glass substrates"
+            },
+            {
+                "id": "La Phan Phuong Ha",
+                "type": "Author",
+                "description": "Researcher and corresponding author"
+            },
+            {
+                "id": "Ho Dinh Huy",
+                "type": "Author",
+                "description": "Researcher"
+            },
+            {
+                "id": "Lam Nu Mong Tra",
+                "type": "Author",
+                "description": "Researcher"
+            },
+            {
+                "id": "Tran Quang Trung",
+                "type": "Author",
+                "description": "Researcher"
+            },
+            {
+                "id": "University of Science, Vietnam National University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "The academic institution of the authors"
+            },
+            {
+                "id": "ZnO nanorod diameter (40-60 nm)",
+                "type": "Metric",
+                "description": "Observed size of the ZnO nanostructures"
+            },
+            {
+                "id": "Au nanoparticle diameter (6-8 nm)",
+                "type": "Metric",
+                "description": "Observed size of the gold nanoparticles"
+            },
+            {
+                "id": "Current intensity of GOx|ZnO|FTO (0.09 µA/mm2)",
+                "type": "Metric",
+                "description": "Measured current intensity without Au modification"
+            },
+            {
+                "id": "Current intensity of GOx|Au-ZnO|FTO (0.2 µA/mm2)",
+                "type": "Metric",
+                "description": "Measured current intensity with Au modification"
+            },
+            {
+                "id": "Linear detection range (40 mM to 230 mM)",
+                "type": "Metric",
+                "description": "The concentration range where the sensor is effective"
+            },
+            {
+                "id": "Sensitivity (100 mV/decade)",
+                "type": "Metric",
+                "description": "The sensitivity performance of the proposed biosensor"
+            }
+        ],
+        "relations": [
+            {
+                "source": "The properties of ZnO nanorods modified by Au nanoparticles for galactose biosensor application",
+                "target": "Nanotechnology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "The properties of ZnO nanorods modified by Au nanoparticles for galactose biosensor application",
+                "target": "Biosensors",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "La Phan Phuong Ha",
+                "target": "University of Science, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Dinh Huy",
+                "target": "University of Science, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lam Nu Mong Tra",
+                "target": "University of Science, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Quang Trung",
+                "target": "University of Science, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Sol-gel method",
+                "target": "ZnO nanorods",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hydrothermal method",
+                "target": "Au nanoparticles",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ZnO nanorods",
+                "target": "Galactose biosensor",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Au nanoparticles",
+                "target": "Galactose biosensor",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Sol-gel method",
+                "target": "ZnO nanorod diameter (40-60 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hydrothermal method",
+                "target": "Au nanoparticle diameter (6-8 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cyclic voltammetry method",
+                "target": "Current intensity of GOx|Au-ZnO|FTO (0.2 µA/mm2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cyclic voltammetry method",
+                "target": "Linear detection range (40 mM to 230 mM)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

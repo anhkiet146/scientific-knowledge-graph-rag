@@ -1,0 +1,160 @@
+{
+  "filename": "05-848-TAN HUNG NGUYEN(28-34)278.json",
+  "paper_title": "Assessing reinforced pavement performance: Influence of geogrid position, axial stiffness, and applied stress",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Civil Engineering",
+        "type": "Domain",
+        "description": "The main field of study focusing on pavement design and reinforcement."
+      },
+      {
+        "id": "Tan Hung Nguyen",
+        "type": "Author",
+        "description": "First author of the paper."
+      },
+      {
+        "id": "Kyra Kamille A. Toledo",
+        "type": "Author",
+        "description": "Second author of the paper."
+      },
+      {
+        "id": "Trong-Phuoc Huynh",
+        "type": "Author",
+        "description": "Corresponding author of the paper."
+      },
+      {
+        "id": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam."
+      },
+      {
+        "id": "Faculty of Engineering, University of Santo Tomas",
+        "type": "Institution",
+        "description": "Institution located in Philippines."
+      },
+      {
+        "id": "Reinforced pavement performance",
+        "type": "Concept",
+        "description": "The primary problem being studied involving how pavement behaves under stress when reinforced."
+      },
+      {
+        "id": "Geogrid position",
+        "type": "Concept",
+        "description": "The study of where the geogrid is placed within pavement layers."
+      },
+      {
+        "id": "Axial stiffness",
+        "type": "Concept",
+        "description": "The stiffness property of the geogrid material."
+      },
+      {
+        "id": "Stress-strain response",
+        "type": "Concept",
+        "description": "The relationship between applied stress and resulting strain in the pavement."
+      },
+      {
+        "id": "Plaxis 2D",
+        "type": "Method",
+        "description": "A two-dimensional finite element analysis program used for simulation."
+      },
+      {
+        "id": "Geogrid",
+        "type": "Method",
+        "description": "Geosynthetic material used for stabilization and reinforcement."
+      },
+      {
+        "id": "Finite element analysis",
+        "type": "Method",
+        "description": "The numerical method used to theoretically extract results."
+      },
+      {
+        "id": "15-nodded structural solid elements",
+        "type": "Method",
+        "description": "Specific modeling elements used within the finite element software."
+      },
+      {
+        "id": "Table 1: Pavement layers parameters",
+        "type": "Dataset",
+        "description": "Table containing input parameters for the pavement model layers."
+      },
+      {
+        "id": "Table 2: Axial stiffness values",
+        "type": "Dataset",
+        "description": "Table containing the stiffness values used for geogrid analysis."
+      },
+      {
+        "id": "Deformation (2.433 mm)",
+        "type": "Metric",
+        "description": "Deformation achieved when geogrid is placed at the top of the base layer."
+      },
+      {
+        "id": "Deformation decrease (0.061 mm)",
+        "type": "Metric",
+        "description": "The reduction in deformation when axial stiffness increased by 2.5 times."
+      },
+      {
+        "id": "Uniform loading (575 kN/m2)",
+        "type": "Metric",
+        "description": "The applied stress value used on the pavement model."
+      },
+      {
+        "id": "Single wheel load (4080 kg)",
+        "type": "Metric",
+        "description": "Equivalent load mass for the applied uniform stress."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tan Hung Nguyen",
+        "target": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kyra Kamille A. Toledo",
+        "target": "Faculty of Engineering, University of Santo Tomas",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Trong-Phuoc Huynh",
+        "target": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Plaxis 2D",
+        "target": "Reinforced pavement performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Plaxis 2D",
+        "target": "Table 1: Pavement layers parameters",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Plaxis 2D",
+        "target": "Deformation (2.433 mm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Plaxis 2D",
+        "target": "Deformation (2.433 mm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Finite element analysis",
+        "target": "Stress-strain response",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Geogrid",
+        "target": "Reinforced pavement performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Reinforced pavement performance",
+        "target": "Civil Engineering",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

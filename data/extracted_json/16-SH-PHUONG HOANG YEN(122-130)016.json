@@ -1,0 +1,175 @@
+{
+    "filename": "16-SH-PHUONG HOANG YEN(122-130)016.json",
+    "paper_title": "English lecturers' perceptions and practices of research engagement: The case of Can Tho University",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "Corresponding author and lecturer at Can Tho University"
+            },
+            {
+                "id": "Ly Thi Bich Phuong",
+                "type": "Author",
+                "description": "Co-author and lecturer at Can Tho University"
+            },
+            {
+                "id": "Vo Phuong Quyen",
+                "type": "Author",
+                "description": "Co-author and lecturer at Can Tho University"
+            },
+            {
+                "id": "Luu Bich Ngoc",
+                "type": "Author",
+                "description": "Co-author and lecturer at Can Tho University"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The institution where the research was conducted, specifically the School of Foreign Languages"
+            },
+            {
+                "id": "English Language Teaching",
+                "type": "Domain",
+                "description": "The primary field of research concerning English lecturers and educational practices"
+            },
+            {
+                "id": "Higher Education",
+                "type": "Domain",
+                "description": "The context of research activities within universities"
+            },
+            {
+                "id": "Research Engagement",
+                "type": "Concept",
+                "description": "The involvement of lecturers in reading and doing research for professional development"
+            },
+            {
+                "id": "Perceptions of Research Engagement",
+                "type": "Concept",
+                "description": "How lecturers view the definition and benefits of engaging in research"
+            },
+            {
+                "id": "Practices of Research Engagement",
+                "type": "Concept",
+                "description": "The actual frequency and types of research activities performed by lecturers"
+            },
+            {
+                "id": "Survey",
+                "type": "Method",
+                "description": "The primary research design used to collect data from participants"
+            },
+            {
+                "id": "Questionnaire",
+                "type": "Method",
+                "description": "Research instrument adapted from Borg and Alshumaimeri (2012)"
+            },
+            {
+                "id": "Descriptive Statistics",
+                "type": "Method",
+                "description": "Quantitative analysis method used to process survey results"
+            },
+            {
+                "id": "SPSS version 20",
+                "type": "Method",
+                "description": "Statistical software used for data analysis"
+            },
+            {
+                "id": "Survey Results of 56 English Lecturers",
+                "type": "Dataset",
+                "description": "Numerical data collected from 56 participants at Can Tho University"
+            },
+            {
+                "id": "Improvement of professional knowledge (100%)",
+                "type": "Metric",
+                "description": "Percentage of participants agreeing research helps professional knowledge"
+            },
+            {
+                "id": "Time constraint for reading (73.2%)",
+                "type": "Metric",
+                "description": "The most common reason cited for infrequent research reading"
+            },
+            {
+                "id": "Never published an article (58.9%)",
+                "type": "Metric",
+                "description": "The percentage of English lecturers who have no publications"
+            },
+            {
+                "id": "Read international journals and online sources (83.9%)",
+                "type": "Metric",
+                "description": "The most popular source for educational readings among participants"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ly Thi Bich Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Phuong Quyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luu Bich Ngoc",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Research Engagement",
+                "target": "English Language Teaching",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Research Engagement",
+                "target": "Higher Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Survey",
+                "target": "Research Engagement",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Perceptions of Research Engagement",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Descriptive Statistics",
+                "target": "Survey Results of 56 English Lecturers",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SPSS version 20",
+                "target": "Survey Results of 56 English Lecturers",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Descriptive Statistics",
+                "target": "Improvement of professional knowledge (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Statistics",
+                "target": "Time constraint for reading (73.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Statistics",
+                "target": "Never published an article (58.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Statistics",
+                "target": "Read international journals and online sources (83.9%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

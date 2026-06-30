@@ -1,0 +1,165 @@
+{
+    "filename": "13-BE-PHAN THI THANH QUE(89-95).json",
+    "paper_title": "PREDICTIVE CONTROLLED-ATMOSPHERE-MODEL FOR THE OPENING OF CAPS AND SENSORY QUALITY OF FRESH MUSHROOMS (Agaricus bisporus)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Postharvest Technology",
+                "type": "Domain",
+                "description": "The study of post-production handling of agricultural crops."
+            },
+            {
+                "id": "Phan Thi Thanh Que",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Bert Verlinden",
+                "type": "Author",
+                "description": "Author from KU Leuven."
+            },
+            {
+                "id": "Bart Nicolaï",
+                "type": "Author",
+                "description": "Author from KU Leuven."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam."
+            },
+            {
+                "id": "Department of Biosystems, Faculty of Bioscience Engineering, KU Leuven",
+                "type": "Institution",
+                "description": "Educational institution in Belgium."
+            },
+            {
+                "id": "Controlled atmosphere storage",
+                "type": "Concept",
+                "description": "Storage method where gas concentrations are regulated."
+            },
+            {
+                "id": "Shelf-life",
+                "type": "Concept",
+                "description": "The length of time that a commodity may be stored without becoming unfit for use."
+            },
+            {
+                "id": "Opening of caps",
+                "type": "Concept",
+                "description": "A physiological development stage in mushrooms affecting quality."
+            },
+            {
+                "id": "Sensory quality",
+                "type": "Concept",
+                "description": "Quality parameters perceived by human senses like color and appearance."
+            },
+            {
+                "id": "Generalized logits model",
+                "type": "Method",
+                "description": "Statistical model used to predict the opening of caps and sensory quality."
+            },
+            {
+                "id": "Logistic regression",
+                "type": "Method",
+                "description": "Statistical method used to analyze binary and binomial response data."
+            },
+            {
+                "id": "Untrained taste panel",
+                "type": "Method",
+                "description": "Sensory evaluation method involving 15 persons."
+            },
+            {
+                "id": "SAS version 6.11",
+                "type": "Method",
+                "description": "Software used for statistical analysis."
+            },
+            {
+                "id": "Matlab software",
+                "type": "Method",
+                "description": "Computational software used for data processing."
+            },
+            {
+                "id": "4-point scale",
+                "type": "Method",
+                "description": "Scale used to measure development stage of mushroom caps."
+            },
+            {
+                "id": "O2 concentrations (3, 12, 16.5 and 21%)",
+                "type": "Metric",
+                "description": "Specific levels of oxygen used in the gas mixtures."
+            },
+            {
+                "id": "CO2 concentrations (0, 3, 6 and 12%)",
+                "type": "Metric",
+                "description": "Specific levels of carbon dioxide used in the gas mixtures."
+            },
+            {
+                "id": "Storage temperatures (1, 6 and 12°C)",
+                "type": "Metric",
+                "description": "Specific temperatures maintained during the experiment."
+            },
+            {
+                "id": "Shelf-life (< 7 days)",
+                "type": "Metric",
+                "description": "Estimated duration of marketability at 12°C."
+            },
+            {
+                "id": "Acceptability value (0.5)",
+                "type": "Metric",
+                "description": "The fixed threshold for the acceptability test."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Phan Thi Thanh Que",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bert Verlinden",
+                "target": "Department of Biosystems, Faculty of Bioscience Engineering, KU Leuven",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bart Nicolaï",
+                "target": "Department of Biosystems, Faculty of Bioscience Engineering, KU Leuven",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "PREDICTIVE CONTROLLED-ATMOSPHERE-MODEL FOR THE OPENING OF CAPS AND SENSORY QUALITY OF FRESH MUSHROOMS",
+                "target": "Postharvest Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Generalized logits model",
+                "target": "USED_FOR",
+                "type": "Opening of caps"
+            },
+            {
+                "source": "Generalized logits model",
+                "target": "USED_FOR",
+                "type": "Sensory quality"
+            },
+            {
+                "source": "Generalized logits model",
+                "target": "ACHIEVED",
+                "type": "Shelf-life (< 7 days)"
+            },
+            {
+                "source": "Untrained taste panel",
+                "target": "ACHIEVED",
+                "type": "Acceptability value (0.5)"
+            },
+            {
+                "source": "SAS version 6.11",
+                "target": "USED_FOR",
+                "type": "Logistic regression"
+            },
+            {
+                "source": "Matlab software",
+                "target": "USED_FOR",
+                "type": "Generalized logits model"
+            }
+        ]
+    }
+}

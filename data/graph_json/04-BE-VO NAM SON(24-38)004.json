@@ -1,0 +1,235 @@
+{
+  "filename": "04-BE-VO NAM SON(24-38)004.json",
+  "paper_title": "Climate change-related risk adaptation in striped catfish, tilapia and shrimp farming systems in the Mekong Delta, Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The primary research field focusing on the farming of aquatic organisms."
+      },
+      {
+        "id": "Climate change-related risk (CCR)",
+        "type": "Concept",
+        "description": "Environmental risks stemming from climate change affecting farming systems."
+      },
+      {
+        "id": "Salinity intrusion",
+        "type": "Concept",
+        "description": "The movement of saline water into freshwater aquifers or surface water bodies."
+      },
+      {
+        "id": "Clustered sampling method",
+        "type": "Method",
+        "description": "A sampling technique used to survey 601 farmers across different provinces."
+      },
+      {
+        "id": "Structured questionnaire survey",
+        "type": "Method",
+        "description": "Tool used for collecting data from fish and shrimp farmers."
+      },
+      {
+        "id": "Kruskal-Wallis ANOVA",
+        "type": "Method",
+        "description": "Non-parametric statistical test used to compare different farming systems."
+      },
+      {
+        "id": "CHAID methods (decision tree)",
+        "type": "Method",
+        "description": "Statistical method used for interaction detection in data analysis."
+      },
+      {
+        "id": "SPSS 20.0",
+        "type": "Method",
+        "description": "Software used for statistical analysis of the collected data."
+      },
+      {
+        "id": "Monitoring water quality",
+        "type": "Method",
+        "description": "A risk adaptation response involving regular checks of environmental parameters."
+      },
+      {
+        "id": "Reduced stocking density",
+        "type": "Method",
+        "description": "Management practice used to mitigate health risks in intensive farming."
+      },
+      {
+        "id": "Survey data of 601 farmers",
+        "type": "Dataset",
+        "description": "The numeric dataset collected from the Mekong Delta farmers."
+      },
+      {
+        "id": "High mortality rate (>89.9%)",
+        "type": "Metric",
+        "description": "Percentage of farmers suffering fish/shrimp loss due to CCR."
+      },
+      {
+        "id": "Slow growth rate (>30.9%)",
+        "type": "Metric",
+        "description": "Percentage of farmers reporting reduced growth in aquaculture species."
+      },
+      {
+        "id": "Stocking density reduction in SCN (60.8%)",
+        "type": "Metric",
+        "description": "The planned percentage of stocking density reduction for catfish nurseries."
+      },
+      {
+        "id": "Temperature increase (0.74 C)",
+        "type": "Metric",
+        "description": "Observed global temperature increase between 1906 and 2005."
+      },
+      {
+        "id": "Vo Nam Son",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Dao Minh Hai",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Do Quynh",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Long Van Nghia",
+        "type": "Author",
+        "description": "Researcher at Bac Lieu Agricultural High-Tech Part."
+      },
+      {
+        "id": "Phan Thi Thanh Truc",
+        "type": "Author",
+        "description": "Researcher at Tra Vinh University."
+      },
+      {
+        "id": "Nguyen Quynh Anh",
+        "type": "Author",
+        "description": "Researcher at National Institute for Science and Technology Policy and Strategy Studies."
+      },
+      {
+        "id": "Do Thi Thanh Huong",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Boripat Lebel",
+        "type": "Author",
+        "description": "Researcher at Chiang Mai University."
+      },
+      {
+        "id": "Louis Lebel",
+        "type": "Author",
+        "description": "Researcher at Chiang Mai University."
+      },
+      {
+        "id": "Nguyen Thanh Phuong",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Vietnam."
+      },
+      {
+        "id": "Chiang Mai University",
+        "type": "Institution",
+        "description": "Institution located in Thailand."
+      },
+      {
+        "id": "National Institute for Science and Technology Policy and Strategy Studies",
+        "type": "Institution",
+        "description": "Institution under the Ministry of Science and Technology, Vietnam."
+      },
+      {
+        "id": "Bac Lieu Agricultural High-Tech Part",
+        "type": "Institution",
+        "description": "Specialized agricultural development zone in Vietnam."
+      },
+      {
+        "id": "Tra Vinh University",
+        "type": "Institution",
+        "description": "Institution located in Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Aquaculture",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Vo Nam Son",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dao Minh Hai",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Do Quynh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Thi Thanh Huong",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Phuong",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Boripat Lebel",
+        "target": "Chiang Mai University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Louis Lebel",
+        "target": "Chiang Mai University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Quynh Anh",
+        "target": "National Institute for Science and Technology Policy and Strategy Studies",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Long Van Nghia",
+        "target": "Bac Lieu Agricultural High-Tech Part",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Thi Thanh Truc",
+        "target": "Tra Vinh University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Structured questionnaire survey",
+        "target": "Survey data of 601 farmers",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Monitoring water quality",
+        "target": "Climate change-related risk (CCR)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Reduced stocking density",
+        "target": "Stocking density reduction in SCN (60.8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Clustered sampling method",
+        "target": "Climate change-related risk (CCR)",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

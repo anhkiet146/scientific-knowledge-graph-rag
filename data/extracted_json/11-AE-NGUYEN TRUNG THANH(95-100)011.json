@@ -1,0 +1,170 @@
+{
+    "filename": "11-AE-NGUYEN TRUNG THANH(95-100)011.json",
+    "paper_title": "SYNTHESIS OF BRANCHED CONJUGATED COPOLYMERS BASED ON TRIPHENYLAMINE AND 3-HEXYLTHIOPHENE UNITS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Organic electronics",
+                "type": "Domain",
+                "description": "Field concerning the study and application of organic materials for electronic devices."
+            },
+            {
+                "id": "Polymer chemistry",
+                "type": "Domain",
+                "description": "Field focused on the chemical synthesis and properties of polymers."
+            },
+            {
+                "id": "Nguyen Trung Thanh",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Nguyen Thu Anh",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Nguyen Thi Le Thu",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Nguyen Ha Tran",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Faculty of Materials Technology, Vietnam National University",
+                "type": "Institution",
+                "description": "Academic institution affiliated with the authors."
+            },
+            {
+                "id": "Materials Technology Key Laboratory, Vietnam National University",
+                "type": "Institution",
+                "description": "Research laboratory affiliated with the authors."
+            },
+            {
+                "id": "National Key Lab of Polymer and Composite Materials, Viet Nam National University",
+                "type": "Institution",
+                "description": "Research laboratory affiliated with the authors."
+            },
+            {
+                "id": "Hyperbranched conjugated polymers",
+                "type": "Concept",
+                "description": "Three-dimensional branched structures designed to suppress aggregation in thin films."
+            },
+            {
+                "id": "Polymeric solar cells",
+                "type": "Concept",
+                "description": "Application area for the synthesized conjugated polymers."
+            },
+            {
+                "id": "Suzuki polycondensation",
+                "type": "Method",
+                "description": "The primary reaction method used to synthesize the hyperbranched polymer."
+            },
+            {
+                "id": "Pd(PPh3)4",
+                "type": "Method",
+                "description": "Catalyst used in the Suzuki polycondensation reaction."
+            },
+            {
+                "id": "Gel permeation chromatography (GPC)",
+                "type": "Method",
+                "description": "Technique used to determine the molecular weight of the polymers."
+            },
+            {
+                "id": "1H NMR",
+                "type": "Method",
+                "description": "Spectroscopy technique used for structural determination."
+            },
+            {
+                "id": "FTIR spectrum",
+                "type": "Method",
+                "description": "Spectroscopy technique used for structural characterization."
+            },
+            {
+                "id": "Average molecular weight (24000 g/mol)",
+                "type": "Metric",
+                "description": "Measured molecular mass of the obtained conjugated polymer."
+            },
+            {
+                "id": "Polydispersity index (1.8)",
+                "type": "Metric",
+                "description": "Measurement of the distribution of molecular mass in the polymer sample."
+            },
+            {
+                "id": "Yield (57%)",
+                "type": "Metric",
+                "description": "The final yield of the P(TP-b-3HT) polymer."
+            },
+            {
+                "id": "Reaction temperature (100°C)",
+                "type": "Metric",
+                "description": "Specific temperature condition for the synthesis reaction."
+            }
+        ],
+        "relations": [
+            {
+                "source": "SYNTHESIS OF BRANCHED CONJUGATED COPOLYMERS BASED ON TRIPHENYLAMINE AND 3-HEXYLTHIOPHENE UNITS",
+                "target": "Organic electronics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "SYNTHESIS OF BRANCHED CONJUGATED COPOLYMERS BASED ON TRIPHENYLAMINE AND 3-HEXYLTHIOPHENE UNITS",
+                "target": "Polymer chemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Trung Thanh",
+                "target": "Faculty of Materials Technology, Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Le Thu",
+                "target": "Faculty of Materials Technology, Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ha Tran",
+                "target": "Faculty of Materials Technology, Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ha Tran",
+                "target": "Materials Technology Key Laboratory, Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thu Anh",
+                "target": "National Key Lab of Polymer and Composite Materials, Viet Nam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Suzuki polycondensation",
+                "target": "Yield (57%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Suzuki polycondensation",
+                "target": "Average molecular weight (24000 g/mol)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Suzuki polycondensation",
+                "target": "Polydispersity index (1.8)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Suzuki polycondensation",
+                "target": "Hyperbranched conjugated polymers",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hyperbranched conjugated polymers",
+                "target": "Polymeric solar cells",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

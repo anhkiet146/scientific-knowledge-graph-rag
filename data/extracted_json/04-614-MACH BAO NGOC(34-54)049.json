@@ -1,0 +1,185 @@
+{
+    "filename": "04-614-MACH BAO NGOC(34-54)049.json",
+    "paper_title": "Characterization of single nucleotide polymorphisms in chloroplast genomes of Musaceae Juss",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Plant Genomics",
+                "type": "Domain",
+                "description": "The study of the genomes of plants, specifically the chloroplast genomes of the Musaceae family."
+            },
+            {
+                "id": "Phylogenetics",
+                "type": "Domain",
+                "description": "The study of evolutionary relationships among biological entities, often using genetic data."
+            },
+            {
+                "id": "Mach Bao Ngoc",
+                "type": "Author",
+                "description": "Author of the research article."
+            },
+            {
+                "id": "Do Hoang Dang Khoa",
+                "type": "Author",
+                "description": "Corresponding author of the research article."
+            },
+            {
+                "id": "NTT Hi-Tech Institute",
+                "type": "Institution",
+                "description": "Affiliation of the authors."
+            },
+            {
+                "id": "Nguyen Tat Thanh University",
+                "type": "Institution",
+                "description": "University where the NTT Hi-Tech Institute is located."
+            },
+            {
+                "id": "Single Nucleotide Polymorphisms (SNPs)",
+                "type": "Concept",
+                "description": "Variation in a single nucleotide that occurs at a specific position in the genome."
+            },
+            {
+                "id": "Chloroplast genomes",
+                "type": "Concept",
+                "description": "The autonomous genome found within chloroplasts, also known as the plastome."
+            },
+            {
+                "id": "Nucleotide diversity",
+                "type": "Concept",
+                "description": "A measure of the degree of polymorphism within a population."
+            },
+            {
+                "id": "Inverted Repeat (IR) regions",
+                "type": "Concept",
+                "description": "Conservative regions in the plastid genome whose structure can expand or contract."
+            },
+            {
+                "id": "Geneious Prime",
+                "type": "Method",
+                "description": "Software used for sequence alignment, SNP detection, and genome structure analysis."
+            },
+            {
+                "id": "MAUVE alignment version 1.1.3",
+                "type": "Method",
+                "description": "Algorithm used to identify structural changes in the chloroplast genome."
+            },
+            {
+                "id": "DnaSP 6 software",
+                "type": "Method",
+                "description": "Software used for nucleotide diversity analysis and Pi values calculation."
+            },
+            {
+                "id": "MUSCLE alignment algorithm",
+                "type": "Method",
+                "description": "Algorithm used for aligning whole chloroplast genome sequences."
+            },
+            {
+                "id": "MrBayes version 3.2.7a",
+                "type": "Method",
+                "description": "Software used to calculate Bayesian Inference (BI) values for phylogenetic analysis."
+            },
+            {
+                "id": "jModelTest version 2.1.10",
+                "type": "Method",
+                "description": "Software used to identify the optimal phylogenetic model."
+            },
+            {
+                "id": "NCBI database",
+                "type": "Dataset",
+                "description": "Source of 55 published Musaceae complete chloroplast genome sequences."
+            },
+            {
+                "id": "Banana Genome Hub",
+                "type": "Dataset",
+                "description": "Public database of the banana genome."
+            },
+            {
+                "id": "AT content (63%-64%)",
+                "type": "Metric",
+                "description": "The proportion of adenine and thymine bases in the Musaceae plastid genomes."
+            },
+            {
+                "id": "IR region size (29,960 to 35,678 bp)",
+                "type": "Metric",
+                "description": "The measured variation in size of the Inverted Repeat regions in Musaceae."
+            },
+            {
+                "id": "BI value (1)",
+                "type": "Metric",
+                "description": "Bayesian Inference value indicating 100% accuracy in the phylogenetic branches."
+            },
+            {
+                "id": "Standard deviation of split frequencies (< 0.01)",
+                "type": "Metric",
+                "description": "Threshold used to determine the stability of the evolutionary model."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Characterization of single nucleotide polymorphisms in chloroplast genomes of Musaceae Juss",
+                "target": "Plant Genomics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Characterization of single nucleotide polymorphisms in chloroplast genomes of Musaceae Juss",
+                "target": "Phylogenetics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Mach Bao Ngoc",
+                "target": "NTT Hi-Tech Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Hoang Dang Khoa",
+                "target": "NTT Hi-Tech Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "NTT Hi-Tech Institute",
+                "target": "Nguyen Tat Thanh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Geneious Prime",
+                "target": "Single Nucleotide Polymorphisms (SNPs)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "MAUVE alignment version 1.1.3",
+                "target": "Chloroplast genomes",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DnaSP 6 software",
+                "target": "Nucleotide diversity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "MrBayes version 3.2.7a",
+                "target": "BI value (1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Geneious Prime",
+                "target": "IR region size (29,960 to 35,678 bp)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Geneious Prime",
+                "target": "NCBI database",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "MUSCLE alignment algorithm",
+                "target": "NCBI database",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "MrBayes version 3.2.7a",
+                "target": "Standard deviation of split frequencies (< 0.01)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

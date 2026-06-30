@@ -1,0 +1,145 @@
+{
+    "filename": "03-ED-DINH THANH HUNG(15-24)011.json",
+    "paper_title": "EFL teachers' perceptions of the use of e-textbooks at secondary schools in Dong Thap province",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "English Language Teaching (ELT)",
+                "type": "Domain",
+                "description": "The primary research field focusing on teaching English to speakers of other languages."
+            },
+            {
+                "id": "Dinh Thanh Hung",
+                "type": "Author",
+                "description": "Researcher affiliated with Dong Thap University."
+            },
+            {
+                "id": "Le Xuan Mai",
+                "type": "Author",
+                "description": "Researcher affiliated with Can Tho University."
+            },
+            {
+                "id": "Dong Thap University",
+                "type": "Institution",
+                "description": "An educational institution in Vietnam where the first author is based."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "An educational institution in Vietnam where the second author is based."
+            },
+            {
+                "id": "Descriptive quantitative study",
+                "type": "Method",
+                "description": "The research design used to investigate teachers' perceptions."
+            },
+            {
+                "id": "Online questionnaire",
+                "type": "Method",
+                "description": "The primary data collection tool containing Likert scale items and open-ended questions."
+            },
+            {
+                "id": "ANOVA analysis",
+                "type": "Method",
+                "description": "Statistical method used to evaluate differences in perceptions between age groups."
+            },
+            {
+                "id": "Descriptive statistics test",
+                "type": "Method",
+                "description": "Statistical method used to calculate mean scores for various factors."
+            },
+            {
+                "id": "e-textbooks",
+                "type": "Concept",
+                "description": "The digital version of printed textbooks used for educational purposes."
+            },
+            {
+                "id": "Teachers' perceptions",
+                "type": "Concept",
+                "description": "The focus of the study regarding how teachers view the benefits and challenges of e-textbooks."
+            },
+            {
+                "id": "Questionnaire responses from 155 EFL teachers",
+                "type": "Dataset",
+                "description": "The digital data collected from 155 participants across twelve secondary schools."
+            },
+            {
+                "id": "Mean score for Necessity (4.07)",
+                "type": "Metric",
+                "description": "Metric indicating a high perception of the need for e-textbooks."
+            },
+            {
+                "id": "Mean score for Convenience (4.01)",
+                "type": "Metric",
+                "description": "Metric indicating the perceived ease of use for teaching procedures."
+            },
+            {
+                "id": "Mean score for Effectiveness (3.84 - 3.96)",
+                "type": "Metric",
+                "description": "Metric range for the effectiveness of teaching skills using e-textbooks."
+            },
+            {
+                "id": "Mean score for IT skills difficulties (4.12)",
+                "type": "Metric",
+                "description": "Metric showing high agreement on the internal challenge of IT skills."
+            },
+            {
+                "id": "Mean score for insufficient digital devices (4.13)",
+                "type": "Metric",
+                "description": "Metric showing the highest perceived external challenge."
+            }
+        ],
+        "relations": [
+            {
+                "source": "EFL teachers' perceptions of the use of e-textbooks",
+                "target": "English Language Teaching (ELT)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Dinh Thanh Hung",
+                "target": "Dong Thap University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Xuan Mai",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Descriptive quantitative study",
+                "target": "Teachers' perceptions",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Online questionnaire",
+                "target": "Questionnaire responses from 155 EFL teachers",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Descriptive statistics test",
+                "target": "Mean score for Necessity (4.07)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive statistics test",
+                "target": "Mean score for Convenience (4.01)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive statistics test",
+                "target": "Mean score for Effectiveness (3.84 - 3.96)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ANOVA analysis",
+                "target": "Mean score for IT skills difficulties (4.12)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive statistics test",
+                "target": "Mean score for insufficient digital devices (4.13)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

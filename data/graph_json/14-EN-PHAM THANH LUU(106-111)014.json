@@ -1,0 +1,150 @@
+{
+  "filename": "14-EN-PHAM THANH LUU(106-111)014.json",
+  "paper_title": "Using benthic diatoms as bio-indicators of water quality of the Saigon River, Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Water quality assessment",
+        "type": "Domain",
+        "description": "The main field of research focusing on evaluating the condition of water environments."
+      },
+      {
+        "id": "Pham Thanh Luu",
+        "type": "Author",
+        "description": "Lead author affiliated with the Institute of Tropical Biology."
+      },
+      {
+        "id": "Nguyen Tan Duc",
+        "type": "Author",
+        "description": "Co-author affiliated with the Institute of Tropical Biology."
+      },
+      {
+        "id": "Institute of Tropical Biology",
+        "type": "Institution",
+        "description": "Research organization under the Vietnam Academy of Science and Technology."
+      },
+      {
+        "id": "Graduate University of Science and Technology, Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "National research academy in Vietnam."
+      },
+      {
+        "id": "Benthic diatoms",
+        "type": "Concept",
+        "description": "Aquatic organisms used as bio-indicators for water quality."
+      },
+      {
+        "id": "Eutrophication",
+        "type": "Concept",
+        "description": "Process of water enrichment with nutrients leading to organic pollution."
+      },
+      {
+        "id": "Shannon-Wiener diversity index (H)",
+        "type": "Method",
+        "description": "A biological index used to measure biodiversity in diatom communities."
+      },
+      {
+        "id": "Average tolerance score per taxon (ATSPT)",
+        "type": "Method",
+        "description": "An index exploiting differences in tolerance among families of benthic diatoms."
+      },
+      {
+        "id": "Canonical correlation analysis (CCA)",
+        "type": "Method",
+        "description": "Statistical method used to examine relations between diatom assemblages and physico-chemical variables."
+      },
+      {
+        "id": "Hach 156 portable multi-parameter",
+        "type": "Method",
+        "description": "Device used for in situ measurement of water physical and chemical parameters."
+      },
+      {
+        "id": "CANOCO software V 4.5",
+        "type": "Method",
+        "description": "Software used to perform Canonical Correlation Analysis."
+      },
+      {
+        "id": "QCVN 08-MT2015/BTNMT",
+        "type": "Dataset",
+        "description": "Vietnam National Technical Regulation on surface water quality used for classification."
+      },
+      {
+        "id": "Electrical conductivity (114-1931 μS/cm)",
+        "type": "Metric",
+        "description": "Measurement of water's ability to conduct electricity across seasons."
+      },
+      {
+        "id": "Dissolved oxygen (3.9-5.1 mg/L)",
+        "type": "Metric",
+        "description": "Concentration of oxygen available in the river water."
+      },
+      {
+        "id": "Significance level (P <= 0.05)",
+        "type": "Metric",
+        "description": "Statistical threshold used to determine the significance of differences."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Pham Thanh Luu",
+        "target": "Institute of Tropical Biology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thanh Luu",
+        "target": "Graduate University of Science and Technology, Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tan Duc",
+        "target": "Institute of Tropical Biology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tan Duc",
+        "target": "Graduate University of Science and Technology, Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Shannon-Wiener diversity index (H)",
+        "target": "Water quality assessment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Average tolerance score per taxon (ATSPT)",
+        "target": "Water quality assessment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Canonical correlation analysis (CCA)",
+        "target": "Benthic diatoms",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "CANOCO software V 4.5",
+        "target": "Canonical correlation analysis (CCA)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Hach 156 portable multi-parameter",
+        "target": "Electrical conductivity (114-1931 μS/cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Hach 156 portable multi-parameter",
+        "target": "Dissolved oxygen (3.9-5.1 mg/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Canonical correlation analysis (CCA)",
+        "target": "Significance level (P <= 0.05)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Shannon-Wiener diversity index (H)",
+        "target": "QCVN 08-MT2015/BTNMT",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

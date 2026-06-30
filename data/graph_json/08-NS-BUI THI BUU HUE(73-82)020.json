@@ -1,0 +1,155 @@
+{
+  "filename": "08-NS-BUI THI BUU HUE(73-82)020.json",
+  "paper_title": "Quinazolinone based hydroxamates as anti-inflammatory agents",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Medicinal Chemistry",
+        "type": "Domain",
+        "description": "The study and design of chemical compounds for therapeutic use, specifically anti-inflammatory agents."
+      },
+      {
+        "id": "Bui Thi Buu Hue",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "Hong Vinh Quang",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Cuong Quoc",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Tran Quang De",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution where the research was conducted in Vietnam."
+      },
+      {
+        "id": "Anti-inflammatory activities",
+        "type": "Concept",
+        "description": "The property of a substance or treatment that reduces inflammation or swelling."
+      },
+      {
+        "id": "Molecular docking",
+        "type": "Method",
+        "description": "A computational procedure to predict the preferred orientation of a molecule to a receptor."
+      },
+      {
+        "id": "Nitric oxide assay",
+        "type": "Method",
+        "description": "Method to evaluate NO inhibition activity using LPS-induced RAW264.7 cells and Griess reagent."
+      },
+      {
+        "id": "Thioether-linked hydroxamate/quinazolinone hybrid synthesis",
+        "type": "Method",
+        "description": "A four-step synthetic pathway starting from isatoic anhydride to create hybrid structures."
+      },
+      {
+        "id": "FlexX",
+        "type": "Method",
+        "description": "Docking software used to analyze the inductive effect of the hybrid compounds."
+      },
+      {
+        "id": "DFT at the B3LYP/6-31g(d,p) level",
+        "type": "Method",
+        "description": "Density Functional Theory method used for ligand optimization."
+      },
+      {
+        "id": "RCSB Protein Data Bank",
+        "type": "Dataset",
+        "description": "Database containing the 3D crystal structures of protein receptors (PDB codes provided)."
+      },
+      {
+        "id": "IC50 (58.03 to 66.19 µM)",
+        "type": "Metric",
+        "description": "Concentration of compounds required to inhibit 50% of LPS-stimulated NO production."
+      },
+      {
+        "id": "RMSD values (< 2 Å)",
+        "type": "Metric",
+        "description": "Root-mean-square-deviation used to validate the reliability of the docking model."
+      },
+      {
+        "id": "Binding energy (-31.9803 kJ/mol)",
+        "type": "Metric",
+        "description": "Calculated binding affinity for compound 7e on 15-PGDH receptor."
+      },
+      {
+        "id": "Total yields (14-69%)",
+        "type": "Metric",
+        "description": "The overall percentage of product obtained over the four-step synthesis process."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Bui Thi Buu Hue",
+        "target": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hong Vinh Quang",
+        "target": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Cuong Quoc",
+        "target": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Quang De",
+        "target": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Quinazolinone based hydroxamates as anti-inflammatory agents",
+        "target": "Medicinal Chemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Thioether-linked hydroxamate/quinazolinone hybrid synthesis",
+        "target": "Anti-inflammatory activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Molecular docking",
+        "target": "Anti-inflammatory activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Nitric oxide assay",
+        "target": "IC50 (58.03 to 66.19 µM)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Molecular docking",
+        "target": "RMSD values (< 2 Å)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Molecular docking",
+        "target": "Binding energy (-31.9803 kJ/mol)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Thioether-linked hydroxamate/quinazolinone hybrid synthesis",
+        "target": "Total yields (14-69%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Molecular docking",
+        "target": "RCSB Protein Data Bank",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

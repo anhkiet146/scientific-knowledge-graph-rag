@@ -1,0 +1,185 @@
+{
+  "filename": "07-ED-DO THANH NHAN(49-56)038.json",
+  "paper_title": "Teacher appraisal and student feedback on teacher professional development and practices",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Teacher Professional Development",
+        "type": "Concept",
+        "description": "The process of improving and increasing capabilities of staff through access to education and training opportunities."
+      },
+      {
+        "id": "Teacher appraisal",
+        "type": "Concept",
+        "description": "A system for evaluating the performance and responsibilities of teachers to improve motivation and effectiveness."
+      },
+      {
+        "id": "Student feedback",
+        "type": "Concept",
+        "description": "Information provided by students regarding their learning experience and teacher performance."
+      },
+      {
+        "id": "Mixed methods of research",
+        "type": "Method",
+        "description": "A research approach that combines both qualitative and quantitative data collection and analysis."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "Research instrument consisting of a series of questions for gathering information from respondents."
+      },
+      {
+        "id": "Interviews",
+        "type": "Method",
+        "description": "Qualitative research technique involving direct conversation for in-depth data collection."
+      },
+      {
+        "id": "Random sampling",
+        "type": "Method",
+        "description": "A sampling technique where each member of the population has an equal chance of being selected."
+      },
+      {
+        "id": "Excel tools",
+        "type": "Method",
+        "description": "Software used for data processing and computerized analysis."
+      },
+      {
+        "id": "Descriptive statistics",
+        "type": "Method",
+        "description": "Statistical methods used to summarize and describe the features of a dataset."
+      },
+      {
+        "id": "Questionnaire and interview data",
+        "type": "Dataset",
+        "description": "The digital data collected from 100 students and various teachers during the study."
+      },
+      {
+        "id": "Cronbach's Alpha (0.843)",
+        "type": "Metric",
+        "description": "Reliability coefficient of the research instrument."
+      },
+      {
+        "id": "Teacher desire for appraisal (100%)",
+        "type": "Metric",
+        "description": "The percentage of interviewed teachers wanting to receive appraisal."
+      },
+      {
+        "id": "Agreement on feedback effectiveness (> 90%)",
+        "type": "Metric",
+        "description": "The percentage of students and teachers agreeing feedback is a tool for development."
+      },
+      {
+        "id": "Teachers agreeing feedback is a good tool (93.3%)",
+        "type": "Metric",
+        "description": "Percentage of teachers viewing student feedback as a professional development tool."
+      },
+      {
+        "id": "Students admitting it was acceptable to give feedback (98%)",
+        "type": "Metric",
+        "description": "Percentage of students comfortable with providing feedback to teachers."
+      },
+      {
+        "id": "Education",
+        "type": "Domain",
+        "description": "The field of study focusing on teaching, learning, and faculty development."
+      },
+      {
+        "id": "Do Thanh Nhan",
+        "type": "Author",
+        "description": "Lead author of the study."
+      },
+      {
+        "id": "Nguyen Thanh Loan",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Huynh Nguyen Bao Ngoc",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Gia Viet English Center",
+        "type": "Institution",
+        "description": "Institution affiliated with Do Thanh Nhan."
+      },
+      {
+        "id": "Ha Huy Giap High School",
+        "type": "Institution",
+        "description": "Institution affiliated with Nguyen Thanh Loan."
+      },
+      {
+        "id": "Tay Do University",
+        "type": "Institution",
+        "description": "Institution affiliated with Huynh Nguyen Bao Ngoc."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Teacher Professional Development",
+        "target": "Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Mixed methods of research",
+        "target": "Teacher Professional Development",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Student feedback",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Interviews",
+        "target": "Teacher appraisal",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Excel tools",
+        "target": "Questionnaire and interview data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Excel tools",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Interviews",
+        "target": "Teacher desire for appraisal (100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Agreement on feedback effectiveness (> 90%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Interviews",
+        "target": "Teachers agreeing feedback is a good tool (93.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Students admitting it was acceptable to give feedback (98%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Do Thanh Nhan",
+        "target": "Gia Viet English Center",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Loan",
+        "target": "Ha Huy Giap High School",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Nguyen Bao Ngoc",
+        "target": "Tay Do University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

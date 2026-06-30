@@ -1,0 +1,195 @@
+{
+    "filename": "07-685-QUOC DINH TRUONG(56-61)035.json",
+    "paper_title": "Detection of Crowd concentrations with YOLOv3",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Detection of Crowd concentrations with YOLOv3",
+                "type": "Concept",
+                "description": "The title and main focus of the research paper"
+            },
+            {
+                "id": "Computer Vision",
+                "type": "Domain",
+                "description": "The primary field of research"
+            },
+            {
+                "id": "Artificial Intelligence",
+                "type": "Domain",
+                "description": "The broader field encompassing the research"
+            },
+            {
+                "id": "Crowd detection",
+                "type": "Concept",
+                "description": "The task of identifying and locating crowds in images or video"
+            },
+            {
+                "id": "Crowd concentration",
+                "type": "Concept",
+                "description": "A large number of people gathering at a specific location and time"
+            },
+            {
+                "id": "YOLOv3",
+                "type": "Method",
+                "description": "A real-time object detection model used as the core of the proposed system"
+            },
+            {
+                "id": "Darknet-53",
+                "type": "Method",
+                "description": "The backbone architecture used in YOLOv3"
+            },
+            {
+                "id": "Feature Pyramid Networks (FPN)",
+                "type": "Method",
+                "description": "Architecture for generating predictions at multiple scales"
+            },
+            {
+                "id": "Overlapping bounding boxes grouping algorithm",
+                "type": "Method",
+                "description": "Proposed algorithm to group detected individuals into crowds"
+            },
+            {
+                "id": "STCrowd",
+                "type": "Dataset",
+                "description": "Public dataset used for evaluating crowd detection"
+            },
+            {
+                "id": "SmartCity",
+                "type": "Dataset",
+                "description": "Public dataset used for testing the proposed method"
+            },
+            {
+                "id": "Self-collected dataset",
+                "type": "Dataset",
+                "description": "Data collected from surveillance cameras in Tra Vinh City"
+            },
+            {
+                "id": "COCO",
+                "type": "Dataset",
+                "description": "Common Objects in Context dataset used for pre-training models"
+            },
+            {
+                "id": "Average accuracy of people groups (96.33%)",
+                "type": "Metric",
+                "description": "The system's performance in identifying groups of people"
+            },
+            {
+                "id": "Average accuracy of crowded groups (98%)",
+                "type": "Metric",
+                "description": "The system's performance in identifying specifically crowded groups"
+            },
+            {
+                "id": "Execution time per image (0.14 seconds)",
+                "type": "Metric",
+                "description": "The average time taken to process a single image"
+            },
+            {
+                "id": "Accuracy (93.34%)",
+                "type": "Metric",
+                "description": "Accuracy of the method proposed by Yizhou et al. (2019)"
+            },
+            {
+                "id": "Ba Duy Nguyen",
+                "type": "Author",
+                "description": "Lead author"
+            },
+            {
+                "id": "Thanh Nhan Dinh",
+                "type": "Author",
+                "description": "Co-author"
+            },
+            {
+                "id": "Thanh Bach Nguyen",
+                "type": "Author",
+                "description": "Co-author"
+            },
+            {
+                "id": "Quoc Dinh Truong",
+                "type": "Author",
+                "description": "Corresponding author"
+            },
+            {
+                "id": "Can Tho University of Technology",
+                "type": "Institution",
+                "description": "Institution in Viet Nam"
+            },
+            {
+                "id": "Tra Vinh Provincial Police Department",
+                "type": "Institution",
+                "description": "Institution in Viet Nam"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Institution in Viet Nam"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Detection of Crowd concentrations with YOLOv3",
+                "target": "Computer Vision",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "YOLOv3",
+                "target": "Crowd detection",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Overlapping bounding boxes grouping algorithm",
+                "target": "Crowd concentration",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "YOLOv3",
+                "target": "STCrowd",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "YOLOv3",
+                "target": "SmartCity",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "YOLOv3",
+                "target": "Self-collected dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "YOLOv3",
+                "target": "Average accuracy of people groups (96.33%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "YOLOv3",
+                "target": "Average accuracy of crowded groups (98%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "YOLOv3",
+                "target": "Execution time per image (0.14 seconds)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ba Duy Nguyen",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Thanh Nhan Dinh",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Thanh Bach Nguyen",
+                "target": "Tra Vinh Provincial Police Department",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Quoc Dinh Truong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

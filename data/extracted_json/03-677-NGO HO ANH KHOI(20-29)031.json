@@ -1,0 +1,135 @@
+{
+    "filename": "03-677-NGO HO ANH KHOI(20-29)031.json",
+    "paper_title": "Automatic identification of Dong Son antique glass artifacts using evolving learning",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Archaeology",
+                "type": "Domain",
+                "description": "The primary research field of the paper concerning Dong Son culture and antique artifacts."
+            },
+            {
+                "id": "Machine Learning",
+                "type": "Domain",
+                "description": "The field of study involving evolving learning and artificial intelligence for artifact identification."
+            },
+            {
+                "id": "Ngo-Ho Anh-Khoi",
+                "type": "Author",
+                "description": "Lead author affiliated with Nam Can Tho University."
+            },
+            {
+                "id": "Bui Hoang-Bac",
+                "type": "Author",
+                "description": "Co-author affiliated with Hanoi University of Mining and Geology."
+            },
+            {
+                "id": "Pham Van-Trieu",
+                "type": "Author",
+                "description": "Co-author affiliated with the Vietnamese Institute of Archaeology."
+            },
+            {
+                "id": "Nam Can Tho University",
+                "type": "Institution",
+                "description": "Higher education institution in Viet Nam."
+            },
+            {
+                "id": "Hanoi University of Mining and Geology",
+                "type": "Institution",
+                "description": "Higher education institution in Viet Nam."
+            },
+            {
+                "id": "Vietnamese Institute of Archaeology",
+                "type": "Institution",
+                "description": "Research institute focused on archaeology in Viet Nam."
+            },
+            {
+                "id": "Antique glass jewelry classification",
+                "type": "Concept",
+                "description": "The core problem of identifying and categorizing ancient glass ornaments."
+            },
+            {
+                "id": "Concept drift",
+                "type": "Concept",
+                "description": "A phenomenon in data science where the statistical properties of the target variable change over time."
+            },
+            {
+                "id": "Random Forest Classifier",
+                "type": "Method",
+                "description": "An ensemble learning method that performed best in the study."
+            },
+            {
+                "id": "SEM gemological analysis",
+                "type": "Method",
+                "description": "Scanning Electron Microscope technique used to extract chemical features from artifacts."
+            },
+            {
+                "id": "Recognition Automatic System for Dong Son Antique Glasses (RAS-DSA)",
+                "type": "Method",
+                "description": "The software system developed for automated identification of glass jewelry."
+            },
+            {
+                "id": "sliding windows approach",
+                "type": "Method",
+                "description": "A technique used for evolving continuous learning by updating models with recent data batches."
+            },
+            {
+                "id": "Archaeological dataset",
+                "type": "Dataset",
+                "description": "A digital collection comprising 108 samples with 40 features representing chemical elements."
+            },
+            {
+                "id": "Average balanced accuracy (> 80%)",
+                "type": "Metric",
+                "description": "The performance metric achieved by most classification methods in the experiment."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Automatic identification of Dong Son antique glass artifacts using evolving learning",
+                "target": "Archaeology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ngo-Ho Anh-Khoi",
+                "target": "Nam Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Hoang-Bac",
+                "target": "Hanoi University of Mining and Geology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Van-Trieu",
+                "target": "Vietnamese Institute of Archaeology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Random Forest Classifier",
+                "target": "Average balanced accuracy (> 80%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random Forest Classifier",
+                "target": "Archaeological dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Recognition Automatic System for Dong Son Antique Glasses (RAS-DSA)",
+                "target": "Antique glass jewelry classification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SEM gemological analysis",
+                "target": "Antique glass jewelry classification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "sliding windows approach",
+                "target": "Concept drift",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

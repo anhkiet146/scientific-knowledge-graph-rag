@@ -1,0 +1,175 @@
+{
+    "filename": "11-ET-NGUYEN THI NGOC TRAN(88-95)042.json",
+    "paper_title": "Benzimidazole synthesis via oxidative condensation of 1,2-diaminoarenes with primary amines using MOF-235 as an effective heterogeneous catalyst",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Chemical Engineering",
+                "type": "Domain",
+                "description": "The primary field of research concerning the synthesis of chemical compounds and catalysts."
+            },
+            {
+                "id": "Benzimidazole synthesis",
+                "type": "Concept",
+                "description": "The process of creating benzimidazole derivatives, which are important in agrochemicals and pharmaceuticals."
+            },
+            {
+                "id": "Heterogeneous catalysis",
+                "type": "Concept",
+                "description": "A type of catalysis where the phase of the catalyst differs from that of the reactants."
+            },
+            {
+                "id": "Oxidative condensation",
+                "type": "Concept",
+                "description": "A chemical reaction involving the combination of two molecules with the loss of small molecules, accompanied by oxidation."
+            },
+            {
+                "id": "MOF-235",
+                "type": "Method",
+                "description": "An iron-based metal-organic framework used as a heterogeneous catalyst."
+            },
+            {
+                "id": "Solvothermal method",
+                "type": "Method",
+                "description": "A method used to synthesize MOF-235 from 1,4-benzenedicarboxylic acid and iron(III) chloride."
+            },
+            {
+                "id": "GC-MS",
+                "type": "Method",
+                "description": "Gas chromatography-mass spectrometry used for product identification."
+            },
+            {
+                "id": "Bruker AV 500 spectrometers",
+                "type": "Method",
+                "description": "Equipment used for recording 1H NMR and 13C NMR spectra."
+            },
+            {
+                "id": "Chlorobenzene",
+                "type": "Method",
+                "description": "The solvent found to be most effective for the reaction."
+            },
+            {
+                "id": "NIST library",
+                "type": "Dataset",
+                "description": "A digital database used to compare and identify MS spectra."
+            },
+            {
+                "id": "Yield (73%)",
+                "type": "Metric",
+                "description": "Yield of the synthesized MOF-235 catalyst."
+            },
+            {
+                "id": "Yield (92%)",
+                "type": "Metric",
+                "description": "Highest reaction yield for 2-phenyl-1H-benzo[d]imidazole using MOF-235 in chlorobenzene."
+            },
+            {
+                "id": "Yield (11%)",
+                "type": "Metric",
+                "description": "Reaction yield monitored without the presence of a catalyst."
+            },
+            {
+                "id": "Nguyen Thi Ngoc Tran",
+                "type": "Author",
+                "description": "Researcher at Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Dang Thi Hang",
+                "type": "Author",
+                "description": "Researcher at Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Lieu Ngoc Thien",
+                "type": "Author",
+                "description": "Researcher at Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Dang Huynh Giao",
+                "type": "Author",
+                "description": "Researcher affiliated with both Ho Chi Minh City University of Technology and Can Tho University."
+            },
+            {
+                "id": "Phan Thanh Son Nam",
+                "type": "Author",
+                "description": "Corresponding author from Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology",
+                "type": "Institution",
+                "description": "Faculty of Chemical Engineering, Vietnam."
+            },
+            {
+                "id": "Vietnam National University – Ho Chi Minh City",
+                "type": "Institution",
+                "description": "National university system in Vietnam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "College of Engineering Technology, Can Tho, Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "MOF-235",
+                "target": "Chemical Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "MOF-235",
+                "target": "Benzimidazole synthesis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "MOF-235",
+                "target": "Yield (92%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Solvothermal method",
+                "target": "Yield (73%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GC-MS",
+                "target": "NIST library",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Nguyen Thi Ngoc Tran",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thi Hang",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lieu Ngoc Thien",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Huynh Giao",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Huynh Giao",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Thanh Son Nam",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Chi Minh City University of Technology",
+                "target": "Vietnam National University – Ho Chi Minh City",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

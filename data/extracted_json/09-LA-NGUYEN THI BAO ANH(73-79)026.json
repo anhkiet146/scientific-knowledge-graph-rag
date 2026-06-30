@@ -1,0 +1,125 @@
+{
+    "filename": "09-LA-NGUYEN THI BAO ANH(73-79)026.json",
+    "paper_title": "Medical malpractice liability insurance: Comparision of Vietnam to some European countries",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Thi Bao Anh",
+                "type": "Author",
+                "description": "The primary author of the research paper affiliated with Can Tho University."
+            },
+            {
+                "id": "School of Law, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution in Vietnam where the author is based."
+            },
+            {
+                "id": "Law",
+                "type": "Domain",
+                "description": "The primary field of research, focusing on insurance and liability legislation."
+            },
+            {
+                "id": "Medical malpractice liability insurance (MMLI)",
+                "type": "Concept",
+                "description": "A type of professional liability insurance protecting healthcare professionals from liability associated with wrongful practices."
+            },
+            {
+                "id": "Professional liability insurance (PLI)",
+                "type": "Concept",
+                "description": "A broader category of insurance designed to protect professionals against negligence claims."
+            },
+            {
+                "id": "Insurable interest",
+                "type": "Concept",
+                "description": "A legal requirement where the policyholder must have a pecuniary interest in the preservation of the subject matter."
+            },
+            {
+                "id": "Insured risk",
+                "type": "Concept",
+                "description": "The specific malpractice, error, or mistake defined in the insurance practice."
+            },
+            {
+                "id": "Insured premium",
+                "type": "Concept",
+                "description": "The consideration paid by the insured in exchange for the insurer's obligation."
+            },
+            {
+                "id": "Indemnification",
+                "type": "Concept",
+                "description": "The process of providing compensation for loss or damage suffered by a third party."
+            },
+            {
+                "id": "Comparative analysis",
+                "type": "Method",
+                "description": "The research methodology used to compare the laws of Belgium, France, England, and Vietnam."
+            },
+            {
+                "id": "Insurance Act of 2014 (Belgium)",
+                "type": "Method",
+                "description": "The legal framework used to analyze MMLI regulations in Belgium."
+            },
+            {
+                "id": "French Insurance Code",
+                "type": "Method",
+                "description": "The regulatory framework for insurance used to evaluate French MMLI laws."
+            },
+            {
+                "id": "Third Party (Rights against Insurers) Act 2010 (England)",
+                "type": "Method",
+                "description": "The English legislation used to compare third-party rights in liability insurance."
+            },
+            {
+                "id": "Law on Insurance Business (Vietnam)",
+                "type": "Method",
+                "description": "The primary Vietnamese legislation governing insurance practices."
+            },
+            {
+                "id": "Decree on Liability insurance for medical examination and treatment (Vietnam)",
+                "type": "Method",
+                "description": "Specific Vietnamese regulation applying to medical malpractice coverage."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Bao Anh",
+                "target": "School of Law, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Medical malpractice liability insurance (MMLI)",
+                "target": "Law",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Comparative analysis",
+                "target": "Medical malpractice liability insurance (MMLI)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Insurance Act of 2014 (Belgium)",
+                "target": "Medical malpractice liability insurance (MMLI)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "French Insurance Code",
+                "target": "Medical malpractice liability insurance (MMLI)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Third Party (Rights against Insurers) Act 2010 (England)",
+                "target": "Medical malpractice liability insurance (MMLI)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Law on Insurance Business (Vietnam)",
+                "target": "Medical malpractice liability insurance (MMLI)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Decree on Liability insurance for medical examination and treatment (Vietnam)",
+                "target": "Medical malpractice liability insurance (MMLI)",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

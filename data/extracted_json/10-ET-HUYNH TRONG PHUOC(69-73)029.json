@@ -1,0 +1,145 @@
+{
+    "filename": "10-ET-HUYNH TRONG PHUOC(69-73)029.json",
+    "paper_title": "Engineering properties of unfired building bricks incorporating various industrial wastes",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Huynh Trong Phuoc",
+                "type": "Author",
+                "description": "The author of the research paper."
+            },
+            {
+                "id": "College of Rural Development, Can Tho University",
+                "type": "Institution",
+                "description": "The university department where the researcher is affiliated."
+            },
+            {
+                "id": "Civil Engineering",
+                "type": "Domain",
+                "description": "The primary field of research concerning building materials and construction."
+            },
+            {
+                "id": "Unfired building bricks",
+                "type": "Concept",
+                "description": "A type of brick produced without firing, often using waste materials."
+            },
+            {
+                "id": "Industrial waste utilization",
+                "type": "Concept",
+                "description": "The concept of reusing industrial by-products in construction."
+            },
+            {
+                "id": "Densified mixture design algorithm",
+                "type": "Method",
+                "description": "A design concept used to determine the proportions of the brick mixtures."
+            },
+            {
+                "id": "Fly ash",
+                "type": "Method",
+                "description": "An industrial waste material used as a binder component."
+            },
+            {
+                "id": "Rice husk ash",
+                "type": "Method",
+                "description": "An industrial waste material used as a binder component."
+            },
+            {
+                "id": "Ordinary Portland cement",
+                "type": "Method",
+                "description": "A binder material used at 5–10% concentration."
+            },
+            {
+                "id": "Unground rice husk ash",
+                "type": "Method",
+                "description": "A material used to replace natural aggregate by 10–20%."
+            },
+            {
+                "id": "TCVN 1451:1998",
+                "type": "Method",
+                "description": "A Vietnamese standard for brick preparation and testing."
+            },
+            {
+                "id": "Forming pressure (35 MPa)",
+                "type": "Method",
+                "description": "The physical pressure applied during the brick molding process."
+            },
+            {
+                "id": "Experimental Data Tables",
+                "type": "Dataset",
+                "description": "Numerical data presented in Table 1, 2, and 3 regarding material properties and mixture proportions."
+            },
+            {
+                "id": "Compressive strength (13.8-19.7 MPa)",
+                "type": "Metric",
+                "description": "The capacity of the material to withstand loads tending to reduce size."
+            },
+            {
+                "id": "Water absorption (9.7-14.8%)",
+                "type": "Metric",
+                "description": "The percentage of water the brick samples absorbed."
+            },
+            {
+                "id": "Flexural strength (at least 2.2 MPa)",
+                "type": "Metric",
+                "description": "The minimum design strength for the bricks at 28 days."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Trong Phuoc",
+                "target": "College of Rural Development, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Densified mixture design algorithm",
+                "target": "Unfired building bricks",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fly ash",
+                "target": "Unfired building bricks",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Rice husk ash",
+                "target": "Unfired building bricks",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ordinary Portland cement",
+                "target": "Unfired building bricks",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Unground rice husk ash",
+                "target": "Unfired building bricks",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Densified mixture design algorithm",
+                "target": "Compressive strength (13.8-19.7 MPa)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Densified mixture design algorithm",
+                "target": "Water absorption (9.7-14.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "TCVN 1451:1998",
+                "target": "Flexural strength (at least 2.2 MPa)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Densified mixture design algorithm",
+                "target": "Experimental Data Tables",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Unfired building bricks",
+                "target": "Civil Engineering",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

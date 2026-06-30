@@ -1,0 +1,280 @@
+{
+  "filename": "13-673-LUONG QUYNH VU THANH(122-131)261.json",
+  "paper_title": "NaY zeolite synthesis from rice husk ash for Chromium(VI) ion adsorption",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Environmental Engineering",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về xử lý ô nhiễm môi trường và vật liệu bền vững."
+      },
+      {
+        "id": "Chemical Engineering",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về tổng hợp hóa lý và quy trình kỹ thuật hóa học."
+      },
+      {
+        "id": "Adsorption of chromium (VI) ion",
+        "type": "Concept",
+        "description": "Quá trình hấp phụ ion kim loại nặng Cr(VI) độc hại trong nước."
+      },
+      {
+        "id": "NaY zeolite synthesis",
+        "type": "Concept",
+        "description": "Quy trình tổng hợp vật liệu zeolite cấu trúc NaY từ nguồn silica tự nhiên."
+      },
+      {
+        "id": "Heavy metal contamination",
+        "type": "Concept",
+        "description": "Vấn đề ô nhiễm kim loại nặng trong nước thải công nghiệp."
+      },
+      {
+        "id": "Rice husk ash",
+        "type": "Method",
+        "description": "Tro trấu được sử dụng làm nguồn cung cấp silica để tổng hợp zeolite."
+      },
+      {
+        "id": "NaY zeolite",
+        "type": "Method",
+        "description": "Vật liệu hấp phụ được tổng hợp từ tro trấu."
+      },
+      {
+        "id": "One-stage process",
+        "type": "Method",
+        "description": "Quy trình tổng hợp một giai đoạn không qua bước thu hồi silica rắn."
+      },
+      {
+        "id": "X-ray diffraction analysis (XRD)",
+        "type": "Method",
+        "description": "Phương pháp nhiễu xạ tia X dùng để xác định cấu trúc tinh thể."
+      },
+      {
+        "id": "X-ray fluorescence (XRF)",
+        "type": "Method",
+        "description": "Phương pháp huỳnh quang tia X dùng để phân tích thành phần hóa học."
+      },
+      {
+        "id": "Scanning electron microscope (FE-SEM)",
+        "type": "Method",
+        "description": "Kính hiển vi điện tử quét dùng để quan sát hình thái bề mặt."
+      },
+      {
+        "id": "Pseudo-second order",
+        "type": "Method",
+        "description": "Mô hình động học mô tả quá trình hấp phụ."
+      },
+      {
+        "id": "Freundlich adsorption isotherm",
+        "type": "Method",
+        "description": "Mô hình đẳng nhiệt hấp phụ mô tả sự tương tác giữa chất hấp phụ và chất bị hấp phụ."
+      },
+      {
+        "id": "NaOH",
+        "type": "Method",
+        "description": "Hóa chất sử dụng để chiết tách silica."
+      },
+      {
+        "id": "Recovery efficiency (87.5%)",
+        "type": "Metric",
+        "description": "Hiệu suất thu hồi silica từ tro trấu."
+      },
+      {
+        "id": "Crystallinity (96%)",
+        "type": "Metric",
+        "description": "Độ tinh thể hóa của zeolite NaY được tổng hợp."
+      },
+      {
+        "id": "Synthesis yield (31.25%)",
+        "type": "Metric",
+        "description": "Hiệu suất tổng hợp zeolite NaY."
+      },
+      {
+        "id": "Si/Al ratio (10)",
+        "type": "Metric",
+        "description": "Tỷ lệ Silicon trên Aluminum trong cấu trúc zeolite."
+      },
+      {
+        "id": "Maximum sorption capacity (9.18 mg/g)",
+        "type": "Metric",
+        "description": "Dung lượng hấp phụ cực đại của vật liệu đối với Cr(VI)."
+      },
+      {
+        "id": "pH 2.0",
+        "type": "Metric",
+        "description": "Giá trị pH tối ưu cho quá trình hấp phụ Cr(VI)."
+      },
+      {
+        "id": "Luong Huynh Vu Thanh",
+        "type": "Author",
+        "description": "Tác giả chính và người chịu trách nhiệm liên hệ."
+      },
+      {
+        "id": "Nguyen Hoang Ngoan",
+        "type": "Author",
+        "description": "Thành viên nhóm nghiên cứu."
+      },
+      {
+        "id": "Pham Thi Kim Thu",
+        "type": "Author",
+        "description": "Thành viên nhóm nghiên cứu."
+      },
+      {
+        "id": "Le Thanh Phu",
+        "type": "Author",
+        "description": "Thành viên nhóm nghiên cứu."
+      },
+      {
+        "id": "Le Tran Lan Trinh",
+        "type": "Author",
+        "description": "Thành viên nhóm nghiên cứu."
+      },
+      {
+        "id": "Dang Huynh Giao",
+        "type": "Author",
+        "description": "Thành viên nhóm nghiên cứu."
+      },
+      {
+        "id": "Tran Thi Bich Quyen",
+        "type": "Author",
+        "description": "Thành viên nhóm nghiên cứu."
+      },
+      {
+        "id": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Phòng thí nghiệm Kỹ thuật Hóa học Ứng dụng, Đại học Cần Thơ."
+      },
+      {
+        "id": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Khoa Kỹ thuật Hóa học, Trường Bách khoa, Đại học Cần Thơ."
+      }
+    ],
+    "relations": [
+      {
+        "source": "NaY zeolite synthesis from rice husk ash for Chromium(VI) ion adsorption",
+        "target": "Environmental Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "NaY zeolite synthesis from rice husk ash for Chromium(VI) ion adsorption",
+        "target": "Chemical Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "One-stage process",
+        "target": "Recovery efficiency (87.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "One-stage process",
+        "target": "Crystallinity (96%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "One-stage process",
+        "target": "Synthesis yield (31.25%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NaY zeolite",
+        "target": "Maximum sorption capacity (9.18 mg/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NaY zeolite",
+        "target": "pH 2.0",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NaY zeolite",
+        "target": "Adsorption of chromium (VI) ion",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Rice husk ash",
+        "target": "NaY zeolite synthesis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "X-ray diffraction analysis (XRD)",
+        "target": "NaY zeolite synthesis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pseudo-second order",
+        "target": "Adsorption of chromium (VI) ion",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Freundlich adsorption isotherm",
+        "target": "Adsorption of chromium (VI) ion",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Luong Huynh Vu Thanh",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luong Huynh Vu Thanh",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hoang Ngoan",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hoang Ngoan",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thi Kim Thu",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thi Kim Thu",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thanh Phu",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thanh Phu",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Tran Lan Trinh",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Tran Lan Trinh",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Huynh Giao",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Huynh Giao",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Bich Quyen",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

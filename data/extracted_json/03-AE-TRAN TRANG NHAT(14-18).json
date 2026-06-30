@@ -1,0 +1,150 @@
+{
+    "filename": "03-AE-TRAN TRANG NHAT(14-18).json",
+    "paper_title": "THE RELATIONSHIP OF BITUMEN CONTENT, AGGREGATE SURFACE AREA, AND EXTRACTION TIME USING ASPHALT IGNITION FURNACE",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Tran Trang Nhat",
+                "type": "Author",
+                "description": "The primary author of the research paper."
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the research was conducted."
+            },
+            {
+                "id": "Pavement Engineering",
+                "type": "Domain",
+                "description": "The main field of research focusing on asphalt and road construction materials."
+            },
+            {
+                "id": "Bitumen Content",
+                "type": "Concept",
+                "description": "The amount of bitumen used in an asphalt mixture."
+            },
+            {
+                "id": "Aggregate Surface Area",
+                "type": "Concept",
+                "description": "The total surface area of aggregate particles in a mix."
+            },
+            {
+                "id": "Extraction Time",
+                "type": "Concept",
+                "description": "The time required to remove bitumen from aggregate using an ignition furnace."
+            },
+            {
+                "id": "Optimum Bitumen Content (OBC)",
+                "type": "Concept",
+                "description": "The ideal amount of bitumen for the best performance of an asphalt mix."
+            },
+            {
+                "id": "Hot Mix Asphalt (HMA)",
+                "type": "Concept",
+                "description": "A combination of aggregate and asphalt binder used for paving."
+            },
+            {
+                "id": "Marshall Mix design method",
+                "type": "Method",
+                "description": "A standard procedure to determine the optimum bitumen content of an asphalt mix."
+            },
+            {
+                "id": "NCAT ignition furnace",
+                "type": "Method",
+                "description": "Equipment used to determine bitumen content by burning it off from the aggregate."
+            },
+            {
+                "id": "ACW14 (dense graded)",
+                "type": "Method",
+                "description": "A specific type of dense-graded aggregate grading mix."
+            },
+            {
+                "id": "PA (open graded)",
+                "type": "Method",
+                "description": "A specific type of open-graded aggregate grading mix."
+            },
+            {
+                "id": "SMA14 (gap graded)",
+                "type": "Method",
+                "description": "A specific type of Stone Matrix Asphalt (gap-graded) mix."
+            },
+            {
+                "id": "JKR Specification",
+                "type": "Method",
+                "description": "Standard specifications used in Malaysia for road construction."
+            },
+            {
+                "id": "PG 76",
+                "type": "Method",
+                "description": "A high-performance grade bitumen binder used in the study."
+            },
+            {
+                "id": "Aggregate mass (94%-95%)",
+                "type": "Metric",
+                "description": "The percentage of mass that aggregates contribute to hot mix asphalt."
+            },
+            {
+                "id": "Total specimens (45)",
+                "type": "Metric",
+                "description": "The total number of samples prepared for the Marshall and Ignition tests."
+            },
+            {
+                "id": "Air voids (4%)",
+                "type": "Metric",
+                "description": "The target percentage of air voids for SMA14 design."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Tran Trang Nhat",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pavement Engineering",
+                "target": "Pavement Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Marshall Mix design method",
+                "target": "Optimum Bitumen Content (OBC)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "NCAT ignition furnace",
+                "target": "Extraction Time",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Marshall Mix design method",
+                "target": "Total specimens (45)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SMA14 (gap graded)",
+                "target": "Air voids (4%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ACW14 (dense graded)",
+                "target": "Aggregate mass (94%-95%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ACW14 (dense graded)",
+                "target": "JKR Specification",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "PA (open graded)",
+                "target": "JKR Specification",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SMA14 (gap graded)",
+                "target": "JKR Specification",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

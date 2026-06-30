@@ -1,0 +1,190 @@
+{
+  "filename": "04-BT-HOANG THI NGOC NHON(22-30)020.json",
+  "paper_title": "Study on the optimal conditions for fucoidan extraction from Kappaphycus alvarezii",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nhon Hoang Thi Ngoc",
+        "type": "Author",
+        "description": "Lead author of the study"
+      },
+      {
+        "id": "Huyen Dinh Thi",
+        "type": "Author",
+        "description": "Co-author of the study"
+      },
+      {
+        "id": "Thinh Nguyen Van Nguyen",
+        "type": "Author",
+        "description": "Co-author of the study"
+      },
+      {
+        "id": "Ho Chi Minh City University of Food Industry",
+        "type": "Institution",
+        "description": "Academic institution where the research was conducted"
+      },
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "The primary field of research"
+      },
+      {
+        "id": "Fucoidan extraction",
+        "type": "Concept",
+        "description": "The process of obtaining fucoidan from biological sources"
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "A biological activity studied for the extracted fucoidan"
+      },
+      {
+        "id": "Response Surface Methodology (RSM)",
+        "type": "Method",
+        "description": "Optimization method used for extraction factors"
+      },
+      {
+        "id": "Central composite rotatable design",
+        "type": "Method",
+        "description": "Experimental design used within RSM"
+      },
+      {
+        "id": "High-performance liquid chromatography",
+        "type": "Method",
+        "description": "Used to determine monosaccharide composition"
+      },
+      {
+        "id": "Fourier transform infrared (FT-IR)",
+        "type": "Method",
+        "description": "Spectroscopic technique used for structural characterization"
+      },
+      {
+        "id": "13C-NMR",
+        "type": "Method",
+        "description": "Nuclear magnetic resonance used for structural analysis"
+      },
+      {
+        "id": "DPPH method",
+        "type": "Method",
+        "description": "Method used to determine antioxidant activity"
+      },
+      {
+        "id": "HCl",
+        "type": "Method",
+        "description": "Chemical solvent used for extraction"
+      },
+      {
+        "id": "Kappaphycus alvarezii",
+        "type": "Method",
+        "description": "Biological material (red alga) used for extraction"
+      },
+      {
+        "id": "Fucoidan content (47.9 µg/mL)",
+        "type": "Metric",
+        "description": "The optimized concentration of fucoidan extracted"
+      },
+      {
+        "id": "Optimal HCl concentration (1.39 M)",
+        "type": "Metric",
+        "description": "The optimized molarity of the extraction solvent"
+      },
+      {
+        "id": "Optimal temperature (54.94°C)",
+        "type": "Metric",
+        "description": "The optimized extraction temperature"
+      },
+      {
+        "id": "Optimum extraction time (40-45 minutes)",
+        "type": "Metric",
+        "description": "The optimized duration for extraction"
+      },
+      {
+        "id": "Fucose content (18.34%)",
+        "type": "Metric",
+        "description": "The percentage of fucose in the extracted fucoidan"
+      },
+      {
+        "id": "Sulfate content (15.67%)",
+        "type": "Metric",
+        "description": "The percentage of sulfate in the extracted fucoidan"
+      },
+      {
+        "id": "R2 (0.9448)",
+        "type": "Metric",
+        "description": "Correlation coefficient for the regression model"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nhon Hoang Thi Ngoc",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huyen Dinh Thi",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thinh Nguyen Van Nguyen",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Fucoidan extraction",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Fucoidan extraction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Fucoidan content (47.9 µg/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "R2 (0.9448)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "HCl",
+        "target": "Fucoidan extraction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Kappaphycus alvarezii",
+        "target": "Fucoidan extraction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "DPPH method",
+        "target": "Antioxidant activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "High-performance liquid chromatography",
+        "target": "Fucose content (18.34%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Optimal HCl concentration (1.39 M)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Optimal temperature (54.94°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Optimum extraction time (40-45 minutes)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

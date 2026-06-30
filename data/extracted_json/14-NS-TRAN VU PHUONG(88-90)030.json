@@ -1,0 +1,185 @@
+{
+    "filename": "14-NS-TRAN VU PHUONG(88-90)030.json",
+    "paper_title": "Secondary metabolite produced from marine bacterium Streptomyces sp. strain ND7c",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Biotechnology",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo"
+            },
+            {
+                "id": "Microbiology",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu liên quan đến vi sinh vật"
+            },
+            {
+                "id": "Tran Vu Phuong",
+                "type": "Author",
+                "description": "Tác giả chính, Viện Nghiên cứu và Phát triển Công nghệ sinh học, Đại học Cần Thơ"
+            },
+            {
+                "id": "Phan Van Ha Lam",
+                "type": "Author",
+                "description": "Đồng tác giả, Viện Nghiên cứu và Phát triển Công nghệ sinh học, Đại học Cần Thơ"
+            },
+            {
+                "id": "Duong Xuan Chu",
+                "type": "Author",
+                "description": "Đồng tác giả, Đại học Y Dược Cần Thơ"
+            },
+            {
+                "id": "Cao Ngoc Diep",
+                "type": "Author",
+                "description": "Đồng tác giả, Viện Nghiên cứu và Phát triển Công nghệ sinh học, Đại học Cần Thơ"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam"
+            },
+            {
+                "id": "Can Tho University of Medicine and Pharmacy",
+                "type": "Institution",
+                "description": "Trường Đại học Y Dược Cần Thơ, Việt Nam"
+            },
+            {
+                "id": "Secondary metabolites",
+                "type": "Concept",
+                "description": "Các hợp chất hữu cơ được sản xuất bởi vi sinh vật cho sự sinh tồn và thích nghi"
+            },
+            {
+                "id": "Marine actinomycetes",
+                "type": "Concept",
+                "description": "Nhóm vi khuẩn Gram dương sống trong môi trường biển"
+            },
+            {
+                "id": "Thymine",
+                "type": "Concept",
+                "description": "Hợp chất thứ cấp được phân lập từ Streptomyces sp. strain ND7c"
+            },
+            {
+                "id": "16S rRNA gene sequencing",
+                "type": "Method",
+                "description": "Phương pháp định danh chủng vi khuẩn"
+            },
+            {
+                "id": "BLAST N",
+                "type": "Method",
+                "description": "Thuật toán so sánh trình tự gene"
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "Cơ sở dữ liệu trình tự gene công cộng"
+            },
+            {
+                "id": "FT-ICR MS VARIAN 910",
+                "type": "Method",
+                "description": "Thiết bị đo phổ khối phân giải cao"
+            },
+            {
+                "id": "Brucker AM500 FT-NMR",
+                "type": "Method",
+                "description": "Thiết bị đo phổ cộng hưởng từ hạt nhân"
+            },
+            {
+                "id": "Liquid-liquid extraction",
+                "type": "Method",
+                "description": "Quy trình chiết lỏng-lỏng bằng dung môi hữu cơ"
+            },
+            {
+                "id": "Column chromatography",
+                "type": "Method",
+                "description": "Phương pháp sắc ký cột để tách chất"
+            },
+            {
+                "id": "Ethyl acetate",
+                "type": "Method",
+                "description": "Dung môi hóa học sử dụng để chiết"
+            },
+            {
+                "id": "99% similarity",
+                "type": "Metric",
+                "description": "Độ tương đồng của trình tự 16S rRNA"
+            },
+            {
+                "id": "mp. 316-317 oC",
+                "type": "Metric",
+                "description": "Điểm nóng chảy của hợp chất DIEP4"
+            },
+            {
+                "id": "5.2 g",
+                "type": "Metric",
+                "description": "Khối lượng cao chiết thô thu được"
+            },
+            {
+                "id": "9 mg",
+                "type": "Metric",
+                "description": "Khối lượng hợp chất DIEP4 tinh khiết thu được"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Biotechnology",
+                "target": "Secondary metabolites",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Tran Vu Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Van Ha Lam",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Xuan Chu",
+                "target": "Can Tho University of Medicine and Pharmacy",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cao Ngoc Diep",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "16S rRNA gene sequencing",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "BLAST N",
+                "target": "99% similarity",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Liquid-liquid extraction",
+                "target": "5.2 g",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Column chromatography",
+                "target": "9 mg",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Brucker AM500 FT-NMR",
+                "target": "Thymine",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "FT-ICR MS VARIAN 910",
+                "target": "Thymine",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Liquid-liquid extraction",
+                "target": "Ethyl acetate",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

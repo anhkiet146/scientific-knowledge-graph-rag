@@ -1,0 +1,160 @@
+{
+    "filename": "BE-NGUYEN THI TRUC LINH(74-81)052.json",
+    "paper_title": "Isolation and selection of lactic acid bacteria that can antagonize Vibrio parahaemolyticus causing acute hepatopancreatic necrosis disease in whiteleg shrimp (Penaeus vannamei)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Acute hepatopancreatic necrosis disease (AHPND)",
+                "type": "Concept",
+                "description": "A dangerous disease in shrimp caused by Vibrio parahaemolyticus."
+            },
+            {
+                "id": "Lactic acid bacteria (LAB) antagonism",
+                "type": "Concept",
+                "description": "The ability of LAB strains to inhibit the growth of pathogenic bacteria."
+            },
+            {
+                "id": "Agar well diffusion method",
+                "type": "Method",
+                "description": "Method used to determine the antagonism toward V. parahaemolyticus."
+            },
+            {
+                "id": "Morphological, physiological and bio-chemical tests",
+                "type": "Method",
+                "description": "Processes including Gram stain, oxidase, and catalase tests to identify LAB."
+            },
+            {
+                "id": "MRS broth",
+                "type": "Method",
+                "description": "Culture medium used for the incubation of LAB strains."
+            },
+            {
+                "id": "TCBS agar",
+                "type": "Method",
+                "description": "Selective medium used for recovery of V. parahaemolyticus."
+            },
+            {
+                "id": "Inhibition diameter (11.0–18.5 mm)",
+                "type": "Metric",
+                "description": "Range of inhibition zones produced by 81 LAB strains."
+            },
+            {
+                "id": "Inhibition diameter of RP5.4.1 (18.5±0.289 mm)",
+                "type": "Metric",
+                "description": "Specific measurement for the most effective LAB strain RP5.4.1."
+            },
+            {
+                "id": "Inhibition diameter of RP5.5.1 (18.00±0.00 mm)",
+                "type": "Metric",
+                "description": "Specific measurement for the LAB strain RP5.5.1."
+            },
+            {
+                "id": "Inhibition diameter of RP6.5 (17.3±0.58 mm)",
+                "type": "Metric",
+                "description": "Specific measurement for the LAB strain RP6.5."
+            },
+            {
+                "id": "Aquatic Pathology",
+                "type": "Domain",
+                "description": "Main field of research focused on diseases in aquatic organisms."
+            },
+            {
+                "id": "Nguyen Thi Truc Linh",
+                "type": "Author",
+                "description": "Lead author of the study."
+            },
+            {
+                "id": "Huynh Thanh Phong",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Trong Nghia",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Dang Thi Hoang Oanh",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Truong Quoc Phu",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Tra Vinh University",
+                "type": "Institution",
+                "description": "Institution located in Tra Vinh, Vietnam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Institution located in Can Tho, Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Truc Linh",
+                "target": "Tra Vinh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Thanh Phong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Trong Nghia",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thi Hoang Oanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Quoc Phu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Agar well diffusion method",
+                "target": "Lactic acid bacteria (LAB) antagonism",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Agar well diffusion method",
+                "target": "Inhibition diameter (11.0–18.5 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar well diffusion method",
+                "target": "Inhibition diameter of RP5.4.1 (18.5±0.289 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar well diffusion method",
+                "target": "Inhibition diameter of RP5.5.1 (18.00±0.00 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar well diffusion method",
+                "target": "Inhibition diameter of RP6.5 (17.3±0.58 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Morphological, physiological and bio-chemical tests",
+                "target": "Lactic acid bacteria (LAB) antagonism",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Isolation and selection of lactic acid bacteria that can antagonize Vibrio parahaemolyticus causing acute hepatopancreatic necrosis disease in whiteleg shrimp (Penaeus vannamei)",
+                "target": "Aquatic Pathology",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

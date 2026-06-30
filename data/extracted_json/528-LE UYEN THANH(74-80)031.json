@@ -1,0 +1,195 @@
+{
+    "filename": "528-LE UYEN THANH(74-80)031.json",
+    "paper_title": "Controlling efficiency of the potential rhizosphere bacterial antagonists against leaf spot disease from Rosa spp. caused by Xanthomonas spp. in vitro and under nethouse conditions",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Plant Pathology",
+                "type": "Domain",
+                "description": "The study of diseases in plants, specifically leaf spot disease on roses in this paper."
+            },
+            {
+                "id": "Le Uyen Thanh",
+                "type": "Author",
+                "description": "Researcher from Dong Thap University."
+            },
+            {
+                "id": "Doan Thi Kieu Tien",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Huynh Ngoc Tam",
+                "type": "Author",
+                "description": "Researcher from Tram Chim High School."
+            },
+            {
+                "id": "To Lan Phương",
+                "type": "Author",
+                "description": "Researcher from Dong Thap University."
+            },
+            {
+                "id": "Nguyen Thi Be Nhanh",
+                "type": "Author",
+                "description": "Researcher from Dong Thap University."
+            },
+            {
+                "id": "Dong Thap university",
+                "type": "Institution",
+                "description": "Higher education institution in Vietnam."
+            },
+            {
+                "id": "Can Tho university",
+                "type": "Institution",
+                "description": "Higher education institution in Vietnam."
+            },
+            {
+                "id": "Tram Chim High School",
+                "type": "Institution",
+                "description": "Educational institution in Dong Thap province, Vietnam."
+            },
+            {
+                "id": "Leaf spot disease",
+                "type": "Concept",
+                "description": "A disease on roses caused by Xanthomonas spp. resulting in leaf burn and necrosis."
+            },
+            {
+                "id": "Biological control agent",
+                "type": "Concept",
+                "description": "The use of antagonistic microorganisms to manage plant pathogens sustainably."
+            },
+            {
+                "id": "BR16",
+                "type": "Method",
+                "description": "Antagonistic bacterial isolate from rhizosphere substrate."
+            },
+            {
+                "id": "BR37",
+                "type": "Method",
+                "description": "Antagonistic bacterial isolate from rhizosphere substrate."
+            },
+            {
+                "id": "BR88",
+                "type": "Method",
+                "description": "Antagonistic bacterial isolate from rhizosphere substrate."
+            },
+            {
+                "id": "King's B (KB) medium",
+                "type": "Method",
+                "description": "Culture medium used for growing Xanthomonas spp."
+            },
+            {
+                "id": "Nutrient agar (NA) medium",
+                "type": "Method",
+                "description": "Culture medium used for growing antagonistic bacteria."
+            },
+            {
+                "id": "MINITAB version 16.1",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Antagonistic density (10^7 CFU/mL)",
+                "type": "Metric",
+                "description": "Selected bacterial concentration for nethouse trials."
+            },
+            {
+                "id": "Highest disease reduction efficiency (73.3%)",
+                "type": "Metric",
+                "description": "Maximum efficiency achieved by BR88 against XR18."
+            },
+            {
+                "id": "Disease reduction efficiency (70.1% to 72.4%)",
+                "type": "Metric",
+                "description": "Efficiency range of BR88 against XR13 and XR9."
+            },
+            {
+                "id": "AUDPC (2.4 to 4.7 times lower)",
+                "type": "Metric",
+                "description": "Reduction in the Area Under Disease Progressive Curve index compared to control."
+            },
+            {
+                "id": "Disease incidence (6.7% to 9.1%)",
+                "type": "Metric",
+                "description": "Low infection rates observed in BR88 treatments."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Uyen Thanh",
+                "target": "Dong Thap university",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "To Lan Phương",
+                "target": "Dong Thap university",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Be Nhanh",
+                "target": "Dong Thap university",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Doan Thi Kieu Tien",
+                "target": "Can Tho university",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Ngoc Tam",
+                "target": "Tram Chim High School",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "BR16",
+                "target": "Biological control agent",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "BR37",
+                "target": "Biological control agent",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "BR88",
+                "target": "Biological control agent",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "BR88",
+                "target": "Highest disease reduction efficiency (73.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BR88",
+                "target": "Disease reduction efficiency (70.1% to 72.4%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BR88",
+                "target": "Disease incidence (6.7% to 9.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BR16",
+                "target": "AUDPC (2.4 to 4.7 times lower)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BR37",
+                "target": "AUDPC (2.4 to 4.7 times lower)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BR88",
+                "target": "AUDPC (2.4 to 4.7 times lower)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Plant Pathology",
+                "target": "Leaf spot disease",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

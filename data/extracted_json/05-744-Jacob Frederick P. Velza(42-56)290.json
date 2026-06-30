@@ -1,0 +1,145 @@
+{
+    "filename": "05-744-Jacob Frederick P. Velza(42-56)290.json",
+    "paper_title": "Impact assessment of empowering small-scale farmers through the Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program of the DEBESMSCAT-Cawayan Campus",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Jacob Frederick P. Velza",
+                "type": "Author",
+                "description": "Faculty researcher and author of the study."
+            },
+            {
+                "id": "Roger Y. Ibañez, Jr",
+                "type": "Author",
+                "description": "Faculty researcher and corresponding author."
+            },
+            {
+                "id": "Froilan D. Mobo",
+                "type": "Author",
+                "description": "Faculty researcher and author."
+            },
+            {
+                "id": "Dr. Emilio B. Espinosa Sr. Memorial State College of Agriculture and Technology",
+                "type": "Institution",
+                "description": "Higher education institution in the Philippines."
+            },
+            {
+                "id": "Philippine Merchant Marine Academy",
+                "type": "Institution",
+                "description": "Educational institution in the Philippines."
+            },
+            {
+                "id": "Agricultural Extension",
+                "type": "Domain",
+                "description": "Field focused on providing information and support to agricultural communities."
+            },
+            {
+                "id": "Farmer empowerment",
+                "type": "Concept",
+                "description": "Process of enabling small-scale farmers to improve their production and livelihoods."
+            },
+            {
+                "id": "Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program",
+                "type": "Method",
+                "description": "Extension program focusing on family-based farm production and profitability."
+            },
+            {
+                "id": "Descriptive research design",
+                "type": "Method",
+                "description": "Method used to provide an in-depth understanding of the extension program outcomes."
+            },
+            {
+                "id": "Purposive sampling",
+                "type": "Method",
+                "description": "Sampling technique used to select 17 farmer-beneficiaries."
+            },
+            {
+                "id": "Interviews",
+                "type": "Method",
+                "description": "Data collection tool used with farmer-beneficiaries."
+            },
+            {
+                "id": "Modified questionnaire",
+                "type": "Method",
+                "description": "Research instrument tailored to the farming context."
+            },
+            {
+                "id": "Farmer-beneficiary records",
+                "type": "Dataset",
+                "description": "Quantitative and qualitative data from 17 participating farmers."
+            },
+            {
+                "id": "Good yields (65%)",
+                "type": "Metric",
+                "description": "The increased percentage of beneficiaries reporting high agricultural yields."
+            },
+            {
+                "id": "Profitability (88%)",
+                "type": "Metric",
+                "description": "The improved percentage of farmers reporting profitable operations."
+            },
+            {
+                "id": "Minimum income (P2,500.00)",
+                "type": "Metric",
+                "description": "The increased minimum monthly income reported after the program."
+            },
+            {
+                "id": "Enjoyment in farming (100%)",
+                "type": "Metric",
+                "description": "Full participation in positive sentiment regarding agricultural activities."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Impact assessment of empowering small-scale farmers through the Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program",
+                "target": "Agricultural Extension",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Jacob Frederick P. Velza",
+                "target": "Dr. Emilio B. Espinosa Sr. Memorial State College of Agriculture and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Roger Y. Ibañez, Jr",
+                "target": "Dr. Emilio B. Espinosa Sr. Memorial State College of Agriculture and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Froilan D. Mobo",
+                "target": "Philippine Merchant Marine Academy",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program",
+                "target": "Farmer empowerment",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program",
+                "target": "Good yields (65%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program",
+                "target": "Profitability (88%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program",
+                "target": "Enjoyment in farming (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mag-Uma Kaupod ang Pamilya Extension (MUKaPE) Program",
+                "target": "Farmer-beneficiary records",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Descriptive research design",
+                "target": "Farmer-beneficiary records",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

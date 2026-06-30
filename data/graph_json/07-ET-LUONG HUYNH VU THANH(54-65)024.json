@@ -1,0 +1,170 @@
+{
+  "filename": "07-ET-LUONG HUYNH VU THANH(54-65)024.json",
+  "paper_title": "Adsorption of chromium (VI) ion using adsorbent derived from lignin extracted coir pith",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Adsorption of chromium (VI) ion",
+        "type": "Concept",
+        "description": "The process of removing Cr(VI) ions from aqueous solutions using an adsorbent."
+      },
+      {
+        "id": "Wastewater treatment",
+        "type": "Domain",
+        "description": "The field of study focused on removing contaminants from industrial effluents."
+      },
+      {
+        "id": "Luong Huynh Vu Thanh",
+        "type": "Author",
+        "description": "Researcher and corresponding author of the study."
+      },
+      {
+        "id": "Tran Nguyen Phuong Lan",
+        "type": "Author",
+        "description": "Researcher involved in the study."
+      },
+      {
+        "id": "Tran Thi Bich Quyen",
+        "type": "Author",
+        "description": "Researcher involved in the study."
+      },
+      {
+        "id": "Ha Quoc Nam",
+        "type": "Author",
+        "description": "Researcher involved in the study."
+      },
+      {
+        "id": "Cao Luu Ngoc Hanh",
+        "type": "Author",
+        "description": "Researcher involved in the study."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic organization where the research was conducted."
+      },
+      {
+        "id": "Coconut coir pith (CCP)",
+        "type": "Method",
+        "description": "The raw biological material used to derive the adsorbent."
+      },
+      {
+        "id": "Sodium hydroxide (NaOH)",
+        "type": "Method",
+        "description": "Chemical agent used for pretreatment to remove lignin."
+      },
+      {
+        "id": "Phosphoric acid (H3PO4)",
+        "type": "Method",
+        "description": "Acidified agent used during the carbonization process."
+      },
+      {
+        "id": "Calcination at 200°C",
+        "type": "Method",
+        "description": "Thermal process used to generate the adsorbent."
+      },
+      {
+        "id": "Brunauer–Emmett–Teller analysis (BET)",
+        "type": "Method",
+        "description": "Analytical method used to determine the specific surface area."
+      },
+      {
+        "id": "Pseudo-second-order kinetic equation",
+        "type": "Method",
+        "description": "Model used to describe the kinetics of Cr(VI) adsorption."
+      },
+      {
+        "id": "Freundlich model",
+        "type": "Method",
+        "description": "Isotherm model used to describe multi-layer adsorption."
+      },
+      {
+        "id": "Removal yield (95.23%)",
+        "type": "Metric",
+        "description": "The percentage of Cr(VI) removed from a 100 mg.L-1 solution."
+      },
+      {
+        "id": "Specific surface area (178.53 m2.g-1)",
+        "type": "Metric",
+        "description": "The measured surface area of the derived adsorbent."
+      },
+      {
+        "id": "Calcination yield (52.54%)",
+        "type": "Metric",
+        "description": "The percentage of adsorbent generated from the raw material weight."
+      },
+      {
+        "id": "Equilibrium adsorption capacity (331.51 mg.g-1)",
+        "type": "Metric",
+        "description": "The amount of Cr(VI) ions adsorbed at equilibrium."
+      },
+      {
+        "id": "Point of zero charge (pH 5.7)",
+        "type": "Metric",
+        "description": "The pH level at which the surface charge of the adsorbent is neutral."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Luong Huynh Vu Thanh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Nguyen Phuong Lan",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Bich Quyen",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Quoc Nam",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Cao Luu Ngoc Hanh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Adsorption of chromium (VI) ion",
+        "target": "Wastewater treatment",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Coconut coir pith (CCP)",
+        "target": "Adsorption of chromium (VI) ion",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Calcination at 200°C",
+        "target": "Calcination yield (52.54%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Calcination at 200°C",
+        "target": "Removal yield (95.23%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "BET",
+        "target": "Specific surface area (178.53 m2.g-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pseudo-second-order kinetic equation",
+        "target": "Equilibrium adsorption capacity (331.51 mg.g-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Freundlich model",
+        "target": "Adsorption of chromium (VI) ion",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

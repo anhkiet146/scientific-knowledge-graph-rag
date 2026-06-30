@@ -1,0 +1,155 @@
+{
+    "filename": "07-ED-PHUONG HOANG YEN(49-59)007.json",
+    "paper_title": "A review of factors influencing learners' gain of English proficiency",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "English proficiency",
+                "type": "Concept",
+                "description": "The level of competence or skill in using the English language."
+            },
+            {
+                "id": "Learner autonomy",
+                "type": "Concept",
+                "description": "The ability of the learner to take responsibility for his or her own learning process."
+            },
+            {
+                "id": "Motivation and attitudes",
+                "type": "Concept",
+                "description": "Internal drives and emotional desires influencing language learning success."
+            },
+            {
+                "id": "Learning strategies",
+                "type": "Concept",
+                "description": "Specific actions or techniques used by learners to improve their language acquisition."
+            },
+            {
+                "id": "Teacher quality",
+                "type": "Concept",
+                "description": "Factor encompassing teacher competence, pedagogical skills, and subject mastery."
+            },
+            {
+                "id": "Communicative language teaching (CLT)",
+                "type": "Method",
+                "description": "An approach to language teaching that emphasizes interaction as both the means and the ultimate goal of study."
+            },
+            {
+                "id": "Task-based language teaching (TBLT)",
+                "type": "Method",
+                "description": "A teaching approach focusing on the use of authentic language and on asking students to do meaningful tasks."
+            },
+            {
+                "id": "Strategy Inventory for Language Learning (SILL)",
+                "type": "Method",
+                "description": "A standardized questionnaire used to measure language learning strategy use."
+            },
+            {
+                "id": "Snow-balling approach",
+                "type": "Method",
+                "description": "A literature search method where researchers consult the reference lists of relevant articles to find more sources."
+            },
+            {
+                "id": "Correlation and regression analysis",
+                "type": "Method",
+                "description": "Statistical methods used to determine relationships between variables like autonomy and proficiency."
+            },
+            {
+                "id": "Google Scholar",
+                "type": "Dataset",
+                "description": "A freely accessible web search engine that indexes the full text or metadata of scholarly literature."
+            },
+            {
+                "id": "Science Direct",
+                "type": "Dataset",
+                "description": "A website which provides access to a large bibliographic database of scientific and medical publications."
+            },
+            {
+                "id": "ERIC",
+                "type": "Dataset",
+                "description": "The Education Resources Information Center, an online library of education research and information."
+            },
+            {
+                "id": "Correlation coefficient (0.91)",
+                "type": "Metric",
+                "description": "A high positive correlation found between learners' proficiency and adoption of strategies in the study by Gharbavi and Mousavi."
+            },
+            {
+                "id": "Sample size (332 university students)",
+                "type": "Metric",
+                "description": "Participant count in Park's (1995) study on SILL and TOEFL scores."
+            },
+            {
+                "id": "Sample size (129 students)",
+                "type": "Metric",
+                "description": "Participant count in Dafei's (2007) study on autonomy and proficiency."
+            },
+            {
+                "id": "English Language Teaching (ELT)",
+                "type": "Domain",
+                "description": "The field of education focused on teaching English to speakers of other languages."
+            },
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "Researcher from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Tran Mai Hien",
+                "type": "Author",
+                "description": "Researcher from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Vo Phuong Quyen",
+                "type": "Author",
+                "description": "Researcher from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "A public university located in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "A review of factors influencing learners' gain of English proficiency",
+                "target": "English Language Teaching (ELT)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Correlation and regression analysis",
+                "target": "Correlation coefficient (0.91)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SILL",
+                "target": "Learning strategies",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Snow-balling approach",
+                "target": "Google Scholar",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Snow-balling approach",
+                "target": "ERIC",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Mai Hien",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Phuong Quyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

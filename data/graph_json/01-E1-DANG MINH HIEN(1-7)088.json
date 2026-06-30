@@ -1,0 +1,225 @@
+{
+  "filename": "01-E1-DANG MINH HIEN(1-7)088.json",
+  "paper_title": "Enzymatic hydrolysis of pangasius belly protein by-product using for Bacillus subtilis cultivation",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Agriculture",
+        "type": "Domain",
+        "description": "The main research field of the paper as specified in the journal header."
+      },
+      {
+        "id": "Enzymatic hydrolysis",
+        "type": "Concept",
+        "description": "Process of breaking down protein by-products using enzymes."
+      },
+      {
+        "id": "Bacillus subtilis cultivation",
+        "type": "Concept",
+        "description": "The process of growing Bacillus subtilis bacteria using fish protein hydrolysate."
+      },
+      {
+        "id": "Fish protein hydrolysates (FPH)",
+        "type": "Concept",
+        "description": "Products obtained from the hydrolysis of fish proteins."
+      },
+      {
+        "id": "Dang Minh Hien",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Vo Thi Nhu Lan",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Huynh Thi Bich Tran",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Cam Tu",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Cong Ha",
+        "type": "Author",
+        "description": "Corresponding author at Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "The university where the research was conducted, located in Vietnam."
+      },
+      {
+        "id": "Neutrase enzyme",
+        "type": "Method",
+        "description": "A neutral metallo-proteinase used for hydrolysis."
+      },
+      {
+        "id": "Spray-drying",
+        "type": "Method",
+        "description": "Method used to dry the protein hydrolysate at 180°C."
+      },
+      {
+        "id": "Anson method",
+        "type": "Method",
+        "description": "Method used to determine tyrosine content and protease activity."
+      },
+      {
+        "id": "Soxhlet method",
+        "type": "Method",
+        "description": "Method for lipid content determination."
+      },
+      {
+        "id": "Kjeldahl methods",
+        "type": "Method",
+        "description": "Method for total protein content determination."
+      },
+      {
+        "id": "OPA method",
+        "type": "Method",
+        "description": "Method used to determine amino protein content."
+      },
+      {
+        "id": "Vmax (1.283 μmol tyrosine/min)",
+        "type": "Metric",
+        "description": "Maximum reaction rate achieved by the enzyme."
+      },
+      {
+        "id": "Km (0.377 g protein)",
+        "type": "Metric",
+        "description": "Michaelis-Menten constant for the enzyme activity."
+      },
+      {
+        "id": "Reliability R2 (0.997)",
+        "type": "Metric",
+        "description": "Statistical reliability of the kinetic index."
+      },
+      {
+        "id": "Hydrolysis efficiency of tyrosine (42.69%)",
+        "type": "Metric",
+        "description": "Percentage of tyrosine hydrolysis efficiency."
+      },
+      {
+        "id": "OPA efficiency (52.51%)",
+        "type": "Metric",
+        "description": "Ortho-phthaldialdehyde efficiency at 240 minutes."
+      },
+      {
+        "id": "Moisture content (6.540%)",
+        "type": "Metric",
+        "description": "Water content in the dried fish protein hydrolysates."
+      },
+      {
+        "id": "Water activity (0.39)",
+        "type": "Metric",
+        "description": "The water activity level of the dried hydrolysate."
+      },
+      {
+        "id": "Cell density (3.84*10^8 CFU/mL)",
+        "type": "Metric",
+        "description": "Density of B. subtilis in hydrolysed protein medium at 24 hours."
+      },
+      {
+        "id": "Protease activity (0.211 AU)",
+        "type": "Metric",
+        "description": "Peak protease activity in the hydrolysed fish by-product medium."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Enzymatic hydrolysis",
+        "target": "Agriculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dang Minh Hien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Thi Nhu Lan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Thi Bich Tran",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Cam Tu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Cong Ha",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Neutrase enzyme",
+        "target": "Enzymatic hydrolysis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Neutrase enzyme",
+        "target": "Vmax (1.283 μmol tyrosine/min)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Neutrase enzyme",
+        "target": "Km (0.377 g protein)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Neutrase enzyme",
+        "target": "Reliability R2 (0.997)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Neutrase enzyme",
+        "target": "Hydrolysis efficiency of tyrosine (42.69%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Fish protein hydrolysates (FPH)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Moisture content (6.540%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Water activity (0.39)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bacillus subtilis cultivation",
+        "target": "Cell density (3.84*10^8 CFU/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bacillus subtilis cultivation",
+        "target": "Protease activity (0.211 AU)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Anson method",
+        "target": "Protease activity (0.211 AU)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "OPA method",
+        "target": "OPA efficiency (52.51%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

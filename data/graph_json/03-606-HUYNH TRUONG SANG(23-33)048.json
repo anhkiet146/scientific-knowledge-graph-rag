@@ -1,0 +1,150 @@
+{
+  "filename": "03-606-HUYNH TRUONG SANG(23-33)048.json",
+  "paper_title": "Review of the effects of Task-based Language Teaching on EFL learners' speaking performance: What remains to be researched?",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Huynh Truong Sang",
+        "type": "Author",
+        "description": "First author of the research paper."
+      },
+      {
+        "id": "Nguyen Van Loi",
+        "type": "Author",
+        "description": "Corresponding author of the research paper."
+      },
+      {
+        "id": "Tien Giang University",
+        "type": "Institution",
+        "description": "Affiliation of Huynh Truong Sang."
+      },
+      {
+        "id": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "Institution",
+        "description": "Parent institution of An Giang University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Affiliation of Nguyen Van Loi."
+      },
+      {
+        "id": "Applied Linguistics",
+        "type": "Domain",
+        "description": "The primary research domain focused on language teaching and learning."
+      },
+      {
+        "id": "Task-based Language Teaching (TBLT)",
+        "type": "Concept",
+        "description": "An approach to language teaching focusing on the use of authentic language and completing meaningful tasks."
+      },
+      {
+        "id": "Speaking performance",
+        "type": "Concept",
+        "description": "The ability of EFL learners to produce oral language, measured by complexity, accuracy, and fluency."
+      },
+      {
+        "id": "Systematic review approach",
+        "type": "Method",
+        "description": "The methodology used to select and analyze 25 qualified studies."
+      },
+      {
+        "id": "Willis' model",
+        "type": "Method",
+        "description": "A framework for TBLT comprising pre-task, task cycle, and language focus phases."
+      },
+      {
+        "id": "Skehan's model",
+        "type": "Method",
+        "description": "A cognitive-based TBLT model emphasizing task features and performance outcomes."
+      },
+      {
+        "id": "Ellis' framework",
+        "type": "Method",
+        "description": "A synthesized design of TBLT with pre-task, during-task, and post-task phases."
+      },
+      {
+        "id": "Text-driven approach",
+        "type": "Method",
+        "description": "An approach combining affective and cognitive principles in second language learning."
+      },
+      {
+        "id": "25 qualified studies",
+        "type": "Dataset",
+        "description": "The collection of studies selected from databases for the systematic review."
+      },
+      {
+        "id": "Growth in speaking components (60%)",
+        "type": "Metric",
+        "description": "Percentage of reviewed studies showing improvement in specific speaking components."
+      },
+      {
+        "id": "Growth in general speaking (40%)",
+        "type": "Metric",
+        "description": "Percentage of reviewed studies showing improvement in overall speaking proficiency."
+      },
+      {
+        "id": "Studies using Willis' model (44%)",
+        "type": "Metric",
+        "description": "The proportion of studies that implemented Willis' TBLT framework."
+      },
+      {
+        "id": "CAF framework",
+        "type": "Concept",
+        "description": "The measurement of Complexity, Accuracy, and Fluency in speaking performance."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Huynh Truong Sang",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Truong Sang",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Loi",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Review of the effects of Task-based Language Teaching on EFL learners' speaking performance",
+        "target": "Applied Linguistics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Systematic review approach",
+        "target": "25 qualified studies",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Task-based Language Teaching (TBLT)",
+        "target": "Speaking performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Willis' model",
+        "target": "Speaking performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Task-based Language Teaching (TBLT)",
+        "target": "Growth in speaking components (60%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Task-based Language Teaching (TBLT)",
+        "target": "Growth in general speaking (40%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Systematic review approach",
+        "target": "Studies using Willis' model (44%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

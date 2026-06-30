@@ -1,0 +1,170 @@
+{
+  "filename": "09-820-Dyanika P. Nolasco(85-95)294.json",
+  "paper_title": "Going beyond borders after a pandemic: Preparedness of teachers to embrace E-learning in a small Philippine university",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Education",
+        "type": "Domain",
+        "description": "The primary field of research focusing on higher education and digital transformation."
+      },
+      {
+        "id": "Dyanika P. Nolasco",
+        "type": "Author",
+        "description": "Author and corresponding researcher from Quirino State University."
+      },
+      {
+        "id": "Danisse Mae P. Hernandez",
+        "type": "Author",
+        "description": "Author and researcher from Quirino State University."
+      },
+      {
+        "id": "Quirino State University",
+        "type": "Institution",
+        "description": "A state university in the Philippines where the research was conducted."
+      },
+      {
+        "id": "Teacher readiness for E-learning",
+        "type": "Concept",
+        "description": "The preparedness, skills, and dedication of educators to adopt online platforms for teaching."
+      },
+      {
+        "id": "Online teaching pedagogy",
+        "type": "Concept",
+        "description": "The methods and practices used for effective instruction in a virtual environment."
+      },
+      {
+        "id": "Mixed-methods design",
+        "type": "Method",
+        "description": "Research design combining quantitative surveys and qualitative interviews."
+      },
+      {
+        "id": "Survey",
+        "type": "Method",
+        "description": "A quantitative tool used to assess readiness factors like device ownership and internet access."
+      },
+      {
+        "id": "Interviews",
+        "type": "Method",
+        "description": "A qualitative tool used to gather in-depth insights into attitudes and technological capabilities."
+      },
+      {
+        "id": "Reliability test",
+        "type": "Method",
+        "description": "A procedure used to ensure the consistency of the research instrument."
+      },
+      {
+        "id": "Survey data (n=119)",
+        "type": "Dataset",
+        "description": "Quantitative data collected from 119 higher education teachers."
+      },
+      {
+        "id": "Interview data (n=10)",
+        "type": "Dataset",
+        "description": "Qualitative data collected from 10 selected instructors for thematic analysis."
+      },
+      {
+        "id": "Smartphone ownership (93%)",
+        "type": "Metric",
+        "description": "Percentage of instructors who personally own a smartphone."
+      },
+      {
+        "id": "Laptop ownership (77%)",
+        "type": "Metric",
+        "description": "Percentage of instructors who possess a personal laptop."
+      },
+      {
+        "id": "Cellular data usage (82%)",
+        "type": "Metric",
+        "description": "Percentage of respondents using cellular data for internet access."
+      },
+      {
+        "id": "Cronbach's Alpha for technological capabilities (0.887)",
+        "type": "Metric",
+        "description": "Internal consistency value for the technological skills section of the questionnaire."
+      },
+      {
+        "id": "Cronbach's Alpha for attitudes (0.791)",
+        "type": "Metric",
+        "description": "Internal consistency value for the attitudes section of the questionnaire."
+      },
+      {
+        "id": "Cronbach's Alpha for time management (0.895)",
+        "type": "Metric",
+        "description": "Internal consistency value for the time management and commitment section."
+      },
+      {
+        "id": "Overall mean for commitment (3.19)",
+        "type": "Metric",
+        "description": "Mean score representing the instructors' level of commitment and time management."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Going beyond borders after a pandemic: Preparedness of teachers to embrace E-learning in a small Philippine university",
+        "target": "Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dyanika P. Nolasco",
+        "target": "Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Danisse Mae P. Hernandez",
+        "target": "Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mixed-methods design",
+        "type": "USED_FOR",
+        "target": "Teacher readiness for E-learning"
+      },
+      {
+        "source": "Survey",
+        "type": "EVALUATED_ON",
+        "target": "Survey data (n=119)"
+      },
+      {
+        "source": "Interviews",
+        "type": "EVALUATED_ON",
+        "target": "Interview data (n=10)"
+      },
+      {
+        "source": "Survey",
+        "type": "ACHIEVED",
+        "target": "Smartphone ownership (93%)"
+      },
+      {
+        "source": "Survey",
+        "type": "ACHIEVED",
+        "target": "Laptop ownership (77%)"
+      },
+      {
+        "source": "Survey",
+        "type": "ACHIEVED",
+        "target": "Cellular data usage (82%)"
+      },
+      {
+        "source": "Reliability test",
+        "type": "ACHIEVED",
+        "target": "Cronbach's Alpha for technological capabilities (0.887)"
+      },
+      {
+        "source": "Reliability test",
+        "type": "ACHIEVED",
+        "target": "Cronbach's Alpha for attitudes (0.791)"
+      },
+      {
+        "source": "Reliability test",
+        "type": "ACHIEVED",
+        "target": "Cronbach's Alpha for time management (0.895)"
+      },
+      {
+        "source": "Survey",
+        "type": "ACHIEVED",
+        "target": "Overall mean for commitment (3.19)"
+      }
+    ]
+  }
+}

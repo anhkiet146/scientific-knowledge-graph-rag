@@ -1,0 +1,195 @@
+{
+  "filename": "11-BE-NGUYEN VAN THU(69-80).json",
+  "paper_title": "LIVESTOCK PRODUCTION SYSTEMS ADAPTING TO THE GLOBAL CRISES IN TROPICAL DEVELOPING COUNTRIES: A REVIEW",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Livestock Production",
+        "type": "Domain",
+        "description": "The main research field focusing on animal farming and management systems."
+      },
+      {
+        "id": "Sustainable development",
+        "type": "Concept",
+        "description": "Economic and social development that meets the needs of the present without compromising the future."
+      },
+      {
+        "id": "Climate change",
+        "type": "Concept",
+        "description": "Global environmental crisis involving shifting weather patterns and global warming."
+      },
+      {
+        "id": "Food Crisis",
+        "type": "Concept",
+        "description": "Global issue of protein-energy malnutrition and food shortages due to population growth."
+      },
+      {
+        "id": "Energy Crisis",
+        "type": "Concept",
+        "description": "Resource depletion of fossil fuels and the need for alternative energy sources."
+      },
+      {
+        "id": "Greenhouse Gas Emissions",
+        "type": "Concept",
+        "description": "Emissions like CO2 and Methane that contribute to global warming."
+      },
+      {
+        "id": "Nguyen Van Thu",
+        "type": "Author",
+        "description": "Author of the review article."
+      },
+      {
+        "id": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Educational and research institution in Vietnam."
+      },
+      {
+        "id": "Integrated farming systems",
+        "type": "Method",
+        "description": "Systems combining crops, animals, and biodigesters to recycle waste and produce energy."
+      },
+      {
+        "id": "Gasification",
+        "type": "Method",
+        "description": "A process that converts biomass into combustible gas and biochar."
+      },
+      {
+        "id": "Biodigesters",
+        "type": "Method",
+        "description": "Equipment used to process organic waste into fertilizer and cooking gas."
+      },
+      {
+        "id": "Fractionation of biomass",
+        "type": "Method",
+        "description": "Separating biomass into edible components for food/feed and inedible components for energy."
+      },
+      {
+        "id": "Cellulosic ethanol production",
+        "type": "Method",
+        "description": "Process of converting cellulose-rich substrates into liquid fuel."
+      },
+      {
+        "id": "Table 10",
+        "type": "Dataset",
+        "description": "Data showing water hyacinth as feed for ruminants and rabbits."
+      },
+      {
+        "id": "Table 3",
+        "type": "Dataset",
+        "description": "Data on ethanol fermentation rates and energy requirements."
+      },
+      {
+        "id": "Table 6",
+        "type": "Dataset",
+        "description": "Data on biogas quality for cooking or electricity production."
+      },
+      {
+        "id": "Methane emissions in NZ (32%)",
+        "type": "Metric",
+        "description": "Percentage of agricultural methane in New Zealand's total emissions."
+      },
+      {
+        "id": "Biochar composition (65% carbon: 35% ash)",
+        "type": "Metric",
+        "description": "The chemical makeup of the biochar byproduct."
+      },
+      {
+        "id": "Undernourished population (805 million)",
+        "type": "Metric",
+        "description": "Total number of people suffering from chronic undernourishment."
+      },
+      {
+        "id": "Optimum level of water hyacinth in feed (40%)",
+        "type": "Metric",
+        "description": "The specific percentage of water hyacinth used in a complete rabbit feed."
+      },
+      {
+        "id": "Fermentation time for cellulosic ethanol (120-170 hours)",
+        "type": "Metric",
+        "description": "The duration required for the fermentation of cellulose-based ethanol."
+      },
+      {
+        "id": "Conversion of straw to ethanol (0.178 kg/kg)",
+        "type": "Metric",
+        "description": "Yield of ethanol from straw dry matter."
+      },
+      {
+        "id": "50-m3 bio-digester",
+        "type": "Metric",
+        "description": "The specific volume capacity of the biodigester equipment used."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Van Thu",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "LIVESTOCK PRODUCTION SYSTEMS ADAPTING TO THE GLOBAL CRISES IN TROPICAL DEVELOPING COUNTRIES: A REVIEW",
+        "target": "Livestock Production",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Integrated farming systems",
+        "target": "Climate change",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Integrated farming systems",
+        "target": "Biochar composition (65% carbon: 35% ash)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gasification",
+        "target": "Energy Crisis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Biodigesters",
+        "target": "50-m3 bio-digester",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fractionation of biomass",
+        "target": "Food Crisis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Cellulosic ethanol production",
+        "target": "Fermentation time for cellulosic ethanol (120-170 hours)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Cellulosic ethanol production",
+        "target": "Conversion of straw to ethanol (0.178 kg/kg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Cellulosic ethanol production",
+        "target": "Table 3",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Cellulosic ethanol production",
+        "target": "Table 3",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Integrated farming systems",
+        "target": "Table 6",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Method of feeding rabbits",
+        "target": "Table 10",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Method of feeding rabbits",
+        "target": "Optimum level of water hyacinth in feed (40%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

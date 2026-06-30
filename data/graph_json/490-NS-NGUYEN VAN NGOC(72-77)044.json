@@ -1,0 +1,160 @@
+{
+  "filename": "490-NS-NGUYEN VAN NGOC(72-77)044.json",
+  "paper_title": "The antimicrobial activity and chemical composition of Elsholtzia blanda (Benth.) Benth. essential oils in Lam Dong Province, Viet Nam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Van Ngoc",
+        "type": "Author",
+        "description": "Researcher at Dalat University and primary author of the study."
+      },
+      {
+        "id": "Hoang Thi Thu Binh",
+        "type": "Author",
+        "description": "Researcher at the Faculty of Biology, Dalat University."
+      },
+      {
+        "id": "Faculty of Biology, Dalat University",
+        "type": "Institution",
+        "description": "Academic department where the research was conducted in Viet Nam."
+      },
+      {
+        "id": "Phytochemistry",
+        "type": "Domain",
+        "description": "The study of the chemical composition of plants."
+      },
+      {
+        "id": "Microbiology",
+        "type": "Domain",
+        "description": "The study of antimicrobial activities against bacteria and yeast."
+      },
+      {
+        "id": "Antimicrobial activity",
+        "type": "Concept",
+        "description": "The ability of the essential oil to inhibit the growth of microorganisms."
+      },
+      {
+        "id": "Chemical composition",
+        "type": "Concept",
+        "description": "The identification of specific chemical constituents within the essential oil."
+      },
+      {
+        "id": "Hydrodistillation",
+        "type": "Method",
+        "description": "Process used to extract essential oils from the aerial parts of Elsholtzia blanda."
+      },
+      {
+        "id": "Gas chromatography and mass spectrometry (GC-MS)",
+        "type": "Method",
+        "description": "Analytical method used to identify and quantify chemical constituents."
+      },
+      {
+        "id": "Agar wells diffusion method",
+        "type": "Method",
+        "description": "Bioassay used to evaluate the antibacterial and antifungal activity."
+      },
+      {
+        "id": "Elsholtzia blanda aerial parts",
+        "type": "Method",
+        "description": "Biological plant material used as the source for essential oil extraction."
+      },
+      {
+        "id": "NIST08",
+        "type": "Dataset",
+        "description": "Mass spectral database used for identification of chemical compounds."
+      },
+      {
+        "id": "WILEY 275",
+        "type": "Dataset",
+        "description": "Digital mass spectral library used for matching GC-MS data."
+      },
+      {
+        "id": "Essential oil yield (0.96% to 1.08%)",
+        "type": "Metric",
+        "description": "The percentage of oil obtained from the plant material."
+      },
+      {
+        "id": "Camphor concentration (25.14%)",
+        "type": "Metric",
+        "description": "The concentration of the most abundant constituent in the oil."
+      },
+      {
+        "id": "Camphene concentration (22.64%)",
+        "type": "Metric",
+        "description": "The concentration of the second most abundant constituent."
+      },
+      {
+        "id": "Number of identified compounds (31)",
+        "type": "Metric",
+        "description": "Total count of chemical constituents identified in the essential oil."
+      },
+      {
+        "id": "Statistical significance (P < 0.05)",
+        "type": "Metric",
+        "description": "The threshold for considering mean differences as significant."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Van Ngoc",
+        "target": "Faculty of Biology, Dalat University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hoang Thi Thu Binh",
+        "target": "Faculty of Biology, Dalat University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "The antimicrobial activity and chemical composition of Elsholtzia blanda (Benth.) Benth. essential oils in Lam Dong Province, Viet Nam",
+        "target": "Phytochemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "The antimicrobial activity and chemical composition of Elsholtzia blanda (Benth.) Benth. essential oils in Lam Dong Province, Viet Nam",
+        "target": "Microbiology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Hydrodistillation",
+        "target": "Chemical composition",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Gas chromatography and mass spectrometry (GC-MS)",
+        "target": "Chemical composition",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Agar wells diffusion method",
+        "target": "Antimicrobial activity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Gas chromatography and mass spectrometry (GC-MS)",
+        "target": "NIST08",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Gas chromatography and mass spectrometry (GC-MS)",
+        "target": "WILEY 275",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Hydrodistillation",
+        "target": "Essential oil yield (0.96% to 1.08%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gas chromatography and mass spectrometry (GC-MS)",
+        "target": "Camphor concentration (25.14%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gas chromatography and mass spectrometry (GC-MS)",
+        "target": "Number of identified compounds (31)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

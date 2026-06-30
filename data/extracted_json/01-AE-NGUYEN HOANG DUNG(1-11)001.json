@@ -1,0 +1,175 @@
+{
+    "filename": "01-AE-NGUYEN HOANG DUNG(1-11)001.json",
+    "paper_title": "Controlling the external device in real-time using eeg brain signals based on eyes states",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Brain-computer interfaces (BCI)",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về sự giao tiếp giữa não bộ và thiết bị ngoại vi."
+            },
+            {
+                "id": "Nguyen Hoang Dung",
+                "type": "Author",
+                "description": "Tác giả chính từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Nguyen Co Thach",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Huynh The Hien",
+                "type": "Author",
+                "description": "Tác giả từ Công ty Cổ phần Phân bón Dầu khí Cà Mau."
+            },
+            {
+                "id": "Nguyen Mai Ngan",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường đại học tại Việt Nam, nơi công tác của đa số các tác giả."
+            },
+            {
+                "id": "PetroVietnam Ca Mau Fertilizer JSC",
+                "type": "Institution",
+                "description": "Công ty cổ phần phân bón dầu khí tại Cà Mau, Việt Nam."
+            },
+            {
+                "id": "Real-time external device control",
+                "type": "Concept",
+                "description": "Vấn đề điều khiển thiết bị bên ngoài trong thời gian thực sử dụng tín hiệu não."
+            },
+            {
+                "id": "EEG brain signals",
+                "type": "Concept",
+                "description": "Tín hiệu điện não đồ được sử dụng để phân tích trạng thái mắt."
+            },
+            {
+                "id": "Emotiv Epoc+",
+                "type": "Method",
+                "description": "Thiết bị ghi nhận tín hiệu điện não đồ với 14 kênh."
+            },
+            {
+                "id": "Wavelet approach",
+                "type": "Method",
+                "description": "Phương pháp được sử dụng để loại bỏ nhiễu trong tín hiệu điện não."
+            },
+            {
+                "id": "Recursive least square (RLS) estimation",
+                "type": "Method",
+                "description": "Thuật toán lọc thích nghi để loại bỏ nhiễu chớp mắt."
+            },
+            {
+                "id": "Support Vector Machine (SVM)",
+                "type": "Method",
+                "description": "Thuật toán học máy được sử dụng để phân loại trạng thái mắt đóng hoặc mở."
+            },
+            {
+                "id": "RBF Kernel (Gaussian)",
+                "type": "Method",
+                "description": "Hàm nhân được sử dụng trong mô hình SVM để phân loại dữ liệu EEG phức tạp."
+            },
+            {
+                "id": "Arduino control board",
+                "type": "Method",
+                "description": "Bo mạch điều khiển nhận lệnh để bật/tắt đèn."
+            },
+            {
+                "id": "Recorded EEG signal dataset",
+                "type": "Dataset",
+                "description": "Tập dữ liệu số thu thập từ các kênh F7 và F8 của Emotiv Epoc+."
+            },
+            {
+                "id": "Average accuracy (81.6%)",
+                "type": "Metric",
+                "description": "Độ chính xác trung bình của hai lệnh điều khiển đạt được trong thực nghiệm."
+            },
+            {
+                "id": "Accuracy of open state (83.3%)",
+                "type": "Metric",
+                "description": "Độ chính xác khi phân loại trạng thái mắt mở."
+            },
+            {
+                "id": "Accuracy of closed state (80%)",
+                "type": "Metric",
+                "description": "Độ chính xác khi phân loại trạng thái mắt đóng."
+            },
+            {
+                "id": "Sampling rate (128 kHz)",
+                "type": "Metric",
+                "description": "Tỷ lệ lấy mẫu của thiết bị Emotiv Epoc+."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Controlling the external device in real-time using eeg brain signals based on eyes states",
+                "target": "Brain-computer interfaces (BCI)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Hoang Dung",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Co Thach",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Mai Ngan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh The Hien",
+                "target": "PetroVietnam Ca Mau Fertilizer JSC",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Support Vector Machine (SVM)",
+                "target": "Average accuracy (81.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Support Vector Machine (SVM)",
+                "target": "Accuracy of open state (83.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Support Vector Machine (SVM)",
+                "target": "Accuracy of closed state (80%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Support Vector Machine (SVM)",
+                "target": "EEG brain signals",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Wavelet approach",
+                "target": "EEG brain signals",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Recursive least square (RLS) estimation",
+                "target": "EEG brain signals",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Arduino control board",
+                "target": "Real-time external device control",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Support Vector Machine (SVM)",
+                "target": "Recorded EEG signal dataset",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

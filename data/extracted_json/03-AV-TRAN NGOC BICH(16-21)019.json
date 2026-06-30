@@ -1,0 +1,155 @@
+{
+    "filename": "03-AV-TRAN NGOC BICH(16-21)019.json",
+    "paper_title": "Study on canine respiratory disease and evaluating the effect of treatment at the Animal Clinic, Can Tho University",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Veterinary Medicine",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo về thú y."
+            },
+            {
+                "id": "Canine respiratory tract disease",
+                "type": "Concept",
+                "description": "Bệnh đường hô hấp trên chó, đối tượng nghiên cứu chính."
+            },
+            {
+                "id": "Tran Ngoc Bich",
+                "type": "Author",
+                "description": "Tác giả của bài báo."
+            },
+            {
+                "id": "Le Quang Trung",
+                "type": "Author",
+                "description": "Tác giả của bài báo."
+            },
+            {
+                "id": "Tran Thi Thao",
+                "type": "Author",
+                "description": "Tác giả của bài báo."
+            },
+            {
+                "id": "Dang Thao Vy",
+                "type": "Author",
+                "description": "Tác giả của bài báo."
+            },
+            {
+                "id": "College of Agriculture, Can Tho University",
+                "type": "Institution",
+                "description": "Cơ quan công tác của các tác giả tại Việt Nam."
+            },
+            {
+                "id": "Cross-sectional study",
+                "type": "Method",
+                "description": "Phương pháp nghiên cứu cắt ngang được sử dụng để xác định tỷ lệ bệnh."
+            },
+            {
+                "id": "Clinical diagnosis",
+                "type": "Method",
+                "description": "Chẩn đoán lâm sàng dựa trên các triệu chứng hô hấp."
+            },
+            {
+                "id": "Marbofloxacin",
+                "type": "Method",
+                "description": "Kháng sinh fluoroquinolone thế hệ mới dùng để điều trị bệnh hô hấp."
+            },
+            {
+                "id": "Cefuroxime",
+                "type": "Method",
+                "description": "Kháng sinh nhóm cephalosporin dùng trong điều trị bệnh hô hấp."
+            },
+            {
+                "id": "Clinical records of 736 dogs",
+                "type": "Dataset",
+                "description": "Dữ liệu khảo sát từ 736 con chó tại thành phố Cần Thơ."
+            },
+            {
+                "id": "Rate of respiratory disease (19.43%)",
+                "type": "Metric",
+                "description": "Tỷ lệ chó mắc bệnh đường hô hấp được tìm thấy trong nghiên cứu."
+            },
+            {
+                "id": "Upper airways rate (79.72%)",
+                "type": "Metric",
+                "description": "Tỷ lệ chó mắc bệnh ở đường hô hấp trên."
+            },
+            {
+                "id": "Marbofloxacin success rate (95.00%)",
+                "type": "Metric",
+                "description": "Hiệu quả kiểm soát bệnh đường hô hấp trên của Marbofloxacin."
+            },
+            {
+                "id": "Cefuroxime success rate (90.00%)",
+                "type": "Metric",
+                "description": "Hiệu quả kiểm soát bệnh đường hô hấp trên của Cefuroxime."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Canine respiratory tract disease",
+                "target": "Veterinary Medicine",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tran Ngoc Bich",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Quang Trung",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Thao",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thao Vy",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cross-sectional study",
+                "target": "Clinical records of 736 dogs",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Clinical diagnosis",
+                "target": "Canine respiratory tract disease",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Marbofloxacin",
+                "target": "Canine respiratory tract disease",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Cefuroxime",
+                "target": "Canine respiratory tract disease",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Cross-sectional study",
+                "target": "Rate of respiratory disease (19.43%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Clinical diagnosis",
+                "target": "Upper airways rate (79.72%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Marbofloxacin",
+                "target": "Marbofloxacin success rate (95.00%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cefuroxime",
+                "target": "Cefuroxime success rate (90.00%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,240 @@
+{
+    "filename": "452-AG-HUYNH KY(40-44)041.json",
+    "paper_title": "Genetic variation of Nang Thom Cho Dao rice variety based on whole genome sequencing",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Genetic variation",
+                "type": "Concept",
+                "description": "The main research problem focused on the genomic differences of Nang Thom Cho Dao rice."
+            },
+            {
+                "id": "Rice breeding strategies",
+                "type": "Concept",
+                "description": "The application of genetic markers to improve rice crops."
+            },
+            {
+                "id": "Genomics",
+                "type": "Domain",
+                "description": "The primary field of research involving whole genome sequencing."
+            },
+            {
+                "id": "Whole genome sequencing",
+                "type": "Method",
+                "description": "The process of determining the complete DNA sequence of the rice genome."
+            },
+            {
+                "id": "Bioinformatic pipeline",
+                "type": "Method",
+                "description": "The analytical workflow used to detect and favor genetic variants."
+            },
+            {
+                "id": "CTAB technique",
+                "type": "Method",
+                "description": "The method used for genomic DNA extraction from immature leaves."
+            },
+            {
+                "id": "Illumina HiSeq 2000",
+                "type": "Method",
+                "description": "The sequencing platform used for full genome re-sequencing."
+            },
+            {
+                "id": "fastp tool V0.20.0",
+                "type": "Method",
+                "description": "An ultrafast FASTQ preprocessor for quality checking."
+            },
+            {
+                "id": "HISAT2 software V2.1.0",
+                "type": "Method",
+                "description": "Software used for mapping quality-filtered reads to the reference genome."
+            },
+            {
+                "id": "SAMtools toolkit V1.9",
+                "type": "Method",
+                "description": "Toolkit used for variant detection and eliminating low-mapping quality."
+            },
+            {
+                "id": "SnpEff",
+                "type": "Method",
+                "description": "Tool used for functional annotation of genetic variants."
+            },
+            {
+                "id": "Os-Nipponbare-Reference-IRGSP-1.0",
+                "type": "Dataset",
+                "description": "The reference rice genome database used for comparison."
+            },
+            {
+                "id": "21 million reads",
+                "type": "Metric",
+                "description": "Total volume of sequencing reads analyzed."
+            },
+            {
+                "id": "6.6 GB of data",
+                "type": "Metric",
+                "description": "Total size of the sequencing data generated."
+            },
+            {
+                "id": "Mapping rate (95.81%)",
+                "type": "Metric",
+                "description": "Percentage of NTCD sequence mapped to the Nipponbare genome."
+            },
+            {
+                "id": "Average depth (16.43X)",
+                "type": "Metric",
+                "description": "The mean sequencing depth across the reference genome."
+            },
+            {
+                "id": "Ts/Tv ratio (2.45)",
+                "type": "Metric",
+                "description": "The ratio of transition to transversion mutations."
+            },
+            {
+                "id": "173,056 InDels",
+                "type": "Metric",
+                "description": "Total number of insertion and deletion variants detected."
+            },
+            {
+                "id": "Huynh Ky",
+                "type": "Author",
+                "description": "Lead author affiliated with Can Tho University."
+            },
+            {
+                "id": "Van Quoc Giang",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University."
+            },
+            {
+                "id": "Nguyen Loc Hien",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University."
+            },
+            {
+                "id": "Nguyen Chau Thanh Tung",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University."
+            },
+            {
+                "id": "Huynh Nhu Dien",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University."
+            },
+            {
+                "id": "Nguyen Nhut Thanh",
+                "type": "Author",
+                "description": "Co-author affiliated with the Department of Sciences and Technology of Long An."
+            },
+            {
+                "id": "Vo Cong Thanh",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University."
+            },
+            {
+                "id": "Yeap Swee Keong",
+                "type": "Author",
+                "description": "Co-author affiliated with Xiamen University Malaysia."
+            },
+            {
+                "id": "College of Agriculture, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Department of Sciences and Technology of Long An",
+                "type": "Institution",
+                "description": "Governmental research department in Long An City, Vietnam."
+            },
+            {
+                "id": "China-ASEAN College of Marine Sciences Xiamen University Malaysia",
+                "type": "Institution",
+                "description": "Academic institution in Sepang, Selangor, Malaysia."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Genetic variation of Nang Thom Cho Dao rice variety based on whole genome sequencing",
+                "target": "Genomics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Whole genome sequencing",
+                "target": "Genetic variation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Bioinformatic pipeline",
+                "target": "21 million reads",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Bioinformatic pipeline",
+                "target": "6.6 GB of data",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HISAT2 software V2.1.0",
+                "target": "Mapping rate (95.81%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HISAT2 software V2.1.0",
+                "target": "Average depth (16.43X)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HISAT2 software V2.1.0",
+                "target": "Os-Nipponbare-Reference-IRGSP-1.0",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SnpEff",
+                "target": "Ts/Tv ratio (2.45)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SAMtools toolkit V1.9",
+                "target": "173,056 InDels",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Huynh Ky",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Van Quoc Giang",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Loc Hien",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Chau Thanh Tung",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Nhu Dien",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Cong Thanh",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Nhut Thanh",
+                "target": "Department of Sciences and Technology of Long An",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Yeap Swee Keong",
+                "target": "China-ASEAN College of Marine Sciences Xiamen University Malaysia",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

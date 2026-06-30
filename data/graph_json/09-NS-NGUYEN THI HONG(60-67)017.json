@@ -1,0 +1,160 @@
+{
+  "filename": "09-NS-NGUYEN THI HONG(60-67)017.json",
+  "paper_title": "Separation and recovery of Co(II) and Li(I) from spent lithium-ion mobile phone batteries",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thi Hong Nam",
+        "type": "Author",
+        "description": "First author and correspondence author of the research paper."
+      },
+      {
+        "id": "Duong Thi Hong Nhung",
+        "type": "Author",
+        "description": "Second author, master student in Theoretical and Physical Chemistry."
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "Hydrometallurgy",
+        "type": "Domain",
+        "description": "The main field of research involving metal recovery through chemical aqueous processes."
+      },
+      {
+        "id": "Recovery of Co(II) and Li(I) from spent lithium-ion batteries",
+        "type": "Concept",
+        "description": "The primary research problem involving extracting valuable metals from electronic waste."
+      },
+      {
+        "id": "Spent lithium-ion mobile phone batteries",
+        "type": "Concept",
+        "description": "The hazardous electronic waste material targeted for metal recycling."
+      },
+      {
+        "id": "HCl leaching",
+        "type": "Method",
+        "description": "Acid leaching process using Hydrochloric acid to dissolve metals from battery powder."
+      },
+      {
+        "id": "Precipitation",
+        "type": "Method",
+        "description": "Chemical process used to separate Cobalt using oxalic acid at specific pH."
+      },
+      {
+        "id": "Solvent extraction method",
+        "type": "Method",
+        "description": "Method using Trioctylamine (TOA) to selectively extract Co(II) over Li(I)."
+      },
+      {
+        "id": "Trioctylamine (TOA)",
+        "type": "Method",
+        "description": "Commercial extractant used in the solvent extraction process."
+      },
+      {
+        "id": "Oxalic acid",
+        "type": "Method",
+        "description": "Reagent used to precipitate Co(II) from the leaching solution."
+      },
+      {
+        "id": "ICP-OES",
+        "type": "Method",
+        "description": "Inductively coupled plasma optical emission spectrometers used for metal concentration measurement."
+      },
+      {
+        "id": "Optimum leaching conditions (4 M HCl, 50oC, 1.5 hrs)",
+        "type": "Metric",
+        "description": "Best parameters identified for the acid leaching process."
+      },
+      {
+        "id": "Leaching efficiency of Co(II) (99.5%)",
+        "type": "Metric",
+        "description": "The percentage of cobalt successfully dissolved into the acid solution."
+      },
+      {
+        "id": "Leaching efficiency of Li(I) (97.1%)",
+        "type": "Metric",
+        "description": "The percentage of lithium successfully dissolved into the acid solution."
+      },
+      {
+        "id": "Precipitation pH (pH = 3)",
+        "type": "Metric",
+        "description": "The ideal acidity level for recovering cobalt as cobalt oxalate."
+      },
+      {
+        "id": "Co-precipitation of Li(I) (< 7%)",
+        "type": "Metric",
+        "description": "The low percentage of lithium loss during the cobalt precipitation phase."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Recovery of Co(II) and Li(I) from spent lithium-ion batteries",
+        "target": "Hydrometallurgy",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi Hong Nam",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Duong Thi Hong Nhung",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "HCl leaching",
+        "target": "Recovery of Co(II) and Li(I) from spent lithium-ion batteries",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Precipitation",
+        "target": "Recovery of Co(II) and Li(I) from spent lithium-ion batteries",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Solvent extraction method",
+        "target": "Recovery of Co(II) and Li(I) from spent lithium-ion batteries",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "HCl leaching",
+        "target": "Leaching efficiency of Co(II) (99.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "HCl leaching",
+        "target": "Leaching efficiency of Li(I) (97.1%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "HCl leaching",
+        "target": "Optimum leaching conditions (4 M HCl, 50oC, 1.5 hrs)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Precipitation",
+        "target": "Precipitation pH (pH = 3)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Precipitation",
+        "target": "Co-precipitation of Li(I) (< 7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Trioctylamine (TOA)",
+        "target": "Solvent extraction method",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Oxalic acid",
+        "target": "Precipitation",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

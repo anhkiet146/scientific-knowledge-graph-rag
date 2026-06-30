@@ -1,0 +1,170 @@
+{
+  "filename": "07-AE-TRAN THI BICH QUYEN(46-51)42.json",
+  "paper_title": "SYNTHESIS OF SILVER NANOCUBES AND APPLICATION IN SERS",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Surface-enhanced Raman scattering (SERS)",
+        "type": "Concept",
+        "description": "A surface-sensitive technique that enhances Raman scattering by molecules adsorbed on rough metal surfaces or by nanostructures."
+      },
+      {
+        "id": "Detection of biomolecules and biomarkers",
+        "type": "Concept",
+        "description": "The application of the synthesized nanocubes for identifying biological substances for disease diagnosis."
+      },
+      {
+        "id": "Early detection and diagnosis of cancers",
+        "type": "Concept",
+        "description": "Potential medical application of the SERS technique using silver nanocubes."
+      },
+      {
+        "id": "Modified polyol synthesis",
+        "type": "Method",
+        "description": "A rapid route to prepare monodispersed silver nanocubes by adding sodium tetrahydridoborate and hydrochloric acid."
+      },
+      {
+        "id": "Silver nanocubes (Ag NCBs)",
+        "type": "Method",
+        "description": "The synthesized nanomaterial with a 3D structure used as a SERS substrate."
+      },
+      {
+        "id": "Sodium tetrahydridoborate (NaBH4)",
+        "type": "Method",
+        "description": "A chemical reductant agent used to increase the reaction rate in the synthesis."
+      },
+      {
+        "id": "Hydrochloric acid (HCl)",
+        "type": "Method",
+        "description": "A chemical reagent added to the synthesis process to shorten reaction time."
+      },
+      {
+        "id": "Ethylene glycol (EG)",
+        "type": "Method",
+        "description": "A solvent and reducing agent used in the polyol synthesis."
+      },
+      {
+        "id": "Silver nitrate (AgNO3)",
+        "type": "Method",
+        "description": "The precursor for the synthesis of silver nanocubes."
+      },
+      {
+        "id": "Poly(N-vinylpyrrolidone) (PVP)",
+        "type": "Method",
+        "description": "A shape-directing agent used in forming silver nanocubes."
+      },
+      {
+        "id": "UV–vis",
+        "type": "Method",
+        "description": "Ultraviolet–visible spectroscopy used for characterization."
+      },
+      {
+        "id": "TEM",
+        "type": "Method",
+        "description": "Transmission electron microscopy used to characterize the shape and size of nanocubes."
+      },
+      {
+        "id": "XRD",
+        "type": "Method",
+        "description": "X-ray diffraction used to investigate the crystal structure of the Ag NCBs."
+      },
+      {
+        "id": "Reaction time (4-5 h)",
+        "type": "Metric",
+        "description": "The significantly shortened duration of the synthesis process."
+      },
+      {
+        "id": "Nanocube sizes (40; 60 and 70 nm)",
+        "type": "Metric",
+        "description": "The dimensions of the monodispersed silver nanocubes produced."
+      },
+      {
+        "id": "Lower limit of detection (10-14 M)",
+        "type": "Metric",
+        "description": "The sensitivity of the SERS technique in detecting Rhodamine 3B."
+      },
+      {
+        "id": "Enhancement factor (12 fold-magnitude)",
+        "type": "Metric",
+        "description": "The magnitude of signal increase compared to silicon substrates."
+      },
+      {
+        "id": "Nanotechnology",
+        "type": "Domain",
+        "description": "The primary research field involving metal nanostructures and SERS."
+      },
+      {
+        "id": "Tran Thi Bich Quyen",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "Doan Van Hong Thien",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution in Vietnam where the research was conducted."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Synthesis of silver nanocubes and application in SERS",
+        "target": "Nanotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Modified polyol synthesis",
+        "target": "Reaction time (4-5 h)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Modified polyol synthesis",
+        "target": "Nanocube sizes (40; 60 and 70 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Silver nanocubes (Ag NCBs)",
+        "target": "Lower limit of detection (10-14 M)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Silver nanocubes (Ag NCBs)",
+        "target": "Enhancement factor (12 fold-magnitude)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Modified polyol synthesis",
+        "target": "Silver nanocubes (Ag NCBs)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Silver nanocubes (Ag NCBs)",
+        "target": "Surface-enhanced Raman scattering (SERS)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Surface-enhanced Raman scattering (SERS)",
+        "target": "Detection of biomolecules and biomarkers",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Detection of biomolecules and biomarkers",
+        "target": "Early detection and diagnosis of cancers",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Tran Thi Bich Quyen",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Doan Van Hong Thien",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

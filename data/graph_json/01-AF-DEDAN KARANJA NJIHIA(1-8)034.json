@@ -1,0 +1,190 @@
+{
+  "filename": "01-AF-DEDAN KARANJA NJIHIA(1-8)034.json",
+  "paper_title": "Growth and survival performance of G2 crossbreeds from two strains of bighead catfish (Clarias macrocephalus)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Dedan Karanja Njihia",
+        "type": "Author",
+        "description": "Author from the International Master Program in Aquaculture"
+      },
+      {
+        "id": "Duong Thuy Yen",
+        "type": "Author",
+        "description": "Author and correspondence from the College of Aquaculture and Fisheries"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational and research institution in Viet Nam"
+      },
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The main research field focusing on fish farming and breeding"
+      },
+      {
+        "id": "Crossbreeding",
+        "type": "Concept",
+        "description": "Genetic improvement technique to improve fish production"
+      },
+      {
+        "id": "Growth Performance",
+        "type": "Concept",
+        "description": "Research problem related to the development rate of catfish"
+      },
+      {
+        "id": "Survival performance",
+        "type": "Concept",
+        "description": "Research problem related to the viability of fish strains"
+      },
+      {
+        "id": "Intraspecific crossbreeding",
+        "type": "Method",
+        "description": "Breeding within the same species from different populations"
+      },
+      {
+        "id": "Clarias macrocephalus",
+        "type": "Method",
+        "description": "Bighead catfish species used as the primary biological material"
+      },
+      {
+        "id": "Moina",
+        "type": "Method",
+        "description": "Live food used for rearing larvae"
+      },
+      {
+        "id": "Artificial feed (40% protein)",
+        "type": "Method",
+        "description": "Chemical feed material used in the rearing experiment"
+      },
+      {
+        "id": "HCG hormone",
+        "type": "Method",
+        "description": "Human chorionic gonadotropin used for breeding injection"
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "One-way analysis of variance for statistical data"
+      },
+      {
+        "id": "SPSS program Version 20.0",
+        "type": "Method",
+        "description": "Statistical software used for data analysis"
+      },
+      {
+        "id": "CMxCT crossbreeds",
+        "type": "Method",
+        "description": "Experimental fish group from wild Ca Mau and domesticated Can Tho strains"
+      },
+      {
+        "id": "CTCM group",
+        "type": "Method",
+        "description": "Second generation pure crossbred line"
+      },
+      {
+        "id": "Body weight (1,114 mg)",
+        "type": "Metric",
+        "description": "Highest recorded mean weight for CMxCT crossbreeds"
+      },
+      {
+        "id": "Body weight (1,050 mg)",
+        "type": "Metric",
+        "description": "Mean weight recorded for CTCM group"
+      },
+      {
+        "id": "Body length (4.55 cm)",
+        "type": "Metric",
+        "description": "Highest recorded mean length for CMxCT group"
+      },
+      {
+        "id": "Survival rate (72.52%)",
+        "type": "Metric",
+        "description": "Highest survival rate recorded in the CTCM group"
+      },
+      {
+        "id": "Water pH (7.67 to 8.37)",
+        "type": "Metric",
+        "description": "Measured acidity levels during rearing"
+      },
+      {
+        "id": "Water temperature (26-34°C)",
+        "type": "Metric",
+        "description": "Temperature range monitored during the experiment"
+      },
+      {
+        "id": "DWG (27.8±8.8 mg/day)",
+        "type": "Metric",
+        "description": "Daily weight gain of the best performing group"
+      },
+      {
+        "id": "SGRW (15.6±0.8 %/day)",
+        "type": "Metric",
+        "description": "Specific growth rate in weight"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Aquaculture",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dedan Karanja Njihia",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Duong Thuy Yen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Intraspecific crossbreeding",
+        "target": "Crossbreeding",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Intraspecific crossbreeding",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "CMxCT crossbreeds",
+        "target": "Body weight (1,114 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CMxCT crossbreeds",
+        "target": "Body length (4.55 cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CTCM group",
+        "target": "Survival rate (72.52%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CTCM group",
+        "target": "Body weight (1,050 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CMxCT crossbreeds",
+        "target": "DWG (27.8±8.8 mg/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CMxCT crossbreeds",
+        "target": "SGRW (15.6±0.8 %/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+    "filename": "01-AV-LE TRINH CAM LAI(1-8)017.json",
+    "paper_title": "Antimicrobial resistance of Escherichia coli causing edema disease in post-weaning pigs in Vinh Long province",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ly Thi Lien Khai",
+                "type": "Author",
+                "description": "Lead author of the study"
+            },
+            {
+                "id": "Le Trinh Cam Lai",
+                "type": "Author",
+                "description": "Co-author of the study"
+            },
+            {
+                "id": "College of Agriculture, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "Veterinary Medicine",
+                "type": "Domain",
+                "description": "Main field of study focusing on animal health and diseases"
+            },
+            {
+                "id": "Edema disease",
+                "type": "Concept",
+                "description": "A disease in post-weaning pigs caused by Escherichia coli"
+            },
+            {
+                "id": "Antimicrobial resistance",
+                "type": "Concept",
+                "description": "The ability of bacteria to resist the effects of antibiotics"
+            },
+            {
+                "id": "Escherichia coli",
+                "type": "Concept",
+                "description": "Bacterial pathogen causing edema disease"
+            },
+            {
+                "id": "Disc diffusion method",
+                "type": "Method",
+                "description": "Technique used to test antimicrobial resistance"
+            },
+            {
+                "id": "Polymerase chain reaction (PCR)",
+                "type": "Method",
+                "description": "Molecular technique used to identify specific genes like Stx2e, F4, and F18"
+            },
+            {
+                "id": "Heat shock",
+                "type": "Method",
+                "description": "Method used for DNA extraction from E. coli"
+            },
+            {
+                "id": "Chi-square test",
+                "type": "Method",
+                "description": "Statistical method used for data comparison"
+            },
+            {
+                "id": "Clinical survey data from Vinh Long province",
+                "type": "Dataset",
+                "description": "Numerical data collected from 769 examined piglets across 12 farms and 21 households"
+            },
+            {
+                "id": "Morbidity rate (19.51%)",
+                "type": "Metric",
+                "description": "Proportion of piglets that contracted the disease"
+            },
+            {
+                "id": "Mortality rate (57.33%)",
+                "type": "Metric",
+                "description": "Proportion of infected piglets that died"
+            },
+            {
+                "id": "Positive rate of gene Stx2e (42.37%)",
+                "type": "Metric",
+                "description": "Frequency of the virulent factor gene detected"
+            },
+            {
+                "id": "Resistance to Ampicillin (92%)",
+                "type": "Metric",
+                "description": "High level of resistance found in E. coli strains"
+            },
+            {
+                "id": "Resistance to Bactrim (77%)",
+                "type": "Metric",
+                "description": "Prevalence of resistance to trimethoprim-sulfamethoxazole"
+            },
+            {
+                "id": "Resistance to Streptomycin (68%)",
+                "type": "Metric",
+                "description": "Percentage of strains resistant to streptomycin"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ly Thi Lien Khai",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Trinh Cam Lai",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Edema disease",
+                "target": "Veterinary Medicine",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Antimicrobial resistance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Polymerase chain reaction (PCR)",
+                "target": "Edema disease",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Resistance to Ampicillin (92%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Resistance to Bactrim (77%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Resistance to Streptomycin (68%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Polymerase chain reaction (PCR)",
+                "target": "Positive rate of gene Stx2e (42.37%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Chi-square test",
+                "target": "Morbidity rate (19.51%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Chi-square test",
+                "target": "Mortality rate (57.33%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Clinical survey data from Vinh Long province",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Polymerase chain reaction (PCR)",
+                "target": "Clinical survey data from Vinh Long province",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

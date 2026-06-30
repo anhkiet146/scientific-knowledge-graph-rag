@@ -1,0 +1,180 @@
+{
+    "filename": "517-DANG MINH QUAN(1-6)022.json",
+    "paper_title": "Bulbophyllum tseanum (Orchidaceae) a new record for the flora of Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Plant taxonomy",
+                "type": "Domain",
+                "description": "The main field of research focused on the classification and naming of plant species."
+            },
+            {
+                "id": "Dang Minh Quan",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Averyanov V. Leonid",
+                "type": "Author",
+                "description": "Researcher from Komarov Botanical Institute."
+            },
+            {
+                "id": "Dang Van Son",
+                "type": "Author",
+                "description": "Researcher from Institute of Tropical Biology."
+            },
+            {
+                "id": "Nguyen Tran Vy",
+                "type": "Author",
+                "description": "Researcher from Institute of Tropical Biology."
+            },
+            {
+                "id": "Truong Quang Tam",
+                "type": "Author",
+                "description": "Researcher from Institute of Tropical Biology."
+            },
+            {
+                "id": "Nguyen Quoc Bao",
+                "type": "Author",
+                "description": "Researcher from Institute of Tropical Biology."
+            },
+            {
+                "id": "Truong Ba Vuong",
+                "type": "Author",
+                "description": "Researcher from Institute of Tropical Biology."
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam."
+            },
+            {
+                "id": "Komarov Botanical Institute of the Russian Academy of Sciences",
+                "type": "Institution",
+                "description": "Botanical research institute in Russia."
+            },
+            {
+                "id": "Institute of Tropical Biology Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "Biological research institute in Viet Nam."
+            },
+            {
+                "id": "Bulbophyllum tseanum",
+                "type": "Concept",
+                "description": "Orchid species recorded for the first time in Viet Nam."
+            },
+            {
+                "id": "Plant diversity",
+                "type": "Concept",
+                "description": "The variety and variability of plants in a specific region."
+            },
+            {
+                "id": "Morphological characters analysis",
+                "type": "Method",
+                "description": "The study of the form and structure of organisms for identification."
+            },
+            {
+                "id": "70% ethanol",
+                "type": "Method",
+                "description": "Chemical used for preserving liquid-preserved materials."
+            },
+            {
+                "id": "Canon 700D body",
+                "type": "Method",
+                "description": "Camera equipment used for photography."
+            },
+            {
+                "id": "Elevation (400 m a.s.l.)",
+                "type": "Metric",
+                "description": "Height above sea level where specimens were found."
+            },
+            {
+                "id": "Pseudobulbs length (1.5-2 cm)",
+                "type": "Metric",
+                "description": "Measurement of the orchid's pseudobulbs."
+            },
+            {
+                "id": "Peduncle length (14-15 cm)",
+                "type": "Metric",
+                "description": "Measurement of the inflorescence stalk."
+            },
+            {
+                "id": "Lateral sepals length (3.5-3.7 cm)",
+                "type": "Metric",
+                "description": "Measurement of the lateral sepals of the flower."
+            },
+            {
+                "id": "Number of flowers (6-7 flowers)",
+                "type": "Metric",
+                "description": "Quantity of flowers per inflorescence."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Bulbophyllum tseanum (Orchidaceae) a new record for the flora of Viet Nam",
+                "target": "Plant taxonomy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Dang Minh Quan",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Averyanov V. Leonid",
+                "target": "Komarov Botanical Institute of the Russian Academy of Sciences",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Van Son",
+                "target": "Institute of Tropical Biology Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Tran Vy",
+                "target": "Institute of Tropical Biology Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Quang Tam",
+                "target": "Institute of Tropical Biology Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quoc Bao",
+                "target": "Institute of Tropical Biology Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Ba Vuong",
+                "target": "Institute of Tropical Biology Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Morphological characters analysis",
+                "target": "Bulbophyllum tseanum",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Morphological characters analysis",
+                "target": "Pseudobulbs length (1.5-2 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Morphological characters analysis",
+                "target": "Peduncle length (14-15 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Morphological characters analysis",
+                "target": "Lateral sepals length (3.5-3.7 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Morphological characters analysis",
+                "target": "Number of flowers (6-7 flowers)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

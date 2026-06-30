@@ -1,0 +1,180 @@
+{
+  "filename": "02-AF-NGUYEN THANH PHUONG(9-16)035.json",
+  "paper_title": "Effects of different temperatures on the growth and survival of mud crab (Scylla paramamosain) larvae",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thanh Phuong",
+        "type": "Author",
+        "description": "Lead author of the study from Can Tho University."
+      },
+      {
+        "id": "Nguyen Tinh Em",
+        "type": "Author",
+        "description": "Co-author of the study from Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Kim Ha",
+        "type": "Author",
+        "description": "Co-author of the study from Can Tho University."
+      },
+      {
+        "id": "Le Quoc Viet",
+        "type": "Author",
+        "description": "Co-author of the study from Can Tho University."
+      },
+      {
+        "id": "Do Thi Thanh Huong",
+        "type": "Author",
+        "description": "Co-author of the study from Can Tho University."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam where the research was conducted."
+      },
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "Main field of study focusing on aquatic species farming."
+      },
+      {
+        "id": "Growth and survival of mud crab (Scylla paramamosain) larvae",
+        "type": "Concept",
+        "description": "The primary research problem investigating the impact of temperature on larvae development."
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "The experimental design used for temperature treatments."
+      },
+      {
+        "id": "Temperature treatments (27, 30, 33, and 36℃)",
+        "type": "Method",
+        "description": "The specific temperature levels tested in triplicate."
+      },
+      {
+        "id": "Fiberglass tanks (500-L)",
+        "type": "Method",
+        "description": "Equipment used to contain the larvae during the experiment."
+      },
+      {
+        "id": "Heaters ATMAN CH 200W",
+        "type": "Method",
+        "description": "Equipment used to control and increase water temperature."
+      },
+      {
+        "id": "Chiller Teco Seachill TR-10",
+        "type": "Method",
+        "description": "Equipment used to maintain the control temperature at 27℃."
+      },
+      {
+        "id": "Artemia nauplius",
+        "type": "Method",
+        "description": "Live food material used to feed the larvae."
+      },
+      {
+        "id": "Frippak PL+150",
+        "type": "Method",
+        "description": "Commercial shrimp larvae feed used at the zoea-4 stage."
+      },
+      {
+        "id": "Lansy-shrimp PL",
+        "type": "Method",
+        "description": "Commercial feed used for megalopa to crablet-1 stage."
+      },
+      {
+        "id": "Highest survival rate at zoea-1 to megalopa (11.5%) at 27℃",
+        "type": "Metric",
+        "description": "Survival measurement for the first stage of the experiment."
+      },
+      {
+        "id": "Highest survival rate of crablet-1 (72.9%) at 27℃",
+        "type": "Metric",
+        "description": "Survival measurement for the second stage of the experiment."
+      },
+      {
+        "id": "Highest carapace width (3.41 mm) at 36℃",
+        "type": "Metric",
+        "description": "Maximum growth size recorded for crablets."
+      },
+      {
+        "id": "Highest weight (0.030 g) at 36℃",
+        "type": "Metric",
+        "description": "Maximum mass recorded for crablets."
+      },
+      {
+        "id": "Salinity (2-12 ‰)",
+        "type": "Metric",
+        "description": "Environmental metric maintained during the experiments."
+      },
+      {
+        "id": "Larval stage index (6.18±0.05) at 30℃",
+        "type": "Metric",
+        "description": "Metamorphosis development index after 18 days."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of different temperatures on the growth and survival of mud crab (Scylla paramamosain) larvae",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thanh Phuong",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tinh Em",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Kim Ha",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Quoc Viet",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Thi Thanh Huong",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Completely randomized design",
+        "target": "Growth and survival of mud crab (Scylla paramamosain) larvae",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Temperature treatments (27, 30, 33, and 36℃)",
+        "target": "Highest survival rate at zoea-1 to megalopa (11.5%) at 27℃",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Temperature treatments (27, 30, 33, and 36℃)",
+        "target": "Highest survival rate of crablet-1 (72.9%) at 27℃",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Temperature treatments (27, 30, 33, and 36℃)",
+        "target": "Highest carapace width (3.41 mm) at 36℃",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Temperature treatments (27, 30, 33, and 36℃)",
+        "target": "Highest weight (0.030 g) at 36℃",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Temperature treatments (27, 30, 33, and 36℃)",
+        "target": "Larval stage index (6.18±0.05) at 30℃",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

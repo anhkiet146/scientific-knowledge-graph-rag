@@ -1,0 +1,170 @@
+{
+    "filename": "DE-HUYNH NHUT PHUONG(148-159)060.json",
+    "paper_title": "Exploring drivers influencing consumers' attitude towards mobile marketing",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Huynh Nhut Phuong",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "Nguyen Thuy An",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "College of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the authors are affiliated"
+            },
+            {
+                "id": "Marketing",
+                "type": "Domain",
+                "description": "The general field of study"
+            },
+            {
+                "id": "Mobile Marketing",
+                "type": "Concept",
+                "description": "Marketing message delivery via mobile devices such as smartphones"
+            },
+            {
+                "id": "Customer Attitude",
+                "type": "Concept",
+                "description": "The cognitive and emotional evaluation of consumers towards mobile marketing"
+            },
+            {
+                "id": "Perceived Usefulness",
+                "type": "Concept",
+                "description": "A cognitive belief affecting user's attitude based on perceived utility"
+            },
+            {
+                "id": "Perceived Enjoyment",
+                "type": "Concept",
+                "description": "The extent to which using a service provides fun and leisure"
+            },
+            {
+                "id": "Irritation",
+                "type": "Concept",
+                "description": "The negative feeling caused by intrusive or annoying marketing messages"
+            },
+            {
+                "id": "Technology Acceptance Model (TAM)",
+                "type": "Method",
+                "description": "Theoretical framework used to explain technology adoption behavior"
+            },
+            {
+                "id": "Exploratory Factors Analysis (EFA)",
+                "type": "Method",
+                "description": "Method used to identify underlying variables from survey items"
+            },
+            {
+                "id": "Regression Analysis",
+                "type": "Method",
+                "description": "Statistical method used to determine the influence of independent variables on attitude"
+            },
+            {
+                "id": "Smartphone",
+                "type": "Method",
+                "description": "The primary device used as a tool for mobile marketing"
+            },
+            {
+                "id": "Survey data of 351 respondents",
+                "type": "Dataset",
+                "description": "Data collected from consumers in Can Tho city using questionnaires"
+            },
+            {
+                "id": "Variance explained (51.5%)",
+                "type": "Metric",
+                "description": "The percentage of variance in attitude explained by the model"
+            },
+            {
+                "id": "Correlation coefficient R (0.717)",
+                "type": "Metric",
+                "description": "Measure of prediction quality for the regression model"
+            },
+            {
+                "id": "Beta value for PUSE (0.472)",
+                "type": "Metric",
+                "description": "Influence coefficient of perceived usefulness on attitude"
+            },
+            {
+                "id": "Beta value for PENJ (0.457)",
+                "type": "Metric",
+                "description": "Influence coefficient of perceived enjoyment on attitude"
+            },
+            {
+                "id": "Beta value for IRRI (-0.299)",
+                "type": "Metric",
+                "description": "Negative influence coefficient of irritation on attitude"
+            },
+            {
+                "id": "Respondents ignoring mobile marketing (> 60%)",
+                "type": "Metric",
+                "description": "Proportion of participants who ignore marketing activities"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Exploring drivers influencing consumers' attitude towards mobile marketing",
+                "target": "Marketing",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Huynh Nhut Phuong",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thuy An",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Technology Acceptance Model (TAM)",
+                "target": "Customer Attitude",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Exploratory Factors Analysis (EFA)",
+                "target": "Survey data of 351 respondents",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Regression Analysis",
+                "target": "Survey data of 351 respondents",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Regression Analysis",
+                "target": "Variance explained (51.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Regression Analysis",
+                "target": "Correlation coefficient R (0.717)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Regression Analysis",
+                "target": "Beta value for PUSE (0.472)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Regression Analysis",
+                "target": "Beta value for PENJ (0.457)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Regression Analysis",
+                "target": "Beta value for IRRI (-0.299)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Smartphone",
+                "target": "Mobile Marketing",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+{
+  "filename": "AE-NGUYEN THI THU TRAM(33-36)046.json",
+  "paper_title": "One unusual sterol from Polyscias fruticosa (L.) Harms (Araliaceae)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phytochemistry",
+        "type": "Domain",
+        "description": "The study of chemicals derived from plants."
+      },
+      {
+        "id": "Nguyen Thi Thu Tram",
+        "type": "Author",
+        "description": "First author of the research paper."
+      },
+      {
+        "id": "Huynh Du Tuyet",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "Quach Nhat Minh",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "School of Medicine, Can Tho University of Medicine and Pharmacy",
+        "type": "Institution",
+        "description": "Academic institution located in Vietnam."
+      },
+      {
+        "id": "Polyscias fruticosa (L.) Harms",
+        "type": "Concept",
+        "description": "The plant species belonging to the Araliaceae family being studied."
+      },
+      {
+        "id": "22-dehydro-24-isopropylcholesterol",
+        "type": "Concept",
+        "description": "An unusual sterol isolated from Polyscias fruticosa."
+      },
+      {
+        "id": "Oleanolic acid",
+        "type": "Concept",
+        "description": "A common triterpenoid isolated from Polyscias fruticosa."
+      },
+      {
+        "id": "Petroleum ether-diethyl ether (v/v 1:1) extraction",
+        "type": "Method",
+        "description": "The solvent extraction process used to obtain plant extracts."
+      },
+      {
+        "id": "X-ray diffraction",
+        "type": "Method",
+        "description": "Technique used to determine the absolute configuration of compound 1."
+      },
+      {
+        "id": "NMR spectroscopy",
+        "type": "Method",
+        "description": "Nuclear Magnetic Resonance used for structural elucidation."
+      },
+      {
+        "id": "ESI-HR-MS",
+        "type": "Method",
+        "description": "Electrospray ionization high-resolution mass spectrometry."
+      },
+      {
+        "id": "Silica gel column chromatography",
+        "type": "Method",
+        "description": "Purification method used to isolate compounds 1 and 2."
+      },
+      {
+        "id": "Yield (4.3%)",
+        "type": "Metric",
+        "description": "Percentage yield of the petroleum ether-diethyl ether extract."
+      },
+      {
+        "id": "Melting point (271-273°C)",
+        "type": "Metric",
+        "description": "Physical characteristic of compound 2."
+      },
+      {
+        "id": "Rf value (0.50)",
+        "type": "Metric",
+        "description": "Retention factor of compound 2 in chloroform:methanol 95:5."
+      },
+      {
+        "id": "m/z 427.3956",
+        "type": "Metric",
+        "description": "High-resolution mass spectrometry peak for compound 1."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Polyscias fruticosa (L.) Harms",
+        "target": "Phytochemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi Thu Tram",
+        "target": "School of Medicine, Can Tho University of Medicine and Pharmacy",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Du Tuyet",
+        "target": "School of Medicine, Can Tho University of Medicine and Pharmacy",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Quach Nhat Minh",
+        "target": "School of Medicine, Can Tho University of Medicine and Pharmacy",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Petroleum ether-diethyl ether (v/v 1:1) extraction",
+        "target": "Yield (4.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Silica gel column chromatography",
+        "target": "22-dehydro-24-isopropylcholesterol",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Silica gel column chromatography",
+        "target": "Oleanolic acid",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "X-ray diffraction",
+        "target": "22-dehydro-24-isopropylcholesterol",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ESI-HR-MS",
+        "target": "m/z 427.3956",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NMR spectroscopy",
+        "target": "Rf value (0.50)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "filename": "06-BT-NGO THI PHUONG DUNG(32-37).json",
+  "paper_title": "ETHANOL PRODUCTION FROM MOLASSES AT HIGH TEMPERATURE BY THERMOTOLERANT YEASTS ISOLATED FROM COCOA",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Ethanol fermentation",
+        "type": "Concept",
+        "description": "Biological process of converting sugars into cellular energy and producing ethanol and carbon dioxide."
+      },
+      {
+        "id": "Climate change",
+        "type": "Concept",
+        "description": "Global environmental challenge requiring thermotolerant yeast strains for industrial processes."
+      },
+      {
+        "id": "Bio-fuel",
+        "type": "Concept",
+        "description": "Renewable energy source such as ethanol used to replace fossil fuels."
+      },
+      {
+        "id": "Biotechnology",
+        "type": "Domain",
+        "description": "The main research field of the article."
+      },
+      {
+        "id": "Huynh Xuan Phong",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Nguyen Tran Cam Giang",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Sukanya Nitiyon",
+        "type": "Author",
+        "description": "Researcher from Yamaguchi University."
+      },
+      {
+        "id": "Mamoru Yamada",
+        "type": "Author",
+        "description": "Researcher from Yamaguchi University."
+      },
+      {
+        "id": "Pornthap Thanonkeo",
+        "type": "Author",
+        "description": "Researcher from Khon Kaen University."
+      },
+      {
+        "id": "Ngo Thi Phuong Dung",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Biotechnology Research and Development Institute, Vietnam."
+      },
+      {
+        "id": "Yamaguchi University",
+        "type": "Institution",
+        "description": "Faculty of Agriculture, Japan."
+      },
+      {
+        "id": "Khon Kaen University",
+        "type": "Institution",
+        "description": "Faculty of Technology, Thailand."
+      },
+      {
+        "id": "Molasses",
+        "type": "Method",
+        "description": "Carbon source substrate used for ethanol production (22°Brix)."
+      },
+      {
+        "id": "Saccharomyces cerevisiae D3",
+        "type": "Method",
+        "description": "The yeast species identified (isolates CT2.5D and PD1.6H) for fermentation."
+      },
+      {
+        "id": "LSU rRNA gene sequencing",
+        "type": "Method",
+        "description": "Molecular identification method using primers NL-1 and NL-4."
+      },
+      {
+        "id": "NCBI database",
+        "type": "Dataset",
+        "description": "Digital database used for comparing nucleotide sequences for identification."
+      },
+      {
+        "id": "Growth temperature (45°C)",
+        "type": "Metric",
+        "description": "The maximum temperature at which 23/50 isolates could grow."
+      },
+      {
+        "id": "Ethanol concentration at 30°C (7.4% v/v)",
+        "type": "Metric",
+        "description": "The highest ethanol concentration achieved by isolate PD1.6H."
+      },
+      {
+        "id": "Ethanol yield at 30°C (66.41%)",
+        "type": "Metric",
+        "description": "The maximum ethanol yield percentage achieved."
+      },
+      {
+        "id": "Similarity (100%)",
+        "type": "Metric",
+        "description": "The sequence alignment match for Saccharomyces cerevisiae identification."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Huynh Xuan Phong",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tran Cam Giang",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Thi Phuong Dung",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Sukanya Nitiyon",
+        "target": "Yamaguchi University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mamoru Yamada",
+        "target": "Yamaguchi University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pornthap Thanonkeo",
+        "target": "Khon Kaen University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "ETHANOL PRODUCTION FROM MOLASSES AT HIGH TEMPERATURE BY THERMOTOLERANT YEASTS ISOLATED FROM COCOA",
+        "target": "Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Ethanol concentration at 30°C (7.4% v/v)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Ethanol yield at 30°C (66.41%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Growth temperature (45°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Ethanol fermentation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "LSU rRNA gene sequencing",
+        "target": "NCBI database",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "LSU rRNA gene sequencing",
+        "target": "Similarity (100%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

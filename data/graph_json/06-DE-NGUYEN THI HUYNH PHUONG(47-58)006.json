@@ -1,0 +1,140 @@
+{
+  "filename": "06-DE-NGUYEN THI HUYNH PHUONG(47-58)006.json",
+  "paper_title": "THE DEVELOPMENT OF CAI RANG FLOATING MARKET TOURISM IN CAN THO CITY, VIETNAM: FROM POLICY TO PRACTICE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thi Huynh Phuong",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "School of Social Sciences and Humanities, Can Tho University",
+        "type": "Institution",
+        "description": "The educational institution in Vietnam where the author is affiliated"
+      },
+      {
+        "id": "Tourism Development",
+        "type": "Domain",
+        "description": "The primary field of research focusing on policy and practice in tourism"
+      },
+      {
+        "id": "Cai Rang floating market tourism",
+        "type": "Concept",
+        "description": "A unique form of tourism in the Mekong Delta combining eco-tourism and cultural factors"
+      },
+      {
+        "id": "Sustainable development",
+        "type": "Concept",
+        "description": "The ultimate goal of combining different forms of tourism in the region"
+      },
+      {
+        "id": "Documentary research",
+        "type": "Method",
+        "description": "Method of studying official documents, articles, and reports"
+      },
+      {
+        "id": "Quantitative Research",
+        "type": "Method",
+        "description": "Research method involving numerical data collection and analysis"
+      },
+      {
+        "id": "Qualitative research approach",
+        "type": "Method",
+        "description": "Research method involving in-depth interviews and non-numerical data"
+      },
+      {
+        "id": "Semi-structured individual interviews",
+        "type": "Method",
+        "description": "Method used with 28 informants to understand government policies and limitations"
+      },
+      {
+        "id": "SPSS software (16.0)",
+        "type": "Method",
+        "description": "Statistical tool used for analyzing surveyed data from questionnaires"
+      },
+      {
+        "id": "Factor analysis",
+        "type": "Method",
+        "description": "Method used to analyze 22 observed variables divided into eight factors"
+      },
+      {
+        "id": "Five-level Likert scale",
+        "type": "Method",
+        "description": "Measurement scale used to evaluate tourists' satisfaction levels"
+      },
+      {
+        "id": "Surveyed data from the questionnaires",
+        "type": "Dataset",
+        "description": "The primary numerical data collected from 115 samples of tourists"
+      },
+      {
+        "id": "Tourist satisfaction level (29.6% neutral)",
+        "type": "Metric",
+        "description": "The percentage of tourists who were satisfied with Cai Rang floating market tourism"
+      },
+      {
+        "id": "Sample size (115 samples)",
+        "type": "Metric",
+        "description": "The total number of survey participants used for quantitative analysis"
+      },
+      {
+        "id": "Percentage of international tourists (20%)",
+        "type": "Metric",
+        "description": "The ratio of foreign visitors compared to domestic visitors"
+      },
+      {
+        "id": "Implementation budget (26 billion VND)",
+        "type": "Metric",
+        "description": "The estimated budget for upgrading Cai Rang floating market (2014-2016)"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Thi Huynh Phuong",
+        "target": "School of Social Sciences and Humanities, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Cai Rang floating market tourism",
+        "target": "Tourism Development",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Documentary research",
+        "target": "Cai Rang floating market tourism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Quantitative Research",
+        "target": "Cai Rang floating market tourism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Qualitative research approach",
+        "target": "Cai Rang floating market tourism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "SPSS software (16.0)",
+        "target": "Surveyed data from the questionnaires",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "SPSS software (16.0)",
+        "target": "Tourist satisfaction level (29.6% neutral)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Factor analysis",
+        "target": "Sample size (115 samples)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Semi-structured individual interviews",
+        "target": "Cai Rang floating market tourism",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

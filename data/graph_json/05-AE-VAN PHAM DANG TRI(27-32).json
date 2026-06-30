@@ -1,0 +1,170 @@
+{
+  "filename": "05-AE-VAN PHAM DANG TRI(27-32).json",
+  "paper_title": "VULNERABILITY ASSESSMENT IN THE COASTAL PLAIN OF THE VIETNAMESE MEKONG DELTA",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "VULNERABILITY ASSESSMENT IN THE COASTAL PLAIN OF THE VIETNAMESE MEKONG DELTA",
+        "type": "Concept",
+        "description": "The title and primary focus of the research paper"
+      },
+      {
+        "id": "Environmental Science",
+        "type": "Domain",
+        "description": "Main field of study involving vulnerability and climate impact assessment"
+      },
+      {
+        "id": "Pham Le My Duyen",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Truong Thanh Tan",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Van Pham Dang Tri",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Tran Thi Le Hang",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Hiroshi Takagi",
+        "type": "Author",
+        "description": "Researcher from Tokyo Institute of Technology"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam"
+      },
+      {
+        "id": "Tokyo Institute of Technology",
+        "type": "Institution",
+        "description": "Educational institution in Japan"
+      },
+      {
+        "id": "Vulnerability Assessment",
+        "type": "Concept",
+        "description": "Process of evaluating the susceptibility of a region to climate-related impacts"
+      },
+      {
+        "id": "Climate change",
+        "type": "Concept",
+        "description": "Regional and local changes impacting surface water resources"
+      },
+      {
+        "id": "Sea Level Rise",
+        "type": "Concept",
+        "description": "Environmental threat leading to increased vulnerability in coastal areas"
+      },
+      {
+        "id": "Saline Intrusion",
+        "type": "Concept",
+        "description": "The movement of saline water into freshwater aquifers or surface water"
+      },
+      {
+        "id": "Vulnerability Index (VI) quantification",
+        "type": "Method",
+        "description": "Calculation based on Exposure (E), Sensitivity (S), and Adaptive Capacity (AC)"
+      },
+      {
+        "id": "Analytic Hierarchy Process (AHP)",
+        "type": "Method",
+        "description": "A method used to determine the weight of each parameter"
+      },
+      {
+        "id": "Sensitivity analysis",
+        "type": "Method",
+        "description": "Assessment used to understand the reliability of assigned weights"
+      },
+      {
+        "id": "Direct interviews",
+        "type": "Method",
+        "description": "Qualitative data collection from government staff and local residents"
+      },
+      {
+        "id": "Census data",
+        "type": "Dataset",
+        "description": "Numerical demographic and regional data of the study area"
+      },
+      {
+        "id": "50% area",
+        "type": "Metric",
+        "description": "Percentage of the delta usually affected by annual floods"
+      },
+      {
+        "id": "1 million ha",
+        "type": "Metric",
+        "description": "Area strongly affected by tidal flood and saline intrusion"
+      }
+    ],
+    "relations": [
+      {
+        "source": "VULNERABILITY ASSESSMENT IN THE COASTAL PLAIN OF THE VIETNAMESE MEKONG DELTA",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Pham Le My Duyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Thanh Tan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Van Pham Dang Tri",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Le Hang",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hiroshi Takagi",
+        "target": "Tokyo Institute of Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vulnerability Index (VI) quantification",
+        "target": "Vulnerability Assessment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Analytic Hierarchy Process (AHP)",
+        "target": "Vulnerability Assessment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Vulnerability Index (VI) quantification",
+        "target": "Census data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Direct interviews",
+        "target": "Census data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Vulnerability Index (VI) quantification",
+        "target": "50% area",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vulnerability Index (VI) quantification",
+        "target": "1 million ha",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

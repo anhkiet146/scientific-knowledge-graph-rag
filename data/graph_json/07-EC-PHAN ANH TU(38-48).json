@@ -1,0 +1,155 @@
+{
+  "filename": "07-EC-PHAN ANH TU(38-48).json",
+  "paper_title": "ENTREPRENEURIAL CHARACTERISTICS AND PRIVATE FIRM PERFORMANCE IN THE MEKONG RIVER DELTA",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phan Anh Tu",
+        "type": "Author",
+        "description": "Lead author of the study from Can Tho University."
+      },
+      {
+        "id": "Nguyen Hong Diem",
+        "type": "Author",
+        "description": "Co-author of the study from Can Tho University."
+      },
+      {
+        "id": "College of Economics, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution where the authors are affiliated in Vietnam."
+      },
+      {
+        "id": "Economics",
+        "type": "Domain",
+        "description": "The primary field of research concerning entrepreneurial behavior and firm performance."
+      },
+      {
+        "id": "Entrepreneurial characteristics",
+        "type": "Concept",
+        "description": "Individual traits of managers including tenure, education, and risk aversion."
+      },
+      {
+        "id": "Firm performance",
+        "type": "Concept",
+        "description": "The dependent variable measuring the success or outcome of a private firm."
+      },
+      {
+        "id": "Upper echelon theory",
+        "type": "Concept",
+        "description": "A theory suggesting that firm performance reflects the characteristics of its senior leaders."
+      },
+      {
+        "id": "Risk aversion",
+        "type": "Concept",
+        "description": "The tendency of managers to choose less risky solutions."
+      },
+      {
+        "id": "OLS regression",
+        "type": "Method",
+        "description": "Ordinary Least Squares regression method used to estimate impacts."
+      },
+      {
+        "id": "Survey",
+        "type": "Method",
+        "description": "Data collection procedure involving 807 private firms in the Mekong River Delta."
+      },
+      {
+        "id": "Likert-scale questionnaire",
+        "type": "Method",
+        "description": "Measurement tool used during the interviews for gathering firm information."
+      },
+      {
+        "id": "Survey Dataset 2004",
+        "type": "Dataset",
+        "description": "Numerical data collected from 395 private firms in the year 2004."
+      },
+      {
+        "id": "Survey Dataset 2009",
+        "type": "Dataset",
+        "description": "Numerical data collected from 119 private firms in the year 2009."
+      },
+      {
+        "id": "Economic growth rates (7%)",
+        "type": "Metric",
+        "description": "Annual economic growth rate of Vietnam mentioned as context."
+      },
+      {
+        "id": "Response rate (40%)",
+        "type": "Metric",
+        "description": "The participation rate achieved for the 2004 survey data."
+      },
+      {
+        "id": "Response rate (22.67%)",
+        "type": "Metric",
+        "description": "The participation rate achieved for the 2009 survey data."
+      },
+      {
+        "id": "R-squared (0.16-0.25)",
+        "type": "Metric",
+        "description": "The multiple correlation coefficients indicating model consistency."
+      },
+      {
+        "id": "F-statistic (3.01-12.15)",
+        "type": "Metric",
+        "description": "Statistical significance values for the regression models."
+      }
+    ],
+    "relations": [
+      {
+        "source": "ENTREPRENEURIAL CHARACTERISTICS AND PRIVATE FIRM PERFORMANCE IN THE MEKONG RIVER DELTA",
+        "target": "Economics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Phan Anh Tu",
+        "target": "College of Economics, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hong Diem",
+        "target": "College of Economics, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "OLS regression",
+        "target": "Firm performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "OLS regression",
+        "target": "Entrepreneurial characteristics",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Survey",
+        "target": "Survey Dataset 2004",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Survey",
+        "target": "Survey Dataset 2009",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "OLS regression",
+        "target": "R-squared (0.16-0.25)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "OLS regression",
+        "target": "F-statistic (3.01-12.15)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Survey",
+        "target": "Response rate (40%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Survey",
+        "target": "Response rate (22.67%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

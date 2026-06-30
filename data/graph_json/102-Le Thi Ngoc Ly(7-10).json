@@ -1,0 +1,185 @@
+{
+  "filename": "102-Le Thi Ngoc Ly(7-10).json",
+  "paper_title": "BIOLOGICAL CHARACTERISTICS OF POON TREES Calophyllum inophyllum L. AND ITS EXTRACTED OIL USED AS STARTING MATERIAL FOR BIODIESEL PRODUCTION",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Renewable Energy",
+        "type": "Domain",
+        "description": "The primary research field of the paper focusing on sustainable energy sources."
+      },
+      {
+        "id": "Biodiesel production and use",
+        "type": "Concept",
+        "description": "The process of synthesizing fuel from biological materials."
+      },
+      {
+        "id": "Biological characteristics of Poon trees",
+        "type": "Concept",
+        "description": "Study of growth, height, and biomass of Calophyllum inophyllum L."
+      },
+      {
+        "id": "Chemical characteristics of Poon seed oil",
+        "type": "Concept",
+        "description": "Analysis of fatty acid composition, acid value, and iodine value."
+      },
+      {
+        "id": "Le Thi Ngoc Ly",
+        "type": "Author",
+        "description": "Lead author of the study."
+      },
+      {
+        "id": "Nguyen Xuan Loc",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Do Thi My Linh",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Huu Chiem",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Department of industry and trade of Soc Trang province",
+        "type": "Institution",
+        "description": "Organization located in Vietnam."
+      },
+      {
+        "id": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Poon oil extraction",
+        "type": "Method",
+        "description": "Compressing seeds into small pieces to extract oil."
+      },
+      {
+        "id": "Transesterification",
+        "type": "Method",
+        "description": "Chemical process using methanol and a catalyst to produce biodiesel."
+      },
+      {
+        "id": "Methanol",
+        "type": "Method",
+        "description": "Chemical reagent used in the transesterification process."
+      },
+      {
+        "id": "CH3ONa 0.004 M",
+        "type": "Method",
+        "description": "Sodium methoxide used as a catalyst."
+      },
+      {
+        "id": "QCVN 1:2009/BKHCN",
+        "type": "Dataset",
+        "description": "National technical regulation on gasoline, diesel fuel oils and biodiesel."
+      },
+      {
+        "id": "Seed yield (74.8 kg/tree/year)",
+        "type": "Metric",
+        "description": "Annual production of seeds per tree."
+      },
+      {
+        "id": "Poon tree density (625 trees/ha)",
+        "type": "Metric",
+        "description": "Number of trees per hectare."
+      },
+      {
+        "id": "Oil yield (17,187 L/ha/year)",
+        "type": "Metric",
+        "description": "Calculated annual oil production per hectare."
+      },
+      {
+        "id": "Fatty acid methyl esters (91%)",
+        "type": "Metric",
+        "description": "Content of FAME in the produced biodiesel."
+      },
+      {
+        "id": "Acid value (10.5)",
+        "type": "Metric",
+        "description": "Measurement of acidity in poon oil."
+      },
+      {
+        "id": "Saponification value (184)",
+        "type": "Metric",
+        "description": "Measurement of the average molecular weight of fatty acids."
+      },
+      {
+        "id": "Iodine value (88.8)",
+        "type": "Metric",
+        "description": "Measurement of the degree of unsaturation in oil."
+      },
+      {
+        "id": "Oil density (0.94 Kg/L)",
+        "type": "Metric",
+        "description": "Mass per unit volume of extracted oil."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Renewable Energy",
+        "target": "Biodiesel production and use",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Le Thi Ngoc Ly",
+        "target": "Department of industry and trade of Soc Trang province",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Xuan Loc",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Thi My Linh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Huu Chiem",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Poon oil extraction",
+        "target": "Chemical characteristics of Poon seed oil",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Transesterification",
+        "target": "Biodiesel production and use",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Poon oil extraction",
+        "target": "Oil yield (17,187 L/ha/year)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Poon oil extraction",
+        "target": "Acid value (10.5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Transesterification",
+        "target": "Fatty acid methyl esters (91%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Transesterification",
+        "target": "QCVN 1:2009/BKHCN",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

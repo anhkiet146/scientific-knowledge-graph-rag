@@ -1,0 +1,160 @@
+{
+  "filename": "13-583-D-CHAU ANH VU(116-125)026.json",
+  "paper_title": "The impact of the free cash flow and the firm's life cycle on dividend policy: Evidence from Vietnam's listed firms",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Chau Anh Vu",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Faculty of Economics, Nong Lam University Ho Chi Minh City, Viet Nam",
+        "type": "Institution",
+        "description": "The institutional affiliation of the author"
+      },
+      {
+        "id": "Corporate Finance",
+        "type": "Domain",
+        "description": "The primary research field of the paper"
+      },
+      {
+        "id": "Dividend policy",
+        "type": "Concept",
+        "description": "The study's core research problem regarding firm payouts"
+      },
+      {
+        "id": "Free cash flow (FCF)",
+        "type": "Concept",
+        "description": "Cash flow available for distribution after capital expenditures"
+      },
+      {
+        "id": "Firm's life cycle (RE/TE)",
+        "type": "Concept",
+        "description": "The developmental stage of a company represented by retained earnings to total equity"
+      },
+      {
+        "id": "Agency cost theory",
+        "type": "Concept",
+        "description": "The theory concerning conflicts between managers and shareholders"
+      },
+      {
+        "id": "Life cycle hypothesis",
+        "type": "Concept",
+        "description": "The hypothesis that dividend policy changes as a firm matures"
+      },
+      {
+        "id": "Fixed Effects Model (FEM)",
+        "type": "Method",
+        "description": "Statistical model used to analyze panel data"
+      },
+      {
+        "id": "Random effects model (REM)",
+        "type": "Method",
+        "description": "Statistical model used to analyze panel data"
+      },
+      {
+        "id": "Generalized method of moments (GMM)",
+        "type": "Method",
+        "description": "Advanced estimator used to remedy common errors in panel data"
+      },
+      {
+        "id": "Hausman test",
+        "type": "Method",
+        "description": "Test used to decide between FEM and REM models"
+      },
+      {
+        "id": "Systematic sampling method",
+        "type": "Method",
+        "description": "Method used to select firms for the study sample"
+      },
+      {
+        "id": "Pearson's correlation coefficient",
+        "type": "Method",
+        "description": "Statistical tool to measure relationships between variables"
+      },
+      {
+        "id": "Variance inflation factor (VIF)",
+        "type": "Method",
+        "description": "Test used to detect multicollinearity"
+      },
+      {
+        "id": "Panel data of 110 firms on HOSE (2014-2020)",
+        "type": "Dataset",
+        "description": "Numerical data from 110 listed firms on the Ho Chi Minh Stock Exchange"
+      },
+      {
+        "id": "Maximum DPR (89.6%)",
+        "type": "Metric",
+        "description": "Highest dividend payout ratio observed in the sample"
+      },
+      {
+        "id": "Minimum DPR (-68.6%)",
+        "type": "Metric",
+        "description": "Lowest dividend payout ratio observed in the sample"
+      },
+      {
+        "id": "Average debt rate (47.6%)",
+        "type": "Metric",
+        "description": "Mean debt ratio of the collected firms"
+      },
+      {
+        "id": "Statistical significance (5%)",
+        "type": "Metric",
+        "description": "Significance level for the impact of free cash flow"
+      },
+      {
+        "id": "Sample size (110 firms)",
+        "type": "Metric",
+        "description": "The final quantity of firms analyzed"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Chau Anh Vu",
+        "target": "Faculty of Economics, Nong Lam University Ho Chi Minh City, Viet Nam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Fixed Effects Model (FEM)",
+        "target": "Dividend policy",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Random effects model (REM)",
+        "target": "Dividend policy",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Generalized method of moments (GMM)",
+        "target": "Dividend policy",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Generalized method of moments (GMM)",
+        "target": "Panel data of 110 firms on HOSE (2014-2020)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Generalized method of moments (GMM)",
+        "target": "Statistical significance (5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Generalized method of moments (GMM)",
+        "target": "Statistical significance (5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Systematic sampling method",
+        "target": "Sample size (110 firms)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dividend policy",
+        "target": "Corporate Finance",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

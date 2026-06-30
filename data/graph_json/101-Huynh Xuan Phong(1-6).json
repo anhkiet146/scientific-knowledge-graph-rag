@@ -1,0 +1,155 @@
+{
+  "filename": "101-Huynh Xuan Phong(1-6).json",
+  "paper_title": "STUDY ON FERMENTATION CONDITIONS FOR BIOETHANOL PRODUCTION FROM COCOA POD HYDROLYSATE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Bioethanol production",
+        "type": "Concept",
+        "description": "The process of producing bioethanol as an environmentally friendly fuel from renewable sources."
+      },
+      {
+        "id": "Ethanol fermentation",
+        "type": "Concept",
+        "description": "The biochemical process by which sugars are converted into ethanol and carbon dioxide by microorganisms."
+      },
+      {
+        "id": "Renewable Energy",
+        "type": "Domain",
+        "description": "The research field focusing on energy from natural sources that are replenished at a higher rate than they are consumed."
+      },
+      {
+        "id": "Huynh Xuan Phong",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Pham Thieu Quan",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Ngoc Thanh",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Ngo Thi Phuong Dung",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "The affiliation of the authors in Vietnam."
+      },
+      {
+        "id": "Saccharomyces cerevisiae D3",
+        "type": "Method",
+        "description": "The specific yeast strain identified as most suitable for ethanol fermentation in this study."
+      },
+      {
+        "id": "Cocoa pod hydrolysate",
+        "type": "Method",
+        "description": "The primary raw material used as a substrate for bioethanol production."
+      },
+      {
+        "id": "Dinitrosalicylic acid (DNS) method",
+        "type": "Method",
+        "description": "Analytical method used for total reducing sugar analysis."
+      },
+      {
+        "id": "Acid dichromate method",
+        "type": "Method",
+        "description": "Analytical method used to measure ethanol concentration."
+      },
+      {
+        "id": "Ethanol concentrations (4.14-4.19% w/v)",
+        "type": "Metric",
+        "description": "The final yield of ethanol achieved under optimal conditions."
+      },
+      {
+        "id": "Sugar consumption efficiencies (97.54-97.56%)",
+        "type": "Metric",
+        "description": "The percentage of reducing sugar consumed during the fermentation process."
+      },
+      {
+        "id": "Inoculum level (10^6 cells/mL)",
+        "type": "Metric",
+        "description": "The optimal starting concentration of yeast cells for fermentation."
+      },
+      {
+        "id": "Fermentation temperature (30°C)",
+        "type": "Metric",
+        "description": "The optimal temperature maintained during the fermentation process."
+      },
+      {
+        "id": "pH value (4.5)",
+        "type": "Metric",
+        "description": "The optimal initial acidity level for the fermentation medium."
+      }
+    ],
+    "relations": [
+      {
+        "source": "STUDY ON FERMENTATION CONDITIONS FOR BIOETHANOL PRODUCTION FROM COCOA POD HYDROLYSATE",
+        "target": "Renewable Energy",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Huynh Xuan Phong",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thieu Quan",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ngoc Thanh",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Thi Phuong Dung",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Bioethanol production",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Cocoa pod hydrolysate",
+        "target": "Bioethanol production",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Ethanol concentrations (4.14-4.19% w/v)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Sugar consumption efficiencies (97.54-97.56%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Inoculum level (10^6 cells/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "Fermentation temperature (30°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae D3",
+        "target": "pH value (4.5)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

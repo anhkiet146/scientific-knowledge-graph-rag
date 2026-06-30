@@ -1,0 +1,175 @@
+{
+    "filename": "523-LE NGUYEN LAN THANH(34-39)026.json",
+    "paper_title": "Creation of Variation through In-vitro Mutagenesis using Gamma radiation in Rose (Rosa hybrida L.) Variety 'Lửa'",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Plant Breeding",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo về cải thiện giống cây trồng."
+            },
+            {
+                "id": "Le Nguyen Lan Thanh",
+                "type": "Author",
+                "description": "Tác giả từ Viện Nghiên cứu Cây ăn quả miền Nam."
+            },
+            {
+                "id": "Nguyen Van Son",
+                "type": "Author",
+                "description": "Tác giả từ Viện Nghiên cứu Cây ăn quả miền Nam."
+            },
+            {
+                "id": "Le Van Hoa",
+                "type": "Author",
+                "description": "Tác giả từ Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Southern Horticultural Research Institute",
+                "type": "Institution",
+                "description": "Viện Nghiên cứu Cây ăn quả miền Nam (SOFRI), Việt Nam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam."
+            },
+            {
+                "id": "In-vitro Mutagenesis",
+                "type": "Concept",
+                "description": "Phương pháp gây đột biến trong ống nghiệm để tạo ra các biến dị di truyền."
+            },
+            {
+                "id": "Variation",
+                "type": "Concept",
+                "description": "Sự biến dị về hình thái và đặc tính của cây trồng sau khi xử lý bức xạ."
+            },
+            {
+                "id": "Gamma radiation",
+                "type": "Method",
+                "description": "Bức xạ Gamma sử dụng để gây đột biến trên mẫu cấy hoa hồng."
+            },
+            {
+                "id": "60Co source",
+                "type": "Method",
+                "description": "Nguồn phóng xạ Cobalt-60 được sử dụng tại Viện Nghiên cứu Hạt nhân Đà Lạt."
+            },
+            {
+                "id": "Murashige and Skoog’s basal medium",
+                "type": "Method",
+                "description": "Môi trường nuôi cấy mô cơ bản (MS) dùng cho nhân giống và sinh trưởng."
+            },
+            {
+                "id": "BAP",
+                "type": "Method",
+                "description": "Hóa chất điều tiết sinh trưởng (6-Benzylaminopurine) nồng độ 1.0 mg/L."
+            },
+            {
+                "id": "Royal Horticultural Society (RHS) color chart",
+                "type": "Method",
+                "description": "Bảng màu chuẩn dùng để định danh và đo lường màu sắc hoa."
+            },
+            {
+                "id": "LD50 (20 - 25 Gy)",
+                "type": "Metric",
+                "description": "Liều lượng gây chết 50% mẫu cấy được xác định trong khoảng 20-25 Gy."
+            },
+            {
+                "id": "Survival rate (40 - 92%)",
+                "type": "Metric",
+                "description": "Tỷ lệ sống sót của các mẫu cấy in-vitro sau khi xử lý bức xạ."
+            },
+            {
+                "id": "Shoots per cluster (10.7 - 18.8 shoots)",
+                "type": "Metric",
+                "description": "Số lượng chồi trung bình trên mỗi cụm chồi sau 110 ngày."
+            },
+            {
+                "id": "Cluster diameter (2.3 - 3.72 cm)",
+                "type": "Metric",
+                "description": "Đường kính cụm chồi in-vitro ghi nhận tại các liều lượng khác nhau."
+            },
+            {
+                "id": "Ex-vitro survival rate (11.4 - 30%)",
+                "type": "Metric",
+                "description": "Tỷ lệ sống sót của cây con ngoài vườn ươm sau giai đoạn thuần hóa."
+            },
+            {
+                "id": "Flower diameter (5.4 - 5.6 cm)",
+                "type": "Metric",
+                "description": "Kích thước đường kính hoa của các dòng đột biến."
+            },
+            {
+                "id": "Number of petals (8.7 - 17.7 petals)",
+                "type": "Metric",
+                "description": "Số lượng cánh hoa trung bình ghi nhận được trên các dòng hoa."
+            }
+        ],
+        "relations": [
+            {
+                "source": "In-vitro Mutagenesis",
+                "target": "Plant Breeding",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Nguyen Lan Thanh",
+                "target": "Southern Horticultural Research Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Son",
+                "target": "Southern Horticultural Research Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Van Hoa",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Gamma radiation",
+                "target": "In-vitro Mutagenesis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Gamma radiation",
+                "target": "LD50 (20 - 25 Gy)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gamma radiation",
+                "target": "Survival rate (40 - 92%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gamma radiation",
+                "target": "Shoots per cluster (10.7 - 18.8 shoots)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gamma radiation",
+                "target": "Cluster diameter (2.3 - 3.72 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gamma radiation",
+                "target": "Flower diameter (5.4 - 5.6 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "60Co source",
+                "target": "Gamma radiation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Murashige and Skoog’s basal medium",
+                "target": "In-vitro Mutagenesis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "BAP",
+                "target": "In-vitro Mutagenesis",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

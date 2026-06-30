@@ -1,0 +1,135 @@
+{
+  "filename": "12-LA-NGUYEN LAN HUONG(79-84).json",
+  "paper_title": "VIETNAMESE LAW ON DURATION OF FARMERS' LAND RIGHTS: DEVELOPEMENT AND LIMITS",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Lan Huong",
+        "type": "Author",
+        "description": "The author of the research paper"
+      },
+      {
+        "id": "School of Law",
+        "type": "Institution",
+        "description": "The specific faculty within Can Tho University associated with the author"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "The university in Vietnam where the research was conducted"
+      },
+      {
+        "id": "Law",
+        "type": "Domain",
+        "description": "The primary research field of the study"
+      },
+      {
+        "id": "Land tenure security",
+        "type": "Concept",
+        "description": "The perception of certainty regarding rights to land"
+      },
+      {
+        "id": "Land investment",
+        "type": "Concept",
+        "description": "The economic investment made by farmers in agricultural land"
+      },
+      {
+        "id": "Agricultural development",
+        "type": "Concept",
+        "description": "The overall improvement of farming and productivity"
+      },
+      {
+        "id": "1987 Land Law",
+        "type": "Method",
+        "description": "The first Land Law enacted after the Doi Moi reform"
+      },
+      {
+        "id": "1993 Land Law",
+        "type": "Method",
+        "description": "The law that first defined specific durations for land use"
+      },
+      {
+        "id": "2003 Land Law",
+        "type": "Method",
+        "description": "The law that replaced the 1993 Land Law"
+      },
+      {
+        "id": "Decree No. 43/2014/NĐ-CP",
+        "type": "Method",
+        "description": "A subsidiary legislation providing procedure for the 2013 Land Law"
+      },
+      {
+        "id": "Automatic renewal procedure",
+        "type": "Method",
+        "description": "The regulatory process for extending land rights upon expiration"
+      },
+      {
+        "id": "Duration of arable land rights (50 years)",
+        "type": "Metric",
+        "description": "The time limit for holding land rights under current law"
+      },
+      {
+        "id": "Duration for annual crops (20 years)",
+        "type": "Metric",
+        "description": "The historical duration for annual crop land under the 1993 law"
+      },
+      {
+        "id": "Proposed duration (perpetuity)",
+        "type": "Metric",
+        "description": "The author's suggestion for indefinite land tenure"
+      }
+    ],
+    "relations": [
+      {
+        "source": "VIETNAMESE LAW ON DURATION OF FARMERS' LAND RIGHTS: DEVELOPEMENT AND LIMITS",
+        "target": "Law",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Lan Huong",
+        "target": "School of Law",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Lan Huong",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "2003 Land Law",
+        "target": "Duration of arable land rights (50 years)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "1993 Land Law",
+        "target": "Duration for annual crops (20 years)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "2003 Land Law",
+        "target": "Land tenure security",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Automatic renewal procedure",
+        "target": "Land tenure security",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Decree No. 43/2014/NĐ-CP",
+        "target": "Automatic renewal procedure",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "2003 Land Law",
+        "target": "Land investment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "1987 Land Law",
+        "target": "Agricultural development",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

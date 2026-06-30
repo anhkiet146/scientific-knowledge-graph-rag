@@ -1,0 +1,140 @@
+{
+    "filename": "07-EC-NGUYEN PHAM THANH NAM(46-55)007.json",
+    "paper_title": "Impact of managerial human resource quality on growth of firms in the Mekong Delta, Vietnam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Impact of managerial human resource quality on growth of firms in the Mekong Delta, Vietnam",
+                "type": "Concept",
+                "description": "The main research topic investigating how manager quality influences business expansion."
+            },
+            {
+                "id": "Nguyen Pham Thanh Nam",
+                "type": "Author",
+                "description": "Primary author of the research paper."
+            },
+            {
+                "id": "Le Khuong Ninh",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "College of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "The academic organization the authors are affiliated with in Vietnam."
+            },
+            {
+                "id": "Economics and Business Management",
+                "type": "Domain",
+                "description": "The primary field of research for this study."
+            },
+            {
+                "id": "Managerial human resource quality",
+                "type": "Concept",
+                "description": "A composite concept including professional knowledge, experience, and skills of managers."
+            },
+            {
+                "id": "Firm growth",
+                "type": "Concept",
+                "description": "The dependent variable measured by the annual growth rate of sales."
+            },
+            {
+                "id": "Upper echelon theory",
+                "type": "Concept",
+                "description": "Theoretical framework suggesting that organizational outcomes are reflections of the values and cognitive bases of powerful actors."
+            },
+            {
+                "id": "Ordinary least squares (OLS) estimation method",
+                "type": "Method",
+                "description": "Statistical method used to estimate the parameters of the linear regression model."
+            },
+            {
+                "id": "Questionnaire",
+                "type": "Method",
+                "description": "Data collection instrument used to interview top managers."
+            },
+            {
+                "id": "Primary data set of 450 firms",
+                "type": "Dataset",
+                "description": "Numerical data collected from firms randomly selected in the Mekong Delta."
+            },
+            {
+                "id": "Secondary data from governmental organizations",
+                "type": "Dataset",
+                "description": "Data retrieved from sources like the General Statistical Office of Vietnam."
+            },
+            {
+                "id": "Growth rate of medium and small-sized firms (17.2% per year)",
+                "type": "Metric",
+                "description": "Specific annual growth percentage for SMEs in the survey."
+            },
+            {
+                "id": "Growth rate for large firms (26.5% per year)",
+                "type": "Metric",
+                "description": "Specific annual growth percentage for large firms in the survey."
+            },
+            {
+                "id": "Variance inflation factor (VIF < 10)",
+                "type": "Metric",
+                "description": "Multicollinearity diagnostic value indicating model reliability."
+            },
+            {
+                "id": "Coefficient of short training participation (0.379)",
+                "type": "Metric",
+                "description": "Statistically significant impact value of training on firm growth."
+            },
+            {
+                "id": "Coefficient of export sales ratio (0.064)",
+                "type": "Metric",
+                "description": "Statistically significant impact value of exports on firm growth."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Impact of managerial human resource quality on growth of firms in the Mekong Delta, Vietnam",
+                "target": "Economics and Business Management",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Pham Thanh Nam",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Khuong Ninh",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ordinary least squares (OLS) estimation method",
+                "target": "Firm growth",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ordinary least squares (OLS) estimation method",
+                "target": "Primary data set of 450 firms",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Ordinary least squares (OLS) estimation method",
+                "target": "Variance inflation factor (VIF < 10)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ordinary least squares (OLS) estimation method",
+                "target": "Coefficient of short training participation (0.379)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ordinary least squares (OLS) estimation method",
+                "target": "Coefficient of export sales ratio (0.064)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Managerial human resource quality",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

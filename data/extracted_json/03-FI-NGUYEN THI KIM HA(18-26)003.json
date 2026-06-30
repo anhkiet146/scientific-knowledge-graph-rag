@@ -1,0 +1,180 @@
+{
+    "filename": "03-FI-NGUYEN THI KIM HA(18-26)003.json",
+    "paper_title": "Effect of CO2 on acid-base regulation and growth performance of basa catfish (Pangasius bocourti)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Effect of CO2 on acid-base regulation and growth performance of basa catfish (Pangasius bocourti)",
+                "type": "Concept",
+                "description": "The main study topic investigating how CO2 levels influence physiological and growth factors in fish."
+            },
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "The primary field of research concerning aquatic organism cultivation and physiology."
+            },
+            {
+                "id": "Acid-base regulation",
+                "type": "Concept",
+                "description": "The physiological process of maintaining the balance between acids and bases in the blood."
+            },
+            {
+                "id": "Growth performance",
+                "type": "Concept",
+                "description": "Parameters measuring the physical development of fish over time."
+            },
+            {
+                "id": "Nguyen Thi Kim Ha",
+                "type": "Author",
+                "description": "Primary researcher and corresponding author."
+            },
+            {
+                "id": "Nguyen Thi Xuan Bieu",
+                "type": "Author",
+                "description": "Researcher involved in the study."
+            },
+            {
+                "id": "Nguyen Thanh Phuong",
+                "type": "Author",
+                "description": "Researcher involved in the study."
+            },
+            {
+                "id": "Do Thi Thanh Huong",
+                "type": "Author",
+                "description": "Researcher involved in the study."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Institution located in Viet Nam where the research was conducted."
+            },
+            {
+                "id": "CO2 exposure levels (1%, 2%, 3%)",
+                "type": "Method",
+                "description": "The experimental treatment setup involving different concentrations of carbon dioxide."
+            },
+            {
+                "id": "Oxyguard Pacific box",
+                "type": "Method",
+                "description": "Device used to control water partial pressure of carbon dioxide (pCO2)."
+            },
+            {
+                "id": "iSTAT analyzer",
+                "type": "Method",
+                "description": "Equipment used to analyze blood physiological parameters (pHe, pCO2)."
+            },
+            {
+                "id": "MKII Chloride Analyzer 926s",
+                "type": "Method",
+                "description": "Equipment used for analyzing plasma Chloride [Cl-] concentration."
+            },
+            {
+                "id": "Henderson and Hasselbach equation",
+                "type": "Method",
+                "description": "Mathematical formula used to calculate plasma Bicarbonate [HCO3-] concentration."
+            },
+            {
+                "id": "One-way ANOVA",
+                "type": "Method",
+                "description": "Statistical method used to determine differences among treatments."
+            },
+            {
+                "id": "Experimental Data Records",
+                "type": "Dataset",
+                "description": "Numerical datasets collected during the 60-day grow-out and physiological experiments."
+            },
+            {
+                "id": "pHe (7.28±0.02)",
+                "type": "Metric",
+                "description": "Extracellular pH measured in fish exposed to 3% CO2 after 1 hour."
+            },
+            {
+                "id": "pCO2 (20.7±1.35 mmHg)",
+                "type": "Metric",
+                "description": "Partial pressure of CO2 in plasma of 3% CO2 exposed fish after 168 hrs."
+            },
+            {
+                "id": "[HCO3-] (22.2±1.16 mM)",
+                "type": "Metric",
+                "description": "Bicarbonate concentration in plasma of 3% CO2 exposed fish after 168 hrs."
+            },
+            {
+                "id": "SGR (2.60±0.02 %/day)",
+                "type": "Metric",
+                "description": "Specific growth rate of fish in the 3% CO2 treatment group."
+            },
+            {
+                "id": "FCR (1.38±0.01)",
+                "type": "Metric",
+                "description": "Feed conversion ratio of fish in the 3% CO2 treatment after 60 days."
+            },
+            {
+                "id": "Survival rate (83.3%)",
+                "type": "Metric",
+                "description": "Survival rate of fish in the 3% CO2 treatment at the end of the experiment."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of CO2 on acid-base regulation and growth performance of basa catfish (Pangasius bocourti)",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Kim Ha",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Xuan Bieu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Thi Thanh Huong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "CO2 exposure levels (1%, 2%, 3%)",
+                "target": "Acid-base regulation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CO2 exposure levels (1%, 2%, 3%)",
+                "target": "Growth performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CO2 exposure levels (1%, 2%, 3%)",
+                "target": "pHe (7.28±0.02)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CO2 exposure levels (1%, 2%, 3%)",
+                "target": "pCO2 (20.7±1.35 mmHg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CO2 exposure levels (1%, 2%, 3%)",
+                "target": "SGR (2.60±0.02 %/day)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CO2 exposure levels (1%, 2%, 3%)",
+                "target": "Survival rate (83.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "One-way ANOVA",
+                "target": "Experimental Data Records",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+  "filename": "11-NS-SUKUMAR BEPARY(85-89)028.json",
+  "paper_title": "Pyrazole substituted resorcinol derivatives with PI3Kγ inhibitory potential",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Medicinal Chemistry",
+        "type": "Domain",
+        "description": "The study of design, synthesis and development of pharmaceutical agents."
+      },
+      {
+        "id": "PI3Kγ inhibitory potential",
+        "type": "Concept",
+        "description": "The ability of compounds to inhibit phosphoinositide 3-kinase gamma enzymes."
+      },
+      {
+        "id": "Chronic inflammatory disorders",
+        "type": "Concept",
+        "description": "Long-term health conditions involving persistent inflammation."
+      },
+      {
+        "id": "Sukumar Bepary",
+        "type": "Author",
+        "description": "Researcher from Jagannath University."
+      },
+      {
+        "id": "Youn Soo Hyun",
+        "type": "Author",
+        "description": "Researcher from Korea Ginseng Corporation."
+      },
+      {
+        "id": "In Kwon Youn",
+        "type": "Author",
+        "description": "Researcher from Pai Chai University."
+      },
+      {
+        "id": "Tran Quang De",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Ge Hyeong Lee",
+        "type": "Author",
+        "description": "Researcher from Korea Research Institute of Chemical Technology."
+      },
+      {
+        "id": "Jagannath University",
+        "type": "Institution",
+        "description": "University located in Dhaka, Bangladesh."
+      },
+      {
+        "id": "Korea Ginseng Corporation",
+        "type": "Institution",
+        "description": "Organization in Daejeon, South Korea."
+      },
+      {
+        "id": "Pai Chai University",
+        "type": "Institution",
+        "description": "University in Daejeon, Korea."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University in Vietnam."
+      },
+      {
+        "id": "Korea Research Institute of Chemical Technology",
+        "type": "Institution",
+        "description": "Research institute in Daejeon, Korea."
+      },
+      {
+        "id": "Synthesis of pyrazole substituted resorcinol derivatives",
+        "type": "Method",
+        "description": "Laboratory process to create specific chemical compounds."
+      },
+      {
+        "id": "In vitro inhibitory assay",
+        "type": "Method",
+        "description": "Biological evaluation protocol from Millipore England using 10 micro molar doses."
+      },
+      {
+        "id": "Varian 300 MHz NMR spectrometer",
+        "type": "Method",
+        "description": "Equipment used for characterization of synthesized compounds."
+      },
+      {
+        "id": "Flash column chromatography",
+        "type": "Method",
+        "description": "Method used for purification of crude products."
+      },
+      {
+        "id": "Hydrazine hydrate",
+        "type": "Method",
+        "description": "Chemical reagent used in the synthesis of pyrazole derivatives."
+      },
+      {
+        "id": "Yield of compound B (87%)",
+        "type": "Metric",
+        "description": "Percentage yield for the synthesis of intermediate B."
+      },
+      {
+        "id": "Yield of pyrazole derivatives 01-08 (78-93%)",
+        "type": "Metric",
+        "description": "Efficiency range of the final synthesis step."
+      },
+      {
+        "id": "Highest inhibitory potential (66.4%)",
+        "type": "Metric",
+        "description": "Maximum inhibition observed with phenyl substitution."
+      },
+      {
+        "id": "Lowest inhibition (23.6%)",
+        "type": "Metric",
+        "description": "Minimum inhibition observed with 4-pyridyl methyl moiety."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Pyrazole substituted resorcinol derivatives with PI3Kγ inhibitory potential",
+        "target": "Medicinal Chemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Sukumar Bepary",
+        "target": "Jagannath University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Youn Soo Hyun",
+        "target": "Korea Ginseng Corporation",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "In Kwon Youn",
+        "target": "Pai Chai University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Quang De",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ge Hyeong Lee",
+        "target": "Korea Research Institute of Chemical Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Synthesis of pyrazole substituted resorcinol derivatives",
+        "target": "PI3Kγ inhibitory potential",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "In vitro inhibitory assay",
+        "target": "Highest inhibitory potential (66.4%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "In vitro inhibitory assay",
+        "target": "Lowest inhibition (23.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Synthesis of pyrazole substituted resorcinol derivatives",
+        "target": "Yield of pyrazole derivatives 01-08 (78-93%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

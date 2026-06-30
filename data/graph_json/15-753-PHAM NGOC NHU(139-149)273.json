@@ -1,0 +1,220 @@
+{
+  "filename": "15-753-PHAM NGOC NHU(139-149)273.json",
+  "paper_title": "Effects of Psidium guajava and Phyllanthus amarus extracts on digestive enzyme activity and growth of Pangasianodon hypophthalmus fingerlings under hightemperature stress",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The main research field involving the farming of aquatic organisms."
+      },
+      {
+        "id": "Pham Ngoc Nhan",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Tran Thi Phuong Hang",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Do Thi Thanh Huong",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Nguyen Thanh Phuong",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Bui Thi Bich Hang",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Patrick Kestemont",
+        "type": "Author",
+        "description": "Researcher from University of Namur, Belgium."
+      },
+      {
+        "id": "Vien Tuyet Anh",
+        "type": "Author",
+        "description": "Researcher from Thoi Lai Vocational School."
+      },
+      {
+        "id": "Nguyen Thi Kim Ha",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "Educational and research institution in Viet Nam."
+      },
+      {
+        "id": "Institute of Life, Earth and Environment, University of Namur",
+        "type": "Institution",
+        "description": "Research institution in Belgium."
+      },
+      {
+        "id": "Faculty of Agriculture Economics, Thoi Lai Vocational School",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      },
+      {
+        "id": "High-temperature stress",
+        "type": "Concept",
+        "description": "The study of physiological stress in fish caused by elevated water temperatures."
+      },
+      {
+        "id": "Digestive enzyme activity",
+        "type": "Concept",
+        "description": "The biochemical process of breaking down food involving enzymes like pepsin and trypsin."
+      },
+      {
+        "id": "Growth Performance",
+        "type": "Concept",
+        "description": "The evaluation of fish development through indicators like weight gain and growth rate."
+      },
+      {
+        "id": "Psidium guajava extract (Pg0.2)",
+        "type": "Method",
+        "description": "Guava leaf extract supplemented at 0.2%/kg in the fish diet."
+      },
+      {
+        "id": "Phyllanthus amarus extract (Pa0.5)",
+        "type": "Method",
+        "description": "Herbal extract supplemented at 0.5%/kg in the fish diet."
+      },
+      {
+        "id": "Mix diet",
+        "type": "Method",
+        "description": "A mixture of Pg0.2 and Pa0.5 extracts in the fish diet."
+      },
+      {
+        "id": "Temperature elevation (35°C)",
+        "type": "Method",
+        "description": "Rearing fish at a controlled high temperature of 35°C."
+      },
+      {
+        "id": "Worthington's method",
+        "type": "Method",
+        "description": "Assay technique used to measure pepsin activity."
+      },
+      {
+        "id": "Weight gain (32.6 g)",
+        "type": "Metric",
+        "description": "Achieved weight gain using the Pg0.2 diet."
+      },
+      {
+        "id": "Specific growth rate (2.08%/day)",
+        "type": "Metric",
+        "description": "The daily percentage growth rate achieved with Pg0.2."
+      },
+      {
+        "id": "Survival rate (72.52%)",
+        "type": "Metric",
+        "description": "The highest survival rate observed in the Pg0.2 treatment."
+      },
+      {
+        "id": "Intestinal amylase activity (9.23 U/min/mg protein)",
+        "type": "Metric",
+        "description": "Highest enzyme activity measured at 35°C."
+      },
+      {
+        "id": "Weight gain at 35°C (38.9 g)",
+        "type": "Metric",
+        "description": "Weight gain recorded for fish reared at 35°C."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of Psidium guajava and Phyllanthus amarus extracts on digestive enzyme activity and growth of Pangasianodon hypophthalmus fingerlings",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Pham Ngoc Nhan",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Phuong Hang",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Thi Thanh Huong",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Phuong",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Thi Bich Hang",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Kim Ha",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Patrick Kestemont",
+        "target": "Institute of Life, Earth and Environment, University of Namur",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vien Tuyet Anh",
+        "target": "Faculty of Agriculture Economics, Thoi Lai Vocational School",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Psidium guajava extract (Pg0.2)",
+        "target": "Weight gain (32.6 g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Psidium guajava extract (Pg0.2)",
+        "target": "Specific growth rate (2.08%/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Psidium guajava extract (Pg0.2)",
+        "target": "Survival rate (72.52%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Temperature elevation (35°C)",
+        "target": "Intestinal amylase activity (9.23 U/min/mg protein)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Temperature elevation (35°C)",
+        "target": "Weight gain at 35°C (38.9 g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Psidium guajava extract (Pg0.2)",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Mix diet",
+        "target": "Digestive enzyme activity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Worthington's method",
+        "target": "Digestive enzyme activity",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

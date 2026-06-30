@@ -1,0 +1,195 @@
+{
+    "filename": "03-BE-VO DINH LE TAM(17-23)003.json",
+    "paper_title": "Investigation of antioxidant activity of protein hydrolysate derived from baby clam (Corbiculidae sp.) broth",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary field of study regarding food processing and antioxidant activity."
+            },
+            {
+                "id": "Antioxidant activity",
+                "type": "Concept",
+                "description": "The ability of a substance to delay or inhibit oxidation."
+            },
+            {
+                "id": "Enzymatic hydrolysis",
+                "type": "Method",
+                "description": "A process of breaking down proteins using enzymes to produce peptides."
+            },
+            {
+                "id": "Baby clam broth (BCB)",
+                "type": "Method",
+                "description": "The liquid substrate derived from boiling baby clams (Corbiculidae sp.) used for hydrolysis."
+            },
+            {
+                "id": "Flavourzyme",
+                "type": "Method",
+                "description": "A commercial enzyme preparation used to catalyze the hydrolysis process."
+            },
+            {
+                "id": "FRAP assay",
+                "type": "Method",
+                "description": "Ferric reducing antioxidant power assay used to measure electron-donating capability."
+            },
+            {
+                "id": "ABTS assay",
+                "type": "Method",
+                "description": "2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid) cation radical scavenging activity assay."
+            },
+            {
+                "id": "Vo Dinh Le Tam",
+                "type": "Author",
+                "description": "Lead researcher and corresponding author."
+            },
+            {
+                "id": "Tran Cao Minh",
+                "type": "Author",
+                "description": "Co-author of the research."
+            },
+            {
+                "id": "Le Duc Hoai",
+                "type": "Author",
+                "description": "Co-author of the research."
+            },
+            {
+                "id": "Duong Lap Khang",
+                "type": "Author",
+                "description": "Co-author of the research."
+            },
+            {
+                "id": "Nguyen Ngoc Quynh Anh",
+                "type": "Author",
+                "description": "Co-author of the research."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology – Vietnam National University",
+                "type": "Institution",
+                "description": "The university affiliation for all the authors."
+            },
+            {
+                "id": "Moisture content (97.55±0.89%)",
+                "type": "Metric",
+                "description": "Specific value for moisture in BCB."
+            },
+            {
+                "id": "Protein content (1.52±0.16%)",
+                "type": "Metric",
+                "description": "Specific value for protein in BCB."
+            },
+            {
+                "id": "Lipid content (0.09±0.02%)",
+                "type": "Metric",
+                "description": "Specific value for lipid in BCB."
+            },
+            {
+                "id": "Ash content (0.37±0.04%)",
+                "type": "Metric",
+                "description": "Specific value for ash in BCB."
+            },
+            {
+                "id": "ABTS scavenging activity (770.67±28.33 µM TE)",
+                "type": "Metric",
+                "description": "The highest scavenging activity achieved under optimal conditions."
+            },
+            {
+                "id": "FRAP value (245.26±7.37 µM TE)",
+                "type": "Metric",
+                "description": "The highest ferric reducing power achieved under optimal conditions."
+            },
+            {
+                "id": "pH 7",
+                "type": "Metric",
+                "description": "Optimal pH level for the hydrolysis reaction."
+            },
+            {
+                "id": "50°C",
+                "type": "Metric",
+                "description": "Optimal temperature for the hydrolysis reaction."
+            },
+            {
+                "id": "E:S ratio (5 U/g protein)",
+                "type": "Metric",
+                "description": "Optimal enzyme-to-substrate ratio."
+            },
+            {
+                "id": "Hydrolysis time (50 min)",
+                "type": "Metric",
+                "description": "Optimal duration for the enzymatic hydrolysis."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Investigation of antioxidant activity of protein hydrolysate derived from baby clam (Corbiculidae sp.) broth",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Enzymatic hydrolysis",
+                "target": "Antioxidant activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Flavourzyme",
+                "target": "ABTS scavenging activity (770.67±28.33 µM TE)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Flavourzyme",
+                "target": "FRAP value (245.26±7.37 µM TE)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzymatic hydrolysis",
+                "target": "pH 7",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzymatic hydrolysis",
+                "target": "50°C",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzymatic hydrolysis",
+                "target": "E:S ratio (5 U/g protein)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzymatic hydrolysis",
+                "target": "Hydrolysis time (50 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Baby clam broth (BCB)",
+                "target": "Moisture content (97.55±0.89%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Vo Dinh Le Tam",
+                "target": "Ho Chi Minh City University of Technology – Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Cao Minh",
+                "target": "Ho Chi Minh City University of Technology – Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Duc Hoai",
+                "target": "Ho Chi Minh City University of Technology – Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Lap Khang",
+                "target": "Ho Chi Minh City University of Technology – Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ngoc Quynh Anh",
+                "target": "Ho Chi Minh City University of Technology – Vietnam National University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

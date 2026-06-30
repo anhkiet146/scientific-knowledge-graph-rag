@@ -1,0 +1,220 @@
+{
+    "filename": "09-ET-NGO QUOC LUAN(57-60).json",
+    "paper_title": "ISOLATION AND CHARACTERIZATION OF THREE NATURAL COMPOUNDS FROM THE STEM BARK OF Cassia grandis L.F",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phytochemistry",
+                "type": "Domain",
+                "description": "The study of chemicals derived from plants."
+            },
+            {
+                "id": "Ngo Quoc Luan",
+                "type": "Author",
+                "description": "Author from School of Education, Can Tho University."
+            },
+            {
+                "id": "Nguyen Thi Thuy Trang",
+                "type": "Author",
+                "description": "Author from School of Education, Can Tho University."
+            },
+            {
+                "id": "Le Tien Dung",
+                "type": "Author",
+                "description": "Author from Institute of Chemical Technology, VAST."
+            },
+            {
+                "id": "Mai Dinh Tri",
+                "type": "Author",
+                "description": "Author from Institute of Chemical Technology, VAST."
+            },
+            {
+                "id": "Phan Nhat Minh",
+                "type": "Author",
+                "description": "Author from Institute of Chemical Technology, VAST."
+            },
+            {
+                "id": "Nguyen Tan Phat",
+                "type": "Author",
+                "description": "Author from Institute of Chemical Technology, VAST."
+            },
+            {
+                "id": "Nguyen Ngoc Hanh",
+                "type": "Author",
+                "description": "Author from Institute of Chemical Technology, VAST."
+            },
+            {
+                "id": "Nguyen Kim Phi Phung",
+                "type": "Author",
+                "description": "Author from University of Natural Science of Ho Chi Minh City."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam."
+            },
+            {
+                "id": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "Research institute in Vietnam."
+            },
+            {
+                "id": "University of Natural Science of Ho Chi Minh City",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam."
+            },
+            {
+                "id": "Isolation and characterization of natural compounds",
+                "type": "Concept",
+                "description": "The process of extracting and identifying chemical structures from biological sources."
+            },
+            {
+                "id": "Cassia grandis L.f",
+                "type": "Concept",
+                "description": "The plant species being investigated for chemical composition."
+            },
+            {
+                "id": "Ethanol 96%",
+                "type": "Method",
+                "description": "Solvent used for extraction."
+            },
+            {
+                "id": "Buchi R-210 rotary evaporator",
+                "type": "Method",
+                "description": "Equipment used for solvent evaporation."
+            },
+            {
+                "id": "Common phase column chromatography (CP-CC)",
+                "type": "Method",
+                "description": "Method used for purification of compounds."
+            },
+            {
+                "id": "Bruker AM500 FT-NMR spectrometer",
+                "type": "Method",
+                "description": "Equipment used for recording NMR spectra."
+            },
+            {
+                "id": "ESI-MS",
+                "type": "Method",
+                "description": "Mass spectrometry method for molecular formula determination."
+            },
+            {
+                "id": "1D-NMR",
+                "type": "Method",
+                "description": "Spectroscopy method for structural elucidation."
+            },
+            {
+                "id": "2D-NMR",
+                "type": "Method",
+                "description": "Advanced spectroscopy method including HSQC, HMBC, COSY."
+            },
+            {
+                "id": "Drying temperature (50°C)",
+                "type": "Metric",
+                "description": "Temperature used for drying plant material."
+            },
+            {
+                "id": "Humidity (0-2%)",
+                "type": "Metric",
+                "description": "Residual moisture level after drying."
+            },
+            {
+                "id": "Yield of compound 1 (7.2 mg)",
+                "type": "Metric",
+                "description": "Mass of n-heptacosan-1-ol isolated."
+            },
+            {
+                "id": "Melting point of compound 1 (81-82 °C)",
+                "type": "Metric",
+                "description": "Physical property measurement for compound 1."
+            },
+            {
+                "id": "Yield of compound 2 (10.1 mg)",
+                "type": "Metric",
+                "description": "Mass of bis(2,3-dihydroxypropyl) tetracosandioate isolated."
+            },
+            {
+                "id": "Yield of compound 3 (8.5 mg)",
+                "type": "Metric",
+                "description": "Mass of moracin B isolated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "ISOLATION AND CHARACTERIZATION OF THREE NATURAL COMPOUNDS FROM THE STEM BARK OF Cassia grandis L.F",
+                "target": "Phytochemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ngo Quoc Luan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thuy Trang",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Tien Dung",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Mai Dinh Tri",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Nhat Minh",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Tan Phat",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ngoc Hanh",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Kim Phi Phung",
+                "target": "University of Natural Science of Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ethanol 96%",
+                "target": "Isolation and characterization of natural compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Common phase column chromatography (CP-CC)",
+                "target": "Yield of compound 1 (7.2 mg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Common phase column chromatography (CP-CC)",
+                "target": "Yield of compound 2 (10.1 mg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Common phase column chromatography (CP-CC)",
+                "target": "Yield of compound 3 (8.5 mg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "1D-NMR",
+                "target": "Melting point of compound 1 (81-82 °C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Buchi R-210 rotary evaporator",
+                "target": "Isolation and characterization of natural compounds",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

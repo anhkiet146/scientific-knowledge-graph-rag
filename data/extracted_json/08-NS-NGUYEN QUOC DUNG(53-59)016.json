@@ -1,0 +1,165 @@
+{
+    "filename": "08-NS-NGUYEN QUOC DUNG(53-59)016.json",
+    "paper_title": "Forecasting time series with long short-term memory networks",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Time series forecasting",
+                "type": "Concept",
+                "description": "The problem of predicting future values based on previously observed sequential data."
+            },
+            {
+                "id": "Sequence prediction",
+                "type": "Concept",
+                "description": "A task where the model predicts the next items in a sequence."
+            },
+            {
+                "id": "Deep Learning",
+                "type": "Domain",
+                "description": "The primary field of research involving neural networks with many layers."
+            },
+            {
+                "id": "Nguyen Quoc Dung",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Phan Nguyet Minh",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Ivan Zelinka",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Van Lang University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam."
+            },
+            {
+                "id": "University of Information Technology",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam."
+            },
+            {
+                "id": "Technical University of Ostrava",
+                "type": "Institution",
+                "description": "Educational institution in Czech Republic."
+            },
+            {
+                "id": "Long Short-Term Memory",
+                "type": "Method",
+                "description": "A special type of recurrent neural network capable of learning long-term dependencies."
+            },
+            {
+                "id": "Recurrent Neural Network",
+                "type": "Method",
+                "description": "A class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence."
+            },
+            {
+                "id": "Vanilla LSTM",
+                "type": "Method",
+                "description": "A simple LSTM architecture using a single LSTM layer."
+            },
+            {
+                "id": "Stacked LSTM",
+                "type": "Method",
+                "description": "An LSTM model with multiple LSTM layers."
+            },
+            {
+                "id": "Bidirectional LSTM",
+                "type": "Method",
+                "description": "An LSTM architecture that processes data in both forward and backward directions."
+            },
+            {
+                "id": "M3-Competition data",
+                "type": "Dataset",
+                "description": "A benchmark dataset consisting of 3003 time series, primarily in business and economics."
+            },
+            {
+                "id": "Average sMAPE (18%)",
+                "type": "Metric",
+                "description": "Average symmetric mean absolute percentage error achieved by the models."
+            },
+            {
+                "id": "sMAPE for single LSTM (17.9%)",
+                "type": "Metric",
+                "description": "Accuracy metric for the vanilla/single LSTM model."
+            },
+            {
+                "id": "sMAPE for stacked LSTM (17.3%)",
+                "type": "Metric",
+                "description": "Accuracy metric for the stacked LSTM model."
+            },
+            {
+                "id": "sMAPE for bidirectional LSTM (17.1%)",
+                "type": "Metric",
+                "description": "Accuracy metric for the bidirectional LSTM model."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Quoc Dung",
+                "target": "Van Lang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quoc Dung",
+                "target": "Technical University of Ostrava",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Nguyet Minh",
+                "target": "University of Information Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ivan Zelinka",
+                "target": "Technical University of Ostrava",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Long Short-Term Memory",
+                "target": "Deep Learning",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Long Short-Term Memory",
+                "target": "Time series forecasting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Vanilla LSTM",
+                "target": "M3-Competition data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Stacked LSTM",
+                "target": "M3-Competition data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Bidirectional LSTM",
+                "target": "M3-Competition data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Vanilla LSTM",
+                "target": "sMAPE for single LSTM (17.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Stacked LSTM",
+                "target": "sMAPE for stacked LSTM (17.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Bidirectional LSTM",
+                "target": "sMAPE for bidirectional LSTM (17.1%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "filename": "07-E8-LE VAN PHONG(49-53)094.json",
+    "paper_title": "Effect of replacing fresh water hyacinth (Eichhornia crassipes) to rice straw diet on feed intake, rumen fermentation and weight gain of Lai Sind cattle",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo liên quan đến chăn nuôi và dinh dưỡng động vật."
+            },
+            {
+                "id": "Le Van Phong",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Nguyen Van Thu",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam."
+            },
+            {
+                "id": "Feed intake",
+                "type": "Concept",
+                "description": "Khả năng thu nhận thức ăn của gia súc."
+            },
+            {
+                "id": "Rumen fermentation",
+                "type": "Concept",
+                "description": "Quá trình lên men trong dạ cỏ của gia súc."
+            },
+            {
+                "id": "Weight gain",
+                "type": "Concept",
+                "description": "Sự tăng trọng lượng của vật nuôi."
+            },
+            {
+                "id": "Nutrient digestibility",
+                "type": "Concept",
+                "description": "Khả năng tiêu hóa các chất dinh dưỡng."
+            },
+            {
+                "id": "Nitrogen retention",
+                "type": "Concept",
+                "description": "Sự tích lũy nitơ trong cơ thể."
+            },
+            {
+                "id": "Latin-square design",
+                "type": "Method",
+                "description": "Thiết kế thí nghiệm theo phương pháp hình vuông Latin."
+            },
+            {
+                "id": "Fresh water hyacinth (Eichhornia crassipes)",
+                "type": "Method",
+                "description": "Cây lục bình tươi, được sử dụng làm vật liệu thay thế trong khẩu phần ăn."
+            },
+            {
+                "id": "Rice straw",
+                "type": "Method",
+                "description": "Rơm rạ, thành phần chính trong khẩu phần ăn của bò."
+            },
+            {
+                "id": "Multinutrient cake",
+                "type": "Method",
+                "description": "Bánh đa dinh dưỡng bổ sung protein thô cho bò."
+            },
+            {
+                "id": "Minitab 16.2.0",
+                "type": "Method",
+                "description": "Phần mềm thống kê sử dụng để phân tích dữ liệu ANOVA."
+            },
+            {
+                "id": "Daily weight gain (250-448 g)",
+                "type": "Metric",
+                "description": "Chỉ số tăng trọng hàng ngày của bò trong các nghiệm thức."
+            },
+            {
+                "id": "Nitrogen retention (0.480-0.510 g/kgW0.75)",
+                "type": "Metric",
+                "description": "Chỉ số tích lũy nitơ hàng ngày theo đơn vị khối lượng trao đổi."
+            },
+            {
+                "id": "Optimum WH replacement level (50%)",
+                "type": "Metric",
+                "description": "Tỷ lệ thay thế lục bình tối ưu cho rơm rạ trong khẩu phần ăn."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of replacing fresh water hyacinth (Eichhornia crassipes) to rice straw diet on feed intake, rumen fermentation and weight gain of Lai Sind cattle",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Van Phong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Thu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Latin-square design",
+                "target": "Feed intake",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Latin-square design",
+                "target": "Rumen fermentation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Latin-square design",
+                "target": "Weight gain",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fresh water hyacinth (Eichhornia crassipes)",
+                "target": "Daily weight gain (250-448 g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fresh water hyacinth (Eichhornia crassipes)",
+                "target": "Nitrogen retention (0.480-0.510 g/kgW0.75)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fresh water hyacinth (Eichhornia crassipes)",
+                "target": "Optimum WH replacement level (50%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Minitab 16.2.0",
+                "target": "Weight gain",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

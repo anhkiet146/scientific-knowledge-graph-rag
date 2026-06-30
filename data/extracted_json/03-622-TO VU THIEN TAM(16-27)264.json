@@ -1,0 +1,170 @@
+{
+    "filename": "03-622-TO VU THIEN TAM(16-27)264.json",
+    "paper_title": "Effect of stocking density of Snakeskin gourami (Trichopodus pectoralis) in polyculture system with Black apple snail (Pila polita)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The study of cultivating aquatic organisms."
+            },
+            {
+                "id": "Polyculture system",
+                "type": "Concept",
+                "description": "The practice of raising more than one species of aquatic organism in the same pond or tank."
+            },
+            {
+                "id": "Stocking density",
+                "type": "Concept",
+                "description": "The concentration of fish or snails stocked in a given area or volume."
+            },
+            {
+                "id": "To Vu Thien Tam",
+                "type": "Author",
+                "description": "First author and corresponding author."
+            },
+            {
+                "id": "Nguyen Ngoc Tram",
+                "type": "Author",
+                "description": "Co-author."
+            },
+            {
+                "id": "Nguyen Thi Ngoc Nhu",
+                "type": "Author",
+                "description": "Co-author."
+            },
+            {
+                "id": "Ngo Thi Thu Thao",
+                "type": "Author",
+                "description": "Co-author."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "Polyculture model with black apple snails and snakeskin gourami",
+                "type": "Method",
+                "description": "Experimental setup combining Trichopodus pectoralis and Pila polita."
+            },
+            {
+                "id": "Composite tank (500L)",
+                "type": "Method",
+                "description": "Experimental equipment used for culturing."
+            },
+            {
+                "id": "SERA test kit",
+                "type": "Method",
+                "description": "Equipment used for measuring water quality parameters."
+            },
+            {
+                "id": "One-way ANOVA and Duncan post hoc test",
+                "type": "Method",
+                "description": "Statistical methods used for data analysis."
+            },
+            {
+                "id": "Survival rate of fish (100%)",
+                "type": "Metric",
+                "description": "Rate of fish surviving until the end of the experiment."
+            },
+            {
+                "id": "Survival rate of snails (80.22 to 82.44%)",
+                "type": "Metric",
+                "description": "Range of snail survival rates across treatments."
+            },
+            {
+                "id": "Specific growth rate of snails (2.68 %/day)",
+                "type": "Metric",
+                "description": "Highest growth rate observed in snails."
+            },
+            {
+                "id": "Snail productivity (0.54 kg/m2)",
+                "type": "Metric",
+                "description": "Yield of snails per square meter in the control treatment."
+            },
+            {
+                "id": "Specific growth rate of fish (0.98 %/day)",
+                "type": "Metric",
+                "description": "Highest growth rate observed in fish."
+            },
+            {
+                "id": "Fish productivity (0.24 kg/m2)",
+                "type": "Metric",
+                "description": "Highest yield of fish per square meter."
+            },
+            {
+                "id": "Profit margin (57%)",
+                "type": "Metric",
+                "description": "Economic efficiency at the highest fish density."
+            },
+            {
+                "id": "TAN concentration (0.32 to 0.46 mg/L)",
+                "type": "Metric",
+                "description": "Total Ammonia Nitrogen concentration range."
+            },
+            {
+                "id": "pH levels (8.17 - 8.19)",
+                "type": "Metric",
+                "description": "Acidity or alkalinity range of the water."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of stocking density of Snakeskin gourami (Trichopodus pectoralis) in polyculture system with Black apple snail (Pila polita)",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "To Vu Thien Tam",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ngoc Tram",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Ngoc Nhu",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Thi Thu Thao",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Polyculture model with black apple snails and snakeskin gourami",
+                "target": "Polyculture system",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Polyculture model with black apple snails and snakeskin gourami",
+                "target": "Survival rate of fish (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Polyculture model with black apple snails and snakeskin gourami",
+                "target": "Survival rate of snails (80.22 to 82.44%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Polyculture model with black apple snails and snakeskin gourami",
+                "target": "Profit margin (57%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SERA test kit",
+                "target": "TAN concentration (0.32 to 0.46 mg/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SERA test kit",
+                "target": "pH levels (8.17 - 8.19)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

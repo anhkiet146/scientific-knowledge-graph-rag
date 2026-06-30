@@ -1,0 +1,175 @@
+{
+    "filename": "01-FI-LE THI HONG GAM(1-8)001.json",
+    "paper_title": "Effects of nitrite exposure on haematological parameters and growth in clown knifefish",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "The research field focusing on the farming of aquatic organisms and managing fish populations."
+            },
+            {
+                "id": "Nitrite exposure",
+                "type": "Concept",
+                "description": "The study of the effects of exposing fish to various concentrations of nitrite (NO2-)."
+            },
+            {
+                "id": "Haematological parameters",
+                "type": "Concept",
+                "description": "Study of blood-related indicators in fish to determine health and physiological responses."
+            },
+            {
+                "id": "Growth in clown knifefish",
+                "type": "Concept",
+                "description": "Measuring the development and survival of Chitala ornata under experimental conditions."
+            },
+            {
+                "id": "Le Thi Hong Gam",
+                "type": "Author",
+                "description": "Primary author of the study."
+            },
+            {
+                "id": "Nguyen Thi Thuy Vu",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Pham Ngoc Nhu",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Nguyen Thanh Phuong",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Do Thi Thanh Huong",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Agricultural Extension Center, Ben Tre province",
+                "type": "Institution",
+                "description": "Governmental agricultural organization in Vietnam."
+            },
+            {
+                "id": "NaNO2 exposure treatment",
+                "type": "Method",
+                "description": "Using sodium nitrite to create experimental environments with concentrations of 0.2, 0.4, and 4 mM."
+            },
+            {
+                "id": "Spectrophotometer (Griess reaction)",
+                "type": "Method",
+                "description": "Analytical method used to record nitrite levels in water."
+            },
+            {
+                "id": "Two-way ANOVA",
+                "type": "Method",
+                "description": "Statistical method used for identifying differences between treatments and sampling times."
+            },
+            {
+                "id": "PASW statistics (SPSS 18.0)",
+                "type": "Method",
+                "description": "Statistical analysis software used for data processing."
+            },
+            {
+                "id": "Methaemoglobin increase (0.4 to 29.5%)",
+                "type": "Metric",
+                "description": "Elevation of methaemoglobin levels observed in fish at 4 mM nitrite treatment."
+            },
+            {
+                "id": "Leukocytes count (39.89x103 to 72.33x103 cells/mm3)",
+                "type": "Metric",
+                "description": "Increase in leukocyte count at the highest nitrite treatment level."
+            },
+            {
+                "id": "Survival rate (59%)",
+                "type": "Metric",
+                "description": "Percentage of fish surviving after 90 days at 4 mM nitrite exposure."
+            },
+            {
+                "id": "Specific growth rate (1.18±0.07 %/day)",
+                "type": "Metric",
+                "description": "Measurement of daily growth percentage at 4 mM nitrite concentration."
+            },
+            {
+                "id": "FCR (4.19 - 4.56)",
+                "type": "Metric",
+                "description": "Feed conversion ratio range for high nitrite concentration treatments."
+            },
+            {
+                "id": "Daily weight gain (0.25±0.02 g/day)",
+                "type": "Metric",
+                "description": "Rate of weight increase per day for fish in high nitrite treatments."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effects of nitrite exposure on haematological parameters and growth in clown knifefish",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Thi Hong Gam",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Ngoc Nhu",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Phuong",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Thi Thanh Huong",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thuy Vu",
+                "target": "Agricultural Extension Center, Ben Tre province",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "NaNO2 exposure treatment",
+                "target": "Nitrite exposure",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "NaNO2 exposure treatment",
+                "target": "Methaemoglobin increase (0.4 to 29.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "NaNO2 exposure treatment",
+                "target": "Survival rate (59%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "NaNO2 exposure treatment",
+                "target": "Specific growth rate (1.18±0.07 %/day)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "NaNO2 exposure treatment",
+                "target": "FCR (4.19 - 4.56)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PASW statistics (SPSS 18.0)",
+                "target": "Two-way ANOVA",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

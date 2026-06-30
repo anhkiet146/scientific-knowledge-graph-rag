@@ -1,0 +1,170 @@
+{
+  "filename": "09-ET-NGUYEN VAN DAT(61-68)025.json",
+  "paper_title": "Evaluation of the oxidation stability of jatropha biodiesel/diesel blends",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Van Dat",
+        "type": "Author",
+        "description": "Researcher from Department of Chemistry, College of Natural Sciences, Can Tho University, Vietnam."
+      },
+      {
+        "id": "Toshihiro Hirotsu",
+        "type": "Author",
+        "description": "Researcher from Research Center for New Fuels and Vehicle Technology, Advanced Industrial Science and Technology, Japan."
+      },
+      {
+        "id": "Shinichi Goto",
+        "type": "Author",
+        "description": "Researcher from Research Center for New Fuels and Vehicle Technology, Advanced Industrial Science and Technology, Japan."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University located in Vietnam."
+      },
+      {
+        "id": "Advanced Industrial Science and Technology",
+        "type": "Institution",
+        "description": "Research center located in Japan."
+      },
+      {
+        "id": "Biofuels",
+        "type": "Domain",
+        "description": "The primary field of research concerning renewable energy sources for transportation."
+      },
+      {
+        "id": "Oxidation stability",
+        "type": "Concept",
+        "description": "The susceptibility of biodiesel to oxidation due to unsaturated fatty acid chains."
+      },
+      {
+        "id": "Biodiesel production and use",
+        "type": "Concept",
+        "description": "The process of creating fuel from vegetable oils or animal fats."
+      },
+      {
+        "id": "Transesterification procedure",
+        "type": "Method",
+        "description": "A chemical process used to produce Jatropha methyl ester (JME) from Jatropha curcas L. oil."
+      },
+      {
+        "id": "Acid-catalyzed pretreatment",
+        "type": "Method",
+        "description": "A process involving sulfuric acid to prepare crude oils with high free fatty acids."
+      },
+      {
+        "id": "Gas chromatography and mass spectrometry (GC-MS)",
+        "type": "Method",
+        "description": "Analytical method used to identify fatty acid composition."
+      },
+      {
+        "id": "Rancimat method EN 15751",
+        "type": "Method",
+        "description": "Standard test method for determining the oxidation stability of biodiesel blends."
+      },
+      {
+        "id": "Copper strip corrosion test",
+        "type": "Method",
+        "description": "A test to judge the corrosiveness of a fuel and its impact on fuel quality."
+      },
+      {
+        "id": "Potassium methoxide solution",
+        "type": "Method",
+        "description": "Chemical solution used in the transesterification process."
+      },
+      {
+        "id": "Accelerated oxidation method",
+        "type": "Method",
+        "description": "Method using bubbling oxygen at elevated temperatures to evaluate fuel stability."
+      },
+      {
+        "id": "Acid value of JO (16.25 mg KOH/g)",
+        "type": "Metric",
+        "description": "The measured acid value of the raw Jatropha curcas L. oil."
+      },
+      {
+        "id": "Kinematic viscosity at 40oC (6.6 mm2/s)",
+        "type": "Metric",
+        "description": "The measured viscosity of pure JME, which exceeded international standards."
+      },
+      {
+        "id": "Oil content of seed (30-40%)",
+        "type": "Metric",
+        "description": "The percentage of oil found within Jatropha seeds."
+      },
+      {
+        "id": "Induction period (20 hrs)",
+        "type": "Metric",
+        "description": "The minimum induction period required for diesel blends at 110 degrees Celsius."
+      },
+      {
+        "id": "Water content (< 500 ppm)",
+        "type": "Metric",
+        "description": "The standard limit and achieved value for water content in the produced biodiesel."
+      },
+      {
+        "id": "Table 1: Physicochemical properties of JO",
+        "type": "Dataset",
+        "description": "Numerical data representing the fatty acid compositions and properties of Jatropha oil."
+      },
+      {
+        "id": "Table 2: Analytical data of JME and its blends",
+        "type": "Dataset",
+        "description": "Numerical results showing peroxide value, acid value, and induction period for different blends."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Evaluation of the oxidation stability of jatropha biodiesel/diesel blends",
+        "target": "Biofuels",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Van Dat",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Toshihiro Hirotsu",
+        "target": "Advanced Industrial Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Shinichi Goto",
+        "target": "Advanced Industrial Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Transesterification procedure",
+        "target": "Biodiesel production and use",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Rancimat method EN 15751",
+        "target": "Oxidation stability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Transesterification procedure",
+        "target": "Kinematic viscosity at 40oC (6.6 mm2/s)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Acid-catalyzed pretreatment",
+        "target": "Acid value of JO (16.25 mg KOH/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "GC-MS 2010",
+        "target": "Table 1: Physicochemical properties of JO",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Accelerated oxidation method",
+        "target": "Table 2: Analytical data of JME and its blends",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

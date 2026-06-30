@@ -1,0 +1,150 @@
+{
+    "filename": "CE-DO THI NGOC NHI(91-99)054.json",
+    "paper_title": "Drama-based role play activities to impact on students' speaking performance",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Do Thi Ngoc Nhi",
+                "type": "Author",
+                "description": "First author of the study from An Giang University"
+            },
+            {
+                "id": "Nguyen Buu Huan",
+                "type": "Author",
+                "description": "Second author of the study from Can Tho University"
+            },
+            {
+                "id": "An Giang University",
+                "type": "Institution",
+                "description": "University located in Vietnam where Do Thi Ngoc Nhi is affiliated"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Vietnam where Nguyen Buu Huan is affiliated"
+            },
+            {
+                "id": "English as a Foreign Language (EFL) Education",
+                "type": "Domain",
+                "description": "The main field of study focusing on teaching English to non-native speakers"
+            },
+            {
+                "id": "Drama-based role play activities",
+                "type": "Method",
+                "description": "An instructional technique where students engage in acting out roles in specific scenarios"
+            },
+            {
+                "id": "Mixed-methods design",
+                "type": "Method",
+                "description": "A research design combining quantitative and qualitative data collection and analysis"
+            },
+            {
+                "id": "t-tests",
+                "type": "Method",
+                "description": "Statistical analysis including descriptive statistics, independent samples, and paired samples t-tests"
+            },
+            {
+                "id": "Pre-and post-speaking tests",
+                "type": "Method",
+                "description": "Assessment instruments used to measure speaking performance before and after treatment"
+            },
+            {
+                "id": "Speaking performance",
+                "type": "Concept",
+                "description": "The oral production of language in real-time or authentic contexts"
+            },
+            {
+                "id": "Interactive communication",
+                "type": "Concept",
+                "description": "The ability to manage interaction, negotiate meaning, and maintain conversations"
+            },
+            {
+                "id": "Students' attitudes",
+                "type": "Concept",
+                "description": "The perspective and feelings of learners toward a specific teaching method"
+            },
+            {
+                "id": "VSTEP speaking test data",
+                "type": "Dataset",
+                "description": "Numerical data collected from the Vietnamese Standardized Test of English Proficiency"
+            },
+            {
+                "id": "Mean post-test score (3.07)",
+                "type": "Metric",
+                "description": "The average speaking performance score of the experimental group after the study"
+            },
+            {
+                "id": "Mean post-test interactive communication score (3.53)",
+                "type": "Metric",
+                "description": "The specific score for the interactive communication sub-criterion in the treatment group"
+            },
+            {
+                "id": "p-value for speaking performance gain (0.02)",
+                "type": "Metric",
+                "description": "Statistical significance level for the improvement in the experimental group"
+            },
+            {
+                "id": "p-value for interactive communication (0.01)",
+                "type": "Metric",
+                "description": "Statistical significance level for the gain in interactive communication specifically"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Drama-based role play activities to impact on students' speaking performance",
+                "target": "English as a Foreign Language (EFL) Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Do Thi Ngoc Nhi",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Buu Huan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Drama-based role play activities",
+                "target": "Speaking performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Drama-based role play activities",
+                "target": "Interactive communication",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Drama-based role play activities",
+                "target": "Mean post-test score (3.07)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Drama-based role play activities",
+                "target": "Mean post-test interactive communication score (3.53)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Drama-based role play activities",
+                "target": "p-value for speaking performance gain (0.02)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Drama-based role play activities",
+                "target": "p-value for interactive communication (0.01)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pre-and post-speaking tests",
+                "target": "VSTEP speaking test data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "t-tests",
+                "target": "VSTEP speaking test data",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

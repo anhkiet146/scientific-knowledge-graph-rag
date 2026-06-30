@@ -1,0 +1,215 @@
+{
+    "filename": "04-678-NGUYEN MINH TUAN(30-38)032.json",
+    "paper_title": "New data about library service quality and convolution prediction",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Computer Science",
+                "type": "Domain",
+                "description": "The main research field of the paper involving machine learning and data analysis."
+            },
+            {
+                "id": "Library and Information Science",
+                "type": "Domain",
+                "description": "The application domain focusing on library services and management."
+            },
+            {
+                "id": "Nguyen Minh Tuan",
+                "type": "Author",
+                "description": "Researcher from King Mongkut’s University of Technology North Bangkok."
+            },
+            {
+                "id": "Phayung Meesad",
+                "type": "Author",
+                "description": "Researcher from King Mongkut’s University of Technology North Bangkok."
+            },
+            {
+                "id": "Duong Van Hieu",
+                "type": "Author",
+                "description": "Researcher from Tien Giang University."
+            },
+            {
+                "id": "Maleerat Maliyaem",
+                "type": "Author",
+                "description": "Researcher from King Mongkut’s University of Technology North Bangkok."
+            },
+            {
+                "id": "King Mongkut’s University of Technology North Bangkok",
+                "type": "Institution",
+                "description": "University located in Thailand."
+            },
+            {
+                "id": "Tien Giang University",
+                "type": "Institution",
+                "description": "University located in Viet Nam."
+            },
+            {
+                "id": "Library service quality",
+                "type": "Concept",
+                "description": "Key performance indicator for university service quality."
+            },
+            {
+                "id": "Sentiment analysis",
+                "type": "Concept",
+                "description": "Analyzing students' comments using machine learning."
+            },
+            {
+                "id": "Conv-BiGRU",
+                "type": "Method",
+                "description": "Convolution Bidirectional Gated Recurrent Unit model."
+            },
+            {
+                "id": "Conv-BiLSTM",
+                "type": "Method",
+                "description": "Convolution Bidirectional Long-Short Term Memory model."
+            },
+            {
+                "id": "LSTM",
+                "type": "Method",
+                "description": "Long Short-Term Memory recurrent neural network."
+            },
+            {
+                "id": "BiLSTM",
+                "type": "Method",
+                "description": "Bidirectional Long Short-Term Memory model."
+            },
+            {
+                "id": "Survey dataset of library service quality",
+                "type": "Dataset",
+                "description": "Dataset containing 3,367 responses (2,138 cleaned instances) from university students in Vietnam."
+            },
+            {
+                "id": "Accuracy (0.904)",
+                "type": "Metric",
+                "description": "Highest accuracy achieved by the Conv-BiGRU model."
+            },
+            {
+                "id": "Loss (0.222)",
+                "type": "Metric",
+                "description": "Optimization loss value achieved by the Conv-BiGRU model."
+            },
+            {
+                "id": "Accuracy (0.896)",
+                "type": "Metric",
+                "description": "Accuracy achieved by the Conv-BiLSTM model."
+            },
+            {
+                "id": "Loss (0.261)",
+                "type": "Metric",
+                "description": "Loss value achieved by the Conv-BiLSTM model."
+            },
+            {
+                "id": "Accuracy (0.824)",
+                "type": "Metric",
+                "description": "Accuracy achieved by the BiLSTM model."
+            },
+            {
+                "id": "Loss (0.412)",
+                "type": "Metric",
+                "description": "Loss value achieved by the BiLSTM model."
+            },
+            {
+                "id": "Accuracy (0.755)",
+                "type": "Metric",
+                "description": "Accuracy achieved by the standard LSTM model."
+            },
+            {
+                "id": "Loss (0.581)",
+                "type": "Metric",
+                "description": "Loss value achieved by the standard LSTM model."
+            },
+            {
+                "id": "Training time (5 seconds)",
+                "type": "Metric",
+                "description": "Execution time for the Conv-BiGRU model."
+            }
+        ],
+        "relations": [
+            {
+                "source": "New data about library service quality and convolution prediction",
+                "target": "Computer Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Minh Tuan",
+                "target": "King Mongkut’s University of Technology North Bangkok",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phayung Meesad",
+                "target": "King Mongkut’s University of Technology North Bangkok",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Maleerat Maliyaem",
+                "target": "King Mongkut’s University of Technology North Bangkok",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Van Hieu",
+                "target": "Tien Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Conv-BiGRU",
+                "target": "Accuracy (0.904)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Conv-BiGRU",
+                "target": "Loss (0.222)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Conv-BiGRU",
+                "target": "Training time (5 seconds)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Conv-BiLSTM",
+                "target": "Accuracy (0.896)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Conv-BiLSTM",
+                "target": "Loss (0.261)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BiLSTM",
+                "target": "Accuracy (0.824)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "LSTM",
+                "target": "Accuracy (0.755)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Conv-BiGRU",
+                "target": "Library service quality",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Conv-BiGRU",
+                "target": "Sentiment analysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Conv-BiGRU",
+                "target": "Survey dataset of library service quality",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Conv-BiLSTM",
+                "target": "Survey dataset of library service quality",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "LSTM",
+                "target": "Survey dataset of library service quality",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

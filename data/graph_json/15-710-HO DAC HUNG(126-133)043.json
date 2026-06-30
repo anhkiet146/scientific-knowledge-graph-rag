@@ -1,0 +1,180 @@
+{
+  "filename": "15-710-HO DAC HUNG(126-133)043.json",
+  "paper_title": "A practical blockchain-based framework for anti-counterfeiting and traceability",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Ho Dac Hung",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Vo Van Len",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Nguyen The Bao",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Nguyen Cao Hoai Phuong",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Tran Van Huu",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Institute of Engineering and Technology, Thu Dau Mot University",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam"
+      },
+      {
+        "id": "Blockchain technology",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu chính về công nghệ chuỗi khối"
+      },
+      {
+        "id": "Anti-counterfeiting",
+        "type": "Concept",
+        "description": "Vấn đề chống hàng giả"
+      },
+      {
+        "id": "Traceability",
+        "type": "Concept",
+        "description": "Vấn đề truy xuất nguồn gốc sản phẩm"
+      },
+      {
+        "id": "Security",
+        "type": "Concept",
+        "description": "Khái niệm bảo mật hệ thống"
+      },
+      {
+        "id": "Blockchain-based framework",
+        "type": "Method",
+        "description": "Khung làm việc thực tế dựa trên blockchain được đề xuất"
+      },
+      {
+        "id": "Hyperledger Fabric",
+        "type": "Method",
+        "description": "Nền tảng blockchain doanh nghiệp được sử dụng để lưu trữ dữ liệu"
+      },
+      {
+        "id": "bcrypt",
+        "type": "Method",
+        "description": "Thuật toán băm mã hóa để bảo mật tài khoản người dùng"
+      },
+      {
+        "id": "Smart contracts",
+        "type": "Method",
+        "description": "Hợp đồng thông minh thực hiện các luồng danh tính sản phẩm"
+      },
+      {
+        "id": "Multi-tier architecture",
+        "type": "Method",
+        "description": "Kiến trúc đa tầng bao gồm ứng dụng, dịch vụ web và dữ liệu"
+      },
+      {
+        "id": "PC (Core i5, 16GB RAM)",
+        "type": "Method",
+        "description": "Thiết bị phần cứng dùng để triển khai thử nghiệm"
+      },
+      {
+        "id": "GitHub code base",
+        "type": "Dataset",
+        "description": "Mã nguồn mở của hệ thống được công bố trên GitHub"
+      },
+      {
+        "id": "Average latency (<= 1 second)",
+        "type": "Metric",
+        "description": "Độ trễ trung bình của các luồng xử lý"
+      },
+      {
+        "id": "88 blocks/minute",
+        "type": "Metric",
+        "description": "Tốc độ ghi khối cao nhất đối với luồng soldProduct"
+      },
+      {
+        "id": "63 blocks/minute",
+        "type": "Metric",
+        "description": "Tốc độ ghi khối đối với luồng createProduct và sendProductToOwner"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ho Dac Hung",
+        "target": "Institute of Engineering and Technology, Thu Dau Mot University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Van Len",
+        "target": "Institute of Engineering and Technology, Thu Dau Mot University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen The Bao",
+        "target": "Institute of Engineering and Technology, Thu Dau Mot University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Cao Hoai Phuong",
+        "target": "Institute of Engineering and Technology, Thu Dau Mot University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Van Huu",
+        "target": "Institute of Engineering and Technology, Thu Dau Mot University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Blockchain-based framework",
+        "target": "Blockchain technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Blockchain-based framework",
+        "target": "Anti-counterfeiting",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Blockchain-based framework",
+        "target": "Traceability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Hyperledger Fabric",
+        "target": "Security",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "bcrypt",
+        "target": "Security",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Blockchain-based framework",
+        "target": "GitHub code base",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Blockchain-based framework",
+        "target": "Average latency (<= 1 second)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Blockchain-based framework",
+        "target": "88 blocks/minute",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Blockchain-based framework",
+        "target": "63 blocks/minute",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

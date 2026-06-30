@@ -1,0 +1,185 @@
+{
+    "filename": "08-479-NS-TRAN THANH TUAN(64-70)008.json",
+    "paper_title": "Investigating the leaching performance of ferric chloride solution for metallic alloys resulting from reduction smelting of spent lithium-ion batteries",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Recycling of spent lithium-ion batteries",
+                "type": "Concept",
+                "description": "The process of recovering valuable metals from end-of-life batteries to ensure sustainable production and reduce environmental damage."
+            },
+            {
+                "id": "Leaching performance",
+                "type": "Concept",
+                "description": "The efficiency and effectiveness of dissolving metals from alloys using a lixiviant solution."
+            },
+            {
+                "id": "Smelting reduction",
+                "type": "Concept",
+                "description": "A process that produces metallic alloys containing Co, Ni, Cu, Mn, and Fe from spent batteries."
+            },
+            {
+                "id": "Ferric chloride solution",
+                "type": "Method",
+                "description": "The primary lixiviant (FeCl3) used for the dissolution of metals from metallic alloys."
+            },
+            {
+                "id": "Hydrometallurgy",
+                "type": "Method",
+                "description": "Technology including leaching, solvent extraction, and precipitation for metal purification."
+            },
+            {
+                "id": "X-ray diffractometer (XRD)",
+                "type": "Method",
+                "description": "Equipment used to confirm the chemical structure of the metallic alloy powders."
+            },
+            {
+                "id": "ICP-OES",
+                "type": "Method",
+                "description": "Inductively coupled plasma-optical emission spectrometry used to determine metal content."
+            },
+            {
+                "id": "Aqua regia solution",
+                "type": "Method",
+                "description": "A chemical mixture used to completely dissolve powder samples for ICP-OES analysis."
+            },
+            {
+                "id": "WiseStir MSH-20D magnetic stirrer",
+                "type": "Method",
+                "description": "Equipment used to stir reaction mixtures at 500 rpm."
+            },
+            {
+                "id": "Table 1: Chemical composition data",
+                "type": "Dataset",
+                "description": "Digital record of the chemical composition of the metallic alloy powders."
+            },
+            {
+                "id": "Optimal FeCl3 concentration (0.7 mol/L)",
+                "type": "Metric",
+                "description": "The most effective molar concentration for leaching metals."
+            },
+            {
+                "id": "Optimal pulp density (12.5 g/L)",
+                "type": "Metric",
+                "description": "The weight ratio of powder to solution achieving complete dissolution."
+            },
+            {
+                "id": "Optimal temperature (22 oC)",
+                "type": "Metric",
+                "description": "The reaction temperature identified as the best condition."
+            },
+            {
+                "id": "Optimal reaction time (30 min)",
+                "type": "Metric",
+                "description": "The duration required for complete metal dissolution."
+            },
+            {
+                "id": "Final pH (1.42)",
+                "type": "Metric",
+                "description": "The acidity of the solution after the leaching process under optimal conditions."
+            },
+            {
+                "id": "Materials Science",
+                "type": "Domain",
+                "description": "Research field focusing on the properties and recovery of metallic materials."
+            },
+            {
+                "id": "Tran Thanh Tuan",
+                "type": "Author",
+                "description": "Researcher from Can Tho University of Technology."
+            },
+            {
+                "id": "Nguyen Viet Nhan Hoa",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Nguyen Thi Hong",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Lee Man Seung",
+                "type": "Author",
+                "description": "Researcher from Mokpo National University."
+            },
+            {
+                "id": "Can Tho University of Technology",
+                "type": "Institution",
+                "description": "Faculty of Biological, Chemical and Food Technology, Viet Nam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "College of Engineering Technology and College of Natural Sciences, Viet Nam."
+            },
+            {
+                "id": "Mokpo National University",
+                "type": "Institution",
+                "description": "Institute of Rare Metal, Korea."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Investigating the leaching performance of ferric chloride solution for metallic alloys resulting from reduction smelting of spent lithium-ion batteries",
+                "target": "Materials Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ferric chloride solution",
+                "target": "Recycling of spent lithium-ion batteries",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ferric chloride solution",
+                "target": "Optimal FeCl3 concentration (0.7 mol/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ferric chloride solution",
+                "target": "Optimal pulp density (12.5 g/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ferric chloride solution",
+                "target": "Optimal temperature (22 oC)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ferric chloride solution",
+                "target": "Optimal reaction time (30 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ferric chloride solution",
+                "target": "Final pH (1.42)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ferric chloride solution",
+                "target": "Table 1: Chemical composition data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Tran Thanh Tuan",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Viet Nhan Hoa",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Hong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lee Man Seung",
+                "target": "Mokpo National University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

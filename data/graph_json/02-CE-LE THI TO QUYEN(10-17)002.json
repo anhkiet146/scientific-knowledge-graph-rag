@@ -1,0 +1,130 @@
+{
+  "filename": "02-CE-LE THI TO QUYEN(10-17)002.json",
+  "paper_title": "SOCIAL IMPACTS OF TOURISM DEVELOPMENT ON LOCAL COMMUNITY: A CASE STUDY AT DONG HOA HIEP VILLAGE, CAI BE DISTRICT, TIEN GIANG PROVINCE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Le Thi To Quyen",
+        "type": "Author",
+        "description": "The primary author of the research paper."
+      },
+      {
+        "id": "School of Social Sciences and Humanities, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution where the author is affiliated."
+      },
+      {
+        "id": "Tourism Development",
+        "type": "Domain",
+        "description": "The primary field of study regarding the growth and impact of tourism."
+      },
+      {
+        "id": "Social impacts of tourism",
+        "type": "Concept",
+        "description": "The research problem focusing on both positive and negative effects of tourism on local communities."
+      },
+      {
+        "id": "Community-based tourism development",
+        "type": "Concept",
+        "description": "A theoretical approach emphasizing community involvement in tourism activities."
+      },
+      {
+        "id": "Five-point Likert-scale questionnaires",
+        "type": "Method",
+        "description": "A survey method used to measure the attitudes and perceptions of 400 villagers."
+      },
+      {
+        "id": "In-depth interviews",
+        "type": "Method",
+        "description": "A qualitative data collection method involving detailed conversations with participants."
+      },
+      {
+        "id": "Taro Yamane formula",
+        "type": "Method",
+        "description": "A mathematical formula used to determine the appropriate sample size for the study."
+      },
+      {
+        "id": "Cross-sectional analytical study",
+        "type": "Method",
+        "description": "The research design adopted for the survey."
+      },
+      {
+        "id": "Survey data from 400 villagers",
+        "type": "Dataset",
+        "description": "The numerical data collected from the village households for analysis."
+      },
+      {
+        "id": "Sample size (400 villagers)",
+        "type": "Metric",
+        "description": "The total number of participants in the questionnaire survey."
+      },
+      {
+        "id": "Percentage of males (47.3%)",
+        "type": "Metric",
+        "description": "The gender distribution of male respondents."
+      },
+      {
+        "id": "Percentage of females (52.7%)",
+        "type": "Metric",
+        "description": "The gender distribution of female respondents."
+      },
+      {
+        "id": "Monthly income (2,000,000 - 3,000,000 VND)",
+        "type": "Metric",
+        "description": "The reported monthly income range of the majority of respondents."
+      },
+      {
+        "id": "Global GDP contribution (9.8%)",
+        "type": "Metric",
+        "description": "The percentage contribution of travel and tourism to the global GDP in 2014."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Thi To Quyen",
+        "target": "School of Social Sciences and Humanities, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Social impacts of tourism",
+        "target": "Tourism Development",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Social impacts of tourism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "In-depth interviews",
+        "target": "Social impacts of tourism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Survey data from 400 villagers",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Taro Yamane formula",
+        "target": "Sample size (400 villagers)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Percentage of males (47.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Percentage of females (52.7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Monthly income (2,000,000 - 3,000,000 VND)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

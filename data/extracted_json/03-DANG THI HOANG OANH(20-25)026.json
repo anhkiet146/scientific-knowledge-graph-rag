@@ -1,0 +1,140 @@
+{
+    "filename": "03-DANG THI HOANG OANH(20-25)026.json",
+    "paper_title": "Effect of different salinities on the susceptibility of striped catfish (Pangasianodon hypophthalmus) to Aeromonas hydrophila bacteria causing hemorrhagic disease",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Susceptibility to hemorrhagic disease",
+                "type": "Concept",
+                "description": "The likelihood of striped catfish being infected by Aeromonas hydrophila bacteria causing disease."
+            },
+            {
+                "id": "Salinity effect",
+                "type": "Concept",
+                "description": "The impact of different salt concentrations on fish health and disease resistance."
+            },
+            {
+                "id": "Hemorrhagic septicemia",
+                "type": "Concept",
+                "description": "A bacterial disease in fish caused by Aeromonas hydrophila."
+            },
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "The primary research field of the paper."
+            },
+            {
+                "id": "Intramuscular injection",
+                "type": "Method",
+                "description": "Method of challenging fish with A. hydrophila bacteria."
+            },
+            {
+                "id": "Polymerase chain reaction (PCR)",
+                "type": "Method",
+                "description": "Technique used for re-identification of A. hydrophila bacteria."
+            },
+            {
+                "id": "Reed and Muench formula",
+                "type": "Method",
+                "description": "Mathematical formula used to determine the lethal dose of 50% (LD50)."
+            },
+            {
+                "id": "Student's t-test",
+                "type": "Method",
+                "description": "Statistical test used for data analysis."
+            },
+            {
+                "id": "SPSS 16",
+                "type": "Method",
+                "description": "Software used for statistical analysis."
+            },
+            {
+                "id": "Tryptone Soya Agar (TSA)",
+                "type": "Method",
+                "description": "Culture medium used for bacterial growth."
+            },
+            {
+                "id": "Spectrophotometer",
+                "type": "Method",
+                "description": "Equipment used to determine bacterial density."
+            },
+            {
+                "id": "LD50 value (6.4 x 10^4 CFU/fish)",
+                "type": "Metric",
+                "description": "The lethal dose causing 50% mortality in the experimental fish."
+            },
+            {
+                "id": "Cumulative mortality at 0‰ (86.7%)",
+                "type": "Metric",
+                "description": "Recorded mortality rate at freshwater salinity after 14 days."
+            },
+            {
+                "id": "Cumulative mortality at 11‰ (8.3%)",
+                "type": "Metric",
+                "description": "Recorded mortality rate at 11‰ salinity after 14 days."
+            },
+            {
+                "id": "Fish weight (25 ± 0.8g/fish)",
+                "type": "Metric",
+                "description": "Initial weight of the experimental striped catfish."
+            },
+            {
+                "id": "Dang Thi Hoàng Oanh",
+                "type": "Author",
+                "description": "Researcher and corresponding author."
+            },
+            {
+                "id": "Truong Quoc Phu",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "The educational and research institution where the study was conducted."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of different salinities on the susceptibility of striped catfish (Pangasianodon hypophthalmus) to Aeromonas hydrophila bacteria causing hemorrhagic disease",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Dang Thi Hoàng Oanh",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Quoc Phu",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Intramuscular injection",
+                "target": "Susceptibility to hemorrhagic disease",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Polymerase chain reaction (PCR)",
+                "target": "Hemorrhagic septicemia",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Reed and Muench formula",
+                "target": "LD50 value (6.4 x 10^4 CFU/fish)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Intramuscular injection",
+                "target": "Cumulative mortality at 0‰ (86.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Intramuscular injection",
+                "target": "Cumulative mortality at 11‰ (8.3%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

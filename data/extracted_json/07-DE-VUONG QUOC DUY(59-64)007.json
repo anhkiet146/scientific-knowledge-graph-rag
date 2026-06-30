@@ -1,0 +1,135 @@
+{
+    "filename": "07-DE-VUONG QUOC DUY(59-64)007.json",
+    "paper_title": "DETERMINANTS OF POOR HOUSEHOLD INCOME IN CA MAU PROVINCE, VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Vuong Quoc Duy",
+                "type": "Author",
+                "description": "Tác giả của bài nghiên cứu."
+            },
+            {
+                "id": "College of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "Cơ sở giáo dục của tác giả."
+            },
+            {
+                "id": "Economics",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu kinh tế và xã hội."
+            },
+            {
+                "id": "Poor household income",
+                "type": "Concept",
+                "description": "Khái niệm thu nhập hộ nghèo và các yếu tố ảnh hưởng."
+            },
+            {
+                "id": "Poverty reduction",
+                "type": "Concept",
+                "description": "Chiến lược và kết quả giảm nghèo tại Việt Nam."
+            },
+            {
+                "id": "Ordinary least squares model",
+                "type": "Method",
+                "description": "Mô hình hồi quy bình phương nhỏ nhất (OLS) để phân tích các yếu tố ảnh hưởng."
+            },
+            {
+                "id": "Descriptive statistics",
+                "type": "Method",
+                "description": "Phương pháp thống kê mô tả thực trạng đời sống."
+            },
+            {
+                "id": "Stratified random sample method",
+                "type": "Method",
+                "description": "Phương pháp chọn mẫu ngẫu nhiên phân tầng để thu thập dữ liệu."
+            },
+            {
+                "id": "Questionnaire",
+                "type": "Method",
+                "description": "Bảng câu hỏi dùng cho phỏng vấn trực tiếp."
+            },
+            {
+                "id": "160 observations from U Minh and Cai Nuoc districts",
+                "type": "Dataset",
+                "description": "Tập dữ liệu sơ cấp thu thập từ 160 hộ dân tại tỉnh Cà Mau."
+            },
+            {
+                "id": "General Statistics Office data",
+                "type": "Dataset",
+                "description": "Dữ liệu thứ cấp về tình hình nghèo đói toàn quốc."
+            },
+            {
+                "id": "Poverty rate of Vietnam in 2014 (6%)",
+                "type": "Metric",
+                "description": "Tỷ lệ nghèo tại Việt Nam cuối năm 2014."
+            },
+            {
+                "id": "Share of population living below poverty line in 1993 (58%)",
+                "type": "Metric",
+                "description": "Tỷ lệ dân số sống dưới chuẩn nghèo năm 1993."
+            },
+            {
+                "id": "Male headed households (71.88%)",
+                "type": "Metric",
+                "description": "Tỷ lệ hộ gia đình do nam giới làm chủ hộ."
+            },
+            {
+                "id": "Hired income (66.48%)",
+                "type": "Metric",
+                "description": "Tỷ trọng thu nhập từ việc làm thuê trong tổng thu nhập hộ nghèo."
+            },
+            {
+                "id": "Rice cultivation income (8.22%)",
+                "type": "Metric",
+                "description": "Tỷ trọng thu nhập từ canh tác lúa."
+            },
+            {
+                "id": "Shrimp culture income (16.49%)",
+                "type": "Metric",
+                "description": "Tỷ trọng thu nhập từ nuôi tôm."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Vuong Quoc Duy",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ordinary least squares model",
+                "target": "Poor household income",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ordinary least squares model",
+                "target": "160 observations from U Minh and Cai Nuoc districts",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Ordinary least squares model",
+                "target": "Hired income (66.48%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ordinary least squares model",
+                "target": "Rice cultivation income (8.22%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ordinary least squares model",
+                "target": "Shrimp culture income (16.49%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive statistics",
+                "target": "Male headed households (71.88%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DETERMINANTS OF POOR HOUSEHOLD INCOME IN CA MAU PROVINCE, VIETNAM",
+                "target": "Economics",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

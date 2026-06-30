@@ -1,0 +1,165 @@
+{
+  "filename": "11-NS-HUYNH DUC QUOC(72-76)027.json",
+  "paper_title": "Inverse version of the k th maximization combinatorial optimization problem",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Huynh Duc Quoc",
+        "type": "Author",
+        "description": "Researcher at the Department of Mathematics, College of Natural Sciences, Can Tho University."
+      },
+      {
+        "id": "Nguyen Trung Kien",
+        "type": "Author",
+        "description": "Researcher at the Department of Mathematics Education, School of Education, Can Tho University."
+      },
+      {
+        "id": "Trinh Thi Cam Thuy",
+        "type": "Author",
+        "description": "Researcher at the Department of Mathematics, College of Natural Sciences, Can Tho University."
+      },
+      {
+        "id": "Ly Hong Hai",
+        "type": "Author",
+        "description": "Researcher at the Foreign Language, Information Technology Center, Can Tho Medical College."
+      },
+      {
+        "id": "Vo Ngoc Thanh",
+        "type": "Author",
+        "description": "Researcher at Hung Loi High School."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "A major public research university in Can Tho, Vietnam."
+      },
+      {
+        "id": "Can Tho Medical College",
+        "type": "Institution",
+        "description": "A medical training institution in Can Tho, Vietnam."
+      },
+      {
+        "id": "Hung Loi High School",
+        "type": "Institution",
+        "description": "A secondary education institution in Vietnam."
+      },
+      {
+        "id": "Combinatorial Optimization",
+        "type": "Domain",
+        "description": "The field of finding an optimal object from a finite set of objects."
+      },
+      {
+        "id": "Inverse kth maximization combinatorial optimization problem",
+        "type": "Concept",
+        "description": "A problem involving modifying element weights so a specific subset becomes the kth best solution with minimum cost."
+      },
+      {
+        "id": "Chebyshev norm",
+        "type": "Concept",
+        "description": "A metric used in optimization to measure the maximum difference between elements."
+      },
+      {
+        "id": "Bottleneck Hamming distance",
+        "type": "Concept",
+        "description": "A measure of the number of positions at which the corresponding symbols are different."
+      },
+      {
+        "id": "Quadratic algorithms",
+        "type": "Method",
+        "description": "Algorithms developed to solve the problem with a sum objective function."
+      },
+      {
+        "id": "Binary search algorithm",
+        "type": "Method",
+        "description": "Used within the developed algorithms to find optimal values in linear or logarithmic time."
+      },
+      {
+        "id": "Algorithm of Gassner (2009)",
+        "type": "Method",
+        "description": "A specific algorithm used to find optimal values in linear time for max functions."
+      },
+      {
+        "id": "O(n^2) algorithm",
+        "type": "Method",
+        "description": "Methodology to solve the sum objective function version."
+      },
+      {
+        "id": "O(n^2 log n) algorithm",
+        "type": "Method",
+        "description": "Methodology to solve the max objective function version."
+      },
+      {
+        "id": "O(n^2) time",
+        "type": "Metric",
+        "description": "Computational complexity for solving the problem with sum objective function."
+      },
+      {
+        "id": "O(n^2 log n) time",
+        "type": "Metric",
+        "description": "Computational complexity for solving the problem with max objective function."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Huynh Duc Quoc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trung Kien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Trinh Thi Cam Thuy",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ly Hong Hai",
+        "target": "Can Tho Medical College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Ngoc Thanh",
+        "target": "Hung Loi High School",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Inverse kth maximization combinatorial optimization problem",
+        "target": "Combinatorial Optimization",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Quadratic algorithms",
+        "target": "O(n^2) time",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "O(n^2 log n) algorithm",
+        "target": "O(n^2 log n) time",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Quadratic algorithms",
+        "target": "Inverse kth maximization combinatorial optimization problem",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "O(n^2 log n) algorithm",
+        "target": "Inverse kth maximization combinatorial optimization problem",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Binary search algorithm",
+        "target": "Inverse kth maximization combinatorial optimization problem",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Algorithm of Gassner (2009)",
+        "target": "Inverse kth maximization combinatorial optimization problem",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

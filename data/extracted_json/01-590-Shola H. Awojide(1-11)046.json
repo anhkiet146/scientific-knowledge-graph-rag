@@ -1,0 +1,175 @@
+{
+    "filename": "01-590-Shola H. Awojide(1-11)046.json",
+    "paper_title": "Synergistic and antagonistic medicinal activities of essential oil of Monodora myristica",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Medicinal activities of essential oil of Monodora myristica",
+                "type": "Concept",
+                "description": "Investigation into the synergetic and antagonistic medicinal effects of the Africa Nutmeg essential oil."
+            },
+            {
+                "id": "Phytochemistry",
+                "type": "Domain",
+                "description": "Study of chemical processes and compounds derived from plants."
+            },
+            {
+                "id": "Awojide H. Shola",
+                "type": "Author",
+                "description": "Researcher from the Department of Pure and Applied Chemistry, Osun State University."
+            },
+            {
+                "id": "Boluwatife Akinlade",
+                "type": "Author",
+                "description": "Researcher from the Department of Pure and Applied Chemistry, Osun State University."
+            },
+            {
+                "id": "Oyewole A. Kehinde",
+                "type": "Author",
+                "description": "Researcher from the Department of Chemical Engineering, Osun State University."
+            },
+            {
+                "id": "Adeyemo G. Abayomi",
+                "type": "Author",
+                "description": "Researcher from the Department of Pure and Applied Chemistry, Osun State University."
+            },
+            {
+                "id": "Emmanuel O. Adeniyi",
+                "type": "Author",
+                "description": "Researcher from the Department of Pure and Applied Chemistry, Osun State University."
+            },
+            {
+                "id": "Fadunmade E. Olumide",
+                "type": "Author",
+                "description": "Researcher from the Department of Pure and Applied Chemistry, Osun State University."
+            },
+            {
+                "id": "Adebanjo J. Anifowose",
+                "type": "Author",
+                "description": "Researcher from the Department of Pure and Applied Chemistry, Osun State University."
+            },
+            {
+                "id": "Department of Pure and Applied Chemistry, Osun State University, Nigeria",
+                "type": "Institution",
+                "description": "Academic department located in Nigeria."
+            },
+            {
+                "id": "Department of Chemical Engineering, Osun State University, Nigeria",
+                "type": "Institution",
+                "description": "Academic department located in Nigeria."
+            },
+            {
+                "id": "Steam distillation",
+                "type": "Method",
+                "description": "Process used to extract crude essential oil from seeds."
+            },
+            {
+                "id": "Column chromatography",
+                "type": "Method",
+                "description": "Technique used to separate the crude extract into various fractions (N1, N2, N3)."
+            },
+            {
+                "id": "Gas chromatography and mass spectrometry (GC-MS)",
+                "type": "Method",
+                "description": "Method utilized to identify chemical components of the oil."
+            },
+            {
+                "id": "Agar diffusion method",
+                "type": "Method",
+                "description": "Technique used to determine antibacterial activities."
+            },
+            {
+                "id": "NIST 2008",
+                "type": "Dataset",
+                "description": "Mass spectral data library used for identifying compounds."
+            },
+            {
+                "id": "p-cymene (21.12%)",
+                "type": "Metric",
+                "description": "Major component percentage in the crude essential oil."
+            },
+            {
+                "id": "Antioxidant activity DPPH (614 to 704 µg/mL)",
+                "type": "Metric",
+                "description": "Range of scavenging activity for DPPH assay."
+            },
+            {
+                "id": "Alpha-amylase IC50 fraction N1 (3.21 µg/mL)",
+                "type": "Metric",
+                "description": "Inhibition concentration value for fraction N1."
+            },
+            {
+                "id": "Alpha-glucosidase IC50 fraction N2 (2.15 µg/mL)",
+                "type": "Metric",
+                "description": "Inhibition concentration value for fraction N2."
+            },
+            {
+                "id": "MIC values (6 to 12.5 mg/mL)",
+                "type": "Metric",
+                "description": "Minimum inhibitory concentration range against bacterial strains."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Medicinal activities of essential oil of Monodora myristica",
+                "target": "Phytochemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Awojide H. Shola",
+                "target": "Department of Pure and Applied Chemistry, Osun State University, Nigeria",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Boluwatife Akinlade",
+                "target": "Department of Pure and Applied Chemistry, Osun State University, Nigeria",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Oyewole A. Kehinde",
+                "target": "Department of Chemical Engineering, Osun State University, Nigeria",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Adeyemo G. Abayomi",
+                "target": "Department of Pure and Applied Chemistry, Osun State University, Nigeria",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Emmanuel O. Adeniyi",
+                "target": "Department of Pure and Applied Chemistry, Osun State University, Nigeria",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Fadunmade E. Olumide",
+                "target": "Department of Pure and Applied Chemistry, Osun State University, Nigeria",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Adebanjo J. Anifowose",
+                "target": "Department of Pure and Applied Chemistry, Osun State University, Nigeria",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "GC-MS",
+                "target": "p-cymene (21.12%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar diffusion method",
+                "target": "MIC values (6 to 12.5 mg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Steam distillation",
+                "target": "Medicinal activities of essential oil of Monodora myristica",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "GC-MS",
+                "target": "NIST 2008",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

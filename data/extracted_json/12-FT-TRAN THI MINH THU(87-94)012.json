@@ -1,0 +1,120 @@
+{
+    "filename": "12-FT-TRAN THI MINH THU(87-94)012.json",
+    "paper_title": "Studies on betalains chemistry from the Vietnamese red dragon fruits (Hylocereus polyrhizus) by LC-ESI-MS/MS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Betalains chemistry",
+                "type": "Concept",
+                "description": "The study of nitrogen-containing pigments in red dragon fruits."
+            },
+            {
+                "id": "Hylocereus polyrhizus",
+                "type": "Concept",
+                "description": "The scientific name for the Vietnamese red dragon fruit studied."
+            },
+            {
+                "id": "LC-ESI-MS/MS",
+                "type": "Method",
+                "description": "Liquid chromatography connected to electrospray ionization tandem mass spectrometry."
+            },
+            {
+                "id": "C18 resin enrichment",
+                "type": "Method",
+                "description": "Method using C18 materials to purify and concentrate pigment extracts."
+            },
+            {
+                "id": "Lyophilization",
+                "type": "Method",
+                "description": "Freeze-drying process used to preserve the extracted pigments."
+            },
+            {
+                "id": "Total Ion Chromatogram (TIC)",
+                "type": "Dataset",
+                "description": "The digital chromatographic data set used for qualitative identification."
+            },
+            {
+                "id": "UV absorbance (540 nm)",
+                "type": "Metric",
+                "description": "Specific absorbance wavelength used to detect betacyanins."
+            },
+            {
+                "id": "m/z 551",
+                "type": "Metric",
+                "description": "The parent ion mass-to-charge ratio identifying betanin/isobetanin."
+            },
+            {
+                "id": "Pigment level (0.32-0.47 mg/g)",
+                "type": "Metric",
+                "description": "The concentration range of pigments found in the fruit flesh."
+            },
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary research field of the publication."
+            },
+            {
+                "id": "Tran Thi Minh Thu",
+                "type": "Author",
+                "description": "Researcher from the Department of Food Technology and Bio-engineering."
+            },
+            {
+                "id": "Do Vinh Quang",
+                "type": "Author",
+                "description": "Researcher from the Department of Mechanical Engineering."
+            },
+            {
+                "id": "Can Tho University of Technology",
+                "type": "Institution",
+                "description": "The university affiliation for both authors in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Studies on betalains chemistry from the Vietnamese red dragon fruits",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "LC-ESI-MS/MS",
+                "target": "UV absorbance (540 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "LC-ESI-MS/MS",
+                "target": "m/z 551",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "C18 resin enrichment",
+                "target": "Pigment level (0.32-0.47 mg/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "LC-ESI-MS/MS",
+                "target": "Betalains chemistry",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "C18 resin enrichment",
+                "target": "Hylocereus polyrhizus",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "LC-ESI-MS/MS",
+                "target": "Total Ion Chromatogram (TIC)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Tran Thi Minh Thu",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Vinh Quang",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

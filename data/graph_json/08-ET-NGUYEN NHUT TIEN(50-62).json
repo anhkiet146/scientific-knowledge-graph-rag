@@ -1,0 +1,135 @@
+{
+  "filename": "08-ET-NGUYEN NHUT TIEN(50-62).json",
+  "paper_title": "APPLICATION OF STATCOMS TO IMPROVE STATIC VOLTAGE STABILITY FOR VIETNAM POWER SYSTEM WITH GRID CONNECTION OF LARGE NUCLEAR POWER PLANT",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Static Voltage Stability",
+        "type": "Concept",
+        "description": "The ability of a power system to maintain steady voltages at all buses in the system after being subjected to a disturbance."
+      },
+      {
+        "id": "Power Transfer Capability",
+        "type": "Concept",
+        "description": "The measure of the ability of interconnected electric systems to reliably move or transfer electric power from one area to another."
+      },
+      {
+        "id": "Reactive Power Compensation",
+        "type": "Concept",
+        "description": "The management of reactive power to improve the performance of AC power systems."
+      },
+      {
+        "id": "STATCOMs",
+        "type": "Method",
+        "description": "Static Synchronous Compensators used to provide reactive power compensation and improve voltage stability."
+      },
+      {
+        "id": "Power system simulator for engineer (PSS/E)",
+        "type": "Method",
+        "description": "A software tool used for power system transmission analysis and generation performance simulation."
+      },
+      {
+        "id": "Q-V curves analysis",
+        "type": "Method",
+        "description": "A method used to analyze the relationship between real power (P) and voltage (V) to determine stability limits."
+      },
+      {
+        "id": "Vietnam's 500 kV power system model (2011-2020)",
+        "type": "Dataset",
+        "description": "A digital simulation model of the Vietnamese national power grid including 1680 generators, 18 substations, 43 buses, and 78 transmission lines."
+      },
+      {
+        "id": "System load margin (1187.5 MW)",
+        "type": "Metric",
+        "description": "The load margin at which voltage collapse occurs in the base case."
+      },
+      {
+        "id": "System load margin with STATCOMs (2131.25 MW)",
+        "type": "Metric",
+        "description": "The significantly improved load margin after the installation of STATCOMs."
+      },
+      {
+        "id": "Da Nang bus voltage (0.806 pu)",
+        "type": "Metric",
+        "description": "The lowest voltage value at the margin of stability limit for Da Nang bus."
+      },
+      {
+        "id": "Power transfer capability increment (943.75 MW)",
+        "type": "Metric",
+        "description": "The amount of increase in power transfer capability achieved by installing STATCOMs."
+      },
+      {
+        "id": "Reactive power margin at Da Nang (157.07 MVAr)",
+        "type": "Metric",
+        "description": "The reduced reactive power margin during specific branch outages."
+      },
+      {
+        "id": "Electrical Engineering",
+        "type": "Domain",
+        "description": "The primary field of study regarding power systems and voltage stability."
+      },
+      {
+        "id": "Nguyen Nhut Tien",
+        "type": "Author",
+        "description": "The primary researcher of the study."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution where the author is affiliated."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Electrical Engineering",
+        "target": "Static Voltage Stability",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Nhut Tien",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "STATCOMs",
+        "target": "Static Voltage Stability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Q-V curves analysis",
+        "target": "Power Transfer Capability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Q-V curves analysis",
+        "target": "Static Voltage Stability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Power system simulator for engineer (PSS/E)",
+        "target": "Vietnam's 500 kV power system model (2011-2020)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "STATCOMs",
+        "target": "System load margin with STATCOMs (2131.25 MW)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "STATCOMs",
+        "target": "Power transfer capability increment (943.75 MW)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Q-V curves analysis",
+        "target": "System load margin (1187.5 MW)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Q-V curves analysis",
+        "target": "Reactive power margin at Da Nang (157.07 MVAr)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

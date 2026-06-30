@@ -1,0 +1,180 @@
+{
+  "filename": "06-ET-NGUYEN HUU QUANG(54-61)006.json",
+  "paper_title": "Build coconut counting system using image technology",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Automation",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về tự động hóa và điều khiển"
+      },
+      {
+        "id": "Image Processing",
+        "type": "Domain",
+        "description": "Lĩnh vực xử lý ảnh kỹ thuật số"
+      },
+      {
+        "id": "Nguyen Huu Quang",
+        "type": "Author",
+        "description": "Tác giả của bài báo"
+      },
+      {
+        "id": "Truong Quoc Bao",
+        "type": "Author",
+        "description": "Tác giả liên hệ của bài báo"
+      },
+      {
+        "id": "Ngo Quang Hieu",
+        "type": "Author",
+        "description": "Tác giả của bài báo"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Đại học Cần Thơ, Việt Nam"
+      },
+      {
+        "id": "Coconut counting",
+        "type": "Concept",
+        "description": "Vấn đề đếm dừa khô tự động tại các cơ sở sản xuất"
+      },
+      {
+        "id": "OpenCV library",
+        "type": "Method",
+        "description": "Thư viện thị giác máy tính mã nguồn mở"
+      },
+      {
+        "id": "Otsu segmentation method",
+        "type": "Method",
+        "description": "Phương pháp phân đoạn ảnh dựa trên ngưỡng Otsu"
+      },
+      {
+        "id": "Distance transform technique",
+        "type": "Method",
+        "description": "Kỹ thuật biến đổi khoảng cách để xác định tâm đối tượng"
+      },
+      {
+        "id": "Watershed segmentation algorithm",
+        "type": "Method",
+        "description": "Thuật toán phân đoạn lưu vực để tách các đối tượng chồng lấn"
+      },
+      {
+        "id": "Gaussian filter",
+        "type": "Method",
+        "description": "Bộ lọc làm mịn ảnh giảm nhiễu"
+      },
+      {
+        "id": "Adaptive histogram equalization",
+        "type": "Method",
+        "description": "Phương pháp cân bằng lược đồ xám thích nghi để tăng độ tương phản"
+      },
+      {
+        "id": "Logitech HD Pro C922 camera",
+        "type": "Method",
+        "description": "Thiết bị thu nhận hình ảnh"
+      },
+      {
+        "id": "Rubber conveyor belt",
+        "type": "Method",
+        "description": "Băng tải cao su trong hệ thống cơ điện"
+      },
+      {
+        "id": "Wiper mechanism",
+        "type": "Method",
+        "description": "Cơ cấu gạt giúp trải đều dừa trên băng tải"
+      },
+      {
+        "id": "Experimental results data",
+        "type": "Dataset",
+        "description": "Dữ liệu thống kê từ 24 lần thực nghiệm trong bài báo"
+      },
+      {
+        "id": "Accuracy (95.56% to 100%)",
+        "type": "Metric",
+        "description": "Độ chính xác trung bình của hệ thống"
+      },
+      {
+        "id": "Processing time (75 ms)",
+        "type": "Metric",
+        "description": "Thời gian xử lý trung bình cho mỗi ảnh"
+      },
+      {
+        "id": "Counting capacity (over 2000 fruits/hour)",
+        "type": "Metric",
+        "description": "Năng suất đếm của hệ thống"
+      },
+      {
+        "id": "Conveyor velocity (5 cm/s)",
+        "type": "Metric",
+        "description": "Vận tốc của băng tải"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coconut counting",
+        "target": "Automation",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Huu Quang",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Quoc Bao",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Quang Hieu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Otsu segmentation method",
+        "target": "Coconut counting",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Watershed segmentation algorithm",
+        "target": "Coconut counting",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Distance transform technique",
+        "target": "Coconut counting",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Wiper mechanism",
+        "target": "Coconut counting",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Watershed segmentation algorithm",
+        "target": "Accuracy (95.56% to 100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Watershed segmentation algorithm",
+        "target": "Processing time (75 ms)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Wiper mechanism",
+        "target": "Accuracy (95.56% to 100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Rubber conveyor belt",
+        "target": "Counting capacity (over 2000 fruits/hour)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Watershed segmentation algorithm",
+        "target": "Experimental results data",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

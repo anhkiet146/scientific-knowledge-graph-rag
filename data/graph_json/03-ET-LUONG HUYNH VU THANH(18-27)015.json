@@ -1,0 +1,215 @@
+{
+  "filename": "03-ET-LUONG HUYNH VU THANH(18-27)015.json",
+  "paper_title": "Preparation of Fe3O4/HAp nanoparticles from eggshells with highly adsorption capacity for methylene blue",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Environmental Chemistry",
+        "type": "Domain",
+        "description": "The study focuses on treating water pollutants using nanomaterials."
+      },
+      {
+        "id": "Luong Huynh Vu Thanh",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Ngoc Thanh",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Khuu Gia Han",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Bui Yen Pha",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Thieu Quang Quoc Viet",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Ngo Truong Ngoc Mai",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Tran Thi Bich Quyen",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Affiliation 1 of the research team."
+      },
+      {
+        "id": "Department of Chemical Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Affiliation 2 of the research team."
+      },
+      {
+        "id": "Wet chemical reduction",
+        "type": "Method",
+        "description": "Method used to synthesize Fe3O4 nanoparticles."
+      },
+      {
+        "id": "Wet precipitation",
+        "type": "Method",
+        "description": "Method used to coat hydroxyapatite onto magnetic nanoparticles."
+      },
+      {
+        "id": "X-ray diffraction",
+        "type": "Method",
+        "description": "Technique used to verify the phase of Fe3O4 and HAp."
+      },
+      {
+        "id": "Vibrating sample magnetometer (VSM)",
+        "type": "Method",
+        "description": "Technique used to measure magnetic properties."
+      },
+      {
+        "id": "Transmission electron microscopy (TEM)",
+        "type": "Method",
+        "description": "Imaging technique to observe morphology and size."
+      },
+      {
+        "id": "Eggshells",
+        "type": "Method",
+        "description": "Recycled byproduct used as a source for HAp synthesis."
+      },
+      {
+        "id": "JCPDS No. 19-0629",
+        "type": "Dataset",
+        "description": "Standard powder diffraction database for Fe3O4 identification."
+      },
+      {
+        "id": "COD No. 96-900-2215",
+        "type": "Dataset",
+        "description": "Crystallography Open Database for HAp identification."
+      },
+      {
+        "id": "Adsorption of methylene blue",
+        "type": "Concept",
+        "description": "Process of removing MB dye from aqueous solutions."
+      },
+      {
+        "id": "Super-paramagnetism",
+        "type": "Concept",
+        "description": "Magnetic property where particles have zero coercivity."
+      },
+      {
+        "id": "Maximum adsorption efficiency (89.6%)",
+        "type": "Metric",
+        "description": "The peak percentage of MB removal at pH 8."
+      },
+      {
+        "id": "Maximum adsorption capacity (16.4 mg.g-1)",
+        "type": "Metric",
+        "description": "The highest amount of MB adsorbed per unit mass of material."
+      },
+      {
+        "id": "Saturation magnetization (16.23 emu.g-1)",
+        "type": "Metric",
+        "description": "Magnetic strength of the Fe3O4/HAp nanoparticles."
+      },
+      {
+        "id": "Point of zero charge (pH 5.7)",
+        "type": "Metric",
+        "description": "The pH at which the net surface charge of the material is zero."
+      },
+      {
+        "id": "Particle width (~10 nm)",
+        "type": "Metric",
+        "description": "Dimension of synthesized HAp rodlike particles."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Wet precipitation",
+        "target": "Adsorption of methylene blue",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Wet precipitation",
+        "target": "Maximum adsorption efficiency (89.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Wet precipitation",
+        "target": "Maximum adsorption capacity (16.4 mg.g-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vibrating sample magnetometer (VSM)",
+        "target": "Saturation magnetization (16.23 emu.g-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vibrating sample magnetometer (VSM)",
+        "target": "Super-paramagnetism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "X-ray diffraction",
+        "target": "JCPDS No. 19-0629",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "X-ray diffraction",
+        "target": "COD No. 96-900-2215",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Luong Huynh Vu Thanh",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luong Huynh Vu Thanh",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ngoc Thanh",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Khuu Gia Han",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Yen Pha",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thieu Quang Quoc Viet",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Truong Ngoc Mai",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Bich Quyen",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Wet precipitation",
+        "target": "Environmental Chemistry",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

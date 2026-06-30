@@ -1,0 +1,185 @@
+{
+    "filename": "520-NGUYEN VAN NGOC(17-24)024.json",
+    "paper_title": "Lithocarpus encleisocarpus (Korth.) A. Camus a newly recorded species for Viet Nam and its phylogenetic relationship based on genome-wide SNPs",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Van Ngoc",
+                "type": "Author",
+                "description": "Author from Faculty of Biology, Dalat University"
+            },
+            {
+                "id": "Hoang Thi Binh",
+                "type": "Author",
+                "description": "Author from Faculty of Biology, Dalat University"
+            },
+            {
+                "id": "Faculty of Biology, Dalat University",
+                "type": "Institution",
+                "description": "The academic institution in Viet Nam"
+            },
+            {
+                "id": "Botany",
+                "type": "Domain",
+                "description": "The study of plant life and taxonomy"
+            },
+            {
+                "id": "Phylogenetics",
+                "type": "Domain",
+                "description": "The study of evolutionary relationships among biological entities"
+            },
+            {
+                "id": "New species record",
+                "type": "Concept",
+                "description": "The discovery and documentation of a species not previously recorded in a specific region"
+            },
+            {
+                "id": "Phylogenetic relationship",
+                "type": "Concept",
+                "description": "The evolutionary connection between Lithocarpus encleisocarpus and related species"
+            },
+            {
+                "id": "Taxonomic treatment",
+                "type": "Concept",
+                "description": "Formal description and classification of the species"
+            },
+            {
+                "id": "MIG-seq",
+                "type": "Method",
+                "description": "Multiplexed ISSR Genotyping by sequencing for SNP discovery"
+            },
+            {
+                "id": "CTAB method",
+                "type": "Method",
+                "description": "Chemical method used for DNA extraction"
+            },
+            {
+                "id": "DNA Barcoding",
+                "type": "Method",
+                "description": "Taxonomic method that uses a short genetic marker in an organism's DNA"
+            },
+            {
+                "id": "Trimmomatic 0.39",
+                "type": "Method",
+                "description": "Software tool for preprocessing NGS data"
+            },
+            {
+                "id": "Stacks 2.41 pipeline",
+                "type": "Method",
+                "description": "Software pipeline for de novo SNP discovery"
+            },
+            {
+                "id": "RAxML ver. 8.2",
+                "type": "Method",
+                "description": "Tool for phylogenetic analysis using maximum likelihood"
+            },
+            {
+                "id": "GTR+G model",
+                "type": "Method",
+                "description": "Substitution model used for constructing the maximum likelihood tree"
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "NCBI database for DNA sequence records and barcodes"
+            },
+            {
+                "id": "Genome-wide SNPs dataset",
+                "type": "Dataset",
+                "description": "The digital dataset containing 32036 SNPs from 40 accessions"
+            },
+            {
+                "id": "JSTOR Global Plants",
+                "type": "Dataset",
+                "description": "Online database for digitized plant specimen images"
+            },
+            {
+                "id": "Chinese Virtual Herbarium",
+                "type": "Dataset",
+                "description": "Digital herbarium database"
+            },
+            {
+                "id": "32036 SNPs",
+                "type": "Metric",
+                "description": "The total number of Single Nucleotide Polymorphisms discovered"
+            },
+            {
+                "id": "1000 replicates",
+                "type": "Metric",
+                "description": "The number of bootstrap replicates for phylogenetic support"
+            },
+            {
+                "id": "8-10 pairs",
+                "type": "Metric",
+                "description": "Number of secondary veins in the leaves of L. encleisocarpus"
+            },
+            {
+                "id": "15-20 m tall",
+                "type": "Metric",
+                "description": "Height range of the evergreen tree"
+            },
+            {
+                "id": "40 samples",
+                "type": "Metric",
+                "description": "Number of samples used for molecular analysis"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Lithocarpus encleisocarpus (Korth.) A. Camus a newly recorded species for Viet Nam",
+                "target": "Botany",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Lithocarpus encleisocarpus (Korth.) A. Camus a newly recorded species for Viet Nam",
+                "target": "Phylogenetics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Van Ngoc",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Thi Binh",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "MIG-seq",
+                "target": "Phylogenetic relationship",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Stacks 2.41 pipeline",
+                "target": "Genome-wide SNPs dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "MIG-seq",
+                "target": "32036 SNPs",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "RAxML ver. 8.2",
+                "target": "1000 replicates",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DNA Barcoding",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "RAxML ver. 8.2",
+                "target": "Genome-wide SNPs dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "CTAB method",
+                "target": "40 samples",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

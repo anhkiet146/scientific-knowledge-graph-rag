@@ -1,0 +1,195 @@
+{
+  "filename": "08-FT-DUONG THI NGOC DIEP(58-65)041.json",
+  "paper_title": "Optimization of the encapsulation of the mixture made from flesh and peel pitaya extract by spray drying",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về chế biến và bảo quản thực phẩm"
+      },
+      {
+        "id": "Duong Thi Ngoc Diep",
+        "type": "Author",
+        "description": "Tác giả chính của nghiên cứu"
+      },
+      {
+        "id": "Hoang Quang Binh",
+        "type": "Author",
+        "description": "Đồng tác giả"
+      },
+      {
+        "id": "Do Le Hanh Trang",
+        "type": "Author",
+        "description": "Đồng tác giả"
+      },
+      {
+        "id": "Nong Lam University",
+        "type": "Institution",
+        "description": "Đại học Nông Lâm TP.HCM, Việt Nam"
+      },
+      {
+        "id": "Encapsulation of pitaya extract",
+        "type": "Concept",
+        "description": "Quá trình bao gói hỗn hợp chiết xuất từ thịt và vỏ thanh long"
+      },
+      {
+        "id": "Spray-drying",
+        "type": "Method",
+        "description": "Phương pháp sấy phun để tạo bột vi bao"
+      },
+      {
+        "id": "Central Composite Design (CCD)",
+        "type": "Method",
+        "description": "Thiết kế thí nghiệm để tối ưu hóa điều kiện sấy"
+      },
+      {
+        "id": "Response Surface Methodology (RSM)",
+        "type": "Method",
+        "description": "Phương pháp bề mặt đáp ứng dùng để đánh giá ảnh hưởng của các biến số"
+      },
+      {
+        "id": "Maltodextrin",
+        "type": "Method",
+        "description": "Chất trợ sấy, tác nhân bao gói sử dụng trong thí nghiệm"
+      },
+      {
+        "id": "KD-400 spray dryer",
+        "type": "Method",
+        "description": "Thiết bị sấy phun quy mô phòng thí nghiệm"
+      },
+      {
+        "id": "Experimental data from 11 runs",
+        "type": "Dataset",
+        "description": "Dữ liệu thực nghiệm thu được từ 11 lần chạy thí nghiệm theo thiết kế CCD"
+      },
+      {
+        "id": "Inlet air drying temperature (148℃)",
+        "type": "Metric",
+        "description": "Nhiệt độ không khí đầu vào tối ưu"
+      },
+      {
+        "id": "Maltodextrin concentration (14.62%)",
+        "type": "Metric",
+        "description": "Nồng độ maltodextrin tối ưu"
+      },
+      {
+        "id": "Retention of betacyanin (68.04%)",
+        "type": "Metric",
+        "description": "Tỷ lệ giữ lại betacyanin sau sấy"
+      },
+      {
+        "id": "Retention of total phenolic (84.17%)",
+        "type": "Metric",
+        "description": "Tỷ lệ giữ lại tổng hàm lượng phenolic sau sấy"
+      },
+      {
+        "id": "Moisture content (4.41%)",
+        "type": "Metric",
+        "description": "Độ ẩm của bột sản phẩm"
+      },
+      {
+        "id": "Water activity (0.39)",
+        "type": "Metric",
+        "description": "Hoạt độ nước của sản phẩm"
+      },
+      {
+        "id": "Water solubility index (97.41%)",
+        "type": "Metric",
+        "description": "Chỉ số hòa tan trong nước của bột"
+      },
+      {
+        "id": "R2 for betacyanin (0.94)",
+        "type": "Metric",
+        "description": "Hệ số xác định của mô hình hồi quy betacyanin"
+      },
+      {
+        "id": "R2 for total phenolic (0.95)",
+        "type": "Metric",
+        "description": "Hệ số xác định của mô hình hồi quy phenolic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Spray-drying",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Duong Thi Ngoc Diep",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hoang Quang Binh",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Le Hanh Trang",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Encapsulation of pitaya extract",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Central Composite Design (CCD)",
+        "target": "Encapsulation of pitaya extract",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Encapsulation of pitaya extract",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Inlet air drying temperature (148℃)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Retention of betacyanin (68.04%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Retention of total phenolic (84.17%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Moisture content (4.41%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Water activity (0.39)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spray-drying",
+        "target": "Water solubility index (97.41%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Experimental data from 11 runs",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "R2 for betacyanin (0.94)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "R2 for total phenolic (0.95)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "filename": "07-ET-PHAM VAN HUNG(50-57)007.json",
+  "paper_title": "Optimization of condition for pectin extraction from pomelo peel using response surface methodology",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "The primary field of research concerning food processing and extraction techniques."
+      },
+      {
+        "id": "Nguyen Thi Lan Phi",
+        "type": "Author",
+        "description": "Researcher from International University and Vietnam National University."
+      },
+      {
+        "id": "Nguyen Duong Phuoc Tuan",
+        "type": "Author",
+        "description": "Researcher from Vietnam National University and University of Technology."
+      },
+      {
+        "id": "Tran Hoang Nam",
+        "type": "Author",
+        "description": "Researcher from Vietnam National University and University of Technology."
+      },
+      {
+        "id": "Pham Van Hung",
+        "type": "Author",
+        "description": "Researcher from Vietnam National University and University of Technology."
+      },
+      {
+        "id": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "Institution",
+        "description": "Affiliated institution of the first author."
+      },
+      {
+        "id": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "Institution",
+        "description": "Affiliated institution for Tuan, Nam, and Hung."
+      },
+      {
+        "id": "Pectin extraction",
+        "type": "Concept",
+        "description": "The process of isolating pectin from plant materials, specifically pomelo peel."
+      },
+      {
+        "id": "Optimization",
+        "type": "Concept",
+        "description": "Determining the best conditions for the extraction process to maximize yield."
+      },
+      {
+        "id": "Ultrasound-assisted extraction (UAE)",
+        "type": "Method",
+        "description": "An extraction technique using ultrasonic waves to improve yield and reduce time."
+      },
+      {
+        "id": "Response Surface Methodology (RSM)",
+        "type": "Method",
+        "description": "A mathematical and statistical technique for empirical model building."
+      },
+      {
+        "id": "Box-Behnken design",
+        "type": "Method",
+        "description": "An experimental design for response surface methodology."
+      },
+      {
+        "id": "Citric acid",
+        "type": "Method",
+        "description": "The chemical solvent used for the pectin extraction process."
+      },
+      {
+        "id": "Design-Expert software",
+        "type": "Method",
+        "description": "Statistical software used for optimization and data analysis."
+      },
+      {
+        "id": "BBD experimental results",
+        "type": "Dataset",
+        "description": "The matrix of 27 experiments and their resulting data points."
+      },
+      {
+        "id": "Pectin yield (38.16%)",
+        "type": "Metric",
+        "description": "The highest predicted pectin yield achieved under optimal conditions."
+      },
+      {
+        "id": "Confirmatory pectin yield (12.7%)",
+        "type": "Metric",
+        "description": "The actual yield obtained from validation experiments."
+      },
+      {
+        "id": "R2 (0.9448)",
+        "type": "Metric",
+        "description": "The coefficient of determination indicating the goodness of fit of the model."
+      },
+      {
+        "id": "p-value (< 0.0001)",
+        "type": "Metric",
+        "description": "Statistical significance value for the developed model."
+      },
+      {
+        "id": "Optimum pH (2.5)",
+        "type": "Metric",
+        "description": "The specific pH level of citric acid for maximum yield."
+      },
+      {
+        "id": "Optimal sonication time (47 min)",
+        "type": "Metric",
+        "description": "The specific duration of ultrasound treatment for maximum yield."
+      },
+      {
+        "id": "Optimal temperature (22 oC)",
+        "type": "Metric",
+        "description": "The specific extraction temperature for maximum yield."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Optimization of condition for pectin extraction from pomelo peel using response surface methodology",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi Lan Phi",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Lan Phi",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Duong Phuoc Tuan",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Duong Phuoc Tuan",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Hoang Nam",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Hoang Nam",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Van Hung",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Van Hung",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ultrasound-assisted extraction (UAE)",
+        "target": "Pectin extraction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Optimization",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Box-Behnken design",
+        "target": "BBD experimental results",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Ultrasound-assisted extraction (UAE)",
+        "target": "Pectin yield (38.16%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ultrasound-assisted extraction (UAE)",
+        "target": "Confirmatory pectin yield (12.7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "R2 (0.9448)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ultrasound-assisted extraction (UAE)",
+        "target": "Optimum pH (2.5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ultrasound-assisted extraction (UAE)",
+        "target": "Optimal sonication time (47 min)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ultrasound-assisted extraction (UAE)",
+        "target": "Optimal temperature (22 oC)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

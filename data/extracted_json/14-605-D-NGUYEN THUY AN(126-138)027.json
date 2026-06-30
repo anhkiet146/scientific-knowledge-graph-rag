@@ -1,0 +1,220 @@
+{
+    "filename": "14-605-D-NGUYEN THUY AN(126-138)027.json",
+    "paper_title": "The effect of environmental accounting information disclosure on financial performance of Vietnamese listed industrial firms: The moderating role of Leverage and Big4",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Environmental Accounting Information Disclosure (EAID)",
+                "type": "Concept",
+                "description": "Reporting data from firms' environmental activities, resource utilization, and environmental protection actions."
+            },
+            {
+                "id": "Financial Performance",
+                "type": "Concept",
+                "description": "The measure of how well a firm can use assets from its primary mode of business and generate revenues."
+            },
+            {
+                "id": "Legitimacy theory",
+                "type": "Concept",
+                "description": "Theory stating organizations must abide by societal values to win community support."
+            },
+            {
+                "id": "Stakeholder theory",
+                "type": "Concept",
+                "description": "Theory suggesting a corporation should address the needs and interests of various groups."
+            },
+            {
+                "id": "Voluntary disclosure theory",
+                "type": "Concept",
+                "description": "Theory stating that disclosing information voluntarily boosts financial performance."
+            },
+            {
+                "id": "Leverage",
+                "type": "Concept",
+                "description": "The use of borrowed capital for an investment, acting as a moderating variable in this study."
+            },
+            {
+                "id": "Big 4",
+                "type": "Concept",
+                "description": "Refers to the four largest professional services networks in the world, acting as a quality moderator for financial statements."
+            },
+            {
+                "id": "CEO duality",
+                "type": "Concept",
+                "description": "When the same person holds both the CEO and chairperson positions."
+            },
+            {
+                "id": "Purposive sampling technique",
+                "type": "Method",
+                "description": "A non-probability sampling technique used to select the study population."
+            },
+            {
+                "id": "Content analysis",
+                "type": "Method",
+                "description": "Technique used to calculate the unweighted disclosure index for EAID from annual reports."
+            },
+            {
+                "id": "Ordinary Least Squares (OLS)",
+                "type": "Method",
+                "description": "A type of linear least squares method for estimating the unknown parameters in a linear regression model."
+            },
+            {
+                "id": "Fixed Effects Model (FEM)",
+                "type": "Method",
+                "description": "A statistical model in which the model parameters are fixed or non-random quantities."
+            },
+            {
+                "id": "Random Effects Model (REM)",
+                "type": "Method",
+                "description": "A statistical model where the model parameters are socialized as random variables."
+            },
+            {
+                "id": "Feasible General Least Squares (FGLS)",
+                "type": "Method",
+                "description": "A method used to estimate the parameters of a linear regression model when there is a certain degree of correlation between the residuals."
+            },
+            {
+                "id": "HOSE Industrial Firms Dataset (2017-2021)",
+                "type": "Dataset",
+                "description": "Secondary data comprising 425 observations from 85 industrial listed firms on the Ho Chi Minh Stock Exchange."
+            },
+            {
+                "id": "EAID average score (32.61%)",
+                "type": "Metric",
+                "description": "The average level of environmental accounting information disclosure in the sample."
+            },
+            {
+                "id": "Average ROA (5.72%)",
+                "type": "Metric",
+                "description": "The mean Return on Assets of the sampled firms."
+            },
+            {
+                "id": "Mean ROE (10.55%)",
+                "type": "Metric",
+                "description": "The mean Return on Equity of the sampled firms."
+            },
+            {
+                "id": "Average listing time (9.28 years)",
+                "type": "Metric",
+                "description": "The average duration the firms have been listed on the stock market."
+            },
+            {
+                "id": "Mean leverage ratio (48.2%)",
+                "type": "Metric",
+                "description": "The average debt-to-equity or debt-to-assets ratio of the firms."
+            },
+            {
+                "id": "Big 4 audit usage (27.8%)",
+                "type": "Metric",
+                "description": "The percentage of listed companies using Big 4 auditing firms."
+            },
+            {
+                "id": "CEO duality rate (3.9%)",
+                "type": "Metric",
+                "description": "The percentage of firms where the CEO is also the Chairman."
+            },
+            {
+                "id": "Environmental Accounting and Finance",
+                "type": "Domain",
+                "description": "Research field focusing on accounting practices related to environmental impact and corporate financial performance."
+            },
+            {
+                "id": "Nguyen Thuy An",
+                "type": "Author",
+                "description": "Lead author and correspondence from Can Tho University."
+            },
+            {
+                "id": "Le Phuoc Huong",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Huu Dang",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Luong Thi Cam Tu",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Ngo My Tran",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "School of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution located in Viet Nam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "The effect of environmental accounting information disclosure on financial performance of Vietnamese listed industrial firms",
+                "target": "Environmental Accounting and Finance",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thuy An",
+                "target": "School of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Phuoc Huong",
+                "target": "School of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Huu Dang",
+                "target": "School of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luong Thi Cam Tu",
+                "target": "School of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo My Tran",
+                "target": "School of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Fixed Effects Model (FEM)",
+                "target": "Average ROA (5.72%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fixed Effects Model (FEM)",
+                "target": "Mean ROE (10.55%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Content analysis",
+                "target": "EAID average score (32.61%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Feasible General Least Squares (FGLS)",
+                "target": "Financial Performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Content analysis",
+                "target": "Environmental Accounting Information Disclosure (EAID)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ordinary Least Squares (OLS)",
+                "target": "HOSE Industrial Firms Dataset (2017-2021)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Fixed Effects Model (FEM)",
+                "target": "HOSE Industrial Firms Dataset (2017-2021)",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,155 @@
+{
+  "filename": "01-671-BUI CONG GIAO(1-11)029.json",
+  "paper_title": "Similarity join over multiple time series under Dynamic Time Warping",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Similarity join over multiple time series under Dynamic Time Warping",
+        "type": "Concept",
+        "description": "The main research paper title and core study topic."
+      },
+      {
+        "id": "Time-series data mining",
+        "type": "Domain",
+        "description": "The primary research field of the article."
+      },
+      {
+        "id": "Bui Cong Giao",
+        "type": "Author",
+        "description": "The primary author of the research paper."
+      },
+      {
+        "id": "SaiGon University",
+        "type": "Institution",
+        "description": "The institution the author is affiliated with in Ho Chi Minh City, Viet Nam."
+      },
+      {
+        "id": "Algorithm SJ-DTW",
+        "type": "Method",
+        "description": "The proposed method for similarity join over two time series under DTW."
+      },
+      {
+        "id": "Dynamic Time Warping (DTW)",
+        "type": "Method",
+        "description": "A pervasive distance measure for comparing two time series."
+      },
+      {
+        "id": "UCR-DTW",
+        "type": "Method",
+        "description": "A suite of state-of-the-art techniques used to compute the DTW distance efficiently."
+      },
+      {
+        "id": "Incremental z-score normalization",
+        "type": "Method",
+        "description": "A technique to reduce computational costs of data normalization during sliding window operations."
+      },
+      {
+        "id": "Multithreading",
+        "type": "Method",
+        "description": "A technique used to subdivide tasks into multiple threads to shorten execution time."
+      },
+      {
+        "id": "Sliding window",
+        "type": "Method",
+        "description": "A constraining window (r=15) used to limit the scope of similarity searches."
+      },
+      {
+        "id": "USD/AUD and USD/CAD exchange rates",
+        "type": "Dataset",
+        "description": "Monthly exchange rates from January 1971 to June 2023 with 530 data points."
+      },
+      {
+        "id": "Infraredwave wirewave signals",
+        "type": "Dataset",
+        "description": "Biosignal time series dataset with 4,096 data points."
+      },
+      {
+        "id": "Time complexity (O(n^3))",
+        "type": "Metric",
+        "description": "The computational complexity of the proposed Algorithm SJ-DTW."
+      },
+      {
+        "id": "False dismissals (None)",
+        "type": "Metric",
+        "description": "The accuracy metric indicating the method returns all valid results."
+      },
+      {
+        "id": "DTW distance (0.564)",
+        "type": "Metric",
+        "description": "A specific measurement of similarity for exchange rate subsequences."
+      },
+      {
+        "id": "Number of UCR-DTW calls (199,738,933)",
+        "type": "Metric",
+        "description": "Total calls made when using the constraining window."
+      },
+      {
+        "id": "Execution time (about several hours)",
+        "type": "Metric",
+        "description": "Performance achieved when combining multithreading and a constraining window."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Similarity join over multiple time series under Dynamic Time Warping",
+        "target": "Time-series data mining",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Bui Cong Giao",
+        "target": "SaiGon University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Algorithm SJ-DTW",
+        "target": "Similarity join over multiple time series under Dynamic Time Warping",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Algorithm SJ-DTW",
+        "target": "USD/AUD and USD/CAD exchange rates",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Algorithm SJ-DTW",
+        "target": "Infraredwave wirewave signals",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Algorithm SJ-DTW",
+        "target": "Time complexity (O(n^3))",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Algorithm SJ-DTW",
+        "target": "False dismissals (None)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Algorithm SJ-DTW",
+        "target": "DTW distance (0.564)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sliding window",
+        "target": "Number of UCR-DTW calls (199,738,933)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Multithreading",
+        "target": "Execution time (about several hours)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "UCR-DTW",
+        "target": "Dynamic Time Warping (DTW)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Incremental z-score normalization",
+        "target": "Algorithm SJ-DTW",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

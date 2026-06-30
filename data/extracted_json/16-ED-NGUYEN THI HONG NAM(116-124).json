@@ -1,0 +1,140 @@
+{
+    "filename": "16-ED-NGUYEN THI HONG NAM(116-124).json",
+    "paper_title": "AN INVESTIGATION INTO THE LEVELS OF FEEDBACK AND REFLECTION DURING PRE-SERVICE TEACHERS' MICRO-TEACHING PRACTICES",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Thi Hong Nam",
+                "type": "Author",
+                "description": "Researcher from the School of Education, Can Tho University."
+            },
+            {
+                "id": "Vo Huy Binh",
+                "type": "Author",
+                "description": "Researcher from the School of Education, Can Tho University."
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the authors are affiliated."
+            },
+            {
+                "id": "Teacher Education",
+                "type": "Domain",
+                "description": "The primary research field focusing on training pre-service teachers."
+            },
+            {
+                "id": "Micro-teaching",
+                "type": "Method",
+                "description": "A compulsory training course and practice for pre-service teachers."
+            },
+            {
+                "id": "Feedback",
+                "type": "Concept",
+                "description": "The information provided by educators or peers regarding teaching performance."
+            },
+            {
+                "id": "Reflection",
+                "type": "Concept",
+                "description": "The process of examining teaching plans and actions to build more effective practice."
+            },
+            {
+                "id": "Reflective Thinking",
+                "type": "Concept",
+                "description": "The cognitive process of thinking about teaching experiences."
+            },
+            {
+                "id": "Observation",
+                "type": "Method",
+                "description": "Method of collecting data through monitoring micro-teaching classes."
+            },
+            {
+                "id": "Interviews",
+                "type": "Method",
+                "description": "Method of gathering qualitative data from teacher educators and pre-service teachers."
+            },
+            {
+                "id": "Qualitative Analysis",
+                "type": "Method",
+                "description": "The process used to analyze observation minutes and interview data."
+            },
+            {
+                "id": "What Model",
+                "type": "Method",
+                "description": "A model developed by Rolfe et al. (2001) used to assess the depth of reflection."
+            },
+            {
+                "id": "Minutes of micro-teaching observation",
+                "type": "Dataset",
+                "description": "The qualitative data recorded during observation sessions."
+            },
+            {
+                "id": "Interview records",
+                "type": "Dataset",
+                "description": "The qualitative data collected from participant interviews."
+            },
+            {
+                "id": "L2 feedback popularity (>50%)",
+                "type": "Metric",
+                "description": "The proportion of total feedback recorded that focused on solutions to weaknesses."
+            },
+            {
+                "id": "Number of reflective conversations (4)",
+                "type": "Metric",
+                "description": "The specific frequency of reflective conversations identified across five sessions."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Hong Nam",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Huy Binh",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Micro-teaching",
+                "target": "Teacher Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Micro-teaching",
+                "target": "Feedback",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Micro-teaching",
+                "target": "Reflection",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "What Model",
+                "target": "Reflective Thinking",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Qualitative Analysis",
+                "target": "Minutes of micro-teaching observation",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Qualitative Analysis",
+                "target": "Interview records",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Qualitative Analysis",
+                "target": "L2 feedback popularity (>50%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Qualitative Analysis",
+                "target": "Number of reflective conversations (4)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

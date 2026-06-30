@@ -1,0 +1,160 @@
+{
+  "filename": "05-AV-TRUONG THANH TRUNG(25-31).json",
+  "paper_title": "A RESPONSE OF FEED UTILIZATION, NUTRIENT DIGESTIBILITY, GROWTH AND CARCASS VALUE OF CALIFORNIAN RABBITS TO DIETARY METABOLIZABLE ENERGY",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "A RESPONSE OF FEED UTILIZATION, NUTRIENT DIGESTIBILITY, GROWTH AND CARCASS VALUE OF CALIFORNIAN RABBITS TO DIETARY METABOLIZABLE ENERGY",
+        "type": "Concept",
+        "description": "The title and core research focus of the scientific paper."
+      },
+      {
+        "id": "Animal Science",
+        "type": "Domain",
+        "description": "The primary field of research involving livestock and rabbit production."
+      },
+      {
+        "id": "Truong Thanh Trung",
+        "type": "Author",
+        "description": "Lead author of the study."
+      },
+      {
+        "id": "Nguyen Thi Kim Dong",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Van Thu",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "The academic organization the authors are affiliated with in Vietnam."
+      },
+      {
+        "id": "Growth Performance",
+        "type": "Concept",
+        "description": "The measurement of growth rate and development in Californian rabbits."
+      },
+      {
+        "id": "Nutrient Digestibility",
+        "type": "Concept",
+        "description": "The evaluation of how efficiently rabbits digest dietary components."
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "The experimental design used with 5 treatments and 3 replications."
+      },
+      {
+        "id": "Dietary ME level 11.5 MJ/kgDM",
+        "type": "Method",
+        "description": "The specific experimental treatment identified as optimal for growth."
+      },
+      {
+        "id": "Minitab Software version 16.2",
+        "type": "Method",
+        "description": "Statistical software used for data analysis."
+      },
+      {
+        "id": "Chemical analysis (AOAC 1990)",
+        "type": "Method",
+        "description": "Standard procedure for analyzing feed and nutrient composition."
+      },
+      {
+        "id": "Experimental growth and carcass data",
+        "type": "Dataset",
+        "description": "The recorded measurements from 60 Californian rabbits used in the statistical analysis."
+      },
+      {
+        "id": "Daily weight gain (24.5 g)",
+        "type": "Metric",
+        "description": "The weight gain per day achieved at the 11.5 MJ/kgDM ME level."
+      },
+      {
+        "id": "Carcass weight (1.374 kg)",
+        "type": "Metric",
+        "description": "The weight of the rabbit carcass at the ME11.5 treatment."
+      },
+      {
+        "id": "Lean meat weight (1.049 kg)",
+        "type": "Metric",
+        "description": "The weight of lean meat achieved in the optimal treatment."
+      },
+      {
+        "id": "Thigh meat weight (412 g)",
+        "type": "Metric",
+        "description": "The specific weight of thigh meat at the ME11.5 level."
+      },
+      {
+        "id": "Dry matter intakes (69.4 to 74.5 g/rabbit/day)",
+        "type": "Metric",
+        "description": "The range of DM intake observed across treatments."
+      },
+      {
+        "id": "Digestible crude protein (8.45-9.95 g/day)",
+        "type": "Metric",
+        "description": "The range of crude protein digested daily by the subjects."
+      }
+    ],
+    "relations": [
+      {
+        "source": "A RESPONSE OF FEED UTILIZATION, NUTRIENT DIGESTIBILITY, GROWTH AND CARCASS VALUE OF CALIFORNIAN RABBITS TO DIETARY METABOLIZABLE ENERGY",
+        "target": "Animal Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Truong Thanh Trung",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Kim Dong",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Thu",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Completely randomized design",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Chemical analysis (AOAC 1990)",
+        "target": "Nutrient Digestibility",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Dietary ME level 11.5 MJ/kgDM",
+        "target": "Daily weight gain (24.5 g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dietary ME level 11.5 MJ/kgDM",
+        "target": "Carcass weight (1.374 kg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dietary ME level 11.5 MJ/kgDM",
+        "target": "Lean meat weight (1.049 kg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dietary ME level 11.5 MJ/kgDM",
+        "target": "Thigh meat weight (412 g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Minitab Software version 16.2",
+        "target": "Experimental growth and carcass data",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

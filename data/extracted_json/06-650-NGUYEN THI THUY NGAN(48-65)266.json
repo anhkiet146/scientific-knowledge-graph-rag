@@ -1,0 +1,195 @@
+{
+    "filename": "06-650-NGUYEN THI THUY NGAN(48-65)266.json",
+    "paper_title": "Financial development and energy security in the Asia-Pacific region: The long run and short run perspectives",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Financial development and energy security in the Asia-Pacific region",
+                "type": "Concept",
+                "description": "The main research topic exploring the nexus between financial markets and energy stability"
+            },
+            {
+                "id": "Financial development",
+                "type": "Concept",
+                "description": "The multifaceted growth and efficiency of financial institutions and markets"
+            },
+            {
+                "id": "Energy security",
+                "type": "Concept",
+                "description": "The uninterrupted availability of energy sources at an affordable price"
+            },
+            {
+                "id": "Urbanization",
+                "type": "Concept",
+                "description": "The process of population shift from rural to urban areas affecting power demand"
+            },
+            {
+                "id": "Fossil energy usage",
+                "type": "Concept",
+                "description": "The reliance on non-renewable energy sources like coal, gas, and oil"
+            },
+            {
+                "id": "Economics",
+                "type": "Domain",
+                "description": "The study of resource allocation, growth, and financial systems"
+            },
+            {
+                "id": "Nguyen Thi Thuy Ngan",
+                "type": "Author",
+                "description": "Lead author affiliated with Can Tho University"
+            },
+            {
+                "id": "Nguyen Thien Nhan",
+                "type": "Author",
+                "description": "Co-author affiliated with RMIT University"
+            },
+            {
+                "id": "Nguyen Ngoc Duc",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University"
+            },
+            {
+                "id": "School of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam"
+            },
+            {
+                "id": "School of Business and Development, RMIT University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam"
+            },
+            {
+                "id": "FMOLS",
+                "type": "Method",
+                "description": "Fully Modified Ordinary Least Squares estimator used for long-run analysis"
+            },
+            {
+                "id": "DOLS",
+                "type": "Method",
+                "description": "Dynamic Ordinary Least Squares estimator efficient for small samples"
+            },
+            {
+                "id": "P-VAR",
+                "type": "Method",
+                "description": "Panel-Vector Autoregressive Model used for short-run analysis"
+            },
+            {
+                "id": "PCA",
+                "type": "Method",
+                "description": "Principal Component Analysis used to construct the financial development index"
+            },
+            {
+                "id": "Pedroni test",
+                "type": "Method",
+                "description": "A co-integration test allowing for heterogeneity across panels"
+            },
+            {
+                "id": "Westerlund test",
+                "type": "Method",
+                "description": "A non-parametric co-integration test"
+            },
+            {
+                "id": "World Development Indicators",
+                "type": "Dataset",
+                "description": "The source of macro indicators for nine Asian middle-income countries"
+            },
+            {
+                "id": "Energy intensity increase (0.98%)",
+                "type": "Metric",
+                "description": "One percent increase in fossil fuels raises power consumed per capita by 0.98%"
+            },
+            {
+                "id": "Urban population impact (0.28%)",
+                "type": "Metric",
+                "description": "One percent increase in urban population intensifies energy use by 0.28%"
+            },
+            {
+                "id": "GDP per capita impact (0.03%)",
+                "type": "Metric",
+                "description": "Energy used by one person increases by 0.03% for every 1% increase in GDPP"
+            },
+            {
+                "id": "Renewable energy reduction (5.1%)",
+                "type": "Metric",
+                "description": "Unit increase in financial development induces a 5.1% reduction in renewable usage (DOLS)"
+            },
+            {
+                "id": "Renewable energy reduction (1.74%)",
+                "type": "Metric",
+                "description": "Unit increase in financial development induces a 1.74% reduction in renewable usage (FMOLS)"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Financial development and energy security in the Asia-Pacific region",
+                "target": "Economics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Thuy Ngan",
+                "target": "School of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ngoc Duc",
+                "target": "School of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thien Nhan",
+                "target": "School of Business and Development, RMIT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "FMOLS",
+                "target": "Urban population impact (0.28%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DOLS",
+                "target": "Energy intensity increase (0.98%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DOLS",
+                "target": "Renewable energy reduction (5.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "FMOLS",
+                "target": "Renewable energy reduction (1.74%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DOLS",
+                "target": "GDP per capita impact (0.03%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PCA",
+                "target": "Financial development",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "P-VAR",
+                "target": "Energy security",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "FMOLS",
+                "target": "World Development Indicators",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "DOLS",
+                "target": "World Development Indicators",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Westerlund test",
+                "target": "World Development Indicators",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

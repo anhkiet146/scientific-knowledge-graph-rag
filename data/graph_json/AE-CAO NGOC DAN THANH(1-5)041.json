@@ -1,0 +1,165 @@
+{
+  "filename": "AE-CAO NGOC DAN THANH(1-5)041.json",
+  "paper_title": "Improvement of tap water quality for domestic use by membrane process",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Environmental Engineering",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về xử lý nước và bảo vệ môi trường."
+      },
+      {
+        "id": "Cao Ngoc Dan Thanh",
+        "type": "Author",
+        "description": "Tác giả từ trường University of Technology, Vietnam National University."
+      },
+      {
+        "id": "Truong Minh Hong",
+        "type": "Author",
+        "description": "Tác giả từ trường University of Technology, Vietnam National University."
+      },
+      {
+        "id": "Vo Thi Kim Quyen",
+        "type": "Author",
+        "description": "Tác giả từ trường Ho Chi Minh City University of Food Industry."
+      },
+      {
+        "id": "Vo Thi Dieu Hien",
+        "type": "Author",
+        "description": "Tác giả từ trường University of Technology, Vietnam National University."
+      },
+      {
+        "id": "Bui Xuan Thanh",
+        "type": "Author",
+        "description": "Tác giả từ trường University of Technology, Vietnam National University."
+      },
+      {
+        "id": "University of Technology, Vietnam National University",
+        "type": "Institution",
+        "description": "Cơ quan công tác của các tác giả Cao Ngoc Dan Thanh, Truong Minh Hong, Vo Thi Dieu Hien và Bui Xuan Thanh."
+      },
+      {
+        "id": "Ho Chi Minh City University of Food Industry",
+        "type": "Institution",
+        "description": "Cơ quan công tác của tác giả Vo Thi Kim Quyen."
+      },
+      {
+        "id": "Tap water quality improvement",
+        "type": "Concept",
+        "description": "Vấn đề nghiên cứu về việc nâng cao chất lượng nước máy cho mục đích sinh hoạt."
+      },
+      {
+        "id": "Low pressure reverse osmosis membrane system",
+        "type": "Method",
+        "description": "Hệ thống màng lọc thẩm thấu ngược áp suất thấp được sử dụng để lọc nước máy."
+      },
+      {
+        "id": "RO membrane (DOW Filmtec TW 30-1812-50)",
+        "type": "Method",
+        "description": "Màng RO từ vật liệu polyamide composite với kích thước lỗ 0.001 µm."
+      },
+      {
+        "id": "pH (7.2±0.5)",
+        "type": "Metric",
+        "description": "Giá trị pH trung bình của nước đầu vào."
+      },
+      {
+        "id": "Hardness (75±13 mgCaCO3/L)",
+        "type": "Metric",
+        "description": "Giá trị độ cứng trung bình của nước đầu vào."
+      },
+      {
+        "id": "Removal efficiency of NO3-N (41±17.6%)",
+        "type": "Metric",
+        "description": "Hiệu suất loại bỏ Nitrate-Nitrogen."
+      },
+      {
+        "id": "Removal efficiency of NH4-N (18±17%)",
+        "type": "Metric",
+        "description": "Hiệu suất loại bỏ Ammonia-Nitrogen."
+      },
+      {
+        "id": "Removal efficiency of total Fe (47±26%)",
+        "type": "Metric",
+        "description": "Hiệu suất loại bỏ tổng sắt."
+      },
+      {
+        "id": "Removal efficiency of hardness (39±6%)",
+        "type": "Metric",
+        "description": "Hiệu suất loại bỏ độ cứng."
+      },
+      {
+        "id": "Removal efficiency of residue chlorine (94±7%)",
+        "type": "Metric",
+        "description": "Hiệu suất loại bỏ clo dư."
+      },
+      {
+        "id": "Chlorine rejection (80-100%)",
+        "type": "Metric",
+        "description": "Tỷ lệ loại bỏ clo trong quá trình xử lý."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Improvement of tap water quality for domestic use by membrane process",
+        "target": "Environmental Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Cao Ngoc Dan Thanh",
+        "target": "University of Technology, Vietnam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Minh Hong",
+        "target": "University of Technology, Vietnam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Thi Dieu Hien",
+        "target": "University of Technology, Vietnam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Xuan Thanh",
+        "target": "University of Technology, Vietnam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Thi Kim Quyen",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Low pressure reverse osmosis membrane system",
+        "target": "Tap water quality improvement",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Low pressure reverse osmosis membrane system",
+        "target": "Removal efficiency of NO3-N (41±17.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Low pressure reverse osmosis membrane system",
+        "target": "Removal efficiency of NH4-N (18±17%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Low pressure reverse osmosis membrane system",
+        "target": "Removal efficiency of total Fe (47±26%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Low pressure reverse osmosis membrane system",
+        "target": "Removal efficiency of hardness (39±6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Low pressure reverse osmosis membrane system",
+        "target": "Removal efficiency of residue chlorine (94±7%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

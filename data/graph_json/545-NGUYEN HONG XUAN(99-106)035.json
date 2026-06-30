@@ -1,0 +1,155 @@
+{
+  "filename": "545-NGUYEN HONG XUAN(99-106)035.json",
+  "paper_title": "Semi-chronic toxicity study of the extracts from different parts of burmese-grape Baccaurea ramiflora fruits of Ha Chau variety using mouse model",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Semi-chronic toxicity",
+        "type": "Concept",
+        "description": "The study of adverse effects resulting from repeated exposure to a substance over a portion of an organism's lifespan."
+      },
+      {
+        "id": "Baccaurea ramiflora",
+        "type": "Concept",
+        "description": "Burmese-grape, the plant species whose fruit parts were extracted for study."
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "The ability of compounds to prevent oxidative stress related diseases."
+      },
+      {
+        "id": "Histopathology",
+        "type": "Concept",
+        "description": "The study of changes in tissues caused by disease or toxicity."
+      },
+      {
+        "id": "Ethanol-assisted extraction",
+        "type": "Method",
+        "description": "Process of using 96% ethanol to obtain crude extracts from seeds and peels."
+      },
+      {
+        "id": "Hot-air oven",
+        "type": "Method",
+        "description": "Equipment used for drying plant parts at 50±2 oC."
+      },
+      {
+        "id": "Rotary evaporator",
+        "type": "Method",
+        "description": "Equipment used to evaporate filtrates at 58±2 oC to dryness."
+      },
+      {
+        "id": "Swiss albino mice",
+        "type": "Method",
+        "description": "The animal model used for the semi-chronic toxicity assay."
+      },
+      {
+        "id": "Oral administration",
+        "type": "Method",
+        "description": "Directly inserting extracts into the stomach/esophagus of mice via a needle."
+      },
+      {
+        "id": "Minitab 16",
+        "type": "Method",
+        "description": "Statistical software used for data analysis."
+      },
+      {
+        "id": "Daily dose (400 mg/kg)",
+        "type": "Metric",
+        "description": "The concentration of extract administered to mice daily."
+      },
+      {
+        "id": "Body weight gain (55.52-72.99%)",
+        "type": "Metric",
+        "description": "The percentage increase in body weight observed after 45 days."
+      },
+      {
+        "id": "Blood glucose level (119.52-124.56 mg/dL)",
+        "type": "Metric",
+        "description": "Measured glucose levels in mice after 45 days of treatment."
+      },
+      {
+        "id": "Ratio of kidney weights to body weights (2.53±0.24%)",
+        "type": "Metric",
+        "description": "Significant ratio observed in the peel extract group after 90 days."
+      },
+      {
+        "id": "Toxicology",
+        "type": "Domain",
+        "description": "The scientific study of the adverse effects of chemical substances on living organisms."
+      },
+      {
+        "id": "Nguyen Hong Xuan",
+        "type": "Author",
+        "description": "Researcher from Can Tho University and Can Tho University of Technology."
+      },
+      {
+        "id": "Nguyen Cong Ha",
+        "type": "Author",
+        "description": "Researcher from the Institute of Food and Biotechnology, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Semi-chronic toxicity",
+        "target": "Toxicology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ethanol-assisted extraction",
+        "target": "Baccaurea ramiflora",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Oral administration",
+        "target": "Semi-chronic toxicity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Swiss albino mice",
+        "target": "Semi-chronic toxicity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Oral administration",
+        "target": "Daily dose (400 mg/kg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Swiss albino mice",
+        "target": "Body weight gain (55.52-72.99%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Oral administration",
+        "target": "Ratio of kidney weights to body weights (2.53±0.24%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Nguyen Hong Xuan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hong Xuan",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Cong Ha",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

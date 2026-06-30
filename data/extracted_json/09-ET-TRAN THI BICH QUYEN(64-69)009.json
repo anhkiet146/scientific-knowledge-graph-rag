@@ -1,0 +1,195 @@
+{
+    "filename": "09-ET-TRAN THI BICH QUYEN(64-69)009.json",
+    "paper_title": "Comparative study of preparation and characterization of palladium nanosheets",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nanotechnology",
+                "type": "Domain",
+                "description": "The general field of study involving nanomaterials and their characterization."
+            },
+            {
+                "id": "Tran Thi Bich Quyen",
+                "type": "Author",
+                "description": "Author from the Department of Chemical Engineering, Can Tho University."
+            },
+            {
+                "id": "Nguyen Thi Xuan Chi",
+                "type": "Author",
+                "description": "Author from the Department of Chemical Engineering, Can Tho University."
+            },
+            {
+                "id": "Nguyen Thi Diem Nhi",
+                "type": "Author",
+                "description": "Author from the Department of Chemical Engineering, Can Tho University."
+            },
+            {
+                "id": "Doan Van Hong Thien",
+                "type": "Author",
+                "description": "Author from the Department of Chemical Engineering, Can Tho University."
+            },
+            {
+                "id": "Luong Huynh Vu Thanh",
+                "type": "Author",
+                "description": "Author from the Department of Chemical Engineering, Can Tho University."
+            },
+            {
+                "id": "Bui Le Anh Tuan",
+                "type": "Author",
+                "description": "Author from the Department of Civil Engineering, Can Tho University."
+            },
+            {
+                "id": "Department of Chemical Engineering, College of Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department in Vietnam."
+            },
+            {
+                "id": "Department of Civil Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department in Vietnam."
+            },
+            {
+                "id": "Palladium nanosheets (Pd NSs)",
+                "type": "Concept",
+                "description": "Two-dimensional nanostructures of palladium used for catalytic and plasmonic applications."
+            },
+            {
+                "id": "Photothermal therapy",
+                "type": "Concept",
+                "description": "A medical application where light is converted into heat for treatment."
+            },
+            {
+                "id": "Catalyst",
+                "type": "Concept",
+                "description": "A substance that increases the rate of a chemical reaction."
+            },
+            {
+                "id": "Tungsten hexacarbonyl (W(CO)6) reduction method",
+                "type": "Method",
+                "description": "A synthesis route using W(CO)6 as a reducing agent for Pd nanosheets."
+            },
+            {
+                "id": "CO gas reduction method",
+                "type": "Method",
+                "description": "A synthesis route using CO gas directly as a reducing agent for Pd nanosheets."
+            },
+            {
+                "id": "Palladium (II) acetylacetonate (Pd(acac)2)",
+                "type": "Method",
+                "description": "Pd salt precursor used in the synthesis."
+            },
+            {
+                "id": "N,N-dimethylformamide (DMF)",
+                "type": "Method",
+                "description": "Solvent used in the synthesis process."
+            },
+            {
+                "id": "Cetyltrimethylammonium bromide (CTAB)",
+                "type": "Method",
+                "description": "Surfactant/chemical used in the synthesis."
+            },
+            {
+                "id": "Ultraviolet–visible spectroscopy (UV-vis)",
+                "type": "Method",
+                "description": "Analytical technique used to characterize the absorbance of nanosheets."
+            },
+            {
+                "id": "Transmission electron microscope (TEM)",
+                "type": "Method",
+                "description": "Microscopy technique used to determine particle size and shape."
+            },
+            {
+                "id": "X-ray diffraction (XRD)",
+                "type": "Method",
+                "description": "Technique used to determine the phase structure and crystal structure."
+            },
+            {
+                "id": "Average edge length (~20-25 nm)",
+                "type": "Metric",
+                "description": "Size of Pd nanosheets synthesized using CO gas."
+            },
+            {
+                "id": "Average edge length (~15-20 nm)",
+                "type": "Metric",
+                "description": "Size of Pd nanosheets synthesized using W(CO)6."
+            },
+            {
+                "id": "Maximum absorption peak (835 nm to 1050 nm)",
+                "type": "Metric",
+                "description": "NIR region absorption values observed in UV-vis spectra."
+            },
+            {
+                "id": "Reaction temperature (80 oC)",
+                "type": "Metric",
+                "description": "Specific temperature used during the heating phase of synthesis."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Comparative study of preparation and characterization of palladium nanosheets",
+                "target": "Nanotechnology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tran Thi Bich Quyen",
+                "target": "Department of Chemical Engineering, College of Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Xuan Chi",
+                "target": "Department of Chemical Engineering, College of Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Diem Nhi",
+                "target": "Department of Chemical Engineering, College of Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Doan Van Hong Thien",
+                "target": "Department of Chemical Engineering, College of Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luong Huynh Vu Thanh",
+                "target": "Department of Chemical Engineering, College of Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Le Anh Tuan",
+                "target": "Department of Civil Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tungsten hexacarbonyl (W(CO)6) reduction method",
+                "target": "Average edge length (~15-20 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CO gas reduction method",
+                "target": "Average edge length (~20-25 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Tungsten hexacarbonyl (W(CO)6) reduction method",
+                "target": "Palladium nanosheets (Pd NSs)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "UV-vis",
+                "target": "Maximum absorption peak (835 nm to 1050 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Palladium nanosheets (Pd NSs)",
+                "target": "Catalyst",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Palladium nanosheets (Pd NSs)",
+                "target": "Photothermal therapy",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

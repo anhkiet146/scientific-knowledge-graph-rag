@@ -1,0 +1,180 @@
+{
+  "filename": "09-702-LAM MINH DUNG(76-82)037.json",
+  "paper_title": "Application of IoT technology on control system and monitoring for Cucumis Melo L. grown in greenhouse",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Smart farming",
+        "type": "Domain",
+        "description": "Lĩnh vực canh tác thông minh sử dụng công nghệ cao."
+      },
+      {
+        "id": "Precision agriculture",
+        "type": "Domain",
+        "description": "Nông nghiệp chính xác nhằm tối ưu hóa năng suất và giảm thiểu rủi ro."
+      },
+      {
+        "id": "Lam Minh Dung",
+        "type": "Author",
+        "description": "Tác giả từ Trường Đại học Sư phạm Kỹ thuật Vĩnh Long."
+      },
+      {
+        "id": "Truong Quoc Bao",
+        "type": "Author",
+        "description": "Tác giả từ Trường Bách khoa, Đại học Cần Thơ."
+      },
+      {
+        "id": "Nguyen Hoang Dung",
+        "type": "Author",
+        "description": "Tác giả từ Trường Bách khoa, Đại học Cần Thơ."
+      },
+      {
+        "id": "Lam Van Vu",
+        "type": "Author",
+        "description": "Tác giả từ Trường Cao đẳng Cộng đồng Đồng Tháp."
+      },
+      {
+        "id": "Vinh Long University of Technology Education",
+        "type": "Institution",
+        "description": "Trường Đại học Sư phạm Kỹ thuật Vĩnh Long, Việt Nam."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Trường Bách khoa, Đại học Cần Thơ, Việt Nam."
+      },
+      {
+        "id": "Dong Thap Community College",
+        "type": "Institution",
+        "description": "Trường Cao đẳng Cộng đồng Đồng Tháp, Việt Nam."
+      },
+      {
+        "id": "IoT technology",
+        "type": "Method",
+        "description": "Công nghệ Internet vạn vật để giám sát và điều khiển."
+      },
+      {
+        "id": "PLC controller S7-1200",
+        "type": "Method",
+        "description": "Bộ điều khiển logic lập trình được sử dụng để ổn định hệ thống."
+      },
+      {
+        "id": "V-BOX IoT device",
+        "type": "Method",
+        "description": "Thiết bị kết nối IoT giúp điều khiển và giám sát từ xa."
+      },
+      {
+        "id": "Linear interpolation algorithm",
+        "type": "Method",
+        "description": "Thuật toán nội suy tuyến tính để giảm số lượng cảm biến đầu vào."
+      },
+      {
+        "id": "Data mining",
+        "type": "Method",
+        "description": "Khai thác dữ liệu để phân tích và dự đoán nhu cầu của cây trồng."
+      },
+      {
+        "id": "Soil moisture sensors",
+        "type": "Method",
+        "description": "Cảm biến độ ẩm đất dùng để thu thập dữ liệu về cây trồng."
+      },
+      {
+        "id": "Web-based application",
+        "type": "Method",
+        "description": "Ứng dụng web dùng để quản lý dữ liệu cây trồng và thông tin đồng ruộng."
+      },
+      {
+        "id": "Mobile application",
+        "type": "Method",
+        "description": "Ứng dụng di động để điều khiển việc tưới tiêu tự động hoặc thủ công."
+      },
+      {
+        "id": "Crop data and field information",
+        "type": "Dataset",
+        "description": "Dữ liệu cây trồng và thông tin đồng ruộng được thu thập và lưu trữ."
+      },
+      {
+        "id": "Optimal watering",
+        "type": "Concept",
+        "description": "Vấn đề nghiên cứu về việc tối ưu hóa lượng nước tưới cho cây dưa lưới."
+      },
+      {
+        "id": "Cucumis Melo L. growth",
+        "type": "Concept",
+        "description": "Quá trình sinh trưởng của cây dưa lưới trong nhà kính."
+      },
+      {
+        "id": "Ambient temperature (< 36°C)",
+        "type": "Metric",
+        "description": "Điều kiện nhiệt độ môi trường lý tưởng trong nhà kính."
+      },
+      {
+        "id": "Greenhouse humidity (< 50%)",
+        "type": "Metric",
+        "description": "Chỉ số độ ẩm môi trường nhà kính cần được phun sương bổ sung."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Lam Minh Dung",
+        "target": "Vinh Long University of Technology Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Quoc Bao",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hoang Dung",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lam Van Vu",
+        "target": "Dong Thap Community College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "IoT technology",
+        "target": "Smart farming",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "IoT technology",
+        "target": "Precision agriculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "IoT technology",
+        "target": "Optimal watering",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Data mining",
+        "target": "Cucumis Melo L. growth",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Web-based application",
+        "target": "Crop data and field information",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "PLC controller S7-1200",
+        "target": "Ambient temperature (< 36°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PLC controller S7-1200",
+        "target": "Greenhouse humidity (< 50%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Linear interpolation algorithm",
+        "target": "IoT technology",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "12-715-NGUYEN TRAN DIEM HANH(102-109)040.json",
+  "paper_title": "Topic based document modeling for information filtering",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Tran Diem Hanh",
+        "type": "Author",
+        "description": "The author of the research paper."
+      },
+      {
+        "id": "School of Engineering and Technology, Tra Vinh University",
+        "type": "Institution",
+        "description": "Academic institution located in Viet Nam where the author is affiliated."
+      },
+      {
+        "id": "Information Filtering",
+        "type": "Domain",
+        "description": "The primary research field focused on document retrieval techniques for large-scale information."
+      },
+      {
+        "id": "Information Retrieval",
+        "type": "Domain",
+        "description": "A broader field encompassing information filtering and searching tools."
+      },
+      {
+        "id": "LDA_HF",
+        "type": "Method",
+        "description": "Latent Dirichlet Allocation with high Frequency Occurrences, the proposed topic-modelling model."
+      },
+      {
+        "id": "Latent Dirichlet Topic Modelling",
+        "type": "Method",
+        "description": "A topic-modelling technique used to model user interest."
+      },
+      {
+        "id": "BM25",
+        "type": "Method",
+        "description": "A conventional baseline method representing document collections via term weights."
+      },
+      {
+        "id": "pLSA",
+        "type": "Method",
+        "description": "Probabilistic Latent Semantic Analysis used for automatic document indexing."
+      },
+      {
+        "id": "LDA_IF",
+        "type": "Method",
+        "description": "A baseline model that uses LDA-trained topics to represent user interest."
+      },
+      {
+        "id": "Latent Semantic Indexing",
+        "type": "Method",
+        "description": "A statistical approach to measuring similarity and capturing latent structures."
+      },
+      {
+        "id": "RCV1",
+        "type": "Dataset",
+        "description": "Reuter Corpus Volume 1, a large benchmark dataset containing 806,791 stories."
+      },
+      {
+        "id": "R8",
+        "type": "Dataset",
+        "description": "A benchmark dataset widely used in text retrieval and categorization systems."
+      },
+      {
+        "id": "Top20",
+        "type": "Metric",
+        "description": "A measurement metric determining the relevance of the first 20 retrieved documents."
+      },
+      {
+        "id": "B/P",
+        "type": "Metric",
+        "description": "Break-even Point metric where precision and recall are equal."
+      },
+      {
+        "id": "MAP",
+        "type": "Metric",
+        "description": "Mean Average Precision, used to determine ranking algorithm effectiveness."
+      },
+      {
+        "id": "F1",
+        "type": "Metric",
+        "description": "F-measure metric representing the harmonic mean of precision and recall."
+      },
+      {
+        "id": "User interest modelling",
+        "type": "Concept",
+        "description": "The process of representing and capturing a user's long-term preferences."
+      },
+      {
+        "id": "Topic modelling",
+        "type": "Concept",
+        "description": "Technique to model document collections in the form of topics with extracted words."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Topic based document modeling for information filtering",
+        "target": "Information Filtering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Tran Diem Hanh",
+        "target": "School of Engineering and Technology, Tra Vinh University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "User interest modelling",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "Information Filtering",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "RCV1",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "R8",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "Top20",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "B/P",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "MAP",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "LDA_HF",
+        "target": "F1",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "pLSA",
+        "target": "RCV1",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "BM25",
+        "target": "RCV1",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "LDA_IF",
+        "target": "RCV1",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

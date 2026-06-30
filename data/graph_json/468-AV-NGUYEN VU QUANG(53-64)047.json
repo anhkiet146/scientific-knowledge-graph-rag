@@ -1,0 +1,135 @@
+{
+  "filename": "468-AV-NGUYEN VU QUANG(53-64)047.json",
+  "paper_title": "Nutritional value and factors affecting milk production and milk composition from dairy sheep: A review",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Dairy Science",
+        "type": "Domain",
+        "description": "The main field of research focusing on dairy sheep and milk production."
+      },
+      {
+        "id": "Nguyen Minh Quang",
+        "type": "Author",
+        "description": "Lead author of the review article."
+      },
+      {
+        "id": "Thai Nguyen University of Agriculture and Forestry",
+        "type": "Institution",
+        "description": "Academic institution where the author is affiliated."
+      },
+      {
+        "id": "Thai Nguyen University",
+        "type": "Institution",
+        "description": "Parent university of the author."
+      },
+      {
+        "id": "Nutritional value",
+        "type": "Concept",
+        "description": "The concentration of protein, fats, minerals, and vitamins in sheep milk."
+      },
+      {
+        "id": "Milk production",
+        "type": "Concept",
+        "description": "The yield and output of milk from dairy sheep."
+      },
+      {
+        "id": "Milk composition",
+        "type": "Concept",
+        "description": "The specific chemical and biological makeup of sheep milk."
+      },
+      {
+        "id": "Body condition score (BCS)",
+        "type": "Method",
+        "description": "A standardized technique using subjective palpation along the backbone and ribs to evaluate bone sharpness or muscle roundness."
+      },
+      {
+        "id": "Dietary nutrient composition",
+        "type": "Method",
+        "description": "A strategy of altering energy and nutrition regimes to improve milk yield."
+      },
+      {
+        "id": "Lipid supplementation",
+        "type": "Method",
+        "description": "The use of various types and dosages of oil to alter animal performance and milk composition."
+      },
+      {
+        "id": "FAOSTAT (2018)",
+        "type": "Dataset",
+        "description": "Data regarding the global distribution and population of dairy sheep."
+      },
+      {
+        "id": "Table 6",
+        "type": "Dataset",
+        "description": "Numerical results of oil supplementation in dairy ewes and its effects on performance."
+      },
+      {
+        "id": "Total sheep milk production (10.56 million tonnes)",
+        "type": "Metric",
+        "description": "The worldwide production volume of sheep milk in 2019."
+      },
+      {
+        "id": "Sheep milk protein (5.8%)",
+        "type": "Metric",
+        "description": "The specific percentage of protein found in sheep milk."
+      },
+      {
+        "id": "Saturated fatty acids (57-75%)",
+        "type": "Metric",
+        "description": "The percentage range of saturated fatty acids in total sheep milk fat."
+      },
+      {
+        "id": "Energy value (105 calories/100 ml)",
+        "type": "Metric",
+        "description": "The energetic content of sheep milk compared to cow or goat milk."
+      },
+      {
+        "id": "Calcium content (494 mg/250 ml)",
+        "type": "Metric",
+        "description": "The amount of calcium provided in one standard serving of sheep milk."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nutritional value",
+        "target": "Dairy Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Minh Quang",
+        "target": "Thai Nguyen University of Agriculture and Forestry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Minh Quang",
+        "target": "Thai Nguyen University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dietary nutrient composition",
+        "target": "Milk production",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Body condition score (BCS)",
+        "target": "Milk production",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Lipid supplementation",
+        "target": "Sheep milk protein (5.8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dietary nutrient composition",
+        "target": "Energy value (105 calories/100 ml)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Lipid supplementation",
+        "target": "Table 6",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

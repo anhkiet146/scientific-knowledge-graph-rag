@@ -1,0 +1,135 @@
+{
+    "filename": "06-ED-PHUONG HOANG YEN(37-45).json",
+    "paper_title": "CHALLENGES OF SHIFTING TO TASK-BASED LANGUAGE TEACHING: A STORY FROM A VIETNAMESE TEACHER",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "The author of the research article."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "The university and school where the researcher is affiliated."
+            },
+            {
+                "id": "English Language Teaching",
+                "type": "Domain",
+                "description": "The primary field of study regarding language pedagogy."
+            },
+            {
+                "id": "Task-based language teaching (TBLT)",
+                "type": "Concept",
+                "description": "A central concept focused on using tasks as the core unit of instruction."
+            },
+            {
+                "id": "Presentation-practice-production (PPP)",
+                "type": "Concept",
+                "description": "A traditional teacher-directed language instruction method."
+            },
+            {
+                "id": "Teacher perceptions",
+                "type": "Concept",
+                "description": "The study of how teachers view and experience pedagogical shifts."
+            },
+            {
+                "id": "Learner autonomy",
+                "type": "Concept",
+                "description": "The capacity of learners to initiate and take responsibility for their learning."
+            },
+            {
+                "id": "Case study",
+                "type": "Method",
+                "description": "The research design used to investigate specific obstacles in a real-world context."
+            },
+            {
+                "id": "Diary methods",
+                "type": "Method",
+                "description": "A qualitative data collection tool involving intensive self-reports by the teacher."
+            },
+            {
+                "id": "Stimulated recall interviews",
+                "type": "Method",
+                "description": "An introspective method using video recordings to elicit thought processes."
+            },
+            {
+                "id": "Ellis' (2006) TBLT framework",
+                "type": "Method",
+                "description": "The framework used to analyze pre-task, during-task, and post-task phases."
+            },
+            {
+                "id": "10 years of teaching experience",
+                "type": "Metric",
+                "description": "The participant's prior experience with the PPP approach."
+            },
+            {
+                "id": "30 class hours over 10 weeks",
+                "type": "Metric",
+                "description": "The duration and intensity of the writing course analyzed."
+            },
+            {
+                "id": "140 papers every week",
+                "type": "Metric",
+                "description": "The volume of feedback and correction workload for the teacher."
+            },
+            {
+                "id": "6 months",
+                "type": "Metric",
+                "description": "The total duration over which the teaching process was documented."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "CHALLENGES OF SHIFTING TO TASK-BASED LANGUAGE TEACHING: A STORY FROM A VIETNAMESE TEACHER",
+                "target": "English Language Teaching",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Diary methods",
+                "target": "Task-based language teaching (TBLT)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Stimulated recall interviews",
+                "target": "Task-based language teaching (TBLT)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Case study",
+                "target": "Task-based language teaching (TBLT)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Case study",
+                "target": "30 class hours over 10 weeks",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "6 months",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "10 years of teaching experience",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Diary methods",
+                "target": "140 papers every week",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ellis' (2006) TBLT framework",
+                "target": "Task-based language teaching (TBLT)",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

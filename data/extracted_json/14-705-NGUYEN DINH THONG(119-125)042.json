@@ -1,0 +1,165 @@
+{
+    "filename": "14-705-NGUYEN DINH THONG(119-125)042.json",
+    "paper_title": "Analysis of printed document identification based on Deep Learning",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Deep Learning",
+                "type": "Domain",
+                "description": "The primary field of research involving neural networks."
+            },
+            {
+                "id": "Printed document identification",
+                "type": "Concept",
+                "description": "The research problem of identifying and authenticating printed documents."
+            },
+            {
+                "id": "Anti-counterfeiting",
+                "type": "Concept",
+                "description": "The broader application of protecting products from forgery."
+            },
+            {
+                "id": "Nguyen Dinh Thong",
+                "type": "Author",
+                "description": "Author of the study."
+            },
+            {
+                "id": "Phu Quang Nguyen",
+                "type": "Author",
+                "description": "Corresponding author of the study."
+            },
+            {
+                "id": "Mai Hoang Bao An",
+                "type": "Author",
+                "description": "Corresponding author of the study."
+            },
+            {
+                "id": "International University",
+                "type": "Institution",
+                "description": "Institution under Viet Nam National University Ho Chi Minh City."
+            },
+            {
+                "id": "Viet Nam National University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "National university system in Vietnam."
+            },
+            {
+                "id": "ResNet",
+                "type": "Method",
+                "description": "Deep neural network architecture used as the backbone."
+            },
+            {
+                "id": "ResNet50",
+                "type": "Method",
+                "description": "A specific variant of the ResNet architecture."
+            },
+            {
+                "id": "ResNet101",
+                "type": "Method",
+                "description": "A variant of ResNet that outperformed in distinguishing printer sources."
+            },
+            {
+                "id": "ResNet152",
+                "type": "Method",
+                "description": "A variant of ResNet that outperformed in distinguishing printer sources."
+            },
+            {
+                "id": "Mix-up augmentation",
+                "type": "Method",
+                "description": "Technique generating virtual samples by interpolating image pairs."
+            },
+            {
+                "id": "GAN-based Augmentation",
+                "type": "Method",
+                "description": "Use of Generative Adversarial Networks to increase dataset diversity."
+            },
+            {
+                "id": "Mobile app",
+                "type": "Method",
+                "description": "Application developed to test feasibility in practice."
+            },
+            {
+                "id": "Microscopic printed images dataset",
+                "type": "Dataset",
+                "description": "Dataset containing 9600 microscopic images of printing patterns."
+            },
+            {
+                "id": "Accuracy (95.56% to 100%)",
+                "type": "Metric",
+                "description": "Measure of success rate in identifying printed patterns."
+            },
+            {
+                "id": "Batch size (32)",
+                "type": "Metric",
+                "description": "Hyperparameter for the data loading part."
+            },
+            {
+                "id": "Epochs (100)",
+                "type": "Metric",
+                "description": "Total training iterations."
+            },
+            {
+                "id": "Learning rate (1x10-3)",
+                "type": "Metric",
+                "description": "Initial step size for the SGD optimizer."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Analysis of printed document identification based on Deep Learning",
+                "target": "Deep Learning",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "ResNet101",
+                "target": "Accuracy (95.56% to 100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ResNet152",
+                "target": "Accuracy (95.56% to 100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ResNet",
+                "target": "Printed document identification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Mix-up augmentation",
+                "target": "Printed document identification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "GAN-based Augmentation",
+                "target": "Printed document identification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ResNet",
+                "target": "Microscopic printed images dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Nguyen Dinh Thong",
+                "target": "International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phu Quang Nguyen",
+                "target": "International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Mai Hoang Bao An",
+                "target": "International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "International University",
+                "target": "Viet Nam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

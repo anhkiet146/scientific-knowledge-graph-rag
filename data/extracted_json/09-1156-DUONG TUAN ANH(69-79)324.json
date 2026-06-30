@@ -1,0 +1,200 @@
+{
+    "filename": "09-1156-DUONG TUAN ANH(69-79)324.json",
+    "paper_title": "EMD combined with ensemble of machine learning predictors for foreign exchange rate forecasting",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Foreign exchange rate forecasting",
+                "type": "Domain",
+                "description": "The main research field focusing on predicting currency exchange rates using financial data."
+            },
+            {
+                "id": "Time series decomposition",
+                "type": "Concept",
+                "description": "The process of breaking down a time series into simpler components like IMFs and residues."
+            },
+            {
+                "id": "Non-stationarity",
+                "type": "Concept",
+                "description": "A property of financial data where statistical properties change over time, making forecasting difficult."
+            },
+            {
+                "id": "EMD-ML",
+                "type": "Method",
+                "description": "A novel hybrid forecasting approach combining Empirical Mode Decomposition with an ensemble of machine learning predictors."
+            },
+            {
+                "id": "EMD-LSTM",
+                "type": "Method",
+                "description": "A forecasting model combining empirical mode decomposition with an ensemble of Long Short-Term Memory models."
+            },
+            {
+                "id": "EMD-KNN",
+                "type": "Method",
+                "description": "A forecasting model combining empirical mode decomposition with an ensemble of k-nearest neighbors predictors."
+            },
+            {
+                "id": "Empirical Mode Decomposition",
+                "type": "Method",
+                "description": "A technique to decompose original time series into intrinsic mode functions (IMFs)."
+            },
+            {
+                "id": "Long Short-Term Memory",
+                "type": "Method",
+                "description": "A type of deep learning neural network suitable for extraction and learning of abstract features."
+            },
+            {
+                "id": "k-nearest neighbors",
+                "type": "Method",
+                "description": "A nonparametric shallow machine learning algorithm used for regressor forecasting."
+            },
+            {
+                "id": "PyEMD",
+                "type": "Method",
+                "description": "A Python library used for implementing the EMD decomposition method."
+            },
+            {
+                "id": "Keras",
+                "type": "Method",
+                "description": "A deep learning library used to implement LSTM models."
+            },
+            {
+                "id": "GPU Tesla P100-PCIE-16GB",
+                "type": "Method",
+                "description": "Hardware equipment used for conducting the experiments."
+            },
+            {
+                "id": "EUR_CNY",
+                "type": "Dataset",
+                "description": "Daily foreign exchange rates between Euro and China Yuan."
+            },
+            {
+                "id": "EUR_USD",
+                "type": "Dataset",
+                "description": "Daily foreign exchange rates between Euro and US dollar."
+            },
+            {
+                "id": "GBP_USD",
+                "type": "Dataset",
+                "description": "Daily foreign exchange rates between British Pound and US dollar."
+            },
+            {
+                "id": "USD_JPY",
+                "type": "Dataset",
+                "description": "Daily foreign exchange rates between US dollar and Japanese Yen."
+            },
+            {
+                "id": "USD_TRY",
+                "type": "Dataset",
+                "description": "Daily foreign exchange rates between US dollar and Turkey Lira."
+            },
+            {
+                "id": "USD_CHF",
+                "type": "Dataset",
+                "description": "Daily foreign exchange rates between US dollar and Swiss franc."
+            },
+            {
+                "id": "Training dataset (70%)",
+                "type": "Metric",
+                "description": "Proportion of the dataset used for model training."
+            },
+            {
+                "id": "Validation dataset (15%)",
+                "type": "Metric",
+                "description": "Proportion of the dataset used for model validation."
+            },
+            {
+                "id": "Testing dataset (15%)",
+                "type": "Metric",
+                "description": "Proportion of the dataset used for model testing."
+            },
+            {
+                "id": "RAM (26GB)",
+                "type": "Metric",
+                "description": "Memory capacity of the computer used for experiments."
+            },
+            {
+                "id": "Duong Tuan Anh",
+                "type": "Author",
+                "description": "Researcher affiliated with HUFLIT and Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Tran Van Xuan",
+                "type": "Author",
+                "description": "Researcher affiliated with Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Ho Chi Minh City University of Foreign Languages and Information Technology",
+                "type": "Institution",
+                "description": "Educational organization in Viet Nam, also known as HUFLIT."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology",
+                "type": "Institution",
+                "description": "Educational organization in Viet Nam, part of VNU-HCM."
+            }
+        ],
+        "relations": [
+            {
+                "source": "EMD-ML",
+                "target": "Foreign exchange rate forecasting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "EMD-LSTM",
+                "target": "Foreign exchange rate forecasting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "EMD-KNN",
+                "target": "Foreign exchange rate forecasting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "EMD-LSTM",
+                "target": "EUR_USD",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "EMD-LSTM",
+                "target": "EUR_CNY",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "EMD-KNN",
+                "target": "USD_JPY",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "EMD-LSTM",
+                "target": "Training dataset (70%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "EMD-KNN",
+                "target": "Validation dataset (15%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "EMD-ML",
+                "target": "RAM (26GB)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Duong Tuan Anh",
+                "target": "Ho Chi Minh City University of Foreign Languages and Information Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Tuan Anh",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Van Xuan",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

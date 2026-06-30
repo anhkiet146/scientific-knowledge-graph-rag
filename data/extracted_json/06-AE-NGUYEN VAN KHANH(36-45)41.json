@@ -1,0 +1,135 @@
+{
+    "filename": "06-AE-NGUYEN VAN KHANH(36-45)41.json",
+    "paper_title": "A FRAMEWORK FOR TRANSFERRING ALGORITHMS DESIGNED ON MATLAB/SIMULINK TO ARM MICROCONTROLLER EMBEDDED SYSTEMS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Van Khanh",
+                "type": "Author",
+                "description": "Author of the article"
+            },
+            {
+                "id": "College of Engineering Technology",
+                "type": "Institution",
+                "description": "The institution the author belongs to"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The university the author is affiliated with"
+            },
+            {
+                "id": "Embedded Systems",
+                "type": "Domain",
+                "description": "Main research field of the paper"
+            },
+            {
+                "id": "Inverted pendulum stabilization",
+                "type": "Concept",
+                "description": "The control problem used to demonstrate the framework"
+            },
+            {
+                "id": "Nonlinear control",
+                "type": "Concept",
+                "description": "Theoretical field for the control algorithms used"
+            },
+            {
+                "id": "Proposed framework for transferring algorithms",
+                "type": "Method",
+                "description": "A method for implementing Matlab/Simulink algorithms on ARM microcontrollers"
+            },
+            {
+                "id": "Matlab/Simulink",
+                "type": "Method",
+                "description": "Software environment for design and simulation"
+            },
+            {
+                "id": "STM32F4 Discovery development kit",
+                "type": "Method",
+                "description": "Hardware target for the implementation"
+            },
+            {
+                "id": "Matlab Real-time Embedded Coder",
+                "type": "Method",
+                "description": "Tool used to generate embedded C code"
+            },
+            {
+                "id": "TLC – Target Language Compiler",
+                "type": "Method",
+                "description": "Compiler used to generate the C language main function"
+            },
+            {
+                "id": "Backstepping controller",
+                "type": "Method",
+                "description": "Control algorithm employed to stabilize the inverted pendulum"
+            },
+            {
+                "id": "Sample time error (0.001 ms)",
+                "type": "Metric",
+                "description": "Precision measurement of the algorithm execution timing"
+            },
+            {
+                "id": "Maximal steady error of cart displacement (0.01 m)",
+                "type": "Metric",
+                "description": "Accuracy indicator for the cart position control"
+            },
+            {
+                "id": "Microcontroller speed (168 MHz)",
+                "type": "Metric",
+                "description": "Clock speed of the ARM Cortex-M4 core"
+            },
+            {
+                "id": "Cart stabilization time (2.5 s)",
+                "type": "Metric",
+                "description": "Time required to stabilize the displacement"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Van Khanh",
+                "target": "College of Engineering Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Khanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Proposed framework for transferring algorithms",
+                "target": "Embedded Systems",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Proposed framework for transferring algorithms",
+                "target": "Sample time error (0.001 ms)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Proposed framework for transferring algorithms",
+                "target": "Maximal steady error of cart displacement (0.01 m)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Proposed framework for transferring algorithms",
+                "target": "Inverted pendulum stabilization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Backstepping controller",
+                "target": "Inverted pendulum stabilization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Matlab Real-time Embedded Coder",
+                "target": "Proposed framework for transferring algorithms",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "STM32F4 Discovery development kit",
+                "target": "Inverted pendulum stabilization",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

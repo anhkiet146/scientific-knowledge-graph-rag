@@ -1,0 +1,165 @@
+{
+    "filename": "440-NS-NGUYEN DUY KHANH(25-31)039.json",
+    "paper_title": "Structural and electronic properties of hydrogen -functionalized armchair germanene nanoribbons: A first-principles study",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Structural and electronic properties of hydrogen-functionalized armchair germanene nanoribbons: A first-principles study",
+                "type": "Concept",
+                "description": "The title and primary research focus of the paper."
+            },
+            {
+                "id": "Computational Materials Science",
+                "type": "Domain",
+                "description": "The primary research field involving theoretical studies of materials."
+            },
+            {
+                "id": "Nguyen Duy Khanh",
+                "type": "Author",
+                "description": "Author from Thu Dau Mot University."
+            },
+            {
+                "id": "Nguyen Thi Hong Hue",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Thanh Tien",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Vo Van On",
+                "type": "Author",
+                "description": "Author from Thu Dau Mot University."
+            },
+            {
+                "id": "Institute of Applied Technology, Thu Dau Mot University",
+                "type": "Institution",
+                "description": "Research institution in Binh Duong Province, Viet Nam."
+            },
+            {
+                "id": "High-Performance Computing Laboratory (HPC Lab), Thu Dau Mot University",
+                "type": "Institution",
+                "description": "Specialized laboratory at Thu Dau Mot University."
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Academic division at Can Tho University."
+            },
+            {
+                "id": "Density functional theory (DFT)",
+                "type": "Method",
+                "description": "Quantum mechanical modelling method used to investigate the electronic structure."
+            },
+            {
+                "id": "Vienna Ab Initio Simulation Package (VASP)",
+                "type": "Method",
+                "description": "Computer program for atomic scale materials modelling."
+            },
+            {
+                "id": "Hydrogen atoms",
+                "type": "Method",
+                "description": "Chemical element used for functionalization of the nanoribbons."
+            },
+            {
+                "id": "Armchair germanene nanoribbons (H-AGeNR)",
+                "type": "Method",
+                "description": "The specific 1D material structure being studied."
+            },
+            {
+                "id": "Table 1",
+                "type": "Dataset",
+                "description": "Data table containing calculated physical properties like bond lengths and energy gaps."
+            },
+            {
+                "id": "Functionalization energy (-2.59 eV)",
+                "type": "Metric",
+                "description": "Energy value indicating the stability of the functionalized system."
+            },
+            {
+                "id": "Energy gap (2.01 eV)",
+                "type": "Metric",
+                "description": "The opened bandgap of the H-functionalized system."
+            },
+            {
+                "id": "Pristine energy gap (0.23 eV)",
+                "type": "Metric",
+                "description": "The initial bandgap of armchair germanene nanoribbons before functionalization."
+            },
+            {
+                "id": "Buckling height (0.91 Å)",
+                "type": "Metric",
+                "description": "Structural parameter of the H-AGeNR lattice."
+            },
+            {
+                "id": "P-type doping",
+                "type": "Concept",
+                "description": "The process of creating hole density in the semiconductor system."
+            },
+            {
+                "id": "Optoelectronic applications",
+                "type": "Concept",
+                "description": "The intended practical use for the 1D semiconductor material."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Structural and electronic properties of hydrogen-functionalized armchair germanene nanoribbons: A first-principles study",
+                "target": "Computational Materials Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Duy Khanh",
+                "target": "Institute of Applied Technology, Thu Dau Mot University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Duy Khanh",
+                "target": "High-Performance Computing Laboratory (HPC Lab), Thu Dau Mot University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Van On",
+                "target": "Institute of Applied Technology, Thu Dau Mot University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Hong Hue",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Tien",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Density functional theory (DFT)",
+                "target": "Functionalization energy (-2.59 eV)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Density functional theory (DFT)",
+                "target": "Energy gap (2.01 eV)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Armchair germanene nanoribbons (H-AGeNR)",
+                "target": "Optoelectronic applications",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Density functional theory (DFT)",
+                "target": "P-type doping",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Density functional theory (DFT)",
+                "target": "Table 1",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

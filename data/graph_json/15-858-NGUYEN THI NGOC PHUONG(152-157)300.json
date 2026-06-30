@@ -1,0 +1,185 @@
+{
+  "filename": "15-858-NGUYEN THI NGOC PHUONG(152-157)300.json",
+  "paper_title": "Developments and antioxidant evaluation of Sesbania sesban-leaf-extract loaded carboxymethyl cellulose hydrogel as a potential skin cosmetic",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Cosmetic Science",
+        "type": "Domain",
+        "description": "The main field of research focusing on skin care and antioxidant products."
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "The ability of substances to prevent or slow damage to cells caused by free radicals."
+      },
+      {
+        "id": "Skin oxidative stress",
+        "type": "Concept",
+        "description": "Oxidative damage to the skin caused by reactive oxygen species (ROS)."
+      },
+      {
+        "id": "Skin cosmetic",
+        "type": "Concept",
+        "description": "Products applied to the skin for protection, treatment, or enhancement."
+      },
+      {
+        "id": "Nguyen Thi Ngoc Phuong",
+        "type": "Author",
+        "description": "Author from Dong Nai Technology University."
+      },
+      {
+        "id": "Nguyen Doan Xuan Tien",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Ngoc Quyen",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Quoc Chau Thanh",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Pham Duy Toan",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "Dong Nai Technology University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam."
+      },
+      {
+        "id": "Sesbania sesban L. leaf extract (SSE)",
+        "type": "Method",
+        "description": "The natural antioxidant extract obtained from Sesbania sesban leaves."
+      },
+      {
+        "id": "Carboxymethyl cellulose (CMC) hydrogel",
+        "type": "Method",
+        "description": "A hydrophilic, non-toxic polymer used as a carrier for SSE."
+      },
+      {
+        "id": "Sonication-assisted extraction",
+        "type": "Method",
+        "description": "Method used to produce SSE from leaf powder."
+      },
+      {
+        "id": "Vial inversion method",
+        "type": "Method",
+        "description": "Method used to determine hydrogel gelation time."
+      },
+      {
+        "id": "DPPH test",
+        "type": "Method",
+        "description": "2,2-diphenyl-1-picrylhydrazyl assay used to evaluate antioxidant action."
+      },
+      {
+        "id": "UV-Vis spectroscopy",
+        "type": "Method",
+        "description": "Instrumental method used to measure optical density at specific wavelengths."
+      },
+      {
+        "id": "Total phenolic content (61.44 ± 7.23 mg GAE/g DPW)",
+        "type": "Metric",
+        "description": "Measurement of phenolic compounds in the extract."
+      },
+      {
+        "id": "IC50 (15.381 ± 1.270 µg/mL)",
+        "type": "Metric",
+        "description": "Concentration required to inhibit 50% of DPPH radicals."
+      },
+      {
+        "id": "Gelation time (< 60 min)",
+        "type": "Metric",
+        "description": "The time taken for the CMC solution to transition into a hydrogel."
+      },
+      {
+        "id": "Viscosity (1500 - 2000 cPs)",
+        "type": "Metric",
+        "description": "The thickness/flow resistance of the final hydrogel product."
+      },
+      {
+        "id": "DPPH scavenging activity (30% to 50%)",
+        "type": "Metric",
+        "description": "The antioxidant efficacy observed during a 180-minute period."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Developments and antioxidant evaluation of Sesbania sesban-leaf-extract loaded carboxymethyl cellulose hydrogel as a potential skin cosmetic",
+        "target": "Cosmetic Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Sonication-assisted extraction",
+        "target": "Total phenolic content (61.44 ± 7.23 mg GAE/g DPW)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sesbania sesban L. leaf extract (SSE)",
+        "target": "IC50 (15.381 ± 1.270 µg/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Carboxymethyl cellulose (CMC) hydrogel",
+        "target": "Gelation time (< 60 min)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Carboxymethyl cellulose (CMC) hydrogel",
+        "target": "Viscosity (1500 - 2000 cPs)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "DPPH test",
+        "target": "DPPH scavenging activity (30% to 50%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Carboxymethyl cellulose (CMC) hydrogel",
+        "target": "Skin cosmetic",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sesbania sesban L. leaf extract (SSE)",
+        "target": "Antioxidant activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Nguyen Thi Ngoc Phuong",
+        "target": "Dong Nai Technology University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Doan Xuan Tien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ngoc Quyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Quoc Chau Thanh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Duy Toan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "filename": "11-948-NGUYEN VO AI MI(102-111)311.json",
+  "paper_title": "Evaluating pile foundation design due to groundwater level lowering",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Civil Engineering",
+        "type": "Domain",
+        "description": "The primary field of research concerning the design and construction of foundations and structures."
+      },
+      {
+        "id": "Nguyen Vo Ai Mi",
+        "type": "Author",
+        "description": "Researcher from the Faculty of Civil Engineering, Can Tho University of Technology."
+      },
+      {
+        "id": "Le Hoang",
+        "type": "Author",
+        "description": "Researcher from the Faculty of Civil Engineering, Can Tho University of Technology."
+      },
+      {
+        "id": "Le Thi Hong Thanh",
+        "type": "Author",
+        "description": "Researcher from the Faculty of Civil Engineering, Can Tho University of Technology."
+      },
+      {
+        "id": "Nguyen Huu Truong",
+        "type": "Author",
+        "description": "Researcher from Truong An Build Company Limited."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      },
+      {
+        "id": "Truong An Build Company Limited",
+        "type": "Institution",
+        "description": "Private construction company in Viet Nam."
+      },
+      {
+        "id": "Groundwater level (GWL) lowering",
+        "type": "Concept",
+        "description": "The reduction of water table levels, often due to extraction, affecting soil stability."
+      },
+      {
+        "id": "Pile foundation design",
+        "type": "Concept",
+        "description": "The engineering process of designing piles to support building loads."
+      },
+      {
+        "id": "Negative skin friction",
+        "type": "Concept",
+        "description": "Downward drag force exerted on a pile by the surrounding soil."
+      },
+      {
+        "id": "Evaluation of pile capacity due to GWL lowering",
+        "type": "Method",
+        "description": "The specific analytical approach used in this study to assess bearing capacity changes."
+      },
+      {
+        "id": "ASTM and AASHTO standards",
+        "type": "Method",
+        "description": "Standardized laboratory testing procedures for soil samples."
+      },
+      {
+        "id": "Prestress concrete piles",
+        "type": "Method",
+        "description": "The material type used for the pile foundations in the study."
+      },
+      {
+        "id": "Regression Analysis",
+        "type": "Method",
+        "description": "Statistical method proposed to correlate pile tip depth with bearing capacity."
+      },
+      {
+        "id": "Soil parameters table",
+        "type": "Dataset",
+        "description": "Data collection of soil properties including LL and PI values shown in Table 1."
+      },
+      {
+        "id": "GWL lowering (0 to 2 m)",
+        "type": "Metric",
+        "description": "The range of groundwater level variation analyzed."
+      },
+      {
+        "id": "Pile size (18 x 18 cm to 45 x 45 cm)",
+        "type": "Metric",
+        "description": "The range of physical dimensions for the square piles studied."
+      },
+      {
+        "id": "Allowable bearing capacity for single piles (5.75-174.70 tons)",
+        "type": "Metric",
+        "description": "The calculated capacity range for individual piles."
+      },
+      {
+        "id": "Allowable bearing capacity for pile groups (11.95-808.18 tons)",
+        "type": "Metric",
+        "description": "The calculated capacity range for clusters of piles."
+      },
+      {
+        "id": "Liquid Limit (LL) (43.35-67.56%)",
+        "type": "Metric",
+        "description": "Soil plasticity measurement value."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Evaluation of pile capacity due to GWL lowering",
+        "target": "Civil Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Vo Ai Mi",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Hoang",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Hong Thanh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Huu Truong",
+        "target": "Truong An Build Company Limited",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Evaluation of pile capacity due to GWL lowering",
+        "target": "Groundwater level (GWL) lowering",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Evaluation of pile capacity due to GWL lowering",
+        "target": "Allowable bearing capacity for single piles (5.75-174.70 tons)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Evaluation of pile capacity due to GWL lowering",
+        "target": "Allowable bearing capacity for pile groups (11.95-808.18 tons)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ASTM and AASHTO standards",
+        "target": "Soil parameters table",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

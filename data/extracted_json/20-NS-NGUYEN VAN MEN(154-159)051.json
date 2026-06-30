@@ -1,0 +1,165 @@
+{
+    "filename": "20-NS-NGUYEN VAN MEN(154-159)051.json",
+    "paper_title": "Plasmon excitation in MLG-GaAs heterostructure -Analytical expressions in longwavelength limit",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Plasmon excitation",
+                "type": "Concept",
+                "description": "The collective oscillation of free electrons in a many-body system."
+            },
+            {
+                "id": "MLG-GaAs heterostructure",
+                "type": "Concept",
+                "description": "A double layer system consisting of mono-layer graphene and GaAs quantum well."
+            },
+            {
+                "id": "Many-body systems",
+                "type": "Concept",
+                "description": "Physical systems with a large number of interacting particles."
+            },
+            {
+                "id": "Dielectric function",
+                "type": "Concept",
+                "description": "Function describing the electrical response of a medium."
+            },
+            {
+                "id": "Optical branch",
+                "type": "Concept",
+                "description": "A mode of plasmon frequency proportional to the root square of the wave vector."
+            },
+            {
+                "id": "Acoustic branch",
+                "type": "Concept",
+                "description": "A mode of plasmon frequency proportional to the wave vector."
+            },
+            {
+                "id": "Random-phase-approximation (RPA)",
+                "type": "Method",
+                "description": "A method used to calculate the dielectric function and determine plasmon modes."
+            },
+            {
+                "id": "Analytical expressions",
+                "type": "Method",
+                "description": "Mathematical derivations for plasmon frequencies in the long-wavelength limit."
+            },
+            {
+                "id": "Poisson equation",
+                "type": "Method",
+                "description": "Used to find intra- and inter-layer bare Coulomb interactions in momentum space."
+            },
+            {
+                "id": "C++ program",
+                "type": "Method",
+                "description": "Software tool used for numerical solving of the dielectric function equation."
+            },
+            {
+                "id": "Half-distance method",
+                "type": "Method",
+                "description": "Algorithm used for programming numerical calculations."
+            },
+            {
+                "id": "Long wavelength expansions",
+                "type": "Method",
+                "description": "Mathematical procedure used to simplify response functions."
+            },
+            {
+                "id": "0.3 k_F",
+                "type": "Metric",
+                "description": "Maximum wave vector value for which analytical results match numerical results for the optical branch."
+            },
+            {
+                "id": "0.5 k_F",
+                "type": "Metric",
+                "description": "Maximum wave vector value for which analytical results match numerical results for the acoustic branch."
+            },
+            {
+                "id": "Zero temperature",
+                "type": "Metric",
+                "description": "The thermal condition (0 K) under which the system is studied."
+            },
+            {
+                "id": "Physics",
+                "type": "Domain",
+                "description": "The general field of study concerning condensed matter and plasmonics."
+            },
+            {
+                "id": "Nguyen Van Men",
+                "type": "Author",
+                "description": "Lead author affiliated with An Giang University."
+            },
+            {
+                "id": "Dong Thi Kim Phuong",
+                "type": "Author",
+                "description": "Co-author affiliated with An Giang University."
+            },
+            {
+                "id": "An Giang University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam where the research was conducted."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Van Men",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dong Thi Kim Phuong",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Plasmon excitation",
+                "target": "Physics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Random-phase-approximation (RPA)",
+                "target": "Dielectric function",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Random-phase-approximation (RPA)",
+                "target": "Plasmon excitation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Analytical expressions",
+                "target": "0.3 k_F",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Analytical expressions",
+                "target": "0.5 k_F",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Analytical expressions",
+                "target": "Optical branch",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Analytical expressions",
+                "target": "Acoustic branch",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Poisson equation",
+                "target": "MLG-GaAs heterostructure",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "C++ program",
+                "target": "Dielectric function",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Half-distance method",
+                "target": "C++ program",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

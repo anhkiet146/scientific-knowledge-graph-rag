@@ -1,0 +1,130 @@
+{
+  "filename": "06-ED-DANG VU HOAI NHAN(45-53)037.json",
+  "paper_title": "The government's policy on EFL teacher professional development: Opportunities and challenges for the Mekong Delta",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Dang Vu Hoai Nhan",
+        "type": "Author",
+        "description": "The primary author of the paper, a Master student."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University where the author is affiliated, located in Vietnam."
+      },
+      {
+        "id": "EFL Teacher Professional Development",
+        "type": "Domain",
+        "description": "The research area focused on the professional development of English as a foreign language teachers."
+      },
+      {
+        "id": "Teacher professional development (TPD)",
+        "type": "Concept",
+        "description": "A key factor affecting the quality of the educational system."
+      },
+      {
+        "id": "Vietnam's National Foreign Language 2020 Project",
+        "type": "Concept",
+        "description": "A government policy initiative to foster the quality of English instruction in Vietnam."
+      },
+      {
+        "id": "Descriptive quantitative research method",
+        "type": "Method",
+        "description": "The research approach used to explore opportunities and challenges for EFL teachers."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "Research instrument used to collect quantitative data from participants."
+      },
+      {
+        "id": "Five-point Likert scale",
+        "type": "Method",
+        "description": "A scale ranging from strongly agree to strongly disagree used in the questionnaire."
+      },
+      {
+        "id": "Google Forms",
+        "type": "Method",
+        "description": "Technological tool used for data collection."
+      },
+      {
+        "id": "Simple statistical analysis",
+        "type": "Method",
+        "description": "Statistical technique applied to the questionnaire data."
+      },
+      {
+        "id": "Survey data from 61 EFL teachers",
+        "type": "Dataset",
+        "description": "The numerical data collected from teachers across seven cities and provinces in the Mekong Delta."
+      },
+      {
+        "id": "Listening skill improvement (> 70%)",
+        "type": "Metric",
+        "description": "Proportion of participants agreeing they improved listening skills."
+      },
+      {
+        "id": "Speaking skill improvement (~ 70%)",
+        "type": "Metric",
+        "description": "Proportion of participants agreeing they improved speaking skills."
+      },
+      {
+        "id": "Funds challenge (nearly 50%)",
+        "type": "Metric",
+        "description": "Percentage of teachers perceiving expense as a main challenge."
+      },
+      {
+        "id": "Time-management challenge (70%)",
+        "type": "Metric",
+        "description": "Percentage of teachers perceiving time as a main challenge."
+      },
+      {
+        "id": "Requirement failure rate (> 90%)",
+        "type": "Metric",
+        "description": "Percentage of high school English teachers who did not meet standard requirements."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Dang Vu Hoai Nhan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Descriptive quantitative research method",
+        "target": "EFL Teacher Professional Development",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Teacher professional development (TPD)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Simple statistical analysis",
+        "target": "Survey data from 61 EFL teachers",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Simple statistical analysis",
+        "target": "Listening skill improvement (> 70%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Simple statistical analysis",
+        "target": "Speaking skill improvement (~ 70%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Simple statistical analysis",
+        "target": "Funds challenge (nearly 50%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Simple statistical analysis",
+        "target": "Time-management challenge (70%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

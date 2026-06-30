@@ -1,0 +1,145 @@
+{
+  "filename": "11-ET-LUU TRONG HIEU(74-82)030.json",
+  "paper_title": "A navigation and identificationsimulated chemicals using autonomous mobile robot with ceiling camera and onboard micro-spectrometer",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Luu Trong Hieu",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Tran Thanh Hung",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution of the authors in Vietnam."
+      },
+      {
+        "id": "Mobile Robotics",
+        "type": "Domain",
+        "description": "The primary research field involving autonomous systems and navigation."
+      },
+      {
+        "id": "Chemical Identification",
+        "type": "Concept",
+        "description": "The process of identifying unknown chemical substances remotely."
+      },
+      {
+        "id": "Autonomous Navigation",
+        "type": "Concept",
+        "description": "The ability of a robot to move through an environment without human intervention."
+      },
+      {
+        "id": "Decentralized Control",
+        "type": "Method",
+        "description": "Control system based on master-slave computer interaction for robot movement."
+      },
+      {
+        "id": "Ceiling Camera",
+        "type": "Method",
+        "description": "External camera used for tracking the robot's tag and coordinate mapping."
+      },
+      {
+        "id": "Onboard Micro-spectrometer",
+        "type": "Method",
+        "description": "Device attached to the robot used for measuring light intensity and chemical properties."
+      },
+      {
+        "id": "Minimum Bounding Rectangle (MBR)",
+        "type": "Method",
+        "description": "Algorithm used to simplify 2D models and extract features for robot tag detection."
+      },
+      {
+        "id": "Root Mean Square Error (r.m.s)",
+        "type": "Method",
+        "description": "Mathematical method used to predict values and identify simulated chemicals."
+      },
+      {
+        "id": "Autonomous Mobile Robot",
+        "type": "Method",
+        "description": "The hardware platform used for navigation and gripping targets."
+      },
+      {
+        "id": "Red Liquid Peak (675-720 nm)",
+        "type": "Metric",
+        "description": "Observed peak wavelength range for red simulated chemicals."
+      },
+      {
+        "id": "Yellow Liquid Peak (600-620 nm)",
+        "type": "Metric",
+        "description": "Observed peak wavelength range for yellow simulated chemicals."
+      },
+      {
+        "id": "Blue Liquid Peak (450-500 nm)",
+        "type": "Metric",
+        "description": "Observed peak wavelength range for blue simulated chemicals."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Luu Trong Hieu",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thanh Hung",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Autonomous Mobile Robot",
+        "target": "Mobile Robotics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Autonomous Mobile Robot",
+        "target": "Chemical Identification",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Decentralized Control",
+        "target": "Autonomous Navigation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Ceiling Camera",
+        "target": "Autonomous Navigation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Minimum Bounding Rectangle (MBR)",
+        "target": "Autonomous Navigation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Onboard Micro-spectrometer",
+        "target": "Chemical Identification",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Onboard Micro-spectrometer",
+        "target": "Red Liquid Peak (675-720 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Onboard Micro-spectrometer",
+        "target": "Yellow Liquid Peak (600-620 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Onboard Micro-spectrometer",
+        "target": "Blue Liquid Peak (450-500 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Root Mean Square Error (r.m.s)",
+        "target": "Chemical Identification",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

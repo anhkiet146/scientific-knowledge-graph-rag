@@ -1,0 +1,190 @@
+{
+    "filename": "11-707-KOUSHIK ROY(93-101)039.json",
+    "paper_title": "Impact of dimensionality reduction techniques on student performance prediction using machine learning",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Koushik Roy",
+                "type": "Author",
+                "description": "Tác giả chính của bài báo nghiên cứu."
+            },
+            {
+                "id": "Huu-Hoa Nguyen",
+                "type": "Author",
+                "description": "Tác giả đồng nghiên cứu từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Dewan Md. Farid",
+                "type": "Author",
+                "description": "Tác giả đồng nghiên cứu."
+            },
+            {
+                "id": "United International University",
+                "type": "Institution",
+                "description": "Tổ chức học thuật tại Dhaka, Bangladesh."
+            },
+            {
+                "id": "College of Information and Communication Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Tổ chức học thuật tại Việt Nam."
+            },
+            {
+                "id": "Machine Learning",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo."
+            },
+            {
+                "id": "Educational Data Mining (EDM)",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu ứng dụng cụ thể."
+            },
+            {
+                "id": "Student performance prediction",
+                "type": "Concept",
+                "description": "Vấn đề nghiên cứu về dự đoán kết quả học tập của sinh viên."
+            },
+            {
+                "id": "Dimensionality reduction",
+                "type": "Concept",
+                "description": "Khái niệm giảm chiều dữ liệu để tối ưu hóa mô hình."
+            },
+            {
+                "id": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "type": "Method",
+                "description": "Thuật toán đề xuất kết hợp năm phương pháp xếp hạng đặc trưng."
+            },
+            {
+                "id": "Random Forest Classifier (RFC)",
+                "type": "Method",
+                "description": "Thuật toán học máy được sử dụng để dự đoán."
+            },
+            {
+                "id": "Multilayer Perceptron Classifier (MLP)",
+                "type": "Method",
+                "description": "Mô hình mạng thần kinh nhân tạo."
+            },
+            {
+                "id": "Recursive Feature Elimination (RFE)",
+                "type": "Method",
+                "description": "Phương pháp lựa chọn đặc trưng truyền thống để so sánh."
+            },
+            {
+                "id": "ADASYN",
+                "type": "Method",
+                "description": "Phương pháp xử lý mất cân bằng dữ liệu."
+            },
+            {
+                "id": "xAPI-Educational Mining Dataset (xAPI)",
+                "type": "Dataset",
+                "description": "Tập dữ liệu giáo dục từ Kaggle (2016)."
+            },
+            {
+                "id": "Secondary Student Performance Dataset (SSP)",
+                "type": "Dataset",
+                "description": "Tập dữ liệu từ UCI ML Archive (2014)."
+            },
+            {
+                "id": "Higher Education Student Performance Dataset (HESP)",
+                "type": "Dataset",
+                "description": "Tập dữ liệu từ Kaggle."
+            },
+            {
+                "id": "Student Performance Prediction -Western-OC2-Lab (WOC2)",
+                "type": "Dataset",
+                "description": "Tập dữ liệu từ GitHub (2020)."
+            },
+            {
+                "id": "Average dimensionality reduction factor (6.2)",
+                "type": "Metric",
+                "description": "Hệ số giảm chiều trung bình đạt được bởi ADRA."
+            },
+            {
+                "id": "Highest accuracy (0.78)",
+                "type": "Metric",
+                "description": "Độ chính xác cao nhất đạt được bởi mô hình RFC."
+            },
+            {
+                "id": "Highest average DRF (7.3)",
+                "type": "Metric",
+                "description": "Chỉ số DRF cao nhất mà ADRA đạt được trên một tập dữ liệu cụ thể."
+            },
+            {
+                "id": "Average DRF (2.12)",
+                "type": "Metric",
+                "description": "Chỉ số giảm chiều của mô hình MLP."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Machine Learning",
+                "target": "Educational Data Mining (EDM)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Koushik Roy",
+                "target": "United International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dewan Md. Farid",
+                "target": "United International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huu-Hoa Nguyen",
+                "target": "College of Information and Communication Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "Student performance prediction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "Dimensionality reduction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "xAPI-Educational Mining Dataset (xAPI)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "Secondary Student Performance Dataset (SSP)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "Higher Education Student Performance Dataset (HESP)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "Student Performance Prediction -Western-OC2-Lab (WOC2)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "Average dimensionality reduction factor (6.2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Adaptive Dimensionality Reduction Algorithm (ADRA)",
+                "target": "Highest average DRF (7.3)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random Forest Classifier (RFC)",
+                "target": "Highest accuracy (0.78)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multilayer Perceptron Classifier (MLP)",
+                "target": "Average DRF (2.12)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

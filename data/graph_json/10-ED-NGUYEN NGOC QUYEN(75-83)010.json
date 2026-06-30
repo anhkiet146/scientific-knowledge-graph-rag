@@ -1,0 +1,145 @@
+{
+  "filename": "10-ED-NGUYEN NGOC QUYEN(75-83)010.json",
+  "paper_title": "Listening comprehension: First year English-major students' perceptions and problems",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Ngoc Quyen",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Thai Cong Dan",
+        "type": "Author",
+        "description": "Author and correspondence author of the research paper"
+      },
+      {
+        "id": "School of Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "Institution where the authors are affiliated"
+      },
+      {
+        "id": "English Language Teaching",
+        "type": "Domain",
+        "description": "The main field of the study related to listening skills in English"
+      },
+      {
+        "id": "Listening comprehension",
+        "type": "Concept",
+        "description": "The ability to identify and understand what others are saying"
+      },
+      {
+        "id": "Listening skill development",
+        "type": "Concept",
+        "description": "The process of improving the ability to understand spoken language"
+      },
+      {
+        "id": "Perception",
+        "type": "Concept",
+        "description": "The way students regard or interpret the role of listening skills"
+      },
+      {
+        "id": "Listening problems",
+        "type": "Concept",
+        "description": "Obstacles such as accent, pronunciation, and lack of concentration"
+      },
+      {
+        "id": "Questionnaire-based survey",
+        "type": "Method",
+        "description": "Quantitative method used to collect data from 115 students"
+      },
+      {
+        "id": "Semi-structured interview method",
+        "type": "Method",
+        "description": "Qualitative method used to enrich quantitative data from 24 students"
+      },
+      {
+        "id": "Observation",
+        "type": "Method",
+        "description": "Method involving video clips and notes recorded during lessons"
+      },
+      {
+        "id": "SPSS",
+        "type": "Method",
+        "description": "Software used for statistical data analysis"
+      },
+      {
+        "id": "Descriptive statistics",
+        "type": "Method",
+        "description": "Statistical method used to determine mean scores"
+      },
+      {
+        "id": "One-Sample T-Test",
+        "type": "Method",
+        "description": "Statistical test used to check significant differences"
+      },
+      {
+        "id": "Student Survey Dataset",
+        "type": "Dataset",
+        "description": "Data collected from 115 first-year English-major students"
+      },
+      {
+        "id": "Mean score of overall perceptions (M = 3.80)",
+        "type": "Metric",
+        "description": "The average score representing positive awareness toward listening skill development"
+      },
+      {
+        "id": "Mean score of lack of concentration (M = 3.95)",
+        "type": "Metric",
+        "description": "The highest mean score among listening problem factors"
+      },
+      {
+        "id": "Mean score of speaker-related problems (M = 3.77)",
+        "type": "Metric",
+        "description": "Average score for problems related to the speaker's accent and pronunciation"
+      },
+      {
+        "id": "T-test value (t = 9.24)",
+        "type": "Metric",
+        "description": "Result of the significance test for perception scores"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Ngoc Quyen",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thai Cong Dan",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Listening comprehension",
+        "target": "English Language Teaching",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Questionnaire-based survey",
+        "target": "Listening skill development",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaire-based survey",
+        "target": "Student Survey Dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Descriptive statistics",
+        "target": "Mean score of overall perceptions (M = 3.80)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive statistics",
+        "target": "Mean score of lack of concentration (M = 3.95)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "One-Sample T-Test",
+        "target": "T-test value (t = 9.24)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

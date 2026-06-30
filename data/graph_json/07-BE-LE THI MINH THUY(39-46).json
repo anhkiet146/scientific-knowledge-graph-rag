@@ -1,0 +1,165 @@
+{
+  "filename": "07-BE-LE THI MINH THUY(39-46).json",
+  "paper_title": "THE EFFECTS OF PREPARATION CONDITIONS ON THE PROPERTIES OF GELATIN FILM FROM HORSE MACKEREL (Trachurus japonicus) SCALE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Food Science and Biotechnology",
+        "type": "Domain",
+        "description": "The research field focusing on the properties and applications of food-derived materials."
+      },
+      {
+        "id": "Le Thi Minh Thuy",
+        "type": "Author",
+        "description": "Author from College of Aquaculture and Fisheries, Can Tho University."
+      },
+      {
+        "id": "Nguyen Van Dat",
+        "type": "Author",
+        "description": "Author from Department of Animal Health, Can Tho city."
+      },
+      {
+        "id": "Nguyen Do Quynh",
+        "type": "Author",
+        "description": "Author from College of Aquaculture and Fisheries, Can Tho University."
+      },
+      {
+        "id": "Kazufumi Osako",
+        "type": "Author",
+        "description": "Author from Department of Food Science and Technology, Tokyo University of Marine Science and Technology."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Department of Animal Health, Can Tho city",
+        "type": "Institution",
+        "description": "Governmental health department in Vietnam."
+      },
+      {
+        "id": "Department of Food Science and Technology, Tokyo University of Marine Science and Technology",
+        "type": "Institution",
+        "description": "Academic research department in Japan."
+      },
+      {
+        "id": "Gelatin film",
+        "type": "Concept",
+        "description": "A biodegradable material used for food packaging."
+      },
+      {
+        "id": "Mechanical properties",
+        "type": "Concept",
+        "description": "Properties including tensile strength and elongation at break."
+      },
+      {
+        "id": "UV barrier properties",
+        "type": "Concept",
+        "description": "The ability of a film to block ultraviolet light."
+      },
+      {
+        "id": "Horse mackerel (Trachurus japonicus) scale",
+        "type": "Method",
+        "description": "Raw material used for gelatin extraction."
+      },
+      {
+        "id": "Gelatin extraction",
+        "type": "Method",
+        "description": "Process involving NaOH treatment and hot water extraction (70°C)."
+      },
+      {
+        "id": "Glycerol",
+        "type": "Method",
+        "description": "Plasticizer used at concentrations ranging from 0 to 25%."
+      },
+      {
+        "id": "HPLC system",
+        "type": "Method",
+        "description": "Equipment used for amino acid analysis."
+      },
+      {
+        "id": "Tensipresser TTP-50BX II",
+        "type": "Method",
+        "description": "Equipment used to measure mechanical properties."
+      },
+      {
+        "id": "Tensile strength (19.4 - 36.8 MPa)",
+        "type": "Metric",
+        "description": "Mechanical strength value range dependent on protein concentration."
+      },
+      {
+        "id": "Elongation at break (38.8 - 48.8%)",
+        "type": "Metric",
+        "description": "Flexibility measurement of the gelatin film."
+      },
+      {
+        "id": "Water vapor permeability (0.46 - 1.51 x 10^-10 gm^-1 Pa^-1 s^-1)",
+        "type": "Metric",
+        "description": "Measurement of moisture transmission through the film."
+      },
+      {
+        "id": "UV transmission at 200 nm (0.3%)",
+        "type": "Metric",
+        "description": "Specific measurement of the film's UV barrier effectiveness."
+      }
+    ],
+    "relations": [
+      {
+        "source": "The effects of preparation conditions on the properties of gelatin film from horse mackerel (Trachurus japonicus) scale",
+        "target": "Food Science and Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Le Thi Minh Thuy",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Do Quynh",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Dat",
+        "target": "Department of Animal Health, Can Tho city",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kazufumi Osako",
+        "target": "Department of Food Science and Technology, Tokyo University of Marine Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Gelatin extraction",
+        "target": "Gelatin film",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Glycerol",
+        "target": "Mechanical properties",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Tensipresser TTP-50BX II",
+        "target": "Tensile strength (19.4 - 36.8 MPa)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Tensipresser TTP-50BX II",
+        "target": "Elongation at break (38.8 - 48.8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gelatin extraction",
+        "target": "Water vapor permeability (0.46 - 1.51 x 10^-10 gm^-1 Pa^-1 s^-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gelatin film",
+        "target": "UV transmission at 200 nm (0.3%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

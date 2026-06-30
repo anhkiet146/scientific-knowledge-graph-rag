@@ -1,0 +1,175 @@
+{
+  "filename": "02-ED-NGUYEN DINH THANH(11-22)002.json",
+  "paper_title": "Analyzing the factors affecting the high school dropout in Ca Mau",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Education",
+        "type": "Domain",
+        "description": "The study focuses on educational issues, specifically student retention and dropout factors."
+      },
+      {
+        "id": "High school dropout",
+        "type": "Concept",
+        "description": "The phenomenon of students stopping school or not registering for future classes."
+      },
+      {
+        "id": "Academic performance",
+        "type": "Concept",
+        "description": "Student's success or failure in school subjects, identified as a primary reason for dropout."
+      },
+      {
+        "id": "Economic difficulties",
+        "type": "Concept",
+        "description": "Financial challenges of the family leading to children leaving school to work."
+      },
+      {
+        "id": "Unhappy family",
+        "type": "Concept",
+        "description": "Complicated family relationships, divorce, or lack of parental attention."
+      },
+      {
+        "id": "Learning motivation",
+        "type": "Concept",
+        "description": "The internal drive of students to attend and succeed in school."
+      },
+      {
+        "id": "Nguyen Dinh Thanh",
+        "type": "Author",
+        "description": "Author affiliated with Song Doc High School."
+      },
+      {
+        "id": "Hai Thanh Nguyen",
+        "type": "Author",
+        "description": "Author affiliated with Can Tho University."
+      },
+      {
+        "id": "Pham Thi Ngoc Diem",
+        "type": "Author",
+        "description": "Corresponding author affiliated with Can Tho University."
+      },
+      {
+        "id": "Song Doc High School",
+        "type": "Institution",
+        "description": "High school located in Ca Mau province, Viet Nam."
+      },
+      {
+        "id": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+        "type": "Institution",
+        "description": "Academic unit of Can Tho University in Viet Nam."
+      },
+      {
+        "id": "Dataset of interviews and surveys 2019-2020",
+        "type": "Dataset",
+        "description": "Data from 268 parents, 16 educational managers, and 168 homeroom teachers in Ca Mau."
+      },
+      {
+        "id": "Interviewing",
+        "type": "Method",
+        "description": "Qualitative data collection method used with parents and school leaders."
+      },
+      {
+        "id": "Surveying",
+        "type": "Method",
+        "description": "Quantitative data collection method used with homeroom teachers."
+      },
+      {
+        "id": "SWOT matrix analysis",
+        "type": "Method",
+        "description": "A strategic planning technique used to analyze strengths, weaknesses, opportunities, and threats."
+      },
+      {
+        "id": "Excel tools",
+        "type": "Method",
+        "description": "Software tools used for statistical functions and generating charts."
+      },
+      {
+        "id": "Dropout rate 2019-2020 (5.61%)",
+        "type": "Metric",
+        "description": "The percentage of high school students dropping out in Ca Mau during the 2019-2020 school year."
+      },
+      {
+        "id": "Poor academic performance reason (57.46%)",
+        "type": "Metric",
+        "description": "Percentage of parents identifying academic failure as the reason for dropout."
+      },
+      {
+        "id": "Economic difficulties reason (26.87%)",
+        "type": "Metric",
+        "description": "Percentage of dropout attributed to family financial issues."
+      },
+      {
+        "id": "Unhappy family reason (9.33%)",
+        "type": "Metric",
+        "description": "Percentage of dropout attributed to family relationship issues."
+      },
+      {
+        "id": "Improper learning motivation reason (6.34%)",
+        "type": "Metric",
+        "description": "Percentage of dropout attributed to lack of motivation."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Analyzing the factors affecting the high school dropout in Ca Mau",
+        "target": "Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Dinh Thanh",
+        "target": "Song Doc High School",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hai Thanh Nguyen",
+        "target": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thi Ngoc Diem",
+        "target": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Interviewing",
+        "target": "Dataset of interviews and surveys 2019-2020",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Surveying",
+        "target": "Dataset of interviews and surveys 2019-2020",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "SWOT matrix analysis",
+        "type": "USED_FOR",
+        "target": "High school dropout"
+      },
+      {
+        "source": "Excel tools",
+        "target": "Dropout rate 2019-2020 (5.61%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Interviewing",
+        "target": "Poor academic performance reason (57.46%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Interviewing",
+        "target": "Economic difficulties reason (26.87%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Interviewing",
+        "target": "Unhappy family reason (9.33%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Interviewing",
+        "target": "Improper learning motivation reason (6.34%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

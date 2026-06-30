@@ -1,0 +1,145 @@
+{
+  "filename": "01-AG-VO QUANG MINH(1-6).json",
+  "paper_title": "THE SOIL FERTILITY CLASSIFICATION AND CONSTRAINTS FOR RICE CULTIVATION IN THE MEKONG DELTA",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Soil Science",
+        "type": "Domain",
+        "description": "The study of soil as a natural resource including formation, classification, and fertility."
+      },
+      {
+        "id": "Vo Quang Minh",
+        "type": "Author",
+        "description": "Researcher and author from Can Tho University."
+      },
+      {
+        "id": "Le Quang Tri",
+        "type": "Author",
+        "description": "Researcher and author from Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "College of Environment and Natural Resources",
+        "type": "Institution",
+        "description": "A specific college within Can Tho University."
+      },
+      {
+        "id": "Soil fertility",
+        "type": "Concept",
+        "description": "The ability of soil to sustain agricultural plant growth."
+      },
+      {
+        "id": "Rice cultivation",
+        "type": "Concept",
+        "description": "The process of growing rice, specifically in the Mekong Delta."
+      },
+      {
+        "id": "Soil degradation",
+        "type": "Concept",
+        "description": "The decline in soil quality caused by improper use or environmental factors."
+      },
+      {
+        "id": "Fertility Capability Classification (FCC) system",
+        "type": "Method",
+        "description": "A system used to interpret soil taxonomy and tests in a quantitative manner for plants."
+      },
+      {
+        "id": "Soil chemical and physical analysis",
+        "type": "Method",
+        "description": "Laboratory procedures to determine soil properties like pH, ECe, and texture."
+      },
+      {
+        "id": "FAO (1974) guidelines",
+        "type": "Method",
+        "description": "Standardized guidelines for soil profile description."
+      },
+      {
+        "id": "300 soil profiles data",
+        "type": "Dataset",
+        "description": "Numerical data collected from 300 soil samples in rice fields."
+      },
+      {
+        "id": "28 field experiments data",
+        "type": "Dataset",
+        "description": "Data records regarding fertilizers efficiency from field trials."
+      },
+      {
+        "id": "25 rice soil fertility types",
+        "type": "Metric",
+        "description": "The number of distinct soil fertility categories identified in the study."
+      },
+      {
+        "id": "Lime amount (6-10 ton/ha)",
+        "type": "Metric",
+        "description": "The recommended dosage of lime to treat low soil pH and Al toxicity."
+      },
+      {
+        "id": "High liming rates (>10t/ha)",
+        "type": "Metric",
+        "description": "The required dosage for treating actual acid sulfate soils every 3 to 4 years."
+      },
+      {
+        "id": "Soil map scale (1/250.000)",
+        "type": "Metric",
+        "description": "The specific cartographic scale used for converting soil data."
+      }
+    ],
+    "relations": [
+      {
+        "source": "THE SOIL FERTILITY CLASSIFICATION AND CONSTRAINTS FOR RICE CULTIVATION IN THE MEKONG DELTA",
+        "target": "Soil Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Vo Quang Minh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Quang Minh",
+        "target": "College of Environment and Natural Resources",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Quang Tri",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Quang Tri",
+        "target": "College of Environment and Natural Resources",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Fertility Capability Classification (FCC) system",
+        "target": "Soil fertility",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Fertility Capability Classification (FCC) system",
+        "target": "25 rice soil fertility types",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fertility Capability Classification (FCC) system",
+        "target": "300 soil profiles data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Fertility Capability Classification (FCC) system",
+        "target": "28 field experiments data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Soil chemical and physical analysis",
+        "target": "Soil fertility",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

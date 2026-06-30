@@ -1,0 +1,85 @@
+{
+  "filename": "18-CE-NGUYEN MINH QUANG(140-148)53.json",
+  "paper_title": "SOUTHEAST ASIAN STUDIES AS A FIELD OF STUDY: A LOOK FROM IDEAS BEHIND THE SOCIOLOGY OF KNOWLEDGE AND INTER-DISCIPLINARY DEBATES",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Minh Quang",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational and research institution in Vietnam."
+      },
+      {
+        "id": "Area Studies",
+        "type": "Domain",
+        "description": "The primary field of research and scholarship pertaining to geographical, political, or cultural regions."
+      },
+      {
+        "id": "Sociology of Knowledge",
+        "type": "Concept",
+        "description": "A theoretical perspective that considers knowledge as a product of social relations within a specific context."
+      },
+      {
+        "id": "Southeast Asian Studies",
+        "type": "Concept",
+        "description": "A specific field of study focused on the Southeast Asian region."
+      },
+      {
+        "id": "Neo-liberalism",
+        "type": "Concept",
+        "description": "A political and economic ideology influencing scholar mobility and inter-disciplinary collaboration."
+      },
+      {
+        "id": "Cold War",
+        "type": "Concept",
+        "description": "A historical period that significantly influenced the birth and growth of Area Studies."
+      },
+      {
+        "id": "Sociology of knowledge approach",
+        "type": "Method",
+        "description": "The analytical framework used to examine the development and features of Southeast Asian Studies."
+      },
+      {
+        "id": "Field research",
+        "type": "Method",
+        "description": "A preferred methodology for Area Studies researchers involving direct empirical study in the field."
+      },
+      {
+        "id": "Interdisciplinary collaborations",
+        "type": "Method",
+        "description": "Collaborative efforts between different academic fields to improve academic efficiency."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Minh Quang",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Sociology of knowledge approach",
+        "target": "Southeast Asian Studies",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sociology of knowledge approach",
+        "target": "Area Studies",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Field research",
+        "target": "Area Studies",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Interdisciplinary collaborations",
+        "target": "Area Studies",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+    "filename": "02-824-DINH VAN DUY(8-13)275.json",
+    "paper_title": "Shoreline evolution in adjacent to a coastal structure in Hiep Thanh commune, Duyen Hai district, Tra Vinh province",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Coastal Engineering",
+                "type": "Domain",
+                "description": "The primary field of research concerning shoreline dynamics and coastal structures."
+            },
+            {
+                "id": "Dinh Van Duy",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Tran Nhat Thanh",
+                "type": "Author",
+                "description": "Researcher from National Taiwan Ocean University."
+            },
+            {
+                "id": "Pham Tan Dat",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Lieu Do Nhut An",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Tran Van Ty",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Faculty of Water Resource Engineering, College of Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "Department of Harbor and River Engineering, National Taiwan Ocean University",
+                "type": "Institution",
+                "description": "Academic institution in Taiwan."
+            },
+            {
+                "id": "Coastal erosion",
+                "type": "Concept",
+                "description": "The loss or displacement of land, or the long-term removal of sediment and rocks along the coastline."
+            },
+            {
+                "id": "Shoreline evolution",
+                "type": "Concept",
+                "description": "The process of change in the position and shape of the shoreline over time."
+            },
+            {
+                "id": "Longshore sand transport",
+                "type": "Concept",
+                "description": "The movement of sediments along the coast parallel to the shoreline."
+            },
+            {
+                "id": "Remote sensing",
+                "type": "Method",
+                "description": "The acquisition of information about an object or phenomenon without making physical contact."
+            },
+            {
+                "id": "Diffusion theory",
+                "type": "Method",
+                "description": "A theoretical approach used to model the transport of sediment."
+            },
+            {
+                "id": "One-line model",
+                "type": "Method",
+                "description": "An analytical solution describing the interruption of sand transport alongshore."
+            },
+            {
+                "id": "NDWI index",
+                "type": "Method",
+                "description": "Normalized Difference Water Index used to extract shoreline from satellite imagery."
+            },
+            {
+                "id": "Linear regression",
+                "type": "Method",
+                "description": "Statistical method used to predict the trend of shoreline evolution."
+            },
+            {
+                "id": "Sentinel-2 images",
+                "type": "Dataset",
+                "description": "Satellite imagery data from 2021 to 2023 used for observation."
+            },
+            {
+                "id": "Beach erosion rate (44 m/year)",
+                "type": "Metric",
+                "description": "The measured rate of land loss near the embankment."
+            },
+            {
+                "id": "Diffusion coefficient (130 m2/day)",
+                "type": "Metric",
+                "description": "The calculated coefficient for longshore sand transport."
+            },
+            {
+                "id": "R-squared (0.919)",
+                "type": "Metric",
+                "description": "The coefficient of determination for the linear regression trend line."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Remote sensing",
+                "target": "Coastal Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Diffusion theory",
+                "target": "Coastal Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Remote sensing",
+                "target": "Shoreline evolution",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Diffusion theory",
+                "target": "Shoreline evolution",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "One-line model",
+                "target": "Longshore sand transport",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "NDWI index",
+                "target": "Sentinel-2 images",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Remote sensing",
+                "target": "Beach erosion rate (44 m/year)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Diffusion theory",
+                "target": "Diffusion coefficient (130 m2/day)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Linear regression",
+                "target": "R-squared (0.919)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Dinh Van Duy",
+                "target": "Faculty of Water Resource Engineering, College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Nhat Thanh",
+                "target": "Department of Harbor and River Engineering, National Taiwan Ocean University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Tan Dat",
+                "target": "Faculty of Water Resource Engineering, College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lieu Do Nhut An",
+                "target": "Faculty of Water Resource Engineering, College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Van Ty",
+                "target": "Faculty of Water Resource Engineering, College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

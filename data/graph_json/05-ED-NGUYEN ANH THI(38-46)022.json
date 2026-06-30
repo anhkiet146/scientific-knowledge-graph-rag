@@ -1,0 +1,120 @@
+{
+  "filename": "05-ED-NGUYEN ANH THI(38-46)022.json",
+  "paper_title": "Impacts of a one-shot training program for in-service teachers on the application of Task-based Language Teaching",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Task-based Language Teaching (TBLT)",
+        "type": "Concept",
+        "description": "A language teaching method that uses tasks as the core unit of instruction."
+      },
+      {
+        "id": "Communicative Language Teaching (CLT)",
+        "type": "Concept",
+        "description": "An approach to language teaching that emphasizes interaction as both the means and the ultimate goal of study."
+      },
+      {
+        "id": "Presentation-practice-production (PPP)",
+        "type": "Concept",
+        "description": "A traditional three-stage model of language teaching."
+      },
+      {
+        "id": "Learner-centered education",
+        "type": "Concept",
+        "description": "An approach where students are active, thinking decision makers in the learning process."
+      },
+      {
+        "id": "Language Education",
+        "type": "Domain",
+        "description": "The primary field of research concerning foreign language teaching in Vietnam."
+      },
+      {
+        "id": "Nguyen Thu Anh",
+        "type": "Author",
+        "description": "Author from the School of Foreign Languages, Can Tho University."
+      },
+      {
+        "id": "Phuong Hoang Yen",
+        "type": "Author",
+        "description": "Author from the School of Foreign Languages, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "A university located in Vietnam."
+      },
+      {
+        "id": "One-shot training program",
+        "type": "Method",
+        "description": "A single-day workshop focused on theoretical background and basic principles of TBLT."
+      },
+      {
+        "id": "Video-taped classroom observation",
+        "type": "Method",
+        "description": "A qualitative data collection tool used to observe teachers' classroom performances."
+      },
+      {
+        "id": "Rating scheme (4-point scale)",
+        "type": "Method",
+        "description": "An evaluation tool where scores range from 1 (Very unsuccessful) to 4 (Very successful)."
+      },
+      {
+        "id": "Overall TBLT application failure (M = 1.25)",
+        "type": "Metric",
+        "description": "The mean score indicating that teachers generally failed to apply TBLT principles."
+      },
+      {
+        "id": "Teacher 1 TBLT principles score (M = 1.0)",
+        "type": "Metric",
+        "description": "Mean score for teacher 1 regarding TBLT teaching principles."
+      },
+      {
+        "id": "Teacher 3 TBLT role score (M = 1.5)",
+        "type": "Metric",
+        "description": "Mean score for teacher 3 regarding the adoption of the teacher's role in TBLT."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Language Education",
+        "target": "Language Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thu Anh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phuong Hoang Yen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "One-shot training program",
+        "target": "Task-based Language Teaching (TBLT)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "One-shot training program",
+        "target": "Overall TBLT application failure (M = 1.25)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Video-taped classroom observation",
+        "target": "Teacher 1 TBLT principles score (M = 1.0)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Video-taped classroom observation",
+        "target": "Teacher 3 TBLT role score (M = 1.5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Rating scheme (4-point scale)",
+        "target": "Overall TBLT application failure (M = 1.25)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

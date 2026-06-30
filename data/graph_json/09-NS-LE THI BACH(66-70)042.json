@@ -1,0 +1,225 @@
+{
+  "filename": "09-NS-LE THI BACH(66-70)042.json",
+  "paper_title": "Chemical composition and antioxidant activity of Psidium guajava L. leaves",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Natural Products Chemistry",
+        "type": "Domain",
+        "description": "The study of chemical substances found in nature, specifically from Psidium guajava L. leaves."
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "The ability of compounds to inhibit oxidation and scavenge free radicals."
+      },
+      {
+        "id": "Chemical composition",
+        "type": "Concept",
+        "description": "The arrangement, type, and ratio of atoms in molecules of the guava leaf extracts."
+      },
+      {
+        "id": "DPPH scavenging capacity assay",
+        "type": "Method",
+        "description": "A method to determine the antioxidant capacity of substances based on the reduction of DPPH radicals."
+      },
+      {
+        "id": "ABTS scavenging activity assay",
+        "type": "Method",
+        "description": "A method to measure antioxidant activity by the decolorization of the ABTS radical cation."
+      },
+      {
+        "id": "Repeated column chromatography",
+        "type": "Method",
+        "description": "A technique used to isolate individual chemical compounds from mixtures."
+      },
+      {
+        "id": "NMR spectroscopy",
+        "type": "Method",
+        "description": "Nuclear Magnetic Resonance spectroscopy used for structural elucidation of isolated compounds."
+      },
+      {
+        "id": "Ethanol 96%",
+        "type": "Method",
+        "description": "Solvent used for the initial extraction of guava leaves."
+      },
+      {
+        "id": "Ethyl acetate",
+        "type": "Method",
+        "description": "Solvent used for fractionation and shown to have good antioxidant activity."
+      },
+      {
+        "id": "n-butanol",
+        "type": "Method",
+        "description": "Solvent used for fractionation and shown to have good antioxidant activity."
+      },
+      {
+        "id": "Crude ethanol extract (700 g)",
+        "type": "Metric",
+        "description": "The mass of the initial residue obtained after ethanol extraction."
+      },
+      {
+        "id": "Ethyl acetate extract (75 g)",
+        "type": "Metric",
+        "description": "The mass yield of the ethyl acetate fraction."
+      },
+      {
+        "id": "Compound 1 (50 mg)",
+        "type": "Metric",
+        "description": "The isolated amount of avicularin."
+      },
+      {
+        "id": "Compound 2 (20 mg)",
+        "type": "Metric",
+        "description": "The isolated amount of kaempferol."
+      },
+      {
+        "id": "Melting point (216-218ºC)",
+        "type": "Metric",
+        "description": "The specific melting temperature range for compound 1."
+      },
+      {
+        "id": "Le Thi Bach",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Le Tien Dung",
+        "type": "Author",
+        "description": "Researcher at the Vietnam Academy of Science and Technology."
+      },
+      {
+        "id": "Nguyen Trong Tuan",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Ho Thanh Binh",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Do Xuan Canh",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Lam Chan Du",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Bui Ngoc Anh",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Hoang Thien Long",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Tran Nguyen Gia Huy",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Bui Thi Buu Hue",
+        "type": "Author",
+        "description": "Corresponding researcher at Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Vietnamese academic institution, specifically the Department of Chemistry."
+      },
+      {
+        "id": "Graduate University of Science and Technology, Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "National research institution in Viet Nam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Natural Products Chemistry",
+        "target": "Chemical composition",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "DPPH scavenging capacity assay",
+        "target": "Antioxidant activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ABTS scavenging activity assay",
+        "target": "Antioxidant activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "NMR spectroscopy",
+        "target": "Chemical composition",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Ethanol 96%",
+        "target": "Crude ethanol extract (700 g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Repeated column chromatography",
+        "target": "Compound 1 (50 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Le Thi Bach",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Tien Dung",
+        "target": "Graduate University of Science and Technology, Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trong Tuan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Thanh Binh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Xuan Canh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lam Chan Du",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Ngoc Anh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hoang Thien Long",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Nguyen Gia Huy",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Thi Buu Hue",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

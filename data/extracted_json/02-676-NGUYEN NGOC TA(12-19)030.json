@@ -1,0 +1,175 @@
+{
+    "filename": "02-676-NGUYEN NGOC TA(12-19)030.json",
+    "paper_title": "An interpretable approach for trustworthy intrusion detection systems against evasion samples",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Cybersecurity",
+                "type": "Domain",
+                "description": "The main field of the research focusing on network security and threat detection."
+            },
+            {
+                "id": "Nguyen Ngoc Tai",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Hien Do Hoang",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Phan The Duy",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Van-Hau Pham",
+                "type": "Author",
+                "description": "Corresponding author of the research paper."
+            },
+            {
+                "id": "University of Information Technology",
+                "type": "Institution",
+                "description": "Educational and research institution in Ho Chi Minh City, Vietnam."
+            },
+            {
+                "id": "Viet Nam National University Ho Chi Minh city",
+                "type": "Institution",
+                "description": "Parent university system of the University of Information Technology."
+            },
+            {
+                "id": "Intrusion Detection Systems (IDS)",
+                "type": "Concept",
+                "description": "Systems designed to detect malicious activities or policy violations in a network."
+            },
+            {
+                "id": "Adversarial Attacks",
+                "type": "Concept",
+                "description": "Attacks where malicious inputs are specifically crafted to deceive machine learning models."
+            },
+            {
+                "id": "Explainable Artificial Intelligence (XAI)",
+                "type": "Concept",
+                "description": "Methods and techniques in the application of AI technology such that the results of the solution can be understood by human experts."
+            },
+            {
+                "id": "Deep Neural Networks (DNN)",
+                "type": "Method",
+                "description": "A type of machine learning model used for classification tasks in IDS."
+            },
+            {
+                "id": "Convolutional Neural Network (CNN)",
+                "type": "Method",
+                "description": "A deep learning model proposed as an AE detector to distinguish between benign and adversarial samples."
+            },
+            {
+                "id": "SHAP",
+                "type": "Method",
+                "description": "An XAI technique used to enhance transparency by calculating feature contributions to predictions."
+            },
+            {
+                "id": "SMOTE",
+                "type": "Method",
+                "description": "A synthetic over-sampling technique used to balance classes in the dataset."
+            },
+            {
+                "id": "NSL-KDD",
+                "type": "Dataset",
+                "description": "A benchmark dataset used for evaluating intrusion detection systems."
+            },
+            {
+                "id": "Accuracy (99.46%)",
+                "type": "Metric",
+                "description": "The performance result achieved by the proposed AE detector in the experimental environment."
+            },
+            {
+                "id": "Accuracy on FGSM (99.23%)",
+                "type": "Metric",
+                "description": "Adversarial example detection rate achieved by Ko and Lim's method on FGSM attack."
+            },
+            {
+                "id": "DNN Epochs (5)",
+                "type": "Metric",
+                "description": "Hyper-parameter specifying the number of training cycles for the DNN."
+            },
+            {
+                "id": "DNN Batch size (1,024)",
+                "type": "Metric",
+                "description": "Hyper-parameter for the number of training examples utilized in one iteration for the DNN."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Ngoc Tai",
+                "target": "University of Information Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hien Do Hoang",
+                "target": "University of Information Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan The Duy",
+                "target": "University of Information Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Van-Hau Pham",
+                "target": "University of Information Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ngoc Tai",
+                "target": "Viet Nam National University Ho Chi Minh city",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hien Do Hoang",
+                "target": "Viet Nam National University Ho Chi Minh city",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan The Duy",
+                "target": "Viet Nam National University Ho Chi Minh city",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Van-Hau Pham",
+                "target": "Viet Nam National University Ho Chi Minh city",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "Accuracy (99.46%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "NSL-KDD",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "Adversarial Attacks",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Deep Neural Networks (DNN)",
+                "target": "Intrusion Detection Systems (IDS)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SHAP",
+                "target": "Explainable Artificial Intelligence (XAI)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "An interpretable approach for trustworthy intrusion detection systems against evasion samples",
+                "target": "Cybersecurity",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

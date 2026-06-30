@@ -1,0 +1,155 @@
+{
+  "filename": "06-AV-TRAN NGOC BICH(40-45)006.json",
+  "paper_title": "Pathogenesis of infectious bronchitis virus (IBV) and laboratory test methods available to detect IBV in chickens",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Pathogenesis of infectious bronchitis virus (IBV) and laboratory test methods available to detect IBV in chickens",
+        "type": "Concept",
+        "description": "The main research topic focusing on IBV development and detection"
+      },
+      {
+        "id": "Veterinary Medicine",
+        "type": "Domain",
+        "description": "The study of diseases, disorders, and injuries in animals"
+      },
+      {
+        "id": "Tran Ngoc Bich",
+        "type": "Author",
+        "description": "Lead author affiliated with Can Tho University"
+      },
+      {
+        "id": "Nguyen Phuoc Thanh",
+        "type": "Author",
+        "description": "Co-author affiliated with Can Tho University"
+      },
+      {
+        "id": "Nguyen Thi Cam Loan",
+        "type": "Author",
+        "description": "Co-author affiliated with Vinh Long Community College"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam"
+      },
+      {
+        "id": "Vinh Long Community College",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam"
+      },
+      {
+        "id": "Infectious bronchitis (IB)",
+        "type": "Concept",
+        "description": "A highly contagious disease of chickens caused by gammacoronavirus"
+      },
+      {
+        "id": "Pathogenesis",
+        "type": "Concept",
+        "description": "The manner of development of a disease"
+      },
+      {
+        "id": "RT-PCR",
+        "type": "Method",
+        "description": "Reverse transcription – polymerase chain reaction for genotype identification"
+      },
+      {
+        "id": "ELISA",
+        "type": "Method",
+        "description": "Enzyme-linked immunosorbent assay for detecting antibodies"
+      },
+      {
+        "id": "Electron microscope",
+        "type": "Method",
+        "description": "Tool for observing virus morphological characteristics"
+      },
+      {
+        "id": "Virus isolation",
+        "type": "Method",
+        "description": "Standard method for IB diagnosis using embryos or cultures"
+      },
+      {
+        "id": "Next generation sequencing (NGS)",
+        "type": "Method",
+        "description": "Advanced method for sequencing whole genomes"
+      },
+      {
+        "id": "Viral genome length (27.6 Kb)",
+        "type": "Metric",
+        "description": "The length of the IBV viral genome"
+      },
+      {
+        "id": "Virus diameter (120 nm)",
+        "type": "Metric",
+        "description": "Size measurement of the coronavirus structure"
+      },
+      {
+        "id": "Incubation temperature (37 0 C)",
+        "type": "Metric",
+        "description": "Temperature used for incubating inoculated eggs"
+      },
+      {
+        "id": "Recovery time (10 to 20 days)",
+        "type": "Metric",
+        "description": "Time frame for complete recovery of the trachea"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Pathogenesis of infectious bronchitis virus (IBV) and laboratory test methods available to detect IBV in chickens",
+        "target": "Veterinary Medicine",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Ngoc Bich",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Phuoc Thanh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Cam Loan",
+        "target": "Vinh Long Community College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "RT-PCR",
+        "target": "Infectious bronchitis (IB)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ELISA",
+        "target": "Infectious bronchitis (IB)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Electron microscope",
+        "target": "Virus diameter (120 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Virus isolation",
+        "target": "Incubation temperature (37 0 C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "RT-PCR",
+        "target": "Viral genome length (27.6 Kb)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pathogenesis",
+        "target": "Recovery time (10 to 20 days)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Next generation sequencing (NGS)",
+        "target": "Infectious bronchitis (IB)",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

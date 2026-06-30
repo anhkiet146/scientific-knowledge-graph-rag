@@ -1,0 +1,7 @@
+﻿stage,component,description,average_time_ms,proportion_percent
+1,Intent detection,Gemini 3 Flash Preview classifies the request and determines whether it should enter the graph pipeline.,4186,17.07
+2,Keyword extraction and query analysis,"The model identifies scientific entities, lexical variants, bilingual search terms, expected answer types, and preferred graph relations.",7927,32.33
+3,Graph retrieval,"Neo4j full-text and lexical search, anchor expansion, and merging of graph candidates.",1432,5.84
+4,Context ranking,"Candidate deduplication, relevance scoring, evidence filtering, and top-context selection.",350,1.43
+5,Answer generation,Gemini 3 Flash Preview synthesizes the final answer from ranked graph evidence.,10621,43.31
+total,Total backend processing,Complete time from request receipt to the returned backend response.,24516,100.0

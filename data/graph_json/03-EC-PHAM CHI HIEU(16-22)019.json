@@ -1,0 +1,155 @@
+{
+  "filename": "03-EC-PHAM CHI HIEU(16-22)019.json",
+  "paper_title": "The impact of the \"National target program on new rural development\" on household income: The case of Go Quao district, Kien Giang province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Pham Chi Hieu",
+        "type": "Author",
+        "description": "Author from Kien Giang Organization Board of Party Committee of the Centrally-run Businesses’ Sector."
+      },
+      {
+        "id": "Pham Le Thong",
+        "type": "Author",
+        "description": "Author from the College of Economics, Can Tho University."
+      },
+      {
+        "id": "Kien Giang Organization Board of Party Committee of the Centrally-run Businesses’ Sector",
+        "type": "Institution",
+        "description": "Affiliation of the first author in Vietnam."
+      },
+      {
+        "id": "College of Economics, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Rural Development Economics",
+        "type": "Domain",
+        "description": "The primary research field focusing on rural programs and household income."
+      },
+      {
+        "id": "National Target Program on New Rural Development (NTP-NRD)",
+        "type": "Concept",
+        "description": "A government program in Vietnam aimed at building new rural areas based on socio-economic criteria."
+      },
+      {
+        "id": "Households' income",
+        "type": "Concept",
+        "description": "The primary outcome variable measuring the financial status of families in Go Quao district."
+      },
+      {
+        "id": "Livelihood assets",
+        "type": "Concept",
+        "description": "Resources such as physical and social capital that determine household income."
+      },
+      {
+        "id": "Difference in Differences (DiD) estimator",
+        "type": "Method",
+        "description": "A statistical technique used to estimate the impact of a treatment by comparing the changes in outcomes over time between a treatment group and a control group."
+      },
+      {
+        "id": "Random effects model (REM)",
+        "type": "Method",
+        "description": "A statistical model used to produce consistent estimates for panel data by handling correlations within households across years."
+      },
+      {
+        "id": "Survey on 108 households",
+        "type": "Method",
+        "description": "The data collection process conducted in 2015 at the study site."
+      },
+      {
+        "id": "Panel data of 194 households (2010-2014)",
+        "type": "Dataset",
+        "description": "Retrospective digital records of household income and socio-economic characteristics over a 5-year period."
+      },
+      {
+        "id": "Growth of household income (10%)",
+        "type": "Metric",
+        "description": "The reported increase in income in the Mekong Delta by 2014."
+      },
+      {
+        "id": "Decrease in poverty rate (3%)",
+        "type": "Metric",
+        "description": "The reduction in poverty observed in the Mekong Delta region."
+      },
+      {
+        "id": "Treatment effect in 2011 (9%)",
+        "type": "Metric",
+        "description": "The higher growth rate of income for treated households in the first year."
+      },
+      {
+        "id": "Cooperative participation income increase (39%)",
+        "type": "Metric",
+        "description": "The estimated increase in income associated with being part of a cooperative."
+      },
+      {
+        "id": "Explanation of variation (22%)",
+        "type": "Metric",
+        "description": "The R-squared value or the extent to which independent variables explain the dependent variable."
+      },
+      {
+        "id": "Concrete rural roads (3,200 km)",
+        "type": "Metric",
+        "description": "Infrastructure metric achieved in the Mekong Delta."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Pham Chi Hieu",
+        "target": "Kien Giang Organization Board of Party Committee of the Centrally-run Businesses’ Sector",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Le Thong",
+        "target": "College of Economics, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "National Target Program on New Rural Development (NTP-NRD)",
+        "target": "Rural Development Economics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Difference in Differences (DiD) estimator",
+        "target": "National Target Program on New Rural Development (NTP-NRD)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Difference in Differences (DiD) estimator",
+        "target": "Households' income",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Difference in Differences (DiD) estimator",
+        "target": "Panel data of 194 households (2010-2014)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Difference in Differences (DiD) estimator",
+        "target": "Treatment effect in 2011 (9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Random effects model (REM)",
+        "target": "Explanation of variation (22%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "National Target Program on New Rural Development (NTP-NRD)",
+        "target": "Growth of household income (10%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "National Target Program on New Rural Development (NTP-NRD)",
+        "target": "Decrease in poverty rate (3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Random effects model (REM)",
+        "target": "Cooperative participation income increase (39%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

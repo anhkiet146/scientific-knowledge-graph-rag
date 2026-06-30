@@ -1,0 +1,180 @@
+{
+    "filename": "17-FT-PHAN THI THANH QUE(127-139)036.json",
+    "paper_title": "Effect of controlled atmosphere and storage temperature on the weight loss and cap colour of fresh mushrooms (Agaricus bisporus)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Science and Post-harvest Technology",
+                "type": "Domain",
+                "description": "The primary field of study regarding the preservation and quality maintenance of mushrooms."
+            },
+            {
+                "id": "Phan Thi Thanh Que",
+                "type": "Author",
+                "description": "Researcher from the College of Agriculture and Applied Biology, Can Tho University."
+            },
+            {
+                "id": "Bert Verlinden",
+                "type": "Author",
+                "description": "Researcher from the Faculty of Bioscience Engineering, KU Leuven."
+            },
+            {
+                "id": "Bart Nicolaï",
+                "type": "Author",
+                "description": "Researcher from the Faculty of Bioscience Engineering, KU Leuven."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Vietnam."
+            },
+            {
+                "id": "KU Leuven",
+                "type": "Institution",
+                "description": "University located in Belgium."
+            },
+            {
+                "id": "Controlled Atmosphere Storage",
+                "type": "Method",
+                "description": "Technology used to extend shelf-life by altering O2 and CO2 concentrations."
+            },
+            {
+                "id": "Minolta colorimeter CR-300",
+                "type": "Method",
+                "description": "Equipment used for measurement of mushroom cap colour."
+            },
+            {
+                "id": "First order degradation model",
+                "type": "Method",
+                "description": "Mathematical model used to describe colour loss following an exponential law."
+            },
+            {
+                "id": "Arrhenius type model",
+                "type": "Method",
+                "description": "Model used to describe the temperature dependency of the apparent rate constant."
+            },
+            {
+                "id": "Statistical Analysis Systems (SAS) version 6.11",
+                "type": "Method",
+                "description": "Software used for developing mathematical models and statistical analysis."
+            },
+            {
+                "id": "Matlab software",
+                "type": "Method",
+                "description": "Software used for model procedure development."
+            },
+            {
+                "id": "Agaricus bisporus",
+                "type": "Method",
+                "description": "Fresh cultivated mushrooms used as the primary experimental material."
+            },
+            {
+                "id": "Weight loss",
+                "type": "Concept",
+                "description": "The loss of mass in mushrooms due to water evaporation and respiration."
+            },
+            {
+                "id": "Cap colour",
+                "type": "Concept",
+                "description": "A quality parameter involving whiteness (L*), redness (a*), and yellowness (b*)."
+            },
+            {
+                "id": "Shelf-life",
+                "type": "Concept",
+                "description": "The period for which the mushrooms remain marketable and acceptable to consumers."
+            },
+            {
+                "id": "Enzymatic browning",
+                "type": "Concept",
+                "description": "Discoloration process caused by polyphenol oxidase activity under high CO2."
+            },
+            {
+                "id": "Experimental mushroom quality dataset",
+                "type": "Dataset",
+                "description": "Numerical data collected over 9 days regarding weight loss and colour values."
+            },
+            {
+                "id": "Weight loss (0.7% to 3.6%)",
+                "type": "Metric",
+                "description": "Observed range of weight loss after 9 days across different temperatures."
+            },
+            {
+                "id": "Storage temperature (1°C, 6°C, 12°C)",
+                "type": "Metric",
+                "description": "Controlled temperatures used during the experiment."
+            },
+            {
+                "id": "Gas combinations (3% to 21% O2 and 0% to 12% CO2)",
+                "type": "Metric",
+                "description": "The varying levels of oxygen and carbon dioxide used in controlled atmospheres."
+            },
+            {
+                "id": "Shelf-life (9 to 15 days)",
+                "type": "Metric",
+                "description": "Marketable duration at temperatures below 6°C."
+            },
+            {
+                "id": "Shelf-life (less than 3 days)",
+                "type": "Metric",
+                "description": "Marketable duration at 12°C under air conditions."
+            },
+            {
+                "id": "Consumer acceptability (0.5)",
+                "type": "Metric",
+                "description": "Fixed threshold value for mushroom acceptability."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of controlled atmosphere and storage temperature on the weight loss and cap colour of fresh mushrooms (Agaricus bisporus)",
+                "target": "Food Science and Post-harvest Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Phan Thi Thanh Que",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bert Verlinden",
+                "target": "KU Leuven",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bart Nicolaï",
+                "target": "KU Leuven",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Controlled Atmosphere Storage",
+                "target": "Shelf-life",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "First order degradation model",
+                "target": "Cap colour",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Controlled Atmosphere Storage",
+                "target": "Weight loss (0.7% to 3.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "First order degradation model",
+                "target": "Shelf-life (9 to 15 days)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Arrhenius type model",
+                "target": "Experimental mushroom quality dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Statistical Analysis Systems (SAS) version 6.11",
+                "target": "Experimental mushroom quality dataset",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

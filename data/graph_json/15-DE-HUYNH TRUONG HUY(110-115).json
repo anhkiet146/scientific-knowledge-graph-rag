@@ -1,0 +1,115 @@
+{
+  "filename": "15-DE-HUYNH TRUONG HUY(110-115).json",
+  "paper_title": "ESTIMATION OF FAMILY LABOR SUPPLY: EVIDENCE FROM THE MEKONG RIVER DELTA IN VIET NAM",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "ESTIMATION OF FAMILY LABOR SUPPLY: EVIDENCE FROM THE MEKONG RIVER DELTA IN VIET NAM",
+        "type": "Concept",
+        "description": "The title and primary research focus regarding familial labor allocation in Vietnam."
+      },
+      {
+        "id": "Family labor supply",
+        "type": "Concept",
+        "description": "The central concept exploring how families allocate labor in response to market wage changes."
+      },
+      {
+        "id": "Neoclassical theory",
+        "type": "Concept",
+        "description": "The theoretical framework used to examine hypotheses on family labor supply."
+      },
+      {
+        "id": "Shadow wage",
+        "type": "Concept",
+        "description": "An exogenous factor in the labor supply function estimated from market wages."
+      },
+      {
+        "id": "Forward bending curve",
+        "type": "Concept",
+        "description": "A labor supply curve where supply increases in parallel with wage rises."
+      },
+      {
+        "id": "IV estimation methodology",
+        "type": "Method",
+        "description": "Instrumental Variable methodology used to obtain consistent estimations and address endogeneity."
+      },
+      {
+        "id": "OLS methodology",
+        "type": "Method",
+        "description": "Ordinary Least Squares methodology used to estimate coefficients of the labor supply equation."
+      },
+      {
+        "id": "Viet Nam Household Living Standards Survey 2008 (VHLSS 2008)",
+        "type": "Dataset",
+        "description": "The digital survey data source conducted by the GSO and World Bank."
+      },
+      {
+        "id": "Sample size (1,860 families)",
+        "type": "Metric",
+        "description": "The specific number of family units extracted from the VHLSS 2008 for analysis."
+      },
+      {
+        "id": "Shadow wage variation effect (around 5%)",
+        "type": "Metric",
+        "description": "The recorded effect size of shadow wage changes interpreted by observed wage variation."
+      },
+      {
+        "id": "Rural population (more than 70%)",
+        "type": "Metric",
+        "description": "The percentage of the total population in the MRD living in rural areas based on 2008 data."
+      },
+      {
+        "id": "Economics",
+        "type": "Domain",
+        "description": "The broader field of research, specifically labor and development economics."
+      },
+      {
+        "id": "Huynh Truong Huy",
+        "type": "Author",
+        "description": "The researcher from Can Tho University who authored the article."
+      },
+      {
+        "id": "College of Economics, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution in Vietnam where the author is affiliated."
+      }
+    ],
+    "relations": [
+      {
+        "source": "ESTIMATION OF FAMILY LABOR SUPPLY: EVIDENCE FROM THE MEKONG RIVER DELTA IN VIET NAM",
+        "target": "Economics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "IV estimation methodology",
+        "target": "Sample size (1,860 families)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "IV estimation methodology",
+        "target": "Shadow wage variation effect (around 5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "IV estimation methodology",
+        "target": "Family labor supply",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "OLS methodology",
+        "target": "Family labor supply",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "IV estimation methodology",
+        "target": "Viet Nam Household Living Standards Survey 2008 (VHLSS 2008)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Huynh Truong Huy",
+        "target": "College of Economics, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

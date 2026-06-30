@@ -1,0 +1,170 @@
+{
+    "filename": "07-850-TRONG PHUOC HUYNH(64-70)307.json",
+    "paper_title": "Exploring the effects of waste plastic aggregate on styrene-butadiene-styrenemodified asphalt binders for sustainable rural pavements",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Sustainable rural pavements",
+                "type": "Concept",
+                "description": "The research focus on developing durable and cost-effective road surfaces for rural areas with limited resources."
+            },
+            {
+                "id": "Plastic waste management",
+                "type": "Concept",
+                "description": "The environmental concern of processing and repurposing massive amounts of annual plastic waste."
+            },
+            {
+                "id": "Waste plastic aggregate (WPA)",
+                "type": "Method",
+                "description": "Recycled plastic particles (polyethylene, polypropylene, polystyrene) used as a partial replacement in asphalt mixtures."
+            },
+            {
+                "id": "Styrene-butadiene-styrene (SBS)",
+                "type": "Method",
+                "description": "A polymer modifier used to enhance the elasticity and fatigue resistance of asphalt binders."
+            },
+            {
+                "id": "Superpave method",
+                "type": "Method",
+                "description": "A system for proportioning asphalt mixtures and compacting samples using a gyratory compactor."
+            },
+            {
+                "id": "Indirect tensile strength (ITS) test",
+                "type": "Method",
+                "description": "A test to evaluate the tensile strength and cracking resistance of asphalt specimens."
+            },
+            {
+                "id": "Hamburg wheel-tracking test (HWTT)",
+                "type": "Method",
+                "description": "A test used to evaluate the rutting resistance of asphalt mixtures under simulated traffic loading."
+            },
+            {
+                "id": "Dynamic modulus testing",
+                "type": "Method",
+                "description": "A test to assess stiffness and deformation resistance across different loading frequencies."
+            },
+            {
+                "id": "Tensile strength ratio (TSR) test",
+                "type": "Method",
+                "description": "A test used to determine the moisture susceptibility of asphalt mixtures."
+            },
+            {
+                "id": "TSR (82.4% in control)",
+                "type": "Metric",
+                "description": "The highest tensile strength ratio observed in the mixture without WPA."
+            },
+            {
+                "id": "TSR (73.7% at 6% WPA)",
+                "type": "Metric",
+                "description": "The tensile strength ratio observed at the highest concentration of waste plastic aggregate."
+            },
+            {
+                "id": "Softening point (58.7°C)",
+                "type": "Metric",
+                "description": "A measure of the temperature at which the SBS-modified asphalt binder begins to soften."
+            },
+            {
+                "id": "ITS (0.88 MPa at 6% WPCM)",
+                "type": "Metric",
+                "description": "The indirect tensile strength value for the 6% waste plastic content mixture."
+            },
+            {
+                "id": "Stiffness (2.5 kN/mm at 6% WPCM)",
+                "type": "Metric",
+                "description": "The stiffness value recorded for the 6% waste plastic content mixture."
+            },
+            {
+                "id": "Rutting depth (4.59 mm at 6% WPA)",
+                "type": "Metric",
+                "description": "The final rutting depth measured after 20,000 cycles in the HWTT for the 6% WPA mixture."
+            },
+            {
+                "id": "Civil Engineering",
+                "type": "Domain",
+                "description": "The branch of engineering dealing with the design and construction of infrastructure like pavements."
+            },
+            {
+                "id": "Trong-Phuoc Huynh",
+                "type": "Author",
+                "description": "Researcher from the Faculty of Civil Engineering, Can Tho University."
+            },
+            {
+                "id": "Sang-Yum Lee",
+                "type": "Author",
+                "description": "Researcher from the Faculty of Civil Engineering, Induk University."
+            },
+            {
+                "id": "Tri Ho Minh Le",
+                "type": "Author",
+                "description": "Corresponding author from the Faculty of Civil Engineering, Nguyen Tat Thanh University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution located in Viet Nam."
+            },
+            {
+                "id": "Induk University",
+                "type": "Institution",
+                "description": "Academic institution located in the Republic of Korea."
+            },
+            {
+                "id": "Nguyen Tat Thanh University",
+                "type": "Institution",
+                "description": "Academic institution located in Viet Nam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Civil Engineering",
+                "target": "Sustainable rural pavements",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Waste plastic aggregate (WPA)",
+                "target": "Sustainable rural pavements",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Styrene-butadiene-styrene (SBS)",
+                "target": "Sustainable rural pavements",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Tensile strength ratio (TSR) test",
+                "target": "TSR (82.4% in control)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Tensile strength ratio (TSR) test",
+                "target": "TSR (73.7% at 6% WPA)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Indirect tensile strength (ITS) test",
+                "target": "ITS (0.88 MPa at 6% WPCM)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hamburg wheel-tracking test (HWTT)",
+                "target": "Rutting depth (4.59 mm at 6% WPA)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Trong-Phuoc Huynh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Sang-Yum Lee",
+                "target": "Induk University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tri Ho Minh Le",
+                "target": "Nguyen Tat Thanh University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

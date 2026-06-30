@@ -1,0 +1,120 @@
+{
+    "filename": "01-BUI LE DIEM TRANG(1-11)024.json",
+    "paper_title": "Adoption of task-based language teaching at a primary school in Viet Nam: A case study",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Bui Le Diem Trang",
+                "type": "Author",
+                "description": "Primary author of the study, affiliated with An Giang University."
+            },
+            {
+                "id": "An Giang University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam where the author is affiliated."
+            },
+            {
+                "id": "Viet Nam National University, Ho Chi Minh City",
+                "type": "Institution",
+                "description": "National university system in Viet Nam."
+            },
+            {
+                "id": "English as a Foreign Language (EFL)",
+                "type": "Domain",
+                "description": "The field of study involving English language education in non-native contexts."
+            },
+            {
+                "id": "Task-based language teaching (TBLT)",
+                "type": "Concept",
+                "description": "An approach to language teaching focusing on communicative tasks rather than explicit instruction."
+            },
+            {
+                "id": "Presentation-practice-production (PPP)",
+                "type": "Concept",
+                "description": "A traditional structural approach to language teaching."
+            },
+            {
+                "id": "Case study",
+                "type": "Method",
+                "description": "The qualitative research design used to explore TBLT adoption."
+            },
+            {
+                "id": "Willis's TBLT framework",
+                "type": "Method",
+                "description": "A framework involving pre-task, main-task, and post-task phases used to redesign lessons."
+            },
+            {
+                "id": "Inductive approach to data analysis",
+                "type": "Method",
+                "description": "A qualitative method used to analyze interview data manually."
+            },
+            {
+                "id": "Semi-structured interviews",
+                "type": "Method",
+                "description": "Data collection technique used to gather insights from the teacher."
+            },
+            {
+                "id": "Stimulated recall interview (SRI)",
+                "type": "Method",
+                "description": "A technique where the teacher reflects on recordings of their lessons."
+            },
+            {
+                "id": "Digital recordings of the lessons",
+                "type": "Dataset",
+                "description": "Numerical and audiovisual files capturing the classroom sessions."
+            },
+            {
+                "id": "Lesson time (40 minutes)",
+                "type": "Metric",
+                "description": "The specific duration of the implemented classroom sessions."
+            },
+            {
+                "id": "Number of lessons (2 lessons)",
+                "type": "Metric",
+                "description": "The specific count of redesigned task-based lessons carried out."
+            },
+            {
+                "id": "Teaching experience (8 years)",
+                "type": "Metric",
+                "description": "The specific duration of the participant teacher's career."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Bui Le Diem Trang",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Le Diem Trang",
+                "target": "Viet Nam National University, Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Case study",
+                "target": "English as a Foreign Language (EFL)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Willis's TBLT framework",
+                "target": "Task-based language teaching (TBLT)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Inductive approach to data analysis",
+                "target": "Digital recordings of the lessons",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Willis's TBLT framework",
+                "target": "Lesson time (40 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "Number of lessons (2 lessons)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

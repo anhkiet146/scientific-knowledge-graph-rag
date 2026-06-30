@@ -1,0 +1,180 @@
+{
+    "filename": "10-NS-NGUYEN DIEN TRUNG(93-98)014.json",
+    "paper_title": "Synthesis of silver nanoparticles using extract of Citrus maxima peel",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nanotechnology",
+                "type": "Domain",
+                "description": "The general field of research focusing on nanoparticles and synthesis."
+            },
+            {
+                "id": "Nguyen Dien Trung",
+                "type": "Author",
+                "description": "Author of the research article."
+            },
+            {
+                "id": "Le Nguyen Phuong Tung",
+                "type": "Author",
+                "description": "Author of the research article."
+            },
+            {
+                "id": "Nguyen Thi Hong",
+                "type": "Author",
+                "description": "Corresponding author of the research article."
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of Nguyen Dien Trung."
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of Le Nguyen Phuong Tung and Nguyen Thi Hong."
+            },
+            {
+                "id": "Synthesis of silver nanoparticles",
+                "type": "Concept",
+                "description": "The primary research problem involving the creation of AgNPs."
+            },
+            {
+                "id": "Antibacterial activity",
+                "type": "Concept",
+                "description": "Evaluation of AgNPs' effectiveness against bacteria."
+            },
+            {
+                "id": "Green synthesis",
+                "type": "Method",
+                "description": "Environmentally friendly method using plant extracts."
+            },
+            {
+                "id": "Pectin",
+                "type": "Method",
+                "description": "Principal reductant and stabilizer from Citrus maxima peel."
+            },
+            {
+                "id": "Silver nitrate (AgNO3)",
+                "type": "Method",
+                "description": "Chemical precursor used for AgNPs synthesis."
+            },
+            {
+                "id": "Ultraviolet-visible spectroscopy (UV-Vis)",
+                "type": "Method",
+                "description": "Technique used to characterize AgNPs formation."
+            },
+            {
+                "id": "X-ray diffraction analysis (XRD)",
+                "type": "Method",
+                "description": "Technique used to determine crystalline phases."
+            },
+            {
+                "id": "Transmission electron microscopy (TEM)",
+                "type": "Method",
+                "description": "Instrument used to observe size and morphology."
+            },
+            {
+                "id": "Fourier-transform infrared spectroscopy (FTIR)",
+                "type": "Method",
+                "description": "Technique used to analyze functional groups."
+            },
+            {
+                "id": "JCPDS 04-0783",
+                "type": "Dataset",
+                "description": "Standard database for silver phase identification."
+            },
+            {
+                "id": "Average particle size (17.2 ± 2.9 nm)",
+                "type": "Metric",
+                "description": "The measured mean size of synthesized AgNPs."
+            },
+            {
+                "id": "Surface plasmon resonance (419 nm)",
+                "type": "Metric",
+                "description": "The characteristic absorbance peak for AgNPs."
+            },
+            {
+                "id": "Optimum extraction temperature (50 °C)",
+                "type": "Metric",
+                "description": "The identified ideal temperature for extraction."
+            },
+            {
+                "id": "Optimum extraction time (40 min)",
+                "type": "Metric",
+                "description": "The identified ideal duration for extraction."
+            },
+            {
+                "id": "IC50 for P. aeruginosa (7.9 pM)",
+                "type": "Metric",
+                "description": "Half-maximal inhibitory concentration showing antibacterial effectiveness."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Synthesis of silver nanoparticles",
+                "target": "Nanotechnology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Dien Trung",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Nguyen Phuong Tung",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Hong",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Green synthesis",
+                "target": "Synthesis of silver nanoparticles",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Pectin",
+                "target": "Synthesis of silver nanoparticles",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Green synthesis",
+                "target": "Average particle size (17.2 ± 2.9 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ultraviolet-visible spectroscopy (UV-Vis)",
+                "target": "Surface plasmon resonance (419 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Green synthesis",
+                "target": "Optimum extraction temperature (50 °C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Green synthesis",
+                "target": "Optimum extraction time (40 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Synthesis of silver nanoparticles",
+                "target": "IC50 for P. aeruginosa (7.9 pM)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "X-ray diffraction analysis (XRD)",
+                "target": "JCPDS 04-0783",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Synthesis of silver nanoparticles",
+                "target": "Antibacterial activity",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

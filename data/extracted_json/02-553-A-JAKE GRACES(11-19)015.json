@@ -1,0 +1,130 @@
+{
+    "filename": "02-553-A-JAKE GRACES(11-19)015.json",
+    "paper_title": "Rural peoples' perception, attitude, and engagement on invasive alien plants in Mount Manunggal, Cebu Island, Philippines",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Jake Joshua C. Garces",
+                "type": "Author",
+                "description": "The primary author of the research from the Biology Department, Cebu Normal University."
+            },
+            {
+                "id": "Cebu Normal University",
+                "type": "Institution",
+                "description": "The academic institution located in the Philippines where the author is affiliated."
+            },
+            {
+                "id": "Environmental Science",
+                "type": "Domain",
+                "description": "The research field focusing on invasive species and forest management."
+            },
+            {
+                "id": "Invasive alien plants (IAPs)",
+                "type": "Concept",
+                "description": "Non-native plant species that pose a threat to native ecosystems and rural livelihoods."
+            },
+            {
+                "id": "Rural peoples' perception",
+                "type": "Concept",
+                "description": "The study of how local residents view and react to the spread of invasive plants."
+            },
+            {
+                "id": "Census method",
+                "type": "Method",
+                "description": "A survey technique used to perform personal interviews with household heads."
+            },
+            {
+                "id": "Semi-structured questionnaires",
+                "type": "Method",
+                "description": "Tools used to establish demographic profiles and economic uses of plant species."
+            },
+            {
+                "id": "Ordinal logistic regression (OLR)",
+                "type": "Method",
+                "description": "A statistical model used to identify variables influencing the effects of specific invasive plants."
+            },
+            {
+                "id": "Uprooting",
+                "type": "Method",
+                "description": "A physical control management strategy to restrict the spread of IAPs."
+            },
+            {
+                "id": "Cutting",
+                "type": "Method",
+                "description": "A physical management strategy used by respondents to combat plant invasion."
+            },
+            {
+                "id": "Burning",
+                "type": "Method",
+                "description": "A control method involving fire to restrict the spread of IAPs."
+            },
+            {
+                "id": "Survey of 77 families",
+                "type": "Dataset",
+                "description": "The digital data collected from 77 households in Mount Manunggal."
+            },
+            {
+                "id": "Mikania impact (98%)",
+                "type": "Metric",
+                "description": "The percentage of residents reporting that Mikania had the greatest impact on their way of life."
+            },
+            {
+                "id": "Mikania rapid increase (96.10%)",
+                "type": "Metric",
+                "description": "The percentage of respondents who believe Mikania micrantha increased rapidly over 5-10 years."
+            },
+            {
+                "id": "Lantana increase (53.25%)",
+                "type": "Metric",
+                "description": "The percentage of household respondents who believe Lantana camara is on the rise."
+            },
+            {
+                "id": "Uprooting effectiveness (96%)",
+                "type": "Metric",
+                "description": "The percentage of respondents identifying uprooting as a common or effective control strategy."
+            },
+            {
+                "id": "Gender difference coefficient (0.057)",
+                "type": "Metric",
+                "description": "The statistical coefficient showing no significant difference between effects on males and females."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Jake Joshua C. Garces",
+                "target": "Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Environmental Science",
+                "target": "Invasive alien plants (IAPs)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ordinal logistic regression (OLR)",
+                "target": "Survey of 77 families",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Ordinal logistic regression (OLR)",
+                "target": "Invasive alien plants (IAPs)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Census method",
+                "target": "Rural peoples' perception",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Uprooting",
+                "target": "Uprooting effectiveness (96%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ordinal logistic regression (OLR)",
+                "target": "Gender difference coefficient (0.057)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

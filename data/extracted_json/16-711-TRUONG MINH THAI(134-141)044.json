@@ -1,0 +1,230 @@
+{
+    "filename": "16-711-TRUONG MINH THAI(134-141)044.json",
+    "paper_title": "An environment monitoring system for a rice production model adaptive to climate change in the Mekong Delta of Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Truong Minh Thai",
+                "type": "Author",
+                "description": "Researcher at College of Information and Communication Technology, Can Tho University."
+            },
+            {
+                "id": "Nguyen Dai Nghia",
+                "type": "Author",
+                "description": "Researcher at College of Engineering, Can Tho University."
+            },
+            {
+                "id": "Trinh Minh Qui",
+                "type": "Author",
+                "description": "Researcher at College of Engineering, Can Tho University."
+            },
+            {
+                "id": "Nguyen Khoi Nghia",
+                "type": "Author",
+                "description": "Researcher at College of Agriculture, Can Tho University."
+            },
+            {
+                "id": "Nguyen Huu Thien",
+                "type": "Author",
+                "description": "Researcher at College of Agriculture, Can Tho University."
+            },
+            {
+                "id": "Huynh Quy Khang",
+                "type": "Author",
+                "description": "Researcher at College of Information and Communication Technology, Can Tho University."
+            },
+            {
+                "id": "Luu Ca",
+                "type": "Author",
+                "description": "Researcher at College of Information and Communication Technology, Can Tho University."
+            },
+            {
+                "id": "Vo Huynh Tram",
+                "type": "Author",
+                "description": "Researcher at College of Information and Communication Technology, Can Tho University."
+            },
+            {
+                "id": "College of Information and Communication Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "College of Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "College of Agriculture, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "Agricultural Environmental Monitoring",
+                "type": "Domain",
+                "description": "The research focuses on monitoring environmental factors for agriculture."
+            },
+            {
+                "id": "Climate change",
+                "type": "Concept",
+                "description": "The problem of shifting weather patterns affecting the Mekong Delta."
+            },
+            {
+                "id": "Rice production",
+                "type": "Concept",
+                "description": "The main agricultural activity being monitored."
+            },
+            {
+                "id": "AEMS",
+                "type": "Method",
+                "description": "Agent-based Environment Monitoring System."
+            },
+            {
+                "id": "IoT",
+                "type": "Method",
+                "description": "Internet of Things technology used for real-time data collection."
+            },
+            {
+                "id": "Sensor networks",
+                "type": "Method",
+                "description": "Networks of nodes used to monitor soil and water factors."
+            },
+            {
+                "id": "MQTT",
+                "type": "Method",
+                "description": "Messaging protocol used to send data to the server."
+            },
+            {
+                "id": "LoRa",
+                "type": "Method",
+                "description": "Long-range wireless technology for data transmission."
+            },
+            {
+                "id": "Laser measuring device",
+                "type": "Method",
+                "description": "Device used for measuring water levels via RS485."
+            },
+            {
+                "id": "7-in-1 soil parameter measurement sensor",
+                "type": "Method",
+                "description": "Sensor measuring N, P, K, moisture, EC, pH, and temperature."
+            },
+            {
+                "id": "Alternative Wetting and Drying (AWD)",
+                "type": "Method",
+                "description": "Rice farming technique for water scarcity."
+            },
+            {
+                "id": "Accuracy (±2cm)",
+                "type": "Metric",
+                "description": "Measurement accuracy of the laser distance sensor."
+            },
+            {
+                "id": "Distance range (4 to 400 cm)",
+                "type": "Metric",
+                "description": "Measuring range of the laser water level sensor."
+            },
+            {
+                "id": "Operating state time (6.25%)",
+                "type": "Metric",
+                "description": "The percentage of time the sensor node is active."
+            },
+            {
+                "id": "Sleep state time (93.75%)",
+                "type": "Metric",
+                "description": "The percentage of time the sensor node is in power-saving mode."
+            },
+            {
+                "id": "Average yields (4.3 t/ha)",
+                "type": "Metric",
+                "description": "The average productivity of rice in the Mekong Delta."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Truong Minh Thai",
+                "target": "College of Information and Communication Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Quy Khang",
+                "target": "College of Information and Communication Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luu Ca",
+                "target": "College of Information and Communication Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Huynh Tram",
+                "target": "College of Information and Communication Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Dai Nghia",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Trinh Minh Qui",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Khoi Nghia",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Huu Thien",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "AEMS",
+                "target": "Agricultural Environmental Monitoring",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "AEMS",
+                "target": "Rice production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "AEMS",
+                "target": "Climate change",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Laser measuring device",
+                "target": "Accuracy (±2cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Laser measuring device",
+                "target": "Distance range (4 to 400 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AEMS",
+                "target": "Operating state time (6.25%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AEMS",
+                "target": "Sleep state time (93.75%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "IoT",
+                "target": "Climate change",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Alternative Wetting and Drying (AWD)",
+                "target": "Rice production",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "filename": "12-FI-TRAN THI TUYET HOA(84-89).json",
+    "paper_title": "RAPID DETECTION OF Streptococcus iniae IN RED TILAPIA TISSUE (Oreochromis sp.) BY POLYMERASE CHAIN REACTION",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The study focuses on the health and disease management of cultured red tilapia."
+            },
+            {
+                "id": "Ngo Minh Phuong",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Tran Thi Tuyet Hoa",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University in Vietnam associated with the researchers."
+            },
+            {
+                "id": "Streptococcosis",
+                "type": "Concept",
+                "description": "A septicemia disease affecting freshwater and marine fish species."
+            },
+            {
+                "id": "Streptococcus iniae detection",
+                "type": "Concept",
+                "description": "The rapid identification of the S. iniae pathogen in fish tissue."
+            },
+            {
+                "id": "One-step PCR",
+                "type": "Method",
+                "description": "A molecular diagnostic technique developed for species-level bacterial identification."
+            },
+            {
+                "id": "LOX-1 and LOX-2 primers",
+                "type": "Method",
+                "description": "Oligonucleotide primers designed from the lactate oxidase gene of S. iniae."
+            },
+            {
+                "id": "Chelex-100 resin",
+                "type": "Method",
+                "description": "A material used for extracting DNA from fish kidney samples."
+            },
+            {
+                "id": "Taq DNA polymerase",
+                "type": "Method",
+                "description": "Enzyme used in the PCR reaction for DNA amplification."
+            },
+            {
+                "id": "Electrophoresis",
+                "type": "Method",
+                "description": "Process used to analyze PCR products on agarose gel."
+            },
+            {
+                "id": "Detection limit (10^2 CFU/mL)",
+                "type": "Metric",
+                "description": "The lowest concentration of S. iniae that the PCR method can detect."
+            },
+            {
+                "id": "PCR product size (870 bp)",
+                "type": "Metric",
+                "description": "The specific size of the DNA fragment amplified for S. iniae."
+            },
+            {
+                "id": "Mortality rate (> 50%)",
+                "type": "Metric",
+                "description": "Recorded mortality in outbreak fish farms."
+            },
+            {
+                "id": "Annealing temperature (52°C)",
+                "type": "Metric",
+                "description": "Specific temperature setting for the PCR thermal cycling."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ngo Minh Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Tuyet Hoa",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "One-step PCR",
+                "target": "Streptococcus iniae detection",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "LOX-1 and LOX-2 primers",
+                "target": "Streptococcus iniae detection",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Chelex-100 resin",
+                "target": "Streptococcus iniae detection",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "One-step PCR",
+                "target": "Detection limit (10^2 CFU/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "One-step PCR",
+                "target": "PCR product size (870 bp)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "One-step PCR",
+                "target": "Annealing temperature (52°C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Streptococcus iniae detection",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

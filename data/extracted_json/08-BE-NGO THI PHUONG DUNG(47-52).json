@@ -1,0 +1,175 @@
+{
+    "filename": "08-BE-NGO THI PHUONG DUNG(47-52).json",
+    "paper_title": "PREPARATION OF FUNGAL ALCOHOLIC STARTER USING RICE MALT AS SUBSTRATE",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ngo Thi Phuong Dung",
+                "type": "Author",
+                "description": "Researcher at Biotechnology Research and Development Institute"
+            },
+            {
+                "id": "Nguyen Minh Doi",
+                "type": "Author",
+                "description": "Researcher at Biotechnology Research and Development Institute"
+            },
+            {
+                "id": "Huynh Xuan Phong",
+                "type": "Author",
+                "description": "Researcher at Biotechnology Research and Development Institute"
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Academic research institute in Vietnam"
+            },
+            {
+                "id": "Biotechnology",
+                "type": "Domain",
+                "description": "Main field of research involving microbial fermentation and substrate preparation"
+            },
+            {
+                "id": "Fungal alcoholic starter",
+                "type": "Concept",
+                "description": "A microbial preparation used to initiate fermentation in rice spirit production"
+            },
+            {
+                "id": "Solid-state fermentation",
+                "type": "Concept",
+                "description": "A fermentation process occurring on a solid substrate"
+            },
+            {
+                "id": "Alcoholic fermentation",
+                "type": "Concept",
+                "description": "The biochemical process of converting sugars into ethanol by yeast"
+            },
+            {
+                "id": "Rice malt substrate",
+                "type": "Method",
+                "description": "Using germinated rice grains as the primary material for culturing yeast"
+            },
+            {
+                "id": "Saccharomyces cerevisiae",
+                "type": "Method",
+                "description": "Yeast strain used for ethanol production"
+            },
+            {
+                "id": "Amylomyces rouxii",
+                "type": "Method",
+                "description": "Mould strain used for saccharification of starch"
+            },
+            {
+                "id": "Distillation method",
+                "type": "Method",
+                "description": "Process used to determine alcoholic content and separate spirit"
+            },
+            {
+                "id": "Highest ethanol concentration (11.3% v/v)",
+                "type": "Metric",
+                "description": "Result achieved using only rice malt as substrate"
+            },
+            {
+                "id": "Yeast population (8.13 log CFU/g)",
+                "type": "Metric",
+                "description": "Density of yeast in the rice malt starter"
+            },
+            {
+                "id": "Mould density (8.74 log CFU/g)",
+                "type": "Metric",
+                "description": "Density of Amylomyces rouxii in the mould starter"
+            },
+            {
+                "id": "Maximum ethanol concentration (13.7% v/v)",
+                "type": "Metric",
+                "description": "Peak result when supplemented with 1% mould starter"
+            },
+            {
+                "id": "Pilot-scale yield (1.23 liters/kg)",
+                "type": "Metric",
+                "description": "Production yield of 30% v/v spirit per kilogram of rice"
+            },
+            {
+                "id": "Aldehyde concentration (33.8 mg/L)",
+                "type": "Metric",
+                "description": "Chemical safety indicator in the final distilled product"
+            },
+            {
+                "id": "Quality score (14.2/20)",
+                "type": "Metric",
+                "description": "Sensory evaluation score based on Vietnamese standards"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ngo Thi Phuong Dung",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Doi",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Xuan Phong",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Preparation of fungal alcoholic starter using rice malt as substrate",
+                "target": "Biotechnology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Rice malt substrate",
+                "target": "Highest ethanol concentration (11.3% v/v)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Rice malt substrate",
+                "target": "Yeast population (8.13 log CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Amylomyces rouxii",
+                "target": "Mould density (8.74 log CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Rice malt substrate",
+                "target": "Maximum ethanol concentration (13.7% v/v)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Distillation method",
+                "target": "Pilot-scale yield (1.23 liters/kg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Rice malt substrate",
+                "target": "Aldehyde concentration (33.8 mg/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Rice malt substrate",
+                "target": "Quality score (14.2/20)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Saccharomyces cerevisiae",
+                "target": "Alcoholic fermentation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Amylomyces rouxii",
+                "target": "Solid-state fermentation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Rice malt substrate",
+                "target": "Fungal alcoholic starter",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

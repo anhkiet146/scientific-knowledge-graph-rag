@@ -1,0 +1,195 @@
+{
+    "filename": "10-703-NGUYEN MINH KHIEM(83-92)038.json",
+    "paper_title": "Predicting graduation grades using Machine Learning: A case study of Can Tho University students",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Minh Khiem",
+                "type": "Author",
+                "description": "Author from the College of Information and Communication Technology, Can Tho University"
+            },
+            {
+                "id": "Huynh Văn Tu",
+                "type": "Author",
+                "description": "Author from the Department of Academic Affairs, Can Tho University"
+            },
+            {
+                "id": "Nguyen Hung Dung",
+                "type": "Author",
+                "description": "Author from FPT University"
+            },
+            {
+                "id": "College of Information and Communication Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam"
+            },
+            {
+                "id": "Department of Academic Affairs, Can Tho University",
+                "type": "Institution",
+                "description": "Administrative department within Can Tho University"
+            },
+            {
+                "id": "FPT University",
+                "type": "Institution",
+                "description": "Private university in Viet Nam"
+            },
+            {
+                "id": "Machine Learning",
+                "type": "Domain",
+                "description": "Main field of study for predicting outcomes"
+            },
+            {
+                "id": "Educational Data Mining",
+                "type": "Concept",
+                "description": "Technique for data analysis in education"
+            },
+            {
+                "id": "Graduation grade prediction",
+                "type": "Concept",
+                "description": "The research problem of forecasting academic performance at graduation"
+            },
+            {
+                "id": "K-nearest neighbor",
+                "type": "Method",
+                "description": "Machine learning algorithm for classification and regression"
+            },
+            {
+                "id": "Neural network",
+                "type": "Method",
+                "description": "Model simulating the human brain organized in layers"
+            },
+            {
+                "id": "Decision tree",
+                "type": "Method",
+                "description": "Tree-like structure to forecast target values"
+            },
+            {
+                "id": "Random forest",
+                "type": "Method",
+                "description": "Bagging technique utilizing multiple decision trees"
+            },
+            {
+                "id": "Gradient boosting",
+                "type": "Method",
+                "description": "Boosting technique training individual models sequentially"
+            },
+            {
+                "id": "15-fold cross-validation",
+                "type": "Method",
+                "description": "Validation technique for assessing algorithm performance"
+            },
+            {
+                "id": "Graduation outcomes of 7,837 undergraduate students",
+                "type": "Dataset",
+                "description": "Dataset of students from 16 colleges at Can Tho University in 2022"
+            },
+            {
+                "id": "Accuracy (84.4%)",
+                "type": "Metric",
+                "description": "Predictive accuracy for KNN"
+            },
+            {
+                "id": "Accuracy (80.2%)",
+                "type": "Metric",
+                "description": "Predictive accuracy for Neural Network"
+            },
+            {
+                "id": "Accuracy (96.8%)",
+                "type": "Metric",
+                "description": "Predictive accuracy for Decision Tree"
+            },
+            {
+                "id": "Accuracy (98.2%)",
+                "type": "Metric",
+                "description": "Predictive accuracy for Random Forest"
+            },
+            {
+                "id": "Accuracy (94.6%)",
+                "type": "Metric",
+                "description": "Predictive accuracy for Gradient Boosting"
+            },
+            {
+                "id": "Cross-validation accuracy (96.2%)",
+                "type": "Metric",
+                "description": "Best accuracy for Random Forest on 9 folds"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Predicting graduation grades using Machine Learning: A case study of Can Tho University students",
+                "target": "Machine Learning",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Minh Khiem",
+                "target": "College of Information and Communication Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Văn Tu",
+                "target": "Department of Academic Affairs, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hung Dung",
+                "target": "FPT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "K-nearest neighbor",
+                "target": "Accuracy (84.4%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Neural network",
+                "target": "Accuracy (80.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Decision tree",
+                "target": "Accuracy (96.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random forest",
+                "target": "Accuracy (98.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gradient boosting",
+                "target": "Accuracy (94.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random forest",
+                "target": "Cross-validation accuracy (96.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random forest",
+                "target": "Graduation grade prediction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Random forest",
+                "target": "Graduation outcomes of 7,837 undergraduate students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Decision tree",
+                "target": "Graduation outcomes of 7,837 undergraduate students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Gradient boosting",
+                "target": "Graduation outcomes of 7,837 undergraduate students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Machine Learning",
+                "target": "Graduation grade prediction",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

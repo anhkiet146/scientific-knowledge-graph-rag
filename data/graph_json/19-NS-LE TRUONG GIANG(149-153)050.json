@@ -1,0 +1,99 @@
+{
+  "filename": "19-NS-LE TRUONG GIANG(149-153)050.json",
+  "paper_title": "New bounds on poisson approximation for random sums of independent negativebinomial randomvariables",
+  "extraction_result": [
+    {
+      "entities": [
+        {
+          "id": "Le Truong Giang",
+          "type": "Author",
+          "description": "Author of the paper affiliated with University of Finance - Marketing."
+        },
+        {
+          "id": "Trinh Huu Nghiem",
+          "type": "Author",
+          "description": "Author of the paper affiliated with Nam Can Tho University."
+        },
+        {
+          "id": "University of Finance - Marketing",
+          "type": "Institution",
+          "description": "Educational institution in Vietnam where Le Truong Giang is based."
+        },
+        {
+          "id": "Nam Can Tho University",
+          "type": "Institution",
+          "description": "Educational institution in Vietnam where Trinh Huu Nghiem is based."
+        },
+        {
+          "id": "Mathematics",
+          "type": "Domain",
+          "description": "The primary research field of the paper, specifically probability and statistics."
+        },
+        {
+          "id": "Poisson approximation",
+          "type": "Concept",
+          "description": "The problem of approximating random sums of discrete variables with a Poisson distribution."
+        },
+        {
+          "id": "Negative-binomial random variables",
+          "type": "Concept",
+          "description": "A sequence of independent random variables analyzed in the study."
+        },
+        {
+          "id": "Total variation distance",
+          "type": "Concept",
+          "description": "A probability distance metric used to measure the difference between distributions."
+        },
+        {
+          "id": "Uniform bound",
+          "type": "Method",
+          "description": "A consistent mathematical bound established for the Poisson approximation distance."
+        },
+        {
+          "id": "Non-uniform bound",
+          "type": "Method",
+          "description": "A mathematical bound that varies based on the values of the random variables."
+        },
+        {
+          "id": "Triangular inequality",
+          "type": "Method",
+          "description": "A mathematical principle used in the proof of Theorem 2.1 to establish the uniform bound."
+        }
+      ],
+      "relations": [
+        {
+          "source": "Le Truong Giang",
+          "target": "University of Finance - Marketing",
+          "type": "AFFILIATED_WITH"
+        },
+        {
+          "source": "Trinh Huu Nghiem",
+          "target": "Nam Can Tho University",
+          "type": "AFFILIATED_WITH"
+        },
+        {
+          "source": "Uniform bound",
+          "target": "Poisson approximation",
+          "type": "USED_FOR"
+        },
+        {
+          "source": "Non-uniform bound",
+          "target": "Poisson approximation",
+          "type": "USED_FOR"
+        },
+        {
+          "source": "Uniform bound",
+          "target": "Negative-binomial random variables",
+          "type": "USED_FOR"
+        },
+        {
+          "source": "Triangular inequality",
+          "target": "Uniform bound",
+          "type": "USED_FOR"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "relations": []
+}

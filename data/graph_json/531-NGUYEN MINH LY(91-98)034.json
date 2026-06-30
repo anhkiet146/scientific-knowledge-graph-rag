@@ -1,0 +1,150 @@
+{
+  "filename": "531-NGUYEN MINH LY(91-98)034.json",
+  "paper_title": "Selection and characterization of a yeast strain for the suppression of brown spot on Tru Long pummelo (Citrus maxima)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Plant Pathology",
+        "type": "Domain",
+        "description": "The study of diseases in plants, specifically focusing on biocontrol of fungal pathogens."
+      },
+      {
+        "id": "Nguyen Minh Tri",
+        "type": "Author",
+        "description": "Researcher and corresponding author from The University of Da Nang."
+      },
+      {
+        "id": "Le Thi Mai",
+        "type": "Author",
+        "description": "Researcher from The University of Da Nang."
+      },
+      {
+        "id": "Dinh Xuan Tu",
+        "type": "Author",
+        "description": "Researcher from The University of Da Nang."
+      },
+      {
+        "id": "The University of Da Nang - University of Education and Science",
+        "type": "Institution",
+        "description": "Academic institution located in Viet Nam."
+      },
+      {
+        "id": "Brown spot",
+        "type": "Concept",
+        "description": "A disease caused by Alternaria fungus affecting Tru Long pummelo."
+      },
+      {
+        "id": "Biocontrol",
+        "type": "Concept",
+        "description": "Biological control as an alternative to synthetic pesticides."
+      },
+      {
+        "id": "Antagonism",
+        "type": "Concept",
+        "description": "The suppression of one organism by another, in this case, yeast against fungi."
+      },
+      {
+        "id": "Alternaria sp.",
+        "type": "Concept",
+        "description": "The fungal pathogen responsible for brown spot disease."
+      },
+      {
+        "id": "Dual culture technique",
+        "type": "Method",
+        "description": "A technique used to screen yeast strains for biological activity against fungi."
+      },
+      {
+        "id": "Sequence analysis of the ITS region",
+        "type": "Method",
+        "description": "Molecular method used to identify the yeast strain."
+      },
+      {
+        "id": "Koch's artificial inoculation method",
+        "type": "Method",
+        "description": "Method used to confirm the pathogenicity of isolated fungal strains."
+      },
+      {
+        "id": "CTAB method",
+        "type": "Method",
+        "description": "Protocol used for total DNA extraction from biomass."
+      },
+      {
+        "id": "Candida tropicalis",
+        "type": "Method",
+        "description": "The identified yeast strain (D2) showing high inhibitory potency."
+      },
+      {
+        "id": "NCBI database",
+        "type": "Dataset",
+        "description": "Digital database used for BLAST algorithm comparison of ITS sequences."
+      },
+      {
+        "id": "Inhibitory potency (10.46% to 59.86%)",
+        "type": "Metric",
+        "description": "The range of growth inhibition observed across isolated yeast strains."
+      },
+      {
+        "id": "Highest inhibition rate (59.86%)",
+        "type": "Metric",
+        "description": "The specific maximum inhibitory effect achieved by strain D2."
+      },
+      {
+        "id": "Significance level (P <= 0.05)",
+        "type": "Metric",
+        "description": "The statistical threshold for significance in data analysis."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Selection and characterization of a yeast strain for the suppression of brown spot on Tru Long pummelo (Citrus maxima)",
+        "target": "Plant Pathology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Minh Tri",
+        "target": "The University of Da Nang - University of Education and Science",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Mai",
+        "target": "The University of Da Nang - University of Education and Science",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dinh Xuan Tu",
+        "target": "The University of Da Nang - University of Education and Science",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dual culture technique",
+        "target": "Antagonism",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Dual culture technique",
+        "target": "Inhibitory potency (10.46% to 59.86%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Candida tropicalis",
+        "target": "Highest inhibition rate (59.86%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Biocontrol",
+        "target": "Brown spot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sequence analysis of the ITS region",
+        "target": "NCBI database",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Koch's artificial inoculation method",
+        "target": "Alternaria sp.",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "filename": "11-NS-NGUYEN TRUNG HAU(99-108)013.json",
+  "paper_title": "The effects of extraction conditions on the yield of crude pectin extract from passion fruit (Passiflora edulis Sims.) and the application of the extract on jam forming ability",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về chế biến thực phẩm và chiết xuất pectin."
+      },
+      {
+        "id": "Nguyen Hieu Trung",
+        "type": "Author",
+        "description": "Tác giả chính của bài báo."
+      },
+      {
+        "id": "Tran Hoai Xuan Nu",
+        "type": "Author",
+        "description": "Đồng tác giả."
+      },
+      {
+        "id": "Vu Thi Thuy",
+        "type": "Author",
+        "description": "Đồng tác giả."
+      },
+      {
+        "id": "Ho Thi Thuy Linh",
+        "type": "Author",
+        "description": "Đồng tác giả."
+      },
+      {
+        "id": "Nguyen Thi Tuong Van",
+        "type": "Author",
+        "description": "Đồng tác giả."
+      },
+      {
+        "id": "Nong Lam University",
+        "type": "Institution",
+        "description": "Đại học Nông Lâm, Việt Nam."
+      },
+      {
+        "id": "Pectin extraction",
+        "type": "Concept",
+        "description": "Quá trình chiết xuất pectin từ vỏ chanh dây."
+      },
+      {
+        "id": "Jam forming ability",
+        "type": "Concept",
+        "description": "Khả năng tạo gel và đông đặc của pectin trong sản xuất mứt."
+      },
+      {
+        "id": "Citric acid",
+        "type": "Method",
+        "description": "Dung môi axit hữu cơ dùng để chiết xuất pectin."
+      },
+      {
+        "id": "Tartaric acid",
+        "type": "Method",
+        "description": "Dung môi axit hữu cơ dùng trong thí nghiệm so sánh."
+      },
+      {
+        "id": "HCl",
+        "type": "Method",
+        "description": "Axit vô cơ dùng trong thí nghiệm so sánh hiệu suất chiết xuất."
+      },
+      {
+        "id": "Ethanol 96%",
+        "type": "Method",
+        "description": "Hóa chất dùng để kết tủa pectin."
+      },
+      {
+        "id": "A&D MX-50 infrared moisture analyzer",
+        "type": "Method",
+        "description": "Thiết bị đo độ ẩm hồng ngoại."
+      },
+      {
+        "id": "Konica Minolta CR-400 colorimeter",
+        "type": "Method",
+        "description": "Thiết bị đo màu sắc."
+      },
+      {
+        "id": "Zwick/Roell Z1.0 texture analyzer",
+        "type": "Method",
+        "description": "Thiết bị phân tích cấu trúc gel."
+      },
+      {
+        "id": "Bloom test method",
+        "type": "Method",
+        "description": "Phương pháp đánh giá cường độ đông đặc của mứt."
+      },
+      {
+        "id": "Pectin yield (38.16%)",
+        "type": "Metric",
+        "description": "Hiệu suất chiết xuất pectin cao nhất đạt được."
+      },
+      {
+        "id": "Optimal temperature (54.94°C)",
+        "type": "Metric",
+        "description": "Nhiệt độ tối ưu cho quá trình chiết xuất."
+      },
+      {
+        "id": "Optimum extraction time (40-45 minutes)",
+        "type": "Metric",
+        "description": "Thời gian chiết xuất tối ưu."
+      },
+      {
+        "id": "Optimal peel to solvent ratio (1:5)",
+        "type": "Metric",
+        "description": "Tỷ lệ vỏ trên dung môi tối ưu."
+      },
+      {
+        "id": "Moisture content (97.55±0.89%)",
+        "type": "Metric",
+        "description": "Độ ẩm của bột pectin thô sau khi sấy."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Pectin extraction",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Hieu Trung",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Hoai Xuan Nu",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vu Thi Thuy",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Thi Thuy Linh",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Tuong Van",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Citric acid",
+        "target": "Pectin extraction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Citric acid",
+        "target": "Pectin yield (38.16%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Citric acid",
+        "target": "Optimal temperature (54.94°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Citric acid",
+        "target": "Optimum extraction time (40-45 minutes)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Citric acid",
+        "target": "Optimal peel to solvent ratio (1:5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bloom test method",
+        "target": "Jam forming ability",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

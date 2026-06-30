@@ -1,0 +1,150 @@
+{
+  "filename": "08-CE-NGO VAN THIEN(66-70)008.json",
+  "paper_title": "Effects of computer-based feedback and formative assessment on learning outcomes",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Computer-based feedback",
+        "type": "Concept",
+        "description": "Process of providing students with information about their performance via technology."
+      },
+      {
+        "id": "Formative assessment",
+        "type": "Concept",
+        "description": "On-going assessment to help students achieve learning goals and identify strengths/weaknesses."
+      },
+      {
+        "id": "Learning outcomes",
+        "type": "Concept",
+        "description": "Expected results of students' academic achievement after a course."
+      },
+      {
+        "id": "Student response system (SRS)",
+        "type": "Method",
+        "description": "An interactive remote answering device or software used for real-time feedback."
+      },
+      {
+        "id": "Backward design course",
+        "type": "Method",
+        "description": "Instructional design method starting with identifying desired outcomes and assessments."
+      },
+      {
+        "id": "Quasi-experimental research design",
+        "type": "Method",
+        "description": "Research design involving pretest and posttest data collection on control and experimental groups."
+      },
+      {
+        "id": "Google Forms",
+        "type": "Method",
+        "description": "Online tool used to support computer-based feedback and formative assessment strategy."
+      },
+      {
+        "id": "Kuder-Richardson 21 formula",
+        "type": "Method",
+        "description": "A formula used to determine the reliability coefficient of the research instrument."
+      },
+      {
+        "id": "Independent samples t-test",
+        "type": "Method",
+        "description": "Statistical test used to compare mean scores between experimental and control groups."
+      },
+      {
+        "id": "Multiple-choice question (MCQ) test",
+        "type": "Method",
+        "description": "Instrument consisting of 20 items based on Bloom's Taxonomy used to evaluate students."
+      },
+      {
+        "id": "Pretest and posttest data",
+        "type": "Dataset",
+        "description": "Numerical scores collected from 148 students before and after the intervention."
+      },
+      {
+        "id": "Reliability coefficient (0.65)",
+        "type": "Metric",
+        "description": "Internal consistency value of the instrument determined by KR-21."
+      },
+      {
+        "id": "Experimental group posttest mean score (M = 6.68)",
+        "type": "Metric",
+        "description": "Average score achieved by students using SRS in the posttest."
+      },
+      {
+        "id": "Control group posttest mean score (M = 6.00)",
+        "type": "Metric",
+        "description": "Average score achieved by students without SRS in the posttest."
+      },
+      {
+        "id": "Posttest p-value (p = 0.015)",
+        "type": "Metric",
+        "description": "Statistical significance value indicating better results for the experimental group."
+      },
+      {
+        "id": "Educational Technology",
+        "type": "Domain",
+        "description": "The field of research involving feedback, assessment, and computer-based systems."
+      },
+      {
+        "id": "Ngo Van Thien",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Cao Thang Technical College",
+        "type": "Institution",
+        "description": "Educational institution in Ho Chi Minh City, Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Computer-based feedback",
+        "target": "Educational Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Formative assessment",
+        "target": "Educational Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Student response system (SRS)",
+        "target": "Learning outcomes",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Student response system (SRS)",
+        "target": "Formative assessment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Google Forms",
+        "target": "Computer-based feedback",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Quasi-experimental research design",
+        "target": "Pretest and posttest data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Student response system (SRS)",
+        "target": "Experimental group posttest mean score (M = 6.68)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Student response system (SRS)",
+        "target": "Posttest p-value (p = 0.015)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Kuder-Richardson 21 formula",
+        "target": "Reliability coefficient (0.65)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ngo Van Thien",
+        "target": "Cao Thang Technical College",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

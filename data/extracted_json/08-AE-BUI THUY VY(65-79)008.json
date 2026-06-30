@@ -1,0 +1,125 @@
+{
+    "filename": "08-AE-BUI THUY VY(65-79)008.json",
+    "paper_title": "AN Ab initio STUDY OF CIS-[PTCL2(IPRAM)(HPZ)] BINDING TO BASE PURINES GUANINE AND ADENINE",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Bui Thuy Vy",
+                "type": "Author",
+                "description": "First author of the scientific paper"
+            },
+            {
+                "id": "Pham Vu Nhat",
+                "type": "Author",
+                "description": "Second author of the scientific paper"
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Vietnam"
+            },
+            {
+                "id": "Computational Chemistry",
+                "type": "Domain",
+                "description": "The research field focusing on quantum chemical simulations"
+            },
+            {
+                "id": "Hydrogen bonding",
+                "type": "Concept",
+                "description": "The electrostatic attraction between a hydrogen atom and an electronegative atom"
+            },
+            {
+                "id": "Platinum-DNA interactions",
+                "type": "Concept",
+                "description": "The study of how platinum complexes bind to DNA bases"
+            },
+            {
+                "id": "Density functional B3LYP method",
+                "type": "Method",
+                "description": "A quantum chemical calculation method used for modeling"
+            },
+            {
+                "id": "Gaussian 09",
+                "type": "Method",
+                "description": "Software suite used for electronic structure modeling"
+            },
+            {
+                "id": "cis-[PtCl2(iPram)(Hpz)]",
+                "type": "Method",
+                "description": "A novel platinum-based derivative used as a reactant"
+            },
+            {
+                "id": "Cisplatin",
+                "type": "Method",
+                "description": "A widely-used antitumor drug used as a reference material"
+            },
+            {
+                "id": "NBO analysis",
+                "type": "Method",
+                "description": "Natural Bond Orbital analysis for electron population and hydrogen bonding evaluation"
+            },
+            {
+                "id": "H-bond length (1.757Å)",
+                "type": "Metric",
+                "description": "The shortest hydrogen bond distance measured for PtGN7"
+            },
+            {
+                "id": "Exchange-ligand energy (-39.3 kcal/mol)",
+                "type": "Metric",
+                "description": "Calculated energy for cis-[Pt(NH3)2(H2O)Cl]+ interacting with guanine"
+            },
+            {
+                "id": "Frequency red-shift (264-1352 cm-1)",
+                "type": "Metric",
+                "description": "Observed change in vibrational frequencies due to hydrogen bonding"
+            },
+            {
+                "id": "H-bond contribution (~9.0 kcal/mol)",
+                "type": "Metric",
+                "description": "Estimated energy contribution of the hydrogen bond to complex stability"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Bui Thuy Vy",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Vu Nhat",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Density functional B3LYP method",
+                "target": "Hydrogen bonding",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Gaussian 09",
+                "target": "Platinum-DNA interactions",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Density functional B3LYP method",
+                "target": "H-bond length (1.757Å)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Density functional B3LYP method",
+                "target": "Exchange-ligand energy (-39.3 kcal/mol)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "NBO analysis",
+                "target": "H-bond contribution (~9.0 kcal/mol)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Density functional B3LYP method",
+                "target": "Frequency red-shift (264-1352 cm-1)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

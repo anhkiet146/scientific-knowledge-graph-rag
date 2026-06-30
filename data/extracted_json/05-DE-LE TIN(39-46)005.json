@@ -1,0 +1,160 @@
+{
+    "filename": "05-DE-LE TIN(39-46)005.json",
+    "paper_title": "STOCK RETURNS VOLATILITY PERSISTENCE AND SPILLOVER EFFECTS: EMPIRICAL EVIDENCE FROM VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Finance",
+                "type": "Domain",
+                "description": "Financial economics and stock market analysis"
+            },
+            {
+                "id": "Stock returns volatility",
+                "type": "Concept",
+                "description": "The measure of variation in stock return prices over time"
+            },
+            {
+                "id": "Persistence of volatility",
+                "type": "Concept",
+                "description": "The tendency of volatility to remain at a high or low level for a period"
+            },
+            {
+                "id": "Volatility spillovers",
+                "type": "Concept",
+                "description": "The transmission of volatility from one market to another"
+            },
+            {
+                "id": "Meteor shower effect",
+                "type": "Concept",
+                "description": "Impact of a shock in one market being transferred to other markets"
+            },
+            {
+                "id": "Heat wave effect",
+                "type": "Concept",
+                "description": "Volatility impact of domestic news on the local market"
+            },
+            {
+                "id": "GARCH(1,1) model",
+                "type": "Method",
+                "description": "Generalized Autoregressive Conditional Heteroscedasticity model used for volatility forecasting"
+            },
+            {
+                "id": "Augmented Dickey-Fuller (ADF) test",
+                "type": "Method",
+                "description": "Statistical test for checking the unit root and stationarity of data"
+            },
+            {
+                "id": "Shapiro-Wilk test",
+                "type": "Method",
+                "description": "Test for normal distribution of data"
+            },
+            {
+                "id": "Lagrange Multiplier test",
+                "type": "Method",
+                "description": "Test for autoregressive conditional heteroscedasticity (ARCH) effect"
+            },
+            {
+                "id": "VN index",
+                "type": "Dataset",
+                "description": "Daily stock index of Ho Chi Minh stock exchange"
+            },
+            {
+                "id": "HNX index",
+                "type": "Dataset",
+                "description": "Daily stock index of Ha Noi stock exchange"
+            },
+            {
+                "id": "Significance level (5%)",
+                "type": "Metric",
+                "description": "Statistical threshold for rejecting null hypotheses"
+            },
+            {
+                "id": "Study period (2006-2012)",
+                "type": "Metric",
+                "description": "The time range of data collection"
+            },
+            {
+                "id": "Le Tin",
+                "type": "Author",
+                "description": "Researcher from Can Tho University"
+            },
+            {
+                "id": "Yolanda T. Garcia",
+                "type": "Author",
+                "description": "Researcher from University of the Philippines Los Baños"
+            },
+            {
+                "id": "Nguyen Huu Dang",
+                "type": "Author",
+                "description": "Researcher from Can Tho University"
+            },
+            {
+                "id": "College of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "Institution located in Vietnam"
+            },
+            {
+                "id": "Department of Economics, University of the Philippines Los Baños",
+                "type": "Institution",
+                "description": "Institution located in Philippines"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Tin",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Huu Dang",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Yolanda T. Garcia",
+                "target": "Department of Economics, University of the Philippines Los Baños",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Stock returns volatility",
+                "target": "Finance",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "GARCH(1,1) model",
+                "target": "Stock returns volatility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "GARCH(1,1) model",
+                "target": "Persistence of volatility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "GARCH(1,1) model",
+                "target": "VN index",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "GARCH(1,1) model",
+                "target": "HNX index",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "GARCH(1,1) model",
+                "target": "Significance level (5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Augmented Dickey-Fuller (ADF) test",
+                "target": "Significance level (5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Lagrange Multiplier test",
+                "target": "Significance level (5%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

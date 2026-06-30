@@ -1,0 +1,145 @@
+{
+    "filename": "04-AV-NGUYEN VAN THU(30-35)004.json",
+    "paper_title": "Recent production status, research results and development conditions of rabbit production in Vietnam -A review",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Van Thu",
+                "type": "Author",
+                "description": "Primary author of the review paper from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution located in Vietnam."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology",
+                "type": "Institution",
+                "description": "The specific college within Can Tho University associated with the author."
+            },
+            {
+                "id": "Animal Science",
+                "type": "Domain",
+                "description": "The primary field of research concerning rabbit production and livestock."
+            },
+            {
+                "id": "Rabbit production",
+                "type": "Concept",
+                "description": "The overall industry and study of raising rabbits for meat and other products."
+            },
+            {
+                "id": "Nutrient digestibility",
+                "type": "Concept",
+                "description": "The study of how well rabbits absorb nutrients from various feed sources."
+            },
+            {
+                "id": "Reproductive performance",
+                "type": "Concept",
+                "description": "Metrics and factors involving rabbit breeding and offspring production."
+            },
+            {
+                "id": "Mulato II grass",
+                "type": "Method",
+                "description": "A specific forage material (Brachiaria ruziziensis) used to replace sweet potato vines in rabbit diets."
+            },
+            {
+                "id": "Semen dilution",
+                "type": "Method",
+                "description": "A process used in artificial insemination involving specific ratios like 1:5 and 1:10."
+            },
+            {
+                "id": "Family-scale rabbit production models",
+                "type": "Method",
+                "description": "A production model used in provinces like Bac Giang and Vinh Long."
+            },
+            {
+                "id": "Artificial insemination",
+                "type": "Method",
+                "description": "A technique for breeding rabbits mentioned as having limited use in Vietnam."
+            },
+            {
+                "id": "Table 1",
+                "type": "Dataset",
+                "description": "Statistical data showing the change of rabbit population in Vietnam from 2010-2014."
+            },
+            {
+                "id": "Table 10",
+                "type": "Dataset",
+                "description": "Numerical data showing criteria of rabbit semen quality."
+            },
+            {
+                "id": "Total rabbit population in 2014 (7,584,000 heads)",
+                "type": "Metric",
+                "description": "The specific count of the rabbit population in Vietnam by 2014."
+            },
+            {
+                "id": "Annual increase (11.5%)",
+                "type": "Metric",
+                "description": "The yearly growth rate of the rabbit population from 2010 to 2014."
+            },
+            {
+                "id": "Price of meat rabbit (2.3 to 2.75 USD/kg)",
+                "type": "Metric",
+                "description": "The market value per kilogram of live weight for meat rabbits."
+            },
+            {
+                "id": "Pregnant rate of conserving semen (75.0%)",
+                "type": "Metric",
+                "description": "The success rate for artificial insemination using semen on the first day of conservation."
+            },
+            {
+                "id": "Agriculture contribution to GDP (25%)",
+                "type": "Metric",
+                "description": "The percentage of the national Gross Domestic Product provided by the agricultural sector."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Van Thu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Thu",
+                "target": "College of Agriculture and Applied Biology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Rabbit production",
+                "target": "Animal Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Mulato II grass",
+                "target": "Rabbit production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Semen dilution",
+                "target": "Reproductive performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Artificial insemination",
+                "target": "Table 10",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Family-scale rabbit production models",
+                "target": "Total rabbit population in 2014 (7,584,000 heads)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Family-scale rabbit production models",
+                "target": "Annual increase (11.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Semen dilution",
+                "target": "Pregnant rate of conserving semen (75.0%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

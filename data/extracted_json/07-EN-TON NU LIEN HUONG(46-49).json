@@ -1,0 +1,185 @@
+{
+    "filename": "07-EN-TON NU LIEN HUONG(46-49).json",
+    "paper_title": "CHEMICAL CONSTITUENTS OF Physalis angulata L. (FAMILY SOLANACEAE)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Pharmaceutical Chemistry",
+                "type": "Domain",
+                "description": "Study of chemical constituents and bioactivities of medicinal plants"
+            },
+            {
+                "id": "Ton Nu Lien Huong",
+                "type": "Author",
+                "description": "Researcher from College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Ly Anh Van",
+                "type": "Author",
+                "description": "Researcher from College of Engineering Technology, Can Tho University"
+            },
+            {
+                "id": "Nguyen Duy Thanh",
+                "type": "Author",
+                "description": "Researcher from College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Nguyen Thi Thu Suong",
+                "type": "Author",
+                "description": "Researcher from College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Nguyen Hoang Phuong",
+                "type": "Author",
+                "description": "Researcher from College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Nguyen Dinh Cung Tien",
+                "type": "Author",
+                "description": "Researcher from College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "Physalis angulata L.",
+                "type": "Concept",
+                "description": "Medicinal plant species used for treating infection, fever, and hepatitis"
+            },
+            {
+                "id": "alpha-glucosidase enzyme inhibition",
+                "type": "Concept",
+                "description": "Potential bioactivity for diabetes treatment"
+            },
+            {
+                "id": "Physalin B",
+                "type": "Concept",
+                "description": "Chemical compound isolated from Physalis angulata L."
+            },
+            {
+                "id": "Physalin G",
+                "type": "Concept",
+                "description": "Chemical compound isolated from Physalis angulata L. with inhibitory activity"
+            },
+            {
+                "id": "Quercetin 3-O-rutinoside",
+                "type": "Concept",
+                "description": "Flavonoid compound isolated from Physalis angulata L."
+            },
+            {
+                "id": "ESI-MS",
+                "type": "Method",
+                "description": "Electrospray Ionization Mass Spectrometry for structural elucidation"
+            },
+            {
+                "id": "1D and 2D-NMR spectroscopy",
+                "type": "Method",
+                "description": "Nuclear Magnetic Resonance used to determine chemical structures"
+            },
+            {
+                "id": "Column chromatography",
+                "type": "Method",
+                "description": "Isolation technique using Silica gel 60, Diaion HP-20, and Bondesil C-18"
+            },
+            {
+                "id": "alpha-glucosidase enzyme assay",
+                "type": "Method",
+                "description": "Laboratory test to determine inhibition activity and IC50 value"
+            },
+            {
+                "id": "Published spectral data",
+                "type": "Dataset",
+                "description": "Known reference database used for structure comparison"
+            },
+            {
+                "id": "IC50 value of Physalin G (218.1 ug/ml)",
+                "type": "Metric",
+                "description": "Concentration required for 50% inhibition of alpha-glucosidase"
+            },
+            {
+                "id": "IC50 value of Acarbose (183.4 ug/ml)",
+                "type": "Metric",
+                "description": "Inhibitory concentration of the control drug"
+            },
+            {
+                "id": "Inhibition efficiency (84.1%)",
+                "type": "Metric",
+                "description": "Relative efficiency of Physalin G compared to Acarbose"
+            }
+        ],
+        "relations": [
+            {
+                "source": "CHEMICAL CONSTITUENTS OF Physalis angulata L. (FAMILY SOLANACEAE)",
+                "target": "Pharmaceutical Chemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ton Nu Lien Huong",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ly Anh Van",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Duy Thanh",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thu Suong",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hoang Phuong",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Dinh Cung Tien",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Column chromatography",
+                "target": "Physalis angulata L.",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "1D and 2D-NMR spectroscopy",
+                "target": "Published spectral data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "alpha-glucosidase enzyme assay",
+                "target": "IC50 value of Physalin G (218.1 ug/ml)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "alpha-glucosidase enzyme assay",
+                "target": "Inhibition efficiency (84.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "alpha-glucosidase enzyme assay",
+                "target": "alpha-glucosidase enzyme inhibition",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ESI-MS",
+                "target": "Physalin B",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

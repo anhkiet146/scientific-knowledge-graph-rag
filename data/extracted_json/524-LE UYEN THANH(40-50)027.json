@@ -1,0 +1,215 @@
+{
+    "filename": "524-LE UYEN THANH(40-50)027.json",
+    "paper_title": "Effect of heavy metals on duckweed growth",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Heavy metal pollution",
+                "type": "Concept",
+                "description": "Environmental issue involving toxic metals like As, Cd, and Pb in water and soil."
+            },
+            {
+                "id": "Duckweed growth",
+                "type": "Concept",
+                "description": "The biological development and surface area expansion of Lemna species under stress."
+            },
+            {
+                "id": "Phytoremediation",
+                "type": "Concept",
+                "description": "The use of plants to remove, transfer, or stabilize contaminants in the environment."
+            },
+            {
+                "id": "Heavy metal tolerance",
+                "type": "Concept",
+                "description": "The ability of certain plant clones to survive and grow in contaminated environments."
+            },
+            {
+                "id": "Lemna clones (BGG, BTN, BTR)",
+                "type": "Method",
+                "description": "Biological plant materials (duckweed) from Bac Giang, Binh Thuan, and Ben Tre used in the study."
+            },
+            {
+                "id": "N-medium",
+                "type": "Method",
+                "description": "The nutrient culture medium used to grow the duckweed accessions."
+            },
+            {
+                "id": "As3+",
+                "type": "Method",
+                "description": "Arsenic ions used as a heavy metal treatment in the experiment."
+            },
+            {
+                "id": "Cd2+",
+                "type": "Method",
+                "description": "Cadmium ions used as a heavy metal treatment in the experiment."
+            },
+            {
+                "id": "Pb2+",
+                "type": "Method",
+                "description": "Lead ions used as a heavy metal treatment in the experiment."
+            },
+            {
+                "id": "ImageJ software",
+                "type": "Method",
+                "description": "Image analysis tool used to measure the surface area of the fronds."
+            },
+            {
+                "id": "Surface area measurement",
+                "type": "Method",
+                "description": "Process of determining growth rate by calculating plant coverage over time."
+            },
+            {
+                "id": "Environmental Science",
+                "type": "Domain",
+                "description": "The primary field of research involving environmental health and plant biology."
+            },
+            {
+                "id": "Nguyen Duc Thang",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Hoang Le Lan Anh",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Pham Thi Thanh Van",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Nguyen Minh Tuan",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Nguyen Thanh Hang",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Nguyen Huu Phuoc",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Huynh Thuy Van Anh",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Tran Thi Nhung",
+                "type": "Author",
+                "description": "Researcher at Dalat University."
+            },
+            {
+                "id": "Hoang Thi Nhu Phuong",
+                "type": "Author",
+                "description": "Corresponding author at Dalat University."
+            },
+            {
+                "id": "Dalat University",
+                "type": "Institution",
+                "description": "Educational and research institution in Viet Nam."
+            },
+            {
+                "id": "Lemna BTN surface area increase (68.47 times)",
+                "type": "Metric",
+                "description": "Highest growth rate recorded for Binh Thuan clone in 0.3 mg/L Pb2+."
+            },
+            {
+                "id": "Lemna BTR surface area increase (54.65 times)",
+                "type": "Metric",
+                "description": "Highest growth rate for Ben Tre clone in 0.3 mg/L As3+."
+            },
+            {
+                "id": "As3+ concentration (0.3-0.5 mg/L)",
+                "type": "Metric",
+                "description": "Concentration range where duckweed clones showed effective growth."
+            },
+            {
+                "id": "Cd2+ concentration (0.15-0.3 mg/L)",
+                "type": "Metric",
+                "description": "Concentration range of cadmium tolerated by the clones."
+            },
+            {
+                "id": "Pb2+ concentration (0.15 mg/L)",
+                "type": "Metric",
+                "description": "Lead concentration tolerated by Lemna BGG."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of heavy metals on duckweed growth",
+                "target": "Environmental Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Surface area measurement",
+                "target": "Lemna BTN surface area increase (68.47 times)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Surface area measurement",
+                "target": "Lemna BTR surface area increase (54.65 times)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Lemna clones (BGG, BTN, BTR)",
+                "target": "Phytoremediation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ImageJ software",
+                "target": "Surface area measurement",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Nguyen Duc Thang",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Le Lan Anh",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Thi Thanh Van",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Tuan",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Hang",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Huu Phuoc",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Thuy Van Anh",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Nhung",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Thi Nhu Phuong",
+                "target": "Dalat University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

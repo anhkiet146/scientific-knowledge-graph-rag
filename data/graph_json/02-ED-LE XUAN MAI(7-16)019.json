@@ -1,0 +1,130 @@
+{
+  "filename": "02-ED-LE XUAN MAI(7-16)019.json",
+  "paper_title": "EFL lecturers' needs for professional development: A case study of an institution in the Mekong Delta",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Le Xuan Mai",
+        "type": "Author",
+        "description": "The primary author of the study from Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "English as a Foreign Language (EFL) Education",
+        "type": "Domain",
+        "description": "The main field of research focusing on English language instruction."
+      },
+      {
+        "id": "Professional Development",
+        "type": "Concept",
+        "description": "The process of improving teachers' competencies and learning outcomes."
+      },
+      {
+        "id": "Teacher Competencies",
+        "type": "Concept",
+        "description": "The skills, knowledge, and attitudes required for effective teaching."
+      },
+      {
+        "id": "English Teacher Competency Framework (ETCF)",
+        "type": "Method",
+        "description": "A standardized tool for teacher development and evaluation in Vietnam."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "A quantitative data collection tool used for 17 lecturers."
+      },
+      {
+        "id": "Semi-structured individual interviews",
+        "type": "Method",
+        "description": "A qualitative method used to gain in-depth insights from 4 lecturers."
+      },
+      {
+        "id": "Descriptive case study",
+        "type": "Method",
+        "description": "The overall research design employed for the investigation."
+      },
+      {
+        "id": "Survey and Interview Dataset",
+        "type": "Dataset",
+        "description": "The collection of responses from 17 questionnaire participants and 4 interviewees."
+      },
+      {
+        "id": "Freshmen needing basic English courses (> 80%)",
+        "type": "Metric",
+        "description": "The percentage of first-year students requiring remedial English since 2015."
+      },
+      {
+        "id": "Lecturers wanting to read professional materials (88.2%)",
+        "type": "Metric",
+        "description": "The percentage of lecturers interested in reading professional books and journals."
+      },
+      {
+        "id": "Confidence in English curriculum (> 70%)",
+        "type": "Metric",
+        "description": "The level of confidence reported by lecturers in understanding their required curriculum."
+      },
+      {
+        "id": "Confidence in basic computer skills (> 70%)",
+        "type": "Metric",
+        "description": "The percentage of lecturers feeling very confident in their computer literacy."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Xuan Mai",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Descriptive case study",
+        "target": "English as a Foreign Language (EFL) Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Professional Development",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Semi-structured individual interviews",
+        "target": "Professional Development",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "English Teacher Competency Framework (ETCF)",
+        "target": "Teacher Competencies",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Survey and Interview Dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Semi-structured individual interviews",
+        "target": "Survey and Interview Dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Lecturers wanting to read professional materials (88.2%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Confidence in English curriculum (> 70%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Confidence in basic computer skills (> 70%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

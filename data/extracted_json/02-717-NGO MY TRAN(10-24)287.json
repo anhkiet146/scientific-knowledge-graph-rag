@@ -1,0 +1,182 @@
+{
+    "filename": "02-717-NGO MY TRAN(10-24)287.json",
+    "paper_title": "Determinants on green purchasing behavior of generation Y: Empirical evidence in Can Tho city",
+    "extraction_result": [
+        {
+            "entities": [
+                {
+                    "id": "Ngo My Tran",
+                    "type": "Author",
+                    "description": "First author and corresponding author"
+                },
+                {
+                    "id": "Bui Thi Kim Thanh",
+                    "type": "Author",
+                    "description": "Co-author"
+                },
+                {
+                    "id": "Tran Buu Hau",
+                    "type": "Author",
+                    "description": "Co-author"
+                },
+                {
+                    "id": "School of Economics, Can Tho University",
+                    "type": "Institution",
+                    "description": "Institution of the first and second authors"
+                },
+                {
+                    "id": "Can Tho University",
+                    "type": "Institution",
+                    "description": "Institution associated with the third author"
+                },
+                {
+                    "id": "Green purchasing behavior",
+                    "type": "Domain",
+                    "description": "The main research field of the study"
+                },
+                {
+                    "id": "Generation Y",
+                    "type": "Concept",
+                    "description": "Also known as Millennials, the target demographic born between 1980 and 1994/1996"
+                },
+                {
+                    "id": "Green purchasing intention",
+                    "type": "Concept",
+                    "description": "The motivating factor leading to green purchasing behavior"
+                },
+                {
+                    "id": "Theory of Planned Behavior (TPB)",
+                    "type": "Concept",
+                    "description": "The psychological theory expanded in this study"
+                },
+                {
+                    "id": "Concern for the environment",
+                    "type": "Concept",
+                    "description": "Awareness of environmental problems and willingness to solve them"
+                },
+                {
+                    "id": "Green price sensitivity",
+                    "type": "Concept",
+                    "description": "Degree to which demand changes as the cost of a sustainable product changes"
+                },
+                {
+                    "id": "Perceived green behavior control",
+                    "type": "Concept",
+                    "description": "Perceived ease or difficulty of performing green purchasing behavior"
+                },
+                {
+                    "id": "PLS-SEM",
+                    "type": "Method",
+                    "description": "Partial Least Squares Structural Equation Modeling used for estimation"
+                },
+                {
+                    "id": "EFA",
+                    "type": "Method",
+                    "description": "Exploratory Factors Analysis used to extract correlated observed variables"
+                },
+                {
+                    "id": "CFA",
+                    "type": "Method",
+                    "description": "Confirmatory Factor Analysis used to assess model fit"
+                },
+                {
+                    "id": "Cronbach's Alpha",
+                    "type": "Method",
+                    "description": "Statistical test used for scale reliability"
+                },
+                {
+                    "id": "Survey data from 180 consumers",
+                    "type": "Dataset",
+                    "description": "Numerical data collected from millennial consumers in Can Tho city"
+                },
+                {
+                    "id": "Variation of green purchasing intention (59.7%)",
+                    "type": "Metric",
+                    "description": "The R-squared value explaining the intention variance"
+                },
+                {
+                    "id": "Variation of green purchasing behavior (40.5%)",
+                    "type": "Metric",
+                    "description": "The R-squared value explaining the behavior variance"
+                },
+                {
+                    "id": "Composite reliability (CR > 0.7)",
+                    "type": "Metric",
+                    "description": "Metric for scale reliability"
+                },
+                {
+                    "id": "AVE (> 0.5)",
+                    "type": "Metric",
+                    "description": "Average Variance Extracted metric for convergent validity"
+                },
+                {
+                    "id": "Weight of perceived green behavior control (0.201)",
+                    "type": "Metric",
+                    "description": "The estimated impact coefficient in the PLS-SEM model"
+                }
+            ],
+            "relations": [
+                {
+                    "source": "Determinants on green purchasing behavior of generation Y",
+                    "target": "Green purchasing behavior",
+                    "type": "BELONGS_TO"
+                },
+                {
+                    "source": "Ngo My Tran",
+                    "target": "School of Economics, Can Tho University",
+                    "type": "AFFILIATED_WITH"
+                },
+                {
+                    "source": "Bui Thi Kim Thanh",
+                    "target": "School of Economics, Can Tho University",
+                    "type": "AFFILIATED_WITH"
+                },
+                {
+                    "source": "Tran Buu Hau",
+                    "target": "Can Tho University",
+                    "type": "AFFILIATED_WITH"
+                },
+                {
+                    "source": "PLS-SEM",
+                    "target": "Variation of green purchasing intention (59.7%)",
+                    "type": "ACHIEVED"
+                },
+                {
+                    "source": "PLS-SEM",
+                    "target": "Variation of green purchasing behavior (40.5%)",
+                    "type": "ACHIEVED"
+                },
+                {
+                    "source": "PLS-SEM",
+                    "target": "Weight of perceived green behavior control (0.201)",
+                    "type": "ACHIEVED"
+                },
+                {
+                    "source": "PLS-SEM",
+                    "target": "Survey data from 180 consumers",
+                    "type": "EVALUATED_ON"
+                },
+                {
+                    "source": "CFA",
+                    "target": "Composite reliability (CR > 0.7)",
+                    "type": "ACHIEVED"
+                },
+                {
+                    "source": "CFA",
+                    "target": "AVE (> 0.5)",
+                    "type": "ACHIEVED"
+                },
+                {
+                    "source": "PLS-SEM",
+                    "target": "Green purchasing behavior",
+                    "type": "USED_FOR"
+                },
+                {
+                    "source": "EFA",
+                    "target": "Green purchasing intention",
+                    "type": "USED_FOR"
+                }
+            ]
+        }
+    ]
+}

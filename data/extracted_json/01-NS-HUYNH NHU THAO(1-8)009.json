@@ -1,0 +1,190 @@
+{
+  "filename": "01-NS-HUYNH NHU THAO(1-8)009.json",
+  "paper_title": "Docking belinostat into HDAC 8 using autodock tool",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Computational Chemistry",
+        "type": "Domain",
+        "description": "The field of study using computer simulation to assist in solving chemical problems."
+      },
+      {
+        "id": "HDAC 8",
+        "type": "Concept",
+        "description": "Histone Deacetylase 8, a zinc-dependent enzyme target for cancer treatment."
+      },
+      {
+        "id": "Cancer treatment",
+        "type": "Concept",
+        "description": "The research problem focused on developing novel HDAC 8 inhibitors."
+      },
+      {
+        "id": "Autodock Tool",
+        "type": "Method",
+        "description": "A software suite used for molecular docking simulations."
+      },
+      {
+        "id": "Autodock4Zn",
+        "type": "Method",
+        "description": "An extension of the Autodock forcefield specifically for metalloenzymes containing zinc."
+      },
+      {
+        "id": "Belinostat",
+        "type": "Method",
+        "description": "A hydroxamic acid class inhibitor used as a ligand in the docking study."
+      },
+      {
+        "id": "Gaussian 09",
+        "type": "Method",
+        "description": "Software used for geometry optimization calculations."
+      },
+      {
+        "id": "B3LYP",
+        "type": "Method",
+        "description": "A functional used in DFT calculations with 6-311++G(d,p) basis set."
+      },
+      {
+        "id": "PDB: 1t67",
+        "type": "Dataset",
+        "description": "Digital crystal structure data of HDAC8 retrieved from the Protein Data Bank."
+      },
+      {
+        "id": "Binding energy (-8.97 kcal/mol)",
+        "type": "Metric",
+        "description": "Estimated free energy of binding for the belinostat-HDAC8 complex."
+      },
+      {
+        "id": "Inhibition level (265.3 nM)",
+        "type": "Metric",
+        "description": "Calculated inhibition constant (Ki) for belinostat against HDAC8."
+      },
+      {
+        "id": "Huynh Nhu Thao",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Huu Toan",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Thanh Si",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Cuong Quoc",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Ha Thi Kim Quy",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Le Thi Bach",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Trong Tuan",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Bui Thi Buu Hue",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Tran Quang De",
+        "type": "Author",
+        "description": "Corresponding author at Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Department of Chemistry, College of Natural Sciences, Can Tho University, Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "HDAC 8",
+        "target": "Computational Chemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Autodock4Zn",
+        "target": "Binding energy (-8.97 kcal/mol)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Autodock4Zn",
+        "target": "Inhibition level (265.3 nM)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Autodock Tool",
+        "target": "HDAC 8",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Belinostat",
+        "target": "Cancer treatment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Autodock4Zn",
+        "target": "PDB: 1t67",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Huynh Nhu Thao",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Huu Toan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Si",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Cuong Quoc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Thi Kim Quy",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Bach",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trong Tuan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Thi Buu Hue",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Quang De",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

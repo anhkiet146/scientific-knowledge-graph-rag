@@ -1,0 +1,140 @@
+{
+    "filename": "08-ED-PHUONG HOANG YEN(57-64)039.json",
+    "paper_title": "Students' perceptions of a blended learning environment for English training at a university in Vietnam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Blended learning",
+                "type": "Concept",
+                "description": "The combination of online and face-to-face learning and teaching."
+            },
+            {
+                "id": "English Language Teaching",
+                "type": "Domain",
+                "description": "The field of teaching English as a foreign language (EFL)."
+            },
+            {
+                "id": "Students' perceptions",
+                "type": "Concept",
+                "description": "Exploring how learners view the benefits and challenges of the learning environment."
+            },
+            {
+                "id": "English skills and knowledge",
+                "type": "Concept",
+                "description": "Language competence including listening, speaking, reading, writing, and grammar."
+            },
+            {
+                "id": "Questionnaire survey",
+                "type": "Method",
+                "description": "The primary research method used to collect data from participants."
+            },
+            {
+                "id": "Five-point Likert scale",
+                "type": "Method",
+                "description": "A scale from 1 (completely disagree) to 5 (completely agree) used in the survey."
+            },
+            {
+                "id": "Reliability test",
+                "type": "Method",
+                "description": "Statistical procedure used to ensure the consistency of the questionnaire."
+            },
+            {
+                "id": "Survey responses from 165 students",
+                "type": "Dataset",
+                "description": "The collection of data points from the 165 participants at a university in Vietnam."
+            },
+            {
+                "id": "Cronbach's alpha (0.92)",
+                "type": "Metric",
+                "description": "A measure of internal consistency/reliability for the questionnaire."
+            },
+            {
+                "id": "Agreement on listening skill development (58.2%)",
+                "type": "Metric",
+                "description": "The percentage of students who agreed that BLE helped develop listening skills."
+            },
+            {
+                "id": "Proportion of agreement on benefits (50% to 60%)",
+                "type": "Metric",
+                "description": "The range of student agreement regarding various benefits and overall perception."
+            },
+            {
+                "id": "Task completion requirement (70%)",
+                "type": "Metric",
+                "description": "The minimum percentage of online tasks students were required to complete."
+            },
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "Corresponding author of the study."
+            },
+            {
+                "id": "Huynh Minh Hien",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Huynh Chi Minh Huyen",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the authors are affiliated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Students' perceptions of a blended learning environment for English training at a university in Vietnam",
+                "target": "English Language Teaching",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Minh Hien",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Chi Minh Huyen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Blended learning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Students' perceptions",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Survey responses from 165 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Reliability test",
+                "target": "Cronbach's alpha (0.92)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Agreement on listening skill development (58.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Proportion of agreement on benefits (50% to 60%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

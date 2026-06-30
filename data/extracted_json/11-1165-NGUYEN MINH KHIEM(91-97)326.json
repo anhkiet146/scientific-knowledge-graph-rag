@@ -1,0 +1,150 @@
+{
+    "filename": "11-1165-NGUYEN MINH KHIEM(91-97)326.json",
+    "paper_title": "Using U-Net models in deep learning for brain tumor detection from MRI scans",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Brain tumor detection",
+                "type": "Concept",
+                "description": "The primary objective of identifying the presence and location of tumors in the nervous system from MRI images."
+            },
+            {
+                "id": "U-Net",
+                "type": "Method",
+                "description": "A deep learning model architecture designed for image segmentation, particularly in the medical field."
+            },
+            {
+                "id": "ResNeXt-50",
+                "type": "Method",
+                "description": "A powerful and flexible architecture used as a backbone for image recognition and medical diagnosis."
+            },
+            {
+                "id": "EfficientNet",
+                "type": "Method",
+                "description": "A neural network architecture that optimizes performance and resource consumption using scaling and neural architecture search."
+            },
+            {
+                "id": "Feature Pyramid Network (FPN)",
+                "type": "Method",
+                "description": "An architecture used for object detection at different scales by combining bottom-up and top-down feature maps."
+            },
+            {
+                "id": "MRI scans",
+                "type": "Method",
+                "description": "Magnetic Resonance Imaging used to capture detailed images of brain structures."
+            },
+            {
+                "id": "BraTS 2021",
+                "type": "Dataset",
+                "description": "A publicly available dataset consisting of 3,929 MRI scan images and corresponding masks for brain tumor segmentation."
+            },
+            {
+                "id": "Average IoU accuracy (0.90)",
+                "type": "Metric",
+                "description": "The mean Intersection over Union score achieved by the hybrid EfficientNet and FPN model on the test set."
+            },
+            {
+                "id": "Dice accuracy (0.92)",
+                "type": "Metric",
+                "description": "The similarity coefficient achieved by the hybrid EfficientNet and FPN model on the test set."
+            },
+            {
+                "id": "Testing IoU (0.50)",
+                "type": "Metric",
+                "description": "The Intersection over Union score achieved by the ResNeXt-50 model on the test set."
+            },
+            {
+                "id": "Dice accuracy (0.66)",
+                "type": "Metric",
+                "description": "The similarity coefficient achieved by the ResNeXt-50 model on the test set."
+            },
+            {
+                "id": "Deep Learning",
+                "type": "Domain",
+                "description": "A specialization within Artificial Intelligence used for complex image processing and detection tasks."
+            },
+            {
+                "id": "Nguyen Minh Khiem",
+                "type": "Author",
+                "description": "Author from the College of Information and Communication Technology, Can Tho University."
+            },
+            {
+                "id": "Tran Phuoc Huy",
+                "type": "Author",
+                "description": "Author from VNPT Soc Trang, Viet Nam."
+            },
+            {
+                "id": "Phan Tan Tai",
+                "type": "Author",
+                "description": "Author from the College of Information and Communication Technology, Can Tho University."
+            },
+            {
+                "id": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam."
+            },
+            {
+                "id": "VNPT Soc Trang, Viet Nam",
+                "type": "Institution",
+                "description": "Telecommunications organization in Soc Trang, Viet Nam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Using U-Net models in deep learning for brain tumor detection from MRI scans",
+                "target": "Deep Learning",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "EfficientNet",
+                "target": "Average IoU accuracy (0.90)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "EfficientNet",
+                "target": "Dice accuracy (0.92)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ResNeXt-50",
+                "target": "Testing IoU (0.50)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ResNeXt-50",
+                "target": "Dice accuracy (0.66)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "U-Net",
+                "target": "Brain tumor detection",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ResNeXt-50",
+                "target": "BraTS 2021",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "EfficientNet",
+                "target": "BraTS 2021",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Nguyen Minh Khiem",
+                "target": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Tan Tai",
+                "target": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Phuoc Huy",
+                "target": "VNPT Soc Trang, Viet Nam",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

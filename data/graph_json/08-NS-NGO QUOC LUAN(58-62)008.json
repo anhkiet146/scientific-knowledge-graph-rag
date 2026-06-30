@@ -1,0 +1,215 @@
+{
+  "filename": "08-NS-NGO QUOC LUAN(58-62)008.json",
+  "paper_title": "Extraction, isolation and identification of four methoxyflavones from leaves of Muntingia calabura L",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phytochemistry",
+        "type": "Domain",
+        "description": "The study of chemicals derived from plants."
+      },
+      {
+        "id": "Extraction, isolation and identification of methoxyflavones",
+        "type": "Concept",
+        "description": "Research problem involving obtaining and identifying chemical compounds from leaves."
+      },
+      {
+        "id": "Biological activity",
+        "type": "Concept",
+        "description": "Study of antibacterial, antifungal, and anticancer properties of the plant extracts."
+      },
+      {
+        "id": "Ngo Quoc Luan",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Tiet Bao Tinh",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Ngo Khac Khong Minh",
+        "type": "Author",
+        "description": "Author from Nam Can Tho University."
+      },
+      {
+        "id": "Nguyen Phuc Dam",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Tran Thi Tuyet Hoa",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Trong Tuan",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Nam Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Liquid-liquid extraction",
+        "type": "Method",
+        "description": "Extraction method using acetone solvent."
+      },
+      {
+        "id": "Thin layer chromatography (TLC)",
+        "type": "Method",
+        "description": "Analytical technique used to separate non-volatile mixtures."
+      },
+      {
+        "id": "Common phase column chromatography (CP-CC)",
+        "type": "Method",
+        "description": "Purification technique using silica gel 60."
+      },
+      {
+        "id": "ESI-HR-MS",
+        "type": "Method",
+        "description": "Mass spectrometry for molecular formula determination."
+      },
+      {
+        "id": "1D and 2D-NMR spectroscopy",
+        "type": "Method",
+        "description": "Nuclear Magnetic Resonance used for structural elucidation."
+      },
+      {
+        "id": "FT-IR Spectroscopy",
+        "type": "Method",
+        "description": "Infrared spectroscopy for identifying functional groups."
+      },
+      {
+        "id": "Acetone",
+        "type": "Method",
+        "description": "Solvent used for the extraction process."
+      },
+      {
+        "id": "Published data",
+        "type": "Dataset",
+        "description": "External reference data used for comparison and identification."
+      },
+      {
+        "id": "Humidity (0-2 %)",
+        "type": "Metric",
+        "description": "Moisture content of dried leaves."
+      },
+      {
+        "id": "Weight of acetone extract (0.42 kg)",
+        "type": "Metric",
+        "description": "Yield of the primary extract from 5.0 kg of powder."
+      },
+      {
+        "id": "Yield of compound 1 (7.2 mg)",
+        "type": "Metric",
+        "description": "Amount of 5-hydroxy-7-methoxyflavone isolated."
+      },
+      {
+        "id": "Melting point of compound 2 (158-159°C)",
+        "type": "Metric",
+        "description": "Physical property for identification of compound 2."
+      },
+      {
+        "id": "Melting point of compound 3 (160-162°C)",
+        "type": "Metric",
+        "description": "Physical property for identification of compound 3."
+      },
+      {
+        "id": "Melting point of compound 4 (175-176°C)",
+        "type": "Metric",
+        "description": "Physical property for identification of compound 4."
+      },
+      {
+        "id": "Antioxidant IC50 (34.26 μg/mL)",
+        "type": "Metric",
+        "description": "Biological activity measure for ethanolic extract."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Extraction, isolation and identification of methoxyflavones",
+        "target": "Phytochemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ngo Quoc Luan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tiet Bao Tinh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Khac Khong Minh",
+        "target": "Nam Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Phuc Dam",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Tuyet Hoa",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trong Tuan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Liquid-liquid extraction",
+        "target": "Extraction, isolation and identification of methoxyflavones",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Common phase column chromatography (CP-CC)",
+        "target": "Extraction, isolation and identification of methoxyflavones",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "1D and 2D-NMR spectroscopy",
+        "target": "Extraction, isolation and identification of methoxyflavones",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "1D and 2D-NMR spectroscopy",
+        "target": "Published data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Liquid-liquid extraction",
+        "target": "Weight of acetone extract (0.42 kg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Common phase column chromatography (CP-CC)",
+        "target": "Yield of compound 1 (7.2 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ESI-HR-MS",
+        "target": "Melting point of compound 2 (158-159°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Biological activity",
+        "target": "Antioxidant IC50 (34.26 μg/mL)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

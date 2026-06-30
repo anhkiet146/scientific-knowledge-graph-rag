@@ -1,0 +1,175 @@
+{
+  "filename": "09-ED-LE TRAN THANH LIEM(67-74)009.json",
+  "paper_title": "Research on situation of environmental education for primary students in rural areas of Hau Giang province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Environmental Education",
+        "type": "Concept",
+        "description": "The main subject of the research focusing on teaching students about the nature and environmental protection."
+      },
+      {
+        "id": "Environmental Protection",
+        "type": "Concept",
+        "description": "Activities and knowledge aimed at preserving the natural environment."
+      },
+      {
+        "id": "Students' awareness",
+        "type": "Concept",
+        "description": "The level of understanding and perception of primary students regarding the environment."
+      },
+      {
+        "id": "Waste management",
+        "type": "Concept",
+        "description": "The process of handling waste, taught to students as part of environmental education."
+      },
+      {
+        "id": "Environmental Education Science",
+        "type": "Domain",
+        "description": "The field of study concerning the teaching of environmental issues in schools."
+      },
+      {
+        "id": "Le Tran Thanh Liem",
+        "type": "Author",
+        "description": "First author of the research paper."
+      },
+      {
+        "id": "Pham Ngoc Nhan",
+        "type": "Author",
+        "description": "Second author of the research paper."
+      },
+      {
+        "id": "Pham Kieu Trang",
+        "type": "Author",
+        "description": "Third author of the research paper."
+      },
+      {
+        "id": "College of Rural Development, Can Tho University",
+        "type": "Institution",
+        "description": "Affiliation of Le Tran Thanh Liem and Pham Ngoc Nhan."
+      },
+      {
+        "id": "RMIT University Vietnam",
+        "type": "Institution",
+        "description": "Affiliation of Pham Kieu Trang."
+      },
+      {
+        "id": "Structured questionnaire survey",
+        "type": "Method",
+        "description": "Tool used to collect primary data from teachers and parents."
+      },
+      {
+        "id": "Interviews",
+        "type": "Method",
+        "description": "Qualitative data collection method used with education managers and parents."
+      },
+      {
+        "id": "SPSS software (16.0)",
+        "type": "Method",
+        "description": "Statistical software used for data analysis."
+      },
+      {
+        "id": "Excel software",
+        "type": "Method",
+        "description": "Software used for data organization and analysis."
+      },
+      {
+        "id": "Descriptive statistics",
+        "type": "Method",
+        "description": "Method used to provide an overview of the research situation."
+      },
+      {
+        "id": "Adding environmental topics in science subjects",
+        "type": "Method",
+        "description": "A method of integrating environmental education into the standard curriculum."
+      },
+      {
+        "id": "Organizing extra-curricular activities",
+        "type": "Method",
+        "description": "A method of environmental education through activities outside the classroom."
+      },
+      {
+        "id": "Primary data from 50 teachers and 30 parents",
+        "type": "Dataset",
+        "description": "The specific set of collected responses used for analysis."
+      },
+      {
+        "id": "Effectiveness of extra-curricular activities by community resources (46%)",
+        "type": "Metric",
+        "description": "Percentage of teachers choosing this as the most effective method."
+      },
+      {
+        "id": "Suitability of Grade 5 students for after-class activities (34%)",
+        "type": "Metric",
+        "description": "Teachers' suggestion rate for the most suitable age group for these activities."
+      },
+      {
+        "id": "Inadequate budget for added-in contents method (88%)",
+        "type": "Metric",
+        "description": "The ratio of teachers reporting insufficient funding for curriculum integration."
+      },
+      {
+        "id": "Parents definitely likely to change habits (43%)",
+        "type": "Metric",
+        "description": "The ratio of parents willing to change bad environmental habits based on school education."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Tran Thanh Liem",
+        "target": "College of Rural Development, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Ngoc Nhan",
+        "target": "College of Rural Development, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Kieu Trang",
+        "target": "RMIT University Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Structured questionnaire survey",
+        "target": "Primary data from 50 teachers and 30 parents",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Interviews",
+        "target": "Primary data from 50 teachers and 30 parents",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "SPSS software (16.0)",
+        "target": "Primary data from 50 teachers and 30 parents",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Adding environmental topics in science subjects",
+        "target": "Environmental Education",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Organizing extra-curricular activities",
+        "target": "Environmental Education",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Organizing extra-curricular activities",
+        "target": "Suitability of Grade 5 students for after-class activities (34%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Adding environmental topics in science subjects",
+        "target": "Inadequate budget for added-in contents method (88%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Environmental Education",
+        "target": "Environmental Education Science",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+    "filename": "08-AE-TRAN VAN DUNG(52-62)43.json",
+    "paper_title": "THE EFFECT OF CROP ROTATION ON THE STRUCTURE OF THE FUNGAL COMMUNITY COLONISING RICE STRAW RESIDUES IN PADDY RICE CULTURED SOIL IN THE MEKONG DELTA OF VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Soil Microbiology",
+                "type": "Domain",
+                "description": "The study of soil-dwelling microorganisms and their functions."
+            },
+            {
+                "id": "Tran Van Dung",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Minh Dong",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Duong Minh Vien",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Vietnam."
+            },
+            {
+                "id": "Crop rotation",
+                "type": "Concept",
+                "description": "The practice of growing different crops in succession on the same land."
+            },
+            {
+                "id": "Fungal community structure",
+                "type": "Concept",
+                "description": "The composition and diversity of fungi in a specific environment."
+            },
+            {
+                "id": "Rice monoculture",
+                "type": "Concept",
+                "description": "The continuous cultivation of rice in the same area."
+            },
+            {
+                "id": "DGGE",
+                "type": "Method",
+                "description": "Denaturing Gradient Gel Electrophoresis used for molecular fingerprinting."
+            },
+            {
+                "id": "Nested PCR",
+                "type": "Method",
+                "description": "A polymerase chain reaction intended to reduce non-specific binding."
+            },
+            {
+                "id": "ITS1-ITS2 primer pair",
+                "type": "Method",
+                "description": "Primers used to amplify fungal internal transcribed spacer sequences."
+            },
+            {
+                "id": "UPGMA clustering",
+                "type": "Method",
+                "description": "Unweighted-pair group method using arithmetic averages for dendrogram construction."
+            },
+            {
+                "id": "pCR®2.1-TOPO®",
+                "type": "Method",
+                "description": "Plasmid vector used for cloning PCR products."
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "NIH genetic sequence database for comparison of DNA sequences."
+            },
+            {
+                "id": "0.4 % similarity",
+                "type": "Metric",
+                "description": "Similarity percentage between CRS4 and other systems at 50 days."
+            },
+            {
+                "id": "16.9 % similarity",
+                "type": "Metric",
+                "description": "Similarity percentage between CRS2/CRS4 and CRS1."
+            },
+            {
+                "id": "P < 0.05",
+                "type": "Metric",
+                "description": "Statistical significance threshold used in ANOVA."
+            },
+            {
+                "id": "17 h at 60°C and 100 V",
+                "type": "Metric",
+                "description": "Specific electrophoresis parameters for DGGE."
+            },
+            {
+                "id": "121°C for 20 minutes",
+                "type": "Metric",
+                "description": "Sterilization conditions for rice straw bags."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Tran Van Dung",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Dong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Minh Vien",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "DGGE",
+                "target": "Fungal community structure",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Nested PCR",
+                "target": "ITS1-ITS2 primer pair",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "UPGMA clustering",
+                "target": "0.4 % similarity",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "UPGMA clustering",
+                "target": "16.9 % similarity",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DGGE",
+                "target": "17 h at 60°C and 100 V",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "pCR®2.1-TOPO®",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

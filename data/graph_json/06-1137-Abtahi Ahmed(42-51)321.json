@@ -1,0 +1,225 @@
+{
+  "filename": "06-1137-Abtahi Ahmed(42-51)321.json",
+  "paper_title": "Students' performance prediction employing Decision Tree",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Educational Data Mining",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu chính sử dụng khai thác dữ liệu trong giáo dục"
+      },
+      {
+        "id": "Abtahi Ahmed",
+        "type": "Author",
+        "description": "Tác giả từ United International University"
+      },
+      {
+        "id": "Farzana Akter Nipa",
+        "type": "Author",
+        "description": "Tác giả từ United International University"
+      },
+      {
+        "id": "Wasi Uddin Bhuyian",
+        "type": "Author",
+        "description": "Tác giả từ United International University"
+      },
+      {
+        "id": "Khaled Md Mushfique",
+        "type": "Author",
+        "description": "Tác giả từ United International University"
+      },
+      {
+        "id": "Kamrul Islam Shahin",
+        "type": "Author",
+        "description": "Tác giả từ University of Southern Denmark"
+      },
+      {
+        "id": "Huu-Hoa Nguyen",
+        "type": "Author",
+        "description": "Tác giả từ Can Tho University"
+      },
+      {
+        "id": "Dewan Md. Farid",
+        "type": "Author",
+        "description": "Tác giả từ United International University"
+      },
+      {
+        "id": "United International University",
+        "type": "Institution",
+        "description": "Tổ chức tại Bangladesh"
+      },
+      {
+        "id": "University of Southern Denmark",
+        "type": "Institution",
+        "description": "Tổ chức tại Đan Mạch"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Tổ chức tại Việt Nam"
+      },
+      {
+        "id": "Students' performance prediction",
+        "type": "Concept",
+        "description": "Dự đoán kết quả học tập của sinh viên"
+      },
+      {
+        "id": "Dropout prediction",
+        "type": "Concept",
+        "description": "Dự báo tỷ lệ sinh viên bỏ học"
+      },
+      {
+        "id": "Decision tree",
+        "type": "Method",
+        "description": "Thuật toán cây quyết định dùng để phân loại và trực quan hóa"
+      },
+      {
+        "id": "Support Vector Machine (SVM)",
+        "type": "Method",
+        "description": "Thuật toán SVM cho phân loại tuyến tính và phi tuyến"
+      },
+      {
+        "id": "Logistic regression",
+        "type": "Method",
+        "description": "Thuật toán hồi quy logistic"
+      },
+      {
+        "id": "K-nearest Neighbor (KNN)",
+        "type": "Method",
+        "description": "Thuật toán lân cận gần nhất"
+      },
+      {
+        "id": "Naive Bayes",
+        "type": "Method",
+        "description": "Thuật toán dựa trên định lý Bayes"
+      },
+      {
+        "id": "OrdinalEncoder",
+        "type": "Method",
+        "description": "Công cụ mã hóa đặc trưng phân loại"
+      },
+      {
+        "id": "LabelEncoder",
+        "type": "Method",
+        "description": "Công cụ mã hóa nhãn mục tiêu"
+      },
+      {
+        "id": "Google Forms",
+        "type": "Method",
+        "description": "Công cụ thu thập dữ liệu khảo sát"
+      },
+      {
+        "id": "Dataset of 550 undergraduate students",
+        "type": "Dataset",
+        "description": "Tập dữ liệu bao gồm thông tin học thuật, nhân khẩu học và xã hội của sinh viên"
+      },
+      {
+        "id": "Accuracy without academic data (93%)",
+        "type": "Metric",
+        "description": "Độ chính xác cao nhất đạt được bởi SVM với dữ liệu học thuật"
+      },
+      {
+        "id": "Training dataset (70%)",
+        "type": "Metric",
+        "description": "Tỷ lệ dữ liệu dùng để huấn luyện"
+      },
+      {
+        "id": "Test set (30%)",
+        "type": "Metric",
+        "description": "Tỷ lệ dữ liệu dùng để kiểm tra"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Abtahi Ahmed",
+        "target": "United International University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Farzana Akter Nipa",
+        "target": "United International University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Wasi Uddin Bhuyian",
+        "target": "United International University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Khaled Md Mushfique",
+        "target": "United International University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dewan Md. Farid",
+        "target": "United International University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kamrul Islam Shahin",
+        "target": "University of Southern Denmark",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huu-Hoa Nguyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Decision tree",
+        "target": "Educational Data Mining",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Decision tree",
+        "target": "Students' performance prediction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Support Vector Machine (SVM)",
+        "target": "Students' performance prediction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Support Vector Machine (SVM)",
+        "target": "Accuracy without academic data (93%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Support Vector Machine (SVM)",
+        "target": "Accuracy without academic data (93%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Decision tree",
+        "target": "Dataset of 550 undergraduate students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Support Vector Machine (SVM)",
+        "target": "Dataset of 550 undergraduate students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "OrdinalEncoder",
+        "target": "Dataset of 550 undergraduate students",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "LabelEncoder",
+        "target": "Dataset of 550 undergraduate students",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Dataset of 550 undergraduate students",
+        "target": "Training dataset (70%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dataset of 550 undergraduate students",
+        "target": "Test set (30%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

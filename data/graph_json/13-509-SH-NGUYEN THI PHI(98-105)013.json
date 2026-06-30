@@ -1,0 +1,150 @@
+{
+  "filename": "13-509-SH-NGUYEN THI PHI(98-105)013.json",
+  "paper_title": "An Overview on Social Withdrawal-Hikikomori in Japan and Support in the Context of COVID-19 Pandemic",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Social Sciences",
+        "type": "Domain",
+        "description": "The primary field of study concerning social behavior and mental health."
+      },
+      {
+        "id": "Nguyen Thi Phi",
+        "type": "Author",
+        "description": "Author of the article from FPT University."
+      },
+      {
+        "id": "FPT University",
+        "type": "Institution",
+        "description": "Institution where the author is affiliated."
+      },
+      {
+        "id": "Hikikomori",
+        "type": "Concept",
+        "description": "A phenomenon of acute social withdrawal where individuals refuse contact with society."
+      },
+      {
+        "id": "COVID-19 Pandemic",
+        "type": "Concept",
+        "description": "Global pandemic that triggered social isolation and mental health issues."
+      },
+      {
+        "id": "School refusal",
+        "type": "Concept",
+        "description": "A related syndrome where students drop out of schooling, often linked to Hikikomori."
+      },
+      {
+        "id": "Coronavirus lockdown",
+        "type": "Method",
+        "description": "A preventive measure involving staying at home to stop the spread of the virus."
+      },
+      {
+        "id": "KHJ-National association of Hikikomori's family",
+        "type": "Method",
+        "description": "A parent-based organization and support model for dealing with Hikikomori."
+      },
+      {
+        "id": "Children and youth development support promotion law",
+        "type": "Method",
+        "description": "Legal framework enacted to support young people with difficulties like NEET and Hikikomori."
+      },
+      {
+        "id": "Online learning programs",
+        "type": "Method",
+        "description": "Digital education strategies developed to mitigate the impact of school lockdowns."
+      },
+      {
+        "id": "Survey by Japanese Ministry of Health",
+        "type": "Method",
+        "description": "A systematic data collection method used to track withdrawal cases."
+      },
+      {
+        "id": "NHK Website Data",
+        "type": "Dataset",
+        "description": "Digital news database addressing concerns about Hikikomori."
+      },
+      {
+        "id": "Japanese Ministry of Health survey records",
+        "type": "Dataset",
+        "description": "The numerical data records regarding consultations at health centers."
+      },
+      {
+        "id": "Population of Hikikomori (Over 1 million)",
+        "type": "Metric",
+        "description": "The estimated number of Japanese individuals living as Hikikomori."
+      },
+      {
+        "id": "School refusal experience rate (86%)",
+        "type": "Metric",
+        "description": "The percentage of Hikikomori individuals who have experienced school refusal."
+      },
+      {
+        "id": "Consultations regarding withdrawal (14,069)",
+        "type": "Metric",
+        "description": "The number of recorded consultations at health and mental centers in 2002."
+      },
+      {
+        "id": "Withdrawal period (more than 6 months)",
+        "type": "Metric",
+        "description": "The time criterion for defining a state of Hikikomori."
+      },
+      {
+        "id": "Family Association branches (37)",
+        "type": "Metric",
+        "description": "The number of nationwide branches of the KHJ Family Association."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Hikikomori",
+        "target": "Social Sciences",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi Phi",
+        "target": "FPT University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Coronavirus lockdown",
+        "target": "COVID-19 Pandemic",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "KHJ-National association of Hikikomori's family",
+        "target": "Hikikomori",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Children and youth development support promotion law",
+        "target": "Hikikomori",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Online learning programs",
+        "target": "School refusal",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Survey by Japanese Ministry of Health",
+        "target": "Japanese Ministry of Health survey records",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Survey by Japanese Ministry of Health",
+        "target": "Consultations regarding withdrawal (14,069)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "KHJ-National association of Hikikomori's family",
+        "target": "Family Association branches (37)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Coronavirus lockdown",
+        "target": "Withdrawal period (more than 6 months)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

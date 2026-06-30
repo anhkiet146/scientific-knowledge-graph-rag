@@ -1,0 +1,120 @@
+{
+    "filename": "15-SE-VUONG QUOC DUY(112-121).json",
+    "paper_title": "DETERMINANTS OF ACCESS TO FORMAL CREDIT BY THE INDUSTRIAL AND CONSTRUCTIONAL SMALL AND MEDIUM ENTERPRISES IN CAN THO CITY, VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Access to formal credit",
+                "type": "Concept",
+                "description": "The ability of small and medium enterprises to obtain financial loans from formal institutions like banks."
+            },
+            {
+                "id": "SMEs",
+                "type": "Concept",
+                "description": "Small and Medium Enterprises, specifically in the industrial and constructional sectors."
+            },
+            {
+                "id": "Determinants of access to credit",
+                "type": "Concept",
+                "description": "Factors influencing whether an enterprise can secure formal credit."
+            },
+            {
+                "id": "Probit model",
+                "type": "Method",
+                "description": "A type of regression where the dependent variable can take only two values, used to model binary outcome variables."
+            },
+            {
+                "id": "Heckman selection model",
+                "type": "Method",
+                "description": "A statistical approach to correct for bias due to non-random sample selection."
+            },
+            {
+                "id": "Direct interview",
+                "type": "Method",
+                "description": "The primary data collection method using structured questionnaires with SME representatives."
+            },
+            {
+                "id": "Primary data of 200 SMEs in Can Tho City (2013)",
+                "type": "Dataset",
+                "description": "Survey data collected from 200 industrial and construction SMEs in Can Tho City in 2013."
+            },
+            {
+                "id": "Statistical significance (1% and 10%)",
+                "type": "Metric",
+                "description": "The level of confidence in the relationship between variables found in the Probit model."
+            },
+            {
+                "id": "Increase in borrowing ability (16.7%)",
+                "type": "Metric",
+                "description": "The increased probability of obtaining a bank loan for larger-scale enterprises compared to smaller ones."
+            },
+            {
+                "id": "Increase in bank loan possibility (12.6%)",
+                "type": "Metric",
+                "description": "The rise in loan accessibility for every 1 million VND increase in revenue."
+            },
+            {
+                "id": "Credit accessibility rate (74%)",
+                "type": "Metric",
+                "description": "The percentage of surveyed enterprises that had access to credit."
+            },
+            {
+                "id": "Finance",
+                "type": "Domain",
+                "description": "The research field focusing on credit access and financial management for enterprises."
+            },
+            {
+                "id": "Vuong Quoc Duy",
+                "type": "Author",
+                "description": "Researcher affiliated with Can Tho University."
+            },
+            {
+                "id": "College of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution located in Vietnam where the author is affiliated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Access to formal credit",
+                "target": "Finance",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Vuong Quoc Duy",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Probit model",
+                "target": "Access to formal credit",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Probit model",
+                "target": "Primary data of 200 SMEs in Can Tho City (2013)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Probit model",
+                "target": "Statistical significance (1% and 10%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Probit model",
+                "target": "Increase in borrowing ability (16.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Probit model",
+                "target": "Increase in bank loan possibility (12.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Direct interview",
+                "target": "Primary data of 200 SMEs in Can Tho City (2013)",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

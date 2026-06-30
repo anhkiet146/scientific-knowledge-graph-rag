@@ -1,0 +1,195 @@
+{
+  "filename": "10-ET-DANG HUYNH GIAO(78-84)010.json",
+  "paper_title": "Bimetallic CuCo-Zeolitic imidazole frameworks (CuCo-ZIFs): Synthesis and characterization",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Materials Science",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về vật liệu và hóa học vô cơ"
+      },
+      {
+        "id": "Dang Huynh Giao",
+        "type": "Author",
+        "description": "Tác giả liên hệ từ Đại học Cần Thơ"
+      },
+      {
+        "id": "Truong Tuong Vi",
+        "type": "Author",
+        "description": "Đồng tác giả từ Đại học Cần Thơ"
+      },
+      {
+        "id": "Ho Thi Thu Ngan",
+        "type": "Author",
+        "description": "Đồng tác giả từ Đại học Cần Thơ"
+      },
+      {
+        "id": "Nguyen Van Vinh",
+        "type": "Author",
+        "description": "Đồng tác giả từ Đại học Cần Thơ"
+      },
+      {
+        "id": "Ho Ngoc Tri Tan",
+        "type": "Author",
+        "description": "Đồng tác giả từ Đại học Cần Thơ"
+      },
+      {
+        "id": "Pham Van Toan",
+        "type": "Author",
+        "description": "Tác giả từ Khoa Môi trường và Tài nguyên Thiên nhiên, Đại học Cần Thơ"
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Trường Công nghệ Kỹ thuật, Đại học Cần Thơ"
+      },
+      {
+        "id": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Trường Môi trường và Tài nguyên Thiên nhiên, Đại học Cần Thơ"
+      },
+      {
+        "id": "Bimetallic CuCo-Zeolitic imidazole frameworks (CuCo-ZIFs)",
+        "type": "Concept",
+        "description": "Vật liệu khung hữu cơ kim loại lưỡng kim loại"
+      },
+      {
+        "id": "Metal-organic frameworks (MOFs)",
+        "type": "Concept",
+        "description": "Các cấu trúc khung hữu cơ kim loại xốp"
+      },
+      {
+        "id": "Gas adsorption",
+        "type": "Concept",
+        "description": "Ứng dụng hấp phụ khí của vật liệu"
+      },
+      {
+        "id": "Ultrasound method",
+        "type": "Method",
+        "description": "Phương pháp tổng hợp sử dụng sóng siêu âm"
+      },
+      {
+        "id": "Powder X-ray diffraction (PXRD)",
+        "type": "Method",
+        "description": "Phương pháp nhiễu xạ tia X dạng bột để phân tích cấu trúc tinh thể"
+      },
+      {
+        "id": "Thermo-gravimetric analysis (TGA)",
+        "type": "Method",
+        "description": "Phân tích nhiệt trọng trường để đánh giá độ bền nhiệt"
+      },
+      {
+        "id": "Scanning electron microscope (FE-SEM)",
+        "type": "Method",
+        "description": "Kính hiển vi điện tử quét để quan sát hình thái học"
+      },
+      {
+        "id": "Ethanol",
+        "type": "Method",
+        "description": "Dung môi xanh sử dụng trong quá trình tổng hợp"
+      },
+      {
+        "id": "PXRD patterns data",
+        "type": "Dataset",
+        "description": "Dữ liệu các mẫu nhiễu xạ tia X của các tỷ lệ mol khác nhau"
+      },
+      {
+        "id": "EDX spectrum data",
+        "type": "Dataset",
+        "description": "Dữ liệu phổ tán sắc năng lượng tia X"
+      },
+      {
+        "id": "BET surface area (1172 m2/g)",
+        "type": "Metric",
+        "description": "Diện tích bề mặt Brunauer-Emmett-Teller của CuCo-ZIFs"
+      },
+      {
+        "id": "Langmuir surface area (1907 m2/g)",
+        "type": "Metric",
+        "description": "Diện tích bề mặt Langmuir của vật liệu"
+      },
+      {
+        "id": "Pore size (9.6 Å)",
+        "type": "Metric",
+        "description": "Kích thước lỗ xốp trung bình"
+      },
+      {
+        "id": "Synthesis efficiency (15.9%)",
+        "type": "Metric",
+        "description": "Hiệu suất tổng hợp cao nhất đạt được tại tỷ lệ 1:1"
+      },
+      {
+        "id": "Thermal stability (510 oC)",
+        "type": "Metric",
+        "description": "Độ bền nhiệt tối đa của cấu trúc CuCo-ZIFs"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Bimetallic CuCo-Zeolitic imidazole frameworks (CuCo-ZIFs)",
+        "target": "Materials Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dang Huynh Giao",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Tuong Vi",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Thi Thu Ngan",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Vinh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Ngoc Tri Tan",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Van Toan",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ultrasound method",
+        "target": "Bimetallic CuCo-Zeolitic imidazole frameworks (CuCo-ZIFs)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Ultrasound method",
+        "target": "BET surface area (1172 m2/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ultrasound method",
+        "target": "Langmuir surface area (1907 m2/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ultrasound method",
+        "target": "Synthesis efficiency (15.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Thermo-gravimetric analysis (TGA)",
+        "target": "Thermal stability (510 oC)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Powder X-ray diffraction (PXRD)",
+        "target": "PXRD patterns data",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

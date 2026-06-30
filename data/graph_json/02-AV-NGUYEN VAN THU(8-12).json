@@ -1,0 +1,135 @@
+{
+  "filename": "02-AV-NGUYEN VAN THU(8-12).json",
+  "paper_title": "EFFECTS OF WATER HYACINTH SILAGE IN DIETS ON FEED INTAKE, DIGESTIBILITY AND RUMEN PARAMETERS OF SHEEP (Ovis aries) IN THE MEKONG DELTA OF VIETNAM",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Animal Science",
+        "type": "Domain",
+        "description": "The study of ruminant nutrition and animal physiology in the Mekong Delta."
+      },
+      {
+        "id": "Nguyen Van Thu",
+        "type": "Author",
+        "description": "Primary author of the research paper."
+      },
+      {
+        "id": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution where the research was conducted."
+      },
+      {
+        "id": "Feed intake",
+        "type": "Concept",
+        "description": "The amount of feed consumed by the sheep."
+      },
+      {
+        "id": "Digestibility",
+        "type": "Concept",
+        "description": "The degree to which nutrients in feed are absorbed by the animal."
+      },
+      {
+        "id": "Rumen parameters",
+        "type": "Concept",
+        "description": "Indicators of microbial fermentation in the sheep's rumen."
+      },
+      {
+        "id": "Nitrogen retention",
+        "type": "Concept",
+        "description": "The balance between nitrogen intake and excretion in animals."
+      },
+      {
+        "id": "Water hyacinth silage (EWH)",
+        "type": "Method",
+        "description": "Ensilaged Eichhornia crassipes used as a replacement for grass in diets."
+      },
+      {
+        "id": "4x4 Latin square design",
+        "type": "Method",
+        "description": "Experimental design used to allocate treatments to sheep."
+      },
+      {
+        "id": "Para grass",
+        "type": "Method",
+        "description": "Brachiaria mutica used as the primary forage in the control diet."
+      },
+      {
+        "id": "Minitab Software version 16.2",
+        "type": "Method",
+        "description": "Statistical software used for ANOVA and data analysis."
+      },
+      {
+        "id": "Molasses",
+        "type": "Method",
+        "description": "Additive used in the process of making water hyacinth silage."
+      },
+      {
+        "id": "DM, OM, CP and NDF of EWH (19.0, 84.2, 11.2 and 54.2 %)",
+        "type": "Metric",
+        "description": "Chemical composition values of the ensilaged water hyacinth."
+      },
+      {
+        "id": "Nutrient digestibility (66.4 to 67.3%)",
+        "type": "Metric",
+        "description": "The range of apparent nutrient digestibility across treatments."
+      },
+      {
+        "id": "Daily weight gain (57.3g for EWH30)",
+        "type": "Metric",
+        "description": "Specific daily growth rate for the 30% replacement treatment."
+      },
+      {
+        "id": "CP content of diets (17%)",
+        "type": "Metric",
+        "description": "The adjusted crude protein percentage maintained across experimental diets."
+      },
+      {
+        "id": "pH values (6.30 to 6.43)",
+        "type": "Metric",
+        "description": "Measured rumen fluid acidity levels."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Animal Science",
+        "target": "Feed intake",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Van Thu",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Water hyacinth silage (EWH)",
+        "target": "Feed intake",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Water hyacinth silage (EWH)",
+        "target": "Digestibility",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "4x4 Latin square design",
+        "target": "Rumen parameters",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Water hyacinth silage (EWH)",
+        "target": "Nutrient digestibility (66.4 to 67.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Water hyacinth silage (EWH)",
+        "target": "Daily weight gain (57.3g for EWH30)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Water hyacinth silage (EWH)",
+        "target": "DM, OM, CP and NDF of EWH (19.0, 84.2, 11.2 and 54.2 %)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

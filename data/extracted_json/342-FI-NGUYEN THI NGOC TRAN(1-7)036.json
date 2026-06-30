@@ -1,0 +1,220 @@
+{
+    "filename": "342-FI-NGUYEN THI NGOC TRAN(1-7)036.json",
+    "paper_title": "Reproductive Biology of Moonlight Gourami (Trichopodus microlepis) in U Minh Thuong and U Minh Ha National Parks",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Reproductive Biology",
+                "type": "Concept",
+                "description": "The biological study of reproduction in moonlight gourami."
+            },
+            {
+                "id": "Spawning season",
+                "type": "Concept",
+                "description": "The period during which fish release eggs and sperm."
+            },
+            {
+                "id": "Fecundity",
+                "type": "Concept",
+                "description": "The reproductive capacity of an individual fish."
+            },
+            {
+                "id": "Egg diameter",
+                "type": "Concept",
+                "description": "The measurement of the size of fish eggs."
+            },
+            {
+                "id": "Gonadal somatic index (GSI)",
+                "type": "Concept",
+                "description": "An index to predict the reproductive cycle based on gonad weight and total weight."
+            },
+            {
+                "id": "Traditional fishing gear",
+                "type": "Method",
+                "description": "Equipment used for monthly fish sampling."
+            },
+            {
+                "id": "Nikolsky method (1963)",
+                "type": "Method",
+                "description": "A method for classifying maturity stages of fish ovaries."
+            },
+            {
+                "id": "Counting method",
+                "type": "Method",
+                "description": "Method used to identify absolute fecundity of females."
+            },
+            {
+                "id": "Stereo microscope Nikon SMZ745T",
+                "type": "Method",
+                "description": "Equipment used for measuring egg diameter."
+            },
+            {
+                "id": "NIS-Elements Basic Research software",
+                "type": "Method",
+                "description": "Software used for digital egg measurement."
+            },
+            {
+                "id": "t-tests",
+                "type": "Method",
+                "description": "Statistical method to compare reproductive parameters between populations."
+            },
+            {
+                "id": "Linear regression analysis",
+                "type": "Method",
+                "description": "Statistical method to investigate relationships between female weight and reproductive parameters."
+            },
+            {
+                "id": "SPSS 22",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Excel 2013",
+                "type": "Method",
+                "description": "Software used for data processing and graphing."
+            },
+            {
+                "id": "2.5% formalin",
+                "type": "Method",
+                "description": "Chemical used for preserving stage IV-ovaries."
+            },
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "The main field of the study."
+            },
+            {
+                "id": "Nguyen Thi Ngoc Tran",
+                "type": "Author",
+                "description": "First and corresponding author."
+            },
+            {
+                "id": "Nguyen Thi Kim Ngan",
+                "type": "Author",
+                "description": "Second author."
+            },
+            {
+                "id": "Duong Thuy Yen",
+                "type": "Author",
+                "description": "Third author."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of the first and third authors."
+            },
+            {
+                "id": "Master Program in Aquaculture, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of the second author."
+            },
+            {
+                "id": "GSI peak in UMH (8.04%)",
+                "type": "Metric",
+                "description": "Highest GSI value recorded in U Minh Ha population in August."
+            },
+            {
+                "id": "GSI peak in UMT (6.44%)",
+                "type": "Metric",
+                "description": "Highest GSI value recorded in U Minh Thuong population in August."
+            },
+            {
+                "id": "Average fecundity UMH (7,483±3,008 eggs/female)",
+                "type": "Metric",
+                "description": "Absolute fecundity for U Minh Ha population."
+            },
+            {
+                "id": "Average fecundity UMT (6,898±2,952 eggs/female)",
+                "type": "Metric",
+                "description": "Absolute fecundity for U Minh Thuong population."
+            },
+            {
+                "id": "Egg diameter UMH (762±55 µm)",
+                "type": "Metric",
+                "description": "Mean egg size for U Minh Ha population."
+            },
+            {
+                "id": "Egg diameter UMT (754±43 µm)",
+                "type": "Metric",
+                "description": "Mean egg size for U Minh Thuong population."
+            },
+            {
+                "id": "p-value (p>0.05)",
+                "type": "Metric",
+                "description": "Statistical significance level showing no significant difference."
+            },
+            {
+                "id": "R2 UMH (0.023)",
+                "type": "Metric",
+                "description": "Determination coefficient for regression in UMH population."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Reproductive Biology",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Ngoc Tran",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Thuy Yen",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Kim Ngan",
+                "target": "Master Program in Aquaculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Counting method",
+                "target": "Average fecundity UMH (7,483±3,008 eggs/female)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Counting method",
+                "target": "Average fecundity UMT (6,898±2,952 eggs/female)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Stereo microscope Nikon SMZ745T",
+                "target": "Egg diameter UMH (762±55 µm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "t-tests",
+                "target": "p-value (p>0.05)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Linear regression analysis",
+                "target": "R2 UMH (0.023)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Nikolsky method (1963)",
+                "target": "Reproductive Biology",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Counting method",
+                "target": "Fecundity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Stereo microscope Nikon SMZ745T",
+                "target": "Egg diameter",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Gonadal somatic index (GSI)",
+                "target": "GSI peak in UMH (8.04%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

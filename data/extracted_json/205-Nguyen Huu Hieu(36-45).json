@@ -1,0 +1,195 @@
+{
+    "filename": "205-Nguyen Huu Hieu(36-45).json",
+    "paper_title": "FABRICATION AND CHARACTERIZATION OF GRAPHENE/GRAPHENE OXIDE BASED POLY (VINYL ALCOHOL) NANOCOMPOSITE MEMBRANES FOR PERVAPORATION DEHYDRATION OF ETHANOL",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Huu Hieu",
+                "type": "Author",
+                "description": "Tác giả của nghiên cứu."
+            },
+            {
+                "id": "To Lan Anh",
+                "type": "Author",
+                "description": "Tác giả của nghiên cứu."
+            },
+            {
+                "id": "Ngo Nguyen Phuong Duy",
+                "type": "Author",
+                "description": "Tác giả của nghiên cứu."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology",
+                "type": "Institution",
+                "description": "Trường Đại học Bách khoa, Đại học Quốc gia Thành phố Hồ Chí Minh."
+            },
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo."
+            },
+            {
+                "id": "Pervaporation dehydration of ethanol",
+                "type": "Concept",
+                "description": "Quá trình tách nước khỏi ethanol thông qua màng thẩm thấu bay hơi."
+            },
+            {
+                "id": "Thermal stability",
+                "type": "Concept",
+                "description": "Độ bền nhiệt của vật liệu nanocomposite."
+            },
+            {
+                "id": "Solution-casting method",
+                "type": "Method",
+                "description": "Phương pháp đúc dung dịch để chế tạo màng."
+            },
+            {
+                "id": "Modified Hummers' method",
+                "type": "Method",
+                "description": "Phương pháp oxy hóa hóa học để tổng hợp graphite oxide."
+            },
+            {
+                "id": "rGO/PVA membrane",
+                "type": "Method",
+                "description": "Màng nanocomposite dựa trên graphene khử và poly(vinyl alcohol)."
+            },
+            {
+                "id": "GO/PVA membrane",
+                "type": "Method",
+                "description": "Màng nanocomposite dựa trên graphene oxide và poly(vinyl alcohol)."
+            },
+            {
+                "id": "Fourier-transform infrared spectroscopy (FTIR)",
+                "type": "Method",
+                "description": "Phương pháp phổ hồng ngoại biến đổi Fourier để đặc trưng cấu trúc."
+            },
+            {
+                "id": "Differential scanning calorimetry (DSC)",
+                "type": "Method",
+                "description": "Phương pháp nhiệt quét vi sai."
+            },
+            {
+                "id": "X-ray diffraction (XRD)",
+                "type": "Method",
+                "description": "Phương pháp nhiễu xạ tia X."
+            },
+            {
+                "id": "Transmission electron microscope (TEM)",
+                "type": "Method",
+                "description": "Kính hiển vi điện tử truyền qua."
+            },
+            {
+                "id": "Atomic force microscopy (AFM)",
+                "type": "Method",
+                "description": "Kính hiển vi lực nguyên tử."
+            },
+            {
+                "id": "rGO/PVA selectivity (51.2)",
+                "type": "Metric",
+                "description": "Độ chọn lọc của màng rGO/PVA."
+            },
+            {
+                "id": "rGO/PVA permeate flux (0.056 kg.m-2h-1)",
+                "type": "Metric",
+                "description": "Dòng thấm qua màng rGO/PVA."
+            },
+            {
+                "id": "GO/PVA selectivity (34.9)",
+                "type": "Metric",
+                "description": "Độ chọn lọc của màng GO/PVA."
+            },
+            {
+                "id": "GO/PVA permeate flux (0.120 kg.m-2h-1)",
+                "type": "Metric",
+                "description": "Dòng thấm qua màng GO/PVA."
+            },
+            {
+                "id": "GO/PVA PSI (4.12 kg.m-2h-1)",
+                "type": "Metric",
+                "description": "Chỉ số tách thẩm thấu bay hơi của màng GO/PVA."
+            },
+            {
+                "id": "rGO/PVA PSI (2.80 kg.m-2h-1)",
+                "type": "Metric",
+                "description": "Chỉ số tách thẩm thấu bay hơi của màng rGO/PVA."
+            },
+            {
+                "id": "GO thickness (0.913 nm)",
+                "type": "Metric",
+                "description": "Độ dày trung bình của lớp GO."
+            },
+            {
+                "id": "rGO thickness (0.921 nm)",
+                "type": "Metric",
+                "description": "Độ dày trung bình của lớp rGO."
+            }
+        ],
+        "relations": [
+            {
+                "source": "FABRICATION AND CHARACTERIZATION OF GRAPHENE/GRAPHENE OXIDE BASED POLY (VINYL ALCOHOL) NANOCOMPOSITE MEMBRANES FOR PERVAPORATION DEHYDRATION OF ETHANOL",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Huu Hieu",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "To Lan Anh",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Nguyen Phuong Duy",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Solution-casting method",
+                "target": "Pervaporation dehydration of ethanol",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "rGO/PVA membrane",
+                "target": "rGO/PVA selectivity (51.2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "rGO/PVA membrane",
+                "target": "rGO/PVA permeate flux (0.056 kg.m-2h-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "rGO/PVA membrane",
+                "target": "rGO/PVA PSI (2.80 kg.m-2h-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GO/PVA membrane",
+                "target": "GO/PVA selectivity (34.9)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GO/PVA membrane",
+                "target": "GO/PVA permeate flux (0.120 kg.m-2h-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GO/PVA membrane",
+                "target": "GO/PVA PSI (4.12 kg.m-2h-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Modified Hummers' method",
+                "target": "GO thickness (0.913 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AFM",
+                "target": "rGO thickness (0.921 nm)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "filename": "06-FI-HOANG QUANG BINH(46-60)011.json",
+    "paper_title": "Bioactive compounds and strategy processing for acerola: A review",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Science and Technology",
+                "type": "Domain",
+                "description": "The general research field concerning food processing, bioactive compounds, and post-harvest preservation."
+            },
+            {
+                "id": "Hoang Quang Binh",
+                "type": "Author",
+                "description": "Lead author affiliated with Le Trung Thien Company Limited."
+            },
+            {
+                "id": "Pham Ngoc Tram",
+                "type": "Author",
+                "description": "Co-author affiliated with Nong Lam University."
+            },
+            {
+                "id": "Le Trung Thien",
+                "type": "Author",
+                "description": "Co-author affiliated with Nong Lam University."
+            },
+            {
+                "id": "Duong Thi Ngoc Diep",
+                "type": "Author",
+                "description": "Corresponding author affiliated with Nong Lam University."
+            },
+            {
+                "id": "Le Trung Thien Company Limited",
+                "type": "Institution",
+                "description": "A private company in Vietnam."
+            },
+            {
+                "id": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "Institution",
+                "description": "Academic department at Nong Lam University, Ho Chi Minh City, Viet Nam."
+            },
+            {
+                "id": "Bioactive compounds",
+                "type": "Concept",
+                "description": "Chemicals such as vitamin C, phenolics, and carotenoids found in acerola that provide health benefits."
+            },
+            {
+                "id": "Post-harvest preservation",
+                "type": "Concept",
+                "description": "Strategies to extend the shelf life and maintain the quality of acerola fruit after harvest."
+            },
+            {
+                "id": "Antioxidant activity",
+                "type": "Concept",
+                "description": "The ability of compounds to inhibit oxidation."
+            },
+            {
+                "id": "Lipid oxidation",
+                "type": "Concept",
+                "description": "The degradation of lipids, which can be reduced by acerola extract films."
+            },
+            {
+                "id": "Extraction",
+                "type": "Method",
+                "description": "Process of separating bioactive compounds using solvents or assisted techniques."
+            },
+            {
+                "id": "Fermentation",
+                "type": "Method",
+                "description": "Biotechnological process using microorganisms like yeast or lactic acid bacteria."
+            },
+            {
+                "id": "Pasteurization",
+                "type": "Method",
+                "description": "Thermal processing to inhibit microorganisms and enzymes."
+            },
+            {
+                "id": "Drying",
+                "type": "Method",
+                "description": "Dehydration process including spray drying, freeze drying, and vacuum drying."
+            },
+            {
+                "id": "Encapsulation",
+                "type": "Method",
+                "description": "Technique of coating core materials with wall materials like maltodextrin."
+            },
+            {
+                "id": "HPLC machine",
+                "type": "Method",
+                "description": "Equipment used for determining organic acids and bioactive components."
+            },
+            {
+                "id": "Spectrophotometer",
+                "type": "Method",
+                "description": "Equipment used to measure total phenol and antioxidant capacity at specific wavelengths."
+            },
+            {
+                "id": "Ultrasound-assisted extraction (UAE)",
+                "type": "Method",
+                "description": "Extraction method using ultrasonic waves for higher efficiency."
+            },
+            {
+                "id": "Low temperature storage (10-12℃)",
+                "type": "Method",
+                "description": "Cold storage method to limit chilling injury."
+            },
+            {
+                "id": "Shelf life at room temperature (2-3 days)",
+                "type": "Metric",
+                "description": "The short period acerola remains fresh at ambient temperature."
+            },
+            {
+                "id": "Shelf life at 10-12℃ (14 days)",
+                "type": "Metric",
+                "description": "Extended storage duration achieved through temperature control."
+            },
+            {
+                "id": "Acetic acid content (6.99%)",
+                "type": "Metric",
+                "description": "Concentration of acid in acerola vinegar after 8 days."
+            },
+            {
+                "id": "Vitamin C content (153.4 mg/g dry solid)",
+                "type": "Metric",
+                "description": "Measurement of ascorbic acid in dried acerola pulp."
+            },
+            {
+                "id": "Rehydration capacity (10.1 kg/kg)",
+                "type": "Metric",
+                "description": "Indicator of quality for dried acerola products."
+            },
+            {
+                "id": "Pasteurization (90°C for 34.39 minutes)",
+                "type": "Metric",
+                "description": "Specific thermal processing parameters for mixed juice."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Hoang Quang Binh",
+                "target": "Le Trung Thien Company Limited",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Ngoc Tram",
+                "target": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Trung Thien",
+                "target": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Thi Ngoc Diep",
+                "target": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Extraction",
+                "target": "Bioactive compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ultrasound-assisted extraction (UAE)",
+                "target": "Antioxidant activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Encapsulation",
+                "target": "Bioactive compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Low temperature storage (10-12℃)",
+                "target": "Shelf life at 10-12℃ (14 days)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fermentation",
+                "target": "Acetic acid content (6.99%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Drying",
+                "target": "Vitamin C content (153.4 mg/g dry solid)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pasteurization",
+                "target": "Pasteurization (90°C for 34.39 minutes)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

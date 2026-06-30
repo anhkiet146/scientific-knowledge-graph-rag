@@ -1,0 +1,140 @@
+{
+    "filename": "05-ED-NGUYEN THI HUYEN(37-44)005.json",
+    "paper_title": "Common grammartical errors in English writing -A case study with second-year students of information technology at HAUI",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Thi Huyen",
+                "type": "Author",
+                "description": "The primary author of the study from Hanoi University of Industry."
+            },
+            {
+                "id": "Hanoi University of Industry (HaUI)",
+                "type": "Institution",
+                "description": "The institution where the research was conducted, specifically involving the Faculty of Foreign Languages."
+            },
+            {
+                "id": "Applied Linguistics",
+                "type": "Domain",
+                "description": "The primary research field focusing on English language teaching and error analysis."
+            },
+            {
+                "id": "Common grammatical errors in English writing",
+                "type": "Concept",
+                "description": "The central research problem investigating frequent grammar mistakes in writing by IT students."
+            },
+            {
+                "id": "Quantitative method",
+                "type": "Method",
+                "description": "The overall research approach used to collect and analyze numerical data."
+            },
+            {
+                "id": "Survey questionnaires",
+                "type": "Method",
+                "description": "Instruments used to collect perspectives from 667 students and 7 teachers."
+            },
+            {
+                "id": "SPSS",
+                "type": "Method",
+                "description": "Statistical software used to calculate and convert the research data into numerical form."
+            },
+            {
+                "id": "Teacher correction",
+                "type": "Method",
+                "description": "A corrective feedback technique identified as the most effective for students."
+            },
+            {
+                "id": "125 students' weekly paragraph writings",
+                "type": "Dataset",
+                "description": "A collection of short writing samples (100-120 words) used for error analysis."
+            },
+            {
+                "id": "Survey data from 667 students",
+                "type": "Dataset",
+                "description": "Numerical responses collected from second-year IT students at HaUI."
+            },
+            {
+                "id": "Grammar errors percentage (nearly 90%)",
+                "type": "Metric",
+                "description": "The frequency of grammar errors compared to other types of written errors."
+            },
+            {
+                "id": "Student participation rate (88.1%)",
+                "type": "Metric",
+                "description": "The valid response rate from the total student population surveyed."
+            },
+            {
+                "id": "Teacher correction frequency (74%)",
+                "type": "Metric",
+                "description": "The percentage of students who reported frequently receiving teacher feedback."
+            },
+            {
+                "id": "Self-correction rate (17.7%)",
+                "type": "Metric",
+                "description": "The percentage of students who examined and corrected their own errors."
+            },
+            {
+                "id": "Verb tense",
+                "type": "Concept",
+                "description": "One of the most common grammatical error types identified in the study."
+            },
+            {
+                "id": "Sentence structure",
+                "type": "Concept",
+                "description": "A significant grammatical error category involving how sentences are built."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Huyen",
+                "target": "Hanoi University of Industry (HaUI)",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Common grammatical errors in English writing",
+                "target": "Applied Linguistics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Quantitative method",
+                "target": "Common grammatical errors in English writing",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Survey questionnaires",
+                "target": "Common grammatical errors in English writing",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Quantitative method",
+                "target": "125 students' weekly paragraph writings",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Survey questionnaires",
+                "target": "Survey data from 667 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Quantitative method",
+                "target": "Student participation rate (88.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SPSS",
+                "target": "Grammar errors percentage (nearly 90%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Teacher correction",
+                "target": "Teacher correction frequency (74%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Teacher correction",
+                "target": "Common grammatical errors in English writing",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

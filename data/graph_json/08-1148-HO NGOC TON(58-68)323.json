@@ -1,0 +1,140 @@
+{
+  "filename": "08-1148-HO NGOC TON(58-68)323.json",
+  "paper_title": "An automated data collection process for constructing graph data relying on LLMs",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Ho Ngoc Ton",
+        "type": "Author",
+        "description": "Author of the paper"
+      },
+      {
+        "id": "Nguyen Hoang Son",
+        "type": "Author",
+        "description": "Author of the paper"
+      },
+      {
+        "id": "Nguyen Ngoc Minh Chau",
+        "type": "Author",
+        "description": "Author of the paper"
+      },
+      {
+        "id": "Pham-Nguyen Cuong",
+        "type": "Author",
+        "description": "Corresponding author of the paper"
+      },
+      {
+        "id": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "Institution",
+        "description": "Institution where the authors are affiliated"
+      },
+      {
+        "id": "Data Collection and Processing",
+        "type": "Domain",
+        "description": "Primary research field involving automated data harvesting and structuring"
+      },
+      {
+        "id": "Named Entity Recognition (NER)",
+        "type": "Concept",
+        "description": "A subtask of information extraction that seeks to locate and classify named entities in unstructured text"
+      },
+      {
+        "id": "Large Language Model (LLMs)",
+        "type": "Method",
+        "description": "Advanced AI models used for data extraction and understanding natural language"
+      },
+      {
+        "id": "GPT-3.5",
+        "type": "Method",
+        "description": "Specific LLM (model gpt-3.5-turbo-1106) used for NER tasks"
+      },
+      {
+        "id": "Scrapy",
+        "type": "Method",
+        "description": "A web crawling and data extraction framework"
+      },
+      {
+        "id": "Neo4j",
+        "type": "Method",
+        "description": "A graph database platform used to store structured knowledge"
+      },
+      {
+        "id": "Levenshtein distance algorithm",
+        "type": "Method",
+        "description": "Fuzzy matching method used for string similarity comparison"
+      },
+      {
+        "id": "Udemy website dataset",
+        "type": "Dataset",
+        "description": "Dataset consisting of 100 courses collected for evaluation"
+      },
+      {
+        "id": "Accuracy (95.56% to 100%)",
+        "type": "Metric",
+        "description": "The reported accuracy rate for extracting entities from unstructured text"
+      },
+      {
+        "id": "Precision of removing incorrectly retrieved words (91%)",
+        "type": "Metric",
+        "description": "Performance metric for the keyword mapping and filtering process"
+      },
+      {
+        "id": "Optimal threshold (k=2)",
+        "type": "Metric",
+        "description": "The determined optimal distance for the Levenshtein algorithm"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ho Ngoc Ton",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hoang Son",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ngoc Minh Chau",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham-Nguyen Cuong",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "GPT-3.5",
+        "target": "Named Entity Recognition (NER)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "GPT-3.5",
+        "target": "Accuracy (95.56% to 100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "GPT-3.5",
+        "target": "Udemy website dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Levenshtein distance algorithm",
+        "target": "Precision of removing incorrectly retrieved words (91%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Levenshtein distance algorithm",
+        "target": "Optimal threshold (k=2)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Scrapy",
+        "target": "Data Collection and Processing",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

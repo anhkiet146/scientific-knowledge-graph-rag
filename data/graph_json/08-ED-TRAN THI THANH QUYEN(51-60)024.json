@@ -1,0 +1,155 @@
+{
+  "filename": "08-ED-TRAN THI THANH QUYEN(51-60)024.json",
+  "paper_title": "An investigation into English preparatory programs for EMI learning in higher education institutes in Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "English-as-a-medium-of-instruction (EMI)",
+        "type": "Concept",
+        "description": "The use of the English language to teach academic subjects in countries where the first language of the majority is not English."
+      },
+      {
+        "id": "English proficiency",
+        "type": "Concept",
+        "description": "The level of English language competence required for students to follow EMI programs."
+      },
+      {
+        "id": "National Foreign Language 2020 Project",
+        "type": "Concept",
+        "description": "A Vietnamese national initiative to improve foreign language teaching and learning."
+      },
+      {
+        "id": "Globalization",
+        "type": "Concept",
+        "description": "The context driving the need for English competence and internationalization in higher education."
+      },
+      {
+        "id": "Qualitative approach",
+        "type": "Method",
+        "description": "Research design used to examine expectations and preparations for EMI."
+      },
+      {
+        "id": "Document analysis",
+        "type": "Method",
+        "description": "Systematic procedure for reviewing or evaluating documents to collect data."
+      },
+      {
+        "id": "Purposive sampling technique",
+        "type": "Method",
+        "description": "Non-probability sampling used to select eight specific universities for the study."
+      },
+      {
+        "id": "English preparatory programs",
+        "type": "Method",
+        "description": "Programs designed to bridge the English proficiency gap for students entering EMI courses."
+      },
+      {
+        "id": "University websites and regulations",
+        "type": "Dataset",
+        "description": "Data sources collected from eight Vietnamese universities for content analysis."
+      },
+      {
+        "id": "IELTS 5.5",
+        "type": "Metric",
+        "description": "English requirement for graduation at Banking University of Ho Chi Minh City."
+      },
+      {
+        "id": "TOEFL iBT 100",
+        "type": "Metric",
+        "description": "English requirement for graduation at Hanoi Foreign Trade University."
+      },
+      {
+        "id": "TOEFL iBT 61",
+        "type": "Metric",
+        "description": "English requirement for graduation at University of Da Nang - University of Science and Technology."
+      },
+      {
+        "id": "B2 V-step",
+        "type": "Metric",
+        "description": "Minimum English proficiency level required for EMI graduation at Can Tho University."
+      },
+      {
+        "id": "36 credits",
+        "type": "Metric",
+        "description": "The maximum number of credits for English preparatory programs (Hanoi National Economics University)."
+      },
+      {
+        "id": "70% insufficient proficiency",
+        "type": "Metric",
+        "description": "Percentage of newly enrolled students at Da Nang University lacking English skills for EMI."
+      },
+      {
+        "id": "Applied Linguistics and Higher Education",
+        "type": "Domain",
+        "description": "The primary field of research concerning language policy and EMI implementation."
+      },
+      {
+        "id": "Tran Thi Thanh Quyen",
+        "type": "Author",
+        "description": "Researcher from the Department of General English and English for Specific Purposes."
+      },
+      {
+        "id": "Phuong Hoang Yen",
+        "type": "Author",
+        "description": "Researcher from the Department of English Language and Culture."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Higher education institution located in Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Thi Thanh Quyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phuong Hoang Yen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Qualitative approach",
+        "target": "English-as-a-medium-of-instruction (EMI)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Document analysis",
+        "target": "University websites and regulations",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "English preparatory programs",
+        "target": "IELTS 5.5",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "English preparatory programs",
+        "target": "TOEFL iBT 100",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "English preparatory programs",
+        "target": "36 credits",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "English preparatory programs",
+        "target": "B2 V-step",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "English preparatory programs",
+        "target": "English-as-a-medium-of-instruction (EMI)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Applied Linguistics and Higher Education",
+        "target": "Applied Linguistics and Higher Education",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

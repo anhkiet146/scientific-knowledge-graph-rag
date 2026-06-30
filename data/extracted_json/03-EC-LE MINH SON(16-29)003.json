@@ -1,0 +1,170 @@
+{
+    "filename": "03-EC-LE MINH SON(16-29)003.json",
+    "paper_title": "Determinants of economic growth in the Mekong Delta provinces",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Economic Growth",
+                "type": "Concept",
+                "description": "The main research subject focusing on factors determining the economic development of provinces."
+            },
+            {
+                "id": "GRDP per capita",
+                "type": "Concept",
+                "description": "Gross Regional Domestic Product per person, used as the primary indicator for economic growth."
+            },
+            {
+                "id": "Human capital",
+                "type": "Concept",
+                "description": "The skills, knowledge, and experience possessed by an individual or population."
+            },
+            {
+                "id": "Spatial structure",
+                "type": "Concept",
+                "description": "The distribution of economic activities and urban agglomeration within a region."
+            },
+            {
+                "id": "Multivariate regression model",
+                "type": "Method",
+                "description": "Statistical technique used to analyze the relationship between multiple independent variables and a dependent variable."
+            },
+            {
+                "id": "Aggregate production function of Lin and Song (2002)",
+                "type": "Method",
+                "description": "Theoretical framework used to derive the regression model for economic growth."
+            },
+            {
+                "id": "Labor Training Index (LTI_LABOUR)",
+                "type": "Method",
+                "description": "A component of the Vietnam Provincial Competitiveness Index used as a proxy for labor quality."
+            },
+            {
+                "id": "Database of 13 provinces in the Mekong Delta (2010-2016)",
+                "type": "Dataset",
+                "description": "Panel data collected from provincial statistical yearbooks and GSO over a 7-year period."
+            },
+            {
+                "id": "Vietnam Provincial Competitiveness Index (PCI)",
+                "type": "Dataset",
+                "description": "A survey-based dataset measuring economic governance and administrative procedures in Vietnam."
+            },
+            {
+                "id": "Population increase (1%) -> GRDP decrease (0.6 - 0.7%)",
+                "type": "Metric",
+                "description": "Statistical result showing the negative impact of population growth on per capita growth."
+            },
+            {
+                "id": "Local government expenditure increase (1%) -> GRDP increase (1.2 - 1.3%)",
+                "type": "Metric",
+                "description": "Metric indicating the positive impact of total public spending on economic growth."
+            },
+            {
+                "id": "Labor training index increase (1 point) -> GRDP per capita increase (1.23 - 1.44%)",
+                "type": "Metric",
+                "description": "Measurement of the impact of labor quality improvements on economic output."
+            },
+            {
+                "id": "Freight-kilometer increase (1%) -> GDP per capita increase (0.11% - 0.22%)",
+                "type": "Metric",
+                "description": "Measurement of the positive impact of transport infrastructure capacity on growth."
+            },
+            {
+                "id": "Urban population density ratio increase (1 unit) -> GRDP per capita increase (1.02 - 1.03%)",
+                "type": "Metric",
+                "description": "Measurement of the positive impact of urban agglomeration (spatial structure) on growth."
+            },
+            {
+                "id": "Regional Development Economics",
+                "type": "Domain",
+                "description": "The study of economic development at the subnational or regional level."
+            },
+            {
+                "id": "Le Minh Son",
+                "type": "Author",
+                "description": "Researcher at the Vietnam Institute for Development Strategies."
+            },
+            {
+                "id": "Bui Kieu Anh",
+                "type": "Author",
+                "description": "Researcher at the Vietnam Institute for Development Strategies."
+            },
+            {
+                "id": "Vietnam Institute for Development Strategies",
+                "type": "Institution",
+                "description": "A research institute under the Ministry of Planning and Investment of Vietnam."
+            },
+            {
+                "id": "Ministry of Planning and Investment",
+                "type": "Institution",
+                "description": "Governmental body responsible for state management of planning and investment in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Determinants of economic growth in the Mekong Delta provinces",
+                "target": "Regional Development Economics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Minh Son",
+                "target": "Vietnam Institute for Development Strategies",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Minh Son",
+                "target": "Ministry of Planning and Investment",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Kieu Anh",
+                "target": "Vietnam Institute for Development Strategies",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Kieu Anh",
+                "target": "Ministry of Planning and Investment",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Multivariate regression model",
+                "target": "Economic Growth",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Aggregate production function of Lin and Song (2002)",
+                "target": "Economic Growth",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Multivariate regression model",
+                "target": "Database of 13 provinces in the Mekong Delta (2010-2016)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Multivariate regression model",
+                "target": "Population increase (1%) -> GRDP decrease (0.6 - 0.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multivariate regression model",
+                "target": "Local government expenditure increase (1%) -> GRDP increase (1.2 - 1.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multivariate regression model",
+                "target": "Labor training index increase (1 point) -> GRDP per capita increase (1.23 - 1.44%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multivariate regression model",
+                "target": "Freight-kilometer increase (1%) -> GDP per capita increase (0.11% - 0.22%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multivariate regression model",
+                "target": "Urban population density ratio increase (1 unit) -> GRDP per capita increase (1.02 - 1.03%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

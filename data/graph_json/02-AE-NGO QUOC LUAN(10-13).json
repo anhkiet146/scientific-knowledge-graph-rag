@@ -1,0 +1,225 @@
+{
+  "filename": "02-AE-NGO QUOC LUAN(10-13).json",
+  "paper_title": "NOVEL NAPHTHALENE GLYCOSIDE DERIVATIVE FROM LEAVES OF Cassia grandis L.F",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Natural Products Chemistry",
+        "type": "Domain",
+        "description": "The study of chemical substances found in living organisms."
+      },
+      {
+        "id": "Naphthalene glycoside derivative",
+        "type": "Concept",
+        "description": "A type of chemical compound specifically a glycoside based on a naphthalene skeleton."
+      },
+      {
+        "id": "Chemical structure determination",
+        "type": "Concept",
+        "description": "The process of identifying the spatial arrangement of atoms in a molecule."
+      },
+      {
+        "id": "Medicinal plant investigation",
+        "type": "Concept",
+        "description": "The study of plants used for therapeutic purposes."
+      },
+      {
+        "id": "Methanol extraction",
+        "type": "Method",
+        "description": "Process of extracting compounds using methanol as a solvent."
+      },
+      {
+        "id": "Chromatography",
+        "type": "Method",
+        "description": "A technique for the separation of a mixture."
+      },
+      {
+        "id": "Thin layer chromatography (TLC)",
+        "type": "Method",
+        "description": "Chromatography technique used to separate non-volatile mixtures."
+      },
+      {
+        "id": "Common phase column chromatography (CP-CC)",
+        "type": "Method",
+        "description": "Separation technique using silica gel 60 as stationary phase."
+      },
+      {
+        "id": "Reverse phase column chromatography (RP-CC)",
+        "type": "Method",
+        "description": "Separation technique using silica gel RP-18."
+      },
+      {
+        "id": "HRMS",
+        "type": "Method",
+        "description": "High-Resolution Mass Spectrometry for molecular formula determination."
+      },
+      {
+        "id": "1D and 2D-NMR spectroscopy",
+        "type": "Method",
+        "description": "Nuclear Magnetic Resonance spectroscopy including HSQC, HMBC, and COSY."
+      },
+      {
+        "id": "SciFinder software",
+        "type": "Method",
+        "description": "A database for chemical literature and compounds used for novelty checking."
+      },
+      {
+        "id": "Bruker AM500 FT-NMR spectrometer",
+        "type": "Method",
+        "description": "The specific equipment used for NMR analysis."
+      },
+      {
+        "id": "Buchi R-210 rotary evaporator",
+        "type": "Method",
+        "description": "Equipment used for solvent evaporation."
+      },
+      {
+        "id": "Melting point (165-166 °C)",
+        "type": "Metric",
+        "description": "The temperature at which the solid compound turns into liquid."
+      },
+      {
+        "id": "Humidity (0-2 %)",
+        "type": "Metric",
+        "description": "The moisture content remaining in the plant material after drying."
+      },
+      {
+        "id": "Compound 1 yield (7.1 mg)",
+        "type": "Metric",
+        "description": "The final amount of pure casgranone C isolated."
+      },
+      {
+        "id": "HR-MS (m/z 563.1747 [M+Na]+)",
+        "type": "Metric",
+        "description": "The observed mass-to-charge ratio of the compound."
+      },
+      {
+        "id": "Ngo Quoc Luan",
+        "type": "Author",
+        "description": "First author of the study."
+      },
+      {
+        "id": "Vu Duy Khanh",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Le Tien Dung",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Mai Dinh Tri",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Phan Nhat Minh",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Tan Phat",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Ngoc Thanh",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Kim Phi Phung",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University located in Can Tho, Vietnam."
+      },
+      {
+        "id": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "Research institute in Vietnam."
+      },
+      {
+        "id": "University of Natural Science of Ho Chi Minh city",
+        "type": "Institution",
+        "description": "University located in Ho Chi Minh City, Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Naphthalene glycoside derivative",
+        "target": "Natural Products Chemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Methanol extraction",
+        "target": "Medicinal plant investigation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "1D and 2D-NMR spectroscopy",
+        "target": "Chemical structure determination",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "HRMS",
+        "target": "Chemical structure determination",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "RP-CC",
+        "target": "Compound 1 yield (7.1 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "HRMS",
+        "target": "HR-MS (m/z 563.1747 [M+Na]+)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ngo Quoc Luan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vu Duy Khanh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Tien Dung",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mai Dinh Tri",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Nhat Minh",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tan Phat",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ngoc Thanh",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Kim Phi Phung",
+        "target": "University of Natural Science of Ho Chi Minh city",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

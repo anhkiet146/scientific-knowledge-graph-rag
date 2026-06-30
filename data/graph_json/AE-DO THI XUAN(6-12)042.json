@@ -1,0 +1,175 @@
+{
+  "filename": "AE-DO THI XUAN(6-12)042.json",
+  "paper_title": "Soil diazotrophic community structure altered in rice crop rotated with mungbean or maize in Cai Lay district, Tien Giang province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Soil diazotrophic community structure study",
+        "type": "Concept",
+        "description": "Study on how rice crop rotation with mungbean or maize affects soil diazotrophic community structure"
+      },
+      {
+        "id": "Soil Microbiology",
+        "type": "Domain",
+        "description": "The study of microorganisms in soil, their functions, and how they affect soil properties"
+      },
+      {
+        "id": "Do Thi Xuan",
+        "type": "Author",
+        "description": "Author from Cantho University"
+      },
+      {
+        "id": "Qiong Wang",
+        "type": "Author",
+        "description": "Author from Michigan State University"
+      },
+      {
+        "id": "Sadhna Alström",
+        "type": "Author",
+        "description": "Author from Swedish University of Agricultural Sciences"
+      },
+      {
+        "id": "Vo Thi Guong",
+        "type": "Author",
+        "description": "Author from Cantho University"
+      },
+      {
+        "id": "Anna Rosling",
+        "type": "Author",
+        "description": "Author from Uppsala University"
+      },
+      {
+        "id": "Nils Högberg",
+        "type": "Author",
+        "description": "Author from Swedish University of Agricultural Sciences"
+      },
+      {
+        "id": "Department of Soil Science, Cantho University, Vietnam",
+        "type": "Institution",
+        "description": "Institution in Vietnam"
+      },
+      {
+        "id": "Centre of Microbial Ecology, Michigan State University, USA",
+        "type": "Institution",
+        "description": "Institution in USA"
+      },
+      {
+        "id": "Uppsala Biocenter, Department of Forest Mycology and Plant Pathology, Swedish University of Agricultural Sciences, Sweden",
+        "type": "Institution",
+        "description": "Institution in Sweden"
+      },
+      {
+        "id": "Department of Ecology and Genetics, Uppsala University, Sweden",
+        "type": "Institution",
+        "description": "Institution in Sweden"
+      },
+      {
+        "id": "Pyrosequencing of the nifH genes",
+        "type": "Method",
+        "description": "A high-throughput DNA sequencing method used to identify diazotrophic communities"
+      },
+      {
+        "id": "Nested PCR",
+        "type": "Method",
+        "description": "A polymerase chain reaction intended to reduce non-specific binding using two sets of primers"
+      },
+      {
+        "id": "RDP FrameBot tool",
+        "type": "Method",
+        "description": "Tool for frameshift correction and protein translation of sequences"
+      },
+      {
+        "id": "GenBank (ERP 001888)",
+        "type": "Dataset",
+        "description": "The genetic sequence database where the nifH sequences were deposited"
+      },
+      {
+        "id": "Total nifH gene sequences (25,370)",
+        "type": "Metric",
+        "description": "The total number of sequences identified across all treatments"
+      },
+      {
+        "id": "Unique protein sequences (6,799)",
+        "type": "Metric",
+        "description": "The count of unique protein sequences identified in the study"
+      },
+      {
+        "id": "Relative abundance of Proteobacteria and Firmicutes (18% - 40%)",
+        "type": "Metric",
+        "description": "Percentage range of the most common phyla carrying the nifH gene"
+      },
+      {
+        "id": "Significance level (P <= 0.05)",
+        "type": "Metric",
+        "description": "Statistical significance for the differences in cluster abundance"
+      },
+      {
+        "id": "Nitrogen fixation",
+        "type": "Concept",
+        "description": "The biological process of converting atmospheric nitrogen into ammonia"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Soil diazotrophic community structure study",
+        "target": "Soil Microbiology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Do Thi Xuan",
+        "target": "Department of Soil Science, Cantho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Thi Guong",
+        "target": "Department of Soil Science, Cantho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Qiong Wang",
+        "target": "Centre of Microbial Ecology, Michigan State University, USA",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Sadhna Alström",
+        "target": "Uppsala Biocenter, Department of Forest Mycology and Plant Pathology, Swedish University of Agricultural Sciences, Sweden",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nils Högberg",
+        "target": "Uppsala Biocenter, Department of Forest Mycology and Plant Pathology, Swedish University of Agricultural Sciences, Sweden",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Anna Rosling",
+        "target": "Department of Ecology and Genetics, Uppsala University, Sweden",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pyrosequencing of the nifH genes",
+        "target": "Total nifH gene sequences (25,370)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pyrosequencing of the nifH genes",
+        "target": "Unique protein sequences (6,799)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pyrosequencing of the nifH genes",
+        "target": "Nitrogen fixation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pyrosequencing of the nifH genes",
+        "target": "GenBank (ERP 001888)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Nested PCR",
+        "target": "Nitrogen fixation",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

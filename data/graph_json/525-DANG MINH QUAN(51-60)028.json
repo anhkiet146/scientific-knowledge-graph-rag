@@ -1,0 +1,180 @@
+{
+  "filename": "525-DANG MINH QUAN(51-60)028.json",
+  "paper_title": "Diversity of medicinal plant resources on Lai Son Island, Kien Giang province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Medicinal plant diversity",
+        "type": "Concept",
+        "description": "The study of the variety and abundance of medicinal plant resources on Lai Son Island."
+      },
+      {
+        "id": "Plant resource conservation",
+        "type": "Concept",
+        "description": "Managing and preserving medicinal plant resources to prevent extinction and degradation."
+      },
+      {
+        "id": "Participatory Rural Appraisal (PRA)",
+        "type": "Method",
+        "description": "A method used to survey and interview local people about their knowledge of medicinal plants."
+      },
+      {
+        "id": "Field investigation",
+        "type": "Method",
+        "description": "On-site survey and plant sample collection following pre-identified routes."
+      },
+      {
+        "id": "Morphological comparison and classification",
+        "type": "Method",
+        "description": "Identifying plant scientific names based on physical characteristics and taxonomic documents."
+      },
+      {
+        "id": "Specialized medicinal plant books",
+        "type": "Method",
+        "description": "Reference materials used for identifying and determining medicinal values of plants."
+      },
+      {
+        "id": "Red List of Vietnamese medicinal plants (2006)",
+        "type": "Dataset",
+        "description": "A digital reference database of endangered medicinal plant species in Vietnam."
+      },
+      {
+        "id": "Vietnam Red Book (2007)",
+        "type": "Dataset",
+        "description": "A database for tracking the endangered status of biological species in Vietnam."
+      },
+      {
+        "id": "Decree 06/2019/ND-CP",
+        "type": "Dataset",
+        "description": "Legal database for the management and protection of rare forest plants and animals."
+      },
+      {
+        "id": "Total species (353)",
+        "type": "Metric",
+        "description": "Total number of medicinal plant species identified."
+      },
+      {
+        "id": "Total genera (264)",
+        "type": "Metric",
+        "description": "Total number of plant genera identified."
+      },
+      {
+        "id": "Total families (112)",
+        "type": "Metric",
+        "description": "Total number of plant families identified."
+      },
+      {
+        "id": "Magnoliophyta diversity (94.90%)",
+        "type": "Metric",
+        "description": "Percentage of species belonging to the Magnoliophyta division."
+      },
+      {
+        "id": "Life forms (10)",
+        "type": "Metric",
+        "description": "Total number of distinct life forms recorded for medicinal plants."
+      },
+      {
+        "id": "Biotopes (6)",
+        "type": "Metric",
+        "description": "Total number of habitats where medicinal plants are distributed."
+      },
+      {
+        "id": "Disease types (36)",
+        "type": "Metric",
+        "description": "Total number of disease categories treated using the identified plants."
+      },
+      {
+        "id": "Rare species (7)",
+        "type": "Metric",
+        "description": "Number of plant species listed in conservation databases."
+      },
+      {
+        "id": "Botany",
+        "type": "Domain",
+        "description": "The scientific study of plants and their resources."
+      },
+      {
+        "id": "Dang Minh Quan",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Nguyen Trong Hong Phuc",
+        "type": "Author",
+        "description": "Author and correspondence contact for the research article."
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "The academic organization where the authors are affiliated."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Botany",
+        "target": "Medicinal plant diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Dang Minh Quan",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trong Hong Phuc",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Participatory Rural Appraisal (PRA)",
+        "target": "Medicinal plant diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Field investigation",
+        "target": "Medicinal plant diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Morphological comparison and classification",
+        "target": "Total species (353)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Morphological comparison and classification",
+        "target": "Total genera (264)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Morphological comparison and classification",
+        "target": "Total families (112)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Field investigation",
+        "target": "Biotopes (6)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Participatory Rural Appraisal (PRA)",
+        "target": "Disease types (36)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Field investigation",
+        "target": "Red List of Vietnamese medicinal plants (2006)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Field investigation",
+        "target": "Vietnam Red Book (2007)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Field investigation",
+        "target": "Rare species (7)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

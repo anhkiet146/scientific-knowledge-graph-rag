@@ -1,0 +1,190 @@
+{
+  "filename": "10-925-NGUYEN MINH NHUT(92-101)310.json",
+  "paper_title": "Removal of Dibenzofuran from aqueous solution by sugarcane bagasse-based biochar",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Wastewater treatment",
+        "type": "Domain",
+        "description": "The general field of study focused on removing contaminants from water."
+      },
+      {
+        "id": "Nguyen Nhat Minh Phuong",
+        "type": "Author",
+        "description": "First and corresponding author of the study."
+      },
+      {
+        "id": "Tran Ba Huy",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Khoi Nghia",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Dang Huynh Giao",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Academic department in Vietnam."
+      },
+      {
+        "id": "Materials Energy Lab, Faculty of Chemical Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Research laboratory at Can Tho University."
+      },
+      {
+        "id": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Research laboratory at Can Tho University."
+      },
+      {
+        "id": "Department of Soil Science, College of Agriculture and Applied Biology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic department in Vietnam."
+      },
+      {
+        "id": "Dibenzofuran (DBF) removal",
+        "type": "Concept",
+        "description": "The process of eliminating toxic DBF from aqueous solutions."
+      },
+      {
+        "id": "Adsorption",
+        "type": "Concept",
+        "description": "The adhesion of molecules from a gas or liquid to a surface."
+      },
+      {
+        "id": "Sugarcane bagasse-based biochar",
+        "type": "Method",
+        "description": "The primary adsorbent material derived from agricultural waste."
+      },
+      {
+        "id": "Pyrolysis",
+        "type": "Method",
+        "description": "Thermochemical decomposition of organic material at elevated temperatures."
+      },
+      {
+        "id": "Pseudo-second-order model",
+        "type": "Method",
+        "description": "A kinetic model used to describe the adsorption process."
+      },
+      {
+        "id": "Langmuir model",
+        "type": "Method",
+        "description": "An isotherm model used to describe monolayer adsorption."
+      },
+      {
+        "id": "Specific surface area (498.97 m2/g)",
+        "type": "Metric",
+        "description": "Measurement of the total surface area per unit of mass."
+      },
+      {
+        "id": "Maximum adsorption efficiency (89.6%)",
+        "type": "Metric",
+        "description": "The percentage of DBF removed from the solution."
+      },
+      {
+        "id": "Maximum adsorption capacity (63.75 mg/g)",
+        "type": "Metric",
+        "description": "Amount of adsorbate taken up by the adsorbent per unit mass."
+      },
+      {
+        "id": "Pyrolysis temperature (700oC)",
+        "type": "Metric",
+        "description": "The optimum temperature for biochar production."
+      },
+      {
+        "id": "R2 (> 0.99)",
+        "type": "Metric",
+        "description": "The coefficient of determination for model fitting."
+      },
+      {
+        "id": "Experimental results data",
+        "type": "Dataset",
+        "description": "Numerical data collected from the batch adsorption experiments."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Dibenzofuran (DBF) removal",
+        "target": "Wastewater treatment",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Nhat Minh Phuong",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Nhat Minh Phuong",
+        "target": "Materials Energy Lab, Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Ba Huy",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Khoi Nghia",
+        "target": "Department of Soil Science, College of Agriculture and Applied Biology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Huynh Giao",
+        "target": "Faculty of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Huynh Giao",
+        "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Sugarcane bagasse-based biochar",
+        "target": "Dibenzofuran (DBF) removal",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sugarcane bagasse-based biochar",
+        "target": "Adsorption",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sugarcane bagasse-based biochar",
+        "target": "Maximum adsorption efficiency (89.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sugarcane bagasse-based biochar",
+        "target": "Maximum adsorption capacity (63.75 mg/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pyrolysis",
+        "target": "Pyrolysis temperature (700oC)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pseudo-second-order model",
+        "target": "Experimental results data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Langmuir model",
+        "target": "Experimental results data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Pseudo-second-order model",
+        "target": "R2 (> 0.99)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

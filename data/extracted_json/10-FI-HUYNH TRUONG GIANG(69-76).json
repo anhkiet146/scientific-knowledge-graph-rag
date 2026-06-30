@@ -1,0 +1,145 @@
+{
+    "filename": "10-FI-HUYNH TRUONG GIANG(69-76).json",
+    "paper_title": "ASSESSMENT OF NUTRITIONAL VALUE AND ANTIOXIDANT ACTIVITY OF POLYSACCHARIDE EXTRACTS FROM BROWN SEAWEED Sargassum flavicans FOR AQUACULTURE USES",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The main field of research focusing on aquatic organisms."
+            },
+            {
+                "id": "Huynh Truong Giang",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Tran Trung Giang",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Duong Thi Hoang Oanh",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Truong Quoc Phu",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "The academic organization the authors are affiliated with."
+            },
+            {
+                "id": "Antioxidant activity",
+                "type": "Concept",
+                "description": "The ability of a substance to inhibit oxidation."
+            },
+            {
+                "id": "Nutritional value",
+                "type": "Concept",
+                "description": "The measure of the well-balanced ratio of essential nutrients."
+            },
+            {
+                "id": "Polysaccharide extracts",
+                "type": "Concept",
+                "description": "Long-chain carbohydrates extracted from seaweed."
+            },
+            {
+                "id": "0.1N HCl extraction (SF2)",
+                "type": "Method",
+                "description": "Acidic solvent extraction method used on S. flavicans."
+            },
+            {
+                "id": "Hot-water extraction (SF1)",
+                "type": "Method",
+                "description": "Extraction method using hot water at 100°C."
+            },
+            {
+                "id": "90% aqueous ethanol extraction (SF3)",
+                "type": "Method",
+                "description": "Solvent extraction using 90% ethanol."
+            },
+            {
+                "id": "DPPH free radical scavenging activity assay",
+                "type": "Method",
+                "description": "A method to measure antioxidant capacity."
+            },
+            {
+                "id": "Yield of SF2 (41.1%)",
+                "type": "Metric",
+                "description": "The extraction yield achieved by 0.1N HCl solvent."
+            },
+            {
+                "id": "Crude protein concentration of SF2 (6.1%)",
+                "type": "Metric",
+                "description": "The protein content measured in the SF2 extract."
+            },
+            {
+                "id": "Sulfate content of SF2 (3.5%)",
+                "type": "Metric",
+                "description": "The percentage of sulfate in the SF2 extract."
+            },
+            {
+                "id": "IC50 for DPPH of SF2 (0.73 mg mL-1)",
+                "type": "Metric",
+                "description": "The concentration of SF2 needed to inhibit 50% of free radicals."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Truong Giang",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Trung Giang",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Thi Hoang Oanh",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Quoc Phu",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "0.1N HCl extraction (SF2)",
+                "target": "Yield of SF2 (41.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "0.1N HCl extraction (SF2)",
+                "target": "Crude protein concentration of SF2 (6.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "0.1N HCl extraction (SF2)",
+                "target": "Sulfate content of SF2 (3.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "0.1N HCl extraction (SF2)",
+                "target": "Antioxidant activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DPPH free radical scavenging activity assay",
+                "target": "IC50 for DPPH of SF2 (0.73 mg mL-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "0.1N HCl extraction (SF2)",
+                "target": "Nutritional value",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

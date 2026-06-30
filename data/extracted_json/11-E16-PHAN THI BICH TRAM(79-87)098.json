@@ -1,0 +1,180 @@
+{
+    "filename": "11-E16-PHAN THI BICH TRAM(79-87)098.json",
+    "paper_title": "Optimization of the polyphenolics extraction from red rice bran by response surface methodology",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "Primary research field of the paper focused on crop and food science."
+            },
+            {
+                "id": "Phan Thi Bich Tram",
+                "type": "Author",
+                "description": "Lead author and corresponding researcher."
+            },
+            {
+                "id": "Nguyen Tri Liem",
+                "type": "Author",
+                "description": "Co-author."
+            },
+            {
+                "id": "Duong Thi Phuong Lien",
+                "type": "Author",
+                "description": "Co-author."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "High School of Ngo van Can",
+                "type": "Institution",
+                "description": "Academic institution in Ben Tre, Vietnam."
+            },
+            {
+                "id": "Optimization of the polyphenolics extraction from red rice bran",
+                "type": "Concept",
+                "description": "Main research problem and objective of the study."
+            },
+            {
+                "id": "Antioxidant activity",
+                "type": "Concept",
+                "description": "The ability of the extract to scavenge free radicals."
+            },
+            {
+                "id": "Response Surface Methodology (RSM)",
+                "type": "Method",
+                "description": "Mathematical technique used for optimization and modeling."
+            },
+            {
+                "id": "Box Behnken design (BBD)",
+                "type": "Method",
+                "description": "Experimental design used for quadratic regression modeling."
+            },
+            {
+                "id": "Folin-Ciocalteu colorimetric assay",
+                "type": "Method",
+                "description": "Analytical method to determine total polyphenolic content."
+            },
+            {
+                "id": "DPPH radical-scavenging activity",
+                "type": "Method",
+                "description": "Method to assess antioxidant capacity."
+            },
+            {
+                "id": "Ethanol",
+                "type": "Method",
+                "description": "Solvent used for extraction."
+            },
+            {
+                "id": "Acetic acid",
+                "type": "Method",
+                "description": "Chemical used to acidify the extraction solvent."
+            },
+            {
+                "id": "Portable Statgraphics Centurion software",
+                "type": "Method",
+                "description": "Software used for statistical analysis and optimization."
+            },
+            {
+                "id": "Experimental design data (30 runs)",
+                "type": "Dataset",
+                "description": "Numerical data generated from 30 experimental runs using BBD."
+            },
+            {
+                "id": "TPC yield (2391.1±5.9 mg GAE/100 g)",
+                "type": "Metric",
+                "description": "Experimental total polyphenolic content achieved under optimal conditions."
+            },
+            {
+                "id": "IC50 value (108.1±2.9 μg/mL)",
+                "type": "Metric",
+                "description": "Measure of antioxidant activity concentration."
+            },
+            {
+                "id": "R2 (0.99)",
+                "type": "Metric",
+                "description": "Regression coefficient indicating high model accuracy."
+            },
+            {
+                "id": "Ethanol concentration (54.5%)",
+                "type": "Metric",
+                "description": "Optimal solvent concentration condition."
+            },
+            {
+                "id": "Acetic acid concentration (13.1%)",
+                "type": "Metric",
+                "description": "Optimal chemical additive condition."
+            },
+            {
+                "id": "Extraction time (210 min)",
+                "type": "Metric",
+                "description": "Optimal duration for extraction."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Optimization of the polyphenolics extraction from red rice bran",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Phan Thi Bich Tram",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Thi Phuong Lien",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Tri Liem",
+                "target": "High School of Ngo van Can",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "type": "USED_FOR",
+                "target": "Optimization of the polyphenolics extraction from red rice bran"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "type": "ACHIEVED",
+                "target": "TPC yield (2391.1±5.9 mg GAE/100 g)"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "type": "ACHIEVED",
+                "target": "R2 (0.99)"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "type": "EVALUATED_ON",
+                "target": "Experimental design data (30 runs)"
+            },
+            {
+                "source": "Folin-Ciocalteu colorimetric assay",
+                "type": "ACHIEVED",
+                "target": "TPC yield (2391.1±5.9 mg GAE/100 g)"
+            },
+            {
+                "source": "DPPH radical-scavenging activity",
+                "type": "USED_FOR",
+                "target": "Antioxidant activity"
+            },
+            {
+                "source": "DPPH radical-scavenging activity",
+                "type": "ACHIEVED",
+                "target": "IC50 value (108.1±2.9 μg/mL)"
+            },
+            {
+                "source": "Box Behnken design (BBD)",
+                "type": "USED_FOR",
+                "target": "Response Surface Methodology (RSM)"
+            }
+        ]
+    }
+}

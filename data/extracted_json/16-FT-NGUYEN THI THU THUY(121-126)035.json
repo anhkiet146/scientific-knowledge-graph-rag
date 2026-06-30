@@ -1,0 +1,145 @@
+{
+    "filename": "16-FT-NGUYEN THI THU THUY(121-126)035.json",
+    "paper_title": "Improving of bread quality from frozen dough using ascorbic acid and α-amylase",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Thi Thu Thuy",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "Nguyen Nhat Minh Phuong",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the research was conducted"
+            },
+            {
+                "id": "Food Science and Technology",
+                "type": "Domain",
+                "description": "The primary field of study regarding food processing and quality"
+            },
+            {
+                "id": "Bread quality",
+                "type": "Concept",
+                "description": "The target attribute for improvement, including volume, texture, and sensory properties"
+            },
+            {
+                "id": "Frozen dough technology",
+                "type": "Concept",
+                "description": "A preservation method to provide fresh bread conveniently"
+            },
+            {
+                "id": "Ascorbic acid",
+                "type": "Method",
+                "description": "An oxidizing agent used as a dough improver to strengthen the gluten network"
+            },
+            {
+                "id": "α-amylase",
+                "type": "Method",
+                "description": "An enzyme added to hydrolyse starch and improve fermentation and texture"
+            },
+            {
+                "id": "Thawing-frozen processing",
+                "type": "Method",
+                "description": "The procedure of defrosting frozen dough before fermentation"
+            },
+            {
+                "id": "Texture analyzer TA-XT2i",
+                "type": "Method",
+                "description": "Equipment used for texture profile analysis"
+            },
+            {
+                "id": "Thawing time (30 minutes)",
+                "type": "Metric",
+                "description": "Optimum time for defrosting dough at room temperature"
+            },
+            {
+                "id": "Ascorbic acid content (0.01%)",
+                "type": "Metric",
+                "description": "The optimal percentage of ascorbic acid added to the flour weight"
+            },
+            {
+                "id": "α-amylase content (0.01%)",
+                "type": "Metric",
+                "description": "The optimal percentage of α-amylase added to the flour weight"
+            },
+            {
+                "id": "Loaf volume (103.68 cm3)",
+                "type": "Metric",
+                "description": "The maximum loaf volume achieved with the optimal improver combination"
+            },
+            {
+                "id": "Compressive force (326.19 gram-force)",
+                "type": "Metric",
+                "description": "The maximum compressive strength recorded for bread texture"
+            },
+            {
+                "id": "Sensory scores (4.2 - 4.3)",
+                "type": "Metric",
+                "description": "High sensory evaluation scores for color, texture, and taste"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Improving of bread quality from frozen dough using ascorbic acid and α-amylase",
+                "target": "Food Science and Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Thu Thuy",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Nhat Minh Phuong",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ascorbic acid",
+                "target": "Bread quality",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "α-amylase",
+                "target": "Bread quality",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Thawing-frozen processing",
+                "target": "Frozen dough technology",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ascorbic acid",
+                "target": "Loaf volume (103.68 cm3)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "α-amylase",
+                "target": "Loaf volume (103.68 cm3)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ascorbic acid",
+                "target": "Compressive force (326.19 gram-force)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "α-amylase",
+                "target": "Compressive force (326.19 gram-force)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Thawing-frozen processing",
+                "target": "Thawing time (30 minutes)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

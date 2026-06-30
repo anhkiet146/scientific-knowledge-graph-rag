@@ -1,0 +1,175 @@
+{
+    "filename": "01-AG-NGUYEN NGOC BAO CHAU(1-6)001.json",
+    "paper_title": "Antifeedant activity of essential oil Lantana camara L. against Spodoptera litura Fabr. (Lepidoptera: Noctuidae) and Plutella xylostella Curtis (Lepidoptera: Plutellidae)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Antifeedant activity of essential oil Lantana camara L.",
+                "type": "Concept",
+                "description": "The study investigating the deterrent effects of Lantana camara essential oil on insect pests."
+            },
+            {
+                "id": "Biopesticides",
+                "type": "Concept",
+                "description": "Natural plant-derived products used for pest management in sustainable agriculture."
+            },
+            {
+                "id": "Integrated Pest Management (IPM)",
+                "type": "Concept",
+                "description": "An ecosystem-based strategy that focuses on long-term prevention of pests."
+            },
+            {
+                "id": "Agricultural Biotechnology",
+                "type": "Domain",
+                "description": "The primary field of research for this study."
+            },
+            {
+                "id": "Nguyen Ngoc Bao Chau",
+                "type": "Author",
+                "description": "Lead author and corresponding author from Ho Chi Minh City Open University."
+            },
+            {
+                "id": "Dong Thi Cam Tu",
+                "type": "Author",
+                "description": "Co-author from Ho Chi Minh City Open University."
+            },
+            {
+                "id": "Nguyen Bao Quoc",
+                "type": "Author",
+                "description": "Co-author from Nong Lam University."
+            },
+            {
+                "id": "Ho Chi Minh City Open University",
+                "type": "Institution",
+                "description": "Institution located in Vietnam, Department of Agricultural Biotechnology."
+            },
+            {
+                "id": "Nong Lam University",
+                "type": "Institution",
+                "description": "Research Institute for Biotechnology and Environment in Vietnam."
+            },
+            {
+                "id": "Gas chromatography–mass spectrometry (GC-MS)",
+                "type": "Method",
+                "description": "Analytical method used to identify volatile components of leaf extracts."
+            },
+            {
+                "id": "Hydrodistillation",
+                "type": "Method",
+                "description": "Process used to obtain essential oils using a Clevenger type apparatus."
+            },
+            {
+                "id": "No-choice test",
+                "type": "Method",
+                "description": "Experiment method used to study the antifeedant activity where larvae have only treated food."
+            },
+            {
+                "id": "Choice-test experiment",
+                "type": "Method",
+                "description": "Experiment method where larvae can choose between treated and untreated food."
+            },
+            {
+                "id": "Lantana camara essential oil",
+                "type": "Method",
+                "description": "The primary material tested for antifeedant activity."
+            },
+            {
+                "id": "β–caryophyllene (29.67%)",
+                "type": "Metric",
+                "description": "Concentration of the main volatile component identified in the oil."
+            },
+            {
+                "id": "caryophyllene oxide (2.69%)",
+                "type": "Metric",
+                "description": "Concentration of a specific volatile component in the oil."
+            },
+            {
+                "id": "α–humulene (10.24%)",
+                "type": "Metric",
+                "description": "Concentration of a volatile component in the leaf extract."
+            },
+            {
+                "id": "germacrene D (1.72%)",
+                "type": "Metric",
+                "description": "Concentration of a volatile component in the leaf extract."
+            },
+            {
+                "id": "Antifeedant activity (50%-60%)",
+                "type": "Metric",
+                "description": "Measured deterrent activity recorded on second instar larvae."
+            },
+            {
+                "id": "Significance level (P=0.0000)",
+                "type": "Metric",
+                "description": "Statistical significance value compared to the control."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Antifeedant activity of essential oil Lantana camara L.",
+                "target": "Agricultural Biotechnology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Ngoc Bao Chau",
+                "target": "Ho Chi Minh City Open University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dong Thi Cam Tu",
+                "target": "Ho Chi Minh City Open University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Bao Quoc",
+                "target": "Nong Lam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lantana camara essential oil",
+                "target": "Antifeedant activity of essential oil Lantana camara L.",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Gas chromatography–mass spectrometry (GC-MS)",
+                "target": "β–caryophyllene (29.67%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gas chromatography–mass spectrometry (GC-MS)",
+                "target": "caryophyllene oxide (2.69%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gas chromatography–mass spectrometry (GC-MS)",
+                "target": "α–humulene (10.24%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gas chromatography–mass spectrometry (GC-MS)",
+                "target": "germacrene D (1.72%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "No-choice test",
+                "target": "Antifeedant activity (50%-60%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Choice-test experiment",
+                "target": "Significance level (P=0.0000)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hydrodistillation",
+                "target": "Lantana camara essential oil",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Lantana camara essential oil",
+                "target": "Biopesticides",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

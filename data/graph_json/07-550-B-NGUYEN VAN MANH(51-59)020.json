@@ -1,0 +1,165 @@
+{
+  "filename": "07-550-B-NGUYEN VAN MANH(51-59)020.json",
+  "paper_title": "Agrobacterium-mediated transformation of Nang Thom Cho Dao, an indica rice variety",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Agrobacterium-mediated transformation of Nang Thom Cho Dao, an indica rice variety",
+        "type": "Concept",
+        "description": "Title of the research paper"
+      },
+      {
+        "id": "Plant Biotechnology",
+        "type": "Domain",
+        "description": "The primary field of research"
+      },
+      {
+        "id": "Nguyen Van Thanh",
+        "type": "Author",
+        "description": "First author"
+      },
+      {
+        "id": "Do Tien Phat",
+        "type": "Author",
+        "description": "Second author"
+      },
+      {
+        "id": "To Thi Truc Tam",
+        "type": "Author",
+        "description": "Third author"
+      },
+      {
+        "id": "Huynh Ky",
+        "type": "Author",
+        "description": "Corresponding author"
+      },
+      {
+        "id": "Faculty of Genetics and Plant Breeding, College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "Affiliation of the authors from Can Tho University"
+      },
+      {
+        "id": "Institute of Biotechnology, Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "Affiliation of the second author"
+      },
+      {
+        "id": "Agrobacterium-mediated transformation",
+        "type": "Method",
+        "description": "Gene transfer method used in the study"
+      },
+      {
+        "id": "Nang Thom Cho Dao",
+        "type": "Concept",
+        "description": "An aromatic indica rice variety used as the study subject"
+      },
+      {
+        "id": "Hygromycin",
+        "type": "Method",
+        "description": "Antibiotic used as a selection agent"
+      },
+      {
+        "id": "PCR",
+        "type": "Method",
+        "description": "Polymerase Chain Reaction used to confirm transgenes"
+      },
+      {
+        "id": "X-Gluc staining",
+        "type": "Method",
+        "description": "GUS staining method to check gene expression"
+      },
+      {
+        "id": "Hygromycin concentration (30 mg/L)",
+        "type": "Metric",
+        "description": "Optimal concentration for selecting transgenic callus"
+      },
+      {
+        "id": "Bacterial suspension density (OD600nm 0.1)",
+        "type": "Metric",
+        "description": "Optimal density for infection"
+      },
+      {
+        "id": "Infected duration (20 minutes)",
+        "type": "Metric",
+        "description": "Optimal time for bacterial inoculation"
+      },
+      {
+        "id": "Co-culture period (3 days)",
+        "type": "Metric",
+        "description": "Optimal time for calli and bacteria co-cultivation"
+      },
+      {
+        "id": "Transformation efficiency (9.89%)",
+        "type": "Metric",
+        "description": "Final effectiveness of the established procedure"
+      },
+      {
+        "id": "Regeneration rate (94%)",
+        "type": "Metric",
+        "description": "Rate of calli generation from seed embryos"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Agrobacterium-mediated transformation of Nang Thom Cho Dao, an indica rice variety",
+        "target": "Plant Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Van Thanh",
+        "target": "Faculty of Genetics and Plant Breeding, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Tien Phat",
+        "target": "Institute of Biotechnology, Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "To Thi Truc Tam",
+        "target": "Faculty of Genetics and Plant Breeding, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Thanh",
+        "target": "Faculty of Genetics and Plant Breeding, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Ky",
+        "target": "Faculty of Genetics and Plant Breeding, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Agrobacterium-mediated transformation",
+        "target": "Nang Thom Cho Dao",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Agrobacterium-mediated transformation",
+        "target": "Hygromycin concentration (30 mg/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agrobacterium-mediated transformation",
+        "target": "Bacterial suspension density (OD600nm 0.1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agrobacterium-mediated transformation",
+        "target": "Infected duration (20 minutes)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agrobacterium-mediated transformation",
+        "target": "Co-culture period (3 days)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agrobacterium-mediated transformation",
+        "target": "Transformation efficiency (9.89%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

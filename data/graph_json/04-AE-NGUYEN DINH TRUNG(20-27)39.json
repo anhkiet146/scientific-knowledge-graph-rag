@@ -1,0 +1,165 @@
+{
+  "filename": "04-AE-NGUYEN DINH TRUNG(20-27)39.json",
+  "paper_title": "SORPTION OF Pb(II), Cu(II) AND Cd(II) BY BIOMASS OF THE DIFFERENT ACTIVATED SLUDGE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Trung Thien Nguyen",
+        "type": "Author",
+        "description": "Co-author from Dalat University, Vietnam."
+      },
+      {
+        "id": "Truong Dong Phuong",
+        "type": "Author",
+        "description": "Co-author from Dalat University, Vietnam."
+      },
+      {
+        "id": "Ning Ping",
+        "type": "Author",
+        "description": "Co-author from Kunming University of Science and Technology, China."
+      },
+      {
+        "id": "Institute of Environmental research, Dalat University",
+        "type": "Institution",
+        "description": "Research institute located in Dalat, Vietnam."
+      },
+      {
+        "id": "Kunming University of Science and Technology",
+        "type": "Institution",
+        "description": "Educational and research institution in Yunnan, China."
+      },
+      {
+        "id": "Environmental Science",
+        "type": "Domain",
+        "description": "The primary research field involving wastewater treatment and biosorption."
+      },
+      {
+        "id": "Bio-sorption",
+        "type": "Concept",
+        "description": "Process of removing heavy metal ions using biological materials."
+      },
+      {
+        "id": "Heavy metal removal",
+        "type": "Concept",
+        "description": "The objective of treating wastewater to eliminate toxic metal ions."
+      },
+      {
+        "id": "Digested sludge",
+        "type": "Method",
+        "description": "Activated sludge kept in an anaerobic basin used as a bio-adsorbent."
+      },
+      {
+        "id": "Resting sludge",
+        "type": "Method",
+        "description": "Activated sludge kept in an aerated basin used as a bio-adsorbent."
+      },
+      {
+        "id": "Langmuir model",
+        "type": "Method",
+        "description": "A mathematical model used to describe adsorption isotherms."
+      },
+      {
+        "id": "Sonication method",
+        "type": "Method",
+        "description": "Procedure used to extract extracellular polymeric substances (EPS)."
+      },
+      {
+        "id": "Atomic Absorption Spectrophotometry (AAS)",
+        "type": "Method",
+        "description": "Equipment used to measure heavy metal concentrations in solution."
+      },
+      {
+        "id": "Lowry method",
+        "type": "Method",
+        "description": "Colorimetric method for protein content determination."
+      },
+      {
+        "id": "Experimental adsorption and desorption data",
+        "type": "Dataset",
+        "description": "Numerical results from the heavy metal uptake and recovery experiments."
+      },
+      {
+        "id": "Maximal adsorption capacity of resting sludge (0.552 mM Cu2+/g)",
+        "type": "Metric",
+        "description": "Specific adsorption capacity for Lead by resting sludge."
+      },
+      {
+        "id": "Maximal adsorption capacity of digested sludge (0.549 mM Cd2+/g)",
+        "type": "Metric",
+        "description": "Specific adsorption capacity for Cadmium by digested sludge."
+      },
+      {
+        "id": "Efficiency desorption for Pb2+ (95%)",
+        "type": "Metric",
+        "description": "The percentage of Lead recovered from the biomass."
+      },
+      {
+        "id": "Ratio protein/polysaccharide (1.25 to 2.7)",
+        "type": "Metric",
+        "description": "The ratio of biochemical components found in resting sludge EPS."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Trung Thien Nguyen",
+        "target": "Institute of Environmental research, Dalat University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Dong Phuong",
+        "target": "Institute of Environmental research, Dalat University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ning Ping",
+        "target": "Kunming University of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bio-sorption",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Langmuir model",
+        "target": "Experimental adsorption and desorption data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Langmuir model",
+        "target": "Bio-sorption",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Resting sludge",
+        "target": "Maximal adsorption capacity of resting sludge (0.552 mM Cu2+/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Resting sludge",
+        "target": "Maximal adsorption capacity of resting sludge (0.552 mM Cu2+/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Digested sludge",
+        "target": "Maximal adsorption capacity of digested sludge (0.549 mM Cd2+/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Resting sludge",
+        "target": "Heavy metal removal",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Digested sludge",
+        "target": "Heavy metal removal",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Resting sludge",
+        "target": "Ratio protein/polysaccharide (1.25 to 2.7)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+    "filename": "11-847-LE HOANG(74-82)284.json",
+    "paper_title": "Study on the stable behavior of the river embankment system considering climate change impacts and pressure wave",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Le Hoang",
+                "type": "Author",
+                "description": "Faculty of Civil Engineering, Can Tho University of Technology"
+            },
+            {
+                "id": "Nguyen Trung Phuong",
+                "type": "Author",
+                "description": "College of Engineering, Can Tho University"
+            },
+            {
+                "id": "Do Hung Thoi",
+                "type": "Author",
+                "description": "Faculty of Civil Engineering, Can Tho University of Technology"
+            },
+            {
+                "id": "Le Thi Anh Hong",
+                "type": "Author",
+                "description": "Faculty of Civil Engineering, Can Tho University of Technology"
+            },
+            {
+                "id": "Do Ngoc Trieu",
+                "type": "Author",
+                "description": "Can Tho City Department of Finance"
+            },
+            {
+                "id": "Le Nong",
+                "type": "Author",
+                "description": "Faculty of Transportation Engineering, Can Tho University"
+            },
+            {
+                "id": "Ho Quang Vinh",
+                "type": "Author",
+                "description": "Faculty of Civil Engineering, Can Tho University of Technology"
+            },
+            {
+                "id": "Can Tho University of Technology",
+                "type": "Institution",
+                "description": "Viet Nam"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Viet Nam"
+            },
+            {
+                "id": "Can Tho City Department of Finance",
+                "type": "Institution",
+                "description": "Viet Nam"
+            },
+            {
+                "id": "Geotechnical Engineering",
+                "type": "Domain",
+                "description": "Stability of embankment systems and climate change impacts"
+            },
+            {
+                "id": "Embankment stability",
+                "type": "Concept",
+                "description": "The ability of embankment systems to resist sliding or collapse"
+            },
+            {
+                "id": "Climate change",
+                "type": "Concept",
+                "description": "Impacts including rising water levels and extreme groundwater table drawdown"
+            },
+            {
+                "id": "Pressure wave",
+                "type": "Concept",
+                "description": "Impacts of waves on protection works"
+            },
+            {
+                "id": "Plaxis 2D V.22",
+                "type": "Method",
+                "description": "Finite element software used for simulation and safety factor calculation"
+            },
+            {
+                "id": "Bishop method",
+                "type": "Method",
+                "description": "Force balance equation method for calculating stability coefficients"
+            },
+            {
+                "id": "Mohr-Coulomb model",
+                "type": "Method",
+                "description": "Elastic-plastic model used for soil behavior approximation"
+            },
+            {
+                "id": "Hydrological data Long Xuyen station (2001-2021)",
+                "type": "Dataset",
+                "description": "Maximum and minimum water level data"
+            },
+            {
+                "id": "Safety factor Msf (1.113)",
+                "type": "Metric",
+                "description": "Stability factor at climate change water level -1.5m"
+            },
+            {
+                "id": "Safety factor Msf (1.354)",
+                "type": "Metric",
+                "description": "Stability factor at water level +2.8m"
+            },
+            {
+                "id": "Permissible safety factor Msf (>= 1.15)",
+                "type": "Metric",
+                "description": "Safety requirement according to TCVN 9902-2013"
+            },
+            {
+                "id": "Vehicle live load (5 tons)",
+                "type": "Metric",
+                "description": "Load acting on the structure"
+            },
+            {
+                "id": "Water level (+2.8m elevation)",
+                "type": "Metric",
+                "description": "Rising water level forecasted by climate change projections"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Hoang",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Hung Thoi",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thi Anh Hong",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Quang Vinh",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Trung Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Nong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Ngoc Trieu",
+                "target": "Can Tho City Department of Finance",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Plaxis 2D V.22",
+                "target": "Geotechnical Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Plaxis 2D V.22",
+                "target": "Embankment stability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Plaxis 2D V.22",
+                "target": "Hydrological data Long Xuyen station (2001-2021)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Plaxis 2D V.22",
+                "target": "Safety factor Msf (1.113)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Plaxis 2D V.22",
+                "target": "Safety factor Msf (1.354)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Bishop method",
+                "target": "Embankment stability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Mohr-Coulomb model",
+                "target": "Embankment stability",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

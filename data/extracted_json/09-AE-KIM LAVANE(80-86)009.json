@@ -1,0 +1,130 @@
+{
+    "filename": "09-AE-KIM LAVANE(80-86)009.json",
+    "paper_title": "PHOSPHATE SOLUBILIZING MICROORGANISMS ISOLATED FROM MANOA SOIL IN OAHU, HAWAI'I",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Kim Lavane",
+                "type": "Author",
+                "description": "Tác giả chính của bài báo"
+            },
+            {
+                "id": "College of Environment and Natural Resources, Can Tho University",
+                "type": "Institution",
+                "description": "Tổ chức nghiên cứu của tác giả tại Việt Nam"
+            },
+            {
+                "id": "Microbiology",
+                "type": "Domain",
+                "description": "Lĩnh vực vi sinh vật học và khoa học đất"
+            },
+            {
+                "id": "Phosphate solubilization",
+                "type": "Concept",
+                "description": "Quá trình chuyển hóa phosphate khó tan thành dạng tan nhờ vi sinh vật"
+            },
+            {
+                "id": "Acidification",
+                "type": "Concept",
+                "description": "Cơ chế chính trong việc hòa tan khoáng phosphate bằng cách giảm pH"
+            },
+            {
+                "id": "Isolation of soil microorganisms",
+                "type": "Method",
+                "description": "Quy trình phân lập vi sinh vật từ mẫu đất và rễ cây"
+            },
+            {
+                "id": "YMA agar",
+                "type": "Method",
+                "description": "Môi trường Yeast-mannitol-agar dùng để tinh sạch các chủng vi sinh vật"
+            },
+            {
+                "id": "Molybdate-blue method",
+                "type": "Method",
+                "description": "Phương pháp hóa học dùng để xác định hàm lượng phosphate hòa tan"
+            },
+            {
+                "id": "Carolina rock phosphate",
+                "type": "Method",
+                "description": "Vật liệu phosphate đá được sử dụng làm nguồn P khó tan trong thí nghiệm"
+            },
+            {
+                "id": "North Carolina rock phosphate",
+                "type": "Method",
+                "description": "Nguồn phosphate đá cụ thể dùng để kiểm tra hoạt tính cao nhất của các chủng"
+            },
+            {
+                "id": "pH meter (Model: Orion 420A)",
+                "type": "Method",
+                "description": "Thiết bị dùng để đo độ pH của dung dịch"
+            },
+            {
+                "id": "Soluble phosphate concentration (19.33mg/L)",
+                "type": "Metric",
+                "description": "Nồng độ phosphate hòa tan cao nhất đạt được bởi chủng phân lập"
+            },
+            {
+                "id": "Soluble phosphate concentration (18.1mg/L)",
+                "type": "Metric",
+                "description": "Nồng độ phosphate hòa tan cao thứ hai đạt được bởi chủng phân lập"
+            },
+            {
+                "id": "pH drop (3.64)",
+                "type": "Metric",
+                "description": "Giá trị pH thấp nhất ghi nhận được trong môi trường nuôi cấy"
+            },
+            {
+                "id": "Bacterial population (235x10^4 CFU/g)",
+                "type": "Metric",
+                "description": "Mật độ vi khuẩn hòa tan phosphate thu hồi được từ đất"
+            },
+            {
+                "id": "Fungi population (90x10^4 CFU/g)",
+                "type": "Metric",
+                "description": "Mật độ nấm thu hồi được từ mẫu rễ cây"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Kim Lavane",
+                "target": "College of Environment and Natural Resources, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Isolation of soil microorganisms",
+                "target": "Phosphate solubilization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Molybdate-blue method",
+                "target": "Phosphate solubilization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Isolation of soil microorganisms",
+                "target": "Soluble phosphate concentration (19.33mg/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Isolation of soil microorganisms",
+                "target": "pH drop (3.64)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Isolation of soil microorganisms",
+                "target": "Bacterial population (235x10^4 CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Isolation of soil microorganisms",
+                "target": "Fungi population (90x10^4 CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "YMA agar",
+                "target": "Isolation of soil microorganisms",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

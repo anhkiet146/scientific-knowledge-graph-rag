@@ -1,0 +1,155 @@
+{
+  "filename": "16-LA-NGUYEN THI BAO ANH(131-137)047.json",
+  "paper_title": "The reality of violation of patients' rights under the law on examination and treatment in some provinces of Mekong Delta",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thi Bao Anh",
+        "type": "Author",
+        "description": "Author from the Department of Politics and Law, Can Tho College."
+      },
+      {
+        "id": "Truong Kim Phung",
+        "type": "Author",
+        "description": "Author from the Department of Law, Tay Do University."
+      },
+      {
+        "id": "Can Tho College",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "Tay Do University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "Law and Healthcare",
+        "type": "Domain",
+        "description": "The primary field of study regarding legal protections for patients."
+      },
+      {
+        "id": "Violation of patients' rights",
+        "type": "Concept",
+        "description": "The central research problem regarding the infringement of legal rights of patients in medical settings."
+      },
+      {
+        "id": "Law on Medical Examination and Treatment (LMET)",
+        "type": "Concept",
+        "description": "The legal framework governing medical activities and patient rights in Vietnam."
+      },
+      {
+        "id": "Randomized oral interview survey",
+        "type": "Method",
+        "description": "Primary methodology used to collect data from patients in four provinces."
+      },
+      {
+        "id": "Epidata 3.1",
+        "type": "Method",
+        "description": "Software used for data entry and storage."
+      },
+      {
+        "id": "STATA 10",
+        "type": "Method",
+        "description": "Statistical software used for data processing and analysis."
+      },
+      {
+        "id": "Descriptive statistics",
+        "type": "Method",
+        "description": "Method used to analyze characteristics of the researched objects."
+      },
+      {
+        "id": "Shapiro-Wilk test",
+        "type": "Method",
+        "description": "Statistical test used to assess the normality of data."
+      },
+      {
+        "id": "Mekong Delta Patient Survey Database",
+        "type": "Dataset",
+        "description": "Numerical data collected from 1000 interviewed patients in 2016."
+      },
+      {
+        "id": "Average age (39.51±13.81)",
+        "type": "Metric",
+        "description": "Demographic metric of the survey participants."
+      },
+      {
+        "id": "Consultation rate in public hospitals (77.43%)",
+        "type": "Metric",
+        "description": "Metric measuring respect for the right to information."
+      },
+      {
+        "id": "Discrimination rate in public hospitals (11.72%)",
+        "type": "Metric",
+        "description": "Metric indicating the violation of equality in medical services."
+      },
+      {
+        "id": "Medical record provision rate (45.13%)",
+        "type": "Metric",
+        "description": "Metric indicating the low percentage of patients receiving medical records in public hospitals."
+      },
+      {
+        "id": "Denial of service due to inability to pay in private hospitals (38.76%)",
+        "type": "Metric",
+        "description": "Metric indicating economic barriers to healthcare access."
+      },
+      {
+        "id": "Significance level (5%)",
+        "type": "Metric",
+        "description": "The statistical threshold used for all analyses."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Thi Bao Anh",
+        "target": "Can Tho College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Kim Phung",
+        "target": "Tay Do University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Randomized oral interview survey",
+        "target": "Violation of patients' rights",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Randomized oral interview survey",
+        "target": "Mekong Delta Patient Survey Database",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Randomized oral interview survey",
+        "target": "Consultation rate in public hospitals (77.43%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Randomized oral interview survey",
+        "target": "Discrimination rate in public hospitals (11.72%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Randomized oral interview survey",
+        "target": "Medical record provision rate (45.13%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Randomized oral interview survey",
+        "target": "Denial of service due to inability to pay in private hospitals (38.76%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive statistics",
+        "target": "Average age (39.51±13.81)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "The reality of violation of patients' rights under the law on examination and treatment in some provinces of Mekong Delta",
+        "target": "Law and Healthcare",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

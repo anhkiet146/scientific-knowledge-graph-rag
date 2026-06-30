@@ -1,0 +1,185 @@
+{
+  "filename": "02-604-TRUONG VAN XA(12-22)047.json",
+  "paper_title": "Effects of seed soaking and foliar spraying of Kalanchoe pinnata aqueous leaf extracts against rice bacterial leaf blight",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Plant Pathology",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về bệnh hại cây trồng và kiểm soát bệnh"
+      },
+      {
+        "id": "Bacterial leaf blight",
+        "type": "Concept",
+        "description": "Bệnh bạc lá lúa do vi khuẩn Xanthomonas oryzae pv. oryzae gây ra"
+      },
+      {
+        "id": "Induced resistance",
+        "type": "Concept",
+        "description": "Cơ chế kháng kích kháng giúp cây tự bảo vệ khỏi mầm bệnh"
+      },
+      {
+        "id": "Kalanchoe pinnata aqueous leaf extracts",
+        "type": "Method",
+        "description": "Dịch chiết nước từ lá cây lá bỏng (K. pinnata)"
+      },
+      {
+        "id": "Seed soaking",
+        "type": "Method",
+        "description": "Phương pháp ngâm hạt trong dịch chiết"
+      },
+      {
+        "id": "Foliar spraying",
+        "type": "Method",
+        "description": "Phương pháp phun dịch chiết lên lá"
+      },
+      {
+        "id": "Leaf-clipping method",
+        "type": "Method",
+        "description": "Phương pháp gây nhiễm vi khuẩn bằng cách cắt lá"
+      },
+      {
+        "id": "Peroxidase (POX) assay",
+        "type": "Method",
+        "description": "Quy trình đo hoạt tính enzyme Peroxidase"
+      },
+      {
+        "id": "Catalase (CAT) assay",
+        "type": "Method",
+        "description": "Quy trình đo hoạt tính enzyme Catalase"
+      },
+      {
+        "id": "Polyphenol oxidase (PPO) assay",
+        "type": "Method",
+        "description": "Quy trình đo hoạt tính enzyme Polyphenol oxidase"
+      },
+      {
+        "id": "Phenylalanine ammonia lyase (PAL) assay",
+        "type": "Method",
+        "description": "Quy trình đo hoạt tính enzyme Phenylalanine ammonia lyase"
+      },
+      {
+        "id": "Starner 20 WP",
+        "type": "Method",
+        "description": "Thuốc hóa học đối chứng"
+      },
+      {
+        "id": "Truong Van Xa",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Tran Kim Thoa",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Thai Tran Anh Thu",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Nguyen Dac Khoa",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu"
+      },
+      {
+        "id": "Vinh Long University of Technology Education",
+        "type": "Institution",
+        "description": "Trường Đại học Sư phạm Kỹ thuật Vĩnh Long"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Trường Đại học Cần Thơ"
+      },
+      {
+        "id": "Yield loss (up to 65%)",
+        "type": "Metric",
+        "description": "Tỷ lệ thất thoát năng suất do bệnh bạc lá"
+      },
+      {
+        "id": "Disease-reducing effects (up to 40%)",
+        "type": "Metric",
+        "description": "Hiệu quả giảm bệnh khi ngâm hạt trong dịch chiết tươi"
+      },
+      {
+        "id": "Extract concentrations (1% to 5% w/v)",
+        "type": "Metric",
+        "description": "Nồng độ dịch chiết sử dụng trong thí nghiệm"
+      },
+      {
+        "id": "Significance level (P <= 0.05)",
+        "type": "Metric",
+        "description": "Mức ý nghĩa thống kê"
+      },
+      {
+        "id": "Pathogen concentration (10^9 CFU/mL)",
+        "type": "Metric",
+        "description": "Mật độ vi khuẩn Xoo dùng để lây nhiễm"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of seed soaking and foliar spraying of Kalanchoe pinnata aqueous leaf extracts against rice bacterial leaf blight",
+        "target": "Plant Pathology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Truong Van Xa",
+        "target": "Vinh Long University of Technology Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Van Xa",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Kim Thoa",
+        "target": "Vinh Long University of Technology Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thai Tran Anh Thu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Dac Khoa",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kalanchoe pinnata aqueous leaf extracts",
+        "target": "Induced resistance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Seed soaking",
+        "target": "Bacterial leaf blight",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Foliar spraying",
+        "target": "Bacterial leaf blight",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Kalanchoe pinnata aqueous leaf extracts",
+        "target": "Disease-reducing effects (up to 40%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Kalanchoe pinnata aqueous leaf extracts",
+        "target": "Extract concentrations (1% to 5% w/v)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Leaf-clipping method",
+        "target": "Pathogen concentration (10^9 CFU/mL)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

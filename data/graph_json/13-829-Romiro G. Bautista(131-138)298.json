@@ -1,0 +1,155 @@
+{
+  "filename": "13-829-Romiro G. Bautista(131-138)298.json",
+  "paper_title": "Lesson study: A cross-cultural analysis between the Philippines and Viet Nam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Education",
+        "type": "Domain",
+        "description": "The primary field of research concerning teaching, learning, and teacher development."
+      },
+      {
+        "id": "Lesson Study",
+        "type": "Concept",
+        "description": "A teacher-driven professional development method focused on collaborative inquiry and classroom-based research."
+      },
+      {
+        "id": "Professional Development",
+        "type": "Concept",
+        "description": "The process of improving and increasing capabilities of staff through access to education and training opportunities."
+      },
+      {
+        "id": "Teaching Quality",
+        "type": "Concept",
+        "description": "The effectiveness of instructional practices and their impact on student learning."
+      },
+      {
+        "id": "Romiro G. Bautista",
+        "type": "Author",
+        "description": "Author affiliated with Quirino State University."
+      },
+      {
+        "id": "Wilfredo B. Baniqued",
+        "type": "Author",
+        "description": "Author affiliated with Quirino State University."
+      },
+      {
+        "id": "Huynh Thi Thuy Diem",
+        "type": "Author",
+        "description": "Corresponding author affiliated with Can Tho University."
+      },
+      {
+        "id": "Mai Phuc Thinh",
+        "type": "Author",
+        "description": "Author affiliated with Can Tho University."
+      },
+      {
+        "id": "Quirino State University",
+        "type": "Institution",
+        "description": "A higher education institution in the Philippines."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "A higher education institution in Viet Nam."
+      },
+      {
+        "id": "Quantitative Research",
+        "type": "Method",
+        "description": "A research strategy that focuses on quantifying the collection and analysis of data."
+      },
+      {
+        "id": "Comparative analysis",
+        "type": "Method",
+        "description": "The act of comparing two or more things with a view to discovering something about one or all of them."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "A research instrument consisting of a series of questions for the purpose of gathering information from respondents."
+      },
+      {
+        "id": "Survey data of 106 teacher-practitioners",
+        "type": "Dataset",
+        "description": "Digital numerical data gathered from teachers in the Philippines and Viet Nam."
+      },
+      {
+        "id": "Cronbach's Alpha (0.843)",
+        "type": "Metric",
+        "description": "Reliability coefficient for the questionnaire during the preliminary validation phase."
+      },
+      {
+        "id": "Significance level (.05 level)",
+        "type": "Metric",
+        "description": "The probability of rejecting the null hypothesis when it is true."
+      },
+      {
+        "id": "106 teacher-practitioners",
+        "type": "Metric",
+        "description": "The total sample size of educators participating in the study."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Lesson Study",
+        "target": "Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Romiro G. Bautista",
+        "target": "Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Wilfredo B. Baniqued",
+        "target": "Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Thi Thuy Diem",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mai Phuc Thinh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Quantitative Research",
+        "target": "Lesson Study",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Comparative analysis",
+        "target": "Lesson Study",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Survey data of 106 teacher-practitioners",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Comparative analysis",
+        "target": "Significance level (.05 level)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Quantitative Research",
+        "target": "106 teacher-practitioners",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+    "filename": "BE-TRAN NGOC HAI(82-90)053.json",
+    "paper_title": "Giant freshwater prawn farming in brackish water areas of the Mekong Delta, Vietnam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "Lĩnh vực nuôi trồng thủy sản"
+            },
+            {
+                "id": "Tran Ngoc Hai",
+                "type": "Author",
+                "description": "Tác giả từ College of Aquaculture and Fisheries, Can Tho University"
+            },
+            {
+                "id": "Huynh Kim Huong",
+                "type": "Author",
+                "description": "Tác giả từ College of Agriculture and Fisheries, Tra Vinh University"
+            },
+            {
+                "id": "Le Quoc Viet",
+                "type": "Author",
+                "description": "Tác giả từ College of Aquaculture and Fisheries, Can Tho University"
+            },
+            {
+                "id": "Do Thi Thanh Huong",
+                "type": "Author",
+                "description": "Tác giả từ College of Aquaculture and Fisheries, Can Tho University"
+            },
+            {
+                "id": "Nguyen Thanh Phuong",
+                "type": "Author",
+                "description": "Tác giả từ College of Aquaculture and Fisheries, Can Tho University"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "College of Aquaculture and Fisheries, Can Tho University, Vietnam"
+            },
+            {
+                "id": "Tra Vinh University",
+                "type": "Institution",
+                "description": "College of Agriculture and Fisheries, Tra Vinh University, Vietnam"
+            },
+            {
+                "id": "Prawn and rice farming alternatively with tiger shrimp culture",
+                "type": "Method",
+                "description": "Hệ thống nuôi luân canh tôm càng xanh và lúa kết hợp tôm sú trên ruộng lúa (Hệ thống 1)"
+            },
+            {
+                "id": "Prawn culture in pond alternatively with tiger shrimp culture",
+                "type": "Method",
+                "description": "Hệ thống nuôi tôm càng xanh trong ao luân canh với tôm sú (Hệ thống 2)"
+            },
+            {
+                "id": "Survey on 108 households",
+                "type": "Method",
+                "description": "Phương pháp điều tra xã hội học trên 108 hộ dân tại Bạc Liêu và Trà Vinh"
+            },
+            {
+                "id": "Trial on prawn culture in 9 brackish water ponds",
+                "type": "Method",
+                "description": "Thử nghiệm thực địa nuôi tôm trong 9 ao nước lợ với độ mặn 0-10‰"
+            },
+            {
+                "id": "UP feed (35% protein)",
+                "type": "Method",
+                "description": "Thức ăn công nghiệp sử dụng trong thí nghiệm"
+            },
+            {
+                "id": "Brackish water prawn farming",
+                "type": "Concept",
+                "description": "Nuôi tôm càng xanh trong môi trường nước lợ"
+            },
+            {
+                "id": "Climate change and saline water intrusion",
+                "type": "Concept",
+                "description": "Biến đổi khí hậu và xâm nhập mặn"
+            },
+            {
+                "id": "Survey data from 108 households",
+                "type": "Dataset",
+                "description": "Dữ liệu thu thập từ phỏng vấn nông dân tại Bạc Liêu và Trà Vinh"
+            },
+            {
+                "id": "Secondary data 2010-2014",
+                "type": "Dataset",
+                "description": "Dữ liệu thứ cấp từ báo cáo hàng năm của Chi cục Thủy sản"
+            },
+            {
+                "id": "Average yield (110 kg/ha/crop)",
+                "type": "Metric",
+                "description": "Năng suất trung bình của hệ thống 1"
+            },
+            {
+                "id": "Net income (11.5 million VND/ha/crop)",
+                "type": "Metric",
+                "description": "Thu nhập ròng trung bình của hệ thống 1"
+            },
+            {
+                "id": "Average yield (886 kg/ha/crop)",
+                "type": "Metric",
+                "description": "Năng suất trung bình của hệ thống 2"
+            },
+            {
+                "id": "Net income (68 million VND/ha/crop)",
+                "type": "Metric",
+                "description": "Thu nhập ròng trung bình của hệ thống 2"
+            },
+            {
+                "id": "Trial yield (988-1342 kg/ha/crop)",
+                "type": "Metric",
+                "description": "Năng suất đạt được trong thử nghiệm thực địa"
+            },
+            {
+                "id": "Survival rate (53.3±1.24%)",
+                "type": "Metric",
+                "description": "Tỷ lệ sống cao nhất ghi nhận tại huyện Cầu Ngang"
+            },
+            {
+                "id": "FCR (1.59±0.13)",
+                "type": "Metric",
+                "description": "Hệ số chuyển đổi thức ăn thấp nhất tại huyện Duyên Hải"
+            },
+            {
+                "id": "B/C ratio (206±27.6%)",
+                "type": "Metric",
+                "description": "Tỷ lệ lợi nhuận trên chi phí cao nhất tại huyện Duyên Hải"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Tran Ngoc Hai",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Quoc Viet",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Thi Thanh Huong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Kim Huong",
+                "target": "Tra Vinh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Prawn and rice farming alternatively with tiger shrimp culture",
+                "target": "Average yield (110 kg/ha/crop)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Prawn and rice farming alternatively with tiger shrimp culture",
+                "target": "Net income (11.5 million VND/ha/crop)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Prawn culture in pond alternatively with tiger shrimp culture",
+                "target": "Average yield (886 kg/ha/crop)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Prawn culture in pond alternatively with tiger shrimp culture",
+                "target": "Net income (68 million VND/ha/crop)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Trial on prawn culture in 9 brackish water ponds",
+                "target": "Trial yield (988-1342 kg/ha/crop)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Trial on prawn culture in 9 brackish water ponds",
+                "target": "Survival rate (53.3±1.24%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Trial on prawn culture in 9 brackish water ponds",
+                "target": "FCR (1.59±0.13)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Trial on prawn culture in 9 brackish water ponds",
+                "target": "B/C ratio (206±27.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Survey on 108 households",
+                "target": "Survey data from 108 households",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Prawn culture in pond alternatively with tiger shrimp culture",
+                "target": "Brackish water prawn farming",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Prawn and rice farming alternatively with tiger shrimp culture",
+                "target": "Brackish water prawn farming",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Brackish water prawn farming",
+                "target": "Climate change and saline water intrusion",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

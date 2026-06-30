@@ -1,0 +1,155 @@
+{
+    "filename": "05-AG-LE VAN VANG(35-39)005.json",
+    "paper_title": "Monitoring population dynamics of the citrus pock caterpillar (Prays endocarpa) by sex pheromone traps in the Mekong Delta of Vietnam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agricultural Entomology",
+                "type": "Domain",
+                "description": "The study of insects that affect agriculture, specifically pest management in pomelo crops."
+            },
+            {
+                "id": "Le Van Vang",
+                "type": "Author",
+                "description": "Primary author and correspondence from Can Tho University."
+            },
+            {
+                "id": "Pham Kim Son",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Chau Nguyen Quoc Khanh",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Vietnam where the authors are affiliated."
+            },
+            {
+                "id": "Population dynamics of Prays endocarpa",
+                "type": "Concept",
+                "description": "The variation in the population size and structure of the citrus pock caterpillar over time."
+            },
+            {
+                "id": "Larval fruit infestation",
+                "type": "Concept",
+                "description": "The process and extent of CPC larvae damaging pomelo fruit peels."
+            },
+            {
+                "id": "Sex pheromone traps",
+                "type": "Method",
+                "description": "Monitoring tool using synthetic pheromones to capture male CPC moths."
+            },
+            {
+                "id": "(Z)-7-tetradecenal (Z7-14:Ald)",
+                "type": "Method",
+                "description": "The specific synthetic chemical compound used as a sex pheromone lure."
+            },
+            {
+                "id": "Field investigation",
+                "type": "Method",
+                "description": "Manual inspection of pomelo orchards to record fruit damage levels."
+            },
+            {
+                "id": "JMP statistical program",
+                "type": "Method",
+                "description": "Software used for statistical analysis of experimental data."
+            },
+            {
+                "id": "Correlation coefficient r (0.77)",
+                "type": "Metric",
+                "description": "Positive correlation value between trapped males and fruit infestation ratios."
+            },
+            {
+                "id": "Regression equation (y = 0.3283x + 7.1766)",
+                "type": "Metric",
+                "description": "Mathematical model for estimating action thresholds based on trap catches."
+            },
+            {
+                "id": "P-value (0.00000364)",
+                "type": "Metric",
+                "description": "Statistical significance level of the correlation."
+            },
+            {
+                "id": "Average captured males in dry season (20.7 males/trap/2 weeks)",
+                "type": "Metric",
+                "description": "High capture rate observed from November to May."
+            },
+            {
+                "id": "Average ratio of infected fruits (15.3%)",
+                "type": "Metric",
+                "description": "Higher infestation rate observed during the dry season (Nov to Apr)."
+            },
+            {
+                "id": "Orchard survey data",
+                "type": "Dataset",
+                "description": "Digital records of trapped moths and infected fruit counts across six orchards in Vinh Long province."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Van Vang",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Kim Son",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chau Nguyen Quoc Khanh",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Population dynamics of Prays endocarpa",
+                "target": "Agricultural Entomology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Sex pheromone traps",
+                "target": "Population dynamics of Prays endocarpa",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Field investigation",
+                "target": "Larval fruit infestation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Sex pheromone traps",
+                "target": "Correlation coefficient r (0.77)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Sex pheromone traps",
+                "target": "Regression equation (y = 0.3283x + 7.1766)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "JMP statistical program",
+                "target": "P-value (0.00000364)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Sex pheromone traps",
+                "target": "Average captured males in dry season (20.7 males/trap/2 weeks)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Field investigation",
+                "target": "Average ratio of infected fruits (15.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "JMP statistical program",
+                "target": "Orchard survey data",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

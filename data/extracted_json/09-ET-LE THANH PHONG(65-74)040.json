@@ -1,0 +1,195 @@
+{
+    "filename": "09-ET-LE THANH PHONG(65-74)040.json",
+    "paper_title": "Factors affecting technology transfer in the Mekong Delta",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Factors affecting technology transfer in the Mekong Delta",
+                "type": "Concept",
+                "description": "The primary research topic investigating elements influencing TT activities."
+            },
+            {
+                "id": "Le Thanh Phong",
+                "type": "Author",
+                "description": "Author from the College of Agriculture, Can Tho University."
+            },
+            {
+                "id": "Doan Van Hong Thien",
+                "type": "Author",
+                "description": "Author from the College of Engineering Technology, Can Tho University."
+            },
+            {
+                "id": "Nguyen Vo Chau Ngan",
+                "type": "Author",
+                "description": "Author from the College of Engineering Technology, Can Tho University."
+            },
+            {
+                "id": "Tran Trung Tinh",
+                "type": "Author",
+                "description": "Author from the College of Engineering Technology, Can Tho University."
+            },
+            {
+                "id": "Le Viet Dung",
+                "type": "Author",
+                "description": "Author from the College of Agriculture, Can Tho University."
+            },
+            {
+                "id": "College of Agriculture, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Technology Management",
+                "type": "Domain",
+                "description": "The study of managing science and technology transfers and applications."
+            },
+            {
+                "id": "Technology Transfer (TT)",
+                "type": "Concept",
+                "description": "The transfer of ownership or use of technology from one party to another."
+            },
+            {
+                "id": "State Governance",
+                "type": "Concept",
+                "description": "Management of legal, regulatory, and human resources to serve development."
+            },
+            {
+                "id": "Commercialization",
+                "type": "Concept",
+                "description": "The process of bringing research products to the market."
+            },
+            {
+                "id": "Exploratory Factor Analysis (EFA)",
+                "type": "Method",
+                "description": "Statistical method used to explore the potential factors of TT from observed variables."
+            },
+            {
+                "id": "Likert scale (1 to 5)",
+                "type": "Method",
+                "description": "Psychometric scale used in the survey for evaluation questions."
+            },
+            {
+                "id": "Chi-square test",
+                "type": "Method",
+                "description": "Statistical test used to compare evaluation levels of observed variables."
+            },
+            {
+                "id": "Spearman correlation",
+                "type": "Method",
+                "description": "Statistical tool used to determine correlation between variables."
+            },
+            {
+                "id": "Varimax orthogonal rotation",
+                "type": "Method",
+                "description": "Method chosen to structure independent factors in EFA."
+            },
+            {
+                "id": "Survey data (80 respondents)",
+                "type": "Dataset",
+                "description": "A set of data collected from 80 respondents in 13 provinces and cities in the Mekong Delta."
+            },
+            {
+                "id": "Cronbach's Alpha (0.843)",
+                "type": "Metric",
+                "description": "A measure of internal consistency and reliability."
+            },
+            {
+                "id": "Kaiser-Meyer-Olkin value (0.774)",
+                "type": "Metric",
+                "description": "A measure of sampling adequacy for factor analysis."
+            },
+            {
+                "id": "Total variance explained (60.458%)",
+                "type": "Metric",
+                "description": "The cumulative percentage of variance explained by the three extracted factors."
+            },
+            {
+                "id": "Factor loadings (>0.5)",
+                "type": "Metric",
+                "description": "Indicator of statistical significance for observed variables within factors."
+            },
+            {
+                "id": "N/p ratio (6/1)",
+                "type": "Metric",
+                "description": "The ratio of sample size to the number of observed variables."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Factors affecting technology transfer in the Mekong Delta",
+                "target": "Technology Management",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Thanh Phong",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Viet Dung",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Doan Van Hong Thien",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Vo Chau Ngan",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Trung Tinh",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Exploratory Factor Analysis (EFA)",
+                "target": "Technology Transfer (TT)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Exploratory Factor Analysis (EFA)",
+                "target": "Survey data (80 respondents)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Exploratory Factor Analysis (EFA)",
+                "target": "Cronbach's Alpha (0.843)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Exploratory Factor Analysis (EFA)",
+                "target": "Kaiser-Meyer-Olkin value (0.774)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Exploratory Factor Analysis (EFA)",
+                "target": "Total variance explained (60.458%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Likert scale (1 to 5)",
+                "target": "Survey data (80 respondents)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Chi-square test",
+                "target": "Survey data (80 respondents)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Spearman correlation",
+                "target": "Survey data (80 respondents)",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

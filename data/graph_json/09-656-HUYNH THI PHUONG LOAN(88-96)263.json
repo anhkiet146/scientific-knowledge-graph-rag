@@ -1,0 +1,175 @@
+{
+  "filename": "09-656-HUYNH THI PHUONG LOAN(88-96)263.json",
+  "paper_title": "Development of a procedure for the production of oat-supplemented wheat bread",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Food Science and Biotechnology",
+        "type": "Domain",
+        "description": "The primary research field focusing on food processing and nutritional improvement."
+      },
+      {
+        "id": "Huynh Thi Phuong Loan",
+        "type": "Author",
+        "description": "Lead author and corresponding researcher."
+      },
+      {
+        "id": "Phan Ngoc Han",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Tran Thuy Bao Nhi",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Bui Thi Truc Loan",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic and research institution in Viet Nam."
+      },
+      {
+        "id": "Bread quality",
+        "type": "Concept",
+        "description": "The overall assessment of physical properties and sensory values of bread products."
+      },
+      {
+        "id": "Nutritional quality",
+        "type": "Concept",
+        "description": "Improvement of bread health benefits through supplements like beta-glucan and fiber."
+      },
+      {
+        "id": "Sensory evaluation",
+        "type": "Concept",
+        "description": "Assessment of product characteristics based on human senses like color, odor, and taste."
+      },
+      {
+        "id": "Production of oat-supplemented wheat bread",
+        "type": "Method",
+        "description": "The overall procedure developed to create bread combining wheat and oat flour."
+      },
+      {
+        "id": "Quantitative Descriptive Analysis (QDA)",
+        "type": "Method",
+        "description": "A sensory evaluation method using a descriptive scale and a committee."
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Analysis of variance used for statistical data processing."
+      },
+      {
+        "id": "Stagraphics Centurion 15.1",
+        "type": "Method",
+        "description": "Software program used for statistical analysis of experimental results."
+      },
+      {
+        "id": "Fermentation process",
+        "type": "Method",
+        "description": "The stage where yeast causes the dough to rise by producing CO2."
+      },
+      {
+        "id": "Baking process",
+        "type": "Method",
+        "description": "The thermal treatment stage that determines the crust and final structure of bread."
+      },
+      {
+        "id": "Proportion of added oat flour (20%)",
+        "type": "Metric",
+        "description": "The most acceptable ratio of oat flour supplement found in the study."
+      },
+      {
+        "id": "Fermentation time (90 minutes)",
+        "type": "Metric",
+        "description": "Optimum time provided for the best texture and highest sensory value."
+      },
+      {
+        "id": "Baking temperature (210 oC)",
+        "type": "Metric",
+        "description": "The optimal temperature identified for baking the oat-wheat bread."
+      },
+      {
+        "id": "Baking time (20 minutes)",
+        "type": "Metric",
+        "description": "The duration of baking required to obtain a crispy texture and yellow-brown color."
+      },
+      {
+        "id": "Moisture content (97.55±0.89%)",
+        "type": "Metric",
+        "description": "The average moisture value found in bread products."
+      },
+      {
+        "id": "Significance level (5%)",
+        "type": "Metric",
+        "description": "The alpha level used for statistical ANOVA and LSD tests."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Development of a procedure for the production of oat-supplemented wheat bread",
+        "target": "Food Science and Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Huynh Thi Phuong Loan",
+        "target": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Ngoc Han",
+        "target": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thuy Bao Nhi",
+        "target": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Thi Truc Loan",
+        "target": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Production of oat-supplemented wheat bread",
+        "target": "Proportion of added oat flour (20%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fermentation process",
+        "target": "Fermentation time (90 minutes)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Baking process",
+        "target": "Baking temperature (210 oC)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Baking process",
+        "target": "Baking time (20 minutes)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Production of oat-supplemented wheat bread",
+        "target": "Bread quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Quantitative Descriptive Analysis (QDA)",
+        "target": "Sensory evaluation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Significance level (5%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

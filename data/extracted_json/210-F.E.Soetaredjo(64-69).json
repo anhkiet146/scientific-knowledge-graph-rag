@@ -1,0 +1,145 @@
+{
+    "filename": "210-F.E.Soetaredjo(64-69).json",
+    "paper_title": "CONVERSION OF WATER HYACINTH Eichhornia crassipes INTO BIOFUEL INTERMEDIATE: COMBINATION SUBCRITICAL WATER AND ZEOLITE BASED CATALYST PROCESSES",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "The main research field of the paper concerning biofuel production."
+            },
+            {
+                "id": "Felycia Edi Soetaredjo",
+                "type": "Author",
+                "description": "Author from Widya Mandala Surabaya Catholic University."
+            },
+            {
+                "id": "Yi-Hsu Ju",
+                "type": "Author",
+                "description": "Author from National Taiwan University of Science and Technology."
+            },
+            {
+                "id": "Suryadi Ismadji",
+                "type": "Author",
+                "description": "Author from Widya Mandala Surabaya Catholic University."
+            },
+            {
+                "id": "Widya Mandala Surabaya Catholic University",
+                "type": "Institution",
+                "description": "Institution located in Indonesia."
+            },
+            {
+                "id": "National Taiwan University of Science and Technology",
+                "type": "Institution",
+                "description": "Institution located in Taiwan."
+            },
+            {
+                "id": "Biofuel production",
+                "type": "Concept",
+                "description": "The general process of creating fuel from renewable biological sources."
+            },
+            {
+                "id": "Gamma-valerolactone",
+                "type": "Concept",
+                "description": "An attractive platform chemical and biofuel intermediate."
+            },
+            {
+                "id": "Subcritical water process",
+                "type": "Method",
+                "description": "A process using water at high temperature and pressure to hydrolyze biomass."
+            },
+            {
+                "id": "Acid activated zeolite catalyst",
+                "type": "Method",
+                "description": "A solid acid catalyst used for converting biomass to levulinic acid."
+            },
+            {
+                "id": "Alkali pretreatment",
+                "type": "Method",
+                "description": "The use of sodium hydroxide (NaOH) to remove lignin from water hyacinth."
+            },
+            {
+                "id": "Catalytic hydrogenation",
+                "type": "Method",
+                "description": "The chemical process used to convert levulinic acid into gamma-valerolactone."
+            },
+            {
+                "id": "Pt/TiO2 catalyst",
+                "type": "Method",
+                "description": "A metal-based catalyst used in the hydrogenation step."
+            },
+            {
+                "id": "High performance liquid chromatography (HPLC)",
+                "type": "Method",
+                "description": "Analytical equipment used to determine concentrations of organic compounds."
+            },
+            {
+                "id": "Maximum yield of levulinic acid (173.4 mg/gram)",
+                "type": "Metric",
+                "description": "The highest yield obtained from dried water hyacinth under optimized conditions."
+            },
+            {
+                "id": "Conversion of levulinic acid (> 95%)",
+                "type": "Metric",
+                "description": "The performance indicator of the mixed catalyst system in producing GVL."
+            },
+            {
+                "id": "Acid strength of zeolite (0.743 mg butylammine/g)",
+                "type": "Metric",
+                "description": "Measurement of the acidity of the catalyst after acid pretreatment."
+            },
+            {
+                "id": "Yield of gamma-valerolactone (77.2 to 158.6 mg/g)",
+                "type": "Metric",
+                "description": "The range of GVL produced based on temperature variations."
+            }
+        ],
+        "relations": [
+            {
+                "source": "CONVERSION OF WATER HYACINTH Eichhornia crassipes INTO BIOFUEL INTERMEDIATE",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Felycia Edi Soetaredjo",
+                "target": "Widya Mandala Surabaya Catholic University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Suryadi Ismadji",
+                "target": "Widya Mandala Surabaya Catholic University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Yi-Hsu Ju",
+                "target": "National Taiwan University of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Subcritical water process",
+                "target": "Biofuel production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Acid activated zeolite catalyst",
+                "target": "Maximum yield of levulinic acid (173.4 mg/gram)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pt/TiO2 catalyst",
+                "target": "Conversion of levulinic acid (> 95%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Catalytic hydrogenation",
+                "target": "Gamma-valerolactone",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Alkali pretreatment",
+                "target": "Subcritical water process",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

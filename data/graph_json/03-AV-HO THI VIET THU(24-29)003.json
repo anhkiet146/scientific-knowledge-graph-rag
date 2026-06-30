@@ -1,0 +1,165 @@
+{
+  "filename": "03-AV-HO THI VIET THU(24-29)003.json",
+  "paper_title": "Escherichia coli infection in ducks in the Mekong Delta: Bacterial isolation, serogroup distribution and antibiotic resistance",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Veterinary Microbiology",
+        "type": "Domain",
+        "description": "The branch of science dealing with microorganisms that cause diseases in animals."
+      },
+      {
+        "id": "Ho Thi Viet Thu",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "Doan Tran Loan Anh",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Le Van Dong",
+        "type": "Author",
+        "description": "Co-author from Tra Vinh University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam located in the Mekong Delta."
+      },
+      {
+        "id": "Tra Vinh University",
+        "type": "Institution",
+        "description": "Academic institution in Tra Vinh province, Vietnam."
+      },
+      {
+        "id": "Avian colibacillosis",
+        "type": "Concept",
+        "description": "A complicated disease in poultry caused by avian pathogenic Escherichia coli (APEC)."
+      },
+      {
+        "id": "Antibiotic resistance",
+        "type": "Concept",
+        "description": "The ability of bacteria to resist the effects of an antibiotic to which they were once sensitive."
+      },
+      {
+        "id": "O serogroup typing",
+        "type": "Method",
+        "description": "A procedure used to identify the O-antigen serogroups of E. coli isolates."
+      },
+      {
+        "id": "Bacterial isolation and identification",
+        "type": "Method",
+        "description": "Standard microbiological procedure to isolate and confirm the presence of E. coli."
+      },
+      {
+        "id": "Antibiotic susceptibility tests",
+        "type": "Method",
+        "description": "Agar diffusion method used to determine the sensitivity of bacteria to antibiotics."
+      },
+      {
+        "id": "Minitab software 13.2",
+        "type": "Method",
+        "description": "Statistical software used for data analysis."
+      },
+      {
+        "id": "MacConkey agar",
+        "type": "Method",
+        "description": "Selective and differential culture medium used for isolation of E. coli."
+      },
+      {
+        "id": "Duck infection rate (99.6%)",
+        "type": "Metric",
+        "description": "The percentage of ducks confirmed to be infected with E. coli."
+      },
+      {
+        "id": "Prevalence of O2 group (16.7%)",
+        "type": "Metric",
+        "description": "The frequency of the O2 serogroup identified among isolates."
+      },
+      {
+        "id": "Prevalence of O78 group (15.0%)",
+        "type": "Metric",
+        "description": "The frequency of the O78 serogroup identified among isolates."
+      },
+      {
+        "id": "Amikacin resistance (3.0%)",
+        "type": "Metric",
+        "description": "The low percentage of E. coli isolates resistant to amikacin."
+      },
+      {
+        "id": "Fosfomycin resistance (6.4%)",
+        "type": "Metric",
+        "description": "The low percentage of E. coli isolates resistant to fosfomycin."
+      },
+      {
+        "id": "Resistance to trimethoprim/sulfamethoxazole (64.47%)",
+        "type": "Metric",
+        "description": "High resistance rate found against this antibiotic combination."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ho Thi Viet Thu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Doan Tran Loan Anh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Van Dong",
+        "target": "Tra Vinh University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Escherichia coli infection in ducks in the Mekong Delta: Bacterial isolation, serogroup distribution and antibiotic resistance",
+        "target": "Veterinary Microbiology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Bacterial isolation and identification",
+        "target": "Avian colibacillosis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Antibiotic susceptibility tests",
+        "target": "Antibiotic resistance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Bacterial isolation and identification",
+        "target": "Duck infection rate (99.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "O serogroup typing",
+        "target": "Prevalence of O2 group (16.7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "O serogroup typing",
+        "target": "Prevalence of O78 group (15.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Antibiotic susceptibility tests",
+        "target": "Amikacin resistance (3.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Antibiotic susceptibility tests",
+        "target": "Fosfomycin resistance (6.4%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Antibiotic susceptibility tests",
+        "target": "Resistance to trimethoprim/sulfamethoxazole (64.47%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

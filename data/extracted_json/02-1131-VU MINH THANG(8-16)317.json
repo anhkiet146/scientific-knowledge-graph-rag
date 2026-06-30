@@ -1,0 +1,155 @@
+{
+    "filename": "02-1131-VU MINH THANG(8-16)317.json",
+    "paper_title": "Demonstration of Grover's algorithm for retrieving secret keys in a basic SPN block cipher",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Quantum Cryptography",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về mật mã học dựa trên các nguyên lý của cơ học lượng tử."
+            },
+            {
+                "id": "Vu Minh Thang",
+                "type": "Author",
+                "description": "Tác giả từ Học viện Kỹ thuật Mật mã."
+            },
+            {
+                "id": "Nguyen Van Nghi",
+                "type": "Author",
+                "description": "Tác giả liên hệ từ Học viện Kỹ thuật Mật mã."
+            },
+            {
+                "id": "Le Quoc Dat",
+                "type": "Author",
+                "description": "Tác giả từ Viện Khoa học và Công nghệ Mật mã."
+            },
+            {
+                "id": "Do Quang Trung",
+                "type": "Author",
+                "description": "Tác giả từ Học viện Kỹ thuật Mật mã."
+            },
+            {
+                "id": "Academy of Cryptography Techniques",
+                "type": "Institution",
+                "description": "Học viện Kỹ thuật Mật mã, Việt Nam."
+            },
+            {
+                "id": "Institute of Cryptographic Science and Technology",
+                "type": "Institution",
+                "description": "Viện Khoa học và Công nghệ Mật mã, Việt Nam."
+            },
+            {
+                "id": "Grover's algorithm",
+                "type": "Method",
+                "description": "Thuật toán lượng tử tìm kiếm trong cơ sở dữ liệu không có cấu trúc."
+            },
+            {
+                "id": "Yo-yo block cipher",
+                "type": "Method",
+                "description": "Một hệ mã khối SPN đơn giản với độ dài khối và khóa 8 bit."
+            },
+            {
+                "id": "Qiskit",
+                "type": "Method",
+                "description": "Ngôn ngữ lập trình và khung phần mềm để phát triển các chương trình lượng tử."
+            },
+            {
+                "id": "SAT Solver",
+                "type": "Method",
+                "description": "Công cụ được sử dụng để tìm kiếm mạch lượng tử NCT cho Sbox."
+            },
+            {
+                "id": "IBM quantum computers",
+                "type": "Method",
+                "description": "Hệ thống máy tính lượng tử thực tế của IBM."
+            },
+            {
+                "id": "Key searching problem",
+                "type": "Concept",
+                "description": "Vấn đề tìm kiếm khóa bí mật của hệ mã khi biết một số cặp văn bản rõ - văn bản mã."
+            },
+            {
+                "id": "SPN (Substitution–permutation network)",
+                "type": "Concept",
+                "description": "Cấu trúc mạng thay thế-hoán vị trong thiết kế mã khối."
+            },
+            {
+                "id": "Quantum resource usage (17 qubits)",
+                "type": "Metric",
+                "description": "Số lượng qubit cần thiết để thực hiện kỹ thuật tìm khóa trên mã Yo-yo."
+            },
+            {
+                "id": "Success probability for 1 key (99.99501%)",
+                "type": "Metric",
+                "description": "Xác suất tìm thấy khóa đúng sau 12 vòng lặp Grover."
+            },
+            {
+                "id": "Success probability for 2 keys (99.56376%)",
+                "type": "Metric",
+                "description": "Xác suất tìm thấy khóa đúng sau 8 vòng lặp Grover khi có 2 khóa thỏa mãn."
+            },
+            {
+                "id": "Number of shots (10,000,000)",
+                "type": "Metric",
+                "description": "Số lần đo lường trong mô phỏng lượng tử."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Vu Minh Thang",
+                "target": "Academy of Cryptography Techniques",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Nghi",
+                "target": "Academy of Cryptography Techniques",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Quang Trung",
+                "target": "Academy of Cryptography Techniques",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Quoc Dat",
+                "target": "Institute of Cryptographic Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Grover's algorithm",
+                "target": "Key searching problem",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Qiskit",
+                "target": "Yo-yo block cipher",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Grover's algorithm",
+                "target": "Quantum resource usage (17 qubits)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Grover's algorithm",
+                "target": "Success probability for 1 key (99.99501%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Grover's algorithm",
+                "target": "Success probability for 2 keys (99.56376%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Yo-yo block cipher",
+                "target": "Quantum Cryptography",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Grover's algorithm",
+                "target": "SPN (Substitution–permutation network)",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

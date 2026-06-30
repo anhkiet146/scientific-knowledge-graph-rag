@@ -1,0 +1,170 @@
+{
+    "filename": "10-642-PHAN NGUYEN TRANG(103-109)055.json",
+    "paper_title": "Prevalence and antibiotic resistance of Staphylococcus aureus isolated from Pangasius fish and fish processing handlers in the Mekong Delta, Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Microbiology and Safety",
+                "type": "Domain",
+                "description": "The research field focusing on microbial contamination and safety in food products."
+            },
+            {
+                "id": "Phan Nguyen Trang",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Takahisa Miyamoto",
+                "type": "Author",
+                "description": "Author from Kyushu University."
+            },
+            {
+                "id": "Tong Thi Anh Ngoc",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Institute of Food and Biotechnology, Can Tho University",
+                "type": "Institution",
+                "description": "Organization in Viet Nam."
+            },
+            {
+                "id": "Faculty of Agriculture, Kyushu University",
+                "type": "Institution",
+                "description": "Organization in Japan."
+            },
+            {
+                "id": "Prevalence of S. aureus",
+                "type": "Concept",
+                "description": "The study of the occurrence and distribution of Staphylococcus aureus in samples."
+            },
+            {
+                "id": "Antibiotic resistance",
+                "type": "Concept",
+                "description": "The ability of bacteria to resist the effects of an antibiotic."
+            },
+            {
+                "id": "Multidrug resistance (MDR)",
+                "type": "Concept",
+                "description": "Resistance of a microorganism to multiple antimicrobial drugs."
+            },
+            {
+                "id": "Broth microdilution method",
+                "type": "Method",
+                "description": "A method used to determine the minimum inhibitory concentration (MIC) of antibiotics."
+            },
+            {
+                "id": "ISO 6888-1",
+                "type": "Method",
+                "description": "International standard for the horizontal method for the enumeration of coagulase-positive staphylococci."
+            },
+            {
+                "id": "Swab method",
+                "type": "Method",
+                "description": "Technique used for sampling surfaces such as hands or gloves."
+            },
+            {
+                "id": "Baird Parker Agar",
+                "type": "Method",
+                "description": "Selective medium used for the isolation and enumeration of S. aureus."
+            },
+            {
+                "id": "Prevalence in Pangasius fish (18%)",
+                "type": "Metric",
+                "description": "Incidence rate of S. aureus found in 16 of 90 fish samples."
+            },
+            {
+                "id": "Prevalence in handlers (11%)",
+                "type": "Metric",
+                "description": "Incidence rate of S. aureus found in 6 of 54 hand samples."
+            },
+            {
+                "id": "Ampicillin resistance (68%)",
+                "type": "Metric",
+                "description": "High resistance rate observed across all isolates."
+            },
+            {
+                "id": "Multidrug resistance rate (41%)",
+                "type": "Metric",
+                "description": "Percentage of isolates showing resistance to three or more antibiotic classes."
+            },
+            {
+                "id": "S. aureus count in fish (1 to 1.6 log CFU/g)",
+                "type": "Metric",
+                "description": "Microbiological contamination level in fish samples."
+            },
+            {
+                "id": "Susceptibility to oxacillin (100%)",
+                "type": "Metric",
+                "description": "Full sensitivity recorded for both fish and hand samples."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Phan Nguyen Trang",
+                "target": "Institute of Food and Biotechnology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tong Thi Anh Ngoc",
+                "target": "Institute of Food and Biotechnology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Takahisa Miyamoto",
+                "target": "Faculty of Agriculture, Kyushu University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Broth microdilution method",
+                "target": "Ampicillin resistance (68%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Broth microdilution method",
+                "target": "Multidrug resistance rate (41%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Broth microdilution method",
+                "target": "Susceptibility to oxacillin (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ISO 6888-1",
+                "target": "Prevalence in Pangasius fish (18%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ISO 6888-1",
+                "target": "Prevalence in handlers (11%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ISO 6888-1",
+                "target": "S. aureus count in fish (1 to 1.6 log CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Broth microdilution method",
+                "target": "Antibiotic resistance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ISO 6888-1",
+                "target": "Prevalence of S. aureus",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Swab method",
+                "target": "Prevalence of S. aureus",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Prevalence and antibiotic resistance of Staphylococcus aureus isolated from Pangasius fish and fish processing handlers in the Mekong Delta, Viet Nam",
+                "target": "Food Microbiology and Safety",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

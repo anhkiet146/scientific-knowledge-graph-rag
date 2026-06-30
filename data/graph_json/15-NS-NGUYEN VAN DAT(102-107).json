@@ -1,0 +1,195 @@
+{
+  "filename": "15-NS-NGUYEN VAN DAT(102-107).json",
+  "paper_title": "BIODIESEL PRODUCTION FROM SOME BIOMASS SOURCES AVAILABLE IN VIETNAM",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Van Dat",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Nguyen Quoc Chau Thanh",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Ong Thi My Hien",
+        "type": "Author",
+        "description": "Researcher from Biotechnology Research and Development Institute"
+      },
+      {
+        "id": "Quoc-Phong Ho",
+        "type": "Author",
+        "description": "Researcher from College of Engineering Technology"
+      },
+      {
+        "id": "Le Van Thuc",
+        "type": "Author",
+        "description": "Researcher from Nevorie Crescent Maroubra, Australia"
+      },
+      {
+        "id": "Luu Cam Loc",
+        "type": "Author",
+        "description": "Researcher from Vietnam Academy of Science and Technology"
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam"
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "Research institute at Can Tho University"
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Engineering college at Can Tho University"
+      },
+      {
+        "id": "Nevorie Crescent Maroubra, Australia",
+        "type": "Institution",
+        "description": "Institutional entity in Australia"
+      },
+      {
+        "id": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "Research institute under VAST, Vietnam"
+      },
+      {
+        "id": "Bioenergy",
+        "type": "Domain",
+        "description": "The study of energy derived from biological sources"
+      },
+      {
+        "id": "Biodiesel production and use",
+        "type": "Concept",
+        "description": "Process of creating alternative diesel fuel from biomass"
+      },
+      {
+        "id": "Transesterification procedure",
+        "type": "Method",
+        "description": "Chemical process used to convert oils into methyl esters"
+      },
+      {
+        "id": "Soxhlet apparatus",
+        "type": "Method",
+        "description": "Laboratory equipment used for oil extraction"
+      },
+      {
+        "id": "Gas chromatography and mass spectrometry (GC-MS)",
+        "type": "Method",
+        "description": "Analytical method for identifying fatty acid profiles"
+      },
+      {
+        "id": "KOH",
+        "type": "Method",
+        "description": "Alkaline catalyst used in the transesterification process"
+      },
+      {
+        "id": "Hexane",
+        "type": "Method",
+        "description": "Solvent used for extracting oils from seeds"
+      },
+      {
+        "id": "Table 1: Fatty acid profile",
+        "type": "Dataset",
+        "description": "Data summary of fatty acid composition for various oils"
+      },
+      {
+        "id": "Table 2: Physicochemical properties of oils",
+        "type": "Dataset",
+        "description": "Comparative data of crude oil characteristics"
+      },
+      {
+        "id": "Kinematic viscosity of CTBDF (20.76 mm2/s)",
+        "type": "Metric",
+        "description": "High viscosity measurement of Castor oil biodiesel at 40°C"
+      },
+      {
+        "id": "Conversion efficiency of CIO (90%)",
+        "type": "Metric",
+        "description": "Yield of biodiesel from Calophyllum inophyllum oil"
+      },
+      {
+        "id": "Oil conversion rate (87-98%)",
+        "type": "Metric",
+        "description": "General efficiency range for the conversion of various oils to biodiesel"
+      },
+      {
+        "id": "Acid value of CIO (52.5 mg KOH/g)",
+        "type": "Metric",
+        "description": "Measure of free fatty acids in Calophyllum inophyllum oil"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Van Dat",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Quoc Chau Thanh",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ong Thi My Hien",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Quoc-Phong Ho",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Van Thuc",
+        "target": "Nevorie Crescent Maroubra, Australia",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luu Cam Loc",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Biodiesel production and use",
+        "target": "Bioenergy",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Transesterification procedure",
+        "target": "Biodiesel production and use",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Transesterification procedure",
+        "target": "Oil conversion rate (87-98%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Transesterification procedure",
+        "target": "Conversion efficiency of CIO (90%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gas chromatography and mass spectrometry (GC-MS)",
+        "target": "Table 1: Fatty acid profile",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Soxhlet apparatus",
+        "target": "Hexane",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "KOH",
+        "target": "Transesterification procedure",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

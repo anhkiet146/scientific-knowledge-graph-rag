@@ -1,0 +1,145 @@
+{
+  "filename": "21-SE-THAI THANH PHONG(163-171)040.json",
+  "paper_title": "Trends and determinants of compulsory land recovery on households' income in industrialized and urbanized areas: A case study of My Phuoc town -Ben Cat district -Binh Duong province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Thai Thanh Phong",
+        "type": "Author",
+        "description": "Author of the research article from the Faculty of Development Economics."
+      },
+      {
+        "id": "Ha Thuc Vien",
+        "type": "Author",
+        "description": "Author of the research article from the Vietnamese - German University."
+      },
+      {
+        "id": "University of Economics, Vietnam",
+        "type": "Institution",
+        "description": "Affiliation of author Thai Thanh Phong."
+      },
+      {
+        "id": "Vietnamese - German University, Vietnam",
+        "type": "Institution",
+        "description": "Affiliation of author Ha Thuc Vien."
+      },
+      {
+        "id": "Development Economics",
+        "type": "Domain",
+        "description": "The primary research field of the study."
+      },
+      {
+        "id": "Compulsory land recovery",
+        "type": "Concept",
+        "description": "The core problem of land acquisition for industrial and urban development."
+      },
+      {
+        "id": "Households' income",
+        "type": "Concept",
+        "description": "The primary variable being measured to see the impact of land recovery."
+      },
+      {
+        "id": "Livelihood transformation",
+        "type": "Concept",
+        "description": "The process of shifting from agricultural to non-farm activities."
+      },
+      {
+        "id": "Qualitative and quantitative analysis methods",
+        "type": "Method",
+        "description": "General research methods applied to study trends and determinants."
+      },
+      {
+        "id": "General linear regression model",
+        "type": "Method",
+        "description": "Statistical model used to define total household income determinants."
+      },
+      {
+        "id": "Simultaneous equation model",
+        "type": "Method",
+        "description": "Used to estimate impacts of livelihood assets on investment and income."
+      },
+      {
+        "id": "Three-stage estimation procedure",
+        "type": "Method",
+        "description": "Statistical procedure applied to testing the simultaneous equation model."
+      },
+      {
+        "id": "Survey of 86 land recovered farm households",
+        "type": "Dataset",
+        "description": "Primary data source representing 838 farm households in My Phuoc industrial park."
+      },
+      {
+        "id": "Secondary data sources",
+        "type": "Dataset",
+        "description": "Includes research monographs, statistics, and socio-economic reports."
+      },
+      {
+        "id": "Engaged in farming in 2001 (82.56%)",
+        "type": "Metric",
+        "description": "Rate of households participating in agriculture before land recovery."
+      },
+      {
+        "id": "Engaged in farming in 2008 (8.14%)",
+        "type": "Metric",
+        "description": "Long-term rate of households remaining in agriculture."
+      },
+      {
+        "id": "Households not engaged in livelihood activities (29.07%)",
+        "type": "Metric",
+        "description": "Rate of post-land acquisition households relying solely on compensation."
+      },
+      {
+        "id": "Converted agricultural land (1,159 hectares)",
+        "type": "Metric",
+        "description": "The amount of land transformed into industrial and urban areas."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Thai Thanh Phong",
+        "target": "University of Economics, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Thuc Vien",
+        "target": "Vietnamese - German University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Three-stage estimation procedure",
+        "target": "Survey of 86 land recovered farm households",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "General linear regression model",
+        "target": "Households' income",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Three-stage estimation procedure",
+        "target": "Engaged in farming in 2001 (82.56%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Three-stage estimation procedure",
+        "target": "Engaged in farming in 2001 (82.56%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Three-stage estimation procedure",
+        "target": "Households not engaged in livelihood activities (29.07%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Qualitative and quantitative analysis methods",
+        "target": "Compulsory land recovery",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Trends and determinants of compulsory land recovery",
+        "target": "Development Economics",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

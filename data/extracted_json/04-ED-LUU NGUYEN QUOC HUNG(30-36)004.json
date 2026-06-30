@@ -1,0 +1,150 @@
+{
+    "filename": "04-ED-LUU NGUYEN QUOC HUNG(30-36)004.json",
+    "paper_title": "Teachers' professional development as a tool to enhance institutional quality: Current practices at a center for foreign languages",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Luu Nguyen Quoc Hung",
+                "type": "Author",
+                "description": "The author of the study from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The university where the author is affiliated and the study's center is located."
+            },
+            {
+                "id": "Center for Foreign Languages",
+                "type": "Institution",
+                "description": "The specific institution within Can Tho University where the research was conducted."
+            },
+            {
+                "id": "Education Management",
+                "type": "Domain",
+                "description": "The primary field of research concerning teacher development and institutional quality."
+            },
+            {
+                "id": "Professional Development",
+                "type": "Concept",
+                "description": "The process of continuous learning and support for teaching professionals."
+            },
+            {
+                "id": "Institutional Quality",
+                "type": "Concept",
+                "description": "The standard and effectiveness of an educational institution's learning environment."
+            },
+            {
+                "id": "Language Competency",
+                "type": "Concept",
+                "description": "The level of language proficiency required for teachers."
+            },
+            {
+                "id": "Descriptive survey design",
+                "type": "Method",
+                "description": "The research design used to gather data from participants."
+            },
+            {
+                "id": "Online survey",
+                "type": "Method",
+                "description": "The specific tool administered to assess teachers' perceptions."
+            },
+            {
+                "id": "Mentoring",
+                "type": "Method",
+                "description": "The practice of learning from more experienced colleagues."
+            },
+            {
+                "id": "Classroom observations",
+                "type": "Method",
+                "description": "Peer observation methods like 'Good demonstration lesson' to share techniques."
+            },
+            {
+                "id": "Workshops",
+                "type": "Method",
+                "description": "Structured training and learning sessions for professional growth."
+            },
+            {
+                "id": "Survey responses from 51 teachers",
+                "type": "Dataset",
+                "description": "The numerical data collected from English teachers at the Center for Foreign Languages."
+            },
+            {
+                "id": "Response rate (68.9%)",
+                "type": "Metric",
+                "description": "The percentage of teachers who completed the survey (51 out of 74)."
+            },
+            {
+                "id": "Influence of observations (86%)",
+                "type": "Metric",
+                "description": "The percentage of teachers indicating classroom observation had significant influence."
+            },
+            {
+                "id": "Large impact of mentoring (51.2%)",
+                "type": "Metric",
+                "description": "The percentage of teachers reporting mentoring had a large impact on performance."
+            },
+            {
+                "id": "Participation in material development (80%)",
+                "type": "Metric",
+                "description": "The level of involvement in creating or modifying teaching materials."
+            },
+            {
+                "id": "Increase in master holders (69.5%)",
+                "type": "Metric",
+                "description": "The current percentage of teachers holding a master's degree compared to 34% in 2015."
+            },
+            {
+                "id": "Participation in research (52.9%)",
+                "type": "Metric",
+                "description": "The portion of teachers who have undertaken mini-research or action research."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Luu Nguyen Quoc Hung",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luu Nguyen Quoc Hung",
+                "target": "Center for Foreign Languages",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Teachers' professional development as a tool to enhance institutional quality",
+                "target": "Education Management",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Online survey",
+                "target": "Professional Development",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Workshops",
+                "target": "Institutional Quality",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Online survey",
+                "target": "Survey responses from 51 teachers",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Descriptive survey design",
+                "target": "Response rate (68.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Classroom observations",
+                "target": "Influence of observations (86%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mentoring",
+                "target": "Large impact of mentoring (51.2%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

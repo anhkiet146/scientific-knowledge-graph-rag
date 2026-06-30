@@ -1,0 +1,155 @@
+{
+  "filename": "04-635-TRAN TRUNG GIANG(28-35)259.json",
+  "paper_title": "Effects of culture salinity on growth and reproduction of the polychaete Dendronereis chipolini",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Effects of culture salinity on growth and reproduction of the polychaete Dendronereis chipolini",
+        "type": "Concept",
+        "description": "The main research problem investigating how different salinity levels affect the development of Dendronereis chipolini."
+      },
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The primary field of research concerning the farming of aquatic organisms."
+      },
+      {
+        "id": "Vu Ngoc Ut",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Tran Trung Giang",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam where the research was conducted."
+      },
+      {
+        "id": "Salinity treatments (15, 20, 25, 30 ppt)",
+        "type": "Method",
+        "description": "Experimental design involving four different salinity levels to test the polychaete's performance."
+      },
+      {
+        "id": "Tank system (0.25 m2)",
+        "type": "Method",
+        "description": "The experimental environment where the young worms were stocked."
+      },
+      {
+        "id": "Commercial shrimp feed (43% protein)",
+        "type": "Method",
+        "description": "The material used to feed the worms during the 150-day experiment."
+      },
+      {
+        "id": "SAS software version 9.1",
+        "type": "Method",
+        "description": "The statistical tool used for data analysis."
+      },
+      {
+        "id": "One-way ANOVA",
+        "type": "Method",
+        "description": "Statistical method used to identify differences among treatments."
+      },
+      {
+        "id": "Mass culture procedure",
+        "type": "Concept",
+        "description": "The theoretical goal of developing a protocol to produce feed for shrimp broodstock."
+      },
+      {
+        "id": "Fastest growth in 20 ppt",
+        "type": "Metric",
+        "description": "The optimal salinity level identified for the maximum growth rate."
+      },
+      {
+        "id": "Survival rate at 150 days (49.8±6.9%)",
+        "type": "Metric",
+        "description": "The measurement of survival at the end of the experiment for the 20 ppt treatment."
+      },
+      {
+        "id": "Absolute fecundity (112,740±22,328 eggs/female)",
+        "type": "Metric",
+        "description": "The recorded reproductive output at 25 ppt salinity."
+      },
+      {
+        "id": "Body length at 150 days (5.1±0.7 cm)",
+        "type": "Metric",
+        "description": "The average length achieved by worms in the 20 ppt treatment."
+      },
+      {
+        "id": "Daily weight gain (2.7±0.8 mg day-1)",
+        "type": "Metric",
+        "description": "The rate of weight increase per day in the 20 ppt treatment."
+      },
+      {
+        "id": "Maturation percentage (38.0±3.7%)",
+        "type": "Metric",
+        "description": "The rate of mature worms recorded in the 20 ppt treatment."
+      },
+      {
+        "id": "Temperature (27.8±0.4℃)",
+        "type": "Metric",
+        "description": "Water quality monitoring value during the experiment."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of culture salinity on growth and reproduction of the polychaete Dendronereis chipolini",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Vu Ngoc Ut",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Trung Giang",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Salinity treatments (15, 20, 25, 30 ppt)",
+        "target": "Fastest growth in 20 ppt",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Salinity treatments (15, 20, 25, 30 ppt)",
+        "target": "Survival rate at 150 days (49.8±6.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Salinity treatments (15, 20, 25, 30 ppt)",
+        "target": "Absolute fecundity (112,740±22,328 eggs/female)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Salinity treatments (15, 20, 25, 30 ppt)",
+        "target": "Body length at 150 days (5.1±0.7 cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Salinity treatments (15, 20, 25, 30 ppt)",
+        "target": "Daily weight gain (2.7±0.8 mg day-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Salinity treatments (15, 20, 25, 30 ppt)",
+        "target": "Effects of salinity on growth and reproduction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Tank system (0.25 m2)",
+        "target": "Effects of salinity on growth and reproduction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "SAS software version 9.1",
+        "target": "One-way ANOVA",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

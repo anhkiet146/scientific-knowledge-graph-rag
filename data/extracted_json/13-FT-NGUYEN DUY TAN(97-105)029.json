@@ -1,0 +1,175 @@
+{
+    "filename": "13-FT-NGUYEN DUY TAN(97-105)029.json",
+    "paper_title": "Comparative analysis of the bioactive compound, pigment content and antioxidant activity in different parts of Pouzolzia zeylanica plant",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agriculture and Food Science",
+                "type": "Domain",
+                "description": "The study focuses on the chemical analysis and bioactive properties of plants for nutritional and therapeutic use."
+            },
+            {
+                "id": "Nguyen Duy Tan",
+                "type": "Author",
+                "description": "Faculty of Agriculture and Natural Resources, An Giang University, Vietnam."
+            },
+            {
+                "id": "Vo Thi Xuan Tuyen",
+                "type": "Author",
+                "description": "Faculty of Agriculture and Natural Resources, An Giang University, Vietnam."
+            },
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "College of Agriculture, Can Tho University, Vietnam."
+            },
+            {
+                "id": "An Giang University",
+                "type": "Institution",
+                "description": "Vietnam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Vietnam."
+            },
+            {
+                "id": "Antioxidant Activity",
+                "type": "Concept",
+                "description": "The ability of compounds to inhibit oxidation and combat oxidative stress."
+            },
+            {
+                "id": "Bioactive Compounds",
+                "type": "Concept",
+                "description": "Therapeutically active substances such as anthocyanins, flavonoids, polyphenols, and tannins."
+            },
+            {
+                "id": "Ethanol Extraction",
+                "type": "Method",
+                "description": "Extraction using 60% ethanol, solvent ratio 1/20, at 60°C for 60 minutes."
+            },
+            {
+                "id": "Aluminum chloride colorimetric method",
+                "type": "Method",
+                "description": "Method used for determining flavonoid content."
+            },
+            {
+                "id": "Folin-Ciocalteu reagent method",
+                "type": "Method",
+                "description": "Method used for determining total polyphenol content."
+            },
+            {
+                "id": "Folin-Denis method",
+                "type": "Method",
+                "description": "Method used for determining tannin content."
+            },
+            {
+                "id": "DPPH scavenging capacity assay",
+                "type": "Method",
+                "description": "Assay using 2,2-diphenyl-1-picrylhydrazyl radical to evaluate antioxidant capacity."
+            },
+            {
+                "id": "FRAP assay",
+                "type": "Method",
+                "description": "Ferrous reducing ability power assessment."
+            },
+            {
+                "id": "Spectrophotometer SP-1920",
+                "type": "Method",
+                "description": "Equipment used for measuring absorbance in various chemical assays."
+            },
+            {
+                "id": "Anthocyanin content (3.12 mg CE/g DW)",
+                "type": "Metric",
+                "description": "The highest content recorded in young shoots."
+            },
+            {
+                "id": "Flavonoid content (18.72 mg QE/g DW)",
+                "type": "Metric",
+                "description": "The highest content recorded in young shoots."
+            },
+            {
+                "id": "Polyphenol content (39.32 mg GAE/g DW)",
+                "type": "Metric",
+                "description": "The highest content recorded in young shoots."
+            },
+            {
+                "id": "Tannin content (29.54 mg TAE/g DW)",
+                "type": "Metric",
+                "description": "The highest content recorded in young shoots."
+            },
+            {
+                "id": "DPPH scavenging (88.29%)",
+                "type": "Metric",
+                "description": "Free radical scavenging activity of young shoots extract."
+            },
+            {
+                "id": "AAI (5.52)",
+                "type": "Metric",
+                "description": "Antioxidant ability index of young shoots."
+            },
+            {
+                "id": "FRAP value (578.10 µM FeSO4/g DW)",
+                "type": "Metric",
+                "description": "Ferrous reducing power of young shoots."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Comparative analysis of the bioactive compound, pigment content and antioxidant activity in different parts of Pouzolzia zeylanica plant",
+                "target": "Agriculture and Food Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Duy Tan",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Thi Xuan Tuyen",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ethanol Extraction",
+                "target": "Bioactive Compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Aluminum chloride colorimetric method",
+                "target": "Flavonoid content (18.72 mg QE/g DW)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Folin-Ciocalteu reagent method",
+                "target": "Polyphenol content (39.32 mg GAE/g DW)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Folin-Denis method",
+                "target": "Tannin content (29.54 mg TAE/g DW)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DPPH scavenging capacity assay",
+                "target": "DPPH scavenging (88.29%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "FRAP assay",
+                "target": "FRAP value (578.10 µM FeSO4/g DW)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DPPH scavenging capacity assay",
+                "target": "Antioxidant Activity",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

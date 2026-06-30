@@ -1,0 +1,135 @@
+{
+  "filename": "09-FI-DINH XUAN HUNG(59-64)025.json",
+  "paper_title": "The fishing effort and stock biomass of trawl fishery in the South -East offshore waters of Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Dinh Xuan Hung",
+        "type": "Author",
+        "description": "The primary author of the research paper."
+      },
+      {
+        "id": "South Research Sub-Institute for Marine Fisheries",
+        "type": "Institution",
+        "description": "The institution located in Vietnam where the author is affiliated."
+      },
+      {
+        "id": "Fisheries Management",
+        "type": "Domain",
+        "description": "The main research field focusing on the assessment and management of fish stocks and fishing efforts."
+      },
+      {
+        "id": "Fishing effort",
+        "type": "Concept",
+        "description": "The amount of fishing activity, often measured by vessel power or time spent fishing."
+      },
+      {
+        "id": "Stock biomass",
+        "type": "Concept",
+        "description": "The total mass of a specific fish stock in a given area."
+      },
+      {
+        "id": "Trawl fishery",
+        "type": "Concept",
+        "description": "A method of fishing that involves pulling a fishing net through the water behind one or more boats."
+      },
+      {
+        "id": "Maximum Sustainable Yield (MSY)",
+        "type": "Concept",
+        "description": "The largest average catch that can be captured from a stock under existing environmental conditions."
+      },
+      {
+        "id": "Kobe Plot chart",
+        "type": "Method",
+        "description": "A management tool used to visually assess fishing effort and stock biomass actuality compared to sustainable thresholds."
+      },
+      {
+        "id": "Kobe Plot software version 3.0",
+        "type": "Method",
+        "description": "Software based on R programming language used for two-sided analysis of resource-fishing."
+      },
+      {
+        "id": "R programming language",
+        "type": "Method",
+        "description": "A programming language and free software environment for statistical computing and graphics."
+      },
+      {
+        "id": "Excel software",
+        "type": "Method",
+        "description": "Spreadsheet software used for data processing before running the Kobe Plot analysis."
+      },
+      {
+        "id": "CPUE calculation formula",
+        "type": "Method",
+        "description": "Catch per unit effort calculation used as a proxy for stock biomass."
+      },
+      {
+        "id": "Project: Research on fluctuations and distributions of fishing effort in the South-East offshore waters of Vietnam",
+        "type": "Dataset",
+        "description": "The primary numerical dataset used for analyzing trawler activities from 2008-2012."
+      },
+      {
+        "id": "Exceeded 56.3% of allowable yield",
+        "type": "Metric",
+        "description": "The level by which fishing effort of trawl fishery exceeded the allowable yield."
+      },
+      {
+        "id": "fMSY 334 boat-days",
+        "type": "Metric",
+        "description": "The specific value by which the fishing effort of 150-249 hp trawlers exceeded the sustainable level in 2012."
+      },
+      {
+        "id": "fMSY 189 boat-days",
+        "type": "Metric",
+        "description": "The specific value by which the fishing effort of under 89 hp trawlers exceeded the sustainable level in 2012."
+      },
+      {
+        "id": "Survey period 2008-2012",
+        "type": "Metric",
+        "description": "The specific timeframe during which the data was analyzed."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Dinh Xuan Hung",
+        "target": "South Research Sub-Institute for Marine Fisheries",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kobe Plot chart",
+        "target": "Fishing effort",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Kobe Plot chart",
+        "target": "Stock biomass",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Kobe Plot software version 3.0",
+        "target": "Project: Research on fluctuations and distributions of fishing effort in the South-East offshore waters of Vietnam",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Kobe Plot chart",
+        "target": "Exceeded 56.3% of allowable yield",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Kobe Plot chart",
+        "target": "fMSY 334 boat-days",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Kobe Plot chart",
+        "target": "fMSY 189 boat-days",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CPUE calculation formula",
+        "target": "Survey period 2008-2012",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

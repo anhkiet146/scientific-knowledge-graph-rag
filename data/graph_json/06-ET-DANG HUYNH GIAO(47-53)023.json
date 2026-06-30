@@ -1,0 +1,205 @@
+{
+  "filename": "06-ET-DANG HUYNH GIAO(47-53)023.json",
+  "paper_title": "FACILE SYNTHESIS OF BIMETALLIC ZnCo-ZIFs AND Ag NANOPARTICLES LOADING ON ZnCo-ZIFs (Ag/ZnCo-ZIFs)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Materials Science",
+        "type": "Domain",
+        "description": "The primary field of research involving the synthesis and characterization of bimetallic frameworks."
+      },
+      {
+        "id": "Dang Huynh Giao",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "Le Thi Anh Thu",
+        "type": "Author",
+        "description": "Author affiliated with College of Engineering Technology, Can Tho University."
+      },
+      {
+        "id": "Nguyen Huynh Thu Thao",
+        "type": "Author",
+        "description": "Author affiliated with College of Engineering Technology, Can Tho University."
+      },
+      {
+        "id": "Ho Ngoc Tri Tan",
+        "type": "Author",
+        "description": "Author affiliated with College of Engineering Technology, Can Tho University."
+      },
+      {
+        "id": "Doan Van Hong Thien",
+        "type": "Author",
+        "description": "Author affiliated with College of Engineering Technology, Can Tho University."
+      },
+      {
+        "id": "Pham Van Toan",
+        "type": "Author",
+        "description": "Author affiliated with College of Environment and Natural Resources, Can Tho University."
+      },
+      {
+        "id": "College of Engineering and Technology, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Heterogeneous catalysis",
+        "type": "Concept",
+        "description": "A form of catalysis where the phase of the catalyst differs from that of the reactants."
+      },
+      {
+        "id": "Removal of organic compounds from aqueous solutions",
+        "type": "Concept",
+        "description": "The research problem addressed by the synthesized materials."
+      },
+      {
+        "id": "Solvothermal method",
+        "type": "Method",
+        "description": "Method used to synthesize ZnCo-ZIFs at room temperature."
+      },
+      {
+        "id": "Wet impregnation method",
+        "type": "Method",
+        "description": "Method used to load Ag nanoparticles onto bimetallic frameworks."
+      },
+      {
+        "id": "ZnCo-ZIFs",
+        "type": "Method",
+        "description": "Bimetallic zeolitic imidazole frameworks synthesized as a base material."
+      },
+      {
+        "id": "Ag/ZnCo-ZIFs",
+        "type": "Method",
+        "description": "Silver nanoparticles loaded on bimetallic frameworks."
+      },
+      {
+        "id": "2-methylimidazole",
+        "type": "Method",
+        "description": "Organic ligand used in the synthesis of ZIFs."
+      },
+      {
+        "id": "Zinc nitrate",
+        "type": "Method",
+        "description": "Metal salt precursor."
+      },
+      {
+        "id": "Cobalt (II) nitrate",
+        "type": "Method",
+        "description": "Metal salt precursor."
+      },
+      {
+        "id": "Powder X-ray diffraction (PXRD)",
+        "type": "Method",
+        "description": "Characterization technique for crystalline structure."
+      },
+      {
+        "id": "Scanning electron microscope (FE-SEM)",
+        "type": "Method",
+        "description": "Characterization technique for surface morphology."
+      },
+      {
+        "id": "Thermogravimetric analysis (TGA)",
+        "type": "Method",
+        "description": "Characterization technique for thermal stability."
+      },
+      {
+        "id": "AgNPs content (18.42%)",
+        "type": "Metric",
+        "description": "The percentage of silver nanoparticles successfully loaded on the framework."
+      },
+      {
+        "id": "Yield of ZnCo-ZIFs-1:10 (60%)",
+        "type": "Metric",
+        "description": "The synthesis yield achieved for the 1:10 metal-to-ligand ratio."
+      },
+      {
+        "id": "Decomposition temperature (400-720 oC)",
+        "type": "Metric",
+        "description": "Temperature range at which the organic linkers decompose."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Dang Huynh Giao",
+        "target": "College of Engineering and Technology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Anh Thu",
+        "target": "College of Engineering and Technology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Huynh Thu Thao",
+        "target": "College of Engineering and Technology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Ngoc Tri Tan",
+        "target": "College of Engineering and Technology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Doan Van Hong Thien",
+        "target": "College of Engineering and Technology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Van Toan",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "ZnCo-ZIFs",
+        "target": "Materials Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Solvothermal method",
+        "target": "ZnCo-ZIFs",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Wet impregnation method",
+        "target": "Ag/ZnCo-ZIFs",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Ag/ZnCo-ZIFs",
+        "target": "Heterogeneous catalysis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Ag/ZnCo-ZIFs",
+        "target": "Removal of organic compounds from aqueous solutions",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Ag/ZnCo-ZIFs",
+        "target": "AgNPs content (18.42%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ZnCo-ZIFs",
+        "target": "Yield of ZnCo-ZIFs-1:10 (60%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ZnCo-ZIFs",
+        "target": "Yield of ZnCo-ZIFs-1:10 (60%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ZnCo-ZIFs",
+        "target": "Decomposition temperature (400-720 oC)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

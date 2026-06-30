@@ -1,0 +1,190 @@
+{
+    "filename": "02-AE-HO VAN THANG(6-12)37.json",
+    "paper_title": "DETERMINATION OF THE CONFINING EFFECT OF GEOGRID REIN-FORCEMENT FROM LARGE SCALE TRIAXIAL TESTS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ho Van Thang",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Vietnam"
+            },
+            {
+                "id": "Geotechnical Engineering",
+                "type": "Domain",
+                "description": "The main field of the study concerning soil reinforcement and materials"
+            },
+            {
+                "id": "DETERMINATION OF THE CONFINING EFFECT OF GEOGRID REIN-FORCEMENT FROM LARGE SCALE TRIAXIAL TESTS",
+                "type": "Concept",
+                "description": "Title and primary research focus of the paper"
+            },
+            {
+                "id": "Geogrid reinforcement",
+                "type": "Concept",
+                "description": "Method of strengthening soil using geosynthetic materials"
+            },
+            {
+                "id": "Confining effect",
+                "type": "Concept",
+                "description": "The mechanical restraint provided by geogrids to soil particles"
+            },
+            {
+                "id": "Peak strength",
+                "type": "Concept",
+                "description": "The maximum stress a soil specimen can sustain"
+            },
+            {
+                "id": "Small strain stiffness",
+                "type": "Concept",
+                "description": "The rigidity of the material at very low levels of deformation"
+            },
+            {
+                "id": "Large scale triaxial tests",
+                "type": "Method",
+                "description": "Experimental procedure to determine the mechanical properties of soil specimens"
+            },
+            {
+                "id": "Large-scale triaxial apparatus",
+                "type": "Method",
+                "description": "Equipment used to conduct triaxial compression tests on large specimens"
+            },
+            {
+                "id": "Mechanical model",
+                "type": "Method",
+                "description": "Model derived to explain the confining effect and draw stress paths"
+            },
+            {
+                "id": "Biaxial polypropylene (PP) geogrid",
+                "type": "Method",
+                "description": "A type of reinforcement material used in the experiment"
+            },
+            {
+                "id": "Biaxial combi-polypropylene (Combi) geogrid",
+                "type": "Method",
+                "description": "A composite geogrid material used for reinforcement"
+            },
+            {
+                "id": "Tochigi gravel",
+                "type": "Method",
+                "description": "The testing material consisting of well-graded crushed stone"
+            },
+            {
+                "id": "Local deformation transducers (LDTs)",
+                "type": "Method",
+                "description": "Sensors used to measure small strains in the specimen"
+            },
+            {
+                "id": "Height (50 cm)",
+                "type": "Metric",
+                "description": "Height of the gravel specimens"
+            },
+            {
+                "id": "Cross-section (23 cm x 23 cm)",
+                "type": "Metric",
+                "description": "Dimensions of the prismatic gravel specimens"
+            },
+            {
+                "id": "Coefficient of uniformity Cu=32",
+                "type": "Metric",
+                "description": "Grading characteristic of the Tochigi gravel"
+            },
+            {
+                "id": "Specific gravity Gs=2.68",
+                "type": "Metric",
+                "description": "Physical property of the gravel particles"
+            },
+            {
+                "id": "Optimum moisture content (4.0%)",
+                "type": "Metric",
+                "description": "Water content for maximum dry density"
+            },
+            {
+                "id": "Maximum dry density (2.168 g/cm3)",
+                "type": "Metric",
+                "description": "Peak density achieved via modified Proctor test"
+            },
+            {
+                "id": "Nominal strength (40 kN/m)",
+                "type": "Metric",
+                "description": "Tensile strength of the PP and Combi geogrids"
+            },
+            {
+                "id": "Confining pressures (25kPa and 150kPa)",
+                "type": "Metric",
+                "description": "Pressure levels applied during the triaxial tests"
+            },
+            {
+                "id": "Axial loading capacity (490 kN)",
+                "type": "Metric",
+                "description": "Maximum force capacity of the electro-hydraulic actuator"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ho Van Thang",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "DETERMINATION OF THE CONFINING EFFECT OF GEOGRID REIN-FORCEMENT FROM LARGE SCALE TRIAXIAL TESTS",
+                "target": "Geotechnical Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Large scale triaxial tests",
+                "target": "Geogrid reinforcement",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Large scale triaxial tests",
+                "target": "Confining effect",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Large-scale triaxial apparatus",
+                "target": "Axial loading capacity (490 kN)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Large scale triaxial tests",
+                "target": "Height (50 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Large scale triaxial tests",
+                "target": "Cross-section (23 cm x 23 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Tochigi gravel",
+                "target": "Coefficient of uniformity Cu=32",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Tochigi gravel",
+                "target": "Specific gravity Gs=2.68",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Biaxial polypropylene (PP) geogrid",
+                "target": "Nominal strength (40 kN/m)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mechanical model",
+                "target": "Confining effect",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Large scale triaxial tests",
+                "target": "Confining pressures (25kPa and 150kPa)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

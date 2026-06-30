@@ -1,0 +1,165 @@
+{
+    "filename": "BE-NGO THI THU THAO(65-73)051.json",
+    "paper_title": "Flocculation efficiency and quality of flocculated algae with chitosan at different pH values",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ngo Thi Thu Thao",
+                "type": "Author",
+                "description": "Researcher at the College of Aquaculture and Fisheries, Can Tho University."
+            },
+            {
+                "id": "Tran Thi Ngoc Hanh",
+                "type": "Author",
+                "description": "Researcher at the College of Aquaculture and Fisheries, Can Tho University."
+            },
+            {
+                "id": "Dang Thi Thuy An",
+                "type": "Author",
+                "description": "Researcher at the College of Aquaculture and Fisheries, Can Tho University."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "An academic institution in Vietnam focused on fisheries and aquaculture research."
+            },
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "The primary research field of the paper focusing on aquatic organism cultivation."
+            },
+            {
+                "id": "Flocculation efficiency",
+                "type": "Concept",
+                "description": "The effectiveness of gathering microalgae into larger clusters for harvesting."
+            },
+            {
+                "id": "Microalgae harvesting",
+                "type": "Concept",
+                "description": "The problem of selecting low-cost and suitable techniques for collecting algae."
+            },
+            {
+                "id": "Cell viability",
+                "type": "Concept",
+                "description": "The state of the algal cells being alive and able to grow after treatment."
+            },
+            {
+                "id": "Chitosan",
+                "type": "Method",
+                "description": "A chemical used as a flocculant for harvesting microalgae."
+            },
+            {
+                "id": "pH adjustment",
+                "type": "Method",
+                "description": "The process of modifying pH levels (5.0, 7.0, 9.0) to evaluate flocculation efficiency."
+            },
+            {
+                "id": "Evan's Blue staining",
+                "type": "Method",
+                "description": "A technique used to stain algae cells to determine viability."
+            },
+            {
+                "id": "One-way ANOVA",
+                "type": "Method",
+                "description": "Statistical analysis method used to compare significant differences among treatments."
+            },
+            {
+                "id": "Improved Neubauer counter",
+                "type": "Method",
+                "description": "Equipment used for counting algal cell density."
+            },
+            {
+                "id": "Flocculation efficiency (91%)",
+                "type": "Metric",
+                "description": "The highest efficiency reached after 4 hours at pH 5.0."
+            },
+            {
+                "id": "Cell viability (52.23%)",
+                "type": "Metric",
+                "description": "The highest cell viability obtained at control pH 9.0."
+            },
+            {
+                "id": "Cell density (8,750,000 cells/mL)",
+                "type": "Metric",
+                "description": "Highest cell density obtained at day 15 in pH 7.0 treatment."
+            },
+            {
+                "id": "Survival rate (72.52%)",
+                "type": "Metric",
+                "description": "The highest survival rate of sweet snail larvae in control pH."
+            },
+            {
+                "id": "Shell length (1938.89 µm)",
+                "type": "Metric",
+                "description": "The highest average shell length of snail larvae at day 20."
+            },
+            {
+                "id": "Shell height (1041.67 µm)",
+                "type": "Metric",
+                "description": "The highest average shell height of snail larvae at day 20."
+            },
+            {
+                "id": "Filtration rate (84.8%)",
+                "type": "Metric",
+                "description": "The highest average filtration rate of snail larvae observed in T1 (pH 7.0)."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Flocculation efficiency and quality of flocculated algae with chitosan at different pH values",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ngo Thi Thu Thao",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Ngoc Hanh",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thi Thuy An",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chitosan",
+                "target": "Microalgae harvesting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Evan's Blue staining",
+                "target": "Cell viability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "pH adjustment",
+                "target": "Flocculation efficiency (91%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "pH adjustment",
+                "target": "Cell viability (52.23%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "pH adjustment",
+                "target": "Survival rate (72.52%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "pH adjustment",
+                "target": "Shell length (1938.89 µm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "pH adjustment",
+                "target": "Shell height (1041.67 µm)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

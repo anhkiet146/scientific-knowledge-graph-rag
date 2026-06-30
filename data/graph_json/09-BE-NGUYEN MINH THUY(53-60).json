@@ -1,0 +1,150 @@
+{
+  "filename": "09-BE-NGUYEN MINH THUY(53-60).json",
+  "paper_title": "EXTRACTION OF BIOACTIVE COMPOUNDS AND SPORE POWDER COLLECTION FROM Ganoderma lucidum",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Minh Thuy",
+        "type": "Author",
+        "description": "Author from the Department of Food Technology, Can Tho University."
+      },
+      {
+        "id": "Tuyen Thanh Thi Nguyen",
+        "type": "Author",
+        "description": "Author from the Department of Food Technology, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University located in Vietnam, affiliated with the researchers."
+      },
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "The primary research field of the study."
+      },
+      {
+        "id": "Extraction of bioactive compounds",
+        "type": "Concept",
+        "description": "The process of obtaining functional substances from Ganoderma lucidum."
+      },
+      {
+        "id": "Spore wall breaking",
+        "type": "Concept",
+        "description": "The process of rupturing the hard sporoderm of mushroom spores to release active ingredients."
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "The ability of the fungal spore powder to inhibit oxidative damage."
+      },
+      {
+        "id": "Response Surface Methodology (RSM)",
+        "type": "Method",
+        "description": "Statistical method used for optimizing the extraction process."
+      },
+      {
+        "id": "Fermentation with Lactobacillus plantarum",
+        "type": "Method",
+        "description": "Biological process used to break down the spore walls of G. lucidum."
+      },
+      {
+        "id": "Autoclave extraction",
+        "type": "Method",
+        "description": "High temperature extraction method performed at 100-130°C."
+      },
+      {
+        "id": "Central Composite Design",
+        "type": "Method",
+        "description": "Experimental design type used within RSM to find optimum conditions."
+      },
+      {
+        "id": "R2 (> 0.99)",
+        "type": "Metric",
+        "description": "Coefficient of determination for the quadratic models."
+      },
+      {
+        "id": "Polysaccharides content (667.5 mg/L)",
+        "type": "Metric",
+        "description": "The actual amount of polysaccharides obtained under optimum conditions."
+      },
+      {
+        "id": "Phenol compounds content (631.25 mg GAE/L)",
+        "type": "Metric",
+        "description": "The actual amount of phenolic compounds obtained under optimum conditions."
+      },
+      {
+        "id": "Spore wall breaking rate (52.38%)",
+        "type": "Metric",
+        "description": "The efficiency of spore wall rupture after 48 hours of fermentation."
+      },
+      {
+        "id": "Optimum extraction temperature (130°C)",
+        "type": "Metric",
+        "description": "The temperature identified for maximum yield."
+      },
+      {
+        "id": "Optimum extraction time (40-45 minutes)",
+        "type": "Metric",
+        "description": "The duration identified for maximum yield."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Minh Thuy",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tuyen Thanh Thi Nguyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Extraction of bioactive compounds",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Extraction of bioactive compounds",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Fermentation with Lactobacillus plantarum",
+        "target": "Spore wall breaking",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "R2 (> 0.99)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Autoclave extraction",
+        "target": "Polysaccharides content (667.5 mg/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Autoclave extraction",
+        "target": "Phenol compounds content (631.25 mg GAE/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fermentation with Lactobacillus plantarum",
+        "target": "Spore wall breaking rate (52.38%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Optimum extraction temperature (130°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Response Surface Methodology (RSM)",
+        "target": "Optimum extraction time (40-45 minutes)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

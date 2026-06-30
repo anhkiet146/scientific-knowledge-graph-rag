@@ -1,0 +1,180 @@
+{
+    "filename": "09-480-NS-NGUYEN THI HONG(71-78)009.json",
+    "paper_title": "Adsorption of Co(II) from the simulated solution by zeolite NaX derived from rice husk ash",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Environmental Engineering",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu xử lý môi trường và vật liệu hấp phụ."
+            },
+            {
+                "id": "Nguyen Thi Hong",
+                "type": "Author",
+                "description": "Tác giả chính từ College of Natural Sciences, Can Tho University."
+            },
+            {
+                "id": "Phan Thi Diem Trang",
+                "type": "Author",
+                "description": "Tác giả từ College of Engineering Technology, Can Tho University."
+            },
+            {
+                "id": "Tran Nguyen Phuong Lan",
+                "type": "Author",
+                "description": "Tác giả từ College of Engineering Technology, Can Tho University."
+            },
+            {
+                "id": "Luong Huynh Vu Thanh",
+                "type": "Author",
+                "description": "Tác giả từ College of Engineering Technology, Can Tho University."
+            },
+            {
+                "id": "Nguyen Dien Trung",
+                "type": "Author",
+                "description": "Tác giả từ School of Education, Can Tho University."
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam."
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam."
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam."
+            },
+            {
+                "id": "Adsorption of Co(II)",
+                "type": "Concept",
+                "description": "Quá trình hấp phụ ion Cobalt (II) từ dung dịch mô phỏng."
+            },
+            {
+                "id": "Recovery of cobalt and lithium",
+                "type": "Concept",
+                "description": "Vấn đề thu hồi kim loại quý từ pin lithium-ion đã qua sử dụng."
+            },
+            {
+                "id": "Zeolite NaX",
+                "type": "Method",
+                "description": "Vật liệu hấp phụ được tổng hợp từ tro trấu (Rice husk ash)."
+            },
+            {
+                "id": "Rice husk ash",
+                "type": "Method",
+                "description": "Nguyên liệu đầu vào (tro trấu) để tổng hợp Zeolite."
+            },
+            {
+                "id": "Freundlich adsorption isotherm",
+                "type": "Method",
+                "description": "Mô hình đẳng nhiệt hấp phụ đa lớp dùng để mô tả hành vi hấp phụ."
+            },
+            {
+                "id": "Langmuir adsorption isotherm",
+                "type": "Method",
+                "description": "Mô hình đẳng nhiệt hấp phụ đơn lớp."
+            },
+            {
+                "id": "UV-Vis spectrophotometer",
+                "type": "Method",
+                "description": "Thiết bị quang phổ tử ngoại - khả kiến dùng để đo nồng độ cobalt."
+            },
+            {
+                "id": "Co(II) loading capacity (38 mg/g)",
+                "type": "Metric",
+                "description": "Khả năng tải cobalt tối đa của zeolite NaX."
+            },
+            {
+                "id": "Adsorption efficiency (99%)",
+                "type": "Metric",
+                "description": "Hiệu suất hấp phụ cao nhất đạt được tại liều lượng zeolite 7.5 g/L."
+            },
+            {
+                "id": "Equilibrium pH (3.0)",
+                "type": "Metric",
+                "description": "Giá trị pH tối ưu cho quá trình hấp phụ."
+            },
+            {
+                "id": "Reaction time (75 min)",
+                "type": "Metric",
+                "description": "Thời gian phản ứng tối ưu để đạt trạng thái cân bằng."
+            },
+            {
+                "id": "Correlation coefficient (0.995)",
+                "type": "Metric",
+                "description": "Hệ số tương quan của mô hình Freundlich."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Adsorption of Co(II) from the simulated solution by zeolite NaX",
+                "target": "Environmental Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Hong",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Thi Diem Trang",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Nguyen Phuong Lan",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luong Huynh Vu Thanh",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Dien Trung",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Zeolite NaX",
+                "target": "Adsorption of Co(II)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Zeolite NaX",
+                "target": "Co(II) loading capacity (38 mg/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Zeolite NaX",
+                "target": "Adsorption efficiency (99%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Zeolite NaX",
+                "target": "Equilibrium pH (3.0)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Zeolite NaX",
+                "target": "Reaction time (75 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Freundlich adsorption isotherm",
+                "target": "Correlation coefficient (0.995)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Freundlich adsorption isotherm",
+                "target": "Adsorption of Co(II)",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

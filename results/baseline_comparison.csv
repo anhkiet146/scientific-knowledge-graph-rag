@@ -1,0 +1,4 @@
+﻿method,n,faithfulness,relevancy,context_precision,context_recall,latency
+Lexical BM25 RAG,45,0.8,0.811,0.789,0.62,27.963
+Vector RAG,45,0.803,0.83,0.853,0.664,48.524
+Proposed KG-RAG,45,0.837,0.866,0.868,0.865,24.516

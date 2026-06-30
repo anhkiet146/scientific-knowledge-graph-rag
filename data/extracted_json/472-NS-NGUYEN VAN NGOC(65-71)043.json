@@ -1,0 +1,185 @@
+{
+    "filename": "472-NS-NGUYEN VAN NGOC(65-71)043.json",
+    "paper_title": "Effect of enzyme-assisted extraction on yield, composition, and antimicrobial activity of essential oils from Rosmarinus officinalis L. grown in Lam Dong Province, Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Essential Oil Extraction",
+                "type": "Domain",
+                "description": "The primary field of research concerning the extraction of oils from plant materials."
+            },
+            {
+                "id": "Nguyen Van Ngoc",
+                "type": "Author",
+                "description": "Author from the Faculty of Biology, Dalat University."
+            },
+            {
+                "id": "Do Tran Tham Thuy",
+                "type": "Author",
+                "description": "Student author from the Faculty of Biology, Dalat University."
+            },
+            {
+                "id": "Vu Bao Ngoc",
+                "type": "Author",
+                "description": "Author from the Faculty of Chemistry and Environment, Dalat University."
+            },
+            {
+                "id": "Hoang Thi Binh",
+                "type": "Author",
+                "description": "Author from the Faculty of Biology, Dalat University."
+            },
+            {
+                "id": "Faculty of Biology, Dalat University",
+                "type": "Institution",
+                "description": "Academic department located in Dalat, Viet Nam."
+            },
+            {
+                "id": "Faculty of Chemistry and Environment, Dalat University",
+                "type": "Institution",
+                "description": "Academic department located in Dalat, Viet Nam."
+            },
+            {
+                "id": "Enzyme-assisted extraction",
+                "type": "Concept",
+                "description": "A technique used to improve the extraction efficiency of essential oils from plants using enzymes."
+            },
+            {
+                "id": "Antimicrobial activity",
+                "type": "Concept",
+                "description": "The ability of a substance to inhibit the growth or destroy microorganisms."
+            },
+            {
+                "id": "Chemical composition",
+                "type": "Concept",
+                "description": "The specific chemical compounds and their proportions within the essential oil."
+            },
+            {
+                "id": "Viscozyme L",
+                "type": "Method",
+                "description": "An enzyme cocktail containing arabanase, cellulase, hemicellulase, beta-glucanase, and xylanase used for pre-treatment."
+            },
+            {
+                "id": "Hydrodistillation",
+                "type": "Method",
+                "description": "A traditional method for extracting essential oils using water and heat."
+            },
+            {
+                "id": "GC-MS",
+                "type": "Method",
+                "description": "Gas chromatography-mass spectrometry used for identifying chemical compounds."
+            },
+            {
+                "id": "Agar well diffusion method",
+                "type": "Method",
+                "description": "Method used to evaluate the antimicrobial effect of essential oils."
+            },
+            {
+                "id": "NIST08",
+                "type": "Dataset",
+                "description": "Mass spectral library used for computerized matching of chemical compounds."
+            },
+            {
+                "id": "WILEY 275",
+                "type": "Dataset",
+                "description": "Mass spectral library used for identifying chemical components in GC-MS."
+            },
+            {
+                "id": "Essential oil yield (0.96% to 1.08%)",
+                "type": "Metric",
+                "description": "The percentage of oil recovered from the rosemary aerial parts."
+            },
+            {
+                "id": "alpha-pinene concentration (29.71 - 32.17%)",
+                "type": "Metric",
+                "description": "The relative quantity of the major compound alpha-pinene in the oil."
+            },
+            {
+                "id": "Cineol concentration (17.55 - 18.74%)",
+                "type": "Metric",
+                "description": "The relative quantity of the major compound cineol in the oil."
+            },
+            {
+                "id": "Inhibition zone diameter E. coli (7.0 - 9.0 mm)",
+                "type": "Metric",
+                "description": "Measurement of antimicrobial efficacy against Escherichia coli."
+            },
+            {
+                "id": "Incubation conditions (50oC for 1 hour)",
+                "type": "Metric",
+                "description": "Specific parameters for the enzymatic pre-treatment process."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of enzyme-assisted extraction on yield, composition, and antimicrobial activity of essential oils from Rosmarinus officinalis L.",
+                "target": "Essential Oil Extraction",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Van Ngoc",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Tran Tham Thuy",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vu Bao Ngoc",
+                "target": "Faculty of Chemistry and Environment, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Thi Binh",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Viscozyme L",
+                "target": "Enzyme-assisted extraction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Viscozyme L",
+                "target": "Essential oil yield (0.96% to 1.08%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hydrodistillation",
+                "target": "Essential oil yield (0.96% to 1.08%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GC-MS",
+                "target": "alpha-pinene concentration (29.71 - 32.17%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GC-MS",
+                "target": "Cineol concentration (17.55 - 18.74%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GC-MS",
+                "target": "NIST08",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "GC-MS",
+                "target": "WILEY 275",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Agar well diffusion method",
+                "target": "Antimicrobial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Agar well diffusion method",
+                "target": "Inhibition zone diameter E. coli (7.0 - 9.0 mm)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

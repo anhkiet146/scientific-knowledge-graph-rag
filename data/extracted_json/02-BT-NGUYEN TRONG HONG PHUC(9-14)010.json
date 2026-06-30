@@ -1,0 +1,205 @@
+{
+    "filename": "02-BT-NGUYEN TRONG HONG PHUC(9-14)010.json",
+    "paper_title": "Acute toxicity, antibacterial and antioxidant abilities of Elephantopus mollis H.B.K. and Elephantopus scaber L",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Elephantopus mollis H.B.K.",
+                "type": "Concept",
+                "description": "A perennial herbaceous plant species studied for its medicinal properties."
+            },
+            {
+                "id": "Elephantopus scaber L.",
+                "type": "Concept",
+                "description": "A perennial herbaceous plant species studied for its pharmacological efficacy."
+            },
+            {
+                "id": "Acute toxicity",
+                "type": "Concept",
+                "description": "The study of adverse effects resulting from a single or short-term exposure to a substance."
+            },
+            {
+                "id": "Antibacterial ability",
+                "type": "Concept",
+                "description": "The property of the plant extracts to inhibit the growth of bacterial strains."
+            },
+            {
+                "id": "Antioxidant ability",
+                "type": "Concept",
+                "description": "The capability of plant extracts to scavenge free radicals."
+            },
+            {
+                "id": "Pharmacology and Botany",
+                "type": "Domain",
+                "description": "The primary research domain focusing on plant-based medicine and biological activity."
+            },
+            {
+                "id": "Nguyen Trong Hong Phuc",
+                "type": "Author",
+                "description": "First and corresponding author of the study."
+            },
+            {
+                "id": "Phan Thanh Dat",
+                "type": "Author",
+                "description": "Author and Master student in Ecology."
+            },
+            {
+                "id": "Nguyen Thi Thuy Nhien",
+                "type": "Author",
+                "description": "Author affiliated with the Biotechnology Research and Development Institute."
+            },
+            {
+                "id": "Phung Thi Hang",
+                "type": "Author",
+                "description": "Author affiliated with the School of Education."
+            },
+            {
+                "id": "Do Tan Khang",
+                "type": "Author",
+                "description": "Author affiliated with the Biotechnology Research and Development Institute."
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Research institute in Vietnam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Main university affiliation for the ecology student."
+            },
+            {
+                "id": "DPPH radical scavenging assay",
+                "type": "Method",
+                "description": "A method used to determine the antioxidant capacity of the extracts."
+            },
+            {
+                "id": "Aseptic ring formation method",
+                "type": "Method",
+                "description": "A procedure used to determine antibacterial activity against various strains."
+            },
+            {
+                "id": "OECD 420 model",
+                "type": "Method",
+                "description": "A standardized model for testing acute oral toxicity."
+            },
+            {
+                "id": "UV-VIS color spectrophotometer",
+                "type": "Method",
+                "description": "Equipment used for measuring absorbance at 515 nm."
+            },
+            {
+                "id": "IBM SPSS Statistic 22.0",
+                "type": "Method",
+                "description": "Statistical software used for managing and processing empirical data."
+            },
+            {
+                "id": "Extraction efficiency (11-32%)",
+                "type": "Metric",
+                "description": "Range of extraction efficiency for E. mollis across different parts."
+            },
+            {
+                "id": "Extraction efficiency (15-28%)",
+                "type": "Metric",
+                "description": "Range of extraction efficiency for E. scaber across different parts."
+            },
+            {
+                "id": "EC50 (32.2051 µg/mL)",
+                "type": "Metric",
+                "description": "Half maximal effective concentration for antioxidant capacity in E. mollis flowers."
+            },
+            {
+                "id": "EC50 (59.9778 µg/mL)",
+                "type": "Metric",
+                "description": "Half maximal effective concentration for antioxidant capacity in E. scaber flowers."
+            },
+            {
+                "id": "Antibacterial ring (28.3±1.5 mm)",
+                "type": "Metric",
+                "description": "Measurement of the zone of inhibition for E. coli by E. mollis extract."
+            },
+            {
+                "id": "Non-toxic dose (8,000 mg/kg)",
+                "type": "Metric",
+                "description": "Highest tested dose where no mortality occurred in Mus musculus."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Elephantopus mollis H.B.K.",
+                "target": "Pharmacology and Botany",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Elephantopus scaber L.",
+                "target": "Pharmacology and Botany",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Trong Hong Phuc",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Thanh Dat",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thuy Nhien",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phung Thi Hang",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Tan Khang",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "DPPH radical scavenging assay",
+                "target": "Antioxidant ability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Aseptic ring formation method",
+                "target": "Antibacterial ability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "OECD 420 model",
+                "target": "Acute toxicity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DPPH radical scavenging assay",
+                "target": "EC50 (32.2051 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DPPH radical scavenging assay",
+                "target": "EC50 (59.9778 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Aseptic ring formation method",
+                "target": "Antibacterial ring (28.3±1.5 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "OECD 420 model",
+                "target": "Non-toxic dose (8,000 mg/kg)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

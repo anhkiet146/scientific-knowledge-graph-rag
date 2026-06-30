@@ -1,0 +1,170 @@
+{
+    "filename": "530-DINH XUAN TU(86-90)033.json",
+    "paper_title": "The chromosome numbers of Panax vietnamensis Ha et Grushv",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Cell genetics",
+                "type": "Domain",
+                "description": "The primary field of study regarding the genetic properties of cells."
+            },
+            {
+                "id": "Dinh Xuan Tu",
+                "type": "Author",
+                "description": "Researcher from the Incubation and Support Center for Technology and Science Enterprises."
+            },
+            {
+                "id": "Le Huynh Thi Diem Suong",
+                "type": "Author",
+                "description": "Researcher listed in the article header."
+            },
+            {
+                "id": "Nguyen Minh Ly",
+                "type": "Author",
+                "description": "Corresponding author from the University of Danang - University of Education and Science."
+            },
+            {
+                "id": "Incubation and Support Center for Technology and Science Enterprises, Ministry of Science and Technology",
+                "type": "Institution",
+                "description": "Vietnamese government organization supporting technology and science enterprises."
+            },
+            {
+                "id": "Faculty of Biology and Environment Science, The University of Danang - University of Education and Science",
+                "type": "Institution",
+                "description": "Academic faculty focused on biology and environmental science in Viet Nam."
+            },
+            {
+                "id": "Panax vietnamensis",
+                "type": "Concept",
+                "description": "Also known as Ngoc Linh ginseng, an endemic species of ginseng in Viet Nam."
+            },
+            {
+                "id": "Chromosomal analysis",
+                "type": "Concept",
+                "description": "The study of the number and structure of chromosomes for genetic research."
+            },
+            {
+                "id": "Hypotonic shock method",
+                "type": "Method",
+                "description": "A technique used to disperse chromosomes by swelling cells in a hypotonic solution."
+            },
+            {
+                "id": "Potassium chloride (KCl) solution",
+                "type": "Method",
+                "description": "A chemical agent used at various concentrations to induce hypotonia."
+            },
+            {
+                "id": "Colchicine solution",
+                "type": "Method",
+                "description": "A chemical solution used to disperse chromosomes and stop mitosis at metaphase."
+            },
+            {
+                "id": "Carnoy's solution",
+                "type": "Method",
+                "description": "A mixture of ethanol and acetic acid (3:1) used for cell fixation."
+            },
+            {
+                "id": "1% Acetocarmine solution",
+                "type": "Method",
+                "description": "A staining agent used to observe chromosomes during mitosis."
+            },
+            {
+                "id": "Excel software",
+                "type": "Method",
+                "description": "Tool used for data collection and processing."
+            },
+            {
+                "id": "Somatic chromosome number (2n = 24)",
+                "type": "Metric",
+                "description": "The determined diploid chromosome count of Panax vietnamensis."
+            },
+            {
+                "id": "Optimal mitosis time (8:30 a.m. - 9:00 a.m.)",
+                "type": "Metric",
+                "description": "The specific time window during which the highest percentage of cells are in mitosis."
+            },
+            {
+                "id": "Optimal KCl concentration (0.2%)",
+                "type": "Metric",
+                "description": "The specific concentration of potassium chloride that yielded the best chromosome dispersion."
+            },
+            {
+                "id": "KCl treatment duration (45 minutes)",
+                "type": "Metric",
+                "description": "The specific time period used for potassium chloride treatment."
+            },
+            {
+                "id": "Optimal colchicine concentration (0.05%)",
+                "type": "Metric",
+                "description": "The specific concentration of colchicine that resulted in chromosomal dispersion."
+            },
+            {
+                "id": "Colchicine treatment duration (2 hours)",
+                "type": "Metric",
+                "description": "The specific time period used for colchicine treatment."
+            },
+            {
+                "id": "Saponin content (12-15%)",
+                "type": "Metric",
+                "description": "The amount of dammarane saponins found in Ngoc Linh ginseng."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Panax vietnamensis",
+                "target": "Cell genetics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Dinh Xuan Tu",
+                "target": "Incubation and Support Center for Technology and Science Enterprises, Ministry of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Ly",
+                "target": "Faculty of Biology and Environment Science, The University of Danang - University of Education and Science",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hypotonic shock method",
+                "target": "Chromosomal analysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hypotonic shock method",
+                "target": "Panax vietnamensis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Potassium chloride (KCl) solution",
+                "target": "Optimal KCl concentration (0.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Potassium chloride (KCl) solution",
+                "target": "KCl treatment duration (45 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Colchicine solution",
+                "target": "Optimal colchicine concentration (0.05%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Colchicine solution",
+                "target": "Colchicine treatment duration (2 hours)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hypotonic shock method",
+                "target": "Somatic chromosome number (2n = 24)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "1% Acetocarmine solution",
+                "target": "Optimal mitosis time (8:30 a.m. - 9:00 a.m.)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "filename": "14-AE-TRAN THI THAM(114-121)014.json",
+    "paper_title": "EVALUATING THE IMPACT OF SUPPLY CHAIN CAPABILITIES ON THE BUSINESS SUCCESS: A CASE STUDY IN SMALL AND MEDIUM FOOD COMPANIES IN THE MEKONG DELTA",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "EVALUATING THE IMPACT OF SUPPLY CHAIN CAPABILITIES ON THE BUSINESS SUCCESS: A CASE STUDY IN SMALL AND MEDIUM FOOD COMPANIES IN THE MEKONG DELTA",
+                "type": "Concept",
+                "description": "The main research title and topic evaluating the relationship between supply chain capabilities and business success."
+            },
+            {
+                "id": "Tran Thi Tham",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Tran Thi My Dung",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University, Vietnam",
+                "type": "Institution",
+                "description": "The educational institution where the authors are affiliated."
+            },
+            {
+                "id": "Supply Chain Management",
+                "type": "Domain",
+                "description": "The primary research field of the study."
+            },
+            {
+                "id": "Supply Chain Capabilities",
+                "type": "Concept",
+                "description": "Includes Supply Chain Integration (SCI), Supply Chain Operation (SCO), and Human Resource Management (HRM)."
+            },
+            {
+                "id": "Competitive Advantages",
+                "type": "Concept",
+                "description": "Research variable including quality, delivery, flexibility, and cost."
+            },
+            {
+                "id": "Business Performance",
+                "type": "Concept",
+                "description": "The outcome variable measuring how well an organization achieves market and financial goals."
+            },
+            {
+                "id": "Structural Equation Modeling (SEM)",
+                "type": "Method",
+                "description": "A statistical technique used to test the research hypotheses."
+            },
+            {
+                "id": "Survey",
+                "type": "Method",
+                "description": "Primary data collection method using five-point Likert-scale questionnaires."
+            },
+            {
+                "id": "Confirmatory Factor Analysis (CFA)",
+                "type": "Method",
+                "description": "Used in the first step of SEM to develop the measurement model."
+            },
+            {
+                "id": "Just-In-Time (JIT)",
+                "type": "Method",
+                "description": "Operational method to improve production and reduce waste."
+            },
+            {
+                "id": "Lean Manufacturing",
+                "type": "Method",
+                "description": "Methodology aimed at waste reduction within a manufacturing system."
+            },
+            {
+                "id": "Survey data from 68 small and medium food companies",
+                "type": "Dataset",
+                "description": "The specific numerical dataset collected from companies in the Mekong Delta."
+            },
+            {
+                "id": "Response rate (22.67%)",
+                "type": "Metric",
+                "description": "The percentage of usable survey responses received."
+            },
+            {
+                "id": "Chi-square to degree of freedom ratio (1.54)",
+                "type": "Metric",
+                "description": "A fit index for the measurement model."
+            },
+            {
+                "id": "Comparative Fit Index (CFI) (0.9273)",
+                "type": "Metric",
+                "description": "A measure of model fit for the measurement model."
+            },
+            {
+                "id": "Non-normed Fit Index (NNFI) (0.9205)",
+                "type": "Metric",
+                "description": "An indicator of model fit."
+            },
+            {
+                "id": "R2 for Business performance (0.9502)",
+                "type": "Metric",
+                "description": "The variance explained for the business performance factor."
+            }
+        ],
+        "relations": [
+            {
+                "source": "EVALUATING THE IMPACT OF SUPPLY CHAIN CAPABILITIES ON THE BUSINESS SUCCESS: A CASE STUDY IN SMALL AND MEDIUM FOOD COMPANIES IN THE MEKONG DELTA",
+                "target": "Supply Chain Management",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tran Thi Tham",
+                "target": "College of Engineering Technology, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi My Dung",
+                "target": "College of Engineering Technology, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Structural Equation Modeling (SEM)",
+                "target": "Supply Chain Capabilities",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Structural Equation Modeling (SEM)",
+                "target": "Business Performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Structural Equation Modeling (SEM)",
+                "target": "Survey data from 68 small and medium food companies",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Structural Equation Modeling (SEM)",
+                "target": "Chi-square to degree of freedom ratio (1.54)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural Equation Modeling (SEM)",
+                "target": "Comparative Fit Index (CFI) (0.9273)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural Equation Modeling (SEM)",
+                "target": "Non-normed Fit Index (NNFI) (0.9205)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural Equation Modeling (SEM)",
+                "target": "R2 for Business performance (0.9502)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Survey",
+                "target": "Response rate (22.67%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Just-In-Time (JIT)",
+                "target": "Competitive Advantages",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Lean Manufacturing",
+                "target": "Competitive Advantages",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

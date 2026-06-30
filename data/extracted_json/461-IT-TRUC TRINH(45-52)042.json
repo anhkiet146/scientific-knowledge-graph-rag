@@ -1,0 +1,250 @@
+{
+    "filename": "461-IT-TRUC TRINH(45-52)042.json",
+    "paper_title": "A Vietnamese benchmark for vehicle detection and real-time empirical evaluation",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Vehicle detection",
+                "type": "Concept",
+                "description": "The process of identifying and locating vehicles in images or video streams."
+            },
+            {
+                "id": "Real-time object detection",
+                "type": "Concept",
+                "description": "Detection of objects in a video feed with minimal delay."
+            },
+            {
+                "id": "Traffic congestion",
+                "type": "Concept",
+                "description": "A condition on transport networks that occurs as use increases, characterized by slower speeds."
+            },
+            {
+                "id": "Intelligent transport system (ITS)",
+                "type": "Concept",
+                "description": "Advanced applications which aim to provide innovative services relating to different modes of transport."
+            },
+            {
+                "id": "YOLOX",
+                "type": "Method",
+                "description": "An advanced real-time object detection method using an anchor-free mechanism."
+            },
+            {
+                "id": "YOLOF",
+                "type": "Method",
+                "description": "You Only Look One-level Feature, a method using a single level feature for detection."
+            },
+            {
+                "id": "YOLACT",
+                "type": "Method",
+                "description": "A one-stage approach for real-time instance segmentation."
+            },
+            {
+                "id": "RetinaNet",
+                "type": "Method",
+                "description": "A baseline object detection model used for comparison."
+            },
+            {
+                "id": "ResNet50",
+                "type": "Method",
+                "description": "A deep residual network used as a backbone for YOLOF."
+            },
+            {
+                "id": "ResNet101",
+                "type": "Method",
+                "description": "A deep residual network used as a backbone for RetinaNet and YOLACT."
+            },
+            {
+                "id": "Darknet CSP",
+                "type": "Method",
+                "description": "The backbone architecture used for YOLOX."
+            },
+            {
+                "id": "Dilated Encoder",
+                "type": "Method",
+                "description": "A component in YOLOF to enlarge the receptive field."
+            },
+            {
+                "id": "Fast NMS",
+                "type": "Method",
+                "description": "An optimized Non-Maximum Suppression algorithm used in YOLACT."
+            },
+            {
+                "id": "Tesla K80",
+                "type": "Method",
+                "description": "The GPU hardware used for experimental implementation."
+            },
+            {
+                "id": "MMDetection",
+                "type": "Method",
+                "description": "The software framework used for training and testing models."
+            },
+            {
+                "id": "UIT-VinaDeveS22",
+                "type": "Dataset",
+                "description": "A Vietnamese traffic dataset containing 1364 images from CCTV."
+            },
+            {
+                "id": "Processing speed YOLOX (25.1 fps)",
+                "type": "Metric",
+                "description": "The frames per second achieved by YOLOX."
+            },
+            {
+                "id": "mAP YOLOX (0.175)",
+                "type": "Metric",
+                "description": "Mean Average Precision of YOLOX on the dataset."
+            },
+            {
+                "id": "Processing speed YOLACT (6.4 fps)",
+                "type": "Metric",
+                "description": "The frames per second achieved by YOLACT."
+            },
+            {
+                "id": "mAP YOLACT (0.284)",
+                "type": "Metric",
+                "description": "Mean Average Precision of YOLACT on the dataset."
+            },
+            {
+                "id": "Processing speed YOLOF (4.9 fps)",
+                "type": "Metric",
+                "description": "The frames per second achieved by YOLOF."
+            },
+            {
+                "id": "mAP YOLOF (0.306)",
+                "type": "Metric",
+                "description": "Mean Average Precision of YOLOF on the dataset."
+            },
+            {
+                "id": "Processing speed RetinaNet (2.1 fps)",
+                "type": "Metric",
+                "description": "The frames per second achieved by the RetinaNet baseline."
+            },
+            {
+                "id": "mAP RetinaNet (0.278)",
+                "type": "Metric",
+                "description": "Mean Average Precision of RetinaNet on the dataset."
+            },
+            {
+                "id": "AP on bicycle (0.001)",
+                "type": "Metric",
+                "description": "Average Precision for the bicycle class achieved by YOLOF."
+            },
+            {
+                "id": "Computer Science",
+                "type": "Domain",
+                "description": "The overarching field of research involving algorithms and data processing."
+            },
+            {
+                "id": "Traffic Engineering",
+                "type": "Domain",
+                "description": "The field focused on transport infrastructure and mobility management."
+            },
+            {
+                "id": "Truc Trinh",
+                "type": "Author",
+                "description": "Researcher at the University of Information Technology."
+            },
+            {
+                "id": "Khang Nguyen",
+                "type": "Author",
+                "description": "Corresponding author and researcher."
+            },
+            {
+                "id": "University of Information Technology, VNU-HCM",
+                "type": "Institution",
+                "description": "A member university of Vietnam National University, Ho Chi Minh City."
+            },
+            {
+                "id": "Vietnam National University, Ho Chi Minh City",
+                "type": "Institution",
+                "description": "A major public research university in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Truc Trinh",
+                "target": "University of Information Technology, VNU-HCM",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Khang Nguyen",
+                "target": "University of Information Technology, VNU-HCM",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Khang Nguyen",
+                "target": "Vietnam National University, Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vehicle detection",
+                "target": "Traffic Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "YOLOX",
+                "target": "ACHIEVED",
+                "type": "Processing speed YOLOX (25.1 fps)"
+            },
+            {
+                "source": "YOLOX",
+                "target": "ACHIEVED",
+                "type": "mAP YOLOX (0.175)"
+            },
+            {
+                "source": "YOLOF",
+                "target": "ACHIEVED",
+                "type": "mAP YOLOF (0.306)"
+            },
+            {
+                "source": "YOLOF",
+                "target": "ACHIEVED",
+                "type": "Processing speed YOLOF (4.9 fps)"
+            },
+            {
+                "source": "YOLACT",
+                "target": "ACHIEVED",
+                "type": "mAP YOLACT (0.284)"
+            },
+            {
+                "source": "YOLACT",
+                "target": "ACHIEVED",
+                "type": "Processing speed YOLACT (6.4 fps)"
+            },
+            {
+                "source": "RetinaNet",
+                "target": "ACHIEVED",
+                "type": "mAP RetinaNet (0.278)"
+            },
+            {
+                "source": "YOLOX",
+                "target": "USED_FOR",
+                "type": "Vehicle detection"
+            },
+            {
+                "source": "YOLOF",
+                "target": "USED_FOR",
+                "type": "Vehicle detection"
+            },
+            {
+                "source": "YOLACT",
+                "target": "USED_FOR",
+                "type": "Vehicle detection"
+            },
+            {
+                "source": "YOLOX",
+                "target": "EVALUATED_ON",
+                "type": "UIT-VinaDeveS22"
+            },
+            {
+                "source": "YOLOF",
+                "target": "EVALUATED_ON",
+                "type": "UIT-VinaDeveS22"
+            },
+            {
+                "source": "YOLACT",
+                "target": "EVALUATED_ON",
+                "type": "UIT-VinaDeveS22"
+            }
+        ]
+    }
+}

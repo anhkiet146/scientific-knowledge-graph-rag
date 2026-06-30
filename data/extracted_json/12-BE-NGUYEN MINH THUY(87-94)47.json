@@ -1,0 +1,125 @@
+{
+    "filename": "12-BE-NGUYEN MINH THUY(87-94)47.json",
+    "paper_title": "STUDY ON FOLATE STABILITY DURING THERMAL PROCESSING",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Folate stability",
+                "type": "Concept",
+                "description": "The ability of folate to remain unchanged under various environmental conditions such as pH and temperature."
+            },
+            {
+                "id": "Thermal processing",
+                "type": "Concept",
+                "description": "The use of heat to treat substances, specifically looking at its effect on folate degradation."
+            },
+            {
+                "id": "First-order reaction kinetics",
+                "type": "Concept",
+                "description": "A model describing the degradation of folates where the rate depends on the concentration of one reactant."
+            },
+            {
+                "id": "Reverse phase liquid chromatography",
+                "type": "Method",
+                "description": "An analytical technique used to measure residual folate concentration after thermal treatment."
+            },
+            {
+                "id": "AKTA purifier",
+                "type": "Method",
+                "description": "A specific HPLC machine used for folate identification and quantification."
+            },
+            {
+                "id": "Arrhenius equation",
+                "type": "Method",
+                "description": "A formula used to describe the temperature dependence of the degradation rate constant."
+            },
+            {
+                "id": "Spectrophotometer",
+                "type": "Method",
+                "description": "Equipment used to determine folate concentrations based on absorbance."
+            },
+            {
+                "id": "Sodium borate buffer (0.05 M, pH 9.2)",
+                "type": "Method",
+                "description": "A chemical solution used in the preparation of folate stock solutions."
+            },
+            {
+                "id": "Food Science",
+                "type": "Domain",
+                "description": "The study of the physical, biological, and chemical makeup of food."
+            },
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "Primary author of the research paper."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the research was conducted."
+            },
+            {
+                "id": "pH range (3 to 9)",
+                "type": "Metric",
+                "description": "The range of acidity or alkalinity levels studied."
+            },
+            {
+                "id": "Temperature range (65 to 140°C)",
+                "type": "Metric",
+                "description": "The range of thermal treatments applied to the samples."
+            },
+            {
+                "id": "Correlation coefficient (r2 > 0.99)",
+                "type": "Metric",
+                "description": "The statistical measure of the strength of the relationship between variables in the standard curves."
+            },
+            {
+                "id": "Ea of PteGlu at pH 3.4 (71.22 kJ/mol)",
+                "type": "Metric",
+                "description": "Activation energy value for folic acid at an acidic pH."
+            },
+            {
+                "id": "Ea of 5-CHOH4PteGlu at pH 9.2 (47.18 kJ/mol)",
+                "type": "Metric",
+                "description": "Activation energy value for 5-formyltetrahydrofolic acid at an alkaline pH."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Reverse phase liquid chromatography",
+                "target": "Folate stability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Arrhenius equation",
+                "target": "Thermal processing",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "AKTA purifier",
+                "target": "Correlation coefficient (r2 > 0.99)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Arrhenius equation",
+                "target": "Ea of PteGlu at pH 3.4 (71.22 kJ/mol)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Arrhenius equation",
+                "target": "Ea of 5-CHOH4PteGlu at pH 9.2 (47.18 kJ/mol)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Folate stability",
+                "target": "Food Science",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

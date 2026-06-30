@@ -1,0 +1,155 @@
+{
+  "filename": "10-ET-NGUYEN THI HONG(81-87)041.json",
+  "paper_title": "Study on extraction behavior of vanadium from acidic sulfate solutions",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thi Hong Nam",
+        "type": "Author",
+        "description": "The primary author of the study."
+      },
+      {
+        "id": "Huynh Huu Hau",
+        "type": "Author",
+        "description": "A contributing author from Can Tho University."
+      },
+      {
+        "id": "Truong Ngoc Quynh Giao",
+        "type": "Author",
+        "description": "A contributing author from Can Tho University."
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "Solvent Extraction",
+        "type": "Domain",
+        "description": "The primary research field focusing on separating compounds using solvents."
+      },
+      {
+        "id": "Hydrometallurgy",
+        "type": "Domain",
+        "description": "The field involving the recovery of metals from ores and secondary sources using aqueous chemistry."
+      },
+      {
+        "id": "Extraction behavior of vanadium",
+        "type": "Concept",
+        "description": "The study of how vanadium (V(V)) reacts and separates in specific chemical environments."
+      },
+      {
+        "id": "Vanadium recovery from secondary sources",
+        "type": "Concept",
+        "description": "The broader goal of reclaiming vanadium from industrial waste and by-products."
+      },
+      {
+        "id": "Trioctylamine (TOA)",
+        "type": "Method",
+        "description": "A basic extractant used to recover vanadium from acidic solutions."
+      },
+      {
+        "id": "Solvent extraction method",
+        "type": "Method",
+        "description": "The process of using organic and aqueous phases to separate metals."
+      },
+      {
+        "id": "NaOH solution (0.5 M)",
+        "type": "Method",
+        "description": "A stripping reagent used to remove vanadium from the loaded extractant."
+      },
+      {
+        "id": "Ultraviolet spectrophotometer (UV730)",
+        "type": "Method",
+        "description": "Equipment used to measure vanadium concentration in solutions."
+      },
+      {
+        "id": "pH meter (Orion Star A211)",
+        "type": "Method",
+        "description": "Device used to determine the acidity of the aqueous phase."
+      },
+      {
+        "id": "Optimum pH (2.5)",
+        "type": "Metric",
+        "description": "The ideal acidity level for maximizing vanadium extraction efficiency."
+      },
+      {
+        "id": "Optimum TOA concentration (0.005 M)",
+        "type": "Metric",
+        "description": "The ideal extractant concentration for efficient vanadium recovery."
+      },
+      {
+        "id": "Stripping percentage (99.8%)",
+        "type": "Metric",
+        "description": "The measurement of vanadium completely removed from loaded TOA using 0.5 M NaOH."
+      },
+      {
+        "id": "Extraction percentage (20 to 83%)",
+        "type": "Metric",
+        "description": "The range of vanadium extracted across pH values 0.7 to 2.7."
+      },
+      {
+        "id": "Linear regression R2 (0.9994)",
+        "type": "Metric",
+        "description": "The statistical indicator of the calibration curve accuracy."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Thi Hong Nam",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Huu Hau",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Ngoc Quynh Giao",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Solvent extraction method",
+        "target": "Solvent Extraction",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Trioctylamine (TOA)",
+        "target": "Extraction behavior of vanadium",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Trioctylamine (TOA)",
+        "target": "Optimum pH (2.5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Trioctylamine (TOA)",
+        "target": "Optimum TOA concentration (0.005 M)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Solvent extraction method",
+        "target": "Extraction percentage (20 to 83%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NaOH solution (0.5 M)",
+        "target": "Stripping percentage (99.8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ultraviolet spectrophotometer (UV730)",
+        "target": "Linear regression R2 (0.9994)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Trioctylamine (TOA)",
+        "target": "Vanadium recovery from secondary sources",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

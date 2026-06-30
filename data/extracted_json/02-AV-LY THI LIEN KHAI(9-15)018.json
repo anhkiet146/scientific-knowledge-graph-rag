@@ -1,0 +1,155 @@
+{
+    "filename": "02-AV-LY THI LIEN KHAI(9-15)018.json",
+    "paper_title": "Study on effectiveness of activated charcoal and wood vinegar on prevention of piglet diarrhea",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ly Thi Lien Khai",
+                "type": "Author",
+                "description": "Lead author and corresponding author of the study."
+            },
+            {
+                "id": "Ngo Trong Nghia",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Hideki Hayashidani",
+                "type": "Author",
+                "description": "Co-author from Tokyo University of Agriculture and Technology."
+            },
+            {
+                "id": "College of Agriculture, Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Vietnam."
+            },
+            {
+                "id": "Faculty of Agriculture, Tokyo University of Agriculture and Technology",
+                "type": "Institution",
+                "description": "Educational and research institution in Japan."
+            },
+            {
+                "id": "Veterinary Science",
+                "type": "Domain",
+                "description": "The branch of medicine that deals with the prevention, control, diagnosis, and treatment of disease, disorder, and injury in animals."
+            },
+            {
+                "id": "Piglet diarrhea",
+                "type": "Concept",
+                "description": "A common digestive disease in suckling and post-weaning pigs causing economic losses."
+            },
+            {
+                "id": "Antibiotic resistance",
+                "type": "Concept",
+                "description": "The ability of microorganisms like E. coli to resist the effects of an antibiotic."
+            },
+            {
+                "id": "Activated charcoal",
+                "type": "Method",
+                "description": "A material used for absorption of harmful bacteria and toxins in the digestive tract."
+            },
+            {
+                "id": "Wood vinegar",
+                "type": "Method",
+                "description": "An organic acidifier used for digestive sterilization and stimulating useful microbes."
+            },
+            {
+                "id": "Minitab 16.0",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Statistical Analysis (Chi-square and General Linear Model)",
+                "type": "Method",
+                "description": "Mathematical methods used to analyze experimental data."
+            },
+            {
+                "id": "Survey data of 443 piglets",
+                "type": "Dataset",
+                "description": "Digital records and observations from 217 suckling piglets and 226 post-weaning pigs."
+            },
+            {
+                "id": "Average ratio of diarrhea in suckling pigs (7.37%)",
+                "type": "Metric",
+                "description": "Measurement of diarrhea frequency in the experimental suckling group."
+            },
+            {
+                "id": "Average ratio of diarrhea in post weaning pigs (1.32%)",
+                "type": "Metric",
+                "description": "Measurement of diarrhea frequency in the experimental post-weaning group."
+            },
+            {
+                "id": "Feed conversion ratio (1.474)",
+                "type": "Metric",
+                "description": "Efficiency measure of how well the piglets convert feed into body mass."
+            },
+            {
+                "id": "Weight gain at 60 days old (16.827kg)",
+                "type": "Metric",
+                "description": "Average body weight reached by piglets in the experimental group."
+            },
+            {
+                "id": "Income increase (124%)",
+                "type": "Metric",
+                "description": "Percentage growth in farmer profit compared to the control group."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ly Thi Lien Khai",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Trong Nghia",
+                "target": "College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hideki Hayashidani",
+                "target": "Faculty of Agriculture, Tokyo University of Agriculture and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Activated charcoal",
+                "target": "Piglet diarrhea",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Wood vinegar",
+                "target": "Piglet diarrhea",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Activated charcoal",
+                "target": "Average ratio of diarrhea in suckling pigs (7.37%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Wood vinegar",
+                "target": "Average ratio of diarrhea in post weaning pigs (1.32%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Activated charcoal",
+                "target": "Income increase (124%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Activated charcoal",
+                "target": "Survey data of 443 piglets",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Wood vinegar",
+                "target": "Survey data of 443 piglets",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Study on effectiveness of activated charcoal and wood vinegar on prevention of piglet diarrhea",
+                "target": "Veterinary Science",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

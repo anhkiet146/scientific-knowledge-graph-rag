@@ -1,0 +1,185 @@
+{
+    "filename": "01-497-A-LUONG HUYNH VU THANH(1-10)014.json",
+    "paper_title": "Synthesis and application of Fe3O4/GO/PVP composite material for methylene blue adsorption",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Applied Chemistry",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu hóa học ứng dụng và xử lý nước thải"
+            },
+            {
+                "id": "Luong Huynh Vu Thanh",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ"
+            },
+            {
+                "id": "Nguyen Thi Nhu Y",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Kỹ thuật - Công nghệ Cần Thơ"
+            },
+            {
+                "id": "Nguyen Van Kiet",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Kỹ thuật - Công nghệ Cần Thơ"
+            },
+            {
+                "id": "Ngo Truong Ngoc Mai",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ"
+            },
+            {
+                "id": "Nguyen Nhu Ngoc",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ"
+            },
+            {
+                "id": "Ly Phuong Thao",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Đại học Cần Thơ, Việt Nam"
+            },
+            {
+                "id": "Can Tho University of Technology",
+                "type": "Institution",
+                "description": "Đại học Kỹ thuật - Công nghệ Cần Thơ, Việt Nam"
+            },
+            {
+                "id": "Methylene blue adsorption",
+                "type": "Concept",
+                "description": "Quá trình hấp phụ xanh methylene để xử lý nước thải"
+            },
+            {
+                "id": "Fe3O4/GO/PVP",
+                "type": "Method",
+                "description": "Vật liệu composite từ oxit sắt từ, graphene oxide và polyvinylpyrrolidone"
+            },
+            {
+                "id": "Hummer’s method",
+                "type": "Method",
+                "description": "Phương pháp tổng hợp Graphene Oxide từ pin thải"
+            },
+            {
+                "id": "Chemical coprecipitation method",
+                "type": "Method",
+                "description": "Phương pháp đồng kết tủa hóa học để chế tạo Fe3O4/GO"
+            },
+            {
+                "id": "XRD",
+                "type": "Method",
+                "description": "Kỹ thuật nhiễu xạ tia X để xác định cấu trúc vật liệu"
+            },
+            {
+                "id": "FT-IR",
+                "type": "Method",
+                "description": "Phổ hồng ngoại biến đổi Fourier"
+            },
+            {
+                "id": "BET",
+                "type": "Method",
+                "description": "Phương pháp đo diện tích bề mặt cụ thể"
+            },
+            {
+                "id": "JCPDS No.65-3107",
+                "type": "Dataset",
+                "description": "Cơ sở dữ liệu tiêu chuẩn cho các mẫu nhiễu xạ tia X"
+            },
+            {
+                "id": "Specific surface area of FGP-3 (70.0 m2.g-1)",
+                "type": "Metric",
+                "description": "Diện tích bề mặt riêng của mẫu FGP-3"
+            },
+            {
+                "id": "Maximum capacity qmax (30.4 mg.g-1)",
+                "type": "Metric",
+                "description": "Khả năng hấp phụ tối đa của vật liệu"
+            },
+            {
+                "id": "Highest efficiency (91.8%)",
+                "type": "Metric",
+                "description": "Hiệu suất hấp phụ MB cao nhất đạt được"
+            },
+            {
+                "id": "pH (10.5)",
+                "type": "Metric",
+                "description": "Giá trị pH tối ưu cho quá trình hấp phụ"
+            },
+            {
+                "id": "R2 (0.9925)",
+                "type": "Metric",
+                "description": "Hệ số tương quan cho mô hình động học bậc 2"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Synthesis and application of Fe3O4/GO/PVP composite material for methylene blue adsorption",
+                "target": "Applied Chemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Luong Huynh Vu Thanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Truong Ngoc Mai",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Nhu Ngoc",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ly Phuong Thao",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Nhu Y",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Kiet",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Fe3O4/GO/PVP",
+                "target": "Methylene blue adsorption",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hummer’s method",
+                "target": "Methylene blue adsorption",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fe3O4/GO/PVP",
+                "target": "Specific surface area of FGP-3 (70.0 m2.g-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fe3O4/GO/PVP",
+                "target": "Maximum capacity qmax (30.4 mg.g-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fe3O4/GO/PVP",
+                "target": "Highest efficiency (91.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "XRD",
+                "target": "JCPDS No.65-3107",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

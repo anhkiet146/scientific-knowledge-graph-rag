@@ -1,0 +1,170 @@
+{
+  "filename": "01-AG-DINH THI CHI(1-6)017.json",
+  "paper_title": "Synthesis and field examinations of the sex pheromone of the diamondback moth, Plutella xylostella Linnaeus (Lepidoptera: Plutellidae) in the Mekong Delta of Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Dinh Thi Chi",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Le Van Vang",
+        "type": "Author",
+        "description": "Author of the research paper and correspondence"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Department of Plant Protection, College of Agriculture and Applied Biology"
+      },
+      {
+        "id": "Soc Trang Community College",
+        "type": "Institution",
+        "description": "Department of Plant Protection"
+      },
+      {
+        "id": "Plant Protection",
+        "type": "Domain",
+        "description": "Main field of research focused on protecting crops from pests"
+      },
+      {
+        "id": "Sustainable management of diamondback moth",
+        "type": "Concept",
+        "description": "Research problem regarding the control of Plutella xylostella"
+      },
+      {
+        "id": "Sex pheromone synthesis",
+        "type": "Concept",
+        "description": "The chemical creation of attractants for pest monitoring"
+      },
+      {
+        "id": "Wittig reaction",
+        "type": "Method",
+        "description": "Key chemical reaction step used for constructing the C16 chain skeleton"
+      },
+      {
+        "id": "Pyridinium chlorochromate (PCC) oxidation",
+        "type": "Method",
+        "description": "Chemical process to convert alcohol to aldehyde"
+      },
+      {
+        "id": "Acetylation",
+        "type": "Method",
+        "description": "Chemical process to produce Z11-16:OAc from Z11-16:OH"
+      },
+      {
+        "id": "(Z)-11-hexadecenal (Z11-16:Ald)",
+        "type": "Method",
+        "description": "Sex pheromone component synthesized"
+      },
+      {
+        "id": "(Z)-11-hexadecenyl acetate (Z11-16:OAc)",
+        "type": "Method",
+        "description": "Sex pheromone component synthesized"
+      },
+      {
+        "id": "(Z)-11-hexadecen-1-ol (Z11-16:OH)",
+        "type": "Method",
+        "description": "Sex pheromone component synthesized"
+      },
+      {
+        "id": "11-bromo-1-undecanol",
+        "type": "Method",
+        "description": "Starting chemical material for synthesis"
+      },
+      {
+        "id": "Field examination",
+        "type": "Method",
+        "description": "Testing synthetic pheromones in cabbage fields"
+      },
+      {
+        "id": "Arthropod Pesticide Resistance Database",
+        "type": "Dataset",
+        "description": "Digital database containing insecticide resistance information"
+      },
+      {
+        "id": "Geometric purity (>96%)",
+        "type": "Metric",
+        "description": "The purity of the synthesized Z-isomer"
+      },
+      {
+        "id": "Overall yield (42.9%)",
+        "type": "Metric",
+        "description": "Total efficiency of the four-step synthetic route"
+      },
+      {
+        "id": "MOM ether yield (86.6%)",
+        "type": "Metric",
+        "description": "Yield of the protection step"
+      },
+      {
+        "id": "Z11-16:OH yield (70.8%)",
+        "type": "Metric",
+        "description": "Yield of the deprotection step"
+      },
+      {
+        "id": "Z11-16:Ald yield (90.4%)",
+        "type": "Metric",
+        "description": "Yield of the PCC oxidation step"
+      },
+      {
+        "id": "Z11-16:OAc yield (71.4%)",
+        "type": "Metric",
+        "description": "Yield of the acetylation step"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Dinh Thi Chi",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dinh Thi Chi",
+        "target": "Soc Trang Community College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Van Vang",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Synthesis and field examinations of the sex pheromone of the diamondback moth",
+        "target": "Plant Protection",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Wittig reaction",
+        "target": "Geometric purity (>96%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Wittig reaction",
+        "target": "Overall yield (42.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Wittig reaction",
+        "target": "Sex pheromone synthesis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pyridinium chlorochromate (PCC) oxidation",
+        "target": "Z11-16:Ald yield (90.4%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Acetylation",
+        "target": "Z11-16:OAc yield (71.4%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Field examination",
+        "target": "Sustainable management of diamondback moth",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

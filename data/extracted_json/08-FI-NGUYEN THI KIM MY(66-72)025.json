@@ -1,0 +1,185 @@
+{
+    "filename": "08-FI-NGUYEN THI KIM MY(66-72)025.json",
+    "paper_title": "Effect of sodium chloride and temperature on biofilm formation and virulence of Flavobacterium columnare isolated from striped catfish (Pangasianodon hypophthalmus)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The main field of research focusing on the cultivation of aquatic organisms."
+            },
+            {
+                "id": "Biofilm formation",
+                "type": "Concept",
+                "description": "The process by which microorganisms attach to and grow on a surface."
+            },
+            {
+                "id": "Virulence of Flavobacterium columnare",
+                "type": "Concept",
+                "description": "The severity or harmfulness of the F. columnare pathogen in striped catfish."
+            },
+            {
+                "id": "Columnaris disease",
+                "type": "Concept",
+                "description": "A common bacterial disease in fish caused by Flavobacterium columnare."
+            },
+            {
+                "id": "Nguyen Thi Kim My",
+                "type": "Author",
+                "description": "Lead author of the study."
+            },
+            {
+                "id": "Tu Thanh Dung",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University."
+            },
+            {
+                "id": "Dong Thanh Ha",
+                "type": "Author",
+                "description": "Co-author affiliated with Chulalongkorn University."
+            },
+            {
+                "id": "Channarong Rodkhum",
+                "type": "Author",
+                "description": "Co-author affiliated with Chulalongkorn University."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Faculty of Veterinary Science, Chulalongkorn University",
+                "type": "Institution",
+                "description": "Academic institution in Thailand."
+            },
+            {
+                "id": "Microtiter plate assay",
+                "type": "Method",
+                "description": "A method used to quantify biofilm formation in vitro."
+            },
+            {
+                "id": "In vivo challenge (immersion method)",
+                "type": "Method",
+                "description": "A process of exposing live fish to bacteria via water to test virulence."
+            },
+            {
+                "id": "PCR method",
+                "type": "Method",
+                "description": "Polymerase chain reaction used for identifying the bacterial strain."
+            },
+            {
+                "id": "Anacker and Ordal (AO) broth",
+                "type": "Method",
+                "description": "The culture medium used for growing F. columnare."
+            },
+            {
+                "id": "Crystal violet staining",
+                "type": "Method",
+                "description": "A staining procedure used to detect and visualize biofilms."
+            },
+            {
+                "id": "OD570 value at 0 ppt (0.217)",
+                "type": "Metric",
+                "description": "Highest biofilm formation measured at 0 ppt salinity."
+            },
+            {
+                "id": "OD570 value at 3 ppt (0.106)",
+                "type": "Metric",
+                "description": "Reduced biofilm formation measured at 3 ppt salinity."
+            },
+            {
+                "id": "OD570 value at 35°C (0.139)",
+                "type": "Metric",
+                "description": "Greatly inhibited biofilm formation at high temperature."
+            },
+            {
+                "id": "Fish mortality at 0 ppt (100%)",
+                "type": "Metric",
+                "description": "Complete mortality of fish at 0 ppt salinity challenge."
+            },
+            {
+                "id": "Fish mortality at 3 ppt (10%)",
+                "type": "Metric",
+                "description": "Reduced fish mortality at 3 ppt salinity challenge."
+            },
+            {
+                "id": "Fish mortality at 9-15 ppt (0%)",
+                "type": "Metric",
+                "description": "No fish mortality observed at high salinities."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effect of sodium chloride and temperature on biofilm formation and virulence of Flavobacterium columnare",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Kim My",
+                "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tu Thanh Dung",
+                "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dong Thanh Ha",
+                "target": "Faculty of Veterinary Science, Chulalongkorn University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Channarong Rodkhum",
+                "target": "Faculty of Veterinary Science, Chulalongkorn University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Microtiter plate assay",
+                "target": "Biofilm formation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "In vivo challenge (immersion method)",
+                "target": "Virulence of Flavobacterium columnare",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PCR method",
+                "target": "Virulence of Flavobacterium columnare",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Microtiter plate assay",
+                "target": "OD570 value at 0 ppt (0.217)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Microtiter plate assay",
+                "target": "OD570 value at 3 ppt (0.106)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Microtiter plate assay",
+                "target": "OD570 value at 35°C (0.139)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "In vivo challenge (immersion method)",
+                "target": "Fish mortality at 0 ppt (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "In vivo challenge (immersion method)",
+                "target": "Fish mortality at 3 ppt (10%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "In vivo challenge (immersion method)",
+                "target": "Fish mortality at 9-15 ppt (0%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "filename": "12-797-LUONG VINH QUOC DANH(83-93)285.json",
+    "paper_title": "Applications of IoT technology for climate change adaptation in the Mekong Delta",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Luong Vinh Quoc Danh",
+                "type": "Author",
+                "description": "The primary author of the research paper."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The institution affiliated with the author, specifically the Faculty of Electronics and Telecommunications."
+            },
+            {
+                "id": "Internet of Things",
+                "type": "Domain",
+                "description": "The main technological domain of the research."
+            },
+            {
+                "id": "Climate Change Adaptation",
+                "type": "Domain",
+                "description": "The application field focused on adapting to environmental changes in the Mekong Delta."
+            },
+            {
+                "id": "IoT technology",
+                "type": "Method",
+                "description": "A system of physical objects with sensors, software, and networking for smart solutions."
+            },
+            {
+                "id": "AWD watering",
+                "type": "Method",
+                "description": "Alternating wet-and-dry watering, a water-saving rice farming technique."
+            },
+            {
+                "id": "SCL3300 inclinometer",
+                "type": "Method",
+                "description": "A sensor unit used for measuring the inclination of soil mass."
+            },
+            {
+                "id": "Kyowa BED-A-200KP transducers",
+                "type": "Method",
+                "description": "Pressure transducers used to monitor soil mechanical parameters."
+            },
+            {
+                "id": "Cloud server",
+                "type": "Method",
+                "description": "A central unit for storing and managing environmental data from sensor nodes."
+            },
+            {
+                "id": "Rice cultivation",
+                "type": "Concept",
+                "description": "The process of growing rice, targeted for efficiency improvements using IoT."
+            },
+            {
+                "id": "Aquaculture",
+                "type": "Concept",
+                "description": "The farming of aquatic organisms like fish and shrimp in the Mekong Delta."
+            },
+            {
+                "id": "Riverbank landslide early warning",
+                "type": "Concept",
+                "description": "The development of systems to predict and alert about landslide risks."
+            },
+            {
+                "id": "Saltwater intrusion",
+                "type": "Concept",
+                "description": "One of the climate change impacts affecting the Mekong Delta's water source."
+            },
+            {
+                "id": "Soil cohesion (8.1 kPa)",
+                "type": "Metric",
+                "description": "Measurement of the sticking together of soil particles."
+            },
+            {
+                "id": "Generic friction angle (3°16')",
+                "type": "Metric",
+                "description": "A parameter representing the shear strength of the soil."
+            },
+            {
+                "id": "Bulk unit weight (1.571g/cm3)",
+                "type": "Metric",
+                "description": "The weight per unit volume of the soil in the test area."
+            },
+            {
+                "id": "Void ratio (1.808)",
+                "type": "Metric",
+                "description": "The ratio of the volume of voids to the volume of solids in the soil."
+            },
+            {
+                "id": "Landslide collapse load (17.5 kPa)",
+                "type": "Metric",
+                "description": "The specific load value at which the slope collapsed during the simulation."
+            },
+            {
+                "id": "System latency (10 seconds)",
+                "type": "Metric",
+                "description": "The delay in data processing and transmission of the IoT system compared to professional instruments."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Applications of IoT technology for climate change adaptation in the Mekong Delta",
+                "target": "Internet of Things",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Applications of IoT technology for climate change adaptation in the Mekong Delta",
+                "target": "Climate Change Adaptation",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Luong Vinh Quoc Danh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "IoT technology",
+                "target": "Climate Change Adaptation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "AWD watering",
+                "target": "Rice cultivation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "IoT technology",
+                "target": "Aquaculture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SCL3300 inclinometer",
+                "target": "Riverbank landslide early warning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Kyowa BED-A-200KP transducers",
+                "target": "Riverbank landslide early warning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "IoT technology",
+                "target": "System latency (10 seconds)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "IoT technology",
+                "target": "Landslide collapse load (17.5 kPa)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

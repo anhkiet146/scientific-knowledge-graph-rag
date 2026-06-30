@@ -1,0 +1,145 @@
+{
+    "filename": "10-FI-NGUYEN THI NGOC ANH(65-71)026.json",
+    "paper_title": "Effects of partial replacement of fishmeal protein by protein extracted from green seaweed (Cladophoraceae) in mudskipper (Pseudapocryptes elongatus) diets",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The primary research field of the paper concerning fish farming and nutrition."
+            },
+            {
+                "id": "Nguyen Thi Ngoc Anh",
+                "type": "Author",
+                "description": "Author from College of Aquaculture and Fisheries, Can Tho University."
+            },
+            {
+                "id": "Tran Ngoc Hai",
+                "type": "Author",
+                "description": "Author from College of Aquaculture and Fisheries, Can Tho University."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution where the research was conducted."
+            },
+            {
+                "id": "Replacement of fishmeal protein in mudskipper diets",
+                "type": "Concept",
+                "description": "The main research problem investigating alternative protein sources for Pseudapocryptes elongatus."
+            },
+            {
+                "id": "Protein extracted from green seaweed (Cladophoraceae)",
+                "type": "Method",
+                "description": "The experimental material used to replace fishmeal in the diets."
+            },
+            {
+                "id": "Fishmeal (FM)",
+                "type": "Method",
+                "description": "The traditional protein source used as a control in the diets."
+            },
+            {
+                "id": "Five isoenergetic and isonitrogenous test diets",
+                "type": "Method",
+                "description": "The experimental dietary formulations with varying replacement levels (0, 15, 30, 45, and 60%)."
+            },
+            {
+                "id": "One-way ANOVA",
+                "type": "Method",
+                "description": "Statistical method used to analyze differences among treatments."
+            },
+            {
+                "id": "AOAC (2000) standard methods",
+                "type": "Method",
+                "description": "Analytical procedures used for proximate composition analysis."
+            },
+            {
+                "id": "Experimental growth and composition data (Tables 1-6)",
+                "type": "Dataset",
+                "description": "The recorded numerical data on growth, feed intake, and body composition presented in the paper's tables."
+            },
+            {
+                "id": "Survival rate (91.1-94.4%)",
+                "type": "Metric",
+                "description": "Percentage of fish that survived the 45-day culture period."
+            },
+            {
+                "id": "Final individual weight (2.28-3.11 g)",
+                "type": "Metric",
+                "description": "The weight of the fish at the end of the experiment."
+            },
+            {
+                "id": "Feed conversion ratio (1.42-1.90)",
+                "type": "Metric",
+                "description": "The efficiency of feed being converted into body mass."
+            },
+            {
+                "id": "Protein efficiency ratio (1.74-2.30)",
+                "type": "Metric",
+                "description": "The measure of protein quality based on weight gain."
+            },
+            {
+                "id": "Water temperature (26.4-29.0 °C)",
+                "type": "Metric",
+                "description": "Daily environmental measurement in the culture tanks."
+            },
+            {
+                "id": "pH (7.4-7.9)",
+                "type": "Metric",
+                "description": "Daily acidity/alkalinity measurement of the tank water."
+            },
+            {
+                "id": "Fillet protein content (63.9-66.6%)",
+                "type": "Metric",
+                "description": "Proximate composition of fish muscle after feeding trials."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effects of partial replacement of fishmeal protein by protein extracted from green seaweed (Cladophoraceae) in mudskipper (Pseudapocryptes elongatus) diets",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Ngoc Anh",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Ngoc Hai",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Protein extracted from green seaweed (Cladophoraceae)",
+                "target": "Replacement of fishmeal protein in mudskipper diets",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Five isoenergetic and isonitrogenous test diets",
+                "target": "Survival rate (91.1-94.4%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Five isoenergetic and isonitrogenous test diets",
+                "target": "Feed conversion ratio (1.42-1.90)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Five isoenergetic and isonitrogenous test diets",
+                "target": "Protein efficiency ratio (1.74-2.30)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AOAC (2000) standard methods",
+                "target": "Fillet protein content (63.9-66.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "One-way ANOVA",
+                "target": "Experimental growth and composition data (Tables 1-6)",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "filename": "01-FI-NGUYEN THI NGOC ANH(1-9).json",
+    "paper_title": "EFFECT OF DIFFERENT DRYING METHODS ON TOTAL LIPID AND FATTY ACID PROFILES OF DRIED Artemia franciscana BIOMASS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính về nuôi trồng và chế biến thủy sản."
+            },
+            {
+                "id": "Nguyen Thi Ngoc Anh",
+                "type": "Author",
+                "description": "Tác giả chính của bài báo."
+            },
+            {
+                "id": "Nguyen Thuan Nhi",
+                "type": "Author",
+                "description": "Đồng tác giả bài báo."
+            },
+            {
+                "id": "Nguyen Van Hoa",
+                "type": "Author",
+                "description": "Đồng tác giả bài báo."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Cơ quan công tác của tác giả Nguyen Thi Ngoc Anh và Nguyen Van Hoa."
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Cơ quan công tác của tác giả Nguyen Thuan Nhi."
+            },
+            {
+                "id": "Preservation",
+                "type": "Concept",
+                "description": "Bảo quản sinh khối Artemia để duy trì chất lượng dinh dưỡng."
+            },
+            {
+                "id": "Total lipid and fatty acid profiles",
+                "type": "Concept",
+                "description": "Các chỉ số dinh dưỡng quan trọng trong Artemia bị ảnh hưởng bởi quá trình sấy."
+            },
+            {
+                "id": "Intermittent microwave combined with convective hot air drying (MWHA)",
+                "type": "Method",
+                "description": "Phương pháp sấy vi sóng ngắt quãng kết hợp với khí nóng đối lưu."
+            },
+            {
+                "id": "Convective hot air drying (HA)",
+                "type": "Method",
+                "description": "Phương pháp sấy bằng khí nóng đối lưu."
+            },
+            {
+                "id": "Oven drying",
+                "type": "Method",
+                "description": "Phương pháp sấy bằng lò sấy điện."
+            },
+            {
+                "id": "Outdoor sun drying",
+                "type": "Method",
+                "description": "Phương pháp phơi nắng ngoài trời."
+            },
+            {
+                "id": "Flame ionization detection (FID)",
+                "type": "Method",
+                "description": "Phương pháp phân tích thành phần axit béo."
+            },
+            {
+                "id": "Drying time for MWHA (57-74 min)",
+                "type": "Metric",
+                "description": "Thời gian sấy của phương pháp MWHA."
+            },
+            {
+                "id": "Drying time for HA (380-480 min)",
+                "type": "Metric",
+                "description": "Thời gian sấy của phương pháp HA."
+            },
+            {
+                "id": "Drying time for Oven drying (480-1320 min)",
+                "type": "Metric",
+                "description": "Thời gian sấy của phương pháp sấy lò."
+            },
+            {
+                "id": "Drying time for Sun drying (1380 min)",
+                "type": "Metric",
+                "description": "Thời gian sấy lâu nhất bằng phương pháp phơi nắng."
+            },
+            {
+                "id": "Total lipid of sun-dried biomass (9.82%)",
+                "type": "Metric",
+                "description": "Hàm lượng lipid tổng cộng sau khi phơi nắng."
+            },
+            {
+                "id": "Final moisture content (≤13%)",
+                "type": "Metric",
+                "description": "Độ ẩm cuối cùng đạt được sau các quy trình sấy."
+            },
+            {
+                "id": "n-3/n-6 ratio (1.8-2.2)",
+                "type": "Metric",
+                "description": "Tỷ lệ axit béo n-3 so với n-6 trong các mẫu sấy."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Ngoc Anh",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Hoa",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thuan Nhi",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "EFFECT OF DIFFERENT DRYING METHODS ON TOTAL LIPID AND FATTY ACID PROFILES OF DRIED Artemia franciscana BIOMASS",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Intermittent microwave combined with convective hot air drying (MWHA)",
+                "target": "Drying time (57-74 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Convective hot air drying (HA)",
+                "target": "Drying time (380-480 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Oven drying",
+                "target": "Drying time (480-1320 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Outdoor sun drying",
+                "target": "Drying time (1380 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Outdoor sun drying",
+                "target": "Total lipid of sun-dried biomass (9.82%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Intermittent microwave combined with convective hot air drying (MWHA)",
+                "target": "Preservation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Convective hot air drying (HA)",
+                "target": "Preservation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Oven drying",
+                "target": "Preservation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Outdoor sun drying",
+                "target": "Preservation",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

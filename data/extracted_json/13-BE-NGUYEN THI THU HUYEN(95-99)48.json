@@ -1,0 +1,120 @@
+{
+    "filename": "13-BE-NGUYEN THI THU HUYEN(95-99)48.json",
+    "paper_title": "PIG PRODUCTION AND RISK EXPOSURE: A CASE STUDY IN HUNG YEN, VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agricultural Economics",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về kinh tế nông nghiệp và sản xuất chăn nuôi."
+            },
+            {
+                "id": "Nguyen Thi Thu Huyen",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu từ Học viện Nông nghiệp Việt Nam."
+            },
+            {
+                "id": "Pham Van Hung",
+                "type": "Author",
+                "description": "Tác giả nghiên cứu từ Học viện Nông nghiệp Việt Nam."
+            },
+            {
+                "id": "Vietnam National University of Agriculture",
+                "type": "Institution",
+                "description": "Học viện Nông nghiệp Việt Nam, nơi công tác của các tác giả."
+            },
+            {
+                "id": "Pig production",
+                "type": "Concept",
+                "description": "Hoạt động chăn nuôi lợn và năng suất đi kèm."
+            },
+            {
+                "id": "Production risk",
+                "type": "Concept",
+                "description": "Rủi ro sản xuất bao gồm các yếu tố gây mất ổn định năng suất."
+            },
+            {
+                "id": "Downside risk",
+                "type": "Concept",
+                "description": "Rủi ro tiêu cực (các sự kiện xấu không mong đợi)."
+            },
+            {
+                "id": "Moment-based approach",
+                "type": "Method",
+                "description": "Phương pháp tiếp cận dựa trên các momen thống kê để phân tích rủi ro."
+            },
+            {
+                "id": "Cobb-Douglas production function",
+                "type": "Method",
+                "description": "Hàm sản xuất Cobb-Douglas dùng để phân tích năng suất và rủi ro."
+            },
+            {
+                "id": "ILRI-VNUA Survey Data 2013",
+                "type": "Dataset",
+                "description": "Dữ liệu khảo sát từ 180 hộ gia đình do ILRI và VNUA thực hiện năm 2013."
+            },
+            {
+                "id": "Average productivity (22 kg/head/month)",
+                "type": "Metric",
+                "description": "Năng suất trung bình của các hộ khảo sát."
+            },
+            {
+                "id": "Income contribution (> 65%)",
+                "type": "Metric",
+                "description": "Đóng góp của chăn nuôi lợn vào thu nhập của người chăn nuôi tại Hưng Yên."
+            },
+            {
+                "id": "Sample size (180 households)",
+                "type": "Metric",
+                "description": "Quy mô mẫu khảo sát."
+            },
+            {
+                "id": "Pork consumption 2005 (80%)",
+                "type": "Metric",
+                "description": "Tỷ lệ tiêu thụ thịt lợn trong tổng lượng thịt tiêu thụ năm 2005."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Thu Huyen",
+                "target": "Vietnam National University of Agriculture",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Van Hung",
+                "target": "Vietnam National University of Agriculture",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cobb-Douglas production function",
+                "target": "Pig production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Cobb-Douglas production function",
+                "target": "Production risk",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Moment-based approach",
+                "target": "Production risk",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Cobb-Douglas production function",
+                "target": "ILRI-VNUA Survey Data 2013",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Cobb-Douglas production function",
+                "target": "Average productivity (22 kg/head/month)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pig production",
+                "target": "Agricultural Economics",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

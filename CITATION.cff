@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: Scientific Knowledge Graph RAG
+message: If you use this repository, please cite it using the metadata below.
+type: software
+authors:
+  - family-names: Kiet
+    given-names: Anh
+repository-code: https://github.com/anhkiet146/scientific-knowledge-graph-rag
+version: 1.0.0
+date-released: 2026-06-30
+license: MIT
+

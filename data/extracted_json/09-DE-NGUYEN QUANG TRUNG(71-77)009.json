@@ -1,0 +1,160 @@
+{
+    "filename": "09-DE-NGUYEN QUANG TRUNG(71-77)009.json",
+    "paper_title": "Corporate cultural characteristics of startups in developed countries and recommendations for vietnamese small businesses",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Quang Trung",
+                "type": "Author",
+                "description": "The primary author of the research paper."
+            },
+            {
+                "id": "Hoa Sen University",
+                "type": "Institution",
+                "description": "The academic institution where the author is affiliated."
+            },
+            {
+                "id": "Business Administration",
+                "type": "Domain",
+                "description": "The main field of study involving corporate management and startups."
+            },
+            {
+                "id": "Corporate culture",
+                "type": "Concept",
+                "description": "The shared values, beliefs, and practices within an organization."
+            },
+            {
+                "id": "Startups",
+                "type": "Concept",
+                "description": "Innovation-driven enterprises in their early stages of development."
+            },
+            {
+                "id": "Digital economy",
+                "type": "Concept",
+                "description": "An economy based on digital computing technologies."
+            },
+            {
+                "id": "Competitive advantage",
+                "type": "Concept",
+                "description": "The attribute that allows an organization to outperform its competitors."
+            },
+            {
+                "id": "Literature review",
+                "type": "Method",
+                "description": "A comprehensive survey of existing research on tech startup culture."
+            },
+            {
+                "id": "Desk review",
+                "type": "Method",
+                "description": "A method used for initial assessment of secondary data and resources."
+            },
+            {
+                "id": "Comparative analysis",
+                "type": "Method",
+                "description": "Method of comparing different cultural characteristics across countries."
+            },
+            {
+                "id": "Systematic thinking",
+                "type": "Method",
+                "description": "An approach to clarify research significance and academic gaps."
+            },
+            {
+                "id": "Management by Values (MBV)",
+                "type": "Method",
+                "description": "A management method focused on development values and creativity."
+            },
+            {
+                "id": "5S-Visual Management",
+                "type": "Method",
+                "description": "A productivity tool for workplace organization and waste screening."
+            },
+            {
+                "id": "Kaizen",
+                "type": "Method",
+                "description": "A continuous improvement practice for productivity enhancement."
+            },
+            {
+                "id": "Secondary data (2000-2018)",
+                "type": "Dataset",
+                "description": "A collection of research papers and typical studies published between 2000 and 2018."
+            },
+            {
+                "id": "USA manufacturing companies data",
+                "type": "Dataset",
+                "description": "Data used by Shaker et al. (2004) to examine corporate cultural aspects."
+            },
+            {
+                "id": "Selected research papers (45 papers)",
+                "type": "Metric",
+                "description": "The number of high-quality research papers selected for analysis."
+            },
+            {
+                "id": "Sample size (536 companies)",
+                "type": "Metric",
+                "description": "The number of manufacturing companies examined in the US study."
+            },
+            {
+                "id": "Chinese ethnic ratio in Singapore (>76%)",
+                "type": "Metric",
+                "description": "The percentage of Chinese population influencing Singaporean startup culture."
+            },
+            {
+                "id": "Top Singaporean core values (12 values)",
+                "type": "Metric",
+                "description": "The number of core corporate values identified in Singaporean leadership interviews."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Corporate cultural characteristics of startups in developed countries and recommendations for vietnamese small businesses",
+                "target": "Business Administration",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Quang Trung",
+                "target": "Hoa Sen University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Literature review",
+                "target": "Corporate culture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Desk review",
+                "target": "Corporate culture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Comparative analysis",
+                "target": "Startups",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Literature review",
+                "target": "Secondary data (2000-2018)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Literature review",
+                "target": "Selected research papers (45 papers)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Comparative analysis",
+                "target": "Sample size (536 companies)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Desk review",
+                "target": "Chinese ethnic ratio in Singapore (>76%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Management by Values (MBV)",
+                "target": "Digital economy",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

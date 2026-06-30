@@ -1,0 +1,165 @@
+{
+    "filename": "02-E2-DUONG THI PHUONG LIEN(8-15)089.json",
+    "paper_title": "Changes in α-galactosidase activity and oligosaccharides during germination of soybean seeds",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính về nông nghiệp."
+            },
+            {
+                "id": "Duong Thi Phuong Lien",
+                "type": "Author",
+                "description": "Tác giả chính từ Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Phan Thi Bich Tram",
+                "type": "Author",
+                "description": "Đồng tác giả từ Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Trang Si Trung",
+                "type": "Author",
+                "description": "Tác giả từ Trường Đại học Nha Trang."
+            },
+            {
+                "id": "Ha Thanh Toan",
+                "type": "Author",
+                "description": "Tác giả từ Viện Nghiên cứu và Phát triển Công nghệ Sinh học, Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Cantho University",
+                "type": "Institution",
+                "description": "Khoa Nông nghiệp và Sinh học Ứng dụng, Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Faculty of Food Technology, Nha Trang University",
+                "type": "Institution",
+                "description": "Khoa Công nghệ Thực phẩm, Trường Đại học Nha Trang."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Cantho University",
+                "type": "Institution",
+                "description": "Viện Nghiên cứu và Phát triển Công nghệ Sinh học, Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Germination of soybean seeds",
+                "type": "Concept",
+                "description": "Quá trình nảy mầm của hạt đậu nành."
+            },
+            {
+                "id": "Flatulence reduction",
+                "type": "Concept",
+                "description": "Giảm tình trạng đầy hơi do oligosaccharides không tiêu hóa được."
+            },
+            {
+                "id": "Alpha-galactosidase activity",
+                "type": "Concept",
+                "description": "Hoạt động của enzyme thủy phân các liên kết alpha-1,6."
+            },
+            {
+                "id": "Thin layer chromatography (TLC)",
+                "type": "Method",
+                "description": "Sắc ký lớp mỏng dùng để xác định các loại đường."
+            },
+            {
+                "id": "Nitro salicylic acid reaction",
+                "type": "Method",
+                "description": "Phản ứng hóa học để xác định hàm lượng đường khử."
+            },
+            {
+                "id": "First order exponential equation",
+                "type": "Method",
+                "description": "Phương trình toán học mô tả sự phân hủy các thành phần."
+            },
+            {
+                "id": "Rho-nitrophenyl-alpha-D-galactopyranoside (pNPGal)",
+                "type": "Method",
+                "description": "Cơ chất tổng hợp dùng để theo dõi hoạt độ enzyme."
+            },
+            {
+                "id": "Maximum alpha-galactosidase activity (164.3±2.5 U/100g, db)",
+                "type": "Metric",
+                "description": "Giá trị hoạt độ enzyme cực đại đạt được sau 12 giờ nảy mầm."
+            },
+            {
+                "id": "Raffinose loss (79.6%)",
+                "type": "Metric",
+                "description": "Tỷ lệ hao hụt raffinose sau 72 giờ nảy mầm."
+            },
+            {
+                "id": "Stachyose loss (75.8%)",
+                "type": "Metric",
+                "description": "Tỷ lệ hao hụt stachyose sau 72 giờ nảy mầm."
+            },
+            {
+                "id": "Correlation coefficient (R2 = 0.97-0.99)",
+                "type": "Metric",
+                "description": "Hệ số tương quan của mô hình toán học."
+            },
+            {
+                "id": "Reducing sugars increase (2.1 times)",
+                "type": "Metric",
+                "description": "Mức tăng hàm lượng đường khử so với hạt chưa nảy mầm."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Changes in α-galactosidase activity and oligosaccharides during germination of soybean seeds",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Duong Thi Phuong Lien",
+                "target": "College of Agriculture and Applied Biology, Cantho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Thi Bich Tram",
+                "target": "College of Agriculture and Applied Biology, Cantho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Trang Si Trung",
+                "target": "Faculty of Food Technology, Nha Trang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ha Thanh Toan",
+                "target": "Biotechnology Research and Development Institute, Cantho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Germination of soybean seeds",
+                "target": "Maximum alpha-galactosidase activity (164.3±2.5 U/100g, db)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Germination of soybean seeds",
+                "target": "Raffinose loss (79.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Germination of soybean seeds",
+                "target": "Stachyose loss (75.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "First order exponential equation",
+                "target": "Correlation coefficient (R2 = 0.97-0.99)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Thin layer chromatography (TLC)",
+                "target": "Alpha-galactosidase activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "First order exponential equation",
+                "target": "Flatulence reduction",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

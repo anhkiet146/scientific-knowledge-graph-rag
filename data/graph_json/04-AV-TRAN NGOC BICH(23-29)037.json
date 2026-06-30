@@ -1,0 +1,175 @@
+{
+  "filename": "04-AV-TRAN NGOC BICH(23-29)037.json",
+  "paper_title": "Effects of β-glucan and vitamin products supplementation into diets on growth performance of growing-finishing pigs in Ben Tre province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Effects of β-glucan and vitamin products supplementation into diets on growth performance of growing-finishing pigs in Ben Tre province",
+        "type": "Concept",
+        "description": "The main research topic investigating feed supplements for pigs."
+      },
+      {
+        "id": "Animal Husbandry",
+        "type": "Domain",
+        "description": "The primary field of research concerning livestock and nutrition."
+      },
+      {
+        "id": "Growth Performance",
+        "type": "Concept",
+        "description": "The evaluation of weight gain, feed intake, and efficiency in livestock."
+      },
+      {
+        "id": "β-glucan supplementation",
+        "type": "Method",
+        "description": "Addition of β-glucan (2.0 g/kg feed) into the pig diet to improve growth and immunity."
+      },
+      {
+        "id": "Vitamin supplementation",
+        "type": "Method",
+        "description": "Addition of vitamin products (4.0 g/kg feed) including A, D3, E, and B-complex into the pig diet."
+      },
+      {
+        "id": "Basal diet (BD)",
+        "type": "Method",
+        "description": "The standard compound feed used as a control in the experiment."
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "Experimental setup involving 3 treatments and 4 replications."
+      },
+      {
+        "id": "Minitab Statistical Software version 16.0",
+        "type": "Method",
+        "description": "Software used for ANOVA and Tukey statistical tests."
+      },
+      {
+        "id": "Tran Ngoc Bich",
+        "type": "Author",
+        "description": "Lead author and correspondence from Can Tho University."
+      },
+      {
+        "id": "Le Quang Trung",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Dang Thi Ngoc Truc",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Truong Van Hieu",
+        "type": "Author",
+        "description": "Co-author from Tra Vinh University."
+      },
+      {
+        "id": "Nguyen Thi Kim Quyen",
+        "type": "Author",
+        "description": "Co-author from Tra Vinh University."
+      },
+      {
+        "id": "Ngo Hoang Khanh",
+        "type": "Author",
+        "description": "Co-author from Center of High-tech Application in Agriculture."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Department of Veterinary Medicine, College of Agriculture, Viet Nam."
+      },
+      {
+        "id": "Tra Vinh University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam specializing in climate change and aquaculture."
+      },
+      {
+        "id": "Center of High-tech Application in Agriculture, Ben Tre province",
+        "type": "Institution",
+        "description": "Provincial high-tech agricultural research center in Viet Nam."
+      },
+      {
+        "id": "Initial live weight (17.42 kg±0.26)",
+        "type": "Metric",
+        "description": "Starting weight of the post-weaned piglets."
+      },
+      {
+        "id": "Final live weight (60.61 kg)",
+        "type": "Metric",
+        "description": "Average weight of pigs in experimental groups after 8 weeks."
+      },
+      {
+        "id": "Financial benefit (15.74% to 18.98%)",
+        "type": "Metric",
+        "description": "Increase in economic profit compared to the control group."
+      },
+      {
+        "id": "FCR (P<0.01)",
+        "type": "Metric",
+        "description": "Significant improvement in Feed Conversion Ratio."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of β-glucan and vitamin products supplementation into diets on growth performance of growing-finishing pigs in Ben Tre province",
+        "target": "Animal Husbandry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "β-glucan supplementation",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Vitamin supplementation",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "β-glucan supplementation",
+        "target": "Financial benefit (15.74% to 18.98%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vitamin supplementation",
+        "target": "Financial benefit (15.74% to 18.98%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "β-glucan supplementation",
+        "target": "FCR (P<0.01)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Tran Ngoc Bich",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Quang Trung",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Thi Ngoc Truc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Van Hieu",
+        "target": "Tra Vinh University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Kim Quyen",
+        "target": "Tra Vinh University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Hoang Khanh",
+        "target": "Center of High-tech Application in Agriculture, Ben Tre province",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

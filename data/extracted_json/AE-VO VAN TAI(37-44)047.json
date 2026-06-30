@@ -1,0 +1,150 @@
+{
+    "filename": "AE-VO VAN TAI(37-44)047.json",
+    "paper_title": "Fuzzy cluster analysis for probability density functions based on width criterion",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Vo Van Tai",
+                "type": "Author",
+                "description": "Lead author from Can Tho University."
+            },
+            {
+                "id": "Pham Toan Dinh",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Hoang Yen",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "College of Natural Science, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the research was conducted."
+            },
+            {
+                "id": "Statistics",
+                "type": "Domain",
+                "description": "The primary field of research concerning data analysis and probability."
+            },
+            {
+                "id": "Fuzzy cluster analysis",
+                "type": "Concept",
+                "description": "A form of clustering where each data point can belong to more than one cluster."
+            },
+            {
+                "id": "Probability density functions",
+                "type": "Concept",
+                "description": "Functions that describe the likelihood of a random variable taking on a given value."
+            },
+            {
+                "id": "Cluster width (WCD)",
+                "type": "Concept",
+                "description": "A criterion used for building clusters and evaluating their quality."
+            },
+            {
+                "id": "Fuzzy clustering algorithm (FCA)",
+                "type": "Method",
+                "description": "A proposed algorithm for fuzzy cluster analysis of probability density functions."
+            },
+            {
+                "id": "Algorithm to determine the suitable number of clusters (SNC)",
+                "type": "Method",
+                "description": "A proposed algorithm to automatically find the optimal number of clusters."
+            },
+            {
+                "id": "Matlab",
+                "type": "Method",
+                "description": "Software environment used for performing calculations and simulations."
+            },
+            {
+                "id": "Kernel function method",
+                "type": "Method",
+                "description": "Used for estimating probability density functions from discrete data."
+            },
+            {
+                "id": "Synthetic data",
+                "type": "Dataset",
+                "description": "Artificially generated data for testing algorithms, including 100 uniform pdfs."
+            },
+            {
+                "id": "Real data",
+                "type": "Dataset",
+                "description": "Practical datasets used for image recognition applications."
+            },
+            {
+                "id": "Error (11%)",
+                "type": "Metric",
+                "description": "The error rate achieved in Example 1 after 500 trials."
+            },
+            {
+                "id": "Error (18.5%)",
+                "type": "Metric",
+                "description": "The error rate achieved in Example 2 (image recognition)."
+            },
+            {
+                "id": "24 iterations",
+                "type": "Metric",
+                "description": "The number of iterations required for the FCA algorithm to converge."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Vo Van Tai",
+                "target": "College of Natural Science, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Toan Dinh",
+                "target": "College of Natural Science, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hoang Yen",
+                "target": "College of Natural Science, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Fuzzy clustering algorithm (FCA)",
+                "target": "Fuzzy cluster analysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Algorithm to determine the suitable number of clusters (SNC)",
+                "target": "Probability density functions",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fuzzy clustering algorithm (FCA)",
+                "target": "Error (11%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fuzzy clustering algorithm (FCA)",
+                "target": "Error (18.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fuzzy clustering algorithm (FCA)",
+                "target": "24 iterations",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Fuzzy clustering algorithm (FCA)",
+                "target": "Synthetic data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Fuzzy clustering algorithm (FCA)",
+                "target": "Real data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Fuzzy clustering algorithm (FCA)",
+                "target": "Statistics",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

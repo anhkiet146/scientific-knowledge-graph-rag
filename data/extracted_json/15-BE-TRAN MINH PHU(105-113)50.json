@@ -1,0 +1,165 @@
+{
+    "filename": "15-BE-TRAN MINH PHU(105-113)50.json",
+    "paper_title": "EFFECT OF BETA-GLUCANS ON HEMATOLOGICAL, IMMUNOGLOBULINS AND STRESS PARAMETERS OF STRIPED CATFISH (Pangasianodon hypophthalmus) FINGERLING",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "The primary field of research concerning the farming of aquatic organisms."
+            },
+            {
+                "id": "Tran Minh Phu",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Nguyen Thi Kim Ha",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Duong Thi My Tien",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Tran Son Tuyen",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Do Thi Thanh Huong",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the research was conducted."
+            },
+            {
+                "id": "Beta-glucans",
+                "type": "Method",
+                "description": "Glucose polymers used as immune-stimulants in the experiment (1.3/1.6 beta-D-glucans)."
+            },
+            {
+                "id": "ELISA kit",
+                "type": "Method",
+                "description": "Method used for assaying plasma cortisol."
+            },
+            {
+                "id": "Oneway-ANOVA",
+                "type": "Method",
+                "description": "Statistical method used for comparing experimental parameters."
+            },
+            {
+                "id": "Stress resistance",
+                "type": "Concept",
+                "description": "The ability of the fish to withstand environmental or density-related stressors."
+            },
+            {
+                "id": "Hematological parameters",
+                "type": "Concept",
+                "description": "Study of blood-related indicators in the striped catfish."
+            },
+            {
+                "id": "Red blood cells (2.71x10^6 cells/mm^3)",
+                "type": "Metric",
+                "description": "Specific count of RBC achieved after 30 days of feeding 1g/kg beta-glucans."
+            },
+            {
+                "id": "White blood cells (119x10^3 cells/mm^3)",
+                "type": "Metric",
+                "description": "Specific count of WBC achieved after 30 days of feeding 1g/kg beta-glucans."
+            },
+            {
+                "id": "Hemoglobin (10.4 g/100 mL)",
+                "type": "Metric",
+                "description": "Hemoglobin level achieved in treatment fed 1g/kg beta-glucans."
+            },
+            {
+                "id": "Hematocrit (39.7%)",
+                "type": "Metric",
+                "description": "Percentage of hematocrit achieved after 30 days feeding."
+            },
+            {
+                "id": "Plasma cortisol (36.2 ng/mL)",
+                "type": "Metric",
+                "description": "Cortisol level achieved after 30 days of feeding."
+            },
+            {
+                "id": "Survival rate (98%)",
+                "type": "Metric",
+                "description": "Survival rate after four hours crowding stress in the 1g/kg treatment."
+            }
+        ],
+        "relations": [
+            {
+                "source": "EFFECT OF BETA-GLUCANS ON HEMATOLOGICAL, IMMUNOGLOBULINS AND STRESS PARAMETERS OF STRIPED CATFISH (Pangasianodon hypophthalmus) FINGERLING",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tran Minh Phu",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Kim Ha",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Thi My Tien",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Son Tuyen",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Thi Thanh Huong",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Beta-glucans",
+                "target": "Stress resistance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Beta-glucans",
+                "target": "Hematological parameters",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Beta-glucans",
+                "target": "Red blood cells (2.71x10^6 cells/mm^3)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Beta-glucans",
+                "target": "White blood cells (119x10^3 cells/mm^3)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Beta-glucans",
+                "target": "Hemoglobin (10.4 g/100 mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Beta-glucans",
+                "target": "Hematocrit (39.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Beta-glucans",
+                "target": "Survival rate (98%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

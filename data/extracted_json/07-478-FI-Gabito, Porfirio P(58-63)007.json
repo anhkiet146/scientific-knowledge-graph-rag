@@ -1,0 +1,150 @@
+{
+    "filename": "07-478-FI-Gabito, Porfirio P(58-63)007.json",
+    "paper_title": "Evaluating different diets on the growth performance of mud crab (Scylla serrata)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The main field of research focusing on the cultivation of aquatic organisms like mud crabs."
+            },
+            {
+                "id": "Gabito Porfirio P.",
+                "type": "Author",
+                "description": "Researcher affiliated with Palompon Institute of Technology."
+            },
+            {
+                "id": "Baltar Christia C.",
+                "type": "Author",
+                "description": "Researcher and correspondence author from Palompon Institute of Technology."
+            },
+            {
+                "id": "Palompon Institute of Technology",
+                "type": "Institution",
+                "description": "The academic institution where the research was conducted, located in Leyte, Philippines."
+            },
+            {
+                "id": "Growth performance of mud crab",
+                "type": "Concept",
+                "description": "The primary research problem evaluating how different diets affect S. serrata development."
+            },
+            {
+                "id": "Sustainable grow-out aquaculture",
+                "type": "Concept",
+                "description": "The broader goal of establishing eco-friendly and viable crab farming practices."
+            },
+            {
+                "id": "Completely randomized design (CRD)",
+                "type": "Method",
+                "description": "The experimental design used to assign five feed treatments to mud crabs."
+            },
+            {
+                "id": "One-way Analysis of Variance (ANOVA)",
+                "type": "Method",
+                "description": "Statistical method used to determine the significance of the treatments."
+            },
+            {
+                "id": "African land snail (Achatina fulica)",
+                "type": "Method",
+                "description": "A specific biological material used as a feed treatment in the study."
+            },
+            {
+                "id": "Trash fish (Sardinella longiceps)",
+                "type": "Method",
+                "description": "The control feed material used in the experiment."
+            },
+            {
+                "id": "Horn snail (Telescopium telescompium)",
+                "type": "Method",
+                "description": "A biological material used as a feed treatment."
+            },
+            {
+                "id": "Edible frog (Rana catesbieana)",
+                "type": "Method",
+                "description": "A biological material used as a feed treatment."
+            },
+            {
+                "id": "Mud snail (Batellaria attramentaria)",
+                "type": "Method",
+                "description": "A biological material used as a feed treatment."
+            },
+            {
+                "id": "Growth increment data tables",
+                "type": "Dataset",
+                "description": "The numerical data recorded during the 21-day culture period including final weights and lengths."
+            },
+            {
+                "id": "Feed conversion ratio (1.38)",
+                "type": "Metric",
+                "description": "The efficiency score achieved by the African land snail feed treatment."
+            },
+            {
+                "id": "ROI (96.8%)",
+                "type": "Metric",
+                "description": "The Return on Investment achieved by using African land snail as feed."
+            },
+            {
+                "id": "Survival rate (100%)",
+                "type": "Metric",
+                "description": "The percentage of crabs that survived across all treatments."
+            },
+            {
+                "id": "Mean absolute growth (4.92)",
+                "type": "Metric",
+                "description": "The average weight increase recorded across the study samples."
+            },
+            {
+                "id": "Mean condition factor (0.514)",
+                "type": "Metric",
+                "description": "The average health indicator score for the mud crabs in the study."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Evaluating different diets on the growth performance of mud crab (Scylla serrata)",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Gabito Porfirio P.",
+                "target": "Palompon Institute of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Baltar Christia C.",
+                "target": "Palompon Institute of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "African land snail (Achatina fulica)",
+                "target": "Growth performance of mud crab",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "African land snail (Achatina fulica)",
+                "target": "Feed conversion ratio (1.38)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "African land snail (Achatina fulica)",
+                "target": "ROI (96.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Completely randomized design (CRD)",
+                "target": "Growth increment data tables",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Trash fish (Sardinella longiceps)",
+                "target": "Survival rate (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "One-way Analysis of Variance (ANOVA)",
+                "target": "Growth increment data tables",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

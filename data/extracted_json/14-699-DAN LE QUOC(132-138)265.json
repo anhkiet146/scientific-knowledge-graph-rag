@@ -1,0 +1,130 @@
+{
+    "filename": "14-699-DAN LE QUOC(132-138)265.json",
+    "paper_title": "Outage probability of cognitive radio-NOMA assisted unmanned aerial vehicles network",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Wireless communication",
+                "type": "Domain",
+                "description": "The primary research field focusing on transmission of information over a distance without the use of wires."
+            },
+            {
+                "id": "Dan Le Quoc",
+                "type": "Author",
+                "description": "Researcher at Faculty of Electronics and Telecommunications, Saigon University."
+            },
+            {
+                "id": "Nhat Tien Nguyen",
+                "type": "Author",
+                "description": "Corresponding author at Faculty of Electronics and Telecommunications, Saigon University."
+            },
+            {
+                "id": "Nguyen Thi Thu Hang",
+                "type": "Author",
+                "description": "Researcher at Faculty of Electronics and Telecommunications, Saigon University."
+            },
+            {
+                "id": "Saigon University",
+                "type": "Institution",
+                "description": "The academic institution located in Viet Nam where the authors are affiliated."
+            },
+            {
+                "id": "Outage probability",
+                "type": "Concept",
+                "description": "The probability that the information rate is less than the required threshold."
+            },
+            {
+                "id": "Spectral efficiency",
+                "type": "Concept",
+                "description": "The information rate that can be transmitted over a given bandwidth."
+            },
+            {
+                "id": "Unmanned aerial vehicles (UAV)",
+                "type": "Method",
+                "description": "Aerial platforms used as flying base stations to provide line-of-sight links."
+            },
+            {
+                "id": "Non-orthogonal multiple access (NOMA)",
+                "type": "Method",
+                "description": "A multiple access technology for improving spectral efficiency by serving multiple users in power/code domains."
+            },
+            {
+                "id": "Cognitive Radio (CR)",
+                "type": "Method",
+                "description": "Technology that allows unlicensed users to access licensed spectrum bands."
+            },
+            {
+                "id": "Successive interference cancellation (SIC)",
+                "type": "Method",
+                "description": "A signal processing technique to separate multiple received signals by cancelling interference."
+            },
+            {
+                "id": "Monte Carlo simulations",
+                "type": "Method",
+                "description": "Statistical simulations used to validate analytical closed-form expressions."
+            },
+            {
+                "id": "Closed-form expressions",
+                "type": "Method",
+                "description": "Mathematical derivations used to calculate the exact outage probability."
+            },
+            {
+                "id": "R = 1 bit per channel use",
+                "type": "Metric",
+                "description": "The target transmission rate used in the simulation setup."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Outage probability of cognitive radio-NOMA assisted unmanned aerial vehicles network",
+                "target": "Wireless communication",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Dan Le Quoc",
+                "target": "Saigon University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nhat Tien Nguyen",
+                "target": "Saigon University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thu Hang",
+                "target": "Saigon University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Unmanned aerial vehicles (UAV)",
+                "target": "Outage probability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Non-orthogonal multiple access (NOMA)",
+                "target": "Spectral efficiency",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Cognitive Radio (CR)",
+                "target": "Spectral efficiency",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Successive interference cancellation (SIC)",
+                "target": "Outage probability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Closed-form expressions",
+                "target": "Outage probability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Monte Carlo simulations",
+                "target": "R = 1 bit per channel use",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,140 @@
+{
+  "filename": "08-586-B-DO TAN KHANG(60-67)021.json",
+  "paper_title": "Effects of Titanium Dioxide nanoparticles on salinity tolerance of rice (Oryza sativa L.) at the seedling stage",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Plant Physiology",
+        "type": "Domain",
+        "description": "The study of the functioning and processes of plants, specifically regarding abiotic stress."
+      },
+      {
+        "id": "Salinity tolerance",
+        "type": "Concept",
+        "description": "The ability of rice to grow and develop in high-salt soil conditions."
+      },
+      {
+        "id": "Oxidative stress",
+        "type": "Concept",
+        "description": "A process caused by the accumulation of reactive oxygen species (ROS) in plants."
+      },
+      {
+        "id": "Titanium dioxide nanoparticles",
+        "type": "Method",
+        "description": "Nanoparticles (TiO2) used as a chemical priming agent to enhance plant stress resistance."
+      },
+      {
+        "id": "NaCl",
+        "type": "Method",
+        "description": "Sodium chloride used to induce salt stress conditions in the experiment."
+      },
+      {
+        "id": "Spectrophotometric methods",
+        "type": "Method",
+        "description": "Method used to estimate chlorophyll, carotenoids, and proline contents."
+      },
+      {
+        "id": "SPSS program Version 20.0",
+        "type": "Method",
+        "description": "Software used for statistical analysis of experimental data."
+      },
+      {
+        "id": "Optimal TiO2 concentration (50 mg/mL)",
+        "type": "Metric",
+        "description": "The most effective concentration of TiO2 for promoting rice growth under stress."
+      },
+      {
+        "id": "Shoot height increase (20.07%)",
+        "type": "Metric",
+        "description": "The percentage increase in shoot height of ST25 rice variety."
+      },
+      {
+        "id": "Survival rate growth (11.11%)",
+        "type": "Metric",
+        "description": "The improvement in survival rate of ST25 rice variety compared to control."
+      },
+      {
+        "id": "POD activity increase (34.89%)",
+        "type": "Metric",
+        "description": "The increase in Peroxidase enzyme activity at the third spray."
+      },
+      {
+        "id": "Pham Thuy Trang",
+        "type": "Author",
+        "description": "First author of the study."
+      },
+      {
+        "id": "Danh Bao Ngoc",
+        "type": "Author",
+        "description": "Second author of the study."
+      },
+      {
+        "id": "Do Tan Khang",
+        "type": "Author",
+        "description": "Corresponding author and third author of the study."
+      },
+      {
+        "id": "Can Tho Science and Technology Application Center",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam."
+      },
+      {
+        "id": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "Institution",
+        "description": "Research institute within Can Tho University, Viet Nam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Titanium dioxide nanoparticles",
+        "target": "Plant Physiology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Titanium dioxide nanoparticles",
+        "target": "Salinity tolerance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Titanium dioxide nanoparticles",
+        "target": "Optimal TiO2 concentration (50 mg/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Titanium dioxide nanoparticles",
+        "target": "Shoot height increase (20.07%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Titanium dioxide nanoparticles",
+        "target": "Survival rate growth (11.11%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Titanium dioxide nanoparticles",
+        "target": "POD activity increase (34.89%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pham Thuy Trang",
+        "target": "Can Tho Science and Technology Application Center",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thuy Trang",
+        "target": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Danh Bao Ngoc",
+        "target": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Tan Khang",
+        "target": "Institute of Food and Biotechnology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

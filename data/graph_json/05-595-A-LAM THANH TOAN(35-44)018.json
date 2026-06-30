@@ -1,0 +1,195 @@
+{
+  "filename": "05-595-A-LAM THANH TOAN(35-44)018.json",
+  "paper_title": "Identify and predict incorrect prices by Machine Learning Model",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Machine Learning",
+        "type": "Domain",
+        "description": "The main field of research using algorithms to identify and predict price anomalies."
+      },
+      {
+        "id": "Electronic commerce",
+        "type": "Domain",
+        "description": "The context of the study involving online shops and e-commerce platforms like Shopee."
+      },
+      {
+        "id": "Incorrect prices",
+        "type": "Concept",
+        "description": "Products selling at prices that violate company policy or differ across distributors."
+      },
+      {
+        "id": "Price supervision",
+        "type": "Concept",
+        "description": "The process of monitoring and controlling product prices set by retail shops."
+      },
+      {
+        "id": "Lam Thanh Toan",
+        "type": "Author",
+        "description": "Researcher from Can Tho University of Technology."
+      },
+      {
+        "id": "Nguyen Xuan Ha Giang",
+        "type": "Author",
+        "description": "Researcher from Can Tho University of Technology."
+      },
+      {
+        "id": "Nguyen Hoang Phuong",
+        "type": "Author",
+        "description": "Researcher from RMIT University."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      },
+      {
+        "id": "RMIT University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      },
+      {
+        "id": "Random Forest (RF)",
+        "type": "Method",
+        "description": "Machine learning model that uses multiple decision trees for classification."
+      },
+      {
+        "id": "Support Vector Machine (SVM)",
+        "type": "Method",
+        "description": "Supervised learning model for classification and regression analysis."
+      },
+      {
+        "id": "Multinomial Naive Bayes (MNB)",
+        "type": "Method",
+        "description": "Probabilistic learning method used for text classification."
+      },
+      {
+        "id": "K-nearest Neighbor (KNN)",
+        "type": "Method",
+        "description": "Non-parametric supervised learning method."
+      },
+      {
+        "id": "BoW",
+        "type": "Method",
+        "description": "Bag of Words text-based information extraction method."
+      },
+      {
+        "id": "TF-IDF",
+        "type": "Method",
+        "description": "Term Frequency-Inverse Document Frequency extraction method."
+      },
+      {
+        "id": "data_filter",
+        "type": "Dataset",
+        "description": "Dataset used to train the product filtering model."
+      },
+      {
+        "id": "data_product",
+        "type": "Dataset",
+        "description": "Dataset used to train the product recognition model."
+      },
+      {
+        "id": "Average accuracy RF filter (98.06%)",
+        "type": "Metric",
+        "description": "Performance of Random Forest on the filter dataset."
+      },
+      {
+        "id": "Average accuracy SVM filter (83.92%)",
+        "type": "Metric",
+        "description": "Performance of SVM on the filter dataset."
+      },
+      {
+        "id": "Average accuracy MNB filter (92.21%)",
+        "type": "Metric",
+        "description": "Performance of MNB on the filter dataset."
+      },
+      {
+        "id": "Average accuracy KNN filter (94.06%)",
+        "type": "Metric",
+        "description": "Performance of KNN on the filter dataset."
+      },
+      {
+        "id": "Average accuracy RF product (83.02%)",
+        "type": "Metric",
+        "description": "Performance of Random Forest on the product dataset."
+      },
+      {
+        "id": "Average accuracy SVM product (55%)",
+        "type": "Metric",
+        "description": "Performance of SVM on the product dataset."
+      },
+      {
+        "id": "Average accuracy MNB product (79.33%)",
+        "type": "Metric",
+        "description": "Performance of MNB on the product dataset."
+      },
+      {
+        "id": "Average accuracy KNN product (79.36%)",
+        "type": "Metric",
+        "description": "Performance of KNN on the product dataset."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Lam Thanh Toan",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Xuan Ha Giang",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hoang Phuong",
+        "target": "RMIT University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "data_filter",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "data_product",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "Average accuracy RF filter (98.06%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "Average accuracy RF product (83.02%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Support Vector Machine (SVM)",
+        "target": "Average accuracy SVM filter (83.92%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Multinomial Naive Bayes (MNB)",
+        "target": "Average accuracy MNB filter (92.21%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "K-nearest Neighbor (KNN)",
+        "target": "Average accuracy KNN filter (94.06%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "Incorrect prices",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "BoW",
+        "target": "Price supervision",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

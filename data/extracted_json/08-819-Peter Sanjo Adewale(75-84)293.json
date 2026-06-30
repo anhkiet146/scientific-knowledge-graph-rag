@@ -1,0 +1,135 @@
+{
+    "filename": "08-819-Peter Sanjo Adewale(75-84)293.json",
+    "paper_title": "Health risk assessment of heavy metals transfer from soil to Celosia trigyna and Amaranthus viridis along Lekki Peninsula, Lagos, Nigeria",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Peter Sanjo Adewale",
+                "type": "Author",
+                "description": "The primary author of the research paper."
+            },
+            {
+                "id": "Osun State University",
+                "type": "Institution",
+                "description": "The institution affiliated with the lead author in Nigeria."
+            },
+            {
+                "id": "University of Lagos",
+                "type": "Institution",
+                "description": "The institution where chemical analyses were performed."
+            },
+            {
+                "id": "Environmental Science",
+                "type": "Domain",
+                "description": "The primary field of research concerning heavy metals and soil safety."
+            },
+            {
+                "id": "Health risk assessment",
+                "type": "Concept",
+                "description": "Evaluation of the potential health risks from consuming contaminated vegetables."
+            },
+            {
+                "id": "Heavy metal transfer",
+                "type": "Concept",
+                "description": "The movement of toxic elements from soil to plants."
+            },
+            {
+                "id": "Transfer factor",
+                "type": "Concept",
+                "description": "The ratio representing the concentration of heavy metals in plants compared to soil."
+            },
+            {
+                "id": "Atomic Absorption Spectrophotometer",
+                "type": "Method",
+                "description": "Analytical instrument used to determine heavy metal concentrations."
+            },
+            {
+                "id": "Walkley-Black method",
+                "type": "Method",
+                "description": "Procedure used to determine the percentage of organic matter in soil."
+            },
+            {
+                "id": "Regular Macro-Kjeldahl Method",
+                "type": "Method",
+                "description": "Technique used to determine total Nitrogen in soil."
+            },
+            {
+                "id": "Celosia trigyna",
+                "type": "Method",
+                "description": "Leafy vegetable material (Silver spinach) used as a study subject."
+            },
+            {
+                "id": "Amaranthus viridis",
+                "type": "Method",
+                "description": "Leafy vegetable material (Slender amaranth) used as a study subject."
+            },
+            {
+                "id": "Concentrated HNO3",
+                "type": "Method",
+                "description": "Chemical used for cold digestion of soil and vegetable samples."
+            },
+            {
+                "id": "Soil pH (5.31 – 6.82)",
+                "type": "Metric",
+                "description": "Measurement of soil acidity in the study sites."
+            },
+            {
+                "id": "EC values (121 to 382µs/cm)",
+                "type": "Metric",
+                "description": "Electrical conductivity range recorded in the soil."
+            },
+            {
+                "id": "Estimated Daily Intake (0.1320-0.000mg-1kg-1adult-1d-1)",
+                "type": "Metric",
+                "description": "The calculated daily intake range of metals from consumption."
+            },
+            {
+                "id": "Health Risk Index (5.23 to 0.01)",
+                "type": "Metric",
+                "description": "The calculated risk index for the local population."
+            },
+            {
+                "id": "Total Hazard Index (41.75)",
+                "type": "Metric",
+                "description": "The combined hazard index value for the studied elements."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Peter Sanjo Adewale",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Atomic Absorption Spectrophotometer",
+                "target": "Health risk assessment",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Atomic Absorption Spectrophotometer",
+                "target": "Heavy metal transfer",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Atomic Absorption Spectrophotometer",
+                "target": "Total Hazard Index (41.75)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Atomic Absorption Spectrophotometer",
+                "target": "Health Risk Index (5.23 to 0.01)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Walkley-Black method",
+                "target": "Health risk assessment",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Environmental Science",
+                "target": "Health risk assessment",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

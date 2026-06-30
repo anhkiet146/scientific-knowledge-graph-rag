@@ -1,0 +1,135 @@
+{
+  "filename": "18-NS-DANG MINH TAN(143-148)049.json",
+  "paper_title": "Glass formation and thermodynamics of 3D simple system",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Glass formation",
+        "type": "Concept",
+        "description": "The process of a liquid transitioning into a glassy state upon cooling."
+      },
+      {
+        "id": "Thermodynamics of 3D simple system",
+        "type": "Concept",
+        "description": "The study of heat and energy relations in a three-dimensional simple atomic system."
+      },
+      {
+        "id": "Glass transition",
+        "type": "Concept",
+        "description": "The gradual and reversible transition in amorphous materials from a hard and relatively brittle 'glassy' state into a viscous or rubbery state."
+      },
+      {
+        "id": "Molecular dynamics (MD) simulation",
+        "type": "Method",
+        "description": "A computer simulation method for analyzing the physical movements of atoms and molecules."
+      },
+      {
+        "id": "Lennard-Jones-Gauss potential",
+        "type": "Method",
+        "description": "An interaction potential used to simulate the stability and structure of glass states."
+      },
+      {
+        "id": "Radial distribution function",
+        "type": "Method",
+        "description": "A tool used to describe how density varies as a function of distance from a reference particle."
+      },
+      {
+        "id": "Glass transition temperature (0.91)",
+        "type": "Metric",
+        "description": "The temperature at which the system deviates from linearity in potential energy, marking the transition to glass."
+      },
+      {
+        "id": "Crossover temperature (1.66)",
+        "type": "Metric",
+        "description": "The temperature where the change in the mechanism of diffusion occurs."
+      },
+      {
+        "id": "Fraction of solid-like atoms (78.87%)",
+        "type": "Metric",
+        "description": "The percentage of atoms with low mobility at the glass transition point."
+      },
+      {
+        "id": "Bond-angle distribution peak (60 degrees)",
+        "type": "Metric",
+        "description": "The dominant angle indicating equilateral triangles in the atomic system."
+      },
+      {
+        "id": "Condensed matter physics",
+        "type": "Domain",
+        "description": "The field of physics that deals with the physical properties of condensed phases of matter."
+      },
+      {
+        "id": "Dang Minh Tan",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Pham Thanh Hieu",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Nguyen Huu Toan",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Ha Ngan Ha",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution located in Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Molecular dynamics (MD) simulation",
+        "target": "Glass formation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Lennard-Jones-Gauss potential",
+        "target": "Glass formation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Molecular dynamics (MD) simulation",
+        "target": "Glass transition temperature (0.91)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Molecular dynamics (MD) simulation",
+        "target": "Fraction of solid-like atoms (78.87%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Molecular dynamics (MD) simulation",
+        "target": "Condensed matter physics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dang Minh Tan",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thanh Hieu",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Huu Toan",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Ngan Ha",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

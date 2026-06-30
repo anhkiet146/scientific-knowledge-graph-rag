@@ -1,0 +1,160 @@
+{
+  "filename": "522-DENSON M LIDAY(25-33)025.json",
+  "paper_title": "Quality profile and suitability of Quirino State University -farm pond irrigation system",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Denson M. Liday",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Nobelyn V. Agapito",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "College of Health Sciences, Philippines",
+        "type": "Institution",
+        "description": "Affiliation of the authors"
+      },
+      {
+        "id": "Environmental Science",
+        "type": "Domain",
+        "description": "The main research field of the article focusing on water quality and irrigation"
+      },
+      {
+        "id": "Water quality suitability",
+        "type": "Concept",
+        "description": "The assessment of whether water is fit for specific uses like irrigation"
+      },
+      {
+        "id": "Irrigation",
+        "type": "Concept",
+        "description": "The artificial application of water to soil for agricultural purposes"
+      },
+      {
+        "id": "Physicochemical analysis",
+        "type": "Method",
+        "description": "Analysis of the physical and chemical properties of the water samples"
+      },
+      {
+        "id": "Discrete grab sampling",
+        "type": "Method",
+        "description": "Sampling technique taking a sample at a specified station, depth, and time"
+      },
+      {
+        "id": "t-tests",
+        "type": "Method",
+        "description": "Statistical test used to determine significant differences"
+      },
+      {
+        "id": "Chloride Test",
+        "type": "Method",
+        "description": "Laboratory procedure to measure chloride concentration using titration"
+      },
+      {
+        "id": "Hardness Test",
+        "type": "Method",
+        "description": "Laboratory procedure to measure water hardness using EDTA titration"
+      },
+      {
+        "id": "Iron test",
+        "type": "Method",
+        "description": "Laboratory procedure using a color comparator cube to measure iron"
+      },
+      {
+        "id": "Temperature (29.8°C to 30.6°C)",
+        "type": "Metric",
+        "description": "Measured range of water temperature during on-site testing"
+      },
+      {
+        "id": "Water pH (7.67 to 8.37)",
+        "type": "Metric",
+        "description": "Measured acidity or alkalinity range of the farm pond water"
+      },
+      {
+        "id": "Total Dissolved Solids (226.8 ppm)",
+        "type": "Metric",
+        "description": "Mean value of TDS measured in the water system"
+      },
+      {
+        "id": "Electrical Conductivity (0.00468 ds/m)",
+        "type": "Metric",
+        "description": "Mean value of EC representing hazard classification"
+      },
+      {
+        "id": "Chloride (37.5 mg/L)",
+        "type": "Metric",
+        "description": "Mean chloride concentration classified as low hazard"
+      },
+      {
+        "id": "Iron concentration (1.0 ppm)",
+        "type": "Metric",
+        "description": "Mean iron content measured in the irrigation system"
+      },
+      {
+        "id": "Sulfate (7.5 ppm)",
+        "type": "Metric",
+        "description": "Mean sulfate concentration measured in the water samples"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Denson M. Liday",
+        "target": "College of Health Sciences, Philippines",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nobelyn V. Agapito",
+        "target": "College of Health Sciences, Philippines",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Physicochemical analysis",
+        "target": "Water quality suitability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Physicochemical analysis",
+        "target": "Temperature (29.8°C to 30.6°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Physicochemical analysis",
+        "target": "Water pH (7.67 to 8.37)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Physicochemical analysis",
+        "target": "Total Dissolved Solids (226.8 ppm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Physicochemical analysis",
+        "target": "Electrical Conductivity (0.00468 ds/m)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Chloride Test",
+        "target": "Chloride (37.5 mg/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Iron test",
+        "target": "Iron concentration (1.0 ppm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Physicochemical analysis",
+        "target": "Sulfate (7.5 ppm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Quality profile and suitability of Quirino State University - farm pond irrigation system",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

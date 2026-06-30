@@ -1,0 +1,215 @@
+{
+    "filename": "14-FT-NGUYEN DUY TAN(102-110)033.json",
+    "paper_title": "Optimization of carriers (maltodextrin, arabic gum) for spray-drying of Pouzolzia zeylanica extracts using response surface methodology",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Science and Technology",
+                "type": "Domain",
+                "description": "The primary field of research concerning food processing and optimization."
+            },
+            {
+                "id": "Nguyen Duy Tan",
+                "type": "Author",
+                "description": "First author of the research paper."
+            },
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "Second author of the research paper."
+            },
+            {
+                "id": "Faculty of Agriculture and Natural Resources, An Giang University",
+                "type": "Institution",
+                "description": "Academic affiliation of Nguyen Duy Tan."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic affiliation of Nguyen Minh Thuy."
+            },
+            {
+                "id": "Spray drying",
+                "type": "Concept",
+                "description": "A method of producing a dry powder from a liquid or slurry by rapidly drying with a hot gas."
+            },
+            {
+                "id": "Pouzolzia zeylanica extract",
+                "type": "Concept",
+                "description": "The medicinal plant extract used as the core material for optimization."
+            },
+            {
+                "id": "Bioactive compounds",
+                "type": "Concept",
+                "description": "Compounds like anthocyanin, flavonoid, polyphenol, and tannin found in the extract."
+            },
+            {
+                "id": "Response Surface Methodology (RSM)",
+                "type": "Method",
+                "description": "Statistical technique for modeling and analysis of problems in which a response of interest is influenced by several variables."
+            },
+            {
+                "id": "Central Composite Design (CCD)",
+                "type": "Method",
+                "description": "Experimental design used in RSM to build a second-order model for the response variable."
+            },
+            {
+                "id": "Maltodextrin",
+                "type": "Method",
+                "description": "A carrier material used in the spray drying process."
+            },
+            {
+                "id": "Arabic gum",
+                "type": "Method",
+                "description": "A carrier material used in the spray drying process."
+            },
+            {
+                "id": "Spray dryer (SD-05)",
+                "type": "Method",
+                "description": "Laboratory scale equipment used for the spray drying process."
+            },
+            {
+                "id": "pH differential method",
+                "type": "Method",
+                "description": "Method used to determine anthocyanin content."
+            },
+            {
+                "id": "Folin-Ciocalteu reagent method",
+                "type": "Method",
+                "description": "Method used to determine polyphenol content."
+            },
+            {
+                "id": "Folin-Denis method",
+                "type": "Method",
+                "description": "Method used to determine tannin content."
+            },
+            {
+                "id": "Aluminum chloride colorimetric method",
+                "type": "Method",
+                "description": "Method used for flavonoid determination."
+            },
+            {
+                "id": "Optimal maltodextrin concentration (8.743%)",
+                "type": "Metric",
+                "description": "The optimized percentage of maltodextrin for the carrier."
+            },
+            {
+                "id": "Optimal arabic gum concentration (0.083%)",
+                "type": "Metric",
+                "description": "The optimized percentage of arabic gum for the carrier."
+            },
+            {
+                "id": "Anthocyanin content (7.411 mg CE/100g)",
+                "type": "Metric",
+                "description": "Measured value of anthocyanin at optimal conditions."
+            },
+            {
+                "id": "Flavonoid content (30.931 mg QE/g)",
+                "type": "Metric",
+                "description": "Measured value of flavonoid at optimal conditions."
+            },
+            {
+                "id": "Polyphenol content (27.296 mg GAE/g)",
+                "type": "Metric",
+                "description": "Measured value of polyphenol at optimal conditions."
+            },
+            {
+                "id": "Tannin content (24.654 mg TAE/g)",
+                "type": "Metric",
+                "description": "Measured value of tannin at optimal conditions."
+            },
+            {
+                "id": "Moisture content (6.540%)",
+                "type": "Metric",
+                "description": "The final moisture level achieved in the powder at optimal conditions."
+            },
+            {
+                "id": "Particle size (6.029 µm)",
+                "type": "Metric",
+                "description": "The final particle size achieved in the powder at optimal conditions."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Duy Tan",
+                "target": "Faculty of Agriculture and Natural Resources, An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Food Science and Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Optimal maltodextrin concentration (8.743%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Optimal arabic gum concentration (0.083%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Anthocyanin content (7.411 mg CE/100g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Flavonoid content (30.931 mg QE/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Polyphenol content (27.296 mg GAE/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Tannin content (24.654 mg TAE/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Moisture content (6.540%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Particle size (6.029 µm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Spray dryer (SD-05)",
+                "target": "Spray drying",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Maltodextrin",
+                "target": "Spray drying",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Arabic gum",
+                "target": "Spray drying",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "pH differential method",
+                "target": "Bioactive compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Folin-Ciocalteu reagent method",
+                "target": "Bioactive compounds",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

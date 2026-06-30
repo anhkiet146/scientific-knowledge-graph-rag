@@ -1,0 +1,175 @@
+{
+  "filename": "08-855-PHAN THI ANH TUYET(71-83)308.json",
+  "paper_title": "Factors influencing environmental and circular economy disclosure of Viet Nam listed companies",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Circular Economy and Accounting",
+        "type": "Domain",
+        "description": "The primary research field focusing on environmental disclosure and circular economy within the accounting and auditing context."
+      },
+      {
+        "id": "Phan Thi Anh Nguyet",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Mai Duc Nghia",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Bui Van Duong",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Do Van Phuc",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam where authors Phan Thi Anh Nguyet and Do Van Phuc are affiliated."
+      },
+      {
+        "id": "University of Economics Ho Chi Minh City",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam where authors Mai Duc Nghia and Bui Van Duong are affiliated."
+      },
+      {
+        "id": "Environmental and circular economy disclosures (ECED)",
+        "type": "Concept",
+        "description": "The level and factors influencing the reporting of environmental and circular economy information by companies."
+      },
+      {
+        "id": "Legitimacy theory",
+        "type": "Concept",
+        "description": "A theory suggesting companies disclose information to maintain or gain social legitimacy."
+      },
+      {
+        "id": "Stakeholder Theory",
+        "type": "Concept",
+        "description": "A theory suggesting companies disclose information to meet the needs and responsibilities of various stakeholders."
+      },
+      {
+        "id": "Institutional Theory",
+        "type": "Concept",
+        "description": "A theory explaining how organizations align with external standards and social expectations."
+      },
+      {
+        "id": "Positive Accounting Theory",
+        "type": "Concept",
+        "description": "A theory predicting accounting practices based on rational decision-making and minimizing contract costs."
+      },
+      {
+        "id": "Content analysis",
+        "type": "Method",
+        "description": "Method used to determine the level of ECED by examining corporate reports."
+      },
+      {
+        "id": "Frequency analysis",
+        "type": "Method",
+        "description": "Method used to measure the occurrence of specific disclosure items."
+      },
+      {
+        "id": "Regression Analysis",
+        "type": "Method",
+        "description": "Statistical method used to investigate the factors influencing disclosure levels."
+      },
+      {
+        "id": "Feasible Generalized Least Squares (FGLS)",
+        "type": "Method",
+        "description": "Method used to control autocorrelation and heteroscedasticity in panel data regression."
+      },
+      {
+        "id": "Global Reporting Initiative (GRI) frameworks",
+        "type": "Method",
+        "description": "International standards for sustainability reporting used to evaluate disclosures."
+      },
+      {
+        "id": "Sample of 160 reports from 32 companies",
+        "type": "Dataset",
+        "description": "Data comprising 160 sustainable development and annual reports of Vietnamese listed companies from 2018 to 2022."
+      },
+      {
+        "id": "GRI 300 average score (21.2)",
+        "type": "Metric",
+        "description": "The highest average level of disclosure achieved by Vinamilk."
+      },
+      {
+        "id": "Regression coefficient for firm size (-3.5930869)",
+        "type": "Metric",
+        "description": "Indicator of the negative effect of company size on disclosure levels."
+      },
+      {
+        "id": "Hausman test P-value (0.0006)",
+        "type": "Metric",
+        "description": "Metric used to select the appropriate model between FEM and REM."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Factors influencing environmental and circular economy disclosure of Viet Nam listed companies",
+        "target": "Circular Economy and Accounting",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Phan Thi Anh Nguyet",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Do Van Phuc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mai Duc Nghia",
+        "target": "University of Economics Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Van Duong",
+        "target": "University of Economics Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Content analysis",
+        "target": "Environmental and circular economy disclosures (ECED)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Regression Analysis",
+        "target": "Environmental and circular economy disclosures (ECED)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Content analysis",
+        "target": "Sample of 160 reports from 32 companies",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Regression Analysis",
+        "target": "Sample of 160 reports from 32 companies",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Feasible Generalized Least Squares (FGLS)",
+        "target": "Regression coefficient for firm size (-3.5930869)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Content analysis",
+        "target": "GRI 300 average score (21.2)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "GRI frameworks",
+        "target": "Environmental and circular economy disclosures (ECED)",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

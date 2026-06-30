@@ -1,0 +1,125 @@
+{
+  "filename": "CE-NGUYEN VAN LOI(118-125)057.json",
+  "paper_title": "Promoting learner autonomy: Lesson from using project work as a supplement in English skills courses",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Promoting learner autonomy: Lesson from using project work as a supplement in English skills courses",
+        "type": "Concept",
+        "description": "The title and central study topic of the research paper."
+      },
+      {
+        "id": "Learner autonomy",
+        "type": "Concept",
+        "description": "The ability of learners to take charge of their own study, including decision-making and self-evaluation."
+      },
+      {
+        "id": "Project-based learning",
+        "type": "Concept",
+        "description": "An educational approach claimed to develop autonomous learning skills and foreign language skills."
+      },
+      {
+        "id": "Self-regulated learning",
+        "type": "Concept",
+        "description": "A process where students take initiative in their learning through planning and adjusting strategies."
+      },
+      {
+        "id": "Project work",
+        "type": "Method",
+        "description": "Group tasks completed over 10-13 weeks to produce a specific product like a video or handbook."
+      },
+      {
+        "id": "Self-assessment questionnaire",
+        "type": "Method",
+        "description": "A 26-item instrument used to measure components of learner autonomy like self-confidence and self-determination."
+      },
+      {
+        "id": "Group interviews",
+        "type": "Method",
+        "description": "A qualitative data collection tool used to supplement quantitative findings from the questionnaire."
+      },
+      {
+        "id": "Nonparametric t-test",
+        "type": "Method",
+        "description": "A statistical method used to analyze the significance of the increase in learner autonomy scores."
+      },
+      {
+        "id": "Factor analysis",
+        "type": "Method",
+        "description": "A statistical procedure used to identify key factors from the initial 45-item questionnaire."
+      },
+      {
+        "id": "Internal consistency reliability (alpha = .737)",
+        "type": "Metric",
+        "description": "The reliability coefficient calculated for the final version of the self-assessment questionnaire."
+      },
+      {
+        "id": "Significance level (P <= 0.05)",
+        "type": "Metric",
+        "description": "The p-value indicating that the overall increase in learner autonomy was statistically significant."
+      },
+      {
+        "id": "Mean difference (-2.115)",
+        "type": "Metric",
+        "description": "The measured difference in mean scores between the learner autonomy level before and after the program."
+      },
+      {
+        "id": "English Language Education",
+        "type": "Domain",
+        "description": "The primary research field focusing on teaching and training English language teachers."
+      },
+      {
+        "id": "Nguyen Van Loi",
+        "type": "Author",
+        "description": "The author of the research paper."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "The academic organization in Vietnam where the research and author are based."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Promoting learner autonomy: Lesson from using project work as a supplement in English skills courses",
+        "target": "English Language Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Van Loi",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Project work",
+        "target": "Learner autonomy",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Project work",
+        "target": "Significance level (P <= 0.05)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Project work",
+        "target": "Mean difference (-2.115)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Self-assessment questionnaire",
+        "target": "Internal consistency reliability (alpha = .737)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Self-assessment questionnaire",
+        "target": "Learner autonomy",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Nonparametric t-test",
+        "target": "Significance level (P <= 0.05)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

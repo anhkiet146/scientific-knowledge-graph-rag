@@ -1,0 +1,150 @@
+{
+    "filename": "204-Nguyen Chi Thuan(29-35).json",
+    "paper_title": "A REVISIT ON DISSIPATION AND ITS RELATION TO IRREVERSIBLE PROCESSES",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Chi Thuan",
+                "type": "Author",
+                "description": "Researcher and author of the paper."
+            },
+            {
+                "id": "Nguyen Quang Long",
+                "type": "Author",
+                "description": "Researcher and author of the paper."
+            },
+            {
+                "id": "Hoang Ngoc Ha",
+                "type": "Author",
+                "description": "Researcher and author of the paper."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology",
+                "type": "Institution",
+                "description": "University where the authors are affiliated in Vietnam."
+            },
+            {
+                "id": "Chemical Engineering",
+                "type": "Domain",
+                "description": "The main engineering field the research belongs to."
+            },
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "The specific field/theme of the journal issue."
+            },
+            {
+                "id": "Dissipation",
+                "type": "Concept",
+                "description": "The loss of energy or generalized energy when a system reaches equilibrium."
+            },
+            {
+                "id": "Irreversible processes",
+                "type": "Concept",
+                "description": "Processes that generate entropy and lead to energy loss."
+            },
+            {
+                "id": "Steady state multiplicity",
+                "type": "Concept",
+                "description": "A phenomenon where a system has multiple stationary operating points."
+            },
+            {
+                "id": "Entropy production",
+                "type": "Concept",
+                "description": "The rate at which entropy is generated within a system, characterizing irreversibility."
+            },
+            {
+                "id": "CSTR",
+                "type": "Method",
+                "description": "Continuous Stirred Tank Reactor, a common model in chemical engineering."
+            },
+            {
+                "id": "Ordinary Differential Equations (ODEs)",
+                "type": "Method",
+                "description": "Mathematical tools used to describe the dynamics of thermodynamic systems."
+            },
+            {
+                "id": "MATLAB",
+                "type": "Method",
+                "description": "Software used to calculate numerical values for stationary operating points."
+            },
+            {
+                "id": "SIMULINK",
+                "type": "Method",
+                "description": "Software used for numerical simulations of entropy production."
+            },
+            {
+                "id": "Acid-catalyzed hydration of 2-3-epoxy-1-propanol to glycerol",
+                "type": "Method",
+                "description": "The specific chemical reaction used as a case study."
+            },
+            {
+                "id": "Total mass flow rate (6.9 x 10^-6 mol.s-1)",
+                "type": "Metric",
+                "description": "Measured flow rate parameter used in the simulation."
+            },
+            {
+                "id": "Mass M (75 x 10^-3 kg)",
+                "type": "Metric",
+                "description": "The total mass of the reacting mixture used in the model."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Chi Thuan",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quang Long",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Ngoc Ha",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chemical Engineering",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "CSTR",
+                "target": "Steady state multiplicity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CSTR",
+                "target": "Total mass flow rate (6.9 x 10^-6 mol.s-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CSTR",
+                "target": "Mass M (75 x 10^-3 kg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "MATLAB",
+                "target": "Steady state multiplicity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SIMULINK",
+                "target": "Entropy production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Acid-catalyzed hydration of 2-3-epoxy-1-propanol to glycerol",
+                "target": "Dissipation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ordinary Differential Equations (ODEs)",
+                "target": "Irreversible processes",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

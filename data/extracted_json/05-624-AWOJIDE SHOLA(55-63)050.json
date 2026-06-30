@@ -1,0 +1,195 @@
+{
+    "filename": "05-624-AWOJIDE SHOLA(55-63)050.json",
+    "paper_title": "Phytotoxicity activities and chemical composition of the seed essential oil of Monodora myristica",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phytotoxicity",
+                "type": "Concept",
+                "description": "The toxic effect of a substance on plant growth and development."
+            },
+            {
+                "id": "Bioherbicides",
+                "type": "Concept",
+                "description": "Natural products derived from plants or microorganisms used for weed control."
+            },
+            {
+                "id": "Allopathy phenomenon",
+                "type": "Concept",
+                "description": "The harmful or beneficial effect of one plant on another through the release of chemical compounds."
+            },
+            {
+                "id": "Hydrodistillation",
+                "type": "Method",
+                "description": "The process used to extract essential oil from the seeds of M. myristica."
+            },
+            {
+                "id": "GC-MS",
+                "type": "Method",
+                "description": "Gas chromatography-mass spectrometry used to examine the chemical composition of the essential oil."
+            },
+            {
+                "id": "Growth Inhibitory Test",
+                "type": "Method",
+                "description": "A procedure to evaluate the reduction in growth of roots and shoots in seedlings."
+            },
+            {
+                "id": "Foliar Application",
+                "type": "Method",
+                "description": "Spraying the herbicide formulation directly onto the leaves of the seedlings."
+            },
+            {
+                "id": "Monodora myristica seeds",
+                "type": "Method",
+                "description": "The biological material used to extract the essential oil."
+            },
+            {
+                "id": "NIST 2008",
+                "type": "Dataset",
+                "description": "A mass spectra library used for identifying chemical constituents."
+            },
+            {
+                "id": "Yield (0.62%)",
+                "type": "Metric",
+                "description": "The percentage of essential oil obtained from the seed extraction."
+            },
+            {
+                "id": "alpha-phellandrene (43.2%)",
+                "type": "Metric",
+                "description": "The main constituent percentage found in the essential oil."
+            },
+            {
+                "id": "Root inhibition (63.8 to 75.4%)",
+                "type": "Metric",
+                "description": "The percentage range of root growth reduction at 4 mL/L concentration."
+            },
+            {
+                "id": "Shoot inhibition (100%)",
+                "type": "Metric",
+                "description": "The complete inhibition of shoot growth observed after three days at 4 mL/L."
+            },
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "The primary field of research concerning crop production and weed management."
+            },
+            {
+                "id": "Awojide H. Shola",
+                "type": "Author",
+                "description": "Lead author and researcher."
+            },
+            {
+                "id": "Ajayi T. Mercy",
+                "type": "Author",
+                "description": "Co-author from the Department of Pure and Applied Chemistry."
+            },
+            {
+                "id": "Oyewole A. Kehinde",
+                "type": "Author",
+                "description": "Co-author from the Department of Chemical Engineering."
+            },
+            {
+                "id": "Adeyemo G. Abayomi",
+                "type": "Author",
+                "description": "Co-author from the Department of Pure and Applied Chemistry."
+            },
+            {
+                "id": "Fadunmade E. Olumide",
+                "type": "Author",
+                "description": "Co-author from the Department of Pure and Applied Chemistry."
+            },
+            {
+                "id": "Adebayo E. Adeleke",
+                "type": "Author",
+                "description": "Co-author from Adeleke University."
+            },
+            {
+                "id": "Abdullahi M. Tolani",
+                "type": "Author",
+                "description": "Co-author from the Department of Pure and Applied Chemistry."
+            },
+            {
+                "id": "Osun State University",
+                "type": "Institution",
+                "description": "University in Osogbo, Nigeria, housing departments of Chemistry and Chemical Engineering."
+            },
+            {
+                "id": "Adeleke University",
+                "type": "Institution",
+                "description": "University in Ede, Osun State, Nigeria."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Monodora myristica seeds",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Hydrodistillation",
+                "target": "Yield (0.62%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GC-MS",
+                "target": "alpha-phellandrene (43.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Growth Inhibitory Test",
+                "target": "Root inhibition (63.8 to 75.4%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Growth Inhibitory Test",
+                "target": "Shoot inhibition (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hydrodistillation",
+                "target": "Phytotoxicity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "GC-MS",
+                "target": "NIST 2008",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Awojide H. Shola",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ajayi T. Mercy",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Oyewole A. Kehinde",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Adeyemo G. Abayomi",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Fadunmade E. Olumide",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Abdullahi M. Tolani",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Adebayo E. Adeleke",
+                "target": "Adeleke University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

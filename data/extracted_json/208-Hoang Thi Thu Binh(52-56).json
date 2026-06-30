@@ -1,0 +1,135 @@
+{
+    "filename": "208-Hoang Thi Thu Binh(52-56).json",
+    "paper_title": "SELECTIVE ADSORPTION OF H2S IN BIOGAS USING ZEOLITE PREPARED BY MICROWAVE-ASSISTED METHOD",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Hoang Thi Thu Binh",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Nguyen Quang Long",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology",
+                "type": "Institution",
+                "description": "Tổ chức học thuật nơi các tác giả công tác."
+            },
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo."
+            },
+            {
+                "id": "Biogas purification",
+                "type": "Concept",
+                "description": "Quá trình làm sạch khí sinh học để làm nhiên liệu bền vững."
+            },
+            {
+                "id": "Selective adsorption of H2S",
+                "type": "Concept",
+                "description": "Quá trình loại bỏ chọn lọc khí H2S ra khỏi hỗn hợp khí."
+            },
+            {
+                "id": "Microwave-assisted method",
+                "type": "Method",
+                "description": "Phương pháp tổng hợp zeolite sử dụng năng lượng vi sóng để rút ngắn thời gian kết tinh."
+            },
+            {
+                "id": "Zn-exchanged zeolites",
+                "type": "Method",
+                "description": "Vật liệu zeolite được trao đổi ion kẽm sử dụng làm chất hấp phụ."
+            },
+            {
+                "id": "XRD (X-ray Diffraction)",
+                "type": "Method",
+                "description": "Kỹ thuật phân tích cấu trúc tinh thể của vật liệu."
+            },
+            {
+                "id": "Scanning Electron Microscopy (SEM)",
+                "type": "Method",
+                "description": "Kỹ thuật phân tích hình thái bề mặt vật liệu."
+            },
+            {
+                "id": "Fixed-bed absorption column",
+                "type": "Method",
+                "description": "Thiết bị cột hấp phụ lớp cố định dùng để đo hoạt tính hấp phụ."
+            },
+            {
+                "id": "H2S/N2/CO2 model mixtures",
+                "type": "Dataset",
+                "description": "Hỗn hợp khí mô hình được sử dụng trong các thí nghiệm hấp phụ."
+            },
+            {
+                "id": "H2S adsorption capacity (13.8 mgS/g)",
+                "type": "Metric",
+                "description": "Khả năng hấp phụ H2S tối đa đạt được của vật liệu."
+            },
+            {
+                "id": "Crystallization time (45-180 minutes)",
+                "type": "Metric",
+                "description": "Thời gian kết tinh zeolite trong lò vi sóng."
+            },
+            {
+                "id": "Breakthrough point (50 ppm)",
+                "type": "Metric",
+                "description": "Điểm xuyên thủng quy định trong thí nghiệm hấp phụ H2S."
+            },
+            {
+                "id": "Specific surface area (159 m2/g)",
+                "type": "Metric",
+                "description": "Diện tích bề mặt riêng của mẫu zeolite X tổng hợp sau 2 giờ."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Hoang Thi Thu Binh",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quang Long",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "SELECTIVE ADSORPTION OF H2S IN BIOGAS USING ZEOLITE PREPARED BY MICROWAVE-ASSISTED METHOD",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Microwave-assisted method",
+                "target": "Crystallization time (45-180 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Zn-exchanged zeolites",
+                "target": "H2S adsorption capacity (13.8 mgS/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Zn-exchanged zeolites",
+                "target": "Specific surface area (159 m2/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Microwave-assisted method",
+                "target": "Biogas purification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Zn-exchanged zeolites",
+                "target": "Selective adsorption of H2S",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fixed-bed absorption column",
+                "target": "H2S/N2/CO2 model mixtures",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

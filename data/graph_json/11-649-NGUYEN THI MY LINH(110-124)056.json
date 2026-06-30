@@ -1,0 +1,140 @@
+{
+  "filename": "11-649-NGUYEN THI MY LINH(110-124)056.json",
+  "paper_title": "A legal perspective on child support obligation after divorce: The Vietnamese case",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "A legal perspective on child support obligation after divorce: The Vietnamese case",
+        "type": "Concept",
+        "description": "The main research problem investigating the legal provisions of child support in Vietnam."
+      },
+      {
+        "id": "Nguyen Thi My Linh",
+        "type": "Author",
+        "description": "Researcher and corresponding author."
+      },
+      {
+        "id": "Huynh Thi Truc Giang",
+        "type": "Author",
+        "description": "Researcher."
+      },
+      {
+        "id": "Tran Khac Qui",
+        "type": "Author",
+        "description": "Researcher."
+      },
+      {
+        "id": "School of Law, Can Tho University",
+        "type": "Institution",
+        "description": "Academic organization in Viet Nam."
+      },
+      {
+        "id": "Family Law",
+        "type": "Domain",
+        "description": "The legal field concerned with domestic relations and family matters."
+      },
+      {
+        "id": "2014 Marriage and Family Act",
+        "type": "Method",
+        "description": "A primary Vietnamese law governing marriage, divorce, and support obligations."
+      },
+      {
+        "id": "2015 Civil Code",
+        "type": "Method",
+        "description": "The general civil law of Vietnam regulating civil relations including capacity."
+      },
+      {
+        "id": "Comparative legal analysis",
+        "type": "Method",
+        "description": "Method comparing child support regulations between Vietnam, the US, and Hungary."
+      },
+      {
+        "id": "Structural equation modelling",
+        "type": "Method",
+        "description": "Statistical technique used to analyze survey data of divorced fathers."
+      },
+      {
+        "id": "Vietnamese Court judgment database (congbobanan.toaan.gov.vn)",
+        "type": "Dataset",
+        "description": "Online repository of Vietnamese court verdicts and decisions."
+      },
+      {
+        "id": "Survey data of 212 divorced fathers",
+        "type": "Dataset",
+        "description": "Numerical data used to analyze father-child contact and child support payments."
+      },
+      {
+        "id": "Family cases percentage (51%)",
+        "type": "Metric",
+        "description": "The proportion of family relations cases among all court judgments."
+      },
+      {
+        "id": "Accessible marriage verdicts (336,020)",
+        "type": "Metric",
+        "description": "The total number of accessible court cases on divorce."
+      },
+      {
+        "id": "Base pay 2023 (1,800,000 VND/month)",
+        "type": "Metric",
+        "description": "The updated basic salary level in Vietnam used to determine support."
+      },
+      {
+        "id": "Child support fine (VND 5,000,000 to VND 10,000,000)",
+        "type": "Metric",
+        "description": "Financial penalty for evading support obligations."
+      },
+      {
+        "id": "Child support percentage (15-25%)",
+        "type": "Metric",
+        "description": "The percentage of obligor's income typically awarded for support in Hungary."
+      }
+    ],
+    "relations": [
+      {
+        "source": "A legal perspective on child support obligation after divorce: The Vietnamese case",
+        "target": "Family Law",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi My Linh",
+        "target": "School of Law, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Thi Truc Giang",
+        "target": "School of Law, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Khac Qui",
+        "target": "School of Law, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "2014 Marriage and Family Act",
+        "target": "A legal perspective on child support obligation after divorce: The Vietnamese case",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Comparative legal analysis",
+        "target": "Vietnamese Court judgment database (congbobanan.toaan.gov.vn)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Structural equation modelling",
+        "target": "Survey data of 212 divorced fathers",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "2014 Marriage and Family Act",
+        "target": "Accessible marriage verdicts (336,020)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vietnamese Court judgment database (congbobanan.toaan.gov.vn)",
+        "target": "Family cases percentage (51%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

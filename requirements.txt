@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+neo4j
+pymongo
+google-genai
+numpy
+pandas
+scikit-learn
+sentence-transformers
+rank-bm25
+python-dotenv
+tqdm
+

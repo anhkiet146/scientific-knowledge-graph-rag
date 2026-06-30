@@ -1,0 +1,145 @@
+{
+    "filename": "12-NS-HUYNH NHU(77-80)028.json",
+    "paper_title": "Synthesis and acute toxicity evaluation of Hantzsch 1,4-dihydropyridine derivatives",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "1,4-dihydropyridines",
+                "type": "Concept",
+                "description": "Calcium channel modulators used for treating cardiovascular disorders."
+            },
+            {
+                "id": "Cardiovascular disorders",
+                "type": "Concept",
+                "description": "The medical problem targeted by the synthesized derivatives."
+            },
+            {
+                "id": "Acute oral toxicity",
+                "type": "Concept",
+                "description": "The study of harmful effects after a single dose of the compounds."
+            },
+            {
+                "id": "Hantzsch reaction",
+                "type": "Method",
+                "description": "A multicomponent reaction used for the synthesis of 1,4-dihydropyridines."
+            },
+            {
+                "id": "ESI-HRMS",
+                "type": "Method",
+                "description": "High-resolution mass spectrometry for structure confirmation."
+            },
+            {
+                "id": "Bruker DMX 300 spectrometer",
+                "type": "Method",
+                "description": "NMR equipment used for characterizing chemical structures."
+            },
+            {
+                "id": "OECD guidelines",
+                "type": "Method",
+                "description": "Standardized guidelines followed for the acute toxicity study."
+            },
+            {
+                "id": "Litchfield-Wilcoxon method",
+                "type": "Method",
+                "description": "Method used to determine the lethal dose 50 (LD50)."
+            },
+            {
+                "id": "Yield (23 to 59%)",
+                "type": "Metric",
+                "description": "The percentage range of the synthesized chemical products."
+            },
+            {
+                "id": "Safe up to 2,000 mg/kg",
+                "type": "Metric",
+                "description": "The toxicity metric showing no animal deaths at the maximum dose."
+            },
+            {
+                "id": "Reaction time (20 minutes)",
+                "type": "Metric",
+                "description": "The duration of the heating process in the synthesis method."
+            },
+            {
+                "id": "Melting point (227°C)",
+                "type": "Metric",
+                "description": "The physical characteristic of compound 1."
+            },
+            {
+                "id": "Medicinal Chemistry",
+                "type": "Domain",
+                "description": "The research field involving synthesis and evaluation of drugs."
+            },
+            {
+                "id": "Huynh Nhu",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Tran Hoang Yen",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Nguyen Thi Thu Tram",
+                "type": "Author",
+                "description": "Corresponding author of the research paper."
+            },
+            {
+                "id": "Can Tho University of Medicine and Pharmacy",
+                "type": "Institution",
+                "description": "Affiliated institution of the authors in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Nhu",
+                "target": "Can Tho University of Medicine and Pharmacy",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Hoang Yen",
+                "target": "Can Tho University of Medicine and Pharmacy",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thu Tram",
+                "target": "Can Tho University of Medicine and Pharmacy",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hantzsch reaction",
+                "target": "1,4-dihydropyridines",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hantzsch reaction",
+                "target": "Yield (23 to 59%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hantzsch reaction",
+                "target": "Reaction time (20 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "OECD guidelines",
+                "target": "Acute oral toxicity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Litchfield-Wilcoxon method",
+                "target": "Acute oral toxicity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "OECD guidelines",
+                "target": "Safe up to 2,000 mg/kg",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hantzsch reaction",
+                "target": "Medicinal Chemistry",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

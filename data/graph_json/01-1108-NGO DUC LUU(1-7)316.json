@@ -1,0 +1,150 @@
+{
+  "filename": "01-1108-NGO DUC LUU(1-7)316.json",
+  "paper_title": "Application of deep learning for rice leaf disease detection in the Mekong Delta",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Agriculture",
+        "type": "Domain",
+        "description": "The primary field of study, specifically rice cultivation in the Mekong Delta."
+      },
+      {
+        "id": "Artificial Intelligence",
+        "type": "Domain",
+        "description": "The technological domain applying computer systems to tasks requiring human intelligence."
+      },
+      {
+        "id": "Deep learning",
+        "type": "Concept",
+        "description": "A subset of machine learning based on artificial neural networks used for disease diagnosis."
+      },
+      {
+        "id": "Rice leaf disease detection",
+        "type": "Concept",
+        "description": "The research problem of identifying diseases through symptoms on rice leaves."
+      },
+      {
+        "id": "Leaf smut",
+        "type": "Concept",
+        "description": "One of the three common rice leaf diseases studied."
+      },
+      {
+        "id": "Brown spot",
+        "type": "Concept",
+        "description": "One of the three common rice leaf diseases studied."
+      },
+      {
+        "id": "Bacterial leaf blight",
+        "type": "Concept",
+        "description": "One of the three common rice leaf diseases studied."
+      },
+      {
+        "id": "MobileNetV3-Small",
+        "type": "Method",
+        "description": "An optimized deep learning network variant for mobile and embedded devices."
+      },
+      {
+        "id": "MobileNetV3-Large",
+        "type": "Method",
+        "description": "A variant of the MobileNetV3 architecture."
+      },
+      {
+        "id": "ResNet50",
+        "type": "Method",
+        "description": "A 50-layer deep convolutional neural network used as a baseline for evaluation."
+      },
+      {
+        "id": "Jupiter Notebook",
+        "type": "Method",
+        "description": "The software environment used to run the training programs."
+      },
+      {
+        "id": "Kaggle rice leaf disease dataset",
+        "type": "Dataset",
+        "description": "The standardized image dataset used for testing and training the models."
+      },
+      {
+        "id": "ImageNet",
+        "type": "Dataset",
+        "description": "A standard image dataset used for benchmarking deep learning models."
+      },
+      {
+        "id": "Mean accuracy of test set (100%)",
+        "type": "Metric",
+        "description": "The ratio of correct predictions on the test set."
+      },
+      {
+        "id": "Training time (20 seconds per epoch)",
+        "type": "Metric",
+        "description": "The duration required to complete one training epoch for MobileNetV3-Small."
+      },
+      {
+        "id": "Ngo Duc Luu",
+        "type": "Author",
+        "description": "Author from Bac Lieu University."
+      },
+      {
+        "id": "Le Thi Thuy Diem",
+        "type": "Author",
+        "description": "Author from Bac Lieu University."
+      },
+      {
+        "id": "Pham Thi Phuong Anh",
+        "type": "Author",
+        "description": "Author from Bac Lieu University."
+      },
+      {
+        "id": "Bac Lieu University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Deep learning",
+        "target": "Agriculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "MobileNetV3-Small",
+        "target": "Rice leaf disease detection",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ResNet50",
+        "target": "Rice leaf disease detection",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "MobileNetV3-Small",
+        "target": "Kaggle rice leaf disease dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "MobileNetV3-Small",
+        "target": "Mean accuracy of test set (100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MobileNetV3-Small",
+        "target": "Training time (20 seconds per epoch)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ngo Duc Luu",
+        "target": "Bac Lieu University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Thuy Diem",
+        "target": "Bac Lieu University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thi Phuong Anh",
+        "target": "Bac Lieu University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

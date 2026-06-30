@@ -1,0 +1,190 @@
+{
+  "filename": "11-FI-DUONG THUY YEN(81-88)027.json",
+  "paper_title": "Genetic diversity of Pangasius krempfi in the Mekong River estuaries",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Genetic diversity",
+        "type": "Concept",
+        "description": "The total number of genetic characteristics in the genetic makeup of a species."
+      },
+      {
+        "id": "Population structure",
+        "type": "Concept",
+        "description": "The organization of genetic variation within a species."
+      },
+      {
+        "id": "Pangasius krempfi",
+        "type": "Concept",
+        "description": "An important catfish species for capture fisheries in the Mekong River basin."
+      },
+      {
+        "id": "Conservation",
+        "type": "Concept",
+        "description": "Setting priority for protecting vulnerable species from overexploitation."
+      },
+      {
+        "id": "ISSR markers",
+        "type": "Method",
+        "description": "Intersimple sequence repeat markers used for quantifying genetic diversity."
+      },
+      {
+        "id": "PCR",
+        "type": "Method",
+        "description": "Polymerase chain reaction used to amplify DNA segments."
+      },
+      {
+        "id": "Promega genomic DNA purification kit",
+        "type": "Method",
+        "description": "Kit used for extracting DNA from fin clips."
+      },
+      {
+        "id": "GenAlEx 6.5",
+        "type": "Method",
+        "description": "Software for estimating genetic diversity parameters."
+      },
+      {
+        "id": "SPSS program Version 20.0",
+        "type": "Method",
+        "description": "Statistical software used for independent-sample T-tests."
+      },
+      {
+        "id": "AMOVA",
+        "type": "Method",
+        "description": "Analysis of molecular genetic variance."
+      },
+      {
+        "id": "PCoA",
+        "type": "Method",
+        "description": "Principal coordinate analysis."
+      },
+      {
+        "id": "Binary matrix data set",
+        "type": "Dataset",
+        "description": "Dataset formed by scoring the presence (1) or absence (0) of DNA bands."
+      },
+      {
+        "id": "83.3% percentage of polymorphic loci",
+        "type": "Metric",
+        "description": "Percentage of polymorphic loci in the population."
+      },
+      {
+        "id": "Effective number of alleles (1.365 ± 0.048)",
+        "type": "Metric",
+        "description": "Measure of genetic variation across alleles."
+      },
+      {
+        "id": "Expected heterozygosity (0.215 ± 0.027)",
+        "type": "Metric",
+        "description": "Average heterozygosity expected under Hardy-Weinberg equilibrium."
+      },
+      {
+        "id": "Shannon index (0.310 ± 0.037)",
+        "type": "Metric",
+        "description": "Metric used to characterize species diversity in a community."
+      },
+      {
+        "id": "Genetic distance (8% to 10%)",
+        "type": "Metric",
+        "description": "Nei’s method genetic distance between the two fish groups."
+      },
+      {
+        "id": "Genetic variation (88%)",
+        "type": "Metric",
+        "description": "Amount of genetic variation found within fish groups."
+      },
+      {
+        "id": "Population Genetics",
+        "type": "Domain",
+        "description": "Subfield of genetics that deals with genetic differences within and between populations."
+      },
+      {
+        "id": "Duong Thuy Yen",
+        "type": "Author",
+        "description": "Corresponding author of the study."
+      },
+      {
+        "id": "Nguyen Tien Vinh",
+        "type": "Author",
+        "description": "Author from the Advanced Aquaculture Program."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University in Vietnam where the research was conducted."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries",
+        "type": "Institution",
+        "description": "Academic unit at Can Tho University."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Duong Thuy Yen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Duong Thuy Yen",
+        "target": "College of Aquaculture and Fisheries",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tien Vinh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Genetic diversity of Pangasius krempfi in the Mekong River estuaries",
+        "target": "Population Genetics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "ISSR markers",
+        "target": "Genetic diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ISSR markers",
+        "target": "Population structure",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ISSR markers",
+        "target": "Binary matrix data set",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "ISSR markers",
+        "target": "83.3% percentage of polymorphic loci",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ISSR markers",
+        "target": "Effective number of alleles (1.365 ± 0.048)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ISSR markers",
+        "target": "Expected heterozygosity (0.215 ± 0.027)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ISSR markers",
+        "target": "Shannon index (0.310 ± 0.037)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "AMOVA",
+        "target": "Genetic variation (88%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "GenAlEx 6.5",
+        "target": "Genetic distance (8% to 10%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

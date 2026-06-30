@@ -1,0 +1,165 @@
+{
+  "filename": "12-548-D-NGUYEN DANH NAM(103-115)025.json",
+  "paper_title": "The impact of personality traits on the ethical leadership, job performance and job satisfaction of public servants -A case study of the Northern public sector of Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Human Resource Management",
+        "type": "Domain",
+        "description": "The field of study focusing on managing people within an organization, specifically in the public sector."
+      },
+      {
+        "id": "Nguyen Danh Nam",
+        "type": "Author",
+        "description": "Lead author of the study from East Asia University of Technology."
+      },
+      {
+        "id": "Le Chi Phuong",
+        "type": "Author",
+        "description": "Co-author from Can Tho City Institute for Socio - Economic Development Studies."
+      },
+      {
+        "id": "Le Thi Truc Phuong",
+        "type": "Author",
+        "description": "Co-author from Can Tho City Party Committee."
+      },
+      {
+        "id": "East Asia University of Technology",
+        "type": "Institution",
+        "description": "The academic institution where Nguyen Danh Nam is affiliated."
+      },
+      {
+        "id": "Can Tho City Institute for Socio - Economic Development Studies",
+        "type": "Institution",
+        "description": "The institution where Le Chi Phuong is affiliated."
+      },
+      {
+        "id": "Can Tho City Party Committee",
+        "type": "Institution",
+        "description": "The institution where Le Thi Truc Phuong is affiliated."
+      },
+      {
+        "id": "Big Five personality traits",
+        "type": "Concept",
+        "description": "A taxonomy for personality traits including Openness, Conscientiousness, Extroversion, Agreeableness, and Neuroticism."
+      },
+      {
+        "id": "Ethical leadership",
+        "type": "Concept",
+        "description": "Leadership style focused on appropriate conduct through personal actions and interpersonal relationships."
+      },
+      {
+        "id": "Job performance",
+        "type": "Concept",
+        "description": "The behavioral and outcome-based effectiveness of an employee in their role."
+      },
+      {
+        "id": "Job satisfaction",
+        "type": "Concept",
+        "description": "The level of content a person feels regarding their job."
+      },
+      {
+        "id": "Quantitative approach",
+        "type": "Method",
+        "description": "Research strategy focusing on quantifying the collection and analysis of data."
+      },
+      {
+        "id": "Structured questionnaire survey",
+        "type": "Method",
+        "description": "An instrument used to obtain information from public servants in the study."
+      },
+      {
+        "id": "SPSS 26",
+        "type": "Method",
+        "description": "Statistical software used for demographic information analysis."
+      },
+      {
+        "id": "SmartPLS 3.0",
+        "type": "Method",
+        "description": "Software used to process Structural Equation Modeling (SEM)."
+      },
+      {
+        "id": "NEO PI-R questionnaire",
+        "type": "Method",
+        "description": "A personality inventory used to measure the Big Five traits."
+      },
+      {
+        "id": "820 survey votes",
+        "type": "Dataset",
+        "description": "The final processed numeric survey data collected from public servants."
+      },
+      {
+        "id": "Recovery proportion (95.34%)",
+        "type": "Metric",
+        "description": "The percentage of usable survey responses returned."
+      },
+      {
+        "id": "Path coefficient β for Conscientiousness to Ethical leadership (0.463)",
+        "type": "Metric",
+        "description": "The standardized regression weight indicating impact strength."
+      },
+      {
+        "id": "Effect size f2 for Conscientiousness to Job satisfaction (0.425)",
+        "type": "Metric",
+        "description": "Measure of how much an independent variable contributes to the R-squared value."
+      },
+      {
+        "id": "Indicator loadings (> 0.6)",
+        "type": "Metric",
+        "description": "Reliability threshold for observed variables in the model."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Danh Nam",
+        "target": "East Asia University of Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Chi Phuong",
+        "target": "Can Tho City Institute for Socio - Economic Development Studies",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Truc Phuong",
+        "target": "Can Tho City Party Committee",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Big Five personality traits",
+        "target": "Human Resource Management",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Quantitative approach",
+        "target": "Big Five personality traits",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "SmartPLS 3.0",
+        "target": "820 survey votes",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "SmartPLS 3.0",
+        "target": "Path coefficient β for Conscientiousness to Ethical leadership (0.463)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "SmartPLS 3.0",
+        "target": "Effect size f2 for Conscientiousness to Job satisfaction (0.425)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Structured questionnaire survey",
+        "target": "Recovery proportion (95.34%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NEO PI-R questionnaire",
+        "target": "Indicator loadings (> 0.6)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

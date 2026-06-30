@@ -1,0 +1,135 @@
+{
+    "filename": "06-792-LE ANH TUAN(35-43)279.json",
+    "paper_title": "Erosion in the coastal areas of the Vietnamese Mekong Delta: Current challenges and solutions",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Le Anh Tuan",
+                "type": "Author",
+                "description": "Corresponding author from the College of Environment and Natural Resources."
+            },
+            {
+                "id": "College of Environment and Natural Resources, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the author is affiliated."
+            },
+            {
+                "id": "Environmental Science and Coastal Management",
+                "type": "Domain",
+                "description": "The research field focusing on coastal erosion and management strategies in the Mekong Delta."
+            },
+            {
+                "id": "Coastal erosion",
+                "type": "Concept",
+                "description": "The primary geological disaster and research problem occurring in the Mekong Delta."
+            },
+            {
+                "id": "Sustainability of landslide prevention projects",
+                "type": "Concept",
+                "description": "The assessment of long-term effectiveness of engineering works against erosion."
+            },
+            {
+                "id": "Field surveys",
+                "type": "Method",
+                "description": "Practical research approach conducted from 2021 to 2023 along coastal provinces."
+            },
+            {
+                "id": "Hudson formula",
+                "type": "Method",
+                "description": "A stability formula used for the design and calculation of armor units in breakwaters."
+            },
+            {
+                "id": "Bamboo fence",
+                "type": "Method",
+                "description": "A low-cost method using two layers of bamboo or Melaleuca poles to dissipate wave energy."
+            },
+            {
+                "id": "Geosynthetic Tube",
+                "type": "Method",
+                "description": "Tube-shaped geotextile bags filled with sand used as wave-blocking underground dikes."
+            },
+            {
+                "id": "Prestressed centrifugal concrete revetment",
+                "type": "Method",
+                "description": "A structural solution involving concrete piles to reduce wave energy and restore mangrove forests."
+            },
+            {
+                "id": "TetraPod",
+                "type": "Method",
+                "description": "A 4-legged concrete coastal breakwater unit designed to block and break waves."
+            },
+            {
+                "id": "National Steering Committee for Natural Disaster Prevention and Control website",
+                "type": "Dataset",
+                "description": "The source of statistics and records regarding landslide spots and lengths in Vietnam."
+            },
+            {
+                "id": "Annual coastal land loss (300-500 hectares)",
+                "type": "Metric",
+                "description": "The estimated total area of coastal land lost each year in the Mekong Delta."
+            },
+            {
+                "id": "Bamboo fence cost (500 million VND/km)",
+                "type": "Metric",
+                "description": "The approximate implementation cost for constructing a bamboo/Melaleuca fence."
+            },
+            {
+                "id": "Centrifugal concrete cost (32-35 billion VND/km)",
+                "type": "Metric",
+                "description": "The average construction cost for prestressed centrifugal concrete revetments."
+            },
+            {
+                "id": "Wave reduction (85% high waves)",
+                "type": "Metric",
+                "description": "The effectiveness of the centrifugal concrete embankment in reducing wave energy."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Erosion in the coastal areas of the Vietnamese Mekong Delta: Current challenges and solutions",
+                "target": "Environmental Science and Coastal Management",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Anh Tuan",
+                "target": "College of Environment and Natural Resources, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Field surveys",
+                "target": "Coastal erosion",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hudson formula",
+                "target": "Coastal erosion",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Field surveys",
+                "target": "National Steering Committee for Natural Disaster Prevention and Control website",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Bamboo fence",
+                "target": "Bamboo fence cost (500 million VND/km)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Prestressed centrifugal concrete revetment",
+                "target": "Centrifugal concrete cost (32-35 billion VND/km)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Prestressed centrifugal concrete revetment",
+                "target": "Wave reduction (85% high waves)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coastal erosion",
+                "target": "Annual coastal land loss (300-500 hectares)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

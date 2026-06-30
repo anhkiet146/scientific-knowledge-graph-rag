@@ -1,0 +1,160 @@
+{
+    "filename": "15-FT-TONG THI ANH NGOC(124-130)046.json",
+    "paper_title": "Shelf-life evaluation of fresh catfish (Pangasianodon hypophthalmus) fillets at different storage temperatures",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Tong Thi Anh Ngoc",
+                "type": "Author",
+                "description": "Researcher from Can Tho University"
+            },
+            {
+                "id": "Phan Nguyen Trang",
+                "type": "Author",
+                "description": "Researcher from Can Tho University"
+            },
+            {
+                "id": "Ly Nguyen Binh",
+                "type": "Author",
+                "description": "Researcher from Can Tho University"
+            },
+            {
+                "id": "Department of Food Technology, College of Agriculture, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department located in Vietnam"
+            },
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "Scientific field of study for the paper"
+            },
+            {
+                "id": "Fishery Quality Management",
+                "type": "Domain",
+                "description": "Applied field for the research findings"
+            },
+            {
+                "id": "Shelf-life evaluation",
+                "type": "Concept",
+                "description": "The study of how long fish fillets remain acceptable for consumption"
+            },
+            {
+                "id": "Microbiological spoilage",
+                "type": "Concept",
+                "description": "Deterioration of fish quality caused by microorganisms"
+            },
+            {
+                "id": "PA (polyamide) package",
+                "type": "Method",
+                "description": "Material used for packaging the fish fillets"
+            },
+            {
+                "id": "Vacuum level of 60%",
+                "type": "Method",
+                "description": "Packaging condition applied to the samples"
+            },
+            {
+                "id": "Steam distillation",
+                "type": "Method",
+                "description": "Process used to measure Total Volatile Basic Nitrogen"
+            },
+            {
+                "id": "pH-electrode",
+                "type": "Method",
+                "description": "Equipment used to measure acidity/alkalinity"
+            },
+            {
+                "id": "Plate Count Agar (PCA)",
+                "type": "Method",
+                "description": "Medium used for determining total mesophilic counts"
+            },
+            {
+                "id": "SPSS version 20",
+                "type": "Method",
+                "description": "Software used for statistical cross-correlation analysis"
+            },
+            {
+                "id": "Shelf-life at 0°C (21 days)",
+                "type": "Metric",
+                "description": "Maximum duration of freshness at 0 degrees Celsius"
+            },
+            {
+                "id": "Shelf-life at 4°C (11 days)",
+                "type": "Metric",
+                "description": "Maximum duration of freshness at 4 degrees Celsius"
+            },
+            {
+                "id": "Shelf-life at 8°C (7 days)",
+                "type": "Metric",
+                "description": "Maximum duration of freshness at 8 degrees Celsius"
+            },
+            {
+                "id": "Shelf-life at 12°C (3 days)",
+                "type": "Metric",
+                "description": "Maximum duration of freshness at 12 degrees Celsius"
+            },
+            {
+                "id": "Correlation TVB-N and microbial counts (r = 0.953)",
+                "type": "Metric",
+                "description": "Statistical relationship between chemical and biological indicators"
+            },
+            {
+                "id": "Protein content (16.23%)",
+                "type": "Metric",
+                "description": "Nutritional composition of the tra catfish fillets"
+            },
+            {
+                "id": "Initial TVB-N (12.84 ± 0.81 mg/100g)",
+                "type": "Metric",
+                "description": "Baseline chemical spoilage indicator value"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Shelf-life evaluation of fresh catfish fillets",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tong Thi Anh Ngoc",
+                "target": "Department of Food Technology, College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Nguyen Trang",
+                "target": "Department of Food Technology, College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ly Nguyen Binh",
+                "target": "Department of Food Technology, College of Agriculture, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "PA (polyamide) package",
+                "target": "Shelf-life evaluation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Vacuum level of 60%",
+                "target": "Shelf-life evaluation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Steam distillation",
+                "target": "Initial TVB-N (12.84 ± 0.81 mg/100g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PA (polyamide) package",
+                "target": "Shelf-life at 0°C (21 days)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SPSS version 20",
+                "target": "Correlation TVB-N and microbial counts (r = 0.953)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

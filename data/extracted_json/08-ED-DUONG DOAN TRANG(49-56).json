@@ -1,0 +1,150 @@
+{
+    "filename": "08-ED-DUONG DOAN TRANG(49-56).json",
+    "paper_title": "LECTURERS AND STUDENTS' PERCEPTION OF EFL POLICY AND PRACTICE AT A HIGHER EDUCATION INSTITUTE",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Duong Doan Trang",
+                "type": "Author",
+                "description": "Lecturer at the College of Aquaculture and Fisheries, Can Tho University."
+            },
+            {
+                "id": "Trinh Quoc Lap",
+                "type": "Author",
+                "description": "Lecturer at the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "A college within Can Tho University located in Vietnam."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "A school within Can Tho University specializing in foreign languages."
+            },
+            {
+                "id": "English as a Foreign Language (EFL) Education",
+                "type": "Domain",
+                "description": "The field of study concerning teaching and learning English as a foreign language."
+            },
+            {
+                "id": "Vietnamese six-level scale of English Language Proficiency (ELP)",
+                "type": "Concept",
+                "description": "A proficiency framework for English language curriculum and assessment in Vietnam, adapted from CEFR."
+            },
+            {
+                "id": "National Foreign Language 2020 Project",
+                "type": "Concept",
+                "description": "A Vietnamese government project aimed at improving foreign language teaching and learning."
+            },
+            {
+                "id": "CEFR",
+                "type": "Concept",
+                "description": "Common European Framework of References for languages."
+            },
+            {
+                "id": "Descriptive research design",
+                "type": "Method",
+                "description": "A study design used to describe characteristics of a population or phenomenon being studied."
+            },
+            {
+                "id": "Questionnaires",
+                "type": "Method",
+                "description": "A quantitative data collection instrument used for lecturers and students."
+            },
+            {
+                "id": "Semi-structured interviews",
+                "type": "Method",
+                "description": "A qualitative data collection method involving open-ended questions for administrators and lecturers."
+            },
+            {
+                "id": "SPSS",
+                "type": "Method",
+                "description": "Statistical software used for analyzing quantitative data."
+            },
+            {
+                "id": "One-Sample T-Test",
+                "type": "Method",
+                "description": "A statistical test used to determine whether a sample mean is significantly different from a hypothesized population mean."
+            },
+            {
+                "id": "Survey responses from 35 lecturers and 85 students",
+                "type": "Dataset",
+                "description": "Primary data collected through questionnaires at the researched university."
+            },
+            {
+                "id": "Reliability score - Lecturer Questionnaire (.85)",
+                "type": "Metric",
+                "description": "Cronbach's Alpha value representing the reliability of the questionnaire for lecturers."
+            },
+            {
+                "id": "Reliability score - Student Questionnaire (.82)",
+                "type": "Metric",
+                "description": "Cronbach's Alpha value representing the reliability of the questionnaire for students."
+            },
+            {
+                "id": "Mean score of perception of policies (M=3.89)",
+                "type": "Metric",
+                "description": "The average score of lecturers' perception regarding EFL policies."
+            },
+            {
+                "id": "Mean score of perception of policies (M=3.96)",
+                "type": "Metric",
+                "description": "The average score of students' perception regarding EFL policies."
+            },
+            {
+                "id": "P-value for policy perception (p=0.13)",
+                "type": "Metric",
+                "description": "Statistical significance value for lecturers' perception of policy effectiveness."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Duong Doan Trang",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Trinh Quoc Lap",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Questionnaires",
+                "target": "Vietnamese six-level scale of English Language Proficiency (ELP)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Semi-structured interviews",
+                "target": "Vietnamese six-level scale of English Language Proficiency (ELP)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SPSS",
+                "target": "Survey responses from 35 lecturers and 85 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Questionnaires",
+                "target": "Reliability score - Lecturer Questionnaire (.85)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaires",
+                "target": "Reliability score - Student Questionnaire (.82)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "One-Sample T-Test",
+                "target": "P-value for policy perception (p=0.13)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive research design",
+                "target": "English as a Foreign Language (EFL) Education",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

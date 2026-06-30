@@ -1,0 +1,150 @@
+{
+  "filename": "04-783-VAN TUAN CAO(33-43)304.json",
+  "paper_title": "Rework in civil construction projects at design phase: Influencing factors and suggested solutions",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Rework in civil construction projects",
+        "type": "Concept",
+        "description": "The repetitive performance of work in construction projects leading to negative impacts on cost, schedule, and quality."
+      },
+      {
+        "id": "Design phase",
+        "type": "Concept",
+        "description": "The specific stage of a construction project where planning and engineering design occur, often identified as a major source of errors."
+      },
+      {
+        "id": "Principal component analysis (PCA)",
+        "type": "Method",
+        "description": "A statistical method used to reduce dimensionality and reveal patterns in data relating to rework causes."
+      },
+      {
+        "id": "Questionnaire surveys",
+        "type": "Method",
+        "description": "A survey method involving 36 questions categorized into 5 groups to collect data from experts."
+      },
+      {
+        "id": "Cronbach's Alpha analysis",
+        "type": "Method",
+        "description": "A test used to evaluate the reliability and internal consistency of the survey questions."
+      },
+      {
+        "id": "Spearman correlation coefficient",
+        "type": "Method",
+        "description": "A statistical measure used to check consistency in evaluation before applying PCA."
+      },
+      {
+        "id": "Survey data from Southern Vietnam",
+        "type": "Dataset",
+        "description": "A collection of 118 valid responses from civil engineers and investors in Ho Chi Minh City and the Mekong Delta."
+      },
+      {
+        "id": "Cronbach's Alpha (0.843)",
+        "type": "Metric",
+        "description": "Reliability coefficient of the 36 surveyed questions indicating high consistency."
+      },
+      {
+        "id": "Spearman coefficient for Group Q2 (0.747)",
+        "type": "Metric",
+        "description": "Correlation coefficient indicating strong consistency for causes induced by design staff."
+      },
+      {
+        "id": "PC1 variance for Q1 (28.1%)",
+        "type": "Metric",
+        "description": "The variance explained by the first principal component for design manager causes."
+      },
+      {
+        "id": "Cost increase (12.4% of total project costs)",
+        "type": "Metric",
+        "description": "The overall impact of rework on total construction project costs as cited from Burati et al."
+      },
+      {
+        "id": "Sample size (118 responses)",
+        "type": "Metric",
+        "description": "The number of valid survey questionnaires used for PCA technique."
+      },
+      {
+        "id": "Civil Construction Project Management",
+        "type": "Domain",
+        "description": "The broad field of study covering quality and resource management in building infrastructures."
+      },
+      {
+        "id": "Van-Tuan Cao",
+        "type": "Author",
+        "description": "Researcher at the Civil Engineering Faculty, Mien Tay Construction University."
+      },
+      {
+        "id": "My-Pham Truong",
+        "type": "Author",
+        "description": "Researcher at the Civil Engineering Faculty, Mien Tay Construction University."
+      },
+      {
+        "id": "Ngoc-Loi Dang",
+        "type": "Author",
+        "description": "Researcher at the Urban Infrastructure Faculty, Mien Tay Construction University."
+      },
+      {
+        "id": "Mien Tay Construction University",
+        "type": "Institution",
+        "description": "Academic institution located in Vietnam with faculties in Civil Engineering and Urban Infrastructure."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Rework in civil construction projects",
+        "target": "Civil Construction Project Management",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Principal component analysis (PCA)",
+        "target": "Rework in civil construction projects",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaire surveys",
+        "target": "Rework in civil construction projects",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Principal component analysis (PCA)",
+        "target": "Survey data from Southern Vietnam",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Cronbach's Alpha analysis",
+        "target": "Cronbach's Alpha (0.843)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spearman correlation coefficient",
+        "target": "Spearman coefficient for Group Q2 (0.747)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Principal component analysis (PCA)",
+        "target": "PC1 variance for Q1 (28.1%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaire surveys",
+        "target": "Sample size (118 responses)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Van-Tuan Cao",
+        "target": "Mien Tay Construction University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "My-Pham Truong",
+        "target": "Mien Tay Construction University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngoc-Loi Dang",
+        "target": "Mien Tay Construction University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

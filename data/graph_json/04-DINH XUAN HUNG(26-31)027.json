@@ -1,0 +1,165 @@
+{
+  "filename": "04-DINH XUAN HUNG(26-31)027.json",
+  "paper_title": "Status of using rope in purse seine fisheries in Viet Nam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Dinh Xuan Hung",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Nguyen Phan Phuoc Long",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Tran Xuan Lam",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "South Research Sub-Institute for Marine Fisheries",
+        "type": "Institution",
+        "description": "Research organization located in Viet Nam"
+      },
+      {
+        "id": "Purse seine fisheries",
+        "type": "Domain",
+        "description": "The main research field involving marine capture with purse seine nets"
+      },
+      {
+        "id": "Status of using rope",
+        "type": "Concept",
+        "description": "The investigation of material, diameter, and replacement frequency of ropes"
+      },
+      {
+        "id": "Fishing gear technology",
+        "type": "Concept",
+        "description": "The technical quality and modernizing of the fishing fleet"
+      },
+      {
+        "id": "Direct survey method",
+        "type": "Method",
+        "description": "Survey of fishing gears combined with interviews"
+      },
+      {
+        "id": "Memoir interview",
+        "type": "Method",
+        "description": "Interviews with owners and captains based on their memory and experience"
+      },
+      {
+        "id": "Descriptive statistical method",
+        "type": "Method",
+        "description": "Method using average values and standard deviation on Excel software"
+      },
+      {
+        "id": "Excel software",
+        "type": "Method",
+        "description": "Software used for data analysis"
+      },
+      {
+        "id": "Polypropylene (PP)",
+        "type": "Method",
+        "description": "Dominant material used for ropes in purse seine"
+      },
+      {
+        "id": "Steel cables",
+        "type": "Method",
+        "description": "Material used for main ring lines in the South"
+      },
+      {
+        "id": "Surveyed data from 13 provinces",
+        "type": "Dataset",
+        "description": "Data collected from North, Middle, and South regions of Viet Nam"
+      },
+      {
+        "id": "Purse seiner statistics of 2019",
+        "type": "Dataset",
+        "description": "Primary data collected from national and local fisheries management offices"
+      },
+      {
+        "id": "Polypropylene material usage (98%)",
+        "type": "Metric",
+        "description": "Percentage of PP material used in Vietnamese purse seine"
+      },
+      {
+        "id": "Rope diameters (10 - 20 mm)",
+        "type": "Metric",
+        "description": "Concentrated range of diameters for initial and annual replacing ropes"
+      },
+      {
+        "id": "Annual added ropes (1/5 of original amount)",
+        "type": "Metric",
+        "description": "Proportion of annual rope supplementation compared to original equipment"
+      },
+      {
+        "id": "Ratio of main purse line with lead line (1.1 to 1.75)",
+        "type": "Metric",
+        "description": "Technical ratio range for purse seine fishing gear"
+      },
+      {
+        "id": "Supplement rate of 10-20mm PP rope (59%)",
+        "type": "Metric",
+        "description": "The specific supplement rate for ropes of 10-20mm diameter"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Dinh Xuan Hung",
+        "target": "South Research Sub-Institute for Marine Fisheries",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Phan Phuoc Long",
+        "target": "South Research Sub-Institute for Marine Fisheries",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Xuan Lam",
+        "target": "South Research Sub-Institute for Marine Fisheries",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Status of using rope",
+        "target": "Purse seine fisheries",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Direct survey method",
+        "target": "Surveyed data from 13 provinces",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Descriptive statistical method",
+        "target": "Purse seiner statistics of 2019",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Polypropylene (PP)",
+        "target": "Polypropylene material usage (98%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Polypropylene (PP)",
+        "target": "Supplement rate of 10-20mm PP rope (59%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Direct survey method",
+        "target": "Status of using rope",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Polypropylene (PP)",
+        "target": "Status of using rope",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Excel software",
+        "target": "Descriptive statistical method",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

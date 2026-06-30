@@ -1,0 +1,150 @@
+{
+  "filename": "18-BE-TRAN VAN DUNG(150-157)018.json",
+  "paper_title": "EFFECT OF CROP ROTATION ON THE DIVERSITY OF THE BACTERIAL COMMUNITY COLONIZING RICE STRAW RESIDUES IN PADDY RICE CULTURED SOIL IN THE MEKONG DELTA OF VIETNAM",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Van Dung",
+        "type": "Author",
+        "description": "Researcher from the College of Agriculture and Applied Biology, Can Tho University."
+      },
+      {
+        "id": "Cao Ngoc Diep",
+        "type": "Author",
+        "description": "Researcher from the Biotechnology Research and Development Institute, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam hosting the research."
+      },
+      {
+        "id": "College of Agricultural and Applied Biology",
+        "type": "Institution",
+        "description": "Specific department at Can Tho University."
+      },
+      {
+        "id": "Biotechnology Research and Development Institute",
+        "type": "Institution",
+        "description": "Specific research institute at Can Tho University."
+      },
+      {
+        "id": "Soil Microbiology",
+        "type": "Domain",
+        "description": "Study of microorganisms in soil and their functions."
+      },
+      {
+        "id": "Crop Rotation",
+        "type": "Concept",
+        "description": "Practice of growing a series of different types of crops in the same area in sequenced seasons."
+      },
+      {
+        "id": "Microbial Diversity",
+        "type": "Concept",
+        "description": "The variety and abundance of microorganisms in a particular environment."
+      },
+      {
+        "id": "16S rRNA gene based Denaturing Gradient Gel Electrophoresis (DGGE)",
+        "type": "Method",
+        "description": "Molecular fingerprinting method used to study microbial community composition."
+      },
+      {
+        "id": "UPGMA analysis",
+        "type": "Method",
+        "description": "Unweighted Pair Group Method with Arithmetic Mean used for cluster analysis."
+      },
+      {
+        "id": "Shannon index (H)",
+        "type": "Method",
+        "description": "Statistical measure used to estimate diversity in a community."
+      },
+      {
+        "id": "Litter bags",
+        "type": "Method",
+        "description": "Experimental tools containing rice stems used to study decomposition and colonization."
+      },
+      {
+        "id": "CRS4 (baby corn-rice-mungbean)",
+        "type": "Method",
+        "description": "Specific crop rotation system involving two upland crops."
+      },
+      {
+        "id": "PCR amplification",
+        "type": "Method",
+        "description": "Process used to amplify specific DNA sequences (16S rRNA gene fragments)."
+      },
+      {
+        "id": "Gelcompar II version 4.602",
+        "type": "Method",
+        "description": "Software used to construct dendrograms and analyze DGGE fingerprints."
+      },
+      {
+        "id": "DGGE fingerprints",
+        "type": "Dataset",
+        "description": "Digital profiles and data banding patterns obtained from electrophoresis."
+      },
+      {
+        "id": "Average H for CRS4 (H=1.13)",
+        "type": "Metric",
+        "description": "The highest average Shannon diversity index recorded in the experiment."
+      },
+      {
+        "id": "Average H for CRS3 (H=1.05)",
+        "type": "Metric",
+        "description": "Shannon diversity index for the rice-rice-baby corn system."
+      },
+      {
+        "id": "P < 0.05",
+        "type": "Metric",
+        "description": "Statistical significance threshold used in ANOVA analysis."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Van Dung",
+        "target": "College of Agricultural and Applied Biology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Van Dung",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Cao Ngoc Diep",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Cao Ngoc Diep",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "16S rRNA gene based Denaturing Gradient Gel Electrophoresis (DGGE)",
+        "target": "Microbial Diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "16S rRNA gene based Denaturing Gradient Gel Electrophoresis (DGGE)",
+        "target": "DGGE fingerprints",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "CRS4 (baby corn-rice-mungbean)",
+        "target": "Average H for CRS4 (H=1.13)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "CRS4 (baby corn-rice-mungbean)",
+        "target": "P < 0.05",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "EFFECT OF CROP ROTATION ON THE DIVERSITY OF THE BACTERIAL COMMUNITY...",
+        "target": "Soil Microbiology",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

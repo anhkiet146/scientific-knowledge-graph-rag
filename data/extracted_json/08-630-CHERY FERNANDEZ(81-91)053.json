@@ -1,0 +1,160 @@
+{
+    "filename": "08-630-CHERY FERNANDEZ(81-91)053.json",
+    "paper_title": "Career preferences of Filipino senior high school students",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Education",
+                "type": "Domain",
+                "description": "The primary field of study regarding student career choices and counseling."
+            },
+            {
+                "id": "Chery B. Fernandez",
+                "type": "Author",
+                "description": "First author affiliated with Cebu Normal University."
+            },
+            {
+                "id": "Meshel B. Balijon",
+                "type": "Author",
+                "description": "Second author affiliated with Eastern Visayas State University."
+            },
+            {
+                "id": "Inero V. Ancho",
+                "type": "Author",
+                "description": "Third author affiliated with University of the Philippines Los Baños."
+            },
+            {
+                "id": "Cebu Normal University",
+                "type": "Institution",
+                "description": "Educational institution in the Philippines."
+            },
+            {
+                "id": "Eastern Visayas State University",
+                "type": "Institution",
+                "description": "Educational institution in the Philippines."
+            },
+            {
+                "id": "University of the Philippines Los Baños",
+                "type": "Institution",
+                "description": "Educational institution in the Philippines."
+            },
+            {
+                "id": "Career preferences",
+                "type": "Concept",
+                "description": "The trends and challenges in the choices of future professions among students."
+            },
+            {
+                "id": "Career pathing design",
+                "type": "Concept",
+                "description": "The framework or intervention plan developed to guide students' career decisions."
+            },
+            {
+                "id": "K-12 program",
+                "type": "Concept",
+                "description": "The basic education curriculum implemented in the Philippines."
+            },
+            {
+                "id": "Quantitative-qualitative mixed design",
+                "type": "Method",
+                "description": "The research approach combining statistical tools and focused group discussions."
+            },
+            {
+                "id": "Focused group discussion",
+                "type": "Method",
+                "description": "Qualitative data collection tool used to confirm respondent responses."
+            },
+            {
+                "id": "Survey Questionnaire",
+                "type": "Method",
+                "description": "A 20-item self-made tool used to measure trends and challenges."
+            },
+            {
+                "id": "Interview Guide",
+                "type": "Method",
+                "description": "Qualitative tool used to gather information from guidance counselors."
+            },
+            {
+                "id": "Survey and Interview Data",
+                "type": "Dataset",
+                "description": "The collected digital and tabulated responses from 35 students and 5 GCAs."
+            },
+            {
+                "id": "Sample size (35 students)",
+                "type": "Metric",
+                "description": "The total number of student participants."
+            },
+            {
+                "id": "Legal age 18 (62.8%)",
+                "type": "Metric",
+                "description": "Percentage of students who are 18 years old."
+            },
+            {
+                "id": "Family Income Classification D (54.3%)",
+                "type": "Metric",
+                "description": "The percentage of students belonging to family income classification D."
+            },
+            {
+                "id": "Income below 8,000 pesos (28.6%)",
+                "type": "Metric",
+                "description": "Percentage of families earning a low monthly income."
+            },
+            {
+                "id": "TVL track enrollment (40%)",
+                "type": "Metric",
+                "description": "The percentage of respondents enrolled in Technical-Vocational-Livelihood track."
+            },
+            {
+                "id": "80-84 average final grade (31.4%)",
+                "type": "Metric",
+                "description": "Percentage of students with an average grade classified as Approaching Proficiency."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Chery B. Fernandez",
+                "target": "Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Meshel B. Balijon",
+                "target": "Eastern Visayas State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Inero V. Ancho",
+                "target": "University of the Philippines Los Baños",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Quantitative-qualitative mixed design",
+                "target": "Career preferences",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Quantitative-qualitative mixed design",
+                "target": "Survey and Interview Data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Quantitative-qualitative mixed design",
+                "target": "Sample size (35 students)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Quantitative-qualitative mixed design",
+                "target": "Income below 8,000 pesos (28.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Survey Questionnaire",
+                "target": "Career preferences",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Career preferences",
+                "target": "Education",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

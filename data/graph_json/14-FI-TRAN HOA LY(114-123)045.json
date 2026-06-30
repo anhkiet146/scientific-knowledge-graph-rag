@@ -1,0 +1,170 @@
+{
+  "filename": "14-FI-TRAN HOA LY(114-123)045.json",
+  "paper_title": "Antibiotic resistance and molecular characteristics of extended-spectrum betalactamase-producing Escherichia coli isolated from fish pond",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Antibiotic resistance",
+        "type": "Concept",
+        "description": "The ability of bacteria to resist the effects of an antibiotic."
+      },
+      {
+        "id": "ESBL production",
+        "type": "Concept",
+        "description": "Production of extended-spectrum beta-lactamase enzymes by bacteria."
+      },
+      {
+        "id": "Multidrug resistance (MDR)",
+        "type": "Concept",
+        "description": "Resistance of a microorganism to multiple antimicrobial drugs."
+      },
+      {
+        "id": "Phylogenetic analysis",
+        "type": "Concept",
+        "description": "Study of evolutionary relationships among biological entities."
+      },
+      {
+        "id": "Disc diffusion method",
+        "type": "Method",
+        "description": "A test of the antibiotic sensitivity of bacteria."
+      },
+      {
+        "id": "Polymerase Chain Reaction (PCR)",
+        "type": "Method",
+        "description": "A method used to rapidly make millions to billions of copies of a specific DNA sample."
+      },
+      {
+        "id": "Multiplex PCR",
+        "type": "Method",
+        "description": "A type of PCR that uses multiple primers to amplify different DNA sequences simultaneously."
+      },
+      {
+        "id": "Boiling method",
+        "type": "Method",
+        "description": "A technique used for genomic DNA extraction."
+      },
+      {
+        "id": "SPSS 16.0",
+        "type": "Method",
+        "description": "Software used for statistical analysis."
+      },
+      {
+        "id": "Mueller-Hinton agar",
+        "type": "Method",
+        "description": "Microbiological growth medium commonly used for antibiotic susceptibility testing."
+      },
+      {
+        "id": "Meropenem",
+        "type": "Method",
+        "description": "An ultra-broad-spectrum injectable antibiotic."
+      },
+      {
+        "id": "Cefoxitin",
+        "type": "Method",
+        "description": "A second-generation cephalosporin antibiotic."
+      },
+      {
+        "id": "MDR in snakehead fish (100%)",
+        "type": "Metric",
+        "description": "Percentage of multiple drugs resistance recorded in snakehead fish isolates."
+      },
+      {
+        "id": "Multiple ESBL genes (90%)",
+        "type": "Metric",
+        "description": "Proportion of E. coli isolates carrying more than one ESBL gene."
+      },
+      {
+        "id": "Multiple sulfonamides resistance genes (72.2%)",
+        "type": "Metric",
+        "description": "Frequency of isolates harboring multiple sulfonamide resistance genes."
+      },
+      {
+        "id": "Resistance to SXT (95.73%)",
+        "type": "Metric",
+        "description": "Average resistance rate to trimethoprim-sulfamethoxazole."
+      },
+      {
+        "id": "Aquaculture and Fisheries",
+        "type": "Domain",
+        "description": "Research field concerning the farming and study of aquatic organisms."
+      },
+      {
+        "id": "Tran Hoa Ly",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Tran Thi Tuyet Hoa",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Hong Mong Huyen",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational and research institution in Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Hoa Ly",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Tuyet Hoa",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hong Mong Huyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Antibiotic resistance",
+        "target": "Aquaculture and Fisheries",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Disc diffusion method",
+        "target": "MDR in snakehead fish (100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Disc diffusion method",
+        "target": "Resistance to SXT (95.73%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Multiplex PCR",
+        "target": "Multiple ESBL genes (90%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Polymerase Chain Reaction (PCR)",
+        "target": "Multiple sulfonamides resistance genes (72.2%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Polymerase Chain Reaction (PCR)",
+        "target": "ESBL production",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Disc diffusion method",
+        "target": "Antibiotic resistance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Multiplex PCR",
+        "target": "Molecular characteristics",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

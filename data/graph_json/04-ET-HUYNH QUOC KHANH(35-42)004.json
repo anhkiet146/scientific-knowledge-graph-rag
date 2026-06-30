@@ -1,0 +1,165 @@
+{
+  "filename": "04-ET-HUYNH QUOC KHANH(35-42)004.json",
+  "paper_title": "Evaluating the optimal working parameters of the color sensor TCS3200 in the fresh chili destemming system",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Fresh chili destemming",
+        "type": "Concept",
+        "description": "The process of removing stems from fresh chili fruits automatically."
+      },
+      {
+        "id": "Optimal operating parameters",
+        "type": "Concept",
+        "description": "The most effective settings for the sensor and system to operate correctly."
+      },
+      {
+        "id": "TCS3200 color sensor",
+        "type": "Method",
+        "description": "A low-cost color sensor used to detect chili fruits in the destemming system."
+      },
+      {
+        "id": "Microcontroller UNO R3",
+        "type": "Method",
+        "description": "The controller used to process signals from the sensor and control the motor."
+      },
+      {
+        "id": "TB6600 driver",
+        "type": "Method",
+        "description": "A driver used to control the stepper motor for the pushing mechanism."
+      },
+      {
+        "id": "Conveyor belt system",
+        "type": "Method",
+        "description": "The mechanism used to transport chili fruits through the arrangement section."
+      },
+      {
+        "id": "Agricultural Engineering",
+        "type": "Domain",
+        "description": "The research field involving automation in agricultural processing."
+      },
+      {
+        "id": "Huynh Quoc Khanh",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Chi Ngon",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Tran Nguyen Phuong Lan",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Vo Nguyen Hong Phuc",
+        "type": "Author",
+        "description": "Author from Can Tho University of Medicine and Pharmacy."
+      },
+      {
+        "id": "Huynh Thanh Thuong",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Xuan Cuong",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Institution in Viet Nam."
+      },
+      {
+        "id": "School of Medicine, Can Tho University of Medicine and Pharmacy",
+        "type": "Institution",
+        "description": "Institution in Viet Nam."
+      },
+      {
+        "id": "Optimal height (25 mm)",
+        "type": "Metric",
+        "description": "The determined best distance between the sensor and the fruit."
+      },
+      {
+        "id": "Maximum conveyor velocity (100 mm/s)",
+        "type": "Metric",
+        "description": "The highest speed at which the sensor operates reliably."
+      },
+      {
+        "id": "Yield (2.5 fruits per second)",
+        "type": "Metric",
+        "description": "The processing capacity of the system."
+      },
+      {
+        "id": "Signal difference (238 µs)",
+        "type": "Metric",
+        "description": "The difference between peak and valley signals at 25 mm height."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Evaluating the optimal working parameters of the color sensor TCS3200 in the fresh chili destemming system",
+        "target": "Agricultural Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "TCS3200 color sensor",
+        "target": "Fresh chili destemming",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "TCS3200 color sensor",
+        "target": "Optimal height (25 mm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "TCS3200 color sensor",
+        "target": "Maximum conveyor velocity (100 mm/s)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "TCS3200 color sensor",
+        "target": "Signal difference (238 µs)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Conveyor belt system",
+        "target": "Yield (2.5 fruits per second)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Huynh Quoc Khanh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Chi Ngon",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Nguyen Phuong Lan",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Nguyen Hong Phuc",
+        "target": "School of Medicine, Can Tho University of Medicine and Pharmacy",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Thanh Thuong",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Xuan Cuong",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

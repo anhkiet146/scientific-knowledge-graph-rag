@@ -1,0 +1,165 @@
+{
+  "filename": "09-FT-DUONG THI NGOC DIEP1(81-90)009.json",
+  "paper_title": "Physicochemical, antioxidant and microbiological behavior of soursop purees during thermal treatment",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Duong Thi Ngoc Diep",
+        "type": "Author",
+        "description": "Author and correspondence from Nong Lam University"
+      },
+      {
+        "id": "Ho Thi Thuy Linh",
+        "type": "Author",
+        "description": "Author from Nong Lam University"
+      },
+      {
+        "id": "Hoang Quang Binh",
+        "type": "Author",
+        "description": "Author from Nong Lam University"
+      },
+      {
+        "id": "Nong Lam University",
+        "type": "Institution",
+        "description": "Faculty of Chemical Engineering and Food Technology, Ho Chi Minh City, Viet Nam"
+      },
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "The primary research field of the study"
+      },
+      {
+        "id": "Thermal treatment",
+        "type": "Concept",
+        "description": "The process of heating soursop puree to evaluate quality changes"
+      },
+      {
+        "id": "Antioxidant activities",
+        "type": "Concept",
+        "description": "Bioactive capability of the fruit puree to inhibit oxidation"
+      },
+      {
+        "id": "Physico-chemical properties",
+        "type": "Concept",
+        "description": "Physical and chemical characteristics of the soursop puree"
+      },
+      {
+        "id": "Kinetic degradation",
+        "type": "Concept",
+        "description": "The study of the rate at which compounds break down during heating"
+      },
+      {
+        "id": "Spectrophotometric methods",
+        "type": "Method",
+        "description": "Method used to evaluate total phenolic content and antioxidant activity"
+      },
+      {
+        "id": "Titration method",
+        "type": "Method",
+        "description": "Method used for testing ascorbic acid and titratable acidity"
+      },
+      {
+        "id": "Arrhenius equation",
+        "type": "Method",
+        "description": "Model used to perform kinetic degradation analysis"
+      },
+      {
+        "id": "Folin-Ciocalteu's reagent",
+        "type": "Method",
+        "description": "Chemical reagent used for total phenol content determination"
+      },
+      {
+        "id": "DPPH reagent",
+        "type": "Method",
+        "description": "Chemical used for antioxidant activity determination"
+      },
+      {
+        "id": "Ea (polyphenol): 54.42 kJ/mol",
+        "type": "Metric",
+        "description": "Activation energy value for polyphenol degradation"
+      },
+      {
+        "id": "Ea (ascorbic acid): 48.83 kJ/mol",
+        "type": "Metric",
+        "description": "Activation energy value for ascorbic acid degradation"
+      },
+      {
+        "id": "Ea (antioxidant activity): 20.07 kJ/mol",
+        "type": "Metric",
+        "description": "Activation energy value for antioxidant activity degradation"
+      },
+      {
+        "id": "Total aerobic counts: < 1 x 10^2 CFU/g",
+        "type": "Metric",
+        "description": "Microbiological safety indicator value achieved after heating"
+      },
+      {
+        "id": "Delta E values: < 2.51",
+        "type": "Metric",
+        "description": "Color change measurement value"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Duong Thi Ngoc Diep",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Thi Thuy Linh",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hoang Quang Binh",
+        "target": "Nong Lam University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thermal treatment",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Arrhenius equation",
+        "target": "Ea (polyphenol): 54.42 kJ/mol",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Arrhenius equation",
+        "target": "Ea (ascorbic acid): 48.83 kJ/mol",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Arrhenius equation",
+        "target": "Ea (antioxidant activity): 20.07 kJ/mol",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Thermal treatment",
+        "target": "Total aerobic counts: < 1 x 10^2 CFU/g",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Thermal treatment",
+        "target": "Delta E values: < 2.51",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Arrhenius equation",
+        "target": "Kinetic degradation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Spectrophotometric methods",
+        "target": "Antioxidant activities",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Titration method",
+        "target": "Physico-chemical properties",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

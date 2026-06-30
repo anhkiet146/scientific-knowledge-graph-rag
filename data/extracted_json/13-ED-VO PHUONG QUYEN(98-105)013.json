@@ -1,0 +1,170 @@
+{
+    "filename": "13-ED-VO PHUONG QUYEN(98-105)013.json",
+    "paper_title": "English lecturers' perceptions of improving English teaching quality through action research: What do lecturers of Can Tho University say?",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Vo Phuong Quyen",
+                "type": "Author",
+                "description": "Tác giả chính và người liên hệ của bài nghiên cứu."
+            },
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "Đồng tác giả của bài nghiên cứu."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "Tổ chức học thuật tại Việt Nam nơi các tác giả làm việc."
+            },
+            {
+                "id": "English Language Teaching (ELT)",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo."
+            },
+            {
+                "id": "Action Research",
+                "type": "Method",
+                "description": "Phương pháp nghiên cứu hành động được sử dụng để cải thiện chất lượng giảng dạy."
+            },
+            {
+                "id": "Qualitative case study",
+                "type": "Method",
+                "description": "Thiết kế nghiên cứu trường hợp định tính để tìm hiểu sâu sắc vấn đề."
+            },
+            {
+                "id": "Survey questionnaires",
+                "type": "Method",
+                "description": "Công cụ thu thập dữ liệu từ số lượng lớn người trả lời."
+            },
+            {
+                "id": "Semi-structured individual interviews",
+                "type": "Method",
+                "description": "Phương pháp phỏng vấn cá nhân để thu thập ý kiến chuyên sâu."
+            },
+            {
+                "id": "Five-point Likert scale",
+                "type": "Method",
+                "description": "Thang đo sử dụng trong bảng câu hỏi khảo sát."
+            },
+            {
+                "id": "English teaching quality",
+                "type": "Concept",
+                "description": "Vấn đề nghiên cứu về việc nâng cao chất lượng dạy tiếng Anh."
+            },
+            {
+                "id": "Professional development",
+                "type": "Concept",
+                "description": "Sự phát triển chuyên môn của giảng viên thông qua nghiên cứu."
+            },
+            {
+                "id": "Lecturer perceptions",
+                "type": "Concept",
+                "description": "Quan điểm và nhận thức của giảng viên về phương pháp nghiên cứu."
+            },
+            {
+                "id": "Survey data from 60 English teachers",
+                "type": "Dataset",
+                "description": "Dữ liệu thu thập từ 60 giảng viên tiếng Anh tại Đại học Cần Thơ."
+            },
+            {
+                "id": "Agreement on changing teaching techniques (94.5%)",
+                "type": "Metric",
+                "description": "Tỷ lệ giảng viên đồng ý rằng AR giúp thay đổi kỹ thuật giảng dạy."
+            },
+            {
+                "id": "Agreement on syllabus adaptation (89.9%)",
+                "type": "Metric",
+                "description": "Tỷ lệ giảng viên đồng ý AR giúp điều chỉnh đề cương học phần."
+            },
+            {
+                "id": "Value for teachers (86.7%)",
+                "type": "Metric",
+                "description": "Giá trị trung bình của nhận thức về lợi ích của AR đối với bản thân giảng viên."
+            },
+            {
+                "id": "Value for learners (78.6%)",
+                "type": "Metric",
+                "description": "Giá trị trung bình của nhận thức về lợi ích của AR đối với người học."
+            },
+            {
+                "id": "Analytic and focused teaching (95%)",
+                "type": "Metric",
+                "description": "Tỷ lệ giảng viên đồng ý AR giúp họ nhìn nhận việc giảng dạy một cách phân tích và tập trung hơn."
+            },
+            {
+                "id": "Adjusting techniques to reality (90%)",
+                "type": "Metric",
+                "description": "Tỷ lệ giảng viên đồng ý AR giúp điều chỉnh kỹ thuật giảng dạy phù hợp thực tế lớp học."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Vo Phuong Quyen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "English teaching quality",
+                "target": "English Language Teaching (ELT)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Action Research",
+                "target": "English teaching quality",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Qualitative case study",
+                "target": "English teaching quality",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Action Research",
+                "target": "Agreement on changing teaching techniques (94.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Action Research",
+                "target": "Agreement on syllabus adaptation (89.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Action Research",
+                "target": "Value for teachers (86.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Action Research",
+                "target": "Value for learners (78.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Action Research",
+                "target": "Analytic and focused teaching (95%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Action Research",
+                "target": "Adjusting techniques to reality (90%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Survey questionnaires",
+                "target": "Survey data from 60 English teachers",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Five-point Likert scale",
+                "target": "Survey questionnaires",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

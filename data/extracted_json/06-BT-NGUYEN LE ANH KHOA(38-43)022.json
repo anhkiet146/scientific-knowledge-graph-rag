@@ -1,0 +1,170 @@
+{
+    "filename": "06-BT-NGUYEN LE ANH KHOA(38-43)022.json",
+    "paper_title": "Content and physicochemical properties of starches from different kinds of sweet potatoes grown in Dong Thap province",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary field of study regarding food processing and starch analysis."
+            },
+            {
+                "id": "Nguyen Le Anh Khoa",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "Nguyen Ngoc Thanh Tien",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "Le Thi Kieu Phuong",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "Pham Van Hung",
+                "type": "Author",
+                "description": "Corresponding author of the research paper."
+            },
+            {
+                "id": "International University",
+                "type": "Institution",
+                "description": "Academic institution affiliated with the authors."
+            },
+            {
+                "id": "Vietnam National University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "National university system in Vietnam."
+            },
+            {
+                "id": "Physicochemical properties",
+                "type": "Concept",
+                "description": "The study of chemical and physical characteristics of starches."
+            },
+            {
+                "id": "Retrogradation",
+                "type": "Concept",
+                "description": "The process where starch molecules realign themselves during cooling."
+            },
+            {
+                "id": "Enzyme-assisted extraction",
+                "type": "Method",
+                "description": "A method using enzymes to facilitate the recovery of starch from tubers."
+            },
+            {
+                "id": "Viscozyme Cassava C",
+                "type": "Method",
+                "description": "A commercial cellulase enzyme used in starch isolation."
+            },
+            {
+                "id": "Moisture Balance Analyzer",
+                "type": "Method",
+                "description": "Equipment used for determining moisture content."
+            },
+            {
+                "id": "Micro visco-amylo-graph",
+                "type": "Method",
+                "description": "Equipment used to measure pasting properties of starch."
+            },
+            {
+                "id": "SPSS software",
+                "type": "Method",
+                "description": "Statistical software used for ANOVA and Tukey's test."
+            },
+            {
+                "id": "Statistic data of Vietnam Ministry of Agricultural and Rural Development",
+                "type": "Dataset",
+                "description": "Official statistical database regarding sweet potato production in Vietnam."
+            },
+            {
+                "id": "Starch content (49.8 to 66.8%)",
+                "type": "Metric",
+                "description": "Extraction yield of starch on a dry matter basis."
+            },
+            {
+                "id": "Protein content (0.15 to 0.25%)",
+                "type": "Metric",
+                "description": "Measured protein range in sweet potato starches."
+            },
+            {
+                "id": "Solubility at 90oC (9.56%)",
+                "type": "Metric",
+                "description": "Maximum starch solubility recorded for yellow sweet potato."
+            },
+            {
+                "id": "Final viscosity (626 BU)",
+                "type": "Metric",
+                "description": "Peak final viscosity measured for white sweet potato."
+            },
+            {
+                "id": "Setback (390 BU)",
+                "type": "Metric",
+                "description": "Measure of starch retrogradation inclination."
+            },
+            {
+                "id": "Pasting temperature (76.8 to 78.8 oC)",
+                "type": "Metric",
+                "description": "The temperature range at which starch begins to gelatinize."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Content and physicochemical properties of starches from different kinds of sweet potatoes grown in Dong Thap province",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Enzyme-assisted extraction",
+                "target": "Starch content (49.8 to 66.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzyme-assisted extraction",
+                "target": "Physicochemical properties",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SPSS software",
+                "target": "Statistic data of Vietnam Ministry of Agricultural and Rural Development",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Nguyen Le Anh Khoa",
+                "target": "International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Ngoc Thanh Tien",
+                "target": "International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thi Kieu Phuong",
+                "target": "International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Van Hung",
+                "target": "International University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "International University",
+                "target": "Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Micro visco-amylo-graph",
+                "target": "Final viscosity (626 BU)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Micro visco-amylo-graph",
+                "target": "Pasting temperature (76.8 to 78.8 oC)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

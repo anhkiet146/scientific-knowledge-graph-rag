@@ -1,0 +1,150 @@
+{
+    "filename": "09-VO DINH LE TAM(69-76)032.json",
+    "paper_title": "Antioxidant activity of enzyme-assisted extract derived from round kumquat peel (Fortunella japonica)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Antioxidant activity of enzyme-assisted extract derived from round kumquat peel (Fortunella japonica)",
+                "type": "Concept",
+                "description": "The main research topic focusing on the capacity to inhibit oxidation using kumquat peel extracts."
+            },
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary field of research involving food processing and chemical engineering."
+            },
+            {
+                "id": "Vo Dinh Le Tam",
+                "type": "Author",
+                "description": "Lead author and correspondence from Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Nguyen Dinh Duyen Hai",
+                "type": "Author",
+                "description": "Co-author from Ho Chi Minh City University of Technology."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology - Viet Nam National University",
+                "type": "Institution",
+                "description": "The academic institution where the research was conducted."
+            },
+            {
+                "id": "Enzyme-assisted extraction",
+                "type": "Method",
+                "description": "Method using enzymes to break down cell walls to release phenolic compounds."
+            },
+            {
+                "id": "Pectinex Ultra SP-L",
+                "type": "Method",
+                "description": "Commercial pectinolytic enzyme preparation used for extraction."
+            },
+            {
+                "id": "Single factor test",
+                "type": "Method",
+                "description": "Experimental design used to evaluate individual variables."
+            },
+            {
+                "id": "Folin-Ciocalteu's phenol reagent method",
+                "type": "Method",
+                "description": "Analytical method used to assess total phenolic content."
+            },
+            {
+                "id": "ABTS scavenging activity assay",
+                "type": "Method",
+                "description": "Method for measuring antioxidant capacity via cation radical scavenging."
+            },
+            {
+                "id": "FRAP assay",
+                "type": "Method",
+                "description": "Ferric reducing antioxidant power assay for measuring antioxidant capacity."
+            },
+            {
+                "id": "Phenolic compounds",
+                "type": "Concept",
+                "description": "Bioactive substances found in plant tissues with antioxidant properties."
+            },
+            {
+                "id": "Lipid oxidation",
+                "type": "Concept",
+                "description": "Process that decreases shelf life and quality of food products."
+            },
+            {
+                "id": "TPC (335.96±16.79 mg GAE/g dry matter)",
+                "type": "Metric",
+                "description": "Maximum Total Phenolic Content achieved in the extract."
+            },
+            {
+                "id": "ABTS scavenging activity (1993.26±99.66 μmol TE/g dry matter)",
+                "type": "Metric",
+                "description": "The peak scavenging capacity measured for the extract."
+            },
+            {
+                "id": "FRAP value (3202.86±160.14 μmol TE/g dry matter)",
+                "type": "Metric",
+                "description": "The maximum ferric reducing power achieved."
+            },
+            {
+                "id": "Phenolic compounds content (1.3%)",
+                "type": "Metric",
+                "description": "Percentage of phenolic compounds found in kumquat peel."
+            },
+            {
+                "id": "Moisture (77.5%)",
+                "type": "Metric",
+                "description": "Water content of the round kumquat peel."
+            },
+            {
+                "id": "Ethanol",
+                "type": "Method",
+                "description": "Solvent used during the extraction process."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Antioxidant activity of enzyme-assisted extract derived from round kumquat peel (Fortunella japonica)",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Vo Dinh Le Tam",
+                "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Dinh Duyen Hai",
+                "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Enzyme-assisted extraction",
+                "target": "Antioxidant activity of enzyme-assisted extract derived from round kumquat peel (Fortunella japonica)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Pectinex Ultra SP-L",
+                "target": "Enzyme-assisted extraction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Enzyme-assisted extraction",
+                "target": "TPC (335.96±16.79 mg GAE/g dry matter)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzyme-assisted extraction",
+                "target": "ABTS scavenging activity (1993.26±99.66 μmol TE/g dry matter)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzyme-assisted extraction",
+                "target": "FRAP value (3202.86±160.14 μmol TE/g dry matter)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Folin-Ciocalteu's phenol reagent method",
+                "target": "TPC (335.96±16.79 mg GAE/g dry matter)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

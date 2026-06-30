@@ -1,0 +1,225 @@
+{
+    "filename": "05-ET-NGO TRUONG NGOC MAI(43-53)005.json",
+    "paper_title": "Fabrication of PZT Thick Film by Electrophoretic Deposition on the Platinum Substrate",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Materials Science",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về tính chất và ứng dụng của vật liệu."
+            },
+            {
+                "id": "Electroceramics",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về gốm điện tử."
+            },
+            {
+                "id": "Ngo Truong Ngoc Mai",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Iasmi Sterianou",
+                "type": "Author",
+                "description": "Tác giả từ Sheffield Hallam University."
+            },
+            {
+                "id": "Ian Reaney",
+                "type": "Author",
+                "description": "Tác giả từ University of Sheffield."
+            },
+            {
+                "id": "Luong Huynh Vu Thanh",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Cao Luu Ngoc Hanh",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Dang Huynh Giao",
+                "type": "Author",
+                "description": "Tác giả từ Đại học Cần Thơ."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Đại học Cần Thơ, Việt Nam."
+            },
+            {
+                "id": "Sheffield Hallam University",
+                "type": "Institution",
+                "description": "Đại học Sheffield Hallam, Vương quốc Anh."
+            },
+            {
+                "id": "University of Sheffield",
+                "type": "Institution",
+                "description": "Đại học Sheffield, Vương quốc Anh."
+            },
+            {
+                "id": "Piezoelectric properties",
+                "type": "Concept",
+                "description": "Các tính chất áp điện của vật liệu."
+            },
+            {
+                "id": "Tetragonal perovskite structure",
+                "type": "Concept",
+                "description": "Cấu trúc tinh thể perovskite hệ bốn phương."
+            },
+            {
+                "id": "PZT Thick Film",
+                "type": "Concept",
+                "description": "Màng dày chì zirconat titanat."
+            },
+            {
+                "id": "Electrophoretic Deposition (EPD)",
+                "type": "Method",
+                "description": "Phương pháp bồi tích điện di để chế tạo màng."
+            },
+            {
+                "id": "Solid-state reaction",
+                "type": "Method",
+                "description": "Phương pháp phản ứng pha rắn để tổng hợp bột."
+            },
+            {
+                "id": "X-ray diffraction (XRD)",
+                "type": "Method",
+                "description": "Phương pháp nhiễu xạ tia X để phân tích pha."
+            },
+            {
+                "id": "Scanning electron microscopy (SEM)",
+                "type": "Method",
+                "description": "Phương pháp hiển vi điện tử quét để quan sát hình thái học."
+            },
+            {
+                "id": "Ethanol",
+                "type": "Method",
+                "description": "Dung môi sử dụng trong quá trình EPD."
+            },
+            {
+                "id": "Platinum substrate",
+                "type": "Method",
+                "description": "Đế bạch kim dùng để bồi tích màng."
+            },
+            {
+                "id": "JCPDS card 70-4057",
+                "type": "Dataset",
+                "description": "Cơ sở dữ liệu tiêu chuẩn cho phân tích nhiễu xạ tia X của PZT."
+            },
+            {
+                "id": "Calcination temperature (950oC)",
+                "type": "Metric",
+                "description": "Nhiệt độ nung kết tạo pha đơn."
+            },
+            {
+                "id": "Green film maximum thickness (~95 μm)",
+                "type": "Metric",
+                "description": "Độ dày tối đa của màng xanh sau bồi tích."
+            },
+            {
+                "id": "Sintered film maximum thickness (80±2 μm)",
+                "type": "Metric",
+                "description": "Độ dày tối đa của màng sau khi thiêu kết."
+            },
+            {
+                "id": "Relative permittivity (477 ± 13)",
+                "type": "Metric",
+                "description": "Hằng số điện môi tương đối tại nhiệt độ phòng."
+            },
+            {
+                "id": "Curie temperature (405oC)",
+                "type": "Metric",
+                "description": "Nhiệt độ Curie nơi xảy ra chuyển pha."
+            },
+            {
+                "id": "Mean particle size (1.926 μm)",
+                "type": "Metric",
+                "description": "Kích thước hạt trung bình của bột PZT."
+            },
+            {
+                "id": "Applied voltage (50-200 V)",
+                "type": "Metric",
+                "description": "Dải điện áp áp dụng trong quá trình EPD."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Fabrication of PZT Thick Film",
+                "target": "Materials Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ngo Truong Ngoc Mai",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luong Huynh Vu Thanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cao Luu Ngoc Hanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Huynh Giao",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Iasmi Sterianou",
+                "target": "Sheffield Hallam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ian Reaney",
+                "target": "University of Sheffield",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Electrophoretic Deposition (EPD)",
+                "target": "PZT Thick Film",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Solid-state reaction",
+                "target": "Mean particle size (1.926 μm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Electrophoretic Deposition (EPD)",
+                "target": "Green film maximum thickness (~95 μm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Electrophoretic Deposition (EPD)",
+                "target": "Applied voltage (50-200 V)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "X-ray diffraction (XRD)",
+                "target": "JCPDS card 70-4057",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "X-ray diffraction (XRD)",
+                "target": "Tetragonal perovskite structure",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Electrophoretic Deposition (EPD)",
+                "target": "Relative permittivity (477 ± 13)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Solid-state reaction",
+                "target": "Calcination temperature (950oC)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

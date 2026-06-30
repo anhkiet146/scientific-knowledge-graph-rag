@@ -1,0 +1,165 @@
+{
+    "filename": "10-554-C-LE XUAN MAI(79-91)023.json",
+    "paper_title": "Tertiary students' preferences on extracurricular activities for English learning: Voices from the field of Advanced Program in Biotechnology",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "English Language Teaching",
+                "type": "Domain",
+                "description": "The main field of research focusing on teaching and learning English as a foreign language."
+            },
+            {
+                "id": "Biotechnology",
+                "type": "Domain",
+                "description": "The specific academic field of the students participating in the study."
+            },
+            {
+                "id": "Le Xuan Mai",
+                "type": "Author",
+                "description": "Lead author and correspondence from Can Tho University."
+            },
+            {
+                "id": "Ly Thi Bich Thuy",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Le Thanh Thao",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Tertiary institution in Vietnam where the research was conducted."
+            },
+            {
+                "id": "Extracurricular activities for English learning",
+                "type": "Concept",
+                "description": "Out-of-curriculum activities intended to improve language proficiency."
+            },
+            {
+                "id": "Students' preferences",
+                "type": "Concept",
+                "description": "The research problem focusing on what, how, when, and where students want activities organized."
+            },
+            {
+                "id": "English proficiency",
+                "type": "Concept",
+                "description": "The level of competence in the English language."
+            },
+            {
+                "id": "Quantitative research design",
+                "type": "Method",
+                "description": "The overall research approach used to collect and analyze data."
+            },
+            {
+                "id": "77-item questionnaire",
+                "type": "Method",
+                "description": "The primary instrument used for data collection."
+            },
+            {
+                "id": "Likert-scale items",
+                "type": "Method",
+                "description": "Specific question type used in the questionnaire to measure preferences."
+            },
+            {
+                "id": "SPSS 20",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Descriptive Statistics tests",
+                "type": "Method",
+                "description": "Statistical methods used to calculate mean scores."
+            },
+            {
+                "id": "Questionnaire responses from 148 students",
+                "type": "Dataset",
+                "description": "The digital data collected from 148 biotechnology students."
+            },
+            {
+                "id": "Reliability alpha (0.89)",
+                "type": "Metric",
+                "description": "The Cronbach's alpha reliability coefficient of the actual questionnaire."
+            },
+            {
+                "id": "Mean score for mental activities (M=4.00)",
+                "type": "Metric",
+                "description": "Measurement of preference for cognitive/mental extracurricular activities."
+            },
+            {
+                "id": "Mean score for traveling to experience cultures (M=4.11)",
+                "type": "Metric",
+                "description": "Highest preference score for a specific activity type."
+            },
+            {
+                "id": "Mean score for university campus location (M=3.63)",
+                "type": "Metric",
+                "description": "Preference for organizing activities on the university grounds."
+            },
+            {
+                "id": "Mean score for speaking skills development (M=4.26)",
+                "type": "Metric",
+                "description": "Measurement of the primary skill students wish to develop."
+            },
+            {
+                "id": "Mean score for voluntary participation (M=4.24)",
+                "type": "Metric",
+                "description": "Highest preference score regarding participation policy."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Xuan Mai",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ly Thi Bich Thuy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thanh Thao",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Quantitative research design",
+                "target": "Extracurricular activities for English learning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "77-item questionnaire",
+                "target": "Students' preferences",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "77-item questionnaire",
+                "target": "Reliability alpha (0.89)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Statistics tests",
+                "target": "Mean score for mental activities (M=4.00)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Statistics tests",
+                "target": "Mean score for traveling to experience cultures (M=4.11)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Statistics tests",
+                "target": "Mean score for speaking skills development (M=4.26)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SPSS 20",
+                "target": "Questionnaire responses from 148 students",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

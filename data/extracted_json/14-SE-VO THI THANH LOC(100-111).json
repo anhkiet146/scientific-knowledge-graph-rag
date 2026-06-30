@@ -1,0 +1,180 @@
+{
+    "filename": "14-SE-VO THI THANH LOC(100-111).json",
+    "paper_title": "ASSESSMENT OF AGRI-PRODUCT VALUE CHAINS IN THE MEKONG DELTA: PROBLEMS AND SOLUTIONS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Vo Thi Thanh Loc",
+                "type": "Author",
+                "description": "The author of the paper assessing agri-product value chains."
+            },
+            {
+                "id": "Mekong Delta Development Research Institute",
+                "type": "Institution",
+                "description": "An institute belonging to Can Tho University where the author is affiliated."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "A major university in Vietnam, the affiliation of the author."
+            },
+            {
+                "id": "Agricultural Economics",
+                "type": "Domain",
+                "description": "The main research field of the paper focusing on agri-product value chains."
+            },
+            {
+                "id": "Agri-product value chains",
+                "type": "Concept",
+                "description": "The central research problem concerning the production and distribution of agricultural goods."
+            },
+            {
+                "id": "Sustainable development",
+                "type": "Concept",
+                "description": "The goal of upgrading value chains toward stable and long-term growth."
+            },
+            {
+                "id": "Value chain approach (Kaplinsky and Morris, 2001)",
+                "type": "Method",
+                "description": "A methodology used to analyze the dynamics and distribution within value chains."
+            },
+            {
+                "id": "ValueLinks method (GTZ, 2007)",
+                "type": "Method",
+                "description": "A systematic manual for value chain development."
+            },
+            {
+                "id": "M4P (2008)",
+                "type": "Method",
+                "description": "The 'Making Value Chains Work Better for the Poor' approach."
+            },
+            {
+                "id": "Field surveys and structured questionnaires",
+                "type": "Method",
+                "description": "Data collection tools used with chain actors and stakeholders."
+            },
+            {
+                "id": "Case studies",
+                "type": "Method",
+                "description": "Detailed analysis of selected supply chains involving companies and farmer groups."
+            },
+            {
+                "id": "VietGAP",
+                "type": "Method",
+                "description": "Vietnamese Good Agricultural Practices standards."
+            },
+            {
+                "id": "GlobalGAP",
+                "type": "Method",
+                "description": "International standards for Good Agricultural Practices."
+            },
+            {
+                "id": "Survey data of 1,759 chain actors",
+                "type": "Dataset",
+                "description": "Numerical survey data collected from 1,759 stakeholders in the Mekong Delta."
+            },
+            {
+                "id": "Natural area of the Mekong Delta (39,713 km2)",
+                "type": "Metric",
+                "description": "Physical size of the research region."
+            },
+            {
+                "id": "National population proportion (21.1%)",
+                "type": "Metric",
+                "description": "The percentage of Vietnam's population residing in the Mekong Delta."
+            },
+            {
+                "id": "Rice export value (US$ 2.96 billion)",
+                "type": "Metric",
+                "description": "Total value of rice exported in 2014."
+            },
+            {
+                "id": "Pangasius export turnover (US$ 1.77 billion)",
+                "type": "Metric",
+                "description": "Total revenue from pangasius exports in 2014."
+            },
+            {
+                "id": "Shrimp export turnover (US$ 3.95 billion)",
+                "type": "Metric",
+                "description": "Total revenue from shrimp exports in 2014."
+            },
+            {
+                "id": "Vegetable and fruits export turnover (US$ 1.04 billion)",
+                "type": "Metric",
+                "description": "Total revenue from vegetable and fruit exports in 2013."
+            },
+            {
+                "id": "Post-harvest losses (20%)",
+                "type": "Metric",
+                "description": "The percentage of product lost after harvesting including paddy and milling loss."
+            },
+            {
+                "id": "Projected post-harvest losses in 2020 (5-6%)",
+                "type": "Metric",
+                "description": "Target reduction in losses due to mechanization."
+            },
+            {
+                "id": "Average annual net income per mango household (VND 105 million)",
+                "type": "Metric",
+                "description": "Financial metric comparing mango production to rice."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Vo Thi Thanh Loc",
+                "target": "Mekong Delta Development Research Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Thi Thanh Loc",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Agri-product value chains",
+                "target": "Agricultural Economics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Value chain approach (Kaplinsky and Morris, 2001)",
+                "target": "Agri-product value chains",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ValueLinks method (GTZ, 2007)",
+                "target": "Agri-product value chains",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Value chain approach (Kaplinsky and Morris, 2001)",
+                "target": "Survey data of 1,759 chain actors",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Field surveys and structured questionnaires",
+                "target": "Survey data of 1,759 chain actors",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Value chain approach (Kaplinsky and Morris, 2001)",
+                "target": "Post-harvest losses (20%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Value chain approach (Kaplinsky and Morris, 2001)",
+                "target": "Rice export value (US$ 2.96 billion)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "M4P (2008)",
+                "target": "Agri-product value chains",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "VietGAP",
+                "target": "Sustainable development",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

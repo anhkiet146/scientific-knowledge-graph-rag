@@ -1,0 +1,150 @@
+{
+  "filename": "10-ET-VO TRAN THI BICH CHAU(69-80)026.json",
+  "paper_title": "Effect of the surface mounting technology assembly based on lean production: A case study",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Vo Tran Thi Bich Chau",
+        "type": "Author",
+        "description": "Author from the Department of Industrial Management, Can Tho University."
+      },
+      {
+        "id": "Nguyen Nhut Tien",
+        "type": "Author",
+        "description": "Author from the Department of Electrical Engineering, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "Manufacturing Engineering",
+        "type": "Domain",
+        "description": "The primary field of research concerning production systems and technology."
+      },
+      {
+        "id": "Lean production",
+        "type": "Concept",
+        "description": "A methodology focused on eliminating waste and enhancing effectiveness."
+      },
+      {
+        "id": "Surface Mounting Technology (SMT)",
+        "type": "Concept",
+        "description": "A method for producing electronic circuits in which the components are mounted directly onto the surface of printed circuit boards."
+      },
+      {
+        "id": "Waste reduction",
+        "type": "Concept",
+        "description": "The process of eliminating non-value-added activities in production."
+      },
+      {
+        "id": "Value Stream Mapping (VSM)",
+        "type": "Method",
+        "description": "A lean-management method for analyzing the current state and designing a future state for the series of events that take a product or service from its beginning through to the customer."
+      },
+      {
+        "id": "5S principles",
+        "type": "Method",
+        "description": "A workplace organization method that uses a list of five Japanese words: seiri, seiton, seiso, seiketsu, and shitsuke."
+      },
+      {
+        "id": "Cellular layout",
+        "type": "Method",
+        "description": "A layout where machines are grouped into cells to maximize independence and flow."
+      },
+      {
+        "id": "Westinghouse system",
+        "type": "Method",
+        "description": "A performance rating system used for setting standard times."
+      },
+      {
+        "id": "Solder paste printer",
+        "type": "Method",
+        "description": "Equipment used to apply solder paste to pads on a PCB."
+      },
+      {
+        "id": "Pick-and-place machines",
+        "type": "Method",
+        "description": "High-speed machines used for placing components onto PCBs."
+      },
+      {
+        "id": "Reflow soldering machine",
+        "type": "Method",
+        "description": "A machine used for forming electrical solder connections between components and PCB."
+      },
+      {
+        "id": "Productivity increase (50% per shift)",
+        "type": "Metric",
+        "description": "The recorded improvement in production output per shift."
+      },
+      {
+        "id": "Lead time reduction (6 days to 192.76 seconds)",
+        "type": "Metric",
+        "description": "The decrease in the time taken from the start to the end of the production process."
+      },
+      {
+        "id": "Finished products proportion (44% to 89.5%)",
+        "type": "Metric",
+        "description": "The improvement in the ratio of completed products on the line."
+      },
+      {
+        "id": "Takt time (23.7s)",
+        "type": "Metric",
+        "description": "The rate at which a finished product needs to be completed in order to meet customer demand."
+      },
+      {
+        "id": "SMT line production records",
+        "type": "Dataset",
+        "description": "The numerical data collected from the company's production line and customer demands."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effect of the surface mounting technology assembly based on lean production: A case study",
+        "target": "Manufacturing Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Vo Tran Thi Bich Chau",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Nhut Tien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Value Stream Mapping (VSM)",
+        "target": "Productivity increase (50% per shift)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Value Stream Mapping (VSM)",
+        "target": "Lead time reduction (6 days to 192.76 seconds)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Lean production",
+        "target": "Waste reduction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Value Stream Mapping (VSM)",
+        "target": "Surface Mounting Technology (SMT)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "5S principles",
+        "target": "Finished products proportion (44% to 89.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Value Stream Mapping (VSM)",
+        "target": "SMT line production records",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

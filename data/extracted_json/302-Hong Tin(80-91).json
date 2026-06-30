@@ -1,0 +1,235 @@
+{
+    "filename": "302-Hong Tin(80-91).json",
+    "paper_title": "BIODIESEL PRODUCTION AND USE FOR AGRICULTURAL PRODUCTION IN THE MEKONG DELTA: CURRENT STATUS AND POTENTIAL",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "The primary research field of the paper concerning sustainable energy sources."
+            },
+            {
+                "id": "Agricultural Production",
+                "type": "Domain",
+                "description": "The context of energy use and farming activities in the Mekong Delta."
+            },
+            {
+                "id": "Nguyen Hong Tin",
+                "type": "Author",
+                "description": "Researcher at Mekong Delta Development Research Institute-MDI."
+            },
+            {
+                "id": "Bui Thi Buu Hue",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University."
+            },
+            {
+                "id": "Tran Le Kim Thuy",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University."
+            },
+            {
+                "id": "To Lan Phuong",
+                "type": "Author",
+                "description": "Researcher at Mekong Delta Development Research Institute-MDI."
+            },
+            {
+                "id": "Chau My Duyen",
+                "type": "Author",
+                "description": "Researcher at Mekong Delta Development Research Institute-MDI."
+            },
+            {
+                "id": "Ho Chi Thinh",
+                "type": "Author",
+                "description": "Researcher at Mekong Delta Development Research Institute-MDI."
+            },
+            {
+                "id": "Hua Nguyen Phuc",
+                "type": "Author",
+                "description": "Researcher at Ho Chi Minh City University of Natural Resources and Environment."
+            },
+            {
+                "id": "Mekong Delta Development Research Institute-MDI, Can Tho University",
+                "type": "Institution",
+                "description": "A research institute under Can Tho University, Vietnam."
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "An academic college under Can Tho University, Vietnam."
+            },
+            {
+                "id": "Ho Chi Minh City University of Natural Resources and Environment",
+                "type": "Institution",
+                "description": "A higher education institution in Vietnam."
+            },
+            {
+                "id": "Biodiesel production and use",
+                "type": "Concept",
+                "description": "The main research problem focusing on the status and potential of biodiesel in agriculture."
+            },
+            {
+                "id": "Energy security",
+                "type": "Concept",
+                "description": "The relationship between national security, economic security, and energy sources."
+            },
+            {
+                "id": "Participatory approach",
+                "type": "Method",
+                "description": "Overarching research methodology involving stakeholders."
+            },
+            {
+                "id": "Focus Group Discussion-FGD",
+                "type": "Method",
+                "description": "Qualitative data collection method involving group discussions."
+            },
+            {
+                "id": "Key Informant Panel-KIP",
+                "type": "Method",
+                "description": "Interviews with experts or key stakeholders in the field."
+            },
+            {
+                "id": "Household Interviews",
+                "type": "Method",
+                "description": "Direct survey method applied to 484 samples."
+            },
+            {
+                "id": "Binary logistics",
+                "type": "Method",
+                "description": "Statistical model used to predict acceptance probability of farmers."
+            },
+            {
+                "id": "SWOT analysis",
+                "type": "Method",
+                "description": "Analysis of strengths, weaknesses, opportunities, and threats."
+            },
+            {
+                "id": "Catfish fat",
+                "type": "Method",
+                "description": "Raw material used for biodiesel production."
+            },
+            {
+                "id": "Coconut oils",
+                "type": "Method",
+                "description": "Raw material used for biodiesel production."
+            },
+            {
+                "id": "SPSS software",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Household survey dataset (484 samples)",
+                "type": "Dataset",
+                "description": "Primary data collected from interviews with farmers and stakeholders."
+            },
+            {
+                "id": "Secondary provincial data",
+                "type": "Dataset",
+                "description": "Data collected at the provincial level related to fuel issues."
+            },
+            {
+                "id": "Nation rice export quantity (> 90%)",
+                "type": "Metric",
+                "description": "Percentage contribution of the Mekong Delta to national rice exports."
+            },
+            {
+                "id": "Farmers agreement to use biodiesel (> 80%)",
+                "type": "Metric",
+                "description": "Level of farmer acceptance toward biodiesel usage."
+            },
+            {
+                "id": "Overall percentage correct of prediction (87%)",
+                "type": "Metric",
+                "description": "The accuracy of the binary logistic model in predicting usage decisions."
+            },
+            {
+                "id": "Catfish fat production (200 thousand ton/year)",
+                "type": "Metric",
+                "description": "Available volume of catfish fat for biodiesel production."
+            },
+            {
+                "id": "Aquaculture irrigation diesel use (80-100%)",
+                "type": "Metric",
+                "description": "The percentage of fossil diesel used specifically for irrigation in aquaculture."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Biodiesel production and use",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Hong Tin",
+                "target": "Mekong Delta Development Research Institute-MDI, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "To Lan Phuong",
+                "target": "Mekong Delta Development Research Institute-MDI, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chau My Duyen",
+                "target": "Mekong Delta Development Research Institute-MDI, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Chi Thinh",
+                "target": "Mekong Delta Development Research Institute-MDI, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Thi Buu Hue",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Le Kim Thuy",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hua Nguyen Phuc",
+                "target": "Ho Chi Minh City University of Natural Resources and Environment",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Binary logistics",
+                "target": "Overall percentage correct of prediction (87%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Household Interviews",
+                "target": "Farmers agreement to use biodiesel (> 80%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Key Informant Panel-KIP",
+                "target": "Catfish fat production (200 thousand ton/year)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Participatory approach",
+                "target": "Biodiesel production and use",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Binary logistics",
+                "target": "Biodiesel production and use",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Household Interviews",
+                "target": "Household survey dataset (484 samples)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Binary logistics",
+                "target": "Household survey dataset (484 samples)",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

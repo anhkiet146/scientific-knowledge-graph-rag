@@ -1,0 +1,190 @@
+{
+    "filename": "19-BE-TRUONG THANH TRUNG(158-165)019.json",
+    "paper_title": "EFFECT OF DIFFERENT PROTEIN SOURCES IN THE DIETS ON FEED INTAKE, NUTRIENT DIGESTIBILITY, GROWTH AND CARCASS VALUE OF CALIFORNIAN RABBITS (Oryctolagus cuniculus) IN THE MEKONG DELTA OF VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Animal Nutrition",
+                "type": "Domain",
+                "description": "The study of the dietary needs of animals, specifically Californian rabbits in this context."
+            },
+            {
+                "id": "Truong Thanh Trung",
+                "type": "Author",
+                "description": "First author of the research paper."
+            },
+            {
+                "id": "Nguyen Thi Kim Dong",
+                "type": "Author",
+                "description": "Second author of the research paper."
+            },
+            {
+                "id": "Nguyen Van Thu",
+                "type": "Author",
+                "description": "Third author of the research paper."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the research was conducted."
+            },
+            {
+                "id": "Nutrient Digestibility",
+                "type": "Concept",
+                "description": "The extent to which nutrients are absorbed by the animal's digestive system."
+            },
+            {
+                "id": "Growth Performance",
+                "type": "Concept",
+                "description": "The measurement of an animal's weight gain and feed efficiency over time."
+            },
+            {
+                "id": "Carcass Value",
+                "type": "Concept",
+                "description": "The quality and quantity of meat obtained from the animal after slaughter."
+            },
+            {
+                "id": "Soybean Extraction Meal (SEM)",
+                "type": "Method",
+                "description": "A protein source material used in experimental rabbit diets."
+            },
+            {
+                "id": "Water spinach Leaves Meal (WLM)",
+                "type": "Method",
+                "description": "A plant-based protein source used in the experiment."
+            },
+            {
+                "id": "Fish Meal (FM)",
+                "type": "Method",
+                "description": "An animal-based protein source used in the experimental diets."
+            },
+            {
+                "id": "Feather Meal (FEM)",
+                "type": "Method",
+                "description": "A protein source derived from processed feathers used in the treatments."
+            },
+            {
+                "id": "Blood Meal (BM)",
+                "type": "Method",
+                "description": "A protein source derived from dried blood used in the experimental diets."
+            },
+            {
+                "id": "Completely randomized design",
+                "type": "Method",
+                "description": "The statistical experimental design used to arrange the treatments."
+            },
+            {
+                "id": "Minitab 16.1.0 Software",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Kjeldahl methods",
+                "type": "Method",
+                "description": "Analytical procedure used to determine total nitrogen/protein content."
+            },
+            {
+                "id": "Daily weight gain for SEM (22.8g/day)",
+                "type": "Metric",
+                "description": "The measured average daily weight increase for rabbits fed the SEM diet."
+            },
+            {
+                "id": "Daily weight gain for FEM (14.9g/day)",
+                "type": "Metric",
+                "description": "The measured average daily weight increase for rabbits fed the FEM diet."
+            },
+            {
+                "id": "Profit for WLM (3.07 USD/rabbit)",
+                "type": "Metric",
+                "description": "The economic return calculated for the Water spinach Leaves Meal treatment."
+            },
+            {
+                "id": "Profit for SEM (2.63 USD/rabbit)",
+                "type": "Metric",
+                "description": "The economic return calculated for the Soybean Extraction Meal treatment."
+            },
+            {
+                "id": "Dietary crude protein (19.0%)",
+                "type": "Metric",
+                "description": "The formulated protein level in the experimental diets."
+            },
+            {
+                "id": "Metabolizable energy (11.6 MJ/kgDM)",
+                "type": "Metric",
+                "description": "The energy level formulated for the rabbit diets."
+            },
+            {
+                "id": "Apparent CP digestibility of SEM (82.8%)",
+                "type": "Metric",
+                "description": "The measured protein digestibility for the SEM treatment."
+            },
+            {
+                "id": "Feed conversion ratio for SEM (3.84)",
+                "type": "Metric",
+                "description": "The efficiency of feed utilization for the SEM group."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Truong Thanh Trung",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Kim Dong",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Thu",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Soybean Extraction Meal (SEM)",
+                "target": "Daily weight gain for SEM (22.8g/day)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Soybean Extraction Meal (SEM)",
+                "target": "Apparent CP digestibility of SEM (82.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Soybean Extraction Meal (SEM)",
+                "target": "Feed conversion ratio for SEM (3.84)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Water spinach Leaves Meal (WLM)",
+                "target": "Profit for WLM (3.07 USD/rabbit)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Feather Meal (FEM)",
+                "target": "Daily weight gain for FEM (14.9g/day)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Soybean Extraction Meal (SEM)",
+                "target": "Growth Performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Water spinach Leaves Meal (WLM)",
+                "target": "Growth Performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Kjeldahl methods",
+                "target": "Nutrient Digestibility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Minitab 16.1.0 Software",
+                "target": "Growth Performance",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,155 @@
+{
+  "filename": "01-AE-HO QUOC PHONG(1-5)36.json",
+  "paper_title": "BIODIESEL SYNTHESIS FROM ALGAE (Chlorella SP.) IN CONDITION OF SUBCRITICAL METHANOL",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Quoc-Phong Ho",
+        "type": "Author",
+        "description": "Tác giả chính của bài báo nghiên cứu."
+      },
+      {
+        "id": "Tran Dong Au",
+        "type": "Author",
+        "description": "Tác giả đồng nghiên cứu, học viên cao học."
+      },
+      {
+        "id": "Lien-Huong Huynh",
+        "type": "Author",
+        "description": "Tác giả đồng nghiên cứu từ Đại học Cần Thơ."
+      },
+      {
+        "id": "Nguyen Van Dat",
+        "type": "Author",
+        "description": "Tác giả đồng nghiên cứu từ Đại học Cần Thơ."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam."
+      },
+      {
+        "id": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam."
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam."
+      },
+      {
+        "id": "Biofuel Production",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về sản xuất nhiên liệu sinh học."
+      },
+      {
+        "id": "Biodiesel Synthesis",
+        "type": "Concept",
+        "description": "Quá trình tổng hợp dầu biodiesel từ các nguồn nguyên liệu khác nhau."
+      },
+      {
+        "id": "Transesterification",
+        "type": "Concept",
+        "description": "Phản ứng hóa học chuyển đổi lipid thành biodiesel."
+      },
+      {
+        "id": "Subcritical methanol method",
+        "type": "Method",
+        "description": "Phương pháp sử dụng methanol ở trạng thái cận tới hạn để sản xuất biodiesel trực tiếp."
+      },
+      {
+        "id": "Chlorella sp.",
+        "type": "Method",
+        "description": "Loại vi tảo được sử dụng làm vật liệu sinh học đầu vào cho quá trình."
+      },
+      {
+        "id": "High temperature gas chromatography (HTGC)",
+        "type": "Method",
+        "description": "Phương pháp phân tích để xác định chuyển đổi ester trong sản phẩm."
+      },
+      {
+        "id": "Highest FAME conversion (95%)",
+        "type": "Metric",
+        "description": "Chỉ số chuyển đổi FAME cao nhất đạt được trong điều kiện tối ưu."
+      },
+      {
+        "id": "Reaction temperature (175°C)",
+        "type": "Metric",
+        "description": "Nhiệt độ tối ưu để đạt được hiệu suất chuyển đổi cao."
+      },
+      {
+        "id": "Methanol to biomass ratio (20/1 g/g)",
+        "type": "Metric",
+        "description": "Tỉ lệ methanol trên sinh khối tối ưu cho phản ứng."
+      },
+      {
+        "id": "Water content in biomass (50%)",
+        "type": "Metric",
+        "description": "Hàm lượng nước trong sinh khối giúp tối ưu hóa quá trình chiết xuất và chuyển hóa."
+      },
+      {
+        "id": "Reaction time (9 hours)",
+        "type": "Metric",
+        "description": "Thời gian phản ứng cần thiết để đạt hiệu suất 95%."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Quoc-Phong Ho",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lien-Huong Huynh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Dong Au",
+        "target": "Ho Chi Minh City University of Technology - Viet Nam National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Dat",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Biodiesel Synthesis",
+        "target": "Biofuel Production",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Subcritical methanol method",
+        "target": "Biodiesel Synthesis",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Subcritical methanol method",
+        "target": "Highest FAME conversion (95%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Subcritical methanol method",
+        "target": "Reaction temperature (175°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Subcritical methanol method",
+        "target": "Methanol to biomass ratio (20/1 g/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Subcritical methanol method",
+        "target": "Water content in biomass (50%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Subcritical methanol method",
+        "target": "Reaction time (9 hours)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

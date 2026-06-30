@@ -1,0 +1,185 @@
+{
+    "filename": "07-TRAN KHOA NGUYEN(52-60)030.json",
+    "paper_title": "Investigation of the antibacterial activity against Cutibacterium acnes of lysozyme purified from \"Co Co\" duck egg whites",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Investigation of the antibacterial activity against Cutibacterium acnes of lysozyme purified from Co Co duck egg whites",
+                "type": "Concept",
+                "description": "The main research paper investigating the antibacterial properties of duck egg white lysozyme."
+            },
+            {
+                "id": "Biotechnology",
+                "type": "Domain",
+                "description": "The main field of research for the study."
+            },
+            {
+                "id": "Tran Khoa Nguyen",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "Vo Van Song Toan",
+                "type": "Author",
+                "description": "Corresponding author of the research paper."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute",
+                "type": "Institution",
+                "description": "The specific institute where the research was conducted."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The university affiliated with the researchers."
+            },
+            {
+                "id": "Antibacterial activity",
+                "type": "Concept",
+                "description": "The resistance of a substance to the growth or survival of bacteria."
+            },
+            {
+                "id": "Cutibacterium acnes",
+                "type": "Concept",
+                "description": "A bacterium often associated with acne on human skin."
+            },
+            {
+                "id": "Lysozyme",
+                "type": "Method",
+                "description": "Antibacterial enzyme purified from duck egg whites for the study."
+            },
+            {
+                "id": "Ion-exchange chromatography",
+                "type": "Method",
+                "description": "Method used to purify lysozyme from duck egg whites."
+            },
+            {
+                "id": "Gel-filtration chromatography",
+                "type": "Method",
+                "description": "Secondary method used for the purification of lysozyme."
+            },
+            {
+                "id": "Agar diffusion method",
+                "type": "Method",
+                "description": "Method used to measure the diameter of inhibition zones against C. acnes."
+            },
+            {
+                "id": "Broth microdilution",
+                "type": "Method",
+                "description": "Method used for determining MIC and MBC values."
+            },
+            {
+                "id": "Maltodextrin",
+                "type": "Method",
+                "description": "Material used for the immobilization of lysozyme powder."
+            },
+            {
+                "id": "MIC80 (0.55 mg/mL)",
+                "type": "Metric",
+                "description": "The minimal inhibitory concentration that inhibited 80% of bacteria."
+            },
+            {
+                "id": "MBC (1.11 mg/mL)",
+                "type": "Metric",
+                "description": "The minimum bactericidal concentration that kills 99.9% of growth."
+            },
+            {
+                "id": "Inhibition zone (12.50 ± 0.50 mm)",
+                "type": "Metric",
+                "description": "The largest inhibition zone achieved at pH 6.0."
+            },
+            {
+                "id": "Activity retention (~80%)",
+                "type": "Metric",
+                "description": "Percentage of enzyme activity retained after 30 days of storage at -20°C or -10°C."
+            },
+            {
+                "id": "Optimal pH (6.0 - 6.5)",
+                "type": "Metric",
+                "description": "The pH range where lysozyme showed the best resistance."
+            },
+            {
+                "id": "Optimal temperature (30°C - 35°C)",
+                "type": "Metric",
+                "description": "The temperature range where lysozyme exhibited best resistance."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Investigation of the antibacterial activity against Cutibacterium acnes of lysozyme purified from Co Co duck egg whites",
+                "target": "Biotechnology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tran Khoa Nguyen",
+                "target": "Biotechnology Research and Development Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Khoa Nguyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Van Song Toan",
+                "target": "Biotechnology Research and Development Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Van Song Toan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lysozyme",
+                "target": "Antibacterial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Lysozyme",
+                "target": "Cutibacterium acnes",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ion-exchange chromatography",
+                "target": "Lysozyme",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Gel-filtration chromatography",
+                "target": "Lysozyme",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Broth microdilution",
+                "target": "MIC80 (0.55 mg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Broth microdilution",
+                "target": "MBC (1.11 mg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar diffusion method",
+                "target": "Inhibition zone (12.50 ± 0.50 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Lysozyme",
+                "target": "Optimal pH (6.0 - 6.5)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Lysozyme",
+                "target": "Optimal temperature (30°C - 35°C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Lysozyme",
+                "target": "Activity retention (~80%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

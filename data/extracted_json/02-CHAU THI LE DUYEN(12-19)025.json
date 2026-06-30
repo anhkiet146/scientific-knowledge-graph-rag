@@ -1,0 +1,190 @@
+{
+    "filename": "02-CHAU THI LE DUYEN(12-19)025.json",
+    "paper_title": "Study on corporate culture of Vietnamese enterprises: An approach of denison's model",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Corporate Culture",
+                "type": "Domain",
+                "description": "The main research field concerning the shared values and behaviors within an organization."
+            },
+            {
+                "id": "Chau Thi Le Duyen",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Thach Keo Sa Rate",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Nguyen Quang Tuong",
+                "type": "Author",
+                "description": "Researcher from Unilever Viet Nam."
+            },
+            {
+                "id": "Nguyen Thi Ngoc Hoa",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Nguyen Pham Tuyet Anh",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "College of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "Unilever Viet Nam",
+                "type": "Institution",
+                "description": "Corporate entity in Viet Nam."
+            },
+            {
+                "id": "Denison's Organisational Culture (DOC) model",
+                "type": "Method",
+                "description": "A framework used to identify and assess 12 elements of corporate culture across four traits."
+            },
+            {
+                "id": "Descriptive statistics methods",
+                "type": "Method",
+                "description": "Statistical techniques used to determine strengths and weaknesses of enterprise culture."
+            },
+            {
+                "id": "Cross-tabulation analysis (Cross-tab)",
+                "type": "Method",
+                "description": "Independent testing used to examine relationships between qualitative or discrete variables."
+            },
+            {
+                "id": "5-level Likert scale",
+                "type": "Method",
+                "description": "A psychometric scale used in questionnaires to measure attitudes or beliefs."
+            },
+            {
+                "id": "Survey data from 40 employees",
+                "type": "Dataset",
+                "description": "Primary data collected via direct interviews and questionnaires from the studied business staff."
+            },
+            {
+                "id": "Secondary data",
+                "type": "Dataset",
+                "description": "Financial statements and business performance records of the studied enterprise."
+            },
+            {
+                "id": "Mean score of DHCL3 and DHCL4 (4.29)",
+                "type": "Metric",
+                "description": "Measurement of strategic direction and intent index variables."
+            },
+            {
+                "id": "Mean score of TN5 (4.34)",
+                "type": "Metric",
+                "description": "Measurement of the Vision index variable regarding short-term vs long-term goals."
+            },
+            {
+                "id": "Awareness level: beliefs (65%)",
+                "type": "Metric",
+                "description": "The percentage of respondents who identified corporate culture at the belief level."
+            },
+            {
+                "id": "Denison framework score (60-62 scores)",
+                "type": "Metric",
+                "description": "Overall evaluation score placing the indices within the first-quarter framework."
+            },
+            {
+                "id": "Consistency trait",
+                "type": "Concept",
+                "description": "A cultural trait involving core values, agreement, coordination, and integration."
+            },
+            {
+                "id": "Involvement trait",
+                "type": "Concept",
+                "description": "A cultural trait including empowerment, team orientation, and capacity development."
+            },
+            {
+                "id": "Adaptability trait",
+                "type": "Concept",
+                "description": "A cultural trait including creating change, customer focus, and organizational learning."
+            },
+            {
+                "id": "Mission trait",
+                "type": "Concept",
+                "description": "A cultural trait including strategic direction, goals, and vision."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Corporate Culture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Chau Thi Le Duyen",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Thach Keo Sa Rate",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Ngoc Hoa",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Pham Tuyet Anh",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quang Tuong",
+                "target": "Unilever Viet Nam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Consistency trait",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Involvement trait",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Adaptability trait",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Mission trait",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Survey data from 40 employees",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Mean score of TN5 (4.34)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Denison's Organisational Culture (DOC) model",
+                "target": "Denison framework score (60-62 scores)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive statistics methods",
+                "target": "Awareness level: beliefs (65%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

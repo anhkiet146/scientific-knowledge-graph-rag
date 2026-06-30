@@ -1,0 +1,185 @@
+{
+    "filename": "12-661-PHUONG QUY CHAU(114-121)271.json",
+    "paper_title": "Compatibility and effect of capacity ratios between Na3V2(PO4)3 and hard carbon in highly concentrated sodium bis (fluorosulfonyl) imide electrolyte",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Sodium-ion batteries",
+                "type": "Concept",
+                "description": "Advanced batteries for application in stationary energy storage as an alternative to lithium-ion batteries."
+            },
+            {
+                "id": "N/P ratio",
+                "type": "Concept",
+                "description": "The capacity ratio of the negative to the positive electrode, impacting energy density and cycle life."
+            },
+            {
+                "id": "Presodiation",
+                "type": "Concept",
+                "description": "A treatment to counteract energy loss caused by irreversible Na+ insertion in hard carbon structure."
+            },
+            {
+                "id": "Na3V2(PO4)3 (NVP)",
+                "type": "Method",
+                "description": "A NASICON structured cathode material with high Na+ conductivity."
+            },
+            {
+                "id": "Hard carbon (HC)",
+                "type": "Method",
+                "description": "An anode material candidate known for low cost and structural stability."
+            },
+            {
+                "id": "NaFSI/DME (2:1) FEC 3 wt.%",
+                "type": "Method",
+                "description": "A highly concentrated electrolyte (HCE) used in the study."
+            },
+            {
+                "id": "SEM",
+                "type": "Method",
+                "description": "Scanning electron microscopy used for morphology characterization."
+            },
+            {
+                "id": "XRD",
+                "type": "Method",
+                "description": "X-ray diffraction used for collecting structural patterns."
+            },
+            {
+                "id": "TGA",
+                "type": "Method",
+                "description": "Thermogravimetric analysis to evaluate thermal stability."
+            },
+            {
+                "id": "EIS",
+                "type": "Method",
+                "description": "Electrochemical impedance spectroscopy analysis."
+            },
+            {
+                "id": "Capacity retention (90.7%)",
+                "type": "Metric",
+                "description": "Retention rate for full cell with N/P ratio of 1.1 after 100 cycles."
+            },
+            {
+                "id": "Capacity retention (nearly 100%)",
+                "type": "Metric",
+                "description": "Retention rate for full cell with N/P ratio of 1.0 after 100 cycles."
+            },
+            {
+                "id": "Discharge capacity (around 100 mAh g-1)",
+                "type": "Metric",
+                "description": "Specific capacity achieved by the full cell with N/P ratio of 1.1."
+            },
+            {
+                "id": "ICE (97.5%)",
+                "type": "Metric",
+                "description": "Initial coulombic efficiency achieved by the presodiated HC electrode."
+            },
+            {
+                "id": "Energy Storage",
+                "type": "Domain",
+                "description": "The primary field of research concerning battery technology."
+            },
+            {
+                "id": "Phuong Quy Chau",
+                "type": "Author",
+                "description": "Researcher from Applied Physical Chemistry Laboratory."
+            },
+            {
+                "id": "Liem Thanh Pham",
+                "type": "Author",
+                "description": "Researcher from Applied Physical Chemistry Laboratory."
+            },
+            {
+                "id": "Quan Dinh Nguyen",
+                "type": "Author",
+                "description": "Researcher from Biofuel and Biomass Research Laboratory."
+            },
+            {
+                "id": "My Loan Phung Le",
+                "type": "Author",
+                "description": "Researcher from Department of Physical Chemistry."
+            },
+            {
+                "id": "Man Van Tran",
+                "type": "Author",
+                "description": "Researcher from Department of Physical Chemistry."
+            },
+            {
+                "id": "Trung Thien Nguyen",
+                "type": "Author",
+                "description": "Researcher from Central Laboratory for Analysis."
+            },
+            {
+                "id": "University of Science, VNU-HCMC",
+                "type": "Institution",
+                "description": "Affiliation for researchers in applied and physical chemistry."
+            },
+            {
+                "id": "University of Technology, VNU-HCMC",
+                "type": "Institution",
+                "description": "Affiliation for researchers in chemical engineering."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Energy Storage",
+                "target": "Sodium-ion batteries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "NaFSI/DME (2:1) FEC 3 wt.%",
+                "target": "Capacity retention (90.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "NaFSI/DME (2:1) FEC 3 wt.%",
+                "target": "Capacity retention (nearly 100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Presodiation",
+                "target": "ICE (97.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Na3V2(PO4)3 (NVP)",
+                "target": "Sodium-ion batteries",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hard carbon (HC)",
+                "target": "Sodium-ion batteries",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Phuong Quy Chau",
+                "target": "University of Science, VNU-HCMC",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Liem Thanh Pham",
+                "target": "University of Science, VNU-HCMC",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Quan Dinh Nguyen",
+                "target": "University of Technology, VNU-HCMC",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "My Loan Phung Le",
+                "target": "University of Science, VNU-HCMC",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Man Van Tran",
+                "target": "University of Science, VNU-HCMC",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Trung Thien Nguyen",
+                "target": "University of Science, VNU-HCMC",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

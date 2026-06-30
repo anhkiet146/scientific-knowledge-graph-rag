@@ -1,0 +1,120 @@
+{
+  "filename": "19-SH-NGUYEN MINH QUANG(126-132).json",
+  "paper_title": "PROFESSIONAL VOLUNTEERING-BASED TOURISM AND ITS ROLE IN NARROWING THE INTRA-STATE DEVELOPMENT GAP IN ASEAN COUNTRIES: AN EMPIRICAL STUDY IN CAMBODIA",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Minh Quang",
+        "type": "Author",
+        "description": "The primary author of the research paper."
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution in Vietnam where the author is affiliated."
+      },
+      {
+        "id": "Tourism Research",
+        "type": "Domain",
+        "description": "The main field of study focusing on tourism and its socio-economic impacts."
+      },
+      {
+        "id": "Professional Volunteering-based Tourism (PVBT)",
+        "type": "Concept",
+        "description": "A tourism model combining expert volunteer work with traditional cultural experiences."
+      },
+      {
+        "id": "Community-based tourism (CBT)",
+        "type": "Concept",
+        "description": "A form of tourism organized by local communities to bring economic benefits."
+      },
+      {
+        "id": "Intra-state development gap",
+        "type": "Concept",
+        "description": "The economic and social inequality between different regions within a single country."
+      },
+      {
+        "id": "Sustainable tourism",
+        "type": "Concept",
+        "description": "Tourism that respects local people, cultural heritage, and the environment."
+      },
+      {
+        "id": "SWOT Analysis",
+        "type": "Method",
+        "description": "A matrix used to analyze strengths, weaknesses, opportunities, and threats."
+      },
+      {
+        "id": "Pilot study",
+        "type": "Method",
+        "description": "A 2-week experimental study conducted in rural Cambodia (Kampong Speu and Kandal Provinces)."
+      },
+      {
+        "id": "Homestay",
+        "type": "Method",
+        "description": "A method of accommodation where tourists stay with local families."
+      },
+      {
+        "id": "UNWTO Statistics",
+        "type": "Dataset",
+        "description": "International tourism data from the World Tourism Organization."
+      },
+      {
+        "id": "Villagers treated medically (931 people)",
+        "type": "Metric",
+        "description": "The total number of rural inhabitants provided with healthcare during the study."
+      },
+      {
+        "id": "Students tutored English (nearly 200)",
+        "type": "Metric",
+        "description": "The count of local primary students receiving free language tutoring."
+      },
+      {
+        "id": "Contribution to world GDP (9%)",
+        "type": "Metric",
+        "description": "The percentage contribution of the tourism sector to global GDP in 2012."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Minh Quang",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Professional Volunteering-based Tourism (PVBT)",
+        "target": "Tourism Research",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "SWOT Analysis",
+        "target": "Professional Volunteering-based Tourism (PVBT)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pilot study",
+        "target": "Professional Volunteering-based Tourism (PVBT)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pilot study",
+        "target": "Intra-state development gap",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pilot study",
+        "target": "Villagers treated medically (931 people)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pilot study",
+        "target": "Students tutored English (nearly 200)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pilot study",
+        "target": "UNWTO Statistics",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

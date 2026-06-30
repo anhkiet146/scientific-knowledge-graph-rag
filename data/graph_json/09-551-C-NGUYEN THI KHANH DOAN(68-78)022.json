@@ -1,0 +1,165 @@
+{
+  "filename": "09-551-C-NGUYEN THI KHANH DOAN(68-78)022.json",
+  "paper_title": "An insight into non-English major learners' task engagement from a sociocultural perspective",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thi Khanh Doan",
+        "type": "Author",
+        "description": "Corresponding author of the research paper"
+      },
+      {
+        "id": "Trinh Quoc Lap",
+        "type": "Author",
+        "description": "Co-author of the research paper"
+      },
+      {
+        "id": "Pham Mai Anh",
+        "type": "Author",
+        "description": "Co-author of the research paper"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University located in Viet Nam where the authors are affiliated"
+      },
+      {
+        "id": "Applied Linguistics",
+        "type": "Domain",
+        "description": "The broad field of research involving language learning and task engagement"
+      },
+      {
+        "id": "Task engagement",
+        "type": "Concept",
+        "description": "The way learners perform, commit, or involve themselves in a learning task"
+      },
+      {
+        "id": "Sociocultural perspective",
+        "type": "Concept",
+        "description": "A theoretical lens emphasizing social and cultural factors in learning"
+      },
+      {
+        "id": "Learner agency",
+        "type": "Concept",
+        "description": "A person's ability to choose, control, and pursue goals in a learning situation"
+      },
+      {
+        "id": "Qualitative Analysis",
+        "type": "Method",
+        "description": "The overall research design used to interpret phenomena in natural settings"
+      },
+      {
+        "id": "Class observations",
+        "type": "Method",
+        "description": "A method used to record the way English tasks were performed by students"
+      },
+      {
+        "id": "Learning journals",
+        "type": "Method",
+        "description": "Records of participant experiences in their natural learning contexts"
+      },
+      {
+        "id": "Semi-structured individual interviews",
+        "type": "Method",
+        "description": "Interviews with pre-determined open questions to elicit participant perspectives"
+      },
+      {
+        "id": "Stimulated recall",
+        "type": "Method",
+        "description": "Informal talks used to uncover participants' cognitive processes right after a task"
+      },
+      {
+        "id": "Thematic approach",
+        "type": "Method",
+        "description": "A method for identifying, analyzing, and reporting themes within data"
+      },
+      {
+        "id": "Number of participants (83)",
+        "type": "Metric",
+        "description": "Total number of non-English major learners involved in the study"
+      },
+      {
+        "id": "Number of interviewees (12)",
+        "type": "Metric",
+        "description": "Number of students invited for the interview phase"
+      },
+      {
+        "id": "Conforming learners count (22)",
+        "type": "Metric",
+        "description": "Number of learners categorized as actively engaging in tasks"
+      },
+      {
+        "id": "Disconfirming participants count (61)",
+        "type": "Metric",
+        "description": "Number of participants categorized as resistant or passive in task engagement"
+      },
+      {
+        "id": "Audio-recorded interviews",
+        "type": "Dataset",
+        "description": "Digital recordings of the semi-structured interviews conducted in Vietnamese"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Thi Khanh Doan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Trinh Quoc Lap",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Mai Anh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "An insight into non-English major learners' task engagement from a sociocultural perspective",
+        "target": "Applied Linguistics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Qualitative Analysis",
+        "target": "Task engagement",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Qualitative Analysis",
+        "target": "Number of participants (83)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Semi-structured individual interviews",
+        "target": "Number of interviewees (12)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Thematic approach",
+        "target": "Conforming learners count (22)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Thematic approach",
+        "target": "Disconfirming participants count (61)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Semi-structured individual interviews",
+        "target": "Audio-recorded interviews",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Stimulated recall",
+        "target": "Learner agency",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sociocultural perspective",
+        "target": "Task engagement",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

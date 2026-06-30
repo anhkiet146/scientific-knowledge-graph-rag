@@ -1,0 +1,180 @@
+{
+    "filename": "13-877-Mokwenye-Ikebu Ifesinachi(124-139)313.json",
+    "paper_title": "Integrating the cellular vortex method with remote sensing and geographical information systems in the modelling of coastal flooding around Niger Delta",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Hydrology and Coastal Engineering",
+                "type": "Domain",
+                "description": "The primary field of study focusing on coastal flood modeling and water dynamics."
+            },
+            {
+                "id": "Mokwenye-Ikebu Ifesinachi",
+                "type": "Author",
+                "description": "Co-author of the paper."
+            },
+            {
+                "id": "Ihimekpen Ngozi Isioma",
+                "type": "Author",
+                "description": "Co-author of the paper."
+            },
+            {
+                "id": "Okonofua Ehizonomhen Solomon",
+                "type": "Author",
+                "description": "Co-author of the paper."
+            },
+            {
+                "id": "Ilaboya Idowu Rudolph",
+                "type": "Author",
+                "description": "Corresponding author of the paper."
+            },
+            {
+                "id": "University of Benin",
+                "type": "Institution",
+                "description": "Institution located in Nigeria where the authors are affiliated."
+            },
+            {
+                "id": "Coastal flooding",
+                "type": "Concept",
+                "description": "The inundation of land areas near the coast, specifically around the Niger Delta."
+            },
+            {
+                "id": "Flood height distribution",
+                "type": "Concept",
+                "description": "The spatial distribution of water levels during a flood event."
+            },
+            {
+                "id": "Cellular vortex method",
+                "type": "Method",
+                "description": "A Lagrangian numerical method used to track vorticity evolution for fluid flow problems."
+            },
+            {
+                "id": "Remote sensing",
+                "type": "Method",
+                "description": "The acquisition of information about an object or phenomenon without making physical contact."
+            },
+            {
+                "id": "Geographical Information Systems (GIS)",
+                "type": "Method",
+                "description": "Framework for gathering, managing, and analyzing spatial data."
+            },
+            {
+                "id": "ArcMap 10.6.1",
+                "type": "Method",
+                "description": "Software used for map processing and spatial analysis."
+            },
+            {
+                "id": "L-moment approach",
+                "type": "Method",
+                "description": "Statistical method used for estimating flood magnitude and frequency."
+            },
+            {
+                "id": "Rational formula",
+                "type": "Method",
+                "description": "A hydrological formula used to compute runoff discharge."
+            },
+            {
+                "id": "Multi-parameter handheld anemometer",
+                "type": "Method",
+                "description": "Equipment used to measure wind speed and direction."
+            },
+            {
+                "id": "Flow meter",
+                "type": "Method",
+                "description": "Equipment used to determine river flow velocity."
+            },
+            {
+                "id": "Forty-year tidal record dataset",
+                "type": "Dataset",
+                "description": "Historical numerical data used to apply the L-moment approach."
+            },
+            {
+                "id": "Annual peak discharge values (2000-2014)",
+                "type": "Dataset",
+                "description": "Fifteen years of recorded discharge data from the Escravos tidal gauge."
+            },
+            {
+                "id": "River flow velocity (0.12m/s)",
+                "type": "Metric",
+                "description": "The observed speed of water flow in the river."
+            },
+            {
+                "id": "Measured wind speed (4m/s)",
+                "type": "Metric",
+                "description": "The recorded speed of wind during the study."
+            },
+            {
+                "id": "Flood height (1.4600 - 1.6500 m)",
+                "type": "Metric",
+                "description": "Specific range of water height identifying wetland areas."
+            },
+            {
+                "id": "Roughness constant for mixed dry land (0.033)",
+                "type": "Metric",
+                "description": "Manning constant adopted for specific land use types."
+            },
+            {
+                "id": "GEV distribution score (15)",
+                "type": "Metric",
+                "description": "Statistical goodness of fit score for the selected distribution model."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Integrating the cellular vortex method with remote sensing and geographical information systems in the modelling of coastal flooding around Niger Delta",
+                "target": "Hydrology and Coastal Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Mokwenye-Ikebu Ifesinachi",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ihimekpen Ngozi Isioma",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Okonofua Ehizonomhen Solomon",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ilaboya Idowu Rudolph",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cellular vortex method",
+                "target": "Coastal flooding",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "L-moment approach",
+                "target": "Forty-year tidal record dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Flow meter",
+                "target": "River flow velocity (0.12m/s)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multi-parameter handheld anemometer",
+                "target": "Measured wind speed (4m/s)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cellular vortex method",
+                "target": "Flood height (1.4600 - 1.6500 m)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "L-moment approach",
+                "target": "GEV distribution score (15)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

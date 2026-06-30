@@ -1,0 +1,270 @@
+{
+  "filename": "15-SH-TRINH CHI THAM(111-122)031.json",
+  "paper_title": "Transformative learning in resilient VACB model adapting to climate change in Phong Dien district, Can Tho city",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Transformative learning",
+        "type": "Concept",
+        "description": "A process of changing social perspectives and actions towards sustainable understanding, beliefs, and lifestyle."
+      },
+      {
+        "id": "VACB model",
+        "type": "Concept",
+        "description": "A livelihood model consisting of Orchard (V), Pond (A), Livestock (C), and Biogas (B)."
+      },
+      {
+        "id": "Climate change",
+        "type": "Concept",
+        "description": "The primary environmental issue requiring adaptation in Phong Dien district."
+      },
+      {
+        "id": "Sustainable livelihood",
+        "type": "Concept",
+        "description": "Capabilities, assets, and activities essential for living that are resilient to impacts."
+      },
+      {
+        "id": "Mixed method",
+        "type": "Method",
+        "description": "Combination of qualitative and quantitative data collection and analysis techniques."
+      },
+      {
+        "id": "Surveys",
+        "type": "Method",
+        "description": "Main data collection type used to gather information from 40 households."
+      },
+      {
+        "id": "Interviews",
+        "type": "Method",
+        "description": "In-depth data collection from 9 subjects including experts and farmers."
+      },
+      {
+        "id": "Focused group discussion",
+        "type": "Method",
+        "description": "Discussion involving 34 participants divided into small groups."
+      },
+      {
+        "id": "Expert observation and discussion",
+        "type": "Method",
+        "description": "Working with experts to assess climate change and the VACB model."
+      },
+      {
+        "id": "SPSS",
+        "type": "Method",
+        "description": "Statistical software used for analyzing survey data."
+      },
+      {
+        "id": "Photoshop",
+        "type": "Method",
+        "description": "Software used for editing images and charts."
+      },
+      {
+        "id": "MapInfo",
+        "type": "Method",
+        "description": "Mapping software used for spatial data representation."
+      },
+      {
+        "id": "Environmental Science",
+        "type": "Domain",
+        "description": "The study of environmental changes and adaptation strategies."
+      },
+      {
+        "id": "Education for Sustainable Development",
+        "type": "Domain",
+        "description": "Field focusing on learning processes for sustainable living."
+      },
+      {
+        "id": "Trinh Chi Tham",
+        "type": "Author",
+        "description": "Primary author from Can Tho University."
+      },
+      {
+        "id": "Ho Thi Thu Ho",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Le Van Nhuong",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Le Van Hieu",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Ngoc Phuong",
+        "type": "Author",
+        "description": "Co-author from Can Tho University."
+      },
+      {
+        "id": "Tran Duc Tuan",
+        "type": "Author",
+        "description": "Co-author from Institute of Research and Education for Sustainable Development."
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Institute of Research and Education for Sustainable Development",
+        "type": "Institution",
+        "description": "Research institute in Vietnam."
+      },
+      {
+        "id": "Phong Dien household survey dataset",
+        "type": "Dataset",
+        "description": "Numerical data collected from 40 households in Phong Dien district."
+      },
+      {
+        "id": "Expert interview dataset",
+        "type": "Dataset",
+        "description": "Qualitative data from 9 key informants."
+      },
+      {
+        "id": "Self-study rate (87.0%)",
+        "type": "Metric",
+        "description": "The percentage of farmers concerned with self-study and self-reflection."
+      },
+      {
+        "id": "Learning through media rate (69.9%)",
+        "type": "Metric",
+        "description": "Percentage of farmers utilizing television and radio for learning."
+      },
+      {
+        "id": "Learning through picking up rate (58.7%)",
+        "type": "Metric",
+        "description": "Percentage of households viewing picking up as an effective way of learning."
+      },
+      {
+        "id": "Model-observation participation (43.5%)",
+        "type": "Metric",
+        "description": "Participation rate in visiting Biogas or VACB livelihood models."
+      },
+      {
+        "id": "Community activities participation (32.6%)",
+        "type": "Metric",
+        "description": "Percentage of farmers participating in community-based learning."
+      },
+      {
+        "id": "Spontaneous improvement awareness (69.6%)",
+        "type": "Metric",
+        "description": "Percentage of farmers noting the difficulty of unplanned improvement."
+      },
+      {
+        "id": "Limited government support (63.0%)",
+        "type": "Metric",
+        "description": "Farmer perception of insufficient local authority assistance."
+      },
+      {
+        "id": "Weak awareness (58.7%)",
+        "type": "Metric",
+        "description": "Percentage of people agreeing that limited perception hinders development."
+      },
+      {
+        "id": "Lack of access to information (37.0%)",
+        "type": "Metric",
+        "description": "Percentage of farmers identifying lack of information access as a hurdle."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Trinh Chi Tham",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Thi Thu Ho",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Van Nhuong",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Van Hieu",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Ngoc Phuong",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Duc Tuan",
+        "target": "Institute of Research and Education for Sustainable Development",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Transformative learning",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "VACB model",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Mixed method",
+        "target": "Transformative learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Surveys",
+        "target": "VACB model",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "SPSS",
+        "target": "Phong Dien household survey dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Surveys",
+        "target": "Self-study rate (87.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Surveys",
+        "target": "Learning through media rate (69.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Surveys",
+        "target": "Learning through picking up rate (58.7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Surveys",
+        "target": "Model-observation participation (43.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Surveys",
+        "target": "Community activities participation (32.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Surveys",
+        "target": "Spontaneous improvement awareness (69.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Surveys",
+        "target": "Limited government support (63.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Interviews",
+        "target": "Expert interview dataset",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

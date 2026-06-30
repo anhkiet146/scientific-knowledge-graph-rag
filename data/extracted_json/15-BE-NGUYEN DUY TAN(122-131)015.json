@@ -1,0 +1,190 @@
+{
+    "filename": "15-BE-NGUYEN DUY TAN(122-131)015.json",
+    "paper_title": "OPTIMIZATION OF POLYPHENOL, FLAVONOID AND TANNIN EXTRACTION CONDITIONS FROM Pouzolzia zeylanica L. BENN USING RESPONSE SURFACE METHODOLOGY",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Science",
+                "type": "Domain",
+                "description": "The study of extraction and optimization of bioactive compounds from plant materials."
+            },
+            {
+                "id": "OPTIMIZATION OF POLYPHENOL, FLAVONOID AND TANNIN EXTRACTION CONDITIONS FROM Pouzolzia zeylanica L. BENN USING RESPONSE SURFACE METHODOLOGY",
+                "type": "Concept",
+                "description": "The primary research paper topic on optimizing extraction processes."
+            },
+            {
+                "id": "Extraction of phenolic compounds",
+                "type": "Concept",
+                "description": "The process of isolating bioactive polyphenols, flavonoids, and tannins."
+            },
+            {
+                "id": "Response Surface Methodology (RSM)",
+                "type": "Method",
+                "description": "A statistical technique for modeling and optimizing processes."
+            },
+            {
+                "id": "Central Composite Design (CCD)",
+                "type": "Method",
+                "description": "An experimental design used to estimate response surfaces."
+            },
+            {
+                "id": "Pure water",
+                "type": "Method",
+                "description": "The solvent used in the extraction process."
+            },
+            {
+                "id": "UV-spectrophotometer",
+                "type": "Method",
+                "description": "Analytical equipment used to measure absorbance for content determination."
+            },
+            {
+                "id": "Folin-Ciocalteu reagent",
+                "type": "Method",
+                "description": "Chemical reagent used to determine total polyphenol content."
+            },
+            {
+                "id": "Second-order polynomial model",
+                "type": "Method",
+                "description": "Mathematical model used for predicting responses."
+            },
+            {
+                "id": "Total polyphenol content (921 mgGAE/100g DM)",
+                "type": "Metric",
+                "description": "Achieved concentration of polyphenols under optimal conditions."
+            },
+            {
+                "id": "Total flavonoid content (563 mgQE/100g DM)",
+                "type": "Metric",
+                "description": "Achieved concentration of flavonoids under optimal conditions."
+            },
+            {
+                "id": "Tannin content (643 mgTAE/100g DM)",
+                "type": "Metric",
+                "description": "Achieved concentration of tannins under optimal conditions."
+            },
+            {
+                "id": "Optimized temperature (81°C)",
+                "type": "Metric",
+                "description": "The determined optimal temperature for extraction."
+            },
+            {
+                "id": "Optimized extraction time (30 minutes)",
+                "type": "Metric",
+                "description": "The determined optimal duration for extraction."
+            },
+            {
+                "id": "Optimized water-to-dried material ratio (27 v/w)",
+                "type": "Metric",
+                "description": "The determined optimal liquid-to-solid ratio."
+            },
+            {
+                "id": "Coefficient of determination R2 (0.9834)",
+                "type": "Metric",
+                "description": "Statistical measure of how close the data are to the fitted regression line."
+            },
+            {
+                "id": "Nguyen Duy Tan",
+                "type": "Author",
+                "description": "Lead author of the study."
+            },
+            {
+                "id": "Le Quoc Viet",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Vo Tan Thanh",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Faculty of Agriculture and Natural Resources, An Giang University",
+                "type": "Institution",
+                "description": "Affiliation of Nguyen Duy Tan."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of Le Quoc Viet, Vo Tan Thanh, and Nguyen Minh Thuy."
+            }
+        ],
+        "relations": [
+            {
+                "source": "OPTIMIZATION OF POLYPHENOL, FLAVONOID AND TANNIN EXTRACTION CONDITIONS FROM Pouzolzia zeylanica L. BENN USING RESPONSE SURFACE METHODOLOGY",
+                "target": "Food Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Duy Tan",
+                "target": "Faculty of Agriculture and Natural Resources, An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Quoc Viet",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Tan Thanh",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Extraction of phenolic compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Pure water",
+                "target": "Extraction of phenolic compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Total polyphenol content (921 mgGAE/100g DM)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Total flavonoid content (563 mgQE/100g DM)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Tannin content (643 mgTAE/100g DM)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Optimized temperature (81°C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Optimized extraction time (30 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Optimized water-to-dried material ratio (27 v/w)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Second-order polynomial model",
+                "target": "Coefficient of determination R2 (0.9834)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

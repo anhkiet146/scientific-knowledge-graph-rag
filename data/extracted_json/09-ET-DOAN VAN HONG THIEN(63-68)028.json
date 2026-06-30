@@ -1,0 +1,170 @@
+{
+    "filename": "09-ET-DOAN VAN HONG THIEN(63-68)028.json",
+    "paper_title": "Electrospun CuO/Ag nanofibers for nonenzymatic glucose sensors",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Electrochemistry",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu liên quan đến cảm biến điện hóa"
+            },
+            {
+                "id": "Doan Van Hong Thien",
+                "type": "Author",
+                "description": "Tác giả của bài báo"
+            },
+            {
+                "id": "Ha Thanh Toan",
+                "type": "Author",
+                "description": "Tác giả của bài báo"
+            },
+            {
+                "id": "Tran Thi Bich Quyen",
+                "type": "Author",
+                "description": "Tác giả của bài báo"
+            },
+            {
+                "id": "Nguyen Minh Tri",
+                "type": "Author",
+                "description": "Tác giả của bài báo"
+            },
+            {
+                "id": "Department of Chemical Engineering, Can Tho University, Vietnam",
+                "type": "Institution",
+                "description": "Tổ chức nơi tác giả làm việc"
+            },
+            {
+                "id": "Biotechnology in Cosmetic Dermatology Center, Can Tho University, Vietnam",
+                "type": "Institution",
+                "description": "Tổ chức nơi tác giả làm việc"
+            },
+            {
+                "id": "Nonenzymatic glucose sensors",
+                "type": "Concept",
+                "description": "Thiết bị cảm biến glucose không sử dụng enzyme"
+            },
+            {
+                "id": "Electrospinning",
+                "type": "Method",
+                "description": "Phương pháp chế tạo sợi nano từ dung dịch polymer"
+            },
+            {
+                "id": "PVP (Polyvinylpyrrolidone)",
+                "type": "Method",
+                "description": "Vật liệu polymer sử dụng để tạo sợi nano"
+            },
+            {
+                "id": "AgNO3",
+                "type": "Method",
+                "description": "Hóa chất Silver nitrate dùng làm tiền chất bạc"
+            },
+            {
+                "id": "Cu(NO3)2",
+                "type": "Method",
+                "description": "Hóa chất Copper (II) nitrate dùng làm tiền chất đồng oxide"
+            },
+            {
+                "id": "Scanning electron microscopy (SEM)",
+                "type": "Method",
+                "description": "Phương pháp hiển vi điện tử quét để quan sát hình thái"
+            },
+            {
+                "id": "Cyclic voltammetry",
+                "type": "Method",
+                "description": "Phương pháp đo điện thế vòng để kiểm tra hoạt tính điện hóa"
+            },
+            {
+                "id": "PVP concentration (8%)",
+                "type": "Metric",
+                "description": "Nồng độ polymer tối ưu để tạo sợi"
+            },
+            {
+                "id": "Applied voltage (20 kV)",
+                "type": "Metric",
+                "description": "Điện áp áp dụng trong quá trình electrospinning"
+            },
+            {
+                "id": "Feed rate (0.5 mL/h)",
+                "type": "Metric",
+                "description": "Tốc độ phun dung dịch polymer"
+            },
+            {
+                "id": "Carbonization temperature (450 oC)",
+                "type": "Metric",
+                "description": "Nhiệt độ nung để thu được sợi CuO/Ag"
+            },
+            {
+                "id": "Nanofiber diameter (70 nm to 1000 nm)",
+                "type": "Metric",
+                "description": "Đường kính của sợi nano thu được"
+            },
+            {
+                "id": "Anodic oxidation peak (0.40 V)",
+                "type": "Metric",
+                "description": "Đỉnh oxi hóa anodic cho thấy hiệu quả xúc tác glucose"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Doan Van Hong Thien",
+                "target": "Department of Chemical Engineering, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ha Thanh Toan",
+                "target": "Biotechnology in Cosmetic Dermatology Center, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Bich Quyen",
+                "target": "Department of Chemical Engineering, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Tri",
+                "target": "Department of Chemical Engineering, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Electrospinning",
+                "target": "Nonenzymatic glucose sensors",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Electrospinning",
+                "target": "PVP concentration (8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Electrospinning",
+                "target": "Applied voltage (20 kV)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Electrospinning",
+                "target": "Feed rate (0.5 mL/h)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Electrospinning",
+                "target": "Nanofiber diameter (70 nm to 1000 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cyclic voltammetry",
+                "target": "Anodic oxidation peak (0.40 V)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cyclic voltammetry",
+                "target": "Nonenzymatic glucose sensors",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Electrospun CuO/Ag nanofibers for nonenzymatic glucose sensors",
+                "target": "Electrochemistry",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

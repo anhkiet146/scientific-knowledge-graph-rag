@@ -1,0 +1,205 @@
+{
+    "filename": "01-881-LE THI ANH THU(1-8)301.json",
+    "paper_title": "Removal of tetracycline antibiotic from aqueous solution using bimetallic CuCo-ZIFs as an efficient catalyst in the presence of hydrogen peroxide",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Removal of tetracycline antibiotic from aqueous solution using bimetallic CuCo-ZIFs as an efficient catalyst in the presence of hydrogen peroxide",
+                "type": "Concept",
+                "description": "The primary research topic concerning the degradation of TC using a specific catalyst system."
+            },
+            {
+                "id": "Advanced Oxidation Process",
+                "type": "Domain",
+                "description": "The research field focusing on mineralization of organic pollutants via active radicals."
+            },
+            {
+                "id": "Le Thi Anh Thu",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Tran Bao Bao",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Ho Ngoc Tri Tan",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Cao Luu Ngoc Hanh",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Ngo Truong Ngoc Mai",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Luong Huynh Vu Thanh",
+                "type": "Author",
+                "description": "Researcher affiliated with the College of Engineering and Applied Chemical Engineering Lab."
+            },
+            {
+                "id": "Dang Huynh Giao",
+                "type": "Author",
+                "description": "Corresponding author affiliated with the College of Engineering and Applied Chemical Engineering Lab."
+            },
+            {
+                "id": "College of Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "Academic organization in Vietnam."
+            },
+            {
+                "id": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "Research laboratory in Vietnam."
+            },
+            {
+                "id": "CuCo-ZIFs",
+                "type": "Method",
+                "description": "Bimetallic zeolitic imidazolate framework used as a heterogeneous catalyst."
+            },
+            {
+                "id": "H2O2",
+                "type": "Method",
+                "description": "Hydrogen peroxide used as an oxidizing agent."
+            },
+            {
+                "id": "ultrasonic-assisted solvothermal method",
+                "type": "Method",
+                "description": "Synthetic procedure used to manufacture the CuCo-ZIFs catalyst."
+            },
+            {
+                "id": "PXRD",
+                "type": "Method",
+                "description": "Powder X-ray diffraction for structure analysis."
+            },
+            {
+                "id": "SEM",
+                "type": "Method",
+                "description": "Scanning electron microscopy for surface topography."
+            },
+            {
+                "id": "TEM",
+                "type": "Method",
+                "description": "Transmission electron microscopy for structural imaging."
+            },
+            {
+                "id": "TC removal efficiency (93.9%)",
+                "type": "Metric",
+                "description": "Percentage of tetracycline removed under optimal conditions."
+            },
+            {
+                "id": "Specific surface area (1797.5 m2.g-1)",
+                "type": "Metric",
+                "description": "Measurement of the material's available surface area via BET."
+            },
+            {
+                "id": "Thermal stability (above 550 oC)",
+                "type": "Metric",
+                "description": "The temperature threshold before material decomposition."
+            },
+            {
+                "id": "Average particle size (150 nm)",
+                "type": "Metric",
+                "description": "Size measurement of the CuCo-ZIFs cubic crystals."
+            },
+            {
+                "id": "Treatment time (30 min)",
+                "type": "Metric",
+                "description": "Duration for optimal TC removal."
+            },
+            {
+                "id": "CuCo-ZIFs dosage (0.3 g.L-1)",
+                "type": "Metric",
+                "description": "Amount of catalyst used per liter of solution."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Removal of tetracycline antibiotic from aqueous solution using bimetallic CuCo-ZIFs as an efficient catalyst in the presence of hydrogen peroxide",
+                "target": "Advanced Oxidation Process",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Thi Anh Thu",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Bao Bao",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Ngoc Tri Tan",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cao Luu Ngoc Hanh",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Truong Ngoc Mai",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luong Huynh Vu Thanh",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luong Huynh Vu Thanh",
+                "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Huynh Giao",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Huynh Giao",
+                "target": "Applied Chemical Engineering Lab, College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "ultrasonic-assisted solvothermal method",
+                "target": "CuCo-ZIFs",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CuCo-ZIFs",
+                "target": "Removal of tetracycline antibiotic from aqueous solution using bimetallic CuCo-ZIFs as an efficient catalyst in the presence of hydrogen peroxide",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CuCo-ZIFs",
+                "target": "TC removal efficiency (93.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CuCo-ZIFs",
+                "target": "Specific surface area (1797.5 m2.g-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CuCo-ZIFs",
+                "target": "Thermal stability (above 550 oC)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CuCo-ZIFs",
+                "target": "Average particle size (150 nm)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

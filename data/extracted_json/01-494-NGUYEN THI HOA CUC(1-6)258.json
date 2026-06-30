@@ -1,0 +1,115 @@
+{
+    "filename": "01-494-NGUYEN THI HOA CUC(1-6)258.json",
+    "paper_title": "The right to avoid the international sale of goods contract: Comparison of Viet Nam to CISG and PICC",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "International Commercial Law",
+                "type": "Domain",
+                "description": "The main field of study focusing on global trade regulations and contract avoidance."
+            },
+            {
+                "id": "Nguyen Thi Hoa Cuc",
+                "type": "Author",
+                "description": "Corresponding author from Can Tho University."
+            },
+            {
+                "id": "Doan Nguyen Phu Cuong",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Minh Phu",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "School of Law, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the authors are affiliated in Viet Nam."
+            },
+            {
+                "id": "Vietnamese Commercial Law 2005",
+                "type": "Method",
+                "description": "National legal framework used as a basis for comparison."
+            },
+            {
+                "id": "CISG",
+                "type": "Method",
+                "description": "United Nations Convention for the International Sale of Goods."
+            },
+            {
+                "id": "PICC",
+                "type": "Method",
+                "description": "Principles of International Commercial Contracts."
+            },
+            {
+                "id": "Comparative analysis",
+                "type": "Method",
+                "description": "Methodology used to evaluate differences and similarities between law systems."
+            },
+            {
+                "id": "Fundamental breach",
+                "type": "Concept",
+                "description": "A serious breach of contract that permits the aggrieved party to terminate the agreement."
+            },
+            {
+                "id": "Anticipatory breach",
+                "type": "Concept",
+                "description": "A situation where a party indicates they will not perform their duties before the performance date."
+            },
+            {
+                "id": "Avoidance of contract",
+                "type": "Concept",
+                "description": "The right of a party to terminate a sale of goods contract under specific conditions."
+            },
+            {
+                "id": "CISG Ratification (80 countries)",
+                "type": "Metric",
+                "description": "Number of countries that have ratified the CISG convention."
+            }
+        ],
+        "relations": [
+            {
+                "source": "The right to avoid the international sale of goods contract: Comparison of Viet Nam to CISG and PICC",
+                "target": "International Commercial Law",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Hoa Cuc",
+                "target": "School of Law, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Doan Nguyen Phu Cuong",
+                "target": "School of Law, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Phu",
+                "target": "School of Law, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Comparative analysis",
+                "target": "Avoidance of contract",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Comparative analysis",
+                "target": "Fundamental breach",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Comparative analysis",
+                "target": "Anticipatory breach",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CISG",
+                "target": "CISG Ratification (80 countries)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

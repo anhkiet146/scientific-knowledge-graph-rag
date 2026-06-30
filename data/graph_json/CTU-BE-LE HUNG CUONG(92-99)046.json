@@ -1,0 +1,150 @@
+{
+  "filename": "CTU-BE-LE HUNG CUONG(92-99)046.json",
+  "paper_title": "Identification of rose black spot pathogen in Sa Đéc city, Đồng Tháp province of Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Plant Pathology",
+        "type": "Domain",
+        "description": "The study of diseases in plants, specifically focusing on rose black spot in this paper."
+      },
+      {
+        "id": "Black spot disease",
+        "type": "Concept",
+        "description": "A destructive disease of roses caused by Diplocarpon rosae, characterized by dark spots and premature defoliation."
+      },
+      {
+        "id": "Diplocarpon rosae",
+        "type": "Concept",
+        "description": "The fungal pathogen identified as the cause of black spot on roses."
+      },
+      {
+        "id": "Pathogenicity",
+        "type": "Concept",
+        "description": "The ability of the fungal pathogen to cause disease in the host plants."
+      },
+      {
+        "id": "Le Hung Cuong",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "Pham Thi Phuong Anh",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "Tran Quoc Tuan",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "Nguyen Dac Khoa",
+        "type": "Author",
+        "description": "Corresponding author of the research paper."
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "The research organization where the authors are affiliated in Vietnam."
+      },
+      {
+        "id": "Detached leaf technique",
+        "type": "Method",
+        "description": "An in vitro pathogenicity test using isolated leaves on water agar plates."
+      },
+      {
+        "id": "Intact plant technique",
+        "type": "Method",
+        "description": "An in vivo pathogenicity test involving the inoculation of living rose plants in greenhouse conditions."
+      },
+      {
+        "id": "Microscopic examination",
+        "type": "Method",
+        "description": "The use of microscopy to observe and characterize conidia morphology."
+      },
+      {
+        "id": "Potato dextrose agar (PDA) medium",
+        "type": "Method",
+        "description": "An artificial growth medium used for culturing the fungal pathogen."
+      },
+      {
+        "id": "Conidia size (19.4-24 x 5.5-6.0 µm)",
+        "type": "Metric",
+        "description": "The measured dimensions of the fungal spores."
+      },
+      {
+        "id": "Time to symptom appearance (7 DAI)",
+        "type": "Metric",
+        "description": "The duration (7 days after inoculation) until the first visible symptoms appeared."
+      },
+      {
+        "id": "Full symptom expression (21 DAI)",
+        "type": "Metric",
+        "description": "The duration (21 days after inoculation) until typical black spot patches and yellowing were evident."
+      },
+      {
+        "id": "Inoculum concentration (10^5 conidia/mL)",
+        "type": "Metric",
+        "description": "The specific density of fungal spores used for the pathogenicity tests."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Hung Cuong",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Thi Phuong Anh",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Quoc Tuan",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Dac Khoa",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Microscopic examination",
+        "target": "Conidia size (19.4-24 x 5.5-6.0 µm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Intact plant technique",
+        "target": "Full symptom expression (21 DAI)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Detached leaf technique",
+        "target": "Time to symptom appearance (7 DAI)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Detached leaf technique",
+        "target": "Black spot disease",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Intact plant technique",
+        "target": "Black spot disease",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Microscopic examination",
+        "target": "Diplocarpon rosae",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Diplocarpon rosae",
+        "target": "Plant Pathology",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "filename": "CE-TRAN THI BE BA(138-147)059.json",
+  "paper_title": "Reading strategy instruction to Vietnamese young language learners: Teachers' practices and perceptions",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "English as a Foreign Language (EFL) Education",
+        "type": "Domain",
+        "description": "The primary research field focusing on teaching English to speakers of other languages."
+      },
+      {
+        "id": "Reading Strategy Instruction",
+        "type": "Concept",
+        "description": "Teaching approaches used to help learners improve their reading comprehension skills."
+      },
+      {
+        "id": "Young Language Learners (YLLs)",
+        "type": "Concept",
+        "description": "Children learning a foreign or second language, defined in this study as ages 5 to 12."
+      },
+      {
+        "id": "Students' interests",
+        "type": "Concept",
+        "description": "The level of engagement and preference students have towards learning activities."
+      },
+      {
+        "id": "Tran Thi Be Ba",
+        "type": "Author",
+        "description": "Researcher and author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Buu Huan",
+        "type": "Author",
+        "description": "Researcher and author from Can Tho University."
+      },
+      {
+        "id": "Center for Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "Educational organization in Vietnam."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "A quantitative data collection tool delivered to 63 EFL teachers."
+      },
+      {
+        "id": "Interviews",
+        "type": "Method",
+        "description": "Qualitative data collection via open-ended questions with 5 teachers."
+      },
+      {
+        "id": "Using context clues",
+        "type": "Method",
+        "description": "A reading strategy involving identifying hints within the text."
+      },
+      {
+        "id": "Games",
+        "type": "Method",
+        "description": "Interactive and competitive activities used to motivate students."
+      },
+      {
+        "id": "Pair work",
+        "type": "Method",
+        "description": "A collaborative strategy where two students work together."
+      },
+      {
+        "id": "Group work",
+        "type": "Method",
+        "description": "Collaborative learning within small groups of students."
+      },
+      {
+        "id": "Role play",
+        "type": "Method",
+        "description": "An activity where students act out characters or situations."
+      },
+      {
+        "id": "SPSS version 16.0",
+        "type": "Method",
+        "description": "Statistical software used for quantitative data analysis."
+      },
+      {
+        "id": "Questionnaire data",
+        "type": "Dataset",
+        "description": "Digital response data collected from 63 EFL teachers."
+      },
+      {
+        "id": "Reliability (alpha = .69)",
+        "type": "Metric",
+        "description": "Internal consistency measurement of the questionnaire data."
+      },
+      {
+        "id": "Mean score of reading strategies (M = 4.70)",
+        "type": "Metric",
+        "description": "Average frequency of reported reading strategy usage."
+      },
+      {
+        "id": "Mean score of using context clues (M = 5.51)",
+        "type": "Metric",
+        "description": "Frequency score for the most used reading strategy."
+      },
+      {
+        "id": "Mean score of scanning (M = 3.59)",
+        "type": "Metric",
+        "description": "Frequency score for the least used reading strategy."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Reading Strategy Instruction",
+        "target": "English as a Foreign Language (EFL) Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Thi Be Ba",
+        "target": "Center for Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Buu Huan",
+        "target": "Center for Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Reliability (alpha = .69)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Using context clues",
+        "target": "Mean score of using context clues (M = 5.51)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Reading Strategy Instruction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Games",
+        "target": "Students' interests",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Role play",
+        "target": "Students' interests",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "SPSS version 16.0",
+        "target": "Questionnaire data",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

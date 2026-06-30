@@ -1,0 +1,195 @@
+{
+    "filename": "01-AG-NGUYEN HONG UNG(1-7)032.json",
+    "paper_title": "Effectiveness of green muscardine fungus Metarhizium anisopliae and some insecticides on lesser coconut weevil Diocalandra frumenti Fabricius (Coleoptera: Curculionidae)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Pest Control",
+                "type": "Domain",
+                "description": "The general field of managing and regulating pests in agriculture."
+            },
+            {
+                "id": "Diocalandra frumenti",
+                "type": "Concept",
+                "description": "Lesser coconut weevil, a major pest causing damage to coconut trees."
+            },
+            {
+                "id": "Metarhizium anisopliae",
+                "type": "Method",
+                "description": "Green muscardine fungus used as a biological control agent against insects."
+            },
+            {
+                "id": "Emamectin benzoate",
+                "type": "Method",
+                "description": "A chemical insecticide used for pest control."
+            },
+            {
+                "id": "Fipronil",
+                "type": "Method",
+                "description": "A broad-spectrum insecticide used to control the coconut weevil."
+            },
+            {
+                "id": "Ma5 isolate",
+                "type": "Method",
+                "description": "A specific strain of Metarhizium anisopliae."
+            },
+            {
+                "id": "Ma1 isolate",
+                "type": "Method",
+                "description": "A specific strain of Metarhizium anisopliae."
+            },
+            {
+                "id": "Ma2 isolate",
+                "type": "Method",
+                "description": "A specific strain of Metarhizium anisopliae."
+            },
+            {
+                "id": "10^9 spores.mL-1 concentration",
+                "type": "Method",
+                "description": "High concentration treatment of fungal spores."
+            },
+            {
+                "id": "Randomized complete block design",
+                "type": "Method",
+                "description": "The experimental design used for arranging treatments and replications."
+            },
+            {
+                "id": "Abbott's formula",
+                "type": "Method",
+                "description": "Formula used to calculate corrected effectiveness in the laboratory."
+            },
+            {
+                "id": "Nguyen Hong Ung",
+                "type": "Author",
+                "description": "Lead author of the study."
+            },
+            {
+                "id": "Duong Kieu Hanh",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Trinh Thi Xuan",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Le Van Vang",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Tran Van Hai",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Tra Vinh University",
+                "type": "Institution",
+                "description": "Institution located in Vietnam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Institution located in Vietnam."
+            },
+            {
+                "id": "Corrected effectiveness of Ma5 (100%)",
+                "type": "Metric",
+                "description": "The effectiveness of isolate Ma5 at day 15 after treating."
+            },
+            {
+                "id": "Corrected effectiveness of Ma1 (95.8%)",
+                "type": "Metric",
+                "description": "The effectiveness of isolate Ma1 at day 15 after treating."
+            },
+            {
+                "id": "Corrected effectiveness of Ma2 (95.0%)",
+                "type": "Metric",
+                "description": "The effectiveness of isolate Ma2 at day 15 after treating."
+            },
+            {
+                "id": "Effectiveness of 10^9 spores.mL-1 (96.7%)",
+                "type": "Metric",
+                "description": "The high efficacy achieved by the highest spore concentration."
+            },
+            {
+                "id": "Infected fruits ratio at day 65 (4.00%-5.60%)",
+                "type": "Metric",
+                "description": "Ratio of infected fruits in fungal treatments under field conditions."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Hong Ung",
+                "target": "Tra Vinh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Kieu Hanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Trinh Thi Xuan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Van Vang",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Van Hai",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ma5 isolate",
+                "target": "Corrected effectiveness of Ma5 (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ma1 isolate",
+                "target": "Corrected effectiveness of Ma1 (95.8%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ma2 isolate",
+                "target": "Corrected effectiveness of Ma2 (95.0%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "10^9 spores.mL-1 concentration",
+                "target": "Effectiveness of 10^9 spores.mL-1 (96.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Metarhizium anisopliae",
+                "target": "Infected fruits ratio at day 65 (4.00%-5.60%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Metarhizium anisopliae",
+                "target": "Diocalandra frumenti",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Emamectin benzoate",
+                "target": "Diocalandra frumenti",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fipronil",
+                "target": "Diocalandra frumenti",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Abbott's formula",
+                "target": "Diocalandra frumenti",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

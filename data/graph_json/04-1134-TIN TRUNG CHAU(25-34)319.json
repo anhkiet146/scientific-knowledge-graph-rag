@@ -1,0 +1,185 @@
+{
+  "filename": "04-1134-TIN TRUNG CHAU(25-34)319.json",
+  "paper_title": "Assessing wind energy exploitation potential in several regions of Viet Nam using Kernel density estimation model",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Assessing wind energy exploitation potential in several regions of Viet Nam using Kernel density estimation model",
+        "type": "Concept",
+        "description": "The title and main research objective of the paper."
+      },
+      {
+        "id": "Wind Energy",
+        "type": "Domain",
+        "description": "The main field of research focusing on renewable energy from wind."
+      },
+      {
+        "id": "Tin Trung Chau",
+        "type": "Author",
+        "description": "First author of the research paper."
+      },
+      {
+        "id": "Thanh Ngoc Nguyen",
+        "type": "Author",
+        "description": "Second author of the research paper."
+      },
+      {
+        "id": "Ton Duc Do",
+        "type": "Author",
+        "description": "Corresponding author of the research paper."
+      },
+      {
+        "id": "Nazarbayev University",
+        "type": "Institution",
+        "description": "Institution located in Astana, Kazakhstan, affiliated with Tin Trung Chau and Ton Duc Do."
+      },
+      {
+        "id": "University of Economics Ho Chi Minh City - Vinh Long Campus",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam, affiliated with Tuan Ngoc Nguyen."
+      },
+      {
+        "id": "Wind speed probability distributions (WSPDs)",
+        "type": "Concept",
+        "description": "Statistical distributions used to describe wind speed characteristics."
+      },
+      {
+        "id": "Kernel density estimation (KDE)",
+        "type": "Method",
+        "description": "A nonparametric method to estimate the probability density function of a random variable."
+      },
+      {
+        "id": "Least-squares cross-validation (LSCV)",
+        "type": "Method",
+        "description": "A bandwidth selection method that minimizes a loss function based on squared error."
+      },
+      {
+        "id": "Scott bandwidth selection method",
+        "type": "Method",
+        "description": "A simple method for bandwidth selection based on standard deviation and sample size."
+      },
+      {
+        "id": "Oversmooth",
+        "type": "Method",
+        "description": "Bandwidth selection method to create smoother trend densities."
+      },
+      {
+        "id": "Sheather-Jones",
+        "type": "Method",
+        "description": "A bandwidth selection method that minimizes expected Kullback-Leibler distance."
+      },
+      {
+        "id": "Silverman",
+        "type": "Method",
+        "description": "A rule of thumb for bandwidth selection in KDE."
+      },
+      {
+        "id": "Normal Scale",
+        "type": "Method",
+        "description": "Bandwidth selection method using characteristics of the Normal distribution."
+      },
+      {
+        "id": "Cramér-Von Mises (CvM)",
+        "type": "Method",
+        "description": "Statistical test used to evaluate goodness-of-fit performance."
+      },
+      {
+        "id": "Anderson-Darling (A-D)",
+        "type": "Method",
+        "description": "Statistical test focusing on deviations at the distribution tails."
+      },
+      {
+        "id": "Kolmogorov-Smirnov (K-S)",
+        "type": "Method",
+        "description": "Statistical test calculating the maximum difference between empirical and estimated CDF."
+      },
+      {
+        "id": "Wind speed data of 6 regions in Viet Nam (2015)",
+        "type": "Dataset",
+        "description": "Numerical wind speed samples collected every 30 minutes over one year in six locations."
+      },
+      {
+        "id": "Computation time (< 0.01 seconds)",
+        "type": "Metric",
+        "description": "Performance metric for Oversmooth and Scott bandwidth selection methods."
+      },
+      {
+        "id": "Computation time (260.4 seconds)",
+        "type": "Metric",
+        "description": "Performance metric for Sheather-Jones method in the My Thanh region."
+      },
+      {
+        "id": "p-value (p>0.05)",
+        "type": "Metric",
+        "description": "Statistical significance value indicating a model reasonably fits the data."
+      },
+      {
+        "id": "Wind power capacity (4.6 GW)",
+        "type": "Metric",
+        "description": "Total installed wind power capacity in Viet Nam."
+      },
+      {
+        "id": "Sample size (17520)",
+        "type": "Metric",
+        "description": "Total number of wind speed samples collected at each location."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Assessing wind energy exploitation potential in several regions of Viet Nam using Kernel density estimation model",
+        "target": "Wind Energy",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tin Trung Chau",
+        "target": "Nazarbayev University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ton Duc Do",
+        "target": "Nazarbayev University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thanh Ngoc Nguyen",
+        "target": "University of Economics Ho Chi Minh City - Vinh Long Campus",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kernel density estimation (KDE)",
+        "target": "Wind speed probability distributions (WSPDs)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Kernel density estimation (KDE)",
+        "target": "Wind speed data of 6 regions in Viet Nam (2015)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Least-squares cross-validation (LSCV)",
+        "target": "p-value (p>0.05)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Scott bandwidth selection method",
+        "target": "p-value (p>0.05)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Scott bandwidth selection method",
+        "target": "Computation time (< 0.01 seconds)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sheather-Jones",
+        "target": "Computation time (260.4 seconds)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Cramér-Von Mises (CvM)",
+        "target": "Wind speed probability distributions (WSPDs)",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

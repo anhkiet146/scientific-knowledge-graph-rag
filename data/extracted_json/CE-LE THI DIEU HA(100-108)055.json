@@ -1,0 +1,125 @@
+{
+    "filename": "CE-LE THI DIEU HA(100-108)055.json",
+    "paper_title": "An investigation into the tale values on the legends of Nguyen Anh (king Gia Long) in the southern region of Vietnam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Le Thi Dieu Ha",
+                "type": "Author",
+                "description": "Author of the research article from Can Tho University."
+            },
+            {
+                "id": "School of Social Sciences and Humanities, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the author is affiliated."
+            },
+            {
+                "id": "Folk Literature",
+                "type": "Domain",
+                "description": "The primary field of study concerning the legends and oral traditions."
+            },
+            {
+                "id": "Legends of Nguyen Anh",
+                "type": "Concept",
+                "description": "A group of folk stories associated with the escape journey of Nguyen Anh to the South."
+            },
+            {
+                "id": "Plot model",
+                "type": "Concept",
+                "description": "A system of real events constructed to address mental and art requirements, including opening, developing, and ending."
+            },
+            {
+                "id": "Intangible culture",
+                "type": "Concept",
+                "description": "Cultural values built and formed from folk cultural heritage."
+            },
+            {
+                "id": "Story document collection",
+                "type": "Method",
+                "description": "Process of gathering story units from various historical and cultural documents."
+            },
+            {
+                "id": "Structural analysis of story plot",
+                "type": "Method",
+                "description": "Method used to classify details and motifs within the legends."
+            },
+            {
+                "id": "52 story units of Nguyen Anh in the Southern region",
+                "type": "Dataset",
+                "description": "The set of collected folk stories used as the basis for evaluation."
+            },
+            {
+                "id": "Total story units (52)",
+                "type": "Metric",
+                "description": "The count of story units collected around the Southern region."
+            },
+            {
+                "id": "Details and motifs (16)",
+                "type": "Metric",
+                "description": "The number of specific details and motifs expressed in the topic-plot evaluated."
+            },
+            {
+                "id": "Miracle support story units (11)",
+                "type": "Metric",
+                "description": "Number of story units featuring miracle support for the king."
+            },
+            {
+                "id": "Human support story units (11)",
+                "type": "Metric",
+                "description": "Number of story units featuring human assistance."
+            },
+            {
+                "id": "Activities imprints and vestiges units (29)",
+                "type": "Metric",
+                "description": "Number of story units involving physical imprints and vestiges."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Thi Dieu Ha",
+                "target": "School of Social Sciences and Humanities, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "An investigation into the tale values on the legends of Nguyen Anh",
+                "target": "Folk Literature",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Story document collection",
+                "target": "52 story units of Nguyen Anh in the Southern region",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Story document collection",
+                "target": "Total story units (52)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural analysis of story plot",
+                "target": "Details and motifs (16)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural analysis of story plot",
+                "target": "Legends of Nguyen Anh",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Structural analysis of story plot",
+                "target": "Miracle support story units (11)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural analysis of story plot",
+                "target": "Human support story units (11)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural analysis of story plot",
+                "target": "Activities imprints and vestiges units (29)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

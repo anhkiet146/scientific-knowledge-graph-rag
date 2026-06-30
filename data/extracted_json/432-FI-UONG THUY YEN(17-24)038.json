@@ -1,0 +1,165 @@
+{
+    "filename": "432-FI-UONG THUY YEN(17-24)038.json",
+    "paper_title": "Genetic Diversity of Two Successive Generations of Selection in Bighead Catfish (Clarias macrocephalus) Populations",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Genetic Diversity",
+                "type": "Concept",
+                "description": "Variation in the genetic makeup of a population, evaluated across generations G0, G1, and G2."
+            },
+            {
+                "id": "Domestication",
+                "type": "Concept",
+                "description": "The process of adapting wild plants and animals for human use, impacting genetic variety."
+            },
+            {
+                "id": "Selective Breeding",
+                "type": "Concept",
+                "description": "Selection experiments aimed at improving fish production in bighead catfish."
+            },
+            {
+                "id": "Genetic Drift",
+                "type": "Concept",
+                "description": "Random changes in allele frequencies, cited as a cause for reduced diversity in small populations."
+            },
+            {
+                "id": "ISSR markers",
+                "type": "Method",
+                "description": "Inter-simple sequence repeat markers used for genetic analysis and amplification."
+            },
+            {
+                "id": "Ammonium acetate method",
+                "type": "Method",
+                "description": "Method used for genomic DNA extraction from fin clips."
+            },
+            {
+                "id": "GenAlEx 6.5 software",
+                "type": "Method",
+                "description": "Software used for analyzing genetic diversity parameters."
+            },
+            {
+                "id": "UPGMA method",
+                "type": "Method",
+                "description": "Unweighted pair-group method with arithmetic average used for dendrogram construction."
+            },
+            {
+                "id": "AMOVA",
+                "type": "Method",
+                "description": "Molecular analysis of variance used to partition genetic variation."
+            },
+            {
+                "id": "Ethanol 95%",
+                "type": "Method",
+                "description": "Chemical used for preserving fin clip samples."
+            },
+            {
+                "id": "Binary data matrix",
+                "type": "Dataset",
+                "description": "Raw data matrix created from scoring the presence (1) or absence (0) of ISSR bands."
+            },
+            {
+                "id": "Ne in G0 (1.43 to 1.49)",
+                "type": "Metric",
+                "description": "Effective number of alleles in the original wild and cultured populations."
+            },
+            {
+                "id": "He in G0 (0.265 to 0.290)",
+                "type": "Metric",
+                "description": "Heterozygosity values in the original generation."
+            },
+            {
+                "id": "Ne in G1 (1.32±0.04)",
+                "type": "Metric",
+                "description": "Effective number of alleles in the first successive generation."
+            },
+            {
+                "id": "He in G1 (0.201±0.023)",
+                "type": "Metric",
+                "description": "Heterozygosity value in the first successive generation."
+            },
+            {
+                "id": "Ne in G2 (1.34±0.04)",
+                "type": "Metric",
+                "description": "Effective number of alleles in the second successive generation."
+            },
+            {
+                "id": "He in G2 (0.216±0.023)",
+                "type": "Metric",
+                "description": "Heterozygosity value in the second successive generation."
+            },
+            {
+                "id": "Polymorphic loci (70.5 to 78.7%)",
+                "type": "Metric",
+                "description": "Percentage of polymorphic loci across the four fish populations."
+            },
+            {
+                "id": "Genetic variation within populations (86.3%)",
+                "type": "Metric",
+                "description": "Percentage of total variation found within individual populations via AMOVA."
+            },
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The primary field of research involving fish production and genetics."
+            },
+            {
+                "id": "Duong Thuy Yen",
+                "type": "Author",
+                "description": "Lead researcher and correspondence author."
+            },
+            {
+                "id": "Nguyen Thi Ngoc Tran",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The academic organization where the research was conducted."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Genetic Diversity of Two Successive Generations of Selection in Bighead Catfish (Clarias macrocephalus) Populations",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "ISSR markers",
+                "target": "Ne in G0 (1.43 to 1.49)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ISSR markers",
+                "target": "He in G1 (0.201±0.023)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AMOVA",
+                "target": "Genetic variation within populations (86.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ISSR markers",
+                "target": "Genetic Diversity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "GenAlEx 6.5 software",
+                "target": "Binary data matrix",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Duong Thuy Yen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Ngoc Tran",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

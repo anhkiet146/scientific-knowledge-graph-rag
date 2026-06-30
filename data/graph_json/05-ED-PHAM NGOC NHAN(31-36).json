@@ -1,0 +1,170 @@
+{
+  "filename": "05-ED-PHAM NGOC NHAN(31-36).json",
+  "paper_title": "IDENTIFYING FACTORS AFFECTING VOCATIONAL TRAINING NEEDS IN PHUNG HIEP DISTRICT, HAU GIANG PROVINCE IN 2015",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Vocational Training Needs",
+        "type": "Concept",
+        "description": "The primary research problem focusing on identifying factors that impact the need for vocational training in rural areas."
+      },
+      {
+        "id": "Rural Development",
+        "type": "Domain",
+        "description": "The general field of study concerning the improvement of quality of life and economic well-being in rural areas."
+      },
+      {
+        "id": "Pham Ngoc Nhan",
+        "type": "Author",
+        "description": "Researcher and author of the study."
+      },
+      {
+        "id": "Le Tran Thanh Liem",
+        "type": "Author",
+        "description": "Researcher and author of the study."
+      },
+      {
+        "id": "College of Rural Development, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the authors are affiliated."
+      },
+      {
+        "id": "Binary logistic regression model",
+        "type": "Method",
+        "description": "Statistical method used to analyze the seven impact factors on vocational training needs."
+      },
+      {
+        "id": "Stratified sampling",
+        "type": "Method",
+        "description": "Sampling method used to collect primary data from three communes."
+      },
+      {
+        "id": "Non-probability sampling",
+        "type": "Method",
+        "description": "Sampling technique used to ensure data precision."
+      },
+      {
+        "id": "Descriptive statistical method",
+        "type": "Method",
+        "description": "Method used to summarize and describe features of the collected data."
+      },
+      {
+        "id": "SPSS 16.0",
+        "type": "Method",
+        "description": "Software used for statistical data analysis."
+      },
+      {
+        "id": "Microsoft Excel",
+        "type": "Method",
+        "description": "Software used for data organization."
+      },
+      {
+        "id": "Primary data (195 labors)",
+        "type": "Dataset",
+        "description": "Data collected via interviews from 195 labors in Hoa An, Phuong Binh, and Cay Duong communes."
+      },
+      {
+        "id": "Likelihood (83.5%)",
+        "type": "Metric",
+        "description": "Statistical likelihood of the Binary Logistic Regression model."
+      },
+      {
+        "id": "Sig. X7 (0.371)",
+        "type": "Metric",
+        "description": "Significance level for the availability of information about vocational training."
+      },
+      {
+        "id": "Sig. X4 (0.000)",
+        "type": "Metric",
+        "description": "Significance level for the Age factor."
+      },
+      {
+        "id": "Sig. X6 (0.028)",
+        "type": "Metric",
+        "description": "Significance level for the Gender factor."
+      },
+      {
+        "id": "Sig. X5 (0.015)",
+        "type": "Metric",
+        "description": "Significance level for the number of labor in household factor."
+      },
+      {
+        "id": "Highest ratio (38.5%)",
+        "type": "Metric",
+        "description": "Ratio of households having 4 labors."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Vocational Training Needs",
+        "target": "Rural Development",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Pham Ngoc Nhan",
+        "target": "College of Rural Development, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Tran Thanh Liem",
+        "target": "College of Rural Development, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Vocational Training Needs",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Primary data (195 labors)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Likelihood (83.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. X4 (0.000)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. X6 (0.028)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. X4 (0.000)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. X4 (0.000)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. X5 (0.015)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. X6 (0.028)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. X7 (0.371)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive statistical method",
+        "target": "Highest ratio (38.5%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+    "filename": "11-BE-LAM THI VIET HA(81-86)46.json",
+    "paper_title": "PHYSICO-CHEMICAL PROPERTIES OF FOURTEEN POPULAR COCOA BEAN VARIETIES IN DONGNAI -HIGHLAND VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Physico-chemical properties",
+                "type": "Concept",
+                "description": "Characterization of cocoa beans based on physical and chemical qualifications."
+            },
+            {
+                "id": "Breeding and selection",
+                "type": "Concept",
+                "description": "The process of improving cocoa varieties through genetic selection."
+            },
+            {
+                "id": "AOAC methods",
+                "type": "Method",
+                "description": "Standard methods used for chemical composition analysis including moisture, ash, and protein."
+            },
+            {
+                "id": "Murray method",
+                "type": "Method",
+                "description": "Method used to measure length, width, and thickness of cocoa beans."
+            },
+            {
+                "id": "Micrometer screw gauge",
+                "type": "Method",
+                "description": "Equipment used for precise measurement of bean shape and diameter."
+            },
+            {
+                "id": "Electronic balance",
+                "type": "Method",
+                "description": "Equipment used to weigh cocoa beans with 0.01g accuracy."
+            },
+            {
+                "id": "Table 1",
+                "type": "Dataset",
+                "description": "Numerical data representing cocoa bean dimension and mass."
+            },
+            {
+                "id": "Table 2",
+                "type": "Dataset",
+                "description": "Numerical data representing moisture and ash content of 14 cocoa varieties."
+            },
+            {
+                "id": "Mass of TD8 (1.5 g)",
+                "type": "Metric",
+                "description": "The specific mass recorded for the TD8 cocoa bean variety."
+            },
+            {
+                "id": "Length of TD8 (25.02 mm)",
+                "type": "Metric",
+                "description": "The specific length recorded for the TD8 cocoa bean variety."
+            },
+            {
+                "id": "Moisture content (5.64 - 6.99% wb)",
+                "type": "Metric",
+                "description": "The range of moisture levels found across the 14 cocoa varieties."
+            },
+            {
+                "id": "Ash content (2.47 - 3.67% wb)",
+                "type": "Metric",
+                "description": "The range of mineral content measured in the cocoa varieties."
+            },
+            {
+                "id": "Fat content of TD12 (55.69%)",
+                "type": "Metric",
+                "description": "The highest lipid content recorded among the tested varieties."
+            },
+            {
+                "id": "Total protein content (12.82 - 13.94% wb)",
+                "type": "Metric",
+                "description": "The range of crude protein found in the examined cocoa varieties."
+            },
+            {
+                "id": "Food Science",
+                "type": "Domain",
+                "description": "The primary scientific field studying the properties and processing of food items like cocoa."
+            },
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "The field concerning the cultivation and production of crops."
+            },
+            {
+                "id": "Lam Thi Viet Ha",
+                "type": "Author",
+                "description": "Lead author affiliated with Can Tho University and Ghent University."
+            },
+            {
+                "id": "Bangun Nusantoro",
+                "type": "Author",
+                "description": "Co-author affiliated with Ghent University."
+            },
+            {
+                "id": "Roger Aidoo Phillip",
+                "type": "Author",
+                "description": "Co-author affiliated with Ghent University."
+            },
+            {
+                "id": "Phan Huynh Anh",
+                "type": "Author",
+                "description": "Co-author affiliated with Can Tho University."
+            },
+            {
+                "id": "Ha Thanh Toan",
+                "type": "Author",
+                "description": "Co-author affiliated with Biotechnology Research and Development Institute, Can Tho University."
+            },
+            {
+                "id": "Kathy Messens",
+                "type": "Author",
+                "description": "Co-author affiliated with Ghent University."
+            },
+            {
+                "id": "Koen Dewettinck",
+                "type": "Author",
+                "description": "Co-author affiliated with Ghent University."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Research institute in Vietnam."
+            },
+            {
+                "id": "Ghent University",
+                "type": "Institution",
+                "description": "Academic institution in Belgium."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Food Science",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "AOAC methods",
+                "target": "Moisture content (5.64 - 6.99% wb)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AOAC methods",
+                "target": "Ash content (2.47 - 3.67% wb)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AOAC methods",
+                "target": "Total protein content (12.82 - 13.94% wb)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Murray method",
+                "target": "Length of TD8 (25.02 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Electronic balance",
+                "target": "Mass of TD8 (1.5 g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "AOAC methods",
+                "target": "Physico-chemical properties",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "AOAC methods",
+                "target": "Table 2",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Murray method",
+                "target": "Table 1",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Lam Thi Viet Ha",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Huynh Anh",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ha Thanh Toan",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bangun Nusantoro",
+                "target": "Ghent University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Roger Aidoo Phillip",
+                "target": "Ghent University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Kathy Messens",
+                "target": "Ghent University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Koen Dewettinck",
+                "target": "Ghent University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

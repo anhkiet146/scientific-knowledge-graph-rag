@@ -1,0 +1,175 @@
+{
+  "filename": "06-ED-BUI LE DIEM(42-48)006.json",
+  "paper_title": "Towards a new open educational resource model using OKMindmap",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Towards a new open educational resource model using OKMindmap",
+        "type": "Concept",
+        "description": "The title and primary research focus of the paper."
+      },
+      {
+        "id": "Bui Le Diem",
+        "type": "Author",
+        "description": "Primary author affiliated with Can Tho University."
+      },
+      {
+        "id": "Yong-Gi Kim",
+        "type": "Author",
+        "description": "Co-author affiliated with Gyeongsang National University."
+      },
+      {
+        "id": "Bui Le Diem Trang",
+        "type": "Author",
+        "description": "Co-author affiliated with An Giang University."
+      },
+      {
+        "id": "Won Ho",
+        "type": "Author",
+        "description": "Co-author affiliated with Konju National University."
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "AI Lab, Gyeongsang National University",
+        "type": "Institution",
+        "description": "Research laboratory in Korea."
+      },
+      {
+        "id": "School of Education, An Giang University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "Electrial Engineering Department, Konju National University",
+        "type": "Institution",
+        "description": "Engineering department in Korea."
+      },
+      {
+        "id": "ICT in education",
+        "type": "Domain",
+        "description": "Information and communication technology application in educational contexts."
+      },
+      {
+        "id": "OKMindmap",
+        "type": "Method",
+        "description": "A free online mind mapping tool used to collect and connect information."
+      },
+      {
+        "id": "Big Book model",
+        "type": "Method",
+        "description": "An innovative educational method creating an open educational resource (OER) using mind maps."
+      },
+      {
+        "id": "WebQuest",
+        "type": "Method",
+        "description": "An inquiry-oriented lesson format in which most or all the information that learners work with comes from the web."
+      },
+      {
+        "id": "Online survey",
+        "type": "Method",
+        "description": "Data collection tool used to elicit student perceptions."
+      },
+      {
+        "id": "42 student-created Big Books",
+        "type": "Dataset",
+        "description": "A collection of mind-map based digital books created by 10th-grade students for analysis."
+      },
+      {
+        "id": "21st century skills",
+        "type": "Concept",
+        "description": "Super skills including communication, collaboration, critical thinking, and creativity."
+      },
+      {
+        "id": "Open Educational Resource (OER)",
+        "type": "Concept",
+        "description": "Freely accessible, openly licensed documents and media used for teaching and learning."
+      },
+      {
+        "id": "Sample size (42 tenth graders)",
+        "type": "Metric",
+        "description": "The number of student participants in the trial."
+      },
+      {
+        "id": "Practical applicability (30/42 students)",
+        "type": "Metric",
+        "description": "Proportion of students who found the tool highly practical."
+      },
+      {
+        "id": "Motivation increase (10/42 students)",
+        "type": "Metric",
+        "description": "Proportion of students who explicitly commented on enhanced motivation."
+      },
+      {
+        "id": "Trial duration (one year)",
+        "type": "Metric",
+        "description": "The length of time the Big Book model was trialed."
+      },
+      {
+        "id": "Instruction period (2 weeks)",
+        "type": "Metric",
+        "description": "Duration for which students were taught how to use the OKMindmap tool."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Towards a new open educational resource model using OKMindmap",
+        "target": "ICT in education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Bui Le Diem",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Yong-Gi Kim",
+        "target": "AI Lab, Gyeongsang National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Le Diem Trang",
+        "target": "School of Education, An Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Won Ho",
+        "target": "Electrial Engineering Department, Konju National University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "OKMindmap",
+        "target": "21st century skills",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Big Book model",
+        "target": "Open Educational Resource (OER)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Big Book model",
+        "target": "42 student-created Big Books",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Big Book model",
+        "target": "Practical applicability (30/42 students)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Big Book model",
+        "target": "Motivation increase (10/42 students)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "OKMindmap",
+        "target": "Instruction period (2 weeks)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

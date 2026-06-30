@@ -1,0 +1,155 @@
+{
+  "filename": "08-693-HONG QUAN NGUYEN(62-75)036.json",
+  "paper_title": "Career path prediction using XGBoost Model and students' academic results",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Career path prediction",
+        "type": "Concept",
+        "description": "The problem of predicting future career paths for students based on various inputs."
+      },
+      {
+        "id": "Educational Data Mining (EDM)",
+        "type": "Concept",
+        "description": "An emerging discipline focused on developing methods for exploring data from educational settings."
+      },
+      {
+        "id": "XGBoost Model",
+        "type": "Method",
+        "description": "An eXtreme Gradient Boosting Decision Tree model used for classification and regression tasks."
+      },
+      {
+        "id": "Decision Tree model",
+        "type": "Method",
+        "description": "A tree-structured classifier used for supervised learning tasks."
+      },
+      {
+        "id": "Python 3",
+        "type": "Method",
+        "description": "A programming language used for dataset cleaning and normalization."
+      },
+      {
+        "id": "Bayesian Optimization",
+        "type": "Method",
+        "description": "A method selected for hyperparameter tuning in the XGBoost model."
+      },
+      {
+        "id": "Z-Score formula",
+        "type": "Method",
+        "description": "A statistical technique used for data transformation and standardization."
+      },
+      {
+        "id": "Ho Chi Minh International University graduate dataset",
+        "type": "Dataset",
+        "description": "Academic results of 177 graduates from the School of Computer Science and Engineering (2014-2018)."
+      },
+      {
+        "id": "Average accuracy (87.5%)",
+        "type": "Metric",
+        "description": "The average precision of the predictive model across multiple runs."
+      },
+      {
+        "id": "Maximum accuracy (90.625%)",
+        "type": "Metric",
+        "description": "The highest accuracy achieved by the tuned XGBoost model."
+      },
+      {
+        "id": "Prediction accuracy (92.6%)",
+        "type": "Metric",
+        "description": "Accuracy achieved by C5.0 and CHAID models in a related study."
+      },
+      {
+        "id": "Computer Science",
+        "type": "Domain",
+        "description": "The primary field of research concerning algorithms and academic result analysis."
+      },
+      {
+        "id": "Hong Quan Nguyen",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Duc Dang Khoi Nguyen",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Tan Duy Le",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "An Mai",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Kha Tu Huynh",
+        "type": "Author",
+        "description": "Corresponding author of the research paper."
+      },
+      {
+        "id": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "Institution",
+        "description": "The university affiliation for all authors in the paper."
+      }
+    ],
+    "relations": [
+      {
+        "source": "XGBoost Model",
+        "target": "Career path prediction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "XGBoost Model",
+        "target": "Average accuracy (87.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "XGBoost Model",
+        "target": "Maximum accuracy (90.625%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "XGBoost Model",
+        "target": "Ho Chi Minh International University graduate dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Career path prediction",
+        "target": "Computer Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Hong Quan Nguyen",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Duc Dang Khoi Nguyen",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tan Duy Le",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "An Mai",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kha Tu Huynh",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bayesian Optimization",
+        "target": "XGBoost Model",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

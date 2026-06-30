@@ -1,0 +1,180 @@
+{
+  "filename": "13-FT-DUONG THI PHUONG LIEN(93-101)032.json",
+  "paper_title": "Effect of germination on antioxidant capacity and nutritional quality of soybean seeds (Glycinemax (L.) Merr.)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Food Science and Biotechnology",
+        "type": "Domain",
+        "description": "The main field of research focusing on food processing, nutrition, and biochemistry."
+      },
+      {
+        "id": "Duong Thi Phuong Lien",
+        "type": "Author",
+        "description": "Author affiliated with College of Agriculture and Applied Biology, Can Tho University."
+      },
+      {
+        "id": "Phan Thi Bich Tram",
+        "type": "Author",
+        "description": "Author affiliated with College of Agriculture and Applied Biology, Can Tho University."
+      },
+      {
+        "id": "Ha Thanh Toan",
+        "type": "Author",
+        "description": "Author affiliated with Biotechnology Research and Development Institute, Can Tho University."
+      },
+      {
+        "id": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic department in Vietnam."
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "Research institute in Vietnam."
+      },
+      {
+        "id": "Germination",
+        "type": "Concept",
+        "description": "The process by which a plant grows from a seed, used here to enhance nutritional quality."
+      },
+      {
+        "id": "Antioxidant capacity",
+        "type": "Concept",
+        "description": "The ability of compounds to inhibit oxidation, often measured via DPPH scavenging."
+      },
+      {
+        "id": "Nutritional quality",
+        "type": "Concept",
+        "description": "The value of a food product in terms of proteins, lipids, and bioactive compounds."
+      },
+      {
+        "id": "Soybean variety MTD 760",
+        "type": "Method",
+        "description": "Specific material/biological sample used in the study."
+      },
+      {
+        "id": "Gibberellic acid (1 mg/L)",
+        "type": "Method",
+        "description": "Chemical used in the soaking process to promote germination."
+      },
+      {
+        "id": "Kjeldahl methods",
+        "type": "Method",
+        "description": "Analytical method for determining nitrogen and protein content."
+      },
+      {
+        "id": "Soxhlet method",
+        "type": "Method",
+        "description": "Standard method for extraction of lipids from solid materials."
+      },
+      {
+        "id": "SDS-PAGE analysis",
+        "type": "Method",
+        "description": "Technique to separate and identify protein subunits."
+      },
+      {
+        "id": "Foline-Ciocalteu method",
+        "type": "Method",
+        "description": "Colorimetric assay to determine total phenolic content."
+      },
+      {
+        "id": "Dowd method",
+        "type": "Method",
+        "description": "Method used for determination of total flavonoid content."
+      },
+      {
+        "id": "DPPH assay",
+        "type": "Method",
+        "description": "Method for measuring free radical scavenging activity to determine IC50."
+      },
+      {
+        "id": "ANOVA (Statgraphics Centurion 15.2.11.0)",
+        "type": "Method",
+        "description": "Statistical analysis software and method."
+      },
+      {
+        "id": "PA reduction (43.6%)",
+        "type": "Metric",
+        "description": "Reduction of phytic acid after 72 hours of germination."
+      },
+      {
+        "id": "TI reduction (53.64%)",
+        "type": "Metric",
+        "description": "Reduction of trypsin inhibitor after 72 hours of germination."
+      },
+      {
+        "id": "Raw PA content (28.57 mg/g)",
+        "type": "Metric",
+        "description": "Initial phytic acid concentration in raw seeds."
+      },
+      {
+        "id": "Vitamin C increase (91.3%)",
+        "type": "Metric",
+        "description": "Increase in ascorbic acid content after 3 days of sprouting."
+      },
+      {
+        "id": "Correlation TPC/IC50 (r = -0.96)",
+        "type": "Metric",
+        "description": "Statistical correlation between phenolic content and antioxidant activity."
+      },
+      {
+        "id": "Maximum values of TPC/TFC (60 hours)",
+        "type": "Metric",
+        "description": "Time point at which total phenolic and flavonoid contents peaked."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Duong Thi Phuong Lien",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Thi Bich Tram",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Thanh Toan",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Germination",
+        "target": "Food Science and Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Kjeldahl methods",
+        "target": "Nutritional quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "DPPH assay",
+        "target": "Antioxidant capacity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Germination",
+        "target": "PA reduction (43.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Germination",
+        "target": "TI reduction (53.64%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Germination",
+        "target": "Vitamin C increase (91.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ANOVA (Statgraphics Centurion 15.2.11.0)",
+        "target": "Correlation TPC/IC50 (r = -0.96)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

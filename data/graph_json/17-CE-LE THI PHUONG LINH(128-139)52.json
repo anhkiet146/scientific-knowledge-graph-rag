@@ -1,0 +1,155 @@
+{
+  "filename": "17-CE-LE THI PHUONG LINH(128-139)52.json",
+  "paper_title": "EVALUATING PUBLIC BUS TRANSPORTATION SERVICES IN HO CHI MINH CITY, VIETNAM",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Public Transportation",
+        "type": "Domain",
+        "description": "The study focus on urban public bus services and transportation management."
+      },
+      {
+        "id": "Le Thi Phuong Linh",
+        "type": "Author",
+        "description": "First author from Vietnam Aviation Academy."
+      },
+      {
+        "id": "Ho Minh Sanh",
+        "type": "Author",
+        "description": "Second author from University of Economics Ho Chi Minh City."
+      },
+      {
+        "id": "Vietnam Aviation Academy",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the first author is affiliated."
+      },
+      {
+        "id": "University of Economics Ho Chi Minh City",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the second author is affiliated."
+      },
+      {
+        "id": "Passenger satisfaction",
+        "type": "Concept",
+        "description": "The primary research problem investigating how users perceive bus services."
+      },
+      {
+        "id": "Bus service quality",
+        "type": "Concept",
+        "description": "The quality level of public bus transport determined by various service elements."
+      },
+      {
+        "id": "Binary Logistic Regression (BLR)",
+        "type": "Method",
+        "description": "A statistical technique used to analyze the relationship between service elements and passenger satisfaction."
+      },
+      {
+        "id": "Commuter intercept survey",
+        "type": "Method",
+        "description": "The data collection process involving face-to-face interviews with 500 commuters."
+      },
+      {
+        "id": "Relative important index (RII)",
+        "type": "Method",
+        "description": "A method used to analyze qualitative recommendations from passengers."
+      },
+      {
+        "id": "Survey dataset of 495 commuters",
+        "type": "Dataset",
+        "description": "The digital records of 495 validated responses used for model calibration."
+      },
+      {
+        "id": "Nagelkerke R2 (0.811)",
+        "type": "Metric",
+        "description": "A metric indicating that the model explains 81% of the variation in the dependent variable."
+      },
+      {
+        "id": "Cox and Snell's R2 (0.607)",
+        "type": "Metric",
+        "description": "A statistical measure used to evaluate the goodness of fit for the regression model."
+      },
+      {
+        "id": "-2 Log Likelihood (220.480)",
+        "type": "Metric",
+        "description": "A measure of the prediction deviation in the regression model."
+      },
+      {
+        "id": "Chi-square (461.996)",
+        "type": "Metric",
+        "description": "Omnibus test value confirming the statistical significance of the model."
+      },
+      {
+        "id": "Waiting time dissatisfaction (62.2%)",
+        "type": "Metric",
+        "description": "Percentage of passengers dissatisfied with the time spent waiting at bus stations."
+      },
+      {
+        "id": "Price/cost charged satisfaction (58.6%)",
+        "type": "Metric",
+        "description": "Percentage of passengers satisfied with the current bus fare."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Thi Phuong Linh",
+        "target": "Vietnam Aviation Academy",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Minh Sanh",
+        "target": "University of Economics Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "EVALUATING PUBLIC BUS TRANSPORTATION SERVICES IN HO CHI MINH CITY, VIETNAM",
+        "target": "Public Transportation",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Binary Logistic Regression (BLR)",
+        "target": "Passenger satisfaction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Binary Logistic Regression (BLR)",
+        "target": "Bus service quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Binary Logistic Regression (BLR)",
+        "target": "Survey dataset of 495 commuters",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Binary Logistic Regression (BLR)",
+        "target": "Nagelkerke R2 (0.811)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary Logistic Regression (BLR)",
+        "target": "Cox and Snell's R2 (0.607)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary Logistic Regression (BLR)",
+        "target": "-2 Log Likelihood (220.480)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary Logistic Regression (BLR)",
+        "target": "Chi-square (461.996)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Commuter intercept survey",
+        "target": "Waiting time dissatisfaction (62.2%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Commuter intercept survey",
+        "target": "Price/cost charged satisfaction (58.6%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

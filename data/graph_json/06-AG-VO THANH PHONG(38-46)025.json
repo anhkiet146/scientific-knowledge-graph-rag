@@ -1,0 +1,195 @@
+{
+  "filename": "06-AG-VO THANH PHONG(38-46)025.json",
+  "paper_title": "Effects of nitrogen fertilizer types and alternate wetting and drying irrigation on rice yield and nitrous oxide emission in rice cultivation",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Rice cultivation",
+        "type": "Domain",
+        "description": "The main area of study focused on rice farming systems and environmental impacts."
+      },
+      {
+        "id": "Vo Thanh Phong",
+        "type": "Author",
+        "description": "Researcher from Vinh Long Community College."
+      },
+      {
+        "id": "Nguyen Thi Anh Dao",
+        "type": "Author",
+        "description": "Researcher from Cuu Long Delta Rice Research Institute."
+      },
+      {
+        "id": "Nguyen My Hoa",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Vinh Long Community College",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Cuu Long Delta Rice Research Institute",
+        "type": "Institution",
+        "description": "Agricultural research institute in Vietnam."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Major university in the Mekong Delta, Vietnam."
+      },
+      {
+        "id": "Nitrogen use efficiency",
+        "type": "Concept",
+        "description": "The effectiveness of nitrogen fertilizer uptake by plants."
+      },
+      {
+        "id": "Nitrous oxide (N2O) emission",
+        "type": "Concept",
+        "description": "Release of N2O gas from soil into the atmosphere, contributing to greenhouse effect."
+      },
+      {
+        "id": "Alternative Wetting and Drying (AWD)",
+        "type": "Method",
+        "description": "A water management technique where the field is periodically flooded and allowed to dry."
+      },
+      {
+        "id": "Farmer practice (FP)",
+        "type": "Method",
+        "description": "Traditional continuous irrigation method used by local farmers."
+      },
+      {
+        "id": "Urea",
+        "type": "Method",
+        "description": "Common nitrogen fertilizer used as a control in the experiment."
+      },
+      {
+        "id": "Urea-nBTPT",
+        "type": "Method",
+        "description": "Urease inhibitor fertilizer (nBTPT) used to retard urea hydrolysis."
+      },
+      {
+        "id": "NPK briquette deep placement",
+        "type": "Method",
+        "description": "Technique of placing fertilizer briquettes deep in the soil."
+      },
+      {
+        "id": "NPK IBDU",
+        "type": "Method",
+        "description": "Isobutylidene diurea slow N-release fertilizer."
+      },
+      {
+        "id": "Split plot design",
+        "type": "Method",
+        "description": "Experimental design with two water management regimes as main plots and fertilizers as sub-plots."
+      },
+      {
+        "id": "Closed chamber method",
+        "type": "Method",
+        "description": "Technique used for measuring N2O flux from paddy fields."
+      },
+      {
+        "id": "Rice yield (AWD)",
+        "type": "Metric",
+        "description": "Yield recorded under AWD treatment: 5.14 t.ha-1."
+      },
+      {
+        "id": "Rice yield (FP)",
+        "type": "Metric",
+        "description": "Yield recorded under FP treatment: 4.68 t.ha-1."
+      },
+      {
+        "id": "Cumulative N2O emission (Urea-nBTPT)",
+        "type": "Metric",
+        "description": "Total N2O emission for urea: 2.47 kgN2O.ha-1."
+      },
+      {
+        "id": "Cumulative N2O emission (NPK briquette)",
+        "type": "Metric",
+        "description": "Total N2O emission for NPK briquette: 1.47 kgN2O.ha-1."
+      },
+      {
+        "id": "Cumulative N2O emission (NPK IBDU)",
+        "type": "Metric",
+        "description": "Total N2O emission for NPK IBDU: 1.29 kgN2O.ha-1."
+      },
+      {
+        "id": "Water saving",
+        "type": "Metric",
+        "description": "Amount of irrigation water saved using AWD: 15-30%."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Vo Thanh Phong",
+        "target": "Vinh Long Community College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Anh Dao",
+        "target": "Cuu Long Delta Rice Research Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen My Hoa",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Rice yield and N2O emission study",
+        "target": "Rice cultivation",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Alternative Wetting and Drying (AWD)",
+        "target": "Rice yield (AWD)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Farmer practice (FP)",
+        "target": "Rice yield (FP)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Urea",
+        "target": "Cumulative N2O emission (Urea-nBTPT)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Urea-nBTPT",
+        "target": "Cumulative N2O emission (Urea-nBTPT)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NPK briquette deep placement",
+        "target": "Cumulative N2O emission (NPK briquette)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NPK IBDU",
+        "target": "Cumulative N2O emission (NPK IBDU)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Alternative Wetting and Drying (AWD)",
+        "target": "Water saving",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Alternative Wetting and Drying (AWD)",
+        "target": "Nitrous oxide (N2O) emission",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "NPK IBDU",
+        "target": "Nitrogen use efficiency",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "NPK briquette deep placement",
+        "target": "Nitrogen use efficiency",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

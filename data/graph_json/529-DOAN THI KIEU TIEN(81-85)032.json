@@ -1,0 +1,180 @@
+{
+  "filename": "529-DOAN THI KIEU TIEN(81-85)032.json",
+  "paper_title": "Efficacy of bacteriophages in controlling bacterial vascular wilt caused by Ralstonia solanacearum Smith on eggplants",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Doan Thi Kieu Tien",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Lu Chi Thong",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Pham Van Luc",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Nguyen Thi Thu Nga",
+        "type": "Author",
+        "description": "Corresponding author of the research paper"
+      },
+      {
+        "id": "Department of Plant Protection, College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "Institution in Viet Nam where the authors are affiliated"
+      },
+      {
+        "id": "Plant Protection",
+        "type": "Domain",
+        "description": "The main field of research"
+      },
+      {
+        "id": "Bacterial vascular wilt",
+        "type": "Concept",
+        "description": "Disease caused by Ralstonia solanacearum on various plant species"
+      },
+      {
+        "id": "Ralstonia solanacearum",
+        "type": "Concept",
+        "description": "A soil-borne pathogen causing bacterial wilt"
+      },
+      {
+        "id": "Phage therapy",
+        "type": "Concept",
+        "description": "Using bacteriophages to control bacterial diseases"
+      },
+      {
+        "id": "Biological control",
+        "type": "Concept",
+        "description": "Eco-friendly method to reduce toxic chemical usage in agriculture"
+      },
+      {
+        "id": "Bacteriophage ΦBT",
+        "type": "Method",
+        "description": "Promising bacteriophage isolated from eggplant used for lysis"
+      },
+      {
+        "id": "Bacteriophage Φ54",
+        "type": "Method",
+        "description": "Bacteriophage isolated from chili used for lysis"
+      },
+      {
+        "id": "Bacteriophage Φ67",
+        "type": "Method",
+        "description": "Bacteriophage isolated from daisy used for lysis"
+      },
+      {
+        "id": "Phage cocktail",
+        "type": "Method",
+        "description": "A mixture of three phages (Φ54, Φ67, and ΦBT)"
+      },
+      {
+        "id": "Soil drenching",
+        "type": "Method",
+        "description": "Application method for phage suspension or bacteriocide"
+      },
+      {
+        "id": "Starner 20 WP",
+        "type": "Method",
+        "description": "Commercial bacteriocide treatment used as a comparison"
+      },
+      {
+        "id": "Plaque diameter over 7.00 mm",
+        "type": "Metric",
+        "description": "Size of lysis zone measured at 48 hours"
+      },
+      {
+        "id": "Phage titer log (pfu/ml) over 7.00",
+        "type": "Metric",
+        "description": "The concentration of phages achieved in vitro"
+      },
+      {
+        "id": "Percentage of infection (15.00%)",
+        "type": "Metric",
+        "description": "Disease incidence rate for phage ΦBT treatment at 12 days after inoculation"
+      },
+      {
+        "id": "Disease scale (0.28-0.88)",
+        "type": "Metric",
+        "description": "Severity scale recorded for phage treatments compared to control"
+      },
+      {
+        "id": "AUDPC",
+        "type": "Metric",
+        "description": "Area Under the Disease Progress Curve used to measure disease progress"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Doan Thi Kieu Tien",
+        "target": "Department of Plant Protection, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lu Chi Thong",
+        "target": "Department of Plant Protection, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Van Luc",
+        "target": "Department of Plant Protection, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Thu Nga",
+        "target": "Department of Plant Protection, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bacteriophage ΦBT",
+        "target": "Bacterial vascular wilt",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Phage cocktail",
+        "target": "Bacterial vascular wilt",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Soil drenching",
+        "target": "Biological control",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Bacteriophage ΦBT",
+        "target": "Plaque diameter over 7.00 mm",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bacteriophage ΦBT",
+        "target": "Percentage of infection (15.00%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bacteriophage ΦBT",
+        "target": "Disease scale (0.28-0.88)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bacteriophage Φ54",
+        "target": "Phage titer log (pfu/ml) over 7.00",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Phage cocktail",
+        "target": "AUDPC",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bacteriophage ΦBT",
+        "target": "Plant Protection",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

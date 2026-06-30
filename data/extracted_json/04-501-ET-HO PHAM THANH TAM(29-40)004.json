@@ -1,0 +1,165 @@
+{
+    "filename": "04-501-ET-HO PHAM THANH TAM(29-40)004.json",
+    "paper_title": "Space Vector Modulation for Induction Motor on ARM-based Microcontroller",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ho Pham Thanh Tam",
+                "type": "Author",
+                "description": "Author of the research article."
+            },
+            {
+                "id": "Tran Thanh Hung",
+                "type": "Author",
+                "description": "Author and correspondence of the research article."
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Institution where the research was conducted, located in Viet Nam."
+            },
+            {
+                "id": "Electrical Engineering",
+                "type": "Domain",
+                "description": "The primary field of study involving motor drives and power electronics."
+            },
+            {
+                "id": "Space Vector Modulation",
+                "type": "Method",
+                "description": "A pulse width modulation technique for motor drive systems."
+            },
+            {
+                "id": "STM32F1 ARM-based microcontroller",
+                "type": "Method",
+                "description": "The specific 32-bit hardware platform used for implementation."
+            },
+            {
+                "id": "Novel method for vector rotation",
+                "type": "Method",
+                "description": "A proposed method based on coaxial gear system and fixed-point arithmetic for frequency precision."
+            },
+            {
+                "id": "PWM technique",
+                "type": "Method",
+                "description": "Pulse Width Modulation technique used to obtain three-phase voltages."
+            },
+            {
+                "id": "Fixed-point arithmetic",
+                "type": "Method",
+                "description": "Arithmetic approach used to optimize computations on processors without floating-point units."
+            },
+            {
+                "id": "FNA41560",
+                "type": "Method",
+                "description": "The specific Intelligent Power Module (IPM) model used in the experiment."
+            },
+            {
+                "id": "Induction motor drive",
+                "type": "Concept",
+                "description": "The application domain for the implemented modulation technique."
+            },
+            {
+                "id": "Voltage Source Inverter",
+                "type": "Concept",
+                "description": "A type of power converter that converts DC to AC."
+            },
+            {
+                "id": "Frequency precision",
+                "type": "Concept",
+                "description": "The resolution of the output frequency in a control system."
+            },
+            {
+                "id": "Output frequency (1 Hz)",
+                "type": "Metric",
+                "description": "The minimum achievable output frequency without significant error."
+            },
+            {
+                "id": "CPU usage (0.684 MIPS)",
+                "type": "Metric",
+                "description": "The computational power required for the SVM implementation at 5 kHz."
+            },
+            {
+                "id": "Computation rate (5 kHz)",
+                "type": "Metric",
+                "description": "The rate at which SVM calculations are performed."
+            },
+            {
+                "id": "Frequency precision (4.6566 x 10^-6 Hz)",
+                "type": "Metric",
+                "description": "The achieved frequency resolution of the proposed rotation method."
+            },
+            {
+                "id": "Frequency error (0.004%)",
+                "type": "Metric",
+                "description": "The measured error in output frequency during simulation."
+            },
+            {
+                "id": "Angle resolution (0.0586°)",
+                "type": "Metric",
+                "description": "The resolution of the look-up table used for trigonometric functions."
+            },
+            {
+                "id": "CPU clock (72 MHz)",
+                "type": "Metric",
+                "description": "The operating frequency of the Cortex M3 CPU."
+            },
+            {
+                "id": "Output phase-to-phase voltage (237 V)",
+                "type": "Metric",
+                "description": "The practical maximum output voltage with an inverter module."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ho Pham Thanh Tam",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thanh Hung",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Space Vector Modulation",
+                "target": "Electrical Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Space Vector Modulation",
+                "target": "Induction motor drive",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Novel method for vector rotation",
+                "target": "Frequency precision (4.6566 x 10^-6 Hz)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Novel method for vector rotation",
+                "target": "Frequency error (0.004%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Space Vector Modulation",
+                "target": "CPU usage (0.684 MIPS)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Space Vector Modulation",
+                "target": "Output phase-to-phase voltage (237 V)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Novel method for vector rotation",
+                "target": "Frequency precision",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fixed-point arithmetic",
+                "target": "STM32F1 ARM-based microcontroller",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

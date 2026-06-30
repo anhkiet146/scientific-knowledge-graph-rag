@@ -1,0 +1,160 @@
+{
+    "filename": "06-BE-LE THI MEN(33-38).json",
+    "paper_title": "THE EFFECTS OF PROBIOTIC SUPPLEMENTATION ON GROWTH PERFORMANCE OF WEANING PIGS IN THE MEKONG DELTA OF VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "THE EFFECTS OF PROBIOTIC SUPPLEMENTATION ON GROWTH PERFORMANCE OF WEANING PIGS IN THE MEKONG DELTA OF VIETNAM",
+                "type": "Concept",
+                "description": "The main research topic investigating probiotic effects on piglets."
+            },
+            {
+                "id": "Animal Science",
+                "type": "Domain",
+                "description": "The primary field of research concerning livestock husbandry and nutrition."
+            },
+            {
+                "id": "Le Thi Men",
+                "type": "Author",
+                "description": "Researcher from the College of Agriculture and Applied Biology."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Vietnam."
+            },
+            {
+                "id": "Probiotic supplementation",
+                "type": "Concept",
+                "description": "The practice of adding beneficial microorganisms to animal feed."
+            },
+            {
+                "id": "Growth performance",
+                "type": "Concept",
+                "description": "Metrics related to weight gain and feed efficiency in livestock."
+            },
+            {
+                "id": "PRO",
+                "type": "Method",
+                "description": "Probiotic product containing Bacillus subtilis and Lactobacillus spp."
+            },
+            {
+                "id": "PRO-ANT",
+                "type": "Method",
+                "description": "Probiotic product containing PRO plus neomycine sulphate."
+            },
+            {
+                "id": "CONTROL",
+                "type": "Method",
+                "description": "Experimental group with no bioproduct supply."
+            },
+            {
+                "id": "Completely randomized block design",
+                "type": "Method",
+                "description": "Experimental design using 3 treatments and 12 blocks."
+            },
+            {
+                "id": "IMViC trials",
+                "type": "Method",
+                "description": "Biochemical tests (Indol, Methyl Red, Voges Proskauer, and Citrate) used to confirm E. coli."
+            },
+            {
+                "id": "ANOVA",
+                "type": "Method",
+                "description": "Statistical analysis using Minitab Software version 16."
+            },
+            {
+                "id": "Piglet growth and health dataset",
+                "type": "Dataset",
+                "description": "Data collected from 108 DYL piglets over a 5-week experimental period."
+            },
+            {
+                "id": "Initial live weight (8 kg)",
+                "type": "Metric",
+                "description": "The starting weight of the piglets."
+            },
+            {
+                "id": "Final live weight (26 kg)",
+                "type": "Metric",
+                "description": "The weight of the piglets at the end of the experiment."
+            },
+            {
+                "id": "E. coli in feces - CONTROL (3.1 x 10^6 CFU/g)",
+                "type": "Metric",
+                "description": "Quantitative result of E. coli in the control group."
+            },
+            {
+                "id": "E. coli in feces - PRO (0.9 x 10^6 CFU/g)",
+                "type": "Metric",
+                "description": "Quantitative result of E. coli in the PRO group."
+            },
+            {
+                "id": "E. coli in feces - PRO-ANT (0.6 x 10^6 CFU/g)",
+                "type": "Metric",
+                "description": "Quantitative result of E. coli in the PRO-ANT group."
+            },
+            {
+                "id": "Economic benefit - PRO (106%)",
+                "type": "Metric",
+                "description": "Comparison of economic return for the PRO treatment relative to control."
+            },
+            {
+                "id": "Economic benefit - PRO-ANT (108%)",
+                "type": "Metric",
+                "description": "Comparison of economic return for the PRO-ANT treatment relative to control."
+            }
+        ],
+        "relations": [
+            {
+                "source": "THE EFFECTS OF PROBIOTIC SUPPLEMENTATION ON GROWTH PERFORMANCE OF WEANING PIGS IN THE MEKONG DELTA OF VIETNAM",
+                "target": "Animal Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Thi Men",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "PRO",
+                "target": "Probiotic supplementation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PRO-ANT",
+                "target": "Growth performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PRO",
+                "target": "E. coli in feces - PRO (0.9 x 10^6 CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PRO-ANT",
+                "target": "E. coli in feces - PRO-ANT (0.6 x 10^6 CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PRO",
+                "target": "Economic benefit - PRO (106%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PRO-ANT",
+                "target": "Economic benefit - PRO-ANT (108%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Completely randomized block design",
+                "target": "Piglet growth and health dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "ANOVA",
+                "target": "Piglet growth and health dataset",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

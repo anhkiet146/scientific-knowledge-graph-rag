@@ -1,0 +1,170 @@
+{
+    "filename": "15-PS-NGUYEN KHANH LINH(104-111)015.json",
+    "paper_title": "An evaluation female human resource in public administration with study case in the Mekong Delta",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Public Administration",
+                "type": "Domain",
+                "description": "Lĩnh vực quản lý nhà nước và hành chính công."
+            },
+            {
+                "id": "Gender Studies",
+                "type": "Domain",
+                "description": "Nghiên cứu về vai trò giới và bình đẳng giới."
+            },
+            {
+                "id": "Nguyen Khanh Linh",
+                "type": "Author",
+                "description": "Tác giả của bài báo nghiên cứu."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường đại học tại Việt Nam, nơi tác giả công tác."
+            },
+            {
+                "id": "Female human resource",
+                "type": "Concept",
+                "description": "Nguồn nhân lực nữ trong bộ máy hành chính công."
+            },
+            {
+                "id": "Gender inequality",
+                "type": "Concept",
+                "description": "Sự bất bình đẳng giữa nam và nữ trong vị trí ra quyết định."
+            },
+            {
+                "id": "Human resource development",
+                "type": "Concept",
+                "description": "Quá trình phát triển và giải phóng năng lực chuyên môn."
+            },
+            {
+                "id": "Public administration reform strategy",
+                "type": "Concept",
+                "description": "Chiến lược cải cách hành chính nhà nước của Việt Nam."
+            },
+            {
+                "id": "Semi-structured interview method",
+                "type": "Method",
+                "description": "Phương pháp phỏng vấn bán cấu trúc kết hợp ghi âm."
+            },
+            {
+                "id": "Observation method",
+                "type": "Method",
+                "description": "Phương pháp quan sát tương tác trực tiếp."
+            },
+            {
+                "id": "Case study",
+                "type": "Method",
+                "description": "Phương pháp nghiên cứu trường hợp điển hình."
+            },
+            {
+                "id": "Induction and Deduction",
+                "type": "Method",
+                "description": "Phương pháp quy nạp và diễn dịch trong phân tích dữ liệu."
+            },
+            {
+                "id": "Statistical software",
+                "type": "Method",
+                "description": "Phần mềm máy tính dùng để xử lý dữ liệu thống kê."
+            },
+            {
+                "id": "Mekong Delta administrative dataset",
+                "type": "Dataset",
+                "description": "Dữ liệu thu thập từ chính quyền, phòng ban tại Cần Thơ, Vĩnh Long và Hậu Giang."
+            },
+            {
+                "id": "Female workforce percentage (nearly 50%)",
+                "type": "Metric",
+                "description": "Tỷ lệ phụ nữ trong lực lượng lao động xã hội tại Đồng bằng sông Cửu Long."
+            },
+            {
+                "id": "Gender gap in labor force (17.6%)",
+                "type": "Metric",
+                "description": "Chênh lệch tỷ lệ tham gia lực lượng lao động giữa nam (85.1%) và nữ (67.5%)."
+            },
+            {
+                "id": "Cultural family percentage (over 80%)",
+                "type": "Metric",
+                "description": "Tỷ lệ gia đình văn hóa đạt được trong những năm qua."
+            },
+            {
+                "id": "Good work title rate in Soc Trang (88.8%)",
+                "type": "Metric",
+                "description": "Tỷ lệ nữ cán bộ đạt danh hiệu 'Giỏi việc nước, đảm việc nhà'."
+            },
+            {
+                "id": "Progressive women rate in Vinh Long (81.8%)",
+                "type": "Metric",
+                "description": "Tỷ lệ phụ nữ đạt danh hiệu 'Phụ nữ tiên tiến'."
+            },
+            {
+                "id": "Master degree rate in Can Tho communes (2%)",
+                "type": "Metric",
+                "description": "Tỷ lệ nữ cán bộ có trình độ thạc sĩ tại cấp xã ở Cần Thơ."
+            },
+            {
+                "id": "Young female official rate (over 60%)",
+                "type": "Metric",
+                "description": "Tỷ lệ nữ cán bộ trẻ từ 30 đến 40 tuổi."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Khanh Linh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "An evaluation female human resource in public administration with study case in the Mekong Delta",
+                "target": "Public Administration",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "An evaluation female human resource in public administration with study case in the Mekong Delta",
+                "target": "Gender Studies",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Semi-structured interview method",
+                "target": "Female human resource",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Observation method",
+                "target": "Female human resource",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Case study",
+                "target": "Mekong Delta administrative dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Statistical software",
+                "target": "Mekong Delta administrative dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Case study",
+                "target": "Female workforce percentage (nearly 50%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "Gender gap in labor force (17.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "Master degree rate in Can Tho communes (2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "Young female official rate (over 60%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

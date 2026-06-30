@@ -1,0 +1,170 @@
+{
+    "filename": "03-E3-HA THI THUY VY(16-25)090.json",
+    "paper_title": "Optimization of protein hydrolysis conditions from shrimp head meat (Litopenaeus vannamei) using commercial alcalase and flavourzyme enzymes",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary research field of the study."
+            },
+            {
+                "id": "Ha Thi Thuy Vy",
+                "type": "Author",
+                "description": "Doctoral student in Food Technology, Can Tho University."
+            },
+            {
+                "id": "Tran Thanh Truc",
+                "type": "Author",
+                "description": "Department of Food Technology, Can Tho University."
+            },
+            {
+                "id": "Nguyen Van Muoi",
+                "type": "Author",
+                "description": "Department of Food Technology, Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Vietnam."
+            },
+            {
+                "id": "Protein Hydrolysis",
+                "type": "Concept",
+                "description": "Process of breaking down proteins into smaller peptides or amino acids."
+            },
+            {
+                "id": "Antioxidant Activity",
+                "type": "Concept",
+                "description": "The ability of a substance to inhibit oxidation."
+            },
+            {
+                "id": "Alcalase",
+                "type": "Method",
+                "description": "A commercial endoprotease enzyme used for hydrolysis."
+            },
+            {
+                "id": "Flavourzyme",
+                "type": "Method",
+                "description": "A commercial enzyme mixture of exopeptidase and endopeptidase."
+            },
+            {
+                "id": "Response Surface Methodology (RSM)",
+                "type": "Method",
+                "description": "A statistical technique for optimization of processes."
+            },
+            {
+                "id": "Central Composite Design (CCD)",
+                "type": "Method",
+                "description": "An experimental design used in RSM to optimize variables."
+            },
+            {
+                "id": "Statgraphics Centurion 16.1",
+                "type": "Method",
+                "description": "Software used for statistical analysis and experimental design."
+            },
+            {
+                "id": "Hydrolysis efficiency (90.19%)",
+                "type": "Metric",
+                "description": "Percentage of protein successfully hydrolyzed under optimal conditions."
+            },
+            {
+                "id": "Antioxidant activity (86.16%)",
+                "type": "Metric",
+                "description": "The radical scavenging capacity measured by DPPH under optimal conditions."
+            },
+            {
+                "id": "Optimal pH (7.01)",
+                "type": "Metric",
+                "description": "The specific pH level that yielded the best hydrolysis results."
+            },
+            {
+                "id": "Optimal temperature (54.94°C)",
+                "type": "Metric",
+                "description": "The temperature that maximized hydrolysis and antioxidant activity."
+            },
+            {
+                "id": "Hydrolysis time (2.96 hours)",
+                "type": "Metric",
+                "description": "The duration of the reaction for optimal output."
+            },
+            {
+                "id": "Alcalase enzyme (19.42 U/g)",
+                "type": "Metric",
+                "description": "The optimized concentration of Alcalase used."
+            },
+            {
+                "id": "Flavourzyme (32.09 U/g)",
+                "type": "Metric",
+                "description": "The optimized concentration of Flavourzyme used."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ha Thi Thuy Vy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thanh Truc",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Muoi",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Alcalase",
+                "target": "Protein Hydrolysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Flavourzyme",
+                "target": "Protein Hydrolysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Protein Hydrolysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Hydrolysis efficiency (90.19%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Antioxidant activity (86.16%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Optimal pH (7.01)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Optimal temperature (54.94°C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response Surface Methodology (RSM)",
+                "target": "Hydrolysis time (2.96 hours)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Alcalase",
+                "target": "Alcalase enzyme (19.42 U/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Flavourzyme",
+                "target": "Flavourzyme (32.09 U/g)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

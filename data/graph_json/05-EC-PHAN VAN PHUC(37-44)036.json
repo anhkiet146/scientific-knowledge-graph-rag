@@ -1,0 +1,135 @@
+{
+  "filename": "05-EC-PHAN VAN PHUC(37-44)036.json",
+  "paper_title": "The living standard inequality in Vietnam: A statistical analysis",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Income inequality",
+        "type": "Concept",
+        "description": "The main research problem focusing on the distribution of income in Vietnam during the 2000s."
+      },
+      {
+        "id": "Living standard inequality",
+        "type": "Concept",
+        "description": "Measurement of disparity in living conditions, often proxied by household expenditure."
+      },
+      {
+        "id": "Inequality aversion",
+        "type": "Concept",
+        "description": "Social attitude or parameter reflecting how a society values equality."
+      },
+      {
+        "id": "Social welfare function",
+        "type": "Concept",
+        "description": "A function that ranks social states as less desirable, more desirable, or indifferent."
+      },
+      {
+        "id": "Gini coefficient method",
+        "type": "Method",
+        "description": "A statistical measure of distribution representing the income inequality or wealth inequality within a nation."
+      },
+      {
+        "id": "Lorenz curve",
+        "type": "Method",
+        "description": "A graphical representation of the distribution of income or of wealth."
+      },
+      {
+        "id": "Atkinson index",
+        "type": "Method",
+        "description": "A measure of income inequality based on social welfare functions."
+      },
+      {
+        "id": "Theil indices",
+        "type": "Method",
+        "description": "A statistic used to measure economic inequality and other forms of racial segregation."
+      },
+      {
+        "id": "Decomposition technique",
+        "type": "Method",
+        "description": "A method to identify the contribution of different components to total inequality."
+      },
+      {
+        "id": "Vietnam Household Living Standard Surveys (VHLSS) 2002-2010",
+        "type": "Dataset",
+        "description": "Digital survey data collected biennially from approximately 9,000 households in Vietnam."
+      },
+      {
+        "id": "Gini coefficient (0.36 - 0.37)",
+        "type": "Metric",
+        "description": "Measured expenditure inequality range in Vietnam between 2002-2010."
+      },
+      {
+        "id": "Peak Gini coefficient (0.372 in 2004)",
+        "type": "Metric",
+        "description": "The highest recorded Gini coefficient value during the studied period."
+      },
+      {
+        "id": "Household expenditure (14.5 million VND in 2002)",
+        "type": "Metric",
+        "description": "Average household expenditure at the start of the study period."
+      },
+      {
+        "id": "Atkinson index (0.107 in 2006)",
+        "type": "Metric",
+        "description": "Measured inequality level using Atkinson method with aversion parameter 0.5."
+      },
+      {
+        "id": "Economics",
+        "type": "Domain",
+        "description": "The primary field of study regarding income distribution and living standards."
+      },
+      {
+        "id": "Phan Van Phuc",
+        "type": "Author",
+        "description": "Lead author of the study."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational organization located in Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Phan Van Phuc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Gini coefficient method",
+        "target": "Income inequality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Gini coefficient method",
+        "target": "Vietnam Household Living Standard Surveys (VHLSS) 2002-2010",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Gini coefficient method",
+        "target": "Gini coefficient (0.36 - 0.37)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gini coefficient method",
+        "target": "Peak Gini coefficient (0.372 in 2004)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Atkinson index",
+        "target": "Atkinson index (0.107 in 2006)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Theil indices",
+        "target": "Decomposition technique",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Income inequality",
+        "target": "Economics",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

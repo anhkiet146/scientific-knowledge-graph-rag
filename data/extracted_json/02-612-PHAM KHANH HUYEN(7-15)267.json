@@ -1,0 +1,140 @@
+{
+    "filename": "02-612-PHAM KHANH HUYEN(7-15)267.json",
+    "paper_title": "The frequency of occurrence of fungal pathogens associated with water hyacinth (Eichhornia crassipes) in Ho Chi Minh City and its harmful effects on plants",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Plant Pathology",
+                "type": "Domain",
+                "description": "The study of diseases in plants, specifically fungal pathogens on water hyacinth."
+            },
+            {
+                "id": "Vo Thi Ngoc Ha",
+                "type": "Author",
+                "description": "Researcher and corresponding author from Nong Lam University Ho Chi Minh City."
+            },
+            {
+                "id": "Pham Kim Huyen",
+                "type": "Author",
+                "description": "Researcher from Nong Lam University Ho Chi Minh City."
+            },
+            {
+                "id": "Nguyen Bao Quoc",
+                "type": "Author",
+                "description": "Researcher from Nong Lam University Ho Chi Minh City."
+            },
+            {
+                "id": "Nong Lam University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the research was conducted."
+            },
+            {
+                "id": "Water hyacinth (Eichhornia crassipes)",
+                "type": "Concept",
+                "description": "An invasive aquatic plant species that is the subject of the biological control study."
+            },
+            {
+                "id": "Biological control",
+                "type": "Concept",
+                "description": "The use of natural enemies, such as fungi, to manage invasive plant populations."
+            },
+            {
+                "id": "Fungal pathogens",
+                "type": "Concept",
+                "description": "Fungi associated with diseases in water hyacinth."
+            },
+            {
+                "id": "Fungal single spore isolation",
+                "type": "Method",
+                "description": "Method used to obtain pure fungal cultures from diseased leaf samples."
+            },
+            {
+                "id": "Morphological characterization",
+                "type": "Method",
+                "description": "Identifying fungi based on mycelium, fruiting structures, and spores."
+            },
+            {
+                "id": "Pathogenicity test",
+                "type": "Method",
+                "description": "Laboratory procedures to determine the ability of fungal isolates to cause disease."
+            },
+            {
+                "id": "PGA (potato glucose agar)",
+                "type": "Method",
+                "description": "A culture medium used for growing and sporulating fungal isolates."
+            },
+            {
+                "id": "WA (water agar)",
+                "type": "Method",
+                "description": "A simple culture medium used for fungal isolation."
+            },
+            {
+                "id": "Frequency of occurrence (36.80%)",
+                "type": "Metric",
+                "description": "The rate at which Curvularia spp. was found in the samples."
+            },
+            {
+                "id": "Frequency of occurrence (29.24%)",
+                "type": "Metric",
+                "description": "The rate at which Colletotrichum spp. was found in the samples."
+            },
+            {
+                "id": "Disease severity (DS 17.2%)",
+                "type": "Metric",
+                "description": "The highest disease severity grade recorded for Colletotrichum spp."
+            },
+            {
+                "id": "Disease incidence (0% to 100%)",
+                "type": "Metric",
+                "description": "The range of infection levels observed on various host plants."
+            }
+        ],
+        "relations": [
+            {
+                "source": "The frequency of occurrence of fungal pathogens associated with water hyacinth",
+                "target": "Plant Pathology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Vo Thi Ngoc Ha",
+                "target": "Nong Lam University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Kim Huyen",
+                "target": "Nong Lam University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Bao Quoc",
+                "target": "Nong Lam University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Fungal single spore isolation",
+                "target": "Fungal pathogens",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Morphological characterization",
+                "target": "Frequency of occurrence (36.80%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pathogenicity test",
+                "target": "Disease severity (DS 17.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pathogenicity test",
+                "target": "Disease incidence (0% to 100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PGA (potato glucose agar)",
+                "target": "Fungal pathogens",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

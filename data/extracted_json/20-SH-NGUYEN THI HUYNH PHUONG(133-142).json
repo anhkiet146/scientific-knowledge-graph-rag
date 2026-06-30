@@ -1,0 +1,135 @@
+{
+    "filename": "20-SH-NGUYEN THI HUYNH PHUONG(133-142).json",
+    "paper_title": "OC EO CULTURE: A CASE STUDY OF OC EO ARTIFACTS IN SOUTHERN VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Thi Huynh Phuong",
+                "type": "Author",
+                "description": "Author of the research paper from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution located in Vietnam where the author is affiliated."
+            },
+            {
+                "id": "Archaeology",
+                "type": "Domain",
+                "description": "The primary field of study concerning Oc Eo artifacts and culture."
+            },
+            {
+                "id": "Oc Eo culture",
+                "type": "Concept",
+                "description": "An early culture formed from the first to the sixth centuries in Southern Vietnam."
+            },
+            {
+                "id": "Artifacts",
+                "type": "Concept",
+                "description": "Simple, hand-made objects representing the Oc Eo culture."
+            },
+            {
+                "id": "Maritime trade route",
+                "type": "Concept",
+                "description": "The East-West trade route where Oc Eo served as an important transit port."
+            },
+            {
+                "id": "Archaeological excavation",
+                "type": "Method",
+                "description": "Method of uncovering artifacts and architectural remains from the earth."
+            },
+            {
+                "id": "Carbon dating",
+                "type": "Method",
+                "description": "Scientific method used to determine the age of organic materials like wooden statues."
+            },
+            {
+                "id": "Pottery analysis",
+                "type": "Method",
+                "description": "Classification and study of ceramic remains to understand indigenous traditions."
+            },
+            {
+                "id": "Historical records",
+                "type": "Method",
+                "description": "Use of written documents and records to discover traits of the culture."
+            },
+            {
+                "id": "Carbon date (200-300 CE)",
+                "type": "Metric",
+                "description": "The specific age range determined for wooden Buddha statues."
+            },
+            {
+                "id": "Average male height (1.62 meter)",
+                "type": "Metric",
+                "description": "The measured average height of ancient Oc Eo men based on skull findings."
+            },
+            {
+                "id": "Average female height (1.6 meter)",
+                "type": "Metric",
+                "description": "The measured average height of ancient Oc Eo women based on skull findings."
+            },
+            {
+                "id": "Temple dimensions (25.6 x 16.3 m)",
+                "type": "Metric",
+                "description": "The physical size of the rectangular temple structure found at Nen Chua."
+            },
+            {
+                "id": "Tomb length (1.2 m to 3.5 m)",
+                "type": "Metric",
+                "description": "The measurement range for the length of Oc Eo tombs."
+            },
+            {
+                "id": "Gold object inventory (1312 pieces)",
+                "type": "Metric",
+                "description": "The specific number of gold objects listed in Malleret's inventory."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Huynh Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "OC EO CULTURE: A CASE STUDY OF OC EO ARTIFACTS IN SOUTHERN VIETNAM",
+                "target": "Archaeology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Archaeological excavation",
+                "target": "Oc Eo culture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Carbon dating",
+                "target": "Carbon date (200-300 CE)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Archaeological excavation",
+                "target": "Temple dimensions (25.6 x 16.3 m)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Archaeological excavation",
+                "target": "Average male height (1.62 meter)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Archaeological excavation",
+                "target": "Tomb length (1.2 m to 3.5 m)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pottery analysis",
+                "target": "Artifacts",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Historical records",
+                "target": "Oc Eo culture",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

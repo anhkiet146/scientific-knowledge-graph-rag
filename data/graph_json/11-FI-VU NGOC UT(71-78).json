@@ -1,0 +1,190 @@
+{
+  "filename": "11-FI-VU NGOC UT(71-78).json",
+  "paper_title": "ASSESSMENT OF WATER QUALITY IN STRIPED CATFISH (Pangasianodon hypophthalmus) PRODUCTION SYSTEMS IN THE MEKONG DELTA",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về nuôi trồng thủy sản."
+      },
+      {
+        "id": "Water quality assessment",
+        "type": "Concept",
+        "description": "Đánh giá chất lượng nước trong hệ thống nuôi cá tra."
+      },
+      {
+        "id": "Eutrophication",
+        "type": "Concept",
+        "description": "Sự phú dưỡng của môi trường nước do dư thừa nitơ và phốt pho."
+      },
+      {
+        "id": "Nutrient mass balance",
+        "type": "Concept",
+        "description": "Cân bằng khối lượng chất dinh dưỡng trong ao nuôi."
+      },
+      {
+        "id": "Vu Ngoc Ut",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Huynh Truong Giang",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Truong Quoc Phu",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Jack Morales",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "Nguyen Thanh Phuong",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "Tổ chức học thuật tại Việt Nam."
+      },
+      {
+        "id": "Sustainable Fisheries Partnership",
+        "type": "Institution",
+        "description": "Tổ chức đối tác về thủy sản bền vững."
+      },
+      {
+        "id": "YSI meter",
+        "type": "Method",
+        "description": "Thiết bị đo trực tiếp nhiệt độ, pH và DO."
+      },
+      {
+        "id": "Filtering and drying at 103-105 C",
+        "type": "Method",
+        "description": "Phương pháp xác định tổng chất rắn lơ lửng (TSS)."
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Phân tích biến lượng để so sánh giá trị trung bình."
+      },
+      {
+        "id": "MANITAB package version 12",
+        "type": "Method",
+        "description": "Phần mềm xử lý thống kê."
+      },
+      {
+        "id": "Water quality data from 21 sites",
+        "type": "Dataset",
+        "description": "Dữ liệu thu thập từ 21 điểm thuộc 10 trang trại tại An Giang, Cần Thơ và Hậu Giang."
+      },
+      {
+        "id": "pH (6.75-7.30)",
+        "type": "Metric",
+        "description": "Chỉ số nồng độ ion H+ trong nước."
+      },
+      {
+        "id": "DO (> 5 mg/L)",
+        "type": "Metric",
+        "description": "Nồng độ oxy hòa tan trung bình."
+      },
+      {
+        "id": "BOD (10.7 mg/L)",
+        "type": "Metric",
+        "description": "Nhu cầu oxy sinh hóa cao nhất ghi nhận."
+      },
+      {
+        "id": "COD (19.6 mg/L)",
+        "type": "Metric",
+        "description": "Nhu cầu oxy hóa học cao nhất ghi nhận."
+      },
+      {
+        "id": "TSS (21-84 mg/L)",
+        "type": "Metric",
+        "description": "Tổng chất rắn lơ lửng trung bình."
+      },
+      {
+        "id": "TN (up to 48.42 mg/L)",
+        "type": "Metric",
+        "description": "Tổng nitơ ghi nhận trong ao nuôi."
+      },
+      {
+        "id": "TP (up to 4.78 mg/L)",
+        "type": "Metric",
+        "description": "Tổng phốt pho ghi nhận trong hệ thống."
+      },
+      {
+        "id": "TAN (5.49 mg/L)",
+        "type": "Metric",
+        "description": "Tổng đạm amoni cao nhất tại điểm xả."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Vu Ngoc Ut",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Truong Giang",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Quoc Phu",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Phuong",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Jack Morales",
+        "target": "Sustainable Fisheries Partnership",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Water quality assessment",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "YSI meter",
+        "target": "Water quality assessment",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Filtering and drying at 103-105 C",
+        "target": "TSS (21-84 mg/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "YSI meter",
+        "target": "pH (6.75-7.30)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "YSI meter",
+        "target": "DO (> 5 mg/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Water quality data from 21 sites",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "MANITAB package version 12",
+        "target": "Water quality data from 21 sites",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

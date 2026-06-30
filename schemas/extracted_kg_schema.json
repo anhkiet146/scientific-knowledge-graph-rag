@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scientific KG extraction output",
+  "description": "Schema for LLM-extracted scientific entities and relations before graph loading.",
+  "type": "object",
+  "required": ["filename", "paper_title", "extraction_result"],
+  "properties": {
+    "filename": {
+      "type": "string",
+      "description": "Source article identifier or derived JSON filename."
+    },
+    "paper_title": {
+      "type": "string",
+      "description": "Title of the scientific paper."
+    },
+    "extraction_result": {
+      "type": "object",
+      "required": ["entities", "relations"],
+      "properties": {
+        "entities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "type"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Canonical or normalized entity name."
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "Concept",
+                  "Method",
+                  "Dataset",
+                  "Metric",
+                  "Domain",
+                  "Author",
+                  "Institution"
+                ]
+              },
+              "description": {
+                "type": "string",
+                "description": "Short evidence-grounded description."
+              },
+              "confidence": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source", "target", "type"],
+            "properties": {
+              "source": {
+                "type": "string",
+                "description": "Source entity id."
+              },
+              "target": {
+                "type": "string",
+                "description": "Target entity id."
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "AFFILIATED_WITH",
+                  "EVALUATED_ON",
+                  "MEASURED_BY",
+                  "RELATED_TO"
+                ]
+              },
+              "evidence": {
+                "type": "string",
+                "description": "Supporting text span or source note."
+              },
+              "confidence": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
+

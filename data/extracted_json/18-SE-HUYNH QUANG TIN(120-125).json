@@ -1,0 +1,205 @@
+{
+    "filename": "18-SE-HUYNH QUANG TIN(120-125).json",
+    "paper_title": "IMPACTS OF COMMUNITY-BASED SEED PRODUCTION AND SUPPLY TOWARDS SUSTAINABLE AGRICULTURAL PRODUCTION IN AN GIANG PROVINCE",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Huynh Quang Tin",
+                "type": "Author",
+                "description": "Tác giả từ Viện Nghiên cứu Phát triển Đồng bằng sông Cửu Long"
+            },
+            {
+                "id": "Huynh Dao Nguyen",
+                "type": "Author",
+                "description": "Tác giả từ Trung tâm Khuyến nông tỉnh An Giang"
+            },
+            {
+                "id": "Huynh Hiep Thanh",
+                "type": "Author",
+                "description": "Tác giả từ Trung tâm Khuyến nông tỉnh An Giang"
+            },
+            {
+                "id": "Phan Thanh Tam",
+                "type": "Author",
+                "description": "Tác giả từ Trung tâm Khuyến nông tỉnh An Giang"
+            },
+            {
+                "id": "Bui Van Dang",
+                "type": "Author",
+                "description": "Tác giả từ Trung tâm Khuyến nông tỉnh An Giang"
+            },
+            {
+                "id": "Ngo Thi Tien Giang",
+                "type": "Author",
+                "description": "Tác giả từ Chi cục Bảo vệ thực vật tỉnh An Giang"
+            },
+            {
+                "id": "Mekong Delta Development Research Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Viện Nghiên cứu Phát triển Đồng bằng sông Cửu Long, Đại học Cần Thơ"
+            },
+            {
+                "id": "Agricultural Extension Center of An Giang province",
+                "type": "Institution",
+                "description": "Trung tâm Khuyến nông tỉnh An Giang"
+            },
+            {
+                "id": "Plant Protection Sub-Department of An Giang province",
+                "type": "Institution",
+                "description": "Chi cục Bảo vệ thực vật tỉnh An Giang"
+            },
+            {
+                "id": "Agricultural Science",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về sản xuất nông nghiệp bền vững"
+            },
+            {
+                "id": "Sustainable Agricultural Production",
+                "type": "Concept",
+                "description": "Sản xuất nông nghiệp bền vững"
+            },
+            {
+                "id": "Seed Security",
+                "type": "Concept",
+                "description": "An ninh hạt giống cho sản xuất lúa gạo"
+            },
+            {
+                "id": "Economic Efficiency",
+                "type": "Concept",
+                "description": "Hiệu quả kinh tế cho nông dân"
+            },
+            {
+                "id": "Community-based seed production and supply program",
+                "type": "Method",
+                "description": "Chương trình sản xuất và cung ứng hạt giống dựa vào cộng đồng"
+            },
+            {
+                "id": "Seed club",
+                "type": "Method",
+                "description": "Mô hình câu lạc bộ hạt giống"
+            },
+            {
+                "id": "Farmer's field school (FFS)",
+                "type": "Method",
+                "description": "Phương pháp đào tạo hiện trường cho nông dân"
+            },
+            {
+                "id": "3 Reductions 3 Gains",
+                "type": "Method",
+                "description": "Chương trình kỹ thuật 3 giảm 3 tăng"
+            },
+            {
+                "id": "1 Must 5 Reductions",
+                "type": "Method",
+                "description": "Chương trình kỹ thuật 1 phải 5 giảm"
+            },
+            {
+                "id": "Microsoft Excel",
+                "type": "Method",
+                "description": "Phần mềm sử dụng để phân tích thống kê mô tả"
+            },
+            {
+                "id": "Seed production and supply survey data (2004-2014)",
+                "type": "Dataset",
+                "description": "Dữ liệu khảo sát về số lượng sản xuất và cung ứng hạt giống từ năm 2004 đến 2014"
+            },
+            {
+                "id": "Province's yield in 2014 (6.46 t/ha)",
+                "type": "Metric",
+                "description": "Năng suất lúa trung bình của tỉnh năm 2014"
+            },
+            {
+                "id": "Certified seed production in 2014 (169,321 tons)",
+                "type": "Metric",
+                "description": "Sản lượng hạt giống xác nhận năm 2014"
+            },
+            {
+                "id": "Seed demand met in 2014 (90%)",
+                "type": "Metric",
+                "description": "Tỷ lệ đáp ứng nhu cầu hạt giống của tỉnh"
+            },
+            {
+                "id": "Trained farmers (15,115)",
+                "type": "Metric",
+                "description": "Số lượng nông dân được đào tạo về sản xuất hạt giống"
+            },
+            {
+                "id": "Area for multiplying seed in 2014 (25,544 ha)",
+                "type": "Metric",
+                "description": "Diện tích nhân giống năm 2014"
+            }
+        ],
+        "relations": [
+            {
+                "source": "IMPACTS OF COMMUNITY-BASED SEED PRODUCTION AND SUPPLY TOWARDS SUSTAINABLE AGRICULTURAL PRODUCTION IN AN GIANG PROVINCE",
+                "target": "Agricultural Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Huynh Quang Tin",
+                "target": "Mekong Delta Development Research Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Dao Nguyen",
+                "target": "Agricultural Extension Center of An Giang province",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Hiep Thanh",
+                "target": "Agricultural Extension Center of An Giang province",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Thanh Tam",
+                "target": "Agricultural Extension Center of An Giang province",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Van Dang",
+                "target": "Agricultural Extension Center of An Giang province",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Thi Tien Giang",
+                "target": "Plant Protection Sub-Department of An Giang province",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Community-based seed production and supply program",
+                "target": "Sustainable Agricultural Production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Seed club",
+                "target": "Seed Security",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Community-based seed production and supply program",
+                "target": "Province's yield in 2014 (6.46 t/ha)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Community-based seed production and supply program",
+                "target": "Certified seed production in 2014 (169,321 tons)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Community-based seed production and supply program",
+                "target": "Seed demand met in 2014 (90%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Farmer's field school (FFS)",
+                "target": "Trained farmers (15,115)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Microsoft Excel",
+                "target": "Seed production and supply survey data (2004-2014)",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

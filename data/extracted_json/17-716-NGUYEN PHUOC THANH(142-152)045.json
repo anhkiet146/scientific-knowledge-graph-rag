@@ -1,0 +1,195 @@
+{
+    "filename": "17-716-NGUYEN PHUOC THANH(142-152)045.json",
+    "paper_title": "Exploring MediaPipe optimization strategies for real-time sign language recognition",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Real-time sign language recognition",
+                "type": "Concept",
+                "description": "The primary research problem of automating the translation of sign language gestures into text or speech in real-time."
+            },
+            {
+                "id": "Skeleton pose estimation",
+                "type": "Concept",
+                "description": "A technique focusing on tracking vital joints and landmarks rather than the entire video frame to reduce computational load."
+            },
+            {
+                "id": "MediaPipe framework",
+                "type": "Method",
+                "description": "A cross-platform framework for building multimodal applied machine learning pipelines used for landmark detection."
+            },
+            {
+                "id": "Long Short-Term Memory (LSTM)",
+                "type": "Method",
+                "description": "A specialized Recurrent Neural Network architecture used to process sequences of skeleton coordinates."
+            },
+            {
+                "id": "Multi-modal approach",
+                "type": "Method",
+                "description": "An ensemble strategy amalgamating Joint, Bone, Joint Motion, and Bone Motion models."
+            },
+            {
+                "id": "Adam optimization",
+                "type": "Method",
+                "description": "An optimization algorithm used for training the neural network models."
+            },
+            {
+                "id": "Categorical-crossentropy loss",
+                "type": "Method",
+                "description": "The loss function employed to minimize discrepancies during the model training phase."
+            },
+            {
+                "id": "FPTs2l application",
+                "type": "Method",
+                "description": "A real-time sign language translation application prototype developed as a manifestation of the research."
+            },
+            {
+                "id": "How2Sign dataset",
+                "type": "Dataset",
+                "description": "A large-scale, multi-modal, and multi-view continuous American Sign Language dataset."
+            },
+            {
+                "id": "Indian Sign Language dataset",
+                "type": "Dataset",
+                "description": "A dataset containing 1200 photographs for each object, covering digits 1-9 and alphabets A-Z."
+            },
+            {
+                "id": "Accuracy (0.673)",
+                "type": "Metric",
+                "description": "The accuracy achieved by the Multi-modal method on the How2Sign dataset."
+            },
+            {
+                "id": "Accuracy (0.858)",
+                "type": "Metric",
+                "description": "The accuracy achieved by the Multi-modal model on the Indian Sign Language dataset."
+            },
+            {
+                "id": "Execution time (0.3s)",
+                "type": "Metric",
+                "description": "The latency recorded for the Multi-modal approach per execution."
+            },
+            {
+                "id": "Frame rate (2 FPS)",
+                "type": "Metric",
+                "description": "The real-time processing speed achieved by the FPTs2l application."
+            },
+            {
+                "id": "Artificial Intelligence",
+                "type": "Domain",
+                "description": "The primary field of research for the paper."
+            },
+            {
+                "id": "Nguyen Phuoc Thanh",
+                "type": "Author",
+                "description": "Lead author of the study."
+            },
+            {
+                "id": "Nguyen Thanh Hoang",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Hoang Ngoc Xuan Nguyen",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Phan Huynh Thanh Binh",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Vu Hoang Son Hai",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Huynh Hieu Nhan",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "FPT University",
+                "type": "Institution",
+                "description": "The academic institution in Viet Nam where the authors are affiliated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Phuoc Thanh",
+                "target": "FPT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Hoang",
+                "target": "FPT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Ngoc Xuan Nguyen",
+                "target": "FPT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Huynh Thanh Binh",
+                "target": "FPT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vu Hoang Son Hai",
+                "target": "FPT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Hieu Nhan",
+                "target": "FPT University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Exploring MediaPipe optimization strategies for real-time sign language recognition",
+                "target": "Artificial Intelligence",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Multi-modal approach",
+                "target": "Real-time sign language recognition",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Multi-modal approach",
+                "target": "How2Sign dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Multi-modal approach",
+                "target": "Indian Sign Language dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Multi-modal approach",
+                "target": "Accuracy (0.673)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multi-modal approach",
+                "target": "Accuracy (0.858)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multi-modal approach",
+                "target": "Execution time (0.3s)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "FPTs2l application",
+                "target": "Frame rate (2 FPS)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "MediaPipe framework",
+                "target": "Skeleton pose estimation",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

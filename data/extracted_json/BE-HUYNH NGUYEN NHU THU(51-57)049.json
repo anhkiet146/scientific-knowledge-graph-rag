@@ -1,0 +1,205 @@
+{
+    "filename": "BE-HUYNH NGUYEN NHU THU(51-57)049.json",
+    "paper_title": "Selection of thermotolerant lactic acid bacteria producing high antibacterial activity and production of biomass from tofu sour liquid",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Microbiology",
+                "type": "Domain",
+                "description": "The study of thermotolerant lactic acid bacteria and their industrial applications."
+            },
+            {
+                "id": "Huynh Nguyen Nhu Thu",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Bui Hoang Dang Long",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Huynh Xuan Phong",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Takeshi Zendo",
+                "type": "Author",
+                "description": "Researcher from Kyushu University."
+            },
+            {
+                "id": "Kenji Sonomoto",
+                "type": "Author",
+                "description": "Researcher from Kyushu University."
+            },
+            {
+                "id": "Ngo Thi Phuong Dung",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Biotechnology Research and Development Institute, Vietnam."
+            },
+            {
+                "id": "Kyushu University",
+                "type": "Institution",
+                "description": "Faculty of Agriculture, Japan."
+            },
+            {
+                "id": "Antibacterial activity",
+                "type": "Concept",
+                "description": "The ability of bacteria to inhibit the growth of pathogens like Bacillus subtilis."
+            },
+            {
+                "id": "Biomass production",
+                "type": "Concept",
+                "description": "The process of cultivating microorganisms to increase their total mass."
+            },
+            {
+                "id": "Thermotolerance",
+                "type": "Concept",
+                "description": "The ability of lactic acid bacteria to survive and grow at high temperatures."
+            },
+            {
+                "id": "16S ribosomal DNA sequences",
+                "type": "Method",
+                "description": "Genetic analysis used to identify and study relations of bacterial strains."
+            },
+            {
+                "id": "Agar spot test",
+                "type": "Method",
+                "description": "Primary screening method for antibacterial activity."
+            },
+            {
+                "id": "Well-diffusion agar test",
+                "type": "Method",
+                "description": "Assay used to evaluate bacteriocin production."
+            },
+            {
+                "id": "Tofu sour liquid",
+                "type": "Method",
+                "description": "Industrial waste used as a nutrient medium for bacterial growth."
+            },
+            {
+                "id": "Statgraphics Centurion XV",
+                "type": "Method",
+                "description": "Software used for statistical analysis and optimization."
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "NCBI database used for sequence alignment and identification."
+            },
+            {
+                "id": "Inhibitory zone (13.76 mm - 17.33 mm)",
+                "type": "Metric",
+                "description": "Measured diameter of pathogen inhibition in L. plantarum L54 tests."
+            },
+            {
+                "id": "Optimum glucose concentration (5.99% w/v)",
+                "type": "Metric",
+                "description": "Optimized sugar level for maximum biomass production."
+            },
+            {
+                "id": "Optimum inoculum concentration (6.37% v/v)",
+                "type": "Metric",
+                "description": "Optimized initial bacterial load for production."
+            },
+            {
+                "id": "Optimum pH (6.0)",
+                "type": "Metric",
+                "description": "Optimal acidity level for biomass growth at 39°C."
+            },
+            {
+                "id": "Highest LAB biomass (2.04 g/L)",
+                "type": "Metric",
+                "description": "Maximum cell mass achieved using tofu sour liquid and glucose."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Microbiology",
+                "target": "Antibacterial activity",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Huynh Nguyen Nhu Thu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Hoang Dang Long",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Xuan Phong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Thi Phuong Dung",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Takeshi Zendo",
+                "target": "Kyushu University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Kenji Sonomoto",
+                "target": "Kyushu University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "16S ribosomal DNA sequences",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Agar spot test",
+                "target": "Inhibitory zone (13.76 mm - 17.33 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Well-diffusion agar test",
+                "target": "Inhibitory zone (13.76 mm - 17.33 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Statgraphics Centurion XV",
+                "target": "Optimum glucose concentration (5.99% w/v)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Statgraphics Centurion XV",
+                "target": "Optimum pH (6.0)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Tofu sour liquid",
+                "target": "Highest LAB biomass (2.04 g/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar spot test",
+                "target": "Antibacterial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Tofu sour liquid",
+                "target": "Biomass production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "16S ribosomal DNA sequences",
+                "target": "Thermotolerance",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "filename": "02-ED-LE THI NHAN DUYEN(9-16)021.json",
+    "paper_title": "Factors influencing group work of students in learning English as a foreign language (EFL): A case study at a Vietnamese university",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Factors influencing group work of students in learning English as a foreign language (EFL): A case study at a Vietnamese university",
+                "type": "Concept",
+                "description": "The title and primary research focus of the paper."
+            },
+            {
+                "id": "English as a foreign language (EFL) Teaching",
+                "type": "Domain",
+                "description": "The main field of study concerning English instruction to non-native speakers."
+            },
+            {
+                "id": "Le Thi Nhan Duyen",
+                "type": "Author",
+                "description": "Primary author affiliated with Can Tho University of Medicine and Pharmacy."
+            },
+            {
+                "id": "Nguyen Buu Huan",
+                "type": "Author",
+                "description": "Secondary author affiliated with Center for Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Can Tho University of Medicine and Pharmacy",
+                "type": "Institution",
+                "description": "Higher education institution in Vietnam."
+            },
+            {
+                "id": "Center for Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "Academic center within Can Tho University."
+            },
+            {
+                "id": "Group work",
+                "type": "Concept",
+                "description": "Teaching strategy used to develop students’ communicative proficiency."
+            },
+            {
+                "id": "Communicative Language Teaching (CLT)",
+                "type": "Concept",
+                "description": "Approach focusing on developing learners' communicative competence."
+            },
+            {
+                "id": "Mixed methods approach",
+                "type": "Method",
+                "description": "Research design combining quantitative (questionnaires) and qualitative (interviews) data."
+            },
+            {
+                "id": "Questionnaire surveys",
+                "type": "Method",
+                "description": "Quantitative tool using a 30-item five-point Likert-scale."
+            },
+            {
+                "id": "In-depth semi-structured interviews",
+                "type": "Method",
+                "description": "Qualitative data collection tool with open and ended questions."
+            },
+            {
+                "id": "SPSS version 22",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "One-sample t-test",
+                "type": "Method",
+                "description": "Statistical test to investigate significant differences between mean scores."
+            },
+            {
+                "id": "Survey and interview data from 272 students",
+                "type": "Dataset",
+                "description": "Numeric and qualitative data collected from first-year university participants."
+            },
+            {
+                "id": "Reliability coefficient (alpha = 0.752)",
+                "type": "Metric",
+                "description": "Internal consistency measurement of the questionnaire."
+            },
+            {
+                "id": "Sample mean (M=3.85)",
+                "type": "Metric",
+                "description": "Average score across factors compared to the value of 3.0."
+            },
+            {
+                "id": "Interaction between students mean (M=4.58)",
+                "type": "Metric",
+                "description": "Average importance score for the student interaction factor."
+            },
+            {
+                "id": "Role of the teacher mean (M=4.31)",
+                "type": "Metric",
+                "description": "Average importance score for the teacher's role factor."
+            },
+            {
+                "id": "Classroom context mean (M=3.34)",
+                "type": "Metric",
+                "description": "Average importance score for the classroom context factor."
+            },
+            {
+                "id": "The tasks mean (M=3.00)",
+                "type": "Metric",
+                "description": "Average importance score for the task factor."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Factors influencing group work of students in learning English as a foreign language (EFL): A case study at a Vietnamese university",
+                "target": "English as a foreign language (EFL) Teaching",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Thi Nhan Duyen",
+                "target": "Can Tho University of Medicine and Pharmacy",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Buu Huan",
+                "target": "Center for Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Mixed methods approach",
+                "target": "Group work",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Questionnaire surveys",
+                "target": "Survey and interview data from 272 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "In-depth semi-structured interviews",
+                "target": "Survey and interview data from 272 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SPSS version 22",
+                "target": "Reliability coefficient (alpha = 0.752)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "One-sample t-test",
+                "target": "Sample mean (M=3.85)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire surveys",
+                "target": "Interaction between students mean (M=4.58)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire surveys",
+                "target": "Role of the teacher mean (M=4.31)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

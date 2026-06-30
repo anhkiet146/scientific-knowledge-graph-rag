@@ -1,0 +1,155 @@
+{
+    "filename": "13-NS-DUONG QUOC CHANH TIN(85-93).json",
+    "paper_title": "DATA PROCESSING FOR GROUND PENETRATING RADAR USING THE CONTINUOUS WAVELET TRANSFORM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Duong Quoc Chanh Tin",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "Duong Hieu Dau",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of Duong Quoc Chanh Tin"
+            },
+            {
+                "id": "College of Natural Science, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of Duong Hieu Dau"
+            },
+            {
+                "id": "Geophysics",
+                "type": "Domain",
+                "description": "Main research field of the paper"
+            },
+            {
+                "id": "Detecting underground targets",
+                "type": "Concept",
+                "description": "The primary objective of the study using GPR"
+            },
+            {
+                "id": "Shallow structure research",
+                "type": "Concept",
+                "description": "Research area involving natural resource detection and urban underground mapping"
+            },
+            {
+                "id": "Ground Penetrating Radar (GPR)",
+                "type": "Method",
+                "description": "A nondestructive equipment used to detect underground targets via electromagnetic waves"
+            },
+            {
+                "id": "Continuous Wavelet Transform (CWT)",
+                "type": "Method",
+                "description": "A signal analysis tool used for determining underground targets"
+            },
+            {
+                "id": "Multiscale Edge Detection (MED)",
+                "type": "Method",
+                "description": "Technique used to determine the boundary and size of anomaly objects"
+            },
+            {
+                "id": "Poisson-Hardy wavelet function",
+                "type": "Method",
+                "description": "A complex wavelet function used for boundary determination"
+            },
+            {
+                "id": "Line Weight Function (LWF)",
+                "type": "Method",
+                "description": "A linear combination of Gaussian functions used for denoising data"
+            },
+            {
+                "id": "Matlab software",
+                "type": "Method",
+                "description": "Software used to run modules for GPR data analysis"
+            },
+            {
+                "id": "Four theoretical models",
+                "type": "Dataset",
+                "description": "Synthetic data involving plastic tube models in different environments"
+            },
+            {
+                "id": "Experimental GPR data of water supply pipe",
+                "type": "Dataset",
+                "description": "Real-world data measured in Ho Chi Minh City"
+            },
+            {
+                "id": "Relative error for position (1.0% - 1.6%)",
+                "type": "Metric",
+                "description": "Measured error range for determining the location of buried objects"
+            },
+            {
+                "id": "Relative error for size (3.7% - 10.0%)",
+                "type": "Metric",
+                "description": "Measured error range for determining the size of buried objects"
+            },
+            {
+                "id": "Antenna frequency (700 MHz)",
+                "type": "Metric",
+                "description": "The frequency used for the GPR antenna in the models"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Duong Quoc Chanh Tin",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Hieu Dau",
+                "target": "College of Natural Science, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Continuous Wavelet Transform (CWT)",
+                "target": "Geophysics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Continuous Wavelet Transform (CWT)",
+                "target": "Detecting underground targets",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Multiscale Edge Detection (MED)",
+                "target": "Detecting underground targets",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Line Weight Function (LWF)",
+                "target": "Continuous Wavelet Transform (CWT)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Continuous Wavelet Transform (CWT)",
+                "target": "Four theoretical models",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Continuous Wavelet Transform (CWT)",
+                "target": "Experimental GPR data of water supply pipe",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Continuous Wavelet Transform (CWT)",
+                "target": "Relative error for position (1.0% - 1.6%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Continuous Wavelet Transform (CWT)",
+                "target": "Relative error for size (3.7% - 10.0%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ground Penetrating Radar (GPR)",
+                "target": "Shallow structure research",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

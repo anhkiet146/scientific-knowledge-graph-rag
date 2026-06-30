@@ -1,0 +1,14 @@
+\begin{table}[H]
+\caption{Comparison of retrieval-augmented QA methods on 45 questions.}
+\label{tab:baselinecomparison}
+\centering
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccc@{}}
+\toprule
+\textbf{Method} & \textbf{Faith.} & \textbf{Relev.} & \textbf{Ctx. P} & \textbf{Ctx. R} & \textbf{Latency (s)} \\
+\midrule
+Lexical BM25 RAG & 0.800 & 0.811 & 0.789 & 0.620 & 27.963 \\
+Vector RAG & 0.803 & 0.830 & 0.853 & 0.664 & 48.524 \\
+Proposed KG-RAG & 0.837 & 0.866 & 0.868 & 0.865 & 24.516 \\
+\bottomrule
+\end{tabular*}
+\end{table}

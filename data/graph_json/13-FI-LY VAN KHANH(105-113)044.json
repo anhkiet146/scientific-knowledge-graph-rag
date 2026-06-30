@@ -1,0 +1,180 @@
+{
+  "filename": "13-FI-LY VAN KHANH(105-113)044.json",
+  "paper_title": "Effects of different C:N ratios on growth and survival of spotted scat (Scatophagus argus) in the biofloc system",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The cultivation of aquatic organisms such as fish and crustaceans."
+      },
+      {
+        "id": "Ly Van Khanh",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Tran Ngoc Hai",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Thanh Phuong",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Vo Nam Son",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "Biofloc technology",
+        "type": "Concept",
+        "description": "A technique in aquaculture focused on water quality management and waste removal via biomass of heterotrophic bacteria."
+      },
+      {
+        "id": "Growth and survival of spotted scat",
+        "type": "Concept",
+        "description": "The primary research problem investigating the development of Scatophagus argus."
+      },
+      {
+        "id": "C:N ratio",
+        "type": "Concept",
+        "description": "The ratio of carbon to nitrogen, a critical factor in biofloc systems."
+      },
+      {
+        "id": "Biofloc system",
+        "type": "Method",
+        "description": "The experimental environment used for culturing the spotted scat."
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "The experimental setup structure used in the study."
+      },
+      {
+        "id": "Molasses",
+        "type": "Method",
+        "description": "The carbohydrate source added to the system to maintain biofloc formation."
+      },
+      {
+        "id": "One-way ANOVA and Duncan test",
+        "type": "Method",
+        "description": "Statistical methods used to determine differences among treatment means."
+      },
+      {
+        "id": "SPSS version 16.0",
+        "type": "Method",
+        "description": "Software used for data analysis."
+      },
+      {
+        "id": "C:N=15:1 treatment",
+        "type": "Method",
+        "description": "The specific treatment ratio that yielded the best results."
+      },
+      {
+        "id": "Average weight (34.9 g)",
+        "type": "Metric",
+        "description": "Final weight of fish in the C:N=15:1 treatment."
+      },
+      {
+        "id": "Survival rate (72.52%)",
+        "type": "Metric",
+        "description": "Survival rate achieved in the C:N=15:1 treatment."
+      },
+      {
+        "id": "Daily weight gain (0.25±0.02 g/day)",
+        "type": "Metric",
+        "description": "Growth rate achieved in the C:N=15:1 treatment."
+      },
+      {
+        "id": "Specific growth rate of weight (1.98 %/day)",
+        "type": "Metric",
+        "description": "Relative growth rate achieved in the C:N=15:1 treatment."
+      },
+      {
+        "id": "Feed conversion ratio (3.63-4.42)",
+        "type": "Metric",
+        "description": "Lowest FCR achieved in the C:N=15:1 treatment."
+      },
+      {
+        "id": "Biomass (1.102 g/m3)",
+        "type": "Metric",
+        "description": "Total biomass yield in the C:N=15:1 treatment."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of different C:N ratios on growth and survival of spotted scat (Scatophagus argus) in the biofloc system",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ly Van Khanh",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Ngoc Hai",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Phuong",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Nam Son",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Biofloc system",
+        "type": "USED_FOR",
+        "target": "Biofloc technology"
+      },
+      {
+        "source": "Molasses",
+        "type": "USED_FOR",
+        "target": "Biofloc technology"
+      },
+      {
+        "source": "C:N=15:1 treatment",
+        "type": "ACHIEVED",
+        "target": "Average weight (34.9 g)"
+      },
+      {
+        "source": "C:N=15:1 treatment",
+        "type": "ACHIEVED",
+        "target": "Survival rate (72.52%)"
+      },
+      {
+        "source": "C:N=15:1 treatment",
+        "type": "ACHIEVED",
+        "target": "Daily weight gain (0.25±0.02 g/day)"
+      },
+      {
+        "source": "C:N=15:1 treatment",
+        "type": "ACHIEVED",
+        "target": "Specific growth rate of weight (1.98 %/day)"
+      },
+      {
+        "source": "C:N=15:1 treatment",
+        "type": "ACHIEVED",
+        "target": "Feed conversion ratio (3.63-4.42)"
+      },
+      {
+        "source": "C:N=15:1 treatment",
+        "type": "ACHIEVED",
+        "target": "Biomass (1.102 g/m3)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "filename": "06-ET-NGUYEN VAN DAT(45-49)006.json",
+  "paper_title": "The preparation of a fine tip calcium ion selective electrode",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Electrochemistry",
+        "type": "Domain",
+        "description": "The study of chemical processes that cause electrons to move."
+      },
+      {
+        "id": "Ion-selective electrodes (ISEs)",
+        "type": "Concept",
+        "description": "Electrochemical ion sensors that convert the activity of a target ion into an electrical potential."
+      },
+      {
+        "id": "Scanning ion conductance microscope (SICM)",
+        "type": "Concept",
+        "description": "A system for scanning living cells without damaging them using a micropipette tip."
+      },
+      {
+        "id": "Fine tip Ca2+-selective electrode",
+        "type": "Method",
+        "description": "The specific electrode manufactured in this study for calcium ion detection."
+      },
+      {
+        "id": "Silanization",
+        "type": "Method",
+        "description": "Process of replacing surface hydroxyl groups with hydrophobic groups on glass."
+      },
+      {
+        "id": "Cocktail A",
+        "type": "Method",
+        "description": "A hydrophobic liquid sensor membrane used in the electrode tip."
+      },
+      {
+        "id": "Ag/AgCl electrode",
+        "type": "Method",
+        "description": "A commonly used reference electrode in biological measurements."
+      },
+      {
+        "id": "N-(Trimethylsilyl)dimethylamine",
+        "type": "Method",
+        "description": "Reagent used for the silanization reaction."
+      },
+      {
+        "id": "Tip diameter (72.6 nm)",
+        "type": "Metric",
+        "description": "The measured diameter of the manufactured microelectrode tip."
+      },
+      {
+        "id": "Detection limit (pCa ≈ 7.5)",
+        "type": "Metric",
+        "description": "The lowest concentration of calcium ions the electrode can detect."
+      },
+      {
+        "id": "Sensitivity (31.2 mV/decade)",
+        "type": "Metric",
+        "description": "The slope of the electromotive force curve in accordance with the Nernst equation."
+      },
+      {
+        "id": "Response time (10 seconds)",
+        "type": "Metric",
+        "description": "The time required for the electrode to reach equilibrium."
+      },
+      {
+        "id": "Nguyen Van Dat",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Huynh Thanh Tuan",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Quoc-Phong Ho",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Lien-Huong Huynh",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Le Thanh Dat",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Ong Thi My Hien",
+        "type": "Author",
+        "description": "Researcher at The Korea Institute of Science and Technology."
+      },
+      {
+        "id": "Ronny Purwadi",
+        "type": "Author",
+        "description": "Researcher at Institut Teknologi Bandung."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam."
+      },
+      {
+        "id": "The Korea Institute of Science and Technology (KIST)",
+        "type": "Institution",
+        "description": "Research institute in the Republic of Korea."
+      },
+      {
+        "id": "Institut Teknologi Bandung",
+        "type": "Institution",
+        "description": "Educational institution in Indonesia."
+      }
+    ],
+    "relations": [
+      {
+        "source": "The preparation of a fine tip calcium ion selective electrode",
+        "target": "Electrochemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Fine tip Ca2+-selective electrode",
+        "target": "Tip diameter (72.6 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fine tip Ca2+-selective electrode",
+        "target": "Detection limit (pCa ≈ 7.5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fine tip Ca2+-selective electrode",
+        "target": "Sensitivity (31.2 mV/decade)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fine tip Ca2+-selective electrode",
+        "target": "Response time (10 seconds)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fine tip Ca2+-selective electrode",
+        "target": "Scanning ion conductance microscope (SICM)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Silanization",
+        "target": "Fine tip Ca2+-selective electrode",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Nguyen Van Dat",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Thanh Tuan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Quoc-Phong Ho",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lien-Huong Huynh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Le Thanh Dat",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ong Thi My Hien",
+        "target": "The Korea Institute of Science and Technology (KIST)",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ronny Purwadi",
+        "target": "Institut Teknologi Bandung",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

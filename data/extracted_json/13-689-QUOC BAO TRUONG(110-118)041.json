@@ -1,0 +1,190 @@
+{
+    "filename": "13-689-QUOC BAO TRUONG(110-118)041.json",
+    "paper_title": "Face and number plate recognition for car anti-theft",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Quoc Bao Truong",
+                "type": "Author",
+                "description": "Author of the paper from Can Tho University."
+            },
+            {
+                "id": "Tan-Loc Tran",
+                "type": "Author",
+                "description": "Author of the paper from Soc Trang Vocational College."
+            },
+            {
+                "id": "Tan-Kiet Thanh Nguyen",
+                "type": "Author",
+                "description": "Author of the paper from National Political Publishing House Can Tho Branch."
+            },
+            {
+                "id": "Huu-Cuong Nguyen",
+                "type": "Author",
+                "description": "Author of the paper from Can Tho University."
+            },
+            {
+                "id": "College of Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam."
+            },
+            {
+                "id": "Soc Trang Vocational College",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam."
+            },
+            {
+                "id": "National Political Publishing House Can Tho Branch",
+                "type": "Institution",
+                "description": "Organization in Viet Nam."
+            },
+            {
+                "id": "Computer Vision",
+                "type": "Domain",
+                "description": "The main field of study involving image and video recognition."
+            },
+            {
+                "id": "Car anti-theft",
+                "type": "Concept",
+                "description": "The primary problem research aimed at preventing vehicle theft."
+            },
+            {
+                "id": "Face recognition",
+                "type": "Concept",
+                "description": "Technology used to identify individuals based on facial features."
+            },
+            {
+                "id": "Number plate recognition",
+                "type": "Concept",
+                "description": "Technology used to identify vehicle registration plates."
+            },
+            {
+                "id": "Convolutional Neural Network (CNN)",
+                "type": "Method",
+                "description": "A deep learning architecture used for image classification and face recognition."
+            },
+            {
+                "id": "Cascade trainer",
+                "type": "Method",
+                "description": "Method used to train number plate object recognition."
+            },
+            {
+                "id": "Viola-Jones algorithm",
+                "type": "Method",
+                "description": "Machine learning model used for face detection."
+            },
+            {
+                "id": "Optical Character Recognition (OCR)",
+                "type": "Method",
+                "description": "Technique for recognizing characters on license plates."
+            },
+            {
+                "id": "MATLAB",
+                "type": "Method",
+                "description": "Software tool used for system implementation and dataset extraction."
+            },
+            {
+                "id": "License plates dataset",
+                "type": "Dataset",
+                "description": "Dataset containing 500 positive and 800 negative license plate images."
+            },
+            {
+                "id": "10-labels dataset",
+                "type": "Dataset",
+                "description": "The first dataset used for training the driver recognition model."
+            },
+            {
+                "id": "12-labels dataset",
+                "type": "Dataset",
+                "description": "The second dataset used for driver identification experiments."
+            },
+            {
+                "id": "Accuracy (over 99%)",
+                "type": "Metric",
+                "description": "The identification success rate achieved by the system."
+            },
+            {
+                "id": "Model error (0)",
+                "type": "Metric",
+                "description": "The error rate achieved at training epoch 16."
+            },
+            {
+                "id": "Training epochs (20)",
+                "type": "Metric",
+                "description": "The number of cycles the model was trained for."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Quoc Bao Truong",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huu-Cuong Nguyen",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tan-Loc Tran",
+                "target": "Soc Trang Vocational College",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tan-Kiet Thanh Nguyen",
+                "target": "National Political Publishing House Can Tho Branch",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "Computer Vision",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "Face recognition",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Cascade trainer",
+                "target": "Number plate recognition",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Optical Character Recognition (OCR)",
+                "target": "Number plate recognition",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "Accuracy (over 99%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "Model error (0)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "10-labels dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Convolutional Neural Network (CNN)",
+                "target": "12-labels dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Cascade trainer",
+                "target": "License plates dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Car anti-theft",
+                "target": "Computer Vision",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

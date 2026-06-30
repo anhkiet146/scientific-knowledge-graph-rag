@@ -1,0 +1,160 @@
+{
+    "filename": "05-FT-LIEU MY DONG(33-39)013.json",
+    "paper_title": "Inhibitory effects of cinnamon oil, acetic acid, and lactic acid on Escherichia coli ATCC 23631",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Antimicrobial activity",
+                "type": "Concept",
+                "description": "The ability of substances to inhibit the growth or kill microorganisms like E. coli."
+            },
+            {
+                "id": "Food preservation",
+                "type": "Concept",
+                "description": "The process of treating and handling food to stop or slow down spoilage."
+            },
+            {
+                "id": "Synergic effect",
+                "type": "Concept",
+                "description": "The interaction between cinnamon oil and organic acids that enhances antimicrobial efficacy."
+            },
+            {
+                "id": "Cinnamon oil",
+                "type": "Method",
+                "description": "Essential oil from Cinnamomum cassia used as a natural antimicrobial agent."
+            },
+            {
+                "id": "Acetic acid",
+                "type": "Method",
+                "description": "An organic acid tested for its inhibitory effects on bacteria."
+            },
+            {
+                "id": "Lactic acid",
+                "type": "Method",
+                "description": "An organic acid tested for its synergistic antimicrobial effects with cinnamon oil."
+            },
+            {
+                "id": "Agar disk diffusion method",
+                "type": "Method",
+                "description": "Assay used to determine the diameter of the inhibition zone."
+            },
+            {
+                "id": "Broth dilution method",
+                "type": "Method",
+                "description": "Assay used to determine the minimum bactericidal concentration (MBC)."
+            },
+            {
+                "id": "UV absorption determination",
+                "type": "Method",
+                "description": "Method to evaluate cell membrane integrity by measuring leaked cytoplasmic contents."
+            },
+            {
+                "id": "Inhibition zones (3.00 to 15.33 mm)",
+                "type": "Metric",
+                "description": "Measured diameter of bacterial growth inhibition on agar plates."
+            },
+            {
+                "id": "MBC values (300 to 5,000 ppm)",
+                "type": "Metric",
+                "description": "Range of minimum bactericidal concentrations determined for the tested agents."
+            },
+            {
+                "id": "MIC (4 µL/mL)",
+                "type": "Metric",
+                "description": "Minimum inhibitory concentration of cinnamon oil against E. coli."
+            },
+            {
+                "id": "MBC (500 ppm)",
+                "type": "Metric",
+                "description": "Minimum bactericidal concentration of cinnamon oil in liquid medium."
+            },
+            {
+                "id": "Food Science",
+                "type": "Domain",
+                "description": "The study of the physical, biological, and chemical makeup of food and the concepts underlying food processing."
+            },
+            {
+                "id": "Lieu My Dong",
+                "type": "Author",
+                "description": "Lead author of the study affiliated with Ho Chi Minh City University of Food Industry."
+            },
+            {
+                "id": "Dang Thi Kim Thuy",
+                "type": "Author",
+                "description": "Co-author of the study affiliated with the Institute of Tropical Biology."
+            },
+            {
+                "id": "Ho Chi Minh City University of Food Industry",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Institute of Tropical Biology",
+                "type": "Institution",
+                "description": "Research institute in Vietnam."
+            },
+            {
+                "id": "Inhibitory effects of cinnamon oil, acetic acid, and lactic acid on Escherichia coli ATCC 23631",
+                "type": "Concept",
+                "description": "The primary research title of the study."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Inhibitory effects of cinnamon oil, acetic acid, and lactic acid on Escherichia coli ATCC 23631",
+                "target": "Food Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Lieu My Dong",
+                "target": "Ho Chi Minh City University of Food Industry",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thi Kim Thuy",
+                "target": "Institute of Tropical Biology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Agar disk diffusion method",
+                "target": "Inhibition zones (3.00 to 15.33 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Broth dilution method",
+                "target": "MBC values (300 to 5,000 ppm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cinnamon oil",
+                "target": "MIC (4 µL/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cinnamon oil",
+                "target": "MBC (500 ppm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cinnamon oil",
+                "target": "Antimicrobial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Acetic acid",
+                "target": "Antimicrobial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Lactic acid",
+                "target": "Antimicrobial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "UV absorption determination",
+                "target": "Synergic effect",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

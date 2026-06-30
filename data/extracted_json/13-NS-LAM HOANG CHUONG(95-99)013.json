@@ -1,0 +1,125 @@
+{
+    "filename": "13-NS-LAM HOANG CHUONG(95-99)013.json",
+    "paper_title": "Law of large number for one dimensional Markov process",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Law of large number for one dimensional Markov process",
+                "type": "Concept",
+                "description": "The main research problem focusing on the convergence of a 1D Markov process."
+            },
+            {
+                "id": "Markov process",
+                "type": "Concept",
+                "description": "A stochastic process with the state space Z where future states depend only on the current state."
+            },
+            {
+                "id": "Law of large numbers",
+                "type": "Concept",
+                "description": "A theorem that describes the result of performing the same experiment a large number of times."
+            },
+            {
+                "id": "Birth-death process",
+                "type": "Concept",
+                "description": "A special case of continuous-time Markov process where the state transitions are of only two types: births and deaths."
+            },
+            {
+                "id": "Infinitesimal generator L",
+                "type": "Method",
+                "description": "An operator that describes the movement of the Markov process at an infinitesimal time."
+            },
+            {
+                "id": "Chebyshev's inequality",
+                "type": "Method",
+                "description": "A probabilistic inequality used to prove convergence in probability."
+            },
+            {
+                "id": "Operator equation Lg = f",
+                "type": "Method",
+                "description": "The analytical method used to solve for the limit and rate of convergence."
+            },
+            {
+                "id": "Rate of convergence (O(t^-1))",
+                "type": "Metric",
+                "description": "The specific speed at which the process converges to the constant G."
+            },
+            {
+                "id": "Mathematics and Statistics",
+                "type": "Domain",
+                "description": "The general field of study including probability theory."
+            },
+            {
+                "id": "Lam Hoang Chuong",
+                "type": "Author",
+                "description": "Lead author of the research paper."
+            },
+            {
+                "id": "Le Thi My Xuan",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "Nguyen Thi Thu Ha",
+                "type": "Author",
+                "description": "Co-author and Master student."
+            },
+            {
+                "id": "Le Nguyen Thuy Van",
+                "type": "Author",
+                "description": "Co-author and Bachelor student."
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of the primary researchers."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The university where the research was conducted."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Law of large number for one dimensional Markov process",
+                "target": "Mathematics and Statistics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Operator equation Lg = f",
+                "target": "Law of large numbers",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Infinitesimal generator L",
+                "target": "Markov process",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Operator equation Lg = f",
+                "target": "Rate of convergence (O(t^-1))",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Lam Hoang Chuong",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thi My Xuan",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thu Ha",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Nguyen Thuy Van",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

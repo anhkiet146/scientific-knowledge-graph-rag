@@ -1,0 +1,175 @@
+{
+    "filename": "301-Le Anh Tuan(70-79).json",
+    "paper_title": "AN OVERVIEW OF THE RENEWABLE ENERGY POTENTIALS IN THE MEKONG RIVER DELTA, VIETNAM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Le Anh Tuan",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Research Institute for Climate Change",
+                "type": "Institution",
+                "description": "Research institute affiliated with Le Anh Tuan."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University where the research was conducted."
+            },
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "Main research field of the paper."
+            },
+            {
+                "id": "Climate Change",
+                "type": "Concept",
+                "description": "The environmental issue influencing renewable energy strategies."
+            },
+            {
+                "id": "Renewable energy potential",
+                "type": "Concept",
+                "description": "The available capacity of energy from renewable sources in the MD."
+            },
+            {
+                "id": "PRECIS",
+                "type": "Method",
+                "description": "Regional climate model used for downscaling Global Circulation Models."
+            },
+            {
+                "id": "MesoMap simulation",
+                "type": "Method",
+                "description": "Numerical weather model system for wind speed distribution."
+            },
+            {
+                "id": "MASS",
+                "type": "Method",
+                "description": "Mesoscale Atmospheric Simulation System used for weather forecasting."
+            },
+            {
+                "id": "DirInt model",
+                "type": "Method",
+                "description": "Model used for estimating daily direct normal irradiation for overcast conditions."
+            },
+            {
+                "id": "REST2 model",
+                "type": "Method",
+                "description": "Model used for estimating daily direct normal irradiation for cloudless days."
+            },
+            {
+                "id": "Microsoft Excel",
+                "type": "Method",
+                "description": "Software used for trend line fitting."
+            },
+            {
+                "id": "Wind turbines",
+                "type": "Method",
+                "description": "Equipment used for wind power generation."
+            },
+            {
+                "id": "Rice production statistical data 2014",
+                "type": "Dataset",
+                "description": "Statistical dataset of rice production in the Mekong Delta."
+            },
+            {
+                "id": "National Master Plan for Power Development 2011-2020",
+                "type": "Dataset",
+                "description": "National policy document containing power development data."
+            },
+            {
+                "id": "Average daily temperatures (25-29°C)",
+                "type": "Metric",
+                "description": "Recorded temperature range in the Mekong Delta."
+            },
+            {
+                "id": "Average wind speed (5.57-6.0 m/s)",
+                "type": "Metric",
+                "description": "Potential wind speed reached at 80 m height."
+            },
+            {
+                "id": "Rice husk heating value (4,401-5,771 Cal/gr)",
+                "type": "Metric",
+                "description": "Energy content potential from rice husk."
+            },
+            {
+                "id": "Average solar intensity (5 kWh/m2 per day)",
+                "type": "Metric",
+                "description": "Average energy potential from solar radiation."
+            },
+            {
+                "id": "CO2 emission reduction (143,761 tCO2/year)",
+                "type": "Metric",
+                "description": "Expected environmental impact of the Bac Lieu wind plant."
+            },
+            {
+                "id": "Total installed capacity phase 1 (16 MW)",
+                "type": "Metric",
+                "description": "Capacity of the initial phase of the Bac Lieu wind project."
+            },
+            {
+                "id": "Sunshine hours Can Tho (2,300 ± 200 hours/year)",
+                "type": "Metric",
+                "description": "Annual sunshine duration recorded in Can Tho."
+            }
+        ],
+        "relations": [
+            {
+                "source": "AN OVERVIEW OF THE RENEWABLE ENERGY POTENTIALS IN THE MEKONG RIVER DELTA, VIETNAM",
+                "target": "Renewable Energy",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Anh Tuan",
+                "target": "Research Institute for Climate Change",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Anh Tuan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "PRECIS",
+                "target": "Climate Change",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "MesoMap simulation",
+                "target": "Average wind speed (5.57-6.0 m/s)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Wind turbines",
+                "target": "Total installed capacity phase 1 (16 MW)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Wind turbines",
+                "target": "CO2 emission reduction (143,761 tCO2/year)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "MASS",
+                "target": "Renewable energy potential",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DirInt model",
+                "target": "Renewable energy potential",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "REST2 model",
+                "target": "Renewable energy potential",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "MesoMap simulation",
+                "target": "National Master Plan for Power Development 2011-2020",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+{
+  "filename": "304-Le Anh Tuan 1(106-112).json",
+  "paper_title": "PILOT APPLICATION ON SOLAR ENERGY COMBINED ELECTRICITY GRID TO A RURAL WATER SUPPLY STATION IN CAN THO CITY",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Le Anh Tuan",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Research Institute for Climate Change",
+        "type": "Institution",
+        "description": "Research unit where the author is affiliated"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University where the research was conducted"
+      },
+      {
+        "id": "Renewable Energy",
+        "type": "Domain",
+        "description": "The primary research field of the paper"
+      },
+      {
+        "id": "Clean Development Mechanism",
+        "type": "Concept",
+        "description": "A project framework for greenhouse-gas emission reduction"
+      },
+      {
+        "id": "Greenhouse-gas emission reduction",
+        "type": "Concept",
+        "description": "The environmental objective of the pilot project"
+      },
+      {
+        "id": "Solar energy combined electricity grid system",
+        "type": "Method",
+        "description": "The power system designed for the water supply station"
+      },
+      {
+        "id": "Experts Opinion Method",
+        "type": "Method",
+        "description": "Method used for selecting renewable energy alternatives"
+      },
+      {
+        "id": "FLEXmax 60",
+        "type": "Method",
+        "description": "An automatically charge controller used in the solar system"
+      },
+      {
+        "id": "Maximum Power Point Tracking",
+        "type": "Method",
+        "description": "Algorithm used by the charge controller to optimize power"
+      },
+      {
+        "id": "Mono-crystalline solar cell panel",
+        "type": "Method",
+        "description": "Specific type of material/panel used for solar generation"
+      },
+      {
+        "id": "Can Tho Hydro-Meteorological Station solar records",
+        "type": "Dataset",
+        "description": "Recorded data of daily solar radiation and sunshine duration"
+      },
+      {
+        "id": "Last 128 days of operational data",
+        "type": "Dataset",
+        "description": "Logged data from the FLEXMAX controller for review"
+      },
+      {
+        "id": "Maximum daily discharge (50 m3/day)",
+        "type": "Metric",
+        "description": "Design capacity of the water supply station"
+      },
+      {
+        "id": "Water tower height (10 meter)",
+        "type": "Metric",
+        "description": "Physical metric of the storage structure"
+      },
+      {
+        "id": "Solar irradiance threshold (120 W/m2)",
+        "type": "Metric",
+        "description": "Threshold value for defining sunshine duration"
+      },
+      {
+        "id": "Actual power for starting engines (523.34 W)",
+        "type": "Metric",
+        "description": "Calculated power requirement for the pumps"
+      },
+      {
+        "id": "Total installation cost (80 million Vietnamese Dongs)",
+        "type": "Metric",
+        "description": "Financial metric for the solar system implementation"
+      },
+      {
+        "id": "Highest power production (8-10-hour sunshine/day)",
+        "type": "Metric",
+        "description": "Operational performance metric observed in dry season"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Solar energy combined electricity grid system",
+        "target": "Renewable Energy",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Le Anh Tuan",
+        "target": "Research Institute for Climate Change",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Anh Tuan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Solar energy combined electricity grid system",
+        "target": "Greenhouse-gas emission reduction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "FLEXmax 60",
+        "target": "Last 128 days of operational data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Solar energy combined electricity grid system",
+        "target": "Highest power production (8-10-hour sunshine/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Mono-crystalline solar cell panel",
+        "target": "Actual power for starting engines (523.34 W)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Experts Opinion Method",
+        "target": "Solar energy combined electricity grid system",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

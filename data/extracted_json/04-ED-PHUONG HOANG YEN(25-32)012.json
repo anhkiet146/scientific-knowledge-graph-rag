@@ -1,0 +1,135 @@
+{
+    "filename": "04-ED-PHUONG HOANG YEN(25-32)012.json",
+    "paper_title": "Employability attributes of interpretation and translation students in Vietnam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Higher Education",
+                "type": "Domain",
+                "description": "The main research field focusing on graduate employability and curriculum development."
+            },
+            {
+                "id": "Graduate Employability",
+                "type": "Concept",
+                "description": "The ability of graduates to find, maintain, and move between jobs effectively."
+            },
+            {
+                "id": "English Translation and Interpretation (ETI)",
+                "type": "Concept",
+                "description": "The academic program and professional field involving the transfer of written or spoken language."
+            },
+            {
+                "id": "Employability Attributes",
+                "type": "Concept",
+                "description": "A set of skills, knowledge, and personal attributes essential for job performance."
+            },
+            {
+                "id": "Survey",
+                "type": "Method",
+                "description": "Research method used to collect data from ETI alumni regarding their workplace attributes."
+            },
+            {
+                "id": "Questionnaire",
+                "type": "Method",
+                "description": "The primary research instrument adapted from Álvarez-Álvarez and Arnáiz-Uzquiza (2017)."
+            },
+            {
+                "id": "48 ETI alumni survey data",
+                "type": "Dataset",
+                "description": "Numerical survey responses from 48 graduates of a university in the Mekong Delta."
+            },
+            {
+                "id": "Writing English documents (77.1%)",
+                "type": "Metric",
+                "description": "The percentage of alumni required to write English documents at their workplace."
+            },
+            {
+                "id": "Communicating with clients in English (75%)",
+                "type": "Metric",
+                "description": "The percentage of alumni required to communicate with clients in English."
+            },
+            {
+                "id": "Translating documents English to Vietnamese (66.7%)",
+                "type": "Metric",
+                "description": "Frequency of English to Vietnamese translation tasks."
+            },
+            {
+                "id": "Administrative tasks (62.5%)",
+                "type": "Metric",
+                "description": "Frequency of administrative duties performed by alumni."
+            },
+            {
+                "id": "Social skills importance (72.9%)",
+                "type": "Metric",
+                "description": "The percentage of alumni suggesting social skills need strengthening."
+            },
+            {
+                "id": "Computer skills importance (64.6%)",
+                "type": "Metric",
+                "description": "The percentage of alumni suggesting computer skills need strengthening."
+            },
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "Primary author of the paper."
+            },
+            {
+                "id": "Huynh Van Hien",
+                "type": "Author",
+                "description": "Co-author of the paper."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution in Vietnam where the authors are affiliated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Employability attributes of interpretation and translation students in Vietnam",
+                "target": "Higher Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Van Hien",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Survey",
+                "target": "Employability Attributes",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Survey",
+                "target": "48 ETI alumni survey data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Survey",
+                "target": "Writing English documents (77.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Survey",
+                "target": "Communicating with clients in English (75%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Survey",
+                "target": "Social skills importance (72.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Survey",
+                "target": "Computer skills importance (64.6%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

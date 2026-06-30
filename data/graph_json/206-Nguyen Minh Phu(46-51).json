@@ -1,0 +1,180 @@
+{
+  "filename": "206-Nguyen Minh Phu(46-51).json",
+  "paper_title": "PREDICTION IN OFF-DESIGN OPERATION FOR THE HELICAL HEAT RECOVERY EXCHANGER",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Off-design operation of helical heat recovery exchanger",
+        "type": "Concept",
+        "description": "Prediction of performance in conditions other than the original design specifications for helical heat exchangers."
+      },
+      {
+        "id": "Single phase heat transfer",
+        "type": "Concept",
+        "description": "The process of thermal energy exchange within a single phase of matter."
+      },
+      {
+        "id": "Pressure loss",
+        "type": "Concept",
+        "description": "The reduction in pressure as a fluid flows through a heat exchanger."
+      },
+      {
+        "id": "Simplified model",
+        "type": "Method",
+        "description": "A mathematical model developed to predict heat transfer and pressure loss without requiring internal geometrical information."
+      },
+      {
+        "id": "LMTD method",
+        "type": "Method",
+        "description": "Log Mean Temperature Difference method used to determine the temperature driving force for heat transfer."
+      },
+      {
+        "id": "ε-NTU method",
+        "type": "Method",
+        "description": "Effectiveness-Number of Transfer Units method used to calculate the rate of heat transfer in heat exchangers."
+      },
+      {
+        "id": "Rogers and Mayhew’s correlation",
+        "type": "Method",
+        "description": "Empirical correlation for computing heat transfer coefficients inside helical tubes."
+      },
+      {
+        "id": "Zukauskas’s correlation",
+        "type": "Method",
+        "description": "Correlation used for shell-side heat transfer coefficients in tube bundles."
+      },
+      {
+        "id": "EES software",
+        "type": "Method",
+        "description": "Engineering Equation Solver software used to program and solve the mathematical models."
+      },
+      {
+        "id": "Experimental apparatus",
+        "type": "Method",
+        "description": "The setup including heaters, pumps, and sensors used to validate the mathematical model."
+      },
+      {
+        "id": "Experimental results data",
+        "type": "Dataset",
+        "description": "Data collected from the experimental apparatus to validate simulation results."
+      },
+      {
+        "id": "Differences between calculation and experiment (±1 to ±5%)",
+        "type": "Metric",
+        "description": "The tolerance range showing agreement between the model and experimental results."
+      },
+      {
+        "id": "Accuracy of pressure transducers (±0.075%)",
+        "type": "Metric",
+        "description": "The measurement error margin for pressure difference sensors."
+      },
+      {
+        "id": "Precision of thermocouples (0.1ºC)",
+        "type": "Metric",
+        "description": "The temperature measurement resolution of the sensors used."
+      },
+      {
+        "id": "Flow meter resolution (0.0028 L/s)",
+        "type": "Metric",
+        "description": "The minimum detectable change in water volumetric flow rate."
+      },
+      {
+        "id": "Renewable Energy",
+        "type": "Domain",
+        "description": "The primary research field of the journal issue."
+      },
+      {
+        "id": "Nguyen Nhat Minh Phuong",
+        "type": "Author",
+        "description": "Researcher at Ho Chi Minh City University of Food Industry."
+      },
+      {
+        "id": "Hoang Trong Tran Huy",
+        "type": "Author",
+        "description": "Researcher at Ho Chi Minh City University of Food Industry."
+      },
+      {
+        "id": "Le The Truyen",
+        "type": "Author",
+        "description": "Researcher at Ho Chi Minh City University of Food Industry."
+      },
+      {
+        "id": "Trinh Tien Tho",
+        "type": "Author",
+        "description": "Researcher at Ho Chi Minh City University of Food Industry."
+      },
+      {
+        "id": "Ho Chi Minh City University of Food Industry",
+        "type": "Institution",
+        "description": "The academic institution where the authors are affiliated."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Prediction in off-design operation for the helical heat recovery exchanger",
+        "target": "Renewable Energy",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Simplified model",
+        "target": "Off-design operation of helical heat recovery exchanger",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Simplified model",
+        "target": "Differences between calculation and experiment (±1 to ±5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Simplified model",
+        "target": "Experimental results data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "LMTD method",
+        "target": "Simplified model",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ε-NTU method",
+        "target": "Simplified model",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Nguyen Nhat Minh Phuong",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hoang Trong Tran Huy",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le The Truyen",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Trinh Tien Tho",
+        "target": "Ho Chi Minh City University of Food Industry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Experimental apparatus",
+        "target": "Accuracy of pressure transducers (±0.075%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Experimental apparatus",
+        "target": "Precision of thermocouples (0.1ºC)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Experimental apparatus",
+        "target": "Flow meter resolution (0.0028 L/s)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

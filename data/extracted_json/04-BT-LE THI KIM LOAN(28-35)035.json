@@ -1,0 +1,155 @@
+{
+    "filename": "04-BT-LE THI KIM LOAN(28-35)035.json",
+    "paper_title": "Optimization of gluten -free bread formulation from bread improver and fermentation time",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Gluten-free bread formulation",
+                "type": "Concept",
+                "description": "The study focus on optimizing the recipe for bread without gluten for celiac patients."
+            },
+            {
+                "id": "Celiac disease",
+                "type": "Concept",
+                "description": "An immune reaction to eating gluten that drives the demand for gluten-free products."
+            },
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary field of research concerning food processing and formulation."
+            },
+            {
+                "id": "Le Thi Kim Loan",
+                "type": "Author",
+                "description": "Researcher from Tien Giang University."
+            },
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Tien Giang University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the first author is affiliated."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the second author is affiliated."
+            },
+            {
+                "id": "Box–Behnken factorial design",
+                "type": "Method",
+                "description": "An experimental design for response surface methodology."
+            },
+            {
+                "id": "Response surface methodology (RSM)",
+                "type": "Method",
+                "description": "Statistical technique for process optimization."
+            },
+            {
+                "id": "Hydroxyl propyl methyl cellulose (HPMC)",
+                "type": "Method",
+                "description": "A hydrocolloid used as a bread improver to mimic gluten properties."
+            },
+            {
+                "id": "Yeast",
+                "type": "Method",
+                "description": "Saccharomyces cerevisiae used as a leavening agent."
+            },
+            {
+                "id": "Maltodextrin",
+                "type": "Method",
+                "description": "A carbohydrate used to improve bread quality and fermentation."
+            },
+            {
+                "id": "Kjeldahl method",
+                "type": "Method",
+                "description": "Standard procedure for analyzing protein content."
+            },
+            {
+                "id": "CT3 Texture Analyzer",
+                "type": "Method",
+                "description": "Equipment used for Texture Profile Analysis (TPA)."
+            },
+            {
+                "id": "Experimental results of 46 runs",
+                "type": "Dataset",
+                "description": "The numerical results generated from the Box-Behnken design matrix."
+            },
+            {
+                "id": "Specific volume (2.4 cm3/g)",
+                "type": "Metric",
+                "description": "The maximum specific volume achieved under optimized conditions."
+            },
+            {
+                "id": "Sensory evaluation score (7.4)",
+                "type": "Metric",
+                "description": "The highest sensory score achieved for the optimized formulation."
+            },
+            {
+                "id": "Hardness (1123-1201 g/mm2)",
+                "type": "Metric",
+                "description": "The measurement of bread crumb firmness at optimal levels."
+            },
+            {
+                "id": "R2 (84.9%)",
+                "type": "Metric",
+                "description": "Statistical coefficient indicating the model fit for specific volume."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Gluten-free bread formulation",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Le Thi Kim Loan",
+                "target": "Tien Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "Gluten-free bread formulation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hydroxyl propyl methyl cellulose (HPMC)",
+                "target": "Gluten-free bread formulation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "Specific volume (2.4 cm3/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "Sensory evaluation score (7.4)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CT3 Texture Analyzer",
+                "target": "Hardness (1123-1201 g/mm2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Box–Behnken factorial design",
+                "target": "Experimental results of 46 runs",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "R2 (84.9%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

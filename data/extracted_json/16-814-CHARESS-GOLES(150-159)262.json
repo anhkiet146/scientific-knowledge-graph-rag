@@ -1,0 +1,175 @@
+{
+    "filename": "16-814-CHARESS-GOLES(150-159)262.json",
+    "paper_title": "Beyond the pandemic: The changing landscape of technology integration in higher education in Central Visayas, Philippines",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Charess E. Goles",
+                "type": "Author",
+                "description": "Researcher and author of the study."
+            },
+            {
+                "id": "Joje Mar P. Sanchez",
+                "type": "Author",
+                "description": "Corresponding author and researcher affiliated with Cebu Normal University."
+            },
+            {
+                "id": "Gino G. Sumalinog",
+                "type": "Author",
+                "description": "Researcher and author of the study."
+            },
+            {
+                "id": "Janet A. Mananay",
+                "type": "Author",
+                "description": "Researcher and author of the study."
+            },
+            {
+                "id": "Isidro Max V. Alejandro",
+                "type": "Author",
+                "description": "Researcher and author of the study."
+            },
+            {
+                "id": "College of Teacher Education, Cebu Normal University",
+                "type": "Institution",
+                "description": "Higher education institution in the Philippines."
+            },
+            {
+                "id": "Institute for Research in Innovative Instructional Delivery, Cebu Normal University",
+                "type": "Institution",
+                "description": "Research institute focused on instructional delivery."
+            },
+            {
+                "id": "Higher Education",
+                "type": "Domain",
+                "description": "The primary field of research concerning tertiary education."
+            },
+            {
+                "id": "Educational Technology",
+                "type": "Domain",
+                "description": "The study and ethical practice of facilitating learning and improving performance by creating, using, and managing appropriate technological processes and resources."
+            },
+            {
+                "id": "Technology integration",
+                "type": "Concept",
+                "description": "The use of technology resources in daily classroom practices."
+            },
+            {
+                "id": "Hybrid learning",
+                "type": "Concept",
+                "description": "Educational approach that combines online educational materials and opportunities for interaction online with physical place-based classroom methods."
+            },
+            {
+                "id": "Flipped classroom",
+                "type": "Concept",
+                "description": "Instructional strategy and a type of blended learning that reverses the traditional learning environment."
+            },
+            {
+                "id": "Digital literacy",
+                "type": "Concept",
+                "description": "The ability to find, evaluate, and communicate information through various digital platforms."
+            },
+            {
+                "id": "Descriptive phenomenology",
+                "type": "Method",
+                "description": "A research design used to explore lived experiences of participants."
+            },
+            {
+                "id": "Semi-structured interview guide",
+                "type": "Method",
+                "description": "A qualitative data collection tool with open-ended questions."
+            },
+            {
+                "id": "Thematic analysis (Braun and Clarke, 2006)",
+                "type": "Method",
+                "description": "A method for identifying, analyzing, and reporting patterns (themes) within data."
+            },
+            {
+                "id": "Purposive sampling",
+                "type": "Method",
+                "description": "A non-probability sampling technique used to select participants based on specific characteristics."
+            },
+            {
+                "id": "Sample size (8 college teachers)",
+                "type": "Metric",
+                "description": "The number of participants involved in the qualitative study."
+            },
+            {
+                "id": "Interview duration (45-60 minutes)",
+                "type": "Metric",
+                "description": "The length of time taken for each data collection session."
+            },
+            {
+                "id": "Work experience (3 years)",
+                "type": "Metric",
+                "description": "Minimum criteria for teacher participation in the study."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Charess E. Goles",
+                "target": "College of Teacher Education, Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Joje Mar P. Sanchez",
+                "target": "College of Teacher Education, Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Joje Mar P. Sanchez",
+                "target": "Institute for Research in Innovative Instructional Delivery, Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Gino G. Sumalinog",
+                "target": "College of Teacher Education, Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Janet A. Mananay",
+                "target": "College of Teacher Education, Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Isidro Max V. Alejandro",
+                "target": "College of Teacher Education, Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Descriptive phenomenology",
+                "target": "Sample size (8 college teachers)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Semi-structured interview guide",
+                "target": "Interview duration (45-60 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Purposive sampling",
+                "target": "Work experience (3 years)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive phenomenology",
+                "target": "Technology integration",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Thematic analysis (Braun and Clarke, 2006)",
+                "target": "Technology integration",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Beyond the pandemic: The changing landscape of technology integration in higher education in Central Visayas, Philippines",
+                "target": "Higher Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Beyond the pandemic: The changing landscape of technology integration in higher education in Central Visayas, Philippines",
+                "target": "Educational Technology",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

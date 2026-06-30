@@ -1,0 +1,190 @@
+{
+    "filename": "06-E7-LE THI XA(39-48)093.json",
+    "paper_title": "Phosphate solubilization, indole-3-acetic acid synthesis and nitrogen fixation ability of various indigenous microorganism communities from different agriecosystem habitats",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phosphate solubilization, indole-3-acetic acid synthesis and nitrogen fixation ability of various indigenous microorganism communities from different agriecosystem habitats",
+                "type": "Concept",
+                "description": "Title and main research problem of the study focusing on microbial functionalities."
+            },
+            {
+                "id": "Phosphate solubilization",
+                "type": "Concept",
+                "description": "The process of dissolving insoluble phosphate compounds into soluble forms."
+            },
+            {
+                "id": "Indole-3-acetic acid (IAA) synthesis",
+                "type": "Concept",
+                "description": "Biosynthesis of a plant growth hormone by microorganisms."
+            },
+            {
+                "id": "Nitrogen fixation",
+                "type": "Concept",
+                "description": "The conversion of atmospheric nitrogen into ammonia or related nitrogenous compounds."
+            },
+            {
+                "id": "Soil fertility",
+                "type": "Concept",
+                "description": "The ability of soil to sustain plant growth by providing essential nutrients."
+            },
+            {
+                "id": "Indigenous microorganism communities (IMOCs)",
+                "type": "Method",
+                "description": "Consortia of beneficial fungi and bacteria collected from various soils."
+            },
+            {
+                "id": "NBRIP liquid media",
+                "type": "Method",
+                "description": "National Botanical Research Institute's Phosphate liquid medium used for phosphate solubilization testing."
+            },
+            {
+                "id": "Tricalcium phosphate (TCP)",
+                "type": "Method",
+                "description": "Insoluble phosphorus source used in the experiments."
+            },
+            {
+                "id": "Tryptophan",
+                "type": "Method",
+                "description": "Amino acid supplement used as a precursor for IAA synthesis."
+            },
+            {
+                "id": "N-free Burks liquid media",
+                "type": "Method",
+                "description": "Nitrogen-free medium used to test biological nitrogen fixation."
+            },
+            {
+                "id": "PCR",
+                "type": "Method",
+                "description": "Polymerase chain reaction used to amplify nifH gene sequences."
+            },
+            {
+                "id": "polF/polR primers",
+                "type": "Method",
+                "description": "Specific primers used for detecting the nifH functional gene."
+            },
+            {
+                "id": "MINITAB version 16",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Experimental datasets from 15 IMOCs",
+                "type": "Dataset",
+                "description": "Numerical data collected from 14 individual habitats and 1 mixed community."
+            },
+            {
+                "id": "Max P2O5 solubilized (> 2,000 mg/L)",
+                "type": "Metric",
+                "description": "Highest level of dissolved phosphate achieved in the study."
+            },
+            {
+                "id": "Highest IAA amount (56.6 mg/L)",
+                "type": "Metric",
+                "description": "Maximum concentration of IAA produced by IMOCs with tryptophan."
+            },
+            {
+                "id": "Nitrogen fixation quantity (1.0 - 6.5 mg/L N)",
+                "type": "Metric",
+                "description": "Range of total nitrogen fixed by eight IMOCs."
+            },
+            {
+                "id": "Target sequence size (360 bp)",
+                "type": "Metric",
+                "description": "The length of the amplified nifH gene fragment."
+            },
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "Primary research field concerning crop production and soil health."
+            },
+            {
+                "id": "Le Thi Xa",
+                "type": "Author",
+                "description": "Researcher from Biotechnology Research and Development Institute."
+            },
+            {
+                "id": "Ngo Thi Phuong Thao",
+                "type": "Author",
+                "description": "Researcher from Biotechnology Research and Development Institute."
+            },
+            {
+                "id": "Nguyen Khoi Nghia",
+                "type": "Author",
+                "description": "Researcher from the Department of Soil Science."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Research institute at Can Tho University, Vietnam."
+            },
+            {
+                "id": "Department of Soil Science, College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic department at Can Tho University, Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Phosphate solubilization, indole-3-acetic acid synthesis and nitrogen fixation ability of various indigenous microorganism communities from different agriecosystem habitats",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Indigenous microorganism communities (IMOCs)",
+                "target": "Phosphate solubilization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Indigenous microorganism communities (IMOCs)",
+                "target": "Indole-3-acetic acid (IAA) synthesis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Indigenous microorganism communities (IMOCs)",
+                "target": "Nitrogen fixation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Indigenous microorganism communities (IMOCs)",
+                "target": "Experimental datasets from 15 IMOCs",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Indigenous microorganism communities (IMOCs)",
+                "target": "Max P2O5 solubilized (> 2,000 mg/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Indigenous microorganism communities (IMOCs)",
+                "target": "Highest IAA amount (56.6 mg/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Indigenous microorganism communities (IMOCs)",
+                "target": "Nitrogen fixation quantity (1.0 - 6.5 mg/L N)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PCR",
+                "target": "Target sequence size (360 bp)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Le Thi Xa",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Thi Phuong Thao",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Khoi Nghia",
+                "target": "Department of Soil Science, College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

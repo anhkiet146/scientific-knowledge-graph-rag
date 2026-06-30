@@ -1,0 +1,165 @@
+{
+    "filename": "02-547-ED-PHUONG HOANG YEN(8-21)002.json",
+    "paper_title": "Students' perceptions of using note-taking in consecutive interpreting assignments",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "Author of the research article"
+            },
+            {
+                "id": "Lam Thi Cam Tu",
+                "type": "Author",
+                "description": "Author of the research article"
+            },
+            {
+                "id": "Le Thanh Thao",
+                "type": "Author",
+                "description": "Author of the research article and corresponding author"
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "The institution where the authors are affiliated in Vietnam"
+            },
+            {
+                "id": "English Interpretation and Translation",
+                "type": "Domain",
+                "description": "The primary field of research concerning linguistics and interpreting skills"
+            },
+            {
+                "id": "Note-taking in consecutive interpreting",
+                "type": "Concept",
+                "description": "A memory-supporting technique in interpreting involving writing down keywords and ideas"
+            },
+            {
+                "id": "Students' perceptions of benefits and challenges",
+                "type": "Concept",
+                "description": "The research problem investigating how student interpreters view note-taking"
+            },
+            {
+                "id": "Questionnaire survey",
+                "type": "Method",
+                "description": "A quantitative research design used for gathering data through closed-ended questions"
+            },
+            {
+                "id": "5-point Likert-scale",
+                "type": "Method",
+                "description": "A scaling method (1=strongly disagree to 5=strongly agree) used in the survey"
+            },
+            {
+                "id": "SPSS version 22",
+                "type": "Method",
+                "description": "Statistical software used for analyzing quantitative data"
+            },
+            {
+                "id": "Cronbach's alpha",
+                "type": "Method",
+                "description": "Reliability test used to check the consistency of the research instrument"
+            },
+            {
+                "id": "Rozan's seven principles",
+                "type": "Method",
+                "description": "A set of principles for taking effective notes in interpreting"
+            },
+            {
+                "id": "Vuai's framework",
+                "type": "Method",
+                "description": "Theoretical framework for CI stages: comprehension, deverbalization, and re-expression"
+            },
+            {
+                "id": "Survey data from 160 EI&T students",
+                "type": "Dataset",
+                "description": "The digital response records collected from 160 student participants"
+            },
+            {
+                "id": "Cronbach's alpha (0.81)",
+                "type": "Metric",
+                "description": "Reliability score of the questionnaire"
+            },
+            {
+                "id": "Mean score for Ensuring accuracy (3.94)",
+                "type": "Metric",
+                "description": "Highest perceived benefit mean score"
+            },
+            {
+                "id": "Mean score for Avoiding missing information (3.89)",
+                "type": "Metric",
+                "description": "Metric value for the benefit of not missing data"
+            },
+            {
+                "id": "Mean score for Enhancing CI quality (3.84)",
+                "type": "Metric",
+                "description": "Metric value for quality improvement perception"
+            },
+            {
+                "id": "Mean score for Reducing memory burden (3.81)",
+                "type": "Metric",
+                "description": "Metric value for cognitive load reduction perception"
+            },
+            {
+                "id": "Mean score for Minimizing effort (3.55)",
+                "type": "Metric",
+                "description": "Lowest perceived benefit mean score"
+            },
+            {
+                "id": "Mean score for Challenges (3.46 - 3.55)",
+                "type": "Metric",
+                "description": "Mean value range for perceived challenges like difficulty understanding notes and dependency"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Students' perceptions of using note-taking in consecutive interpreting assignments",
+                "target": "English Interpretation and Translation",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lam Thi Cam Tu",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thanh Thao",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Note-taking in consecutive interpreting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Cronbach's alpha (0.81)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire survey",
+                "target": "Mean score for Ensuring accuracy (3.94)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SPSS version 22",
+                "target": "Survey data from 160 EI&T students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Rozan's seven principles",
+                "target": "Note-taking in consecutive interpreting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Vuai's framework",
+                "target": "Note-taking in consecutive interpreting",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

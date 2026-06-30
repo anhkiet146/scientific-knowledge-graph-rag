@@ -1,0 +1,145 @@
+{
+  "filename": "06-BT-TRAN THANH THAO(42-48)037.json",
+  "paper_title": "Characterization of mouse bone marrow-derived macrophages differentiated in L929 cell conditioned medium and colony stimulating factor-1 in Listeria monocytogenes infection",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Thanh Thao",
+        "type": "Author",
+        "description": "Researcher and corresponding author of the study."
+      },
+      {
+        "id": "Diamantina Institute, Faculty of Medicine, University of Queensland, Australia",
+        "type": "Institution",
+        "description": "Academic affiliation of the author in Australia."
+      },
+      {
+        "id": "Biology Department, School of Education, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic affiliation of the author in Vietnam."
+      },
+      {
+        "id": "Immunology",
+        "type": "Domain",
+        "description": "The primary field of research concerning immune system functions and pathogen interactions."
+      },
+      {
+        "id": "BMDM differentiation",
+        "type": "Concept",
+        "description": "The process of maturing bone marrow stem cells into macrophages."
+      },
+      {
+        "id": "Phagocytic function",
+        "type": "Concept",
+        "description": "The ability of macrophages to ingest and eliminate pathogens."
+      },
+      {
+        "id": "Listeria monocytogenes (LM) infection",
+        "type": "Concept",
+        "description": "A bacterial infection used as a model to study host-pathogen interactions."
+      },
+      {
+        "id": "L929 cell-conditioned medium (LCM)",
+        "type": "Method",
+        "description": "An alternative, cost-effective source of CSF-1 used for macrophage differentiation."
+      },
+      {
+        "id": "Colony stimulating factor-1 (CSF-1)",
+        "type": "Method",
+        "description": "A required growth factor for the differentiation and survival of BMDM."
+      },
+      {
+        "id": "Flow Cytometry",
+        "type": "Method",
+        "description": "A technique used to detect and measure physical and chemical characteristics of a population of cells."
+      },
+      {
+        "id": "Immunofluorescence microscope",
+        "type": "Method",
+        "description": "An imaging technique used to visualize specific proteins or pathogens in cells."
+      },
+      {
+        "id": "Infection assay",
+        "type": "Method",
+        "description": "A procedure used to evaluate the interaction between a pathogen and host cells."
+      },
+      {
+        "id": "Gentamicin",
+        "type": "Method",
+        "description": "An antibiotic used to kill extracellular bacteria during infection assays."
+      },
+      {
+        "id": "Homogeneity (96.75% ± 0.806 SEM)",
+        "type": "Metric",
+        "description": "The purity percentage of CD11b+ and F4/80+ macrophage population differentiated in LCM."
+      },
+      {
+        "id": "Incubation temperature (37 0 C)",
+        "type": "Metric",
+        "description": "The standard temperature used for cell culture and bacterial incubation."
+      },
+      {
+        "id": "Multiplicity of infection (MOI 5)",
+        "type": "Metric",
+        "description": "The ratio of bacteria to host cells used in the infection assay."
+      },
+      {
+        "id": "Bacterial uptake time (0.5 hour)",
+        "type": "Metric",
+        "description": "The time point used to measure the initial phagocytosis of LM by macrophages."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Thanh Thao",
+        "target": "Diamantina Institute, Faculty of Medicine, University of Queensland, Australia",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thanh Thao",
+        "target": "Biology Department, School of Education, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Immunology",
+        "target": "Immunology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "L929 cell-conditioned medium (LCM)",
+        "target": "BMDM differentiation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Colony stimulating factor-1 (CSF-1)",
+        "target": "BMDM differentiation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Infection assay",
+        "target": "Listeria monocytogenes (LM) infection",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Flow Cytometry",
+        "target": "Homogeneity (96.75% ± 0.806 SEM)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Infection assay",
+        "target": "Multiplicity of infection (MOI 5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Infection assay",
+        "target": "Bacterial uptake time (0.5 hour)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Immunofluorescence microscope",
+        "target": "Phagocytic function",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+    "filename": "12-ED-TRAN THI THANH QUYEN(90-97)012.json",
+    "paper_title": "Flipped model for improving students' English speaking performance",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Tran Thi Thanh Quyen",
+                "type": "Author",
+                "description": "Primary author and correspondence from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Nguyen Van Loi",
+                "type": "Author",
+                "description": "Co-author from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam where the authors are based."
+            },
+            {
+                "id": "English Language Teaching",
+                "type": "Domain",
+                "description": "The primary field of research, focusing on EFL (English as a Foreign Language) instruction."
+            },
+            {
+                "id": "Blended Learning",
+                "type": "Domain",
+                "description": "The broader educational approach combining online digital media with traditional classroom methods."
+            },
+            {
+                "id": "English speaking performance",
+                "type": "Concept",
+                "description": "The research problem focusing on students' ability to communicate effectively in English."
+            },
+            {
+                "id": "Students' perceptions",
+                "type": "Concept",
+                "description": "The exploration of students' attitudes, motivation, and satisfaction regarding the flipped model."
+            },
+            {
+                "id": "Flipped classroom model",
+                "type": "Method",
+                "description": "An instructional strategy where students learn content outside class and practice in class."
+            },
+            {
+                "id": "Quasi-experimental design",
+                "type": "Method",
+                "description": "The research design involving experimental and control groups with pre- and post-tests."
+            },
+            {
+                "id": "Facebook platform",
+                "type": "Method",
+                "description": "The social networking site used to host videos and supplementary reading materials."
+            },
+            {
+                "id": "Experimental group post-test mean score (64.8)",
+                "type": "Metric",
+                "description": "The average speaking performance score achieved by the group using the flipped model."
+            },
+            {
+                "id": "Control group post-test mean score (53.9)",
+                "type": "Metric",
+                "description": "The average speaking performance score achieved by the traditional instruction group."
+            },
+            {
+                "id": "Post-test p-value (0.002)",
+                "type": "Metric",
+                "description": "Statistical significance value indicating a significant difference between group performances."
+            },
+            {
+                "id": "General mean score of perceptions (3.75)",
+                "type": "Metric",
+                "description": "Measurement of students' overall positive perception of the flipped model on a 5-point scale."
+            },
+            {
+                "id": "Scale reliability coefficient (α = .969)",
+                "type": "Metric",
+                "description": "Reliability measurement for the speaking tests used in the study."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Tran Thi Thanh Quyen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Loi",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Flipped model for improving students' English speaking performance",
+                "target": "English Language Teaching",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Flipped model for improving students' English speaking performance",
+                "target": "Blended Learning",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Flipped classroom model",
+                "target": "English speaking performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Flipped classroom model",
+                "target": "Students' perceptions",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Flipped classroom model",
+                "target": "Experimental group post-test mean score (64.8)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Flipped classroom model",
+                "target": "Post-test p-value (0.002)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Flipped classroom model",
+                "target": "General mean score of perceptions (3.75)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Quasi-experimental design",
+                "target": "English speaking performance",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

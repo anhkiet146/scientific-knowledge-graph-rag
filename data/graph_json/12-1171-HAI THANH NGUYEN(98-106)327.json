@@ -1,0 +1,230 @@
+{
+  "filename": "12-1171-HAI THANH NGUYEN(98-106)327.json",
+  "paper_title": "A multivariate analysis of the early dropout using classical machine learning and local interpretable model-agnostic explanations",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Machine Learning in Education",
+        "type": "Domain",
+        "description": "The study of applying machine learning techniques to address educational challenges like student retention."
+      },
+      {
+        "id": "Student dropout prediction",
+        "type": "Concept",
+        "description": "The identifying and predicting of students at risk of leaving higher education institutions prematurely."
+      },
+      {
+        "id": "Early intervention strategies",
+        "type": "Concept",
+        "description": "Policies and actions aimed at supporting at-risk students to reduce dropout rates."
+      },
+      {
+        "id": "Hai Thanh Nguyen",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Phuong Le",
+        "type": "Author",
+        "description": "Researcher from The School of Industrial Biology, France."
+      },
+      {
+        "id": "Tuyen Thanh Thi Nguyen",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "Anh Kim Su",
+        "type": "Author",
+        "description": "Researcher from Can Tho University."
+      },
+      {
+        "id": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam."
+      },
+      {
+        "id": "The School of Industrial Biology",
+        "type": "Institution",
+        "description": "Academic institution in France."
+      },
+      {
+        "id": "College of Rural Development, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam."
+      },
+      {
+        "id": "Random Forest (RF)",
+        "type": "Method",
+        "description": "An ensemble-based machine learning model using decision trees."
+      },
+      {
+        "id": "Extreme Gradient Boosting (XGBoost)",
+        "type": "Method",
+        "description": "A gradient-boosting algorithm using weak learners as base classifiers."
+      },
+      {
+        "id": "Light Gradient Boosting Machine (LightGBM)",
+        "type": "Method",
+        "description": "A high-performance gradient boosting framework."
+      },
+      {
+        "id": "Categorical Boosting (CatBoost)",
+        "type": "Method",
+        "description": "A machine learning algorithm for gradient boosting on decision trees."
+      },
+      {
+        "id": "Local Interpretable Model-Agnostic Explanations (LIME)",
+        "type": "Method",
+        "description": "A model to provide local explanations for individual predictions of complex models."
+      },
+      {
+        "id": "15-fold cross-validation",
+        "type": "Method",
+        "description": "A validation technique used to evaluate model performance."
+      },
+      {
+        "id": "Dropout Prediction Dataset",
+        "type": "Dataset",
+        "description": "A dataset containing 4424 records with 35 attributes including demographic, socioeconomic, and academic info."
+      },
+      {
+        "id": "RF Accuracy (77.3%)",
+        "type": "Metric",
+        "description": "Accuracy achieved by the Random Forest model."
+      },
+      {
+        "id": "XGBoost Accuracy (78.5%)",
+        "type": "Metric",
+        "description": "Accuracy achieved by the XGBoost model."
+      },
+      {
+        "id": "LightGBM Accuracy (78.2%)",
+        "type": "Metric",
+        "description": "Accuracy achieved by the LightGBM model."
+      },
+      {
+        "id": "RF Precision (81%)",
+        "type": "Metric",
+        "description": "Precision achieved by the Random Forest model."
+      },
+      {
+        "id": "XGBoost Precision (82.3%)",
+        "type": "Metric",
+        "description": "Precision achieved by the XGBoost model."
+      },
+      {
+        "id": "RF Recall (76%)",
+        "type": "Metric",
+        "description": "Recall achieved by the Random Forest model."
+      },
+      {
+        "id": "LightGBM F1 Score (78.8%)",
+        "type": "Metric",
+        "description": "F1 Score achieved by the LightGBM model."
+      },
+      {
+        "id": "CatBoost Metrics (>76%)",
+        "type": "Metric",
+        "description": "General performance metrics for the CatBoost model exceeding 76%."
+      }
+    ],
+    "relations": [
+      {
+        "source": "A multivariate analysis of the early dropout using classical machine learning and local interpretable model-agnostic explanations",
+        "target": "Machine Learning in Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Hai Thanh Nguyen",
+        "target": "College of Information and Communication Technology, Can Tho University, Viet Nam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phuong Le",
+        "target": "The School of Industrial Biology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tuyen Thanh Thi Nguyen",
+        "target": "College of Rural Development, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Anh Kim Su",
+        "target": "College of Rural Development, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "Student dropout prediction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Local Interpretable Model-Agnostic Explanations (LIME)",
+        "target": "Student dropout prediction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "Dropout Prediction Dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Extreme Gradient Boosting (XGBoost)",
+        "target": "Dropout Prediction Dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Light Gradient Boosting Machine (LightGBM)",
+        "target": "Dropout Prediction Dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Categorical Boosting (CatBoost)",
+        "target": "Dropout Prediction Dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "RF Accuracy (77.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "RF Precision (81%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Random Forest (RF)",
+        "target": "RF Recall (76%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Extreme Gradient Boosting (XGBoost)",
+        "target": "XGBoost Accuracy (78.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Extreme Gradient Boosting (XGBoost)",
+        "target": "XGBoost Precision (82.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Light Gradient Boosting Machine (LightGBM)",
+        "target": "LightGBM Accuracy (78.2%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Light Gradient Boosting Machine (LightGBM)",
+        "target": "LightGBM F1 Score (78.8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Categorical Boosting (CatBoost)",
+        "target": "CatBoost Metrics (>76%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

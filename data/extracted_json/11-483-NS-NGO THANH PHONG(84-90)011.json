@@ -1,0 +1,195 @@
+{
+    "filename": "11-483-NS-NGO THANH PHONG(84-90)011.json",
+    "paper_title": "Identifying biofilm forming bacteria in cow milk in Mekong Delta, Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Dairy Microbiology",
+                "type": "Domain",
+                "description": "The study of microorganisms in milk and dairy products."
+            },
+            {
+                "id": "Biofilm formation",
+                "type": "Concept",
+                "description": "Agglomeration of bacterial cells stuck to surfaces formed by a self-produced matrix."
+            },
+            {
+                "id": "Microbial spoilage",
+                "type": "Concept",
+                "description": "Deterioration of milk quality and safety due to bacterial growth."
+            },
+            {
+                "id": "Ngo Thanh Phong",
+                "type": "Author",
+                "description": "Lead author and correspondence from Can Tho University."
+            },
+            {
+                "id": "Bui Huynh Lien",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Pham Thi Binh Nguyen",
+                "type": "Author",
+                "description": "Co-author from Tra Vinh University."
+            },
+            {
+                "id": "Huynh Van Tien",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Bui The Vinh",
+                "type": "Author",
+                "description": "Co-author from University of Cuu Long."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "Tra Vinh University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "University of Cuu Long",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "Biofilm forming assay",
+                "type": "Method",
+                "description": "Quantitative evaluation of biofilm production in 96-well microtiter plates."
+            },
+            {
+                "id": "96-well microtiter plates",
+                "type": "Method",
+                "description": "Tool used for the biofilm formation assay."
+            },
+            {
+                "id": "PCR",
+                "type": "Method",
+                "description": "Polymerase chain reaction used for 16S rRNA gene amplification."
+            },
+            {
+                "id": "Sanger sequencing",
+                "type": "Method",
+                "description": "Sequencing method for identifying bacterial isolates."
+            },
+            {
+                "id": "BLAST",
+                "type": "Method",
+                "description": "Basic Local Alignment Search Tool used for sequence identity comparison."
+            },
+            {
+                "id": "MEGAX software",
+                "type": "Method",
+                "description": "Software used for phylogenetic tree building."
+            },
+            {
+                "id": "Cetrimide-Agar (CA) media",
+                "type": "Method",
+                "description": "Selective media used for bacterial isolation."
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "Genetic sequence database used for comparing 16S rRNA sequences."
+            },
+            {
+                "id": "NCBI database",
+                "type": "Dataset",
+                "description": "National Center for Biotechnology Information database."
+            },
+            {
+                "id": "OD value (0.5106)",
+                "type": "Metric",
+                "description": "Absorbance value for the strongest biofilm producer (VL41)."
+            },
+            {
+                "id": "Identity (100%)",
+                "type": "Metric",
+                "description": "Sequence similarity percentage between isolates and database strains."
+            },
+            {
+                "id": "pH (6.8)",
+                "type": "Metric",
+                "description": "pH level of the PBS solution used."
+            },
+            {
+                "id": "Incubation temperature (37°C)",
+                "type": "Metric",
+                "description": "The temperature maintained for bacterial growth."
+            },
+            {
+                "id": "Similarity cut-off (99%)",
+                "type": "Metric",
+                "description": "The threshold value used for BLAST identification."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Identifying biofilm forming bacteria in cow milk in Mekong Delta, Viet Nam",
+                "target": "Dairy Microbiology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ngo Thanh Phong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Huynh Lien",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Thi Binh Nguyen",
+                "target": "Tra Vinh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Van Tien",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui The Vinh",
+                "target": "University of Cuu Long",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Biofilm forming assay",
+                "target": "OD value (0.5106)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BLAST",
+                "target": "Identity (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Biofilm forming assay",
+                "target": "Biofilm formation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PCR",
+                "target": "Biofilm formation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Sanger sequencing",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "BLAST",
+                "target": "NCBI database",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

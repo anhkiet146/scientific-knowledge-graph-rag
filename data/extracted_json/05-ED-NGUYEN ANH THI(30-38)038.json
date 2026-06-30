@@ -1,0 +1,170 @@
+{
+    "filename": "05-ED-NGUYEN ANH THI(30-38)038.json",
+    "paper_title": "Vietnamese EFL pre-service teachers' perceptions of the quality of a training course on English Language Teacher Education",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Anh Thi",
+                "type": "Author",
+                "description": "Author from School of Foreign Languages, Can Tho University"
+            },
+            {
+                "id": "Nguyen Thi Ngoc Lien",
+                "type": "Author",
+                "description": "Author from Department of Administration and Planning, Can Tho University"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Higher education institution in Viet Nam"
+            },
+            {
+                "id": "English Language Teacher Education",
+                "type": "Domain",
+                "description": "The field of training and educating English language teachers"
+            },
+            {
+                "id": "Perceptions of training course quality",
+                "type": "Concept",
+                "description": "The viewpoints of students regarding the educational quality of a training program"
+            },
+            {
+                "id": "Student satisfaction",
+                "type": "Concept",
+                "description": "The degree of a person's sensory state based on comparing results with prior expectations"
+            },
+            {
+                "id": "Semi-structured interviews",
+                "type": "Method",
+                "description": "Qualitative data collection tool using a series of questions"
+            },
+            {
+                "id": "Questionnaire",
+                "type": "Method",
+                "description": "Instrument consisting of Likert-type items and open questions"
+            },
+            {
+                "id": "Cronbach alpha analysis",
+                "type": "Method",
+                "description": "Statistical procedure used to check the reliability of the instrument"
+            },
+            {
+                "id": "SPSS version 20",
+                "type": "Method",
+                "description": "Software used for quantitative data analysis"
+            },
+            {
+                "id": "Multidimensional ALSCAL analysis",
+                "type": "Method",
+                "description": "A test run to identify variances in pre-service teachers' responses"
+            },
+            {
+                "id": "Pearson product-moment correlation coefficients",
+                "type": "Method",
+                "description": "Correlation analysis between dimension values and questionnaire items"
+            },
+            {
+                "id": "Survey data from 39 EFL pre-service teachers",
+                "type": "Dataset",
+                "description": "Digital response data collected from 39 participants"
+            },
+            {
+                "id": "Cronbach alpha (0.85)",
+                "type": "Metric",
+                "description": "Reliability coefficient for the pilot questionnaire"
+            },
+            {
+                "id": "Cronbach alpha (0.84)",
+                "type": "Metric",
+                "description": "Reliability coefficient for the official questionnaire"
+            },
+            {
+                "id": "Response rate (92.8%)",
+                "type": "Metric",
+                "description": "The percentage of questionnaires returned and usable"
+            },
+            {
+                "id": "Satisfaction with curriculum (M = 3.37)",
+                "type": "Metric",
+                "description": "Mean score representing high satisfaction with the syllabus"
+            },
+            {
+                "id": "Satisfaction with teaching methods (M = 3.36)",
+                "type": "Metric",
+                "description": "Mean score for student teachers' view on educators' methods"
+            },
+            {
+                "id": "Satisfaction with services (M = 3.33)",
+                "type": "Metric",
+                "description": "Mean score for university facilities and support services"
+            },
+            {
+                "id": "RSQ value (0.71)",
+                "type": "Metric",
+                "description": "Squared correlation value from the ALSCAL analysis"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Vietnamese EFL pre-service teachers' perceptions of the quality of a training course on English Language Teacher Education",
+                "target": "English Language Teacher Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Anh Thi",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Ngoc Lien",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Semi-structured interviews",
+                "target": "Perceptions of training course quality",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Student satisfaction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Cronbach alpha analysis",
+                "target": "Cronbach alpha (0.85)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cronbach alpha analysis",
+                "target": "Cronbach alpha (0.84)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Multidimensional ALSCAL analysis",
+                "target": "RSQ value (0.71)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Satisfaction with curriculum (M = 3.37)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Satisfaction with teaching methods (M = 3.36)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Satisfaction with services (M = 3.33)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Survey data from 39 EFL pre-service teachers",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,155 @@
+{
+  "filename": "10-1160-NGO HO ANH KHOA(80-90)325.json",
+  "paper_title": "VQABG: Vietnamese question/answers benchmark generator for field-specific chatbot ground-truth dataset using EMINI (Exact Match wIth Numeric Information) indicator",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Natural Language Processing",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu xử lý ngôn ngữ tự nhiên, cụ thể là cho tiếng Việt."
+      },
+      {
+        "id": "Artificial Intelligence",
+        "type": "Domain",
+        "description": "Lĩnh vực trí tuệ nhân tạo rộng hơn bao gồm các mô hình ngôn ngữ lớn."
+      },
+      {
+        "id": "Ngo-Ho Anh-Khoa",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu từ Quantmetry."
+      },
+      {
+        "id": "Vo Khuong-Duy",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu từ Adhightech Ltd."
+      },
+      {
+        "id": "Quantmetry",
+        "type": "Institution",
+        "description": "Tổ chức tại Pháp của tác giả Ngo-Ho Anh-Khoa."
+      },
+      {
+        "id": "Adhightech Ltd.",
+        "type": "Institution",
+        "description": "Công ty tại Việt Nam của tác giả Vo Khuong-Duy."
+      },
+      {
+        "id": "Nam Can Tho University",
+        "type": "Institution",
+        "description": "Trường Đại học Nam Cần Thơ, Việt Nam."
+      },
+      {
+        "id": "Quality assessment of Vietnamese chatbot",
+        "type": "Concept",
+        "description": "Vấn đề đánh giá chất lượng sản phẩm chatbot tiếng Việt chuyên ngành."
+      },
+      {
+        "id": "Automatic benchmark generation",
+        "type": "Concept",
+        "description": "Tự động tạo tập dữ liệu chuẩn để đánh giá mô hình."
+      },
+      {
+        "id": "VQABG",
+        "type": "Method",
+        "description": "Vietnamese Question/Answers Benchmark Generator, kỹ thuật tự động tạo câu hỏi/trả lời từ dữ liệu nguồn."
+      },
+      {
+        "id": "EMINI",
+        "type": "Method",
+        "description": "Exact Match wIth Numeric Information, chỉ số đánh giá đề xuất kết hợp EM và thông tin số."
+      },
+      {
+        "id": "Gpt-3.5-turbo",
+        "type": "Method",
+        "description": "Mô hình ngôn ngữ lớn được sử dụng để thử nghiệm chatbot."
+      },
+      {
+        "id": "RAGAS",
+        "type": "Method",
+        "description": "Kỹ thuật Retrieval Augmented Generation Assessment dùng để so sánh."
+      },
+      {
+        "id": "VEID",
+        "type": "Dataset",
+        "description": "Vietnamese Economy Information Database, cơ sở dữ liệu thông tin kinh tế Việt Nam."
+      },
+      {
+        "id": "VENID-R100",
+        "type": "Dataset",
+        "description": "Bộ benchmark gồm 100 câu hỏi ngẫu nhiên từ cơ sở dữ liệu."
+      },
+      {
+        "id": "Discrepancy (nearly 50%)",
+        "type": "Metric",
+        "description": "Sự khác biệt lớn giữa kết quả đo lường ASS và EMINI."
+      },
+      {
+        "id": "Temperature (0.01)",
+        "type": "Metric",
+        "description": "Tham số cấu hình của mô hình Gpt-3.5-turbo."
+      },
+      {
+        "id": "Chunk size (1000)",
+        "type": "Metric",
+        "description": "Kích thước đoạn văn bản sử dụng trong mô hình."
+      },
+      {
+        "id": "VEID size (30,186,806 words)",
+        "type": "Metric",
+        "description": "Quy mô tổng số từ của bộ dữ liệu VEID."
+      }
+    ],
+    "relations": [
+      {
+        "source": "VQABG",
+        "target": "Natural Language Processing",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "VQABG",
+        "target": "Quality assessment of Vietnamese chatbot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "VQABG",
+        "target": "Automatic benchmark generation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "EMINI",
+        "target": "Quality assessment of Vietnamese chatbot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Gpt-3.5-turbo",
+        "target": "VENID-R100",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Gpt-3.5-turbo",
+        "target": "Discrepancy (nearly 50%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gpt-3.5-turbo",
+        "target": "Temperature (0.01)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ngo-Ho Anh-Khoa",
+        "target": "Quantmetry",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Khuong-Duy",
+        "target": "Adhightech Ltd.",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo-Ho Anh-Khoa",
+        "target": "Nam Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

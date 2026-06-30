@@ -1,0 +1,160 @@
+{
+  "filename": "04-FI-TRUONG HOANG MINH(27-34)004.json",
+  "paper_title": "Assessment on the technical and financial characteristics and livelihood strategy of while leg shrimp (Litopenaeus vannamei) and tiger shrimp (Penaeus monodon) farms in Cu Lao Dung district, Soc Trang province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Assessment on the technical and financial characteristics and livelihood strategy of while leg shrimp and tiger shrimp farms",
+        "type": "Concept",
+        "description": "The main research topic assessing shrimp farming systems in Soc Trang province."
+      },
+      {
+        "id": "Livelihood strategy",
+        "type": "Concept",
+        "description": "Analysis of the five capitals (natural, social, human, physical, and financial) for shrimp farmers."
+      },
+      {
+        "id": "Shrimp diseases",
+        "type": "Concept",
+        "description": "A major obstacle and risk factor identified in the study."
+      },
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The primary field of research."
+      },
+      {
+        "id": "Truong Hoang Minh",
+        "type": "Author",
+        "description": "The author of the research paper."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "The academic organization the author is affiliated with."
+      },
+      {
+        "id": "Prepared questionnaires",
+        "type": "Method",
+        "description": "Instrument used for direct interviews with 150 households."
+      },
+      {
+        "id": "Five capitals analysis",
+        "type": "Method",
+        "description": "Method used to evaluate the livelihood strategy of farmers."
+      },
+      {
+        "id": "SWOT Analysis",
+        "type": "Method",
+        "description": "Used to identify strengths, weaknesses, opportunities, and threats."
+      },
+      {
+        "id": "PCR technique",
+        "type": "Method",
+        "description": "Molecular method used by some farmers to check shrimp seed quality."
+      },
+      {
+        "id": "Excel 2010",
+        "type": "Method",
+        "description": "Software used for statistical data analysis."
+      },
+      {
+        "id": "Primary data from 150 households",
+        "type": "Dataset",
+        "description": "Survey data collected from random interviews in Cu Lao Dung district."
+      },
+      {
+        "id": "Secondary data from DARD Soc Trang",
+        "type": "Dataset",
+        "description": "Data collected from journals and annual reports."
+      },
+      {
+        "id": "WLS yield (8.8 tons/ha/crop)",
+        "type": "Metric",
+        "description": "The productivity measured for white leg shrimp."
+      },
+      {
+        "id": "TS yield (4.7 tons/ha/crop)",
+        "type": "Metric",
+        "description": "The productivity measured for tiger shrimp."
+      },
+      {
+        "id": "WLS survival rate (80.5%)",
+        "type": "Metric",
+        "description": "The percentage of surviving white leg shrimp."
+      },
+      {
+        "id": "TS survival rate (65.1%)",
+        "type": "Metric",
+        "description": "The percentage of surviving tiger shrimp."
+      },
+      {
+        "id": "WLS profit (173 VND million/ha/crop)",
+        "type": "Metric",
+        "description": "Financial profit for white leg shrimp farms."
+      },
+      {
+        "id": "TS profit (251 VND million/ha/crop)",
+        "type": "Metric",
+        "description": "Financial profit for tiger shrimp farms."
+      },
+      {
+        "id": "Natural capital score (4.03)",
+        "type": "Metric",
+        "description": "The highest scoring livelihood capital in the study."
+      },
+      {
+        "id": "WLS stocking density (83 ind./m2)",
+        "type": "Metric",
+        "description": "The density of white leg shrimp per square meter."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Assessment on the technical and financial characteristics and livelihood strategy of while leg shrimp and tiger shrimp farms",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Truong Hoang Minh",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Prepared questionnaires",
+        "target": "Livelihood strategy",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Five capitals analysis",
+        "target": "Livelihood strategy",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Prepared questionnaires",
+        "target": "Primary data from 150 households",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Prepared questionnaires",
+        "target": "WLS yield (8.8 tons/ha/crop)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Prepared questionnaires",
+        "target": "TS yield (4.7 tons/ha/crop)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Prepared questionnaires",
+        "target": "Natural capital score (4.03)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCR technique",
+        "target": "Shrimp diseases",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

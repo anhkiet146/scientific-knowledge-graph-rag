@@ -1,0 +1,150 @@
+{
+  "filename": "05-BT-LE THI KIEU PHUONG(31-37)021.json",
+  "paper_title": "Chemical compositions, bioactive compounds, and physicochemical properties of different purple sweet potato flours",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Chemical compositions, bioactive compounds, and physicochemical properties of different purple sweet potato flours",
+        "type": "Concept",
+        "description": "The research title and main study focus on the quality of purple sweet potato flours."
+      },
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "The primary field of research for the study."
+      },
+      {
+        "id": "Le Thi Kieu Phuong",
+        "type": "Author",
+        "description": "Researcher at International University, VNU-HCM."
+      },
+      {
+        "id": "Nguyen Ngoc Thanh Tien",
+        "type": "Author",
+        "description": "Researcher at International University, VNU-HCM."
+      },
+      {
+        "id": "Nguyen Le Anh Khoa",
+        "type": "Author",
+        "description": "Researcher at International University, VNU-HCM."
+      },
+      {
+        "id": "Pham Van Hung",
+        "type": "Author",
+        "description": "Corresponding author at International University, VNU-HCM."
+      },
+      {
+        "id": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "Institution",
+        "description": "The academic institution where the authors are affiliated."
+      },
+      {
+        "id": "Ethanol-assisted extraction",
+        "type": "Method",
+        "description": "Method used to obtain extracts from purple sweet potato flour using 25% ethanol."
+      },
+      {
+        "id": "AACC approved methods",
+        "type": "Method",
+        "description": "Standardized methods (46-10.01, 30-10.01, 08-01.01) used to analyze protein, lipid, and ash."
+      },
+      {
+        "id": "Spectrophotometric methods",
+        "type": "Method",
+        "description": "Methods used to measure total phenolic, flavonoid, and anthocyanin contents."
+      },
+      {
+        "id": "Micro visco-amylo-graph",
+        "type": "Method",
+        "description": "Equipment used to measure pasting properties of the flour samples."
+      },
+      {
+        "id": "Total phenolic content (202.2 mg FAE/100 g flour)",
+        "type": "Metric",
+        "description": "Highest phenolic content achieved by samples from Phu Long village."
+      },
+      {
+        "id": "Total flavonoid content (85.6 mg RE/100 g flour)",
+        "type": "Metric",
+        "description": "Highest flavonoid content achieved by samples from Phu Long village."
+      },
+      {
+        "id": "Total anthocyanin content (6.8 mg cyanidin-3-glucoside/100 g flour)",
+        "type": "Metric",
+        "description": "Highest anthocyanin content achieved by samples from Phu Long village."
+      },
+      {
+        "id": "Water solubility index (97.41%)",
+        "type": "Metric",
+        "description": "Maximum water solubility index recorded in the study."
+      },
+      {
+        "id": "Swelling index (7.5 g water/g flour)",
+        "type": "Metric",
+        "description": "Maximum swelling index observed in samples from Hoa Tan village."
+      },
+      {
+        "id": "Protein content (1.08-3.09%)",
+        "type": "Metric",
+        "description": "Range of protein content found in the sweet potato flours."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Chemical compositions, bioactive compounds, and physicochemical properties of different purple sweet potato flours",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Le Thi Kieu Phuong",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ngoc Thanh Tien",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Le Anh Khoa",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Van Hung",
+        "target": "International University, Viet Nam National University, Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ethanol-assisted extraction",
+        "target": "Chemical compositions, bioactive compounds, and physicochemical properties of different purple sweet potato flours",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Spectrophotometric methods",
+        "target": "Total phenolic content (202.2 mg FAE/100 g flour)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spectrophotometric methods",
+        "target": "Total flavonoid content (85.6 mg RE/100 g flour)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Spectrophotometric methods",
+        "target": "Total anthocyanin content (6.8 mg cyanidin-3-glucoside/100 g flour)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "AACC approved methods",
+        "target": "Protein content (1.08-3.09%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Micro visco-amylo-graph",
+        "target": "Swelling index (7.5 g water/g flour)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+    "filename": "02-AG-TRAN VAN HAU(7-23)002.json",
+    "paper_title": "Longan and rambutan in the Mekong Delta, Vietnam: A review of technologies to improve flowering and fruit setting",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về trồng trọt và quản lý cây ăn trái (nhãn, chôm chôm)."
+            },
+            {
+                "id": "Longan and Rambutan Review Paper",
+                "type": "Concept",
+                "description": "Bài báo tổng quan về công nghệ cải thiện ra hoa và đậu trái của nhãn và chôm chôm tại Đồng bằng sông Cửu Long."
+            },
+            {
+                "id": "Tran Van Hau",
+                "type": "Author",
+                "description": "Tác giả từ Khoa Khoa học Cây trồng, Đại học Cần Thơ."
+            },
+            {
+                "id": "Tran Sy Hieu",
+                "type": "Author",
+                "description": "Tác giả từ Khoa Khoa học Cây trồng, Đại học Cần Thơ."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học tại Việt Nam, nơi thực hiện nghiên cứu."
+            },
+            {
+                "id": "Flowering induction",
+                "type": "Concept",
+                "description": "Quá trình kích thích ra hoa ở cây nhãn và chôm chôm."
+            },
+            {
+                "id": "Fruit setting",
+                "type": "Concept",
+                "description": "Quá trình đậu trái sau khi thụ phấn."
+            },
+            {
+                "id": "Collar drenching of KClO3",
+                "type": "Method",
+                "description": "Phương pháp tưới KClO3 vào gốc để kích thích ra hoa nhãn."
+            },
+            {
+                "id": "Branch girdling",
+                "type": "Method",
+                "description": "Phương pháp khoanh cành để hỗ trợ kích thích ra hoa."
+            },
+            {
+                "id": "Drainage of irrigation ditch",
+                "type": "Method",
+                "description": "Phương pháp rút nước mương vườn để tạo hạn giúp ra hoa chôm chôm."
+            },
+            {
+                "id": "Plastic mulching",
+                "type": "Method",
+                "description": "Sử dụng màng phủ plastic để tạo điều kiện khô hạn cho cây."
+            },
+            {
+                "id": "Paclobutrazol (PBZ) spray",
+                "type": "Method",
+                "description": "Phun hóa chất Paclobutrazol lên tán lá để ức chế sinh trưởng và kích thích ra hoa."
+            },
+            {
+                "id": "Foliar application of NAA",
+                "type": "Method",
+                "description": "Phun NAA (1-Naphthaleneacetic acid) lên lá để cải thiện đậu trái và giảm rụng trái non."
+            },
+            {
+                "id": "CaCl2 application",
+                "type": "Method",
+                "description": "Phun Canxi Clorua để giảm hiện tượng nứt trái ở chôm chôm."
+            },
+            {
+                "id": "Yield of Tieu Da Bo (20-30 ton/ha)",
+                "type": "Metric",
+                "description": "Năng suất của giống nhãn Tiêu Da Bò."
+            },
+            {
+                "id": "Flowering percentage (100%)",
+                "type": "Metric",
+                "description": "Tỷ lệ ra hoa đạt được sau khi xử lý KClO3 tại Thái Lan."
+            },
+            {
+                "id": "NAA concentration for fruit set (30 ppm)",
+                "type": "Metric",
+                "description": "Nồng độ NAA khuyến cáo để cải thiện tỷ lệ đậu trái."
+            },
+            {
+                "id": "KClO3 dose for E-daw (8 g/m2)",
+                "type": "Metric",
+                "description": "Liều lượng KClO3 sử dụng cho giống nhãn E-daw."
+            },
+            {
+                "id": "Fruit set to harvest duration (14-16 weeks)",
+                "type": "Metric",
+                "description": "Thời gian từ khi đậu trái đến khi thu hoạch của chôm chôm."
+            },
+            {
+                "id": "Witches' broom disease",
+                "type": "Concept",
+                "description": "Bệnh chổi rồng gây hại nghiêm trọng trên nhãn và chôm chôm."
+            },
+            {
+                "id": "Fruit cracking",
+                "type": "Concept",
+                "description": "Hiện tượng nứt trái ở chôm chôm gây giảm năng suất."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Longan and Rambutan Review Paper",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tran Van Hau",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Sy Hieu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Collar drenching of KClO3",
+                "target": "Flowering induction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Branch girdling",
+                "target": "Flowering induction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Drainage of irrigation ditch",
+                "target": "Flowering induction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Plastic mulching",
+                "target": "Flowering induction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Paclobutrazol (PBZ) spray",
+                "target": "Flowering induction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Foliar application of NAA",
+                "target": "Fruit setting",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CaCl2 application",
+                "target": "Fruit cracking",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Collar drenching of KClO3",
+                "target": "Flowering percentage (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Collar drenching of KClO3",
+                "target": "KClO3 dose for E-daw (8 g/m2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Foliar application of NAA",
+                "target": "NAA concentration for fruit set (30 ppm)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

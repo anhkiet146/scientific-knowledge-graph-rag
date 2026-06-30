@@ -1,0 +1,180 @@
+{
+    "filename": "06-NS-LE THI BACH(40-44)014.json",
+    "paper_title": "A new natural jasmonoid glucoside isolated from Euphorbia hirta L. extract",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phytochemistry",
+                "type": "Domain",
+                "description": "The study of phytochemicals and natural products derived from plants."
+            },
+            {
+                "id": "Euphorbia hirta L.",
+                "type": "Concept",
+                "description": "A species in the genus Euphorbia, Euphorbiaceae family, used in traditional medicine."
+            },
+            {
+                "id": "jasmonoid glucoside",
+                "type": "Concept",
+                "description": "A new natural compound isolated from Euphorbia hirta L."
+            },
+            {
+                "id": "Le Thi Bach",
+                "type": "Author",
+                "description": "Researcher and author of the paper."
+            },
+            {
+                "id": "Le Tien Dung",
+                "type": "Author",
+                "description": "Researcher and author of the paper."
+            },
+            {
+                "id": "Nguyen Trong Tuan",
+                "type": "Author",
+                "description": "Researcher and author of the paper."
+            },
+            {
+                "id": "Bui Thi Buu Hue",
+                "type": "Author",
+                "description": "Corresponding author of the paper."
+            },
+            {
+                "id": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "Graduate University of Science and Technology, Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "Research and education institution in Vietnam."
+            },
+            {
+                "id": "Institute of Applied Materials Science, Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "Research institution focused on materials science."
+            },
+            {
+                "id": "Institute of Chemistry, Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "Institution where NMR and HR-ESI-MS were performed."
+            },
+            {
+                "id": "Repeated chromatography",
+                "type": "Method",
+                "description": "Method used for isolating compounds from the extract."
+            },
+            {
+                "id": "Bruker AM500 FTNMR spectrometer",
+                "type": "Method",
+                "description": "Equipment used for recording NMR spectra."
+            },
+            {
+                "id": "HR-ESI-MS",
+                "type": "Method",
+                "description": "High Resolution Electrospray Ionization Mass Spectrum for molecular formula determination."
+            },
+            {
+                "id": "Silica gel column chromatography",
+                "type": "Method",
+                "description": "Technique used to separate chemical components."
+            },
+            {
+                "id": "Methanol fraction",
+                "type": "Method",
+                "description": "A chemical fraction used in the isolation process."
+            },
+            {
+                "id": "Ethanol 96%",
+                "type": "Method",
+                "description": "Solvent used for soaking the plant powder."
+            },
+            {
+                "id": "Weight of plant powder (8 kg)",
+                "type": "Metric",
+                "description": "Mass of the raw material used."
+            },
+            {
+                "id": "Yield of compound 1 (6 mg)",
+                "type": "Metric",
+                "description": "Amount of the new jasmonoid glucoside isolated."
+            },
+            {
+                "id": "Specific rotation (-48.3)",
+                "type": "Metric",
+                "description": "Specific rotation value [α] 30 D in MeOH."
+            },
+            {
+                "id": "m/z (413.1729)",
+                "type": "Metric",
+                "description": "Mass-to-charge ratio found via HR-ESI-MS."
+            },
+            {
+                "id": "Crude ethanol extract (700 g)",
+                "type": "Metric",
+                "description": "Mass of the concentrated ethanol extract."
+            },
+            {
+                "id": "Yield of compound 3 (16 mg)",
+                "type": "Metric",
+                "description": "Amount of myricitrin isolated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Thi Bach",
+                "target": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thi Bach",
+                "target": "Graduate University of Science and Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Tien Dung",
+                "target": "Institute of Applied Materials Science, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Trong Tuan",
+                "target": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Thi Buu Hue",
+                "target": "Department of Chemistry, College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "A new natural jasmonoid glucoside isolated from Euphorbia hirta L. extract",
+                "target": "Phytochemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Repeated chromatography",
+                "target": "jasmonoid glucoside",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Silica gel column chromatography",
+                "target": "Yield of compound 1 (6 mg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HR-ESI-MS",
+                "target": "m/z (413.1729)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Bruker AM500 FTNMR spectrometer",
+                "target": "jasmonoid glucoside",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ethanol 96%",
+                "target": "Euphorbia hirta L.",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

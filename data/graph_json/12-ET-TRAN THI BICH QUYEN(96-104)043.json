@@ -1,0 +1,205 @@
+{
+  "filename": "12-ET-TRAN THI BICH QUYEN(96-104)043.json",
+  "paper_title": "Comparative study of chitosan/Ag nanocomposites synthesis and test their antibacterial activity on Staphylococcus aureus and Escherichia coli",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nanotechnology",
+        "type": "Domain",
+        "description": "The field of science and technology dealing with materials at the nanometer scale."
+      },
+      {
+        "id": "Antibacterial activity",
+        "type": "Concept",
+        "description": "The ability of a substance to inhibit or kill bacteria such as S. aureus and E. coli."
+      },
+      {
+        "id": "Green synthesis",
+        "type": "Concept",
+        "description": "Eco-friendly method of synthesizing nanoparticles using biological agents."
+      },
+      {
+        "id": "Synthesis of chitosan/Ag nanocomposites",
+        "type": "Concept",
+        "description": "The process of creating a composite material consisting of silver nanoparticles and chitosan."
+      },
+      {
+        "id": "Tran Thi Bich Quyen",
+        "type": "Author",
+        "description": "Author from Department of Chemical Engineering, Can Tho University."
+      },
+      {
+        "id": "Vo Ngoc Hieu",
+        "type": "Author",
+        "description": "Author from Department of Chemical Engineering, Can Tho University."
+      },
+      {
+        "id": "Phan Van Hoang Khang",
+        "type": "Author",
+        "description": "Author from Department of Chemical Engineering, Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Xuan Chi",
+        "type": "Author",
+        "description": "Author from Department of Chemical Engineering, Can Tho University."
+      },
+      {
+        "id": "Ha Thanh Toan",
+        "type": "Author",
+        "description": "Author from Biotechnology Research and Development Institute, Can Tho University."
+      },
+      {
+        "id": "Doan Van Hong Thien",
+        "type": "Author",
+        "description": "Author from Department of Chemical Engineering, Can Tho University."
+      },
+      {
+        "id": "Luong Huynh Vu Thanh",
+        "type": "Author",
+        "description": "Author from Department of Chemical Engineering, Can Tho University."
+      },
+      {
+        "id": "Nguyen Trong Tuan",
+        "type": "Author",
+        "description": "Author from Department of Chemistry, Can Tho University."
+      },
+      {
+        "id": "Department of Chemical Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Academic department in Vietnam."
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "Research institute in Vietnam."
+      },
+      {
+        "id": "Kumquat extract",
+        "type": "Method",
+        "description": "Biological reducing agent used for nanoparticle synthesis."
+      },
+      {
+        "id": "River-leaf creeper extract",
+        "type": "Method",
+        "description": "Biological reducing agent used for nanoparticle synthesis."
+      },
+      {
+        "id": "UV-vis spectrophotometry",
+        "type": "Method",
+        "description": "Characterization technique to measure light absorbance."
+      },
+      {
+        "id": "Transmission electron microscopy (TEM)",
+        "type": "Method",
+        "description": "Imaging technique to determine particle size and morphology."
+      },
+      {
+        "id": "X-ray diffraction analysis (XRD)",
+        "type": "Method",
+        "description": "Analytical technique for phase structure determination."
+      },
+      {
+        "id": "Average particle size (17.2 ± 2.9 nm)",
+        "type": "Metric",
+        "description": "Size achieved using Kumquat extract."
+      },
+      {
+        "id": "MIC of E. coli (10 µL)",
+        "type": "Metric",
+        "description": "Minimum inhibitory concentration for Escherichia coli."
+      },
+      {
+        "id": "MIC of S. aureus (90 µL)",
+        "type": "Metric",
+        "description": "Minimum inhibitory concentration for Staphylococcus aureus."
+      },
+      {
+        "id": "Metal nanoparticles percentage (2.75%, w/w)",
+        "type": "Metric",
+        "description": "Amount of metal in the nanocomposite."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Thi Bich Quyen",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Ngoc Hieu",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Van Hoang Khang",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Xuan Chi",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Doan Van Hong Thien",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luong Huynh Vu Thanh",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Thanh Toan",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trong Tuan",
+        "target": "Department of Chemical Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kumquat extract",
+        "target": "Synthesis of chitosan/Ag nanocomposites",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "River-leaf creeper extract",
+        "target": "Synthesis of chitosan/Ag nanocomposites",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Kumquat extract",
+        "target": "Average particle size (17.2 ± 2.9 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "River-leaf creeper extract",
+        "target": "Average particle size (17.2 ± 2.9 nm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Kumquat extract",
+        "target": "Antibacterial activity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Synthesis of chitosan/Ag nanocomposites",
+        "target": "MIC of E. coli (10 µL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Synthesis of chitosan/Ag nanocomposites",
+        "target": "MIC of S. aureus (90 µL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Synthesis of chitosan/Ag nanocomposites",
+        "target": "Nanotechnology",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

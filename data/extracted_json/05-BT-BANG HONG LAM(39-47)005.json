@@ -1,0 +1,195 @@
+{
+    "filename": "05-BT-BANG HONG LAM(39-47)005.json",
+    "paper_title": "Isolation and screening of carotenoid-producing Bacillus spp. from seashore saline soil and seawater at Hon Son islet",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Carotenoid production",
+                "type": "Concept",
+                "description": "Biological synthesis of natural pigment compounds with antioxidant properties"
+            },
+            {
+                "id": "Bacillus spp. isolation",
+                "type": "Concept",
+                "description": "The process of separating Bacillus bacteria from environmental samples"
+            },
+            {
+                "id": "Biotechnology",
+                "type": "Domain",
+                "description": "Primary field of research focusing on biological sources for industrial products"
+            },
+            {
+                "id": "Bang Hong Lam",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "Huynh Nguyen Nhu Ngoc",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "Nguyen Le Thanh Dat",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "Nguyen Minh Chon",
+                "type": "Author",
+                "description": "Corresponding author of the research paper"
+            },
+            {
+                "id": "An Giang University - Vietnam National University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "Affiliation of Bang Hong Lam"
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of the research team"
+            },
+            {
+                "id": "16S rRNA sequencing",
+                "type": "Method",
+                "description": "Molecular method used for bacterial identification"
+            },
+            {
+                "id": "Methanol:chloroform extraction",
+                "type": "Method",
+                "description": "Chemical extraction process with a 1:2 v/v ratio for pigment recovery"
+            },
+            {
+                "id": "Spectrophotometry",
+                "type": "Method",
+                "description": "Technique used to scan absorbance at wavelengths 400-600 nm"
+            },
+            {
+                "id": "Difco sporulation medium",
+                "type": "Method",
+                "description": "Material/Medium used for plating and incubating colored bacterial colonies"
+            },
+            {
+                "id": "BLAST program",
+                "type": "Method",
+                "description": "Bioinformatics software used for sequence identity comparison"
+            },
+            {
+                "id": "MEGA X",
+                "type": "Method",
+                "description": "Software used for phylogenetic tree construction"
+            },
+            {
+                "id": "NCBI gene database",
+                "type": "Dataset",
+                "description": "Web-based repository of DNA sequences"
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "Genetic sequence database used for alignment"
+            },
+            {
+                "id": "Total carotenoid content HS3-7 (0.00287 mg/mL)",
+                "type": "Metric",
+                "description": "Maximum yield obtained from yellow-orange Bacillus vietnamensis"
+            },
+            {
+                "id": "Total carotenoid content HS8-3 (0.00250 mg/mL)",
+                "type": "Metric",
+                "description": "Yield obtained from pink Bacillus infantis"
+            },
+            {
+                "id": "Sequence similarity HS3-7 (99.81%)",
+                "type": "Metric",
+                "description": "Identity percentage with Bacillus vietnamensis"
+            },
+            {
+                "id": "Sequence similarity HS8-3 (100%)",
+                "type": "Metric",
+                "description": "Identity percentage with Bacillus infantis"
+            },
+            {
+                "id": "Absorbance wavelength (400-600 nm)",
+                "type": "Metric",
+                "description": "Range of light absorption monitored for carotenoids"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Isolation and screening of carotenoid-producing Bacillus spp.",
+                "target": "Biotechnology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Bang Hong Lam",
+                "target": "An Giang University - Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bang Hong Lam",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Nguyen Nhu Ngoc",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Le Thanh Dat",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Chon",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Methanol:chloroform extraction",
+                "target": "Total carotenoid content HS3-7 (0.00287 mg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Methanol:chloroform extraction",
+                "target": "Total carotenoid content HS8-3 (0.00250 mg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Spectrophotometry",
+                "target": "Absorbance wavelength (400-600 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "16S rRNA sequencing",
+                "target": "Sequence similarity HS3-7 (99.81%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "16S rRNA sequencing",
+                "target": "Sequence similarity HS8-3 (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Methanol:chloroform extraction",
+                "target": "Carotenoid production",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "16S rRNA sequencing",
+                "target": "Bacillus spp. isolation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "BLAST program",
+                "target": "NCBI gene database",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "MEGA X",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

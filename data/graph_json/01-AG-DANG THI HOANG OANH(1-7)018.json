@@ -1,0 +1,155 @@
+{
+  "filename": "01-AG-DANG THI HOANG OANH(1-7)018.json",
+  "paper_title": "Antibacterial resistance of Vibrio parahaemolyticus isolated from shrimp farms located in east coastal region of the Mekong Delta, Viet Nam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Antibiotic resistance",
+        "type": "Concept",
+        "description": "The ability of bacteria to resist the effects of an antibiotic to which they were once sensitive."
+      },
+      {
+        "id": "Acute hepatopancreatic necrosis disease (AHPND)",
+        "type": "Concept",
+        "description": "A bacterial disease severely impacting shrimp farming, caused by Vibrio parahaemolyticus."
+      },
+      {
+        "id": "Vibrio parahaemolyticus",
+        "type": "Concept",
+        "description": "The causative bacterial agent of AHPND in shrimp."
+      },
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The farming of aquatic organisms such as shrimp."
+      },
+      {
+        "id": "Dang Thi Hoang Oanh",
+        "type": "Author",
+        "description": "Lead author and correspondence researcher."
+      },
+      {
+        "id": "Truong Quoc Phu",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Thanh Phuong",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution where the researchers are affiliated."
+      },
+      {
+        "id": "Disc diffusion method",
+        "type": "Method",
+        "description": "Technique used to test the antibiotic susceptibility of bacterial isolates."
+      },
+      {
+        "id": "Broth macro dilution method",
+        "type": "Method",
+        "description": "Method used to determine the minimum inhibitory concentrations (MICs)."
+      },
+      {
+        "id": "PCR identification",
+        "type": "Method",
+        "description": "Molecular method used to detect the specific gene of V. parahaemolyticus."
+      },
+      {
+        "id": "Histopathological analysis",
+        "type": "Method",
+        "description": "Microscopic examination of tissues to study disease manifestations."
+      },
+      {
+        "id": "Amoxicillin",
+        "type": "Method",
+        "description": "Antibiotic agent used in susceptibility testing."
+      },
+      {
+        "id": "Doxycycline",
+        "type": "Method",
+        "description": "Antibiotic agent used in susceptibility and MIC testing."
+      },
+      {
+        "id": "Resistance to amoxicillin (100%)",
+        "type": "Metric",
+        "description": "Percentage of bacterial isolates found to be resistant to amoxicillin."
+      },
+      {
+        "id": "Resistance to cephalexin (100%)",
+        "type": "Metric",
+        "description": "Percentage of bacterial isolates found to be resistant to cephalexin."
+      },
+      {
+        "id": "Sensitivity to doxycycline (84.2%)",
+        "type": "Metric",
+        "description": "Percentage of bacterial isolates found to be sensitive to doxycycline."
+      },
+      {
+        "id": "MIC value (2μg/mL)",
+        "type": "Metric",
+        "description": "The minimum inhibitory concentration of doxycycline for the majority of tested isolates."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Antibiotic resistance",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dang Thi Hoang Oanh",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Quoc Phu",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Phuong",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Disc diffusion method",
+        "target": "Antibiotic resistance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Broth macro dilution method",
+        "target": "MIC value (2μg/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Disc diffusion method",
+        "target": "Resistance to amoxicillin (100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Disc diffusion method",
+        "target": "Resistance to cephalexin (100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Disc diffusion method",
+        "target": "Sensitivity to doxycycline (84.2%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCR identification",
+        "target": "Vibrio parahaemolyticus",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Histopathological analysis",
+        "target": "Acute hepatopancreatic necrosis disease (AHPND)",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

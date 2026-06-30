@@ -1,0 +1,155 @@
+{
+    "filename": "AE-NGUYEN NGOC TAN(27-32)045.json",
+    "paper_title": "Isolation and identification of lipid-degrading yeast from wastewater of canteens and restaurants in Ninh Kieu district, Can Tho city",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Lipid degradation",
+                "type": "Concept",
+                "description": "The process of breaking down fats and oils in wastewater by microorganisms."
+            },
+            {
+                "id": "Wastewater treatment",
+                "type": "Concept",
+                "description": "The application of lipid-degrading yeast to treat contaminated water from restaurants."
+            },
+            {
+                "id": "Biotechnology",
+                "type": "Domain",
+                "description": "The primary field of research for isolating and identifying microorganisms."
+            },
+            {
+                "id": "Nguyen Ngoc Tan",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Cao Ngoc Diep",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the authors are affiliated."
+            },
+            {
+                "id": "ITS-PCR",
+                "type": "Method",
+                "description": "Internal transcribed spacer-Polymerase chain reaction technique for identification."
+            },
+            {
+                "id": "DNA sequencing",
+                "type": "Method",
+                "description": "Method used to determine the genetic sequence of yeast isolates."
+            },
+            {
+                "id": "Tween 20 agar medium",
+                "type": "Method",
+                "description": "Medium used to test the lipase activity of isolated yeast."
+            },
+            {
+                "id": "YPD medium",
+                "type": "Method",
+                "description": "Yeast extract Pentose-Dextrose medium used for isolation and enrichment."
+            },
+            {
+                "id": "BLAST N software",
+                "type": "Method",
+                "description": "Software used to compare DNA sequences with known databases."
+            },
+            {
+                "id": "Strain B1",
+                "type": "Method",
+                "description": "Yeast isolate identified as Candida palmioleophila."
+            },
+            {
+                "id": "Strain ST",
+                "type": "Method",
+                "description": "Yeast isolate identified as Meyerozyma quilliermondii."
+            },
+            {
+                "id": "Strain Da2a",
+                "type": "Method",
+                "description": "Yeast isolate identified as Candida tropicalis."
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "NCBI database used for sequence similarity comparison."
+            },
+            {
+                "id": "Lipid degradation rate by B1 (74.14%)",
+                "type": "Metric",
+                "description": "The percentage of lipid removed by strain B1 after 7 days."
+            },
+            {
+                "id": "Lipid degradation rate by ST (83.03%)",
+                "type": "Metric",
+                "description": "The percentage of lipid removed by strain ST after 7 days."
+            },
+            {
+                "id": "Lipid degradation rate by Da2a (80.7%)",
+                "type": "Metric",
+                "description": "The percentage of lipid removed by strain Da2a after 7 days."
+            },
+            {
+                "id": "Sequence similarity (97-99%)",
+                "type": "Metric",
+                "description": "The degree of similarity between isolated sequences and GenBank references."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Biotechnology",
+                "target": "Lipid degradation",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Ngoc Tan",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cao Ngoc Diep",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "ITS-PCR",
+                "target": "Lipid degradation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DNA sequencing",
+                "target": "Lipid degradation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Strain B1",
+                "target": "Lipid degradation rate by B1 (74.14%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Strain ST",
+                "target": "Lipid degradation rate by ST (83.03%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Strain Da2a",
+                "target": "Lipid degradation rate by Da2a (80.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BLAST N software",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "DNA sequencing",
+                "target": "Sequence similarity (97-99%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

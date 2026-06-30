@@ -1,0 +1,155 @@
+{
+    "filename": "03-BT-DANG HOAI AN(19-27)034.json",
+    "paper_title": "Selection of carrier materials for formulation of the antagonistic Bacillus spp. against rice bacterial leaf blight",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Rice bacterial leaf blight",
+                "type": "Concept",
+                "description": "A common rice disease caused by Xanthomonas oryzae pv. oryzae (Xoo) that reduces quality and yield."
+            },
+            {
+                "id": "Antagonistic effects",
+                "type": "Concept",
+                "description": "The ability of certain bacteria to inhibit the growth of pathogens."
+            },
+            {
+                "id": "Plant Pathology",
+                "type": "Domain",
+                "description": "The study of diseases in plants, focusing on diagnosis, management, and control."
+            },
+            {
+                "id": "Bacillus pumilus ST-115",
+                "type": "Method",
+                "description": "A bacterial strain used as a bio-control agent against rice bacterial leaf blight."
+            },
+            {
+                "id": "Bacillus safensis AG-131",
+                "type": "Method",
+                "description": "A bacterial strain evaluated for its antagonistic effects against rice pathogens."
+            },
+            {
+                "id": "Bacillus stratosphericus AG-62",
+                "type": "Method",
+                "description": "A bacterial strain tested for formulation using various carrier materials."
+            },
+            {
+                "id": "Bacillus subtilis TG-71",
+                "type": "Method",
+                "description": "A bacterial strain selected for its disease-reducing effects in rice."
+            },
+            {
+                "id": "Talc powder",
+                "type": "Method",
+                "description": "A carrier material used for formulating Bacillus spp. to maintain cell density."
+            },
+            {
+                "id": "Rice bran",
+                "type": "Method",
+                "description": "A natural carrier material evaluated for storing antagonistic bacteria."
+            },
+            {
+                "id": "Rice husk powder",
+                "type": "Method",
+                "description": "A processing byproduct used as a solid carrier for microbial formulations."
+            },
+            {
+                "id": "Plate counting method",
+                "type": "Method",
+                "description": "A procedure used to examine viable cell densities in formulations monthly."
+            },
+            {
+                "id": "Dual-culture test",
+                "type": "Method",
+                "description": "An in vitro test used to determine inhibition zones on agar plates."
+            },
+            {
+                "id": "Cell density (> 10^6 CFU/g)",
+                "type": "Metric",
+                "description": "The threshold of viable bacteria maintained in the carrier after six months."
+            },
+            {
+                "id": "Yield loss (10-20%)",
+                "type": "Metric",
+                "description": "The amount of rice production reduction caused by bacterial leaf blight."
+            },
+            {
+                "id": "Dang Hoai An",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Le Nguyen Xuan Thanh",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Nguyen Dac Khoa",
+                "type": "Author",
+                "description": "Corresponding author and researcher at Can Tho University."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Academic and research institution located in Vietnam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Selection of carrier materials for formulation of the antagonistic Bacillus spp. against rice bacterial leaf blight",
+                "target": "Plant Pathology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Bacillus pumilus ST-115",
+                "target": "Rice bacterial leaf blight",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Bacillus safensis AG-131",
+                "target": "Rice bacterial leaf blight",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Bacillus stratosphericus AG-62",
+                "target": "Rice bacterial leaf blight",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Bacillus subtilis TG-71",
+                "target": "Rice bacterial leaf blight",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Talc powder",
+                "target": "Cell density (> 10^6 CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Rice bran",
+                "target": "Cell density (> 10^6 CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Rice husk powder",
+                "target": "Cell density (> 10^6 CFU/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Dang Hoai An",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Nguyen Xuan Thanh",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Dac Khoa",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

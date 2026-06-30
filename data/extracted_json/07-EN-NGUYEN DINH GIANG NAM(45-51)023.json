@@ -1,0 +1,155 @@
+{
+    "filename": "07-EN-NGUYEN DINH GIANG NAM(45-51)023.json",
+    "paper_title": "Land subsidence modeling in the Mekong Delta: A case study in Soc Trang and Can Tho city",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Land subsidence",
+                "type": "Concept",
+                "description": "The sinking or settling of the ground surface due to various factors like groundwater extraction."
+            },
+            {
+                "id": "Groundwater decline",
+                "type": "Concept",
+                "description": "The reduction in groundwater levels due to excessive extraction or pumping."
+            },
+            {
+                "id": "Three-factor rheology model",
+                "type": "Method",
+                "description": "A structural model used to simulate land subsidence including elasticity and viscosity coefficients."
+            },
+            {
+                "id": "Interferometric SAR (InSAR)",
+                "type": "Method",
+                "description": "A radar technique used in geodesy and remote sensing to monitor ground deformation."
+            },
+            {
+                "id": "Euler method",
+                "type": "Method",
+                "description": "A numerical procedure for solving ordinary differential equations."
+            },
+            {
+                "id": "Bias correction method",
+                "type": "Method",
+                "description": "Used to adjust future rainfall series based on differences in present observed data."
+            },
+            {
+                "id": "Global Climate Model (GCM)",
+                "type": "Method",
+                "description": "A type of mathematical model of the general circulation of a planetary atmosphere or ocean."
+            },
+            {
+                "id": "InSAR observation data (2006-2010)",
+                "type": "Dataset",
+                "description": "Satellite-based ground deformation measurements for the Mekong Delta."
+            },
+            {
+                "id": "Rainfall series (Soc Trang city)",
+                "type": "Dataset",
+                "description": "Meteorological data used for simulating groundwater levels."
+            },
+            {
+                "id": "Land subsidence rate in Can Tho (2.6 cm/year)",
+                "type": "Metric",
+                "description": "The calculated annual rate of ground sinking in Can Tho city."
+            },
+            {
+                "id": "Cumulated subsidence in coastal area (65 cm)",
+                "type": "Metric",
+                "description": "Total land subsidence observed/simulated for the period 1994-2014 in Soc Trang."
+            },
+            {
+                "id": "Cumulative land subsidence 2014-2035 (71.4 cm)",
+                "type": "Metric",
+                "description": "Estimated future subsidence in the coastal area under increased pumping scenarios."
+            },
+            {
+                "id": "Sea level rise (2.9 mm/year)",
+                "type": "Metric",
+                "description": "The average rate of sea level increase along the east coastal area of the Mekong Delta."
+            },
+            {
+                "id": "Hydrological and Environmental Engineering",
+                "type": "Domain",
+                "description": "The primary research field focusing on water movement and environmental impacts."
+            },
+            {
+                "id": "Nguyen Dinh Giang Nam",
+                "type": "Author",
+                "description": "Lead author affiliated with Can Tho University."
+            },
+            {
+                "id": "Goto Akira",
+                "type": "Author",
+                "description": "Co-author affiliated with Utsunomiya University."
+            },
+            {
+                "id": "Osawa Kazutoshi",
+                "type": "Author",
+                "description": "Co-author affiliated with Utsunomiya University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Viet Nam."
+            },
+            {
+                "id": "Utsunomiya University",
+                "type": "Institution",
+                "description": "University located in Japan."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Land subsidence modeling in the Mekong Delta",
+                "target": "Hydrological and Environmental Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Three-factor rheology model",
+                "target": "Land subsidence",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Three-factor rheology model",
+                "target": "Groundwater decline",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Three-factor rheology model",
+                "target": "Land subsidence rate in Can Tho (2.6 cm/year)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Three-factor rheology model",
+                "target": "Cumulated subsidence in coastal area (65 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Three-factor rheology model",
+                "target": "Cumulative land subsidence 2014-2035 (71.4 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Three-factor rheology model",
+                "target": "InSAR observation data (2006-2010)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Nguyen Dinh Giang Nam",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Goto Akira",
+                "target": "Utsunomiya University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Osawa Kazutoshi",
+                "target": "Utsunomiya University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "filename": "15-FT-NGUYEN MINH THUY(111-120)034.json",
+    "paper_title": "Characterization of lactic acid bacteria isolated from pickled vegetables as potential starters for yogurt preparation",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "Researcher from the Department of Food Technology, Can Tho University."
+            },
+            {
+                "id": "Nguyen Xuan Cuong",
+                "type": "Author",
+                "description": "Researcher from Hoa Ninh High School, Vinh Long Province."
+            },
+            {
+                "id": "Nguyen Van Thanh",
+                "type": "Author",
+                "description": "Researcher from the Department of Food Technology, Can Tho University."
+            },
+            {
+                "id": "Nguyen Thi My Tuyen",
+                "type": "Author",
+                "description": "Researcher from the Department of Food Technology, Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam hosting the Department of Food Technology."
+            },
+            {
+                "id": "Hoa Ninh High School",
+                "type": "Institution",
+                "description": "Educational institution in Vinh Long Province, Vietnam."
+            },
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The main field of research involving food processing and microbiology."
+            },
+            {
+                "id": "Yogurt preparation",
+                "type": "Concept",
+                "description": "The process of making yogurt using starter cultures."
+            },
+            {
+                "id": "Antimicrobial activity",
+                "type": "Concept",
+                "description": "The ability of substances or organisms to inhibit the growth of bacteria."
+            },
+            {
+                "id": "Lactic acid fermentation",
+                "type": "Concept",
+                "description": "Metabolic process by which glucose and other sugars are converted into cellular energy and the metabolite lactate."
+            },
+            {
+                "id": "Agar spot test",
+                "type": "Method",
+                "description": "Method used to determine the antimicrobial activity of bacterial strains."
+            },
+            {
+                "id": "Agar well diffusion test",
+                "type": "Method",
+                "description": "Method to evaluate the antibacterial activity of bacteriocins."
+            },
+            {
+                "id": "DNA sequencing",
+                "type": "Method",
+                "description": "Process of determining the nucleic acid sequence in 16S rRNA gene."
+            },
+            {
+                "id": "Therner acidity method",
+                "type": "Method",
+                "description": "A quantitative measurement method for lactic acid production."
+            },
+            {
+                "id": "MRS broth",
+                "type": "Method",
+                "description": "De Man-Rogosa-Sharpe culture medium used for growing lactic acid bacteria."
+            },
+            {
+                "id": "BLAST N software",
+                "type": "Method",
+                "description": "Software used for comparing primary biological sequence information."
+            },
+            {
+                "id": "NCBI GenBank",
+                "type": "Dataset",
+                "description": "Comprehensive database that contains publicly available nucleotide sequences."
+            },
+            {
+                "id": "pH value (4.5)",
+                "type": "Metric",
+                "description": "The acidity level achieved in yogurt after 7 hours of incubation."
+            },
+            {
+                "id": "Similarity (97%)",
+                "type": "Metric",
+                "description": "The genetic similarity of strain XK1.4 to Lactobacillus plantarum."
+            },
+            {
+                "id": "Similarity (99%)",
+                "type": "Metric",
+                "description": "The genetic similarity of strain S1.2 to Lactobacillus plantarum."
+            },
+            {
+                "id": "Inhibition zone diameter (20 mm)",
+                "type": "Metric",
+                "description": "The measurement of antimicrobial activity for strain S1.2."
+            },
+            {
+                "id": "Inhibition zone diameter (23 mm)",
+                "type": "Metric",
+                "description": "The measurement of antimicrobial activity for strain XK1.4."
+            },
+            {
+                "id": "Bacterial density (10^8 CFU/mL)",
+                "type": "Metric",
+                "description": "The concentration of starter culture used for effective fermentation."
+            },
+            {
+                "id": "Incubation time (7 hours)",
+                "type": "Metric",
+                "description": "The duration required to reach standardized yogurt pH."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Thanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi My Tuyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Xuan Cuong",
+                "target": "Hoa Ninh High School",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Food Technology",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Agar spot test",
+                "target": "Antimicrobial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Agar well diffusion test",
+                "target": "Antimicrobial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DNA sequencing",
+                "target": "NCBI GenBank",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Therner acidity method",
+                "target": "Lactic acid fermentation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DNA sequencing",
+                "target": "Similarity (97%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DNA sequencing",
+                "target": "Similarity (99%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar spot test",
+                "target": "Inhibition zone diameter (20 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Agar well diffusion test",
+                "target": "Inhibition zone diameter (23 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Yogurt preparation",
+                "target": "pH value (4.5)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Yogurt preparation",
+                "target": "Incubation time (7 hours)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Yogurt preparation",
+                "target": "Bacterial density (10^8 CFU/mL)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

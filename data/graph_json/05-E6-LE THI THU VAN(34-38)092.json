@@ -1,0 +1,165 @@
+{
+  "filename": "05-E6-LE THI THU VAN(34-38)092.json",
+  "paper_title": "Effects of different levels of biochar on methane, carbon dioxide production and digestibility of para grass (Brachiaria mutica) in in vitro incubation",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Agriculture",
+        "type": "Domain",
+        "description": "The primary field of study regarding crop production and livestock management."
+      },
+      {
+        "id": "Le Thi Thu Van",
+        "type": "Author",
+        "description": "First author of the research paper."
+      },
+      {
+        "id": "Nguyen Van Thu",
+        "type": "Author",
+        "description": "Co-author and researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Huu Chiem",
+        "type": "Author",
+        "description": "Co-author from the College of Environment and Natural Resources."
+      },
+      {
+        "id": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the primary research was conducted."
+      },
+      {
+        "id": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution associated with the third author."
+      },
+      {
+        "id": "Methane production",
+        "type": "Concept",
+        "description": "The research problem focusing on the emission of CH4 in ruminants."
+      },
+      {
+        "id": "Digestibility",
+        "type": "Concept",
+        "description": "The capability of being digested by an animal, specifically organic matter."
+      },
+      {
+        "id": "Greenhouse Gas Emissions",
+        "type": "Concept",
+        "description": "Environmental concern regarding gases like methane and carbon dioxide."
+      },
+      {
+        "id": "Biochar",
+        "type": "Method",
+        "description": "Carbon-rich material added to the feed to reduce emissions."
+      },
+      {
+        "id": "Para grass (Brachiaria mutica)",
+        "type": "Method",
+        "description": "The biological material used as a substrate in the incubation."
+      },
+      {
+        "id": "In vitro incubation",
+        "type": "Method",
+        "description": "Laboratory procedure for simulating rumen fermentation."
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "The experimental setup with five treatments and three replications."
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Statistical analysis method used to evaluate experimental data."
+      },
+      {
+        "id": "Table 3",
+        "type": "Dataset",
+        "description": "Dataset containing the chemical composition of feeds."
+      },
+      {
+        "id": "Total CH4 production for BC0 (54.8ml/g)",
+        "type": "Metric",
+        "description": "The highest methane production value observed in the control group."
+      },
+      {
+        "id": "Organic matter digestibility for BC0 (71.6%)",
+        "type": "Metric",
+        "description": "The maximum organic matter digestibility measured in the control group."
+      },
+      {
+        "id": "OMD for BC2 (62.5%)",
+        "type": "Metric",
+        "description": "The lowest value of organic matter digestibility found in the 2.0% biochar treatment."
+      },
+      {
+        "id": "Methane reduction (10 to 17.5%)",
+        "type": "Metric",
+        "description": "Percentage reduction of methane production when adding biochar."
+      },
+      {
+        "id": "R2 (0.9448)",
+        "type": "Metric",
+        "description": "The linear relationship coefficient between biochar levels and methane production."
+      }
+    ],
+    "relations": [
+      {
+        "source": "In vitro incubation",
+        "target": "Agriculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Le Thi Thu Van",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Thu",
+        "target": "College of Agriculture and Applied Biology, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Huu Chiem",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Biochar",
+        "target": "Methane production",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "In vitro incubation",
+        "target": "Digestibility",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "In vitro incubation",
+        "target": "Total CH4 production for BC0 (54.8ml/g)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "In vitro incubation",
+        "target": "Organic matter digestibility for BC0 (71.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Biochar",
+        "target": "Methane reduction (10 to 17.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Biochar",
+        "target": "OMD for BC2 (62.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Table 3",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

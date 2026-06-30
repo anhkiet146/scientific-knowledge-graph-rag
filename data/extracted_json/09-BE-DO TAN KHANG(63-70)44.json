@@ -1,0 +1,160 @@
+{
+    "filename": "09-BE-DO TAN KHANG(63-70)44.json",
+    "paper_title": "EFFECTS OF EXTRACTION METHODS AND STORAGE CONDITIONS ON HISTAMINE CONTENT IN FROZEN TUNA (Thunnus albacares)",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Do Tan Khang",
+                "type": "Author",
+                "description": "Researcher at the Biotechnology Research and Development Institute."
+            },
+            {
+                "id": "Le Anh Vu",
+                "type": "Author",
+                "description": "Researcher at the Biotechnology Research and Development Institute."
+            },
+            {
+                "id": "Tran Nhan Dung",
+                "type": "Author",
+                "description": "Researcher at the Biotechnology Research and Development Institute."
+            },
+            {
+                "id": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "Institution",
+                "description": "Research institution located in Vietnam."
+            },
+            {
+                "id": "Food Science",
+                "type": "Domain",
+                "description": "Study of the physical, biological, and chemical makeup of food."
+            },
+            {
+                "id": "Histamine formation",
+                "type": "Concept",
+                "description": "The process of histidine being decarboxylased to histamine by bacterial enzymes."
+            },
+            {
+                "id": "Scombroid poisoning",
+                "type": "Concept",
+                "description": "Foodborne intoxication associated with consuming fish containing high levels of histamine."
+            },
+            {
+                "id": "Biogenic amines",
+                "type": "Concept",
+                "description": "Nitrogenous compounds formed by the decarboxylation of amino acids."
+            },
+            {
+                "id": "Perchloric acid 0.6 M",
+                "type": "Method",
+                "description": "Acidic solvent used for histamine extraction from fish samples."
+            },
+            {
+                "id": "Trichloroacetic acid 6%",
+                "type": "Method",
+                "description": "Acidic solvent used as an effective biogenic amine extractor."
+            },
+            {
+                "id": "Benzoylation procedure",
+                "type": "Method",
+                "description": "Derivatization method used for determining histamine concentration via HPLC."
+            },
+            {
+                "id": "Dansylation procedure",
+                "type": "Method",
+                "description": "Analytical procedure for amine derivatization."
+            },
+            {
+                "id": "HPLC",
+                "type": "Method",
+                "description": "High-Performance Liquid Chromatography used for separating and quantifying histamine."
+            },
+            {
+                "id": "Total plate count (TPC)",
+                "type": "Method",
+                "description": "Method for determining the number of microorganisms in a sample."
+            },
+            {
+                "id": "Histamine level (161.29 mg/kg)",
+                "type": "Metric",
+                "description": "Highest histamine level found in tuna stored at 4°C after 7 days."
+            },
+            {
+                "id": "Bacterial count (8.88 log10 cfu/g)",
+                "type": "Metric",
+                "description": "Total microbial count in tuna samples stored at 4°C after 7 days."
+            },
+            {
+                "id": "FDA limit (50 mg/kg)",
+                "type": "Metric",
+                "description": "Maximum histamine level allowed by the US Food and Drug Administration."
+            },
+            {
+                "id": "Retention time (3 min)",
+                "type": "Metric",
+                "description": "Retention time for histamine in the benzoyl procedure."
+            },
+            {
+                "id": "EFFECTS OF EXTRACTION METHODS AND STORAGE CONDITIONS ON HISTAMINE CONTENT IN FROZEN TUNA",
+                "type": "Concept",
+                "description": "The title of the research paper."
+            }
+        ],
+        "relations": [
+            {
+                "source": "EFFECTS OF EXTRACTION METHODS AND STORAGE CONDITIONS ON HISTAMINE CONTENT IN FROZEN TUNA",
+                "target": "Food Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Do Tan Khang",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Anh Vu",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Nhan Dung",
+                "target": "Biotechnology Research and Development Institute, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Benzoylation procedure",
+                "target": "Histamine level (161.29 mg/kg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Benzoylation procedure",
+                "target": "Retention time (3 min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Total plate count (TPC)",
+                "target": "Bacterial count (8.88 log10 cfu/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Perchloric acid 0.6 M",
+                "target": "Histamine formation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Trichloroacetic acid 6%",
+                "target": "Histamine formation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Benzoylation procedure",
+                "target": "Histamine formation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "HPLC",
+                "target": "Histamine formation",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

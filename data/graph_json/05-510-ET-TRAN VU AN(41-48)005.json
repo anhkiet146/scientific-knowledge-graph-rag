@@ -1,0 +1,150 @@
+{
+  "filename": "05-510-ET-TRAN VU AN(41-48)005.json",
+  "paper_title": "Influence of internal curing on compressive strength and drying shrinkage of supersulfated cement mortar",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Vu An",
+        "type": "Author",
+        "description": "Researcher at Can Tho University, Viet Nam."
+      },
+      {
+        "id": "Nguyen Thanh Phuong",
+        "type": "Author",
+        "description": "Correspondence author at Can Tho University, Viet Nam."
+      },
+      {
+        "id": "Bui Le Anh Tuan",
+        "type": "Author",
+        "description": "Researcher at Can Tho University, Viet Nam."
+      },
+      {
+        "id": "College of Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution located in Viet Nam."
+      },
+      {
+        "id": "Building Materials and Civil Engineering",
+        "type": "Domain",
+        "description": "The study focuses on cementitious materials and their structural properties."
+      },
+      {
+        "id": "Cold-bonded fly ash based artificial lightweight aggregate (ALWA)",
+        "type": "Method",
+        "description": "An internal curing agent produced from fly ash and OPC used to replace fine aggregate."
+      },
+      {
+        "id": "Super-sulfated cement (SSC)",
+        "type": "Method",
+        "description": "A binder produced with a mixture of slag, gypsum, and blended Portland cement."
+      },
+      {
+        "id": "Internal curing (IC)",
+        "type": "Method",
+        "description": "A process of maintaining moisture within concrete/mortar using water-saturated porous materials."
+      },
+      {
+        "id": "Agglomeration process",
+        "type": "Method",
+        "description": "A three-period manufacturing process (feeding, nucleation, maintenance) to create ALWA."
+      },
+      {
+        "id": "Compressive strength",
+        "type": "Concept",
+        "description": "The ability of the cement mortar to withstand loads without failure."
+      },
+      {
+        "id": "Drying shrinkage",
+        "type": "Concept",
+        "description": "The contraction of a hardened concrete mixture due to the loss of capillary water."
+      },
+      {
+        "id": "Self-desiccation",
+        "type": "Concept",
+        "description": "A phenomenon where water is consumed by hydration, leading to increased internal stress."
+      },
+      {
+        "id": "Unit weight decrease (13.9%)",
+        "type": "Metric",
+        "description": "Average reduction in unit weight of IC-SSC mortars compared to reference."
+      },
+      {
+        "id": "Dried density decrease (20.0%)",
+        "type": "Metric",
+        "description": "Average reduction in dried density of hardened mortars compared to reference."
+      },
+      {
+        "id": "28-day compressive strength (89.3%)",
+        "type": "Metric",
+        "description": "Relative compressive strength achieved at 50 vol.% ALWA replacement."
+      },
+      {
+        "id": "Water absorption of ALWA (18%)",
+        "type": "Metric",
+        "description": "Specific water absorption capacity of the manufactured ALWA."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Vu An",
+        "target": "College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Phuong",
+        "target": "College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Le Anh Tuan",
+        "target": "College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Influence of internal curing on compressive strength and drying shrinkage of supersulfated cement mortar",
+        "target": "Building Materials and Civil Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Cold-bonded fly ash based artificial lightweight aggregate (ALWA)",
+        "target": "Internal curing (IC)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Internal curing (IC)",
+        "target": "Compressive strength",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Internal curing (IC)",
+        "target": "Drying shrinkage",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Agglomeration process",
+        "target": "Cold-bonded fly ash based artificial lightweight aggregate (ALWA)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Internal curing (IC)",
+        "target": "Unit weight decrease (13.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Internal curing (IC)",
+        "target": "Dried density decrease (20.0%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Internal curing (IC)",
+        "target": "28-day compressive strength (89.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agglomeration process",
+        "target": "Water absorption of ALWA (18%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

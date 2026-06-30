@@ -1,0 +1,130 @@
+{
+  "filename": "03-EN-VO THI HONG NHUNG(23-34)003.json",
+  "paper_title": "Attitudes towards cycling in Long Xuyen, Viet Nam: An exploratory study",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Attitudes towards cycling in Long Xuyen, Viet Nam: An exploratory study",
+        "type": "Concept",
+        "description": "Tên bài báo nghiên cứu về thái độ đối với việc đi xe đạp tại Long Xuyên."
+      },
+      {
+        "id": "Urban Planning and Transportation",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu chính của bài báo về quy hoạch đô thị và giao thông."
+      },
+      {
+        "id": "Vo Thi Hong Nhung",
+        "type": "Author",
+        "description": "Tác giả chính của bài báo."
+      },
+      {
+        "id": "University of Melbourne",
+        "type": "Institution",
+        "description": "Tổ chức nơi tác giả công tác (Alumni of Office for Environmental Programs)."
+      },
+      {
+        "id": "Cycling behavior",
+        "type": "Concept",
+        "description": "Hành vi sử dụng xe đạp của người dân trong đô thị."
+      },
+      {
+        "id": "Theory of Planned Behavior (TPB)",
+        "type": "Concept",
+        "description": "Lý thuyết được sử dụng để giải thích hành vi con người thông qua thái độ, chuẩn chủ quan và nhận thức kiểm soát hành vi."
+      },
+      {
+        "id": "Qualitative approach",
+        "type": "Method",
+        "description": "Phương pháp nghiên cứu định tính được sử dụng để xác định các ảnh hưởng chính."
+      },
+      {
+        "id": "Semi-structured interview method",
+        "type": "Method",
+        "description": "Phỏng vấn bán cấu trúc được thực hiện với các đối tượng tham gia."
+      },
+      {
+        "id": "Grounded Theory",
+        "type": "Method",
+        "description": "Lý thuyết nền tảng được sử dụng để phân tích dữ liệu phỏng vấn."
+      },
+      {
+        "id": "Charmaz coding approach",
+        "type": "Method",
+        "description": "Cách tiếp cận mã hóa của Charmaz trong phân tích dữ liệu định tính."
+      },
+      {
+        "id": "Purposive technique",
+        "type": "Method",
+        "description": "Kỹ thuật chọn mẫu có mục đích."
+      },
+      {
+        "id": "Snowball technique",
+        "type": "Method",
+        "description": "Kỹ thuật chọn mẫu quả cầu tuyết."
+      },
+      {
+        "id": "Sample size (12 participants)",
+        "type": "Metric",
+        "description": "Số lượng người tham gia trong nghiên cứu định tính."
+      },
+      {
+        "id": "Age range (18-69 years old)",
+        "type": "Metric",
+        "description": "Phạm vi độ tuổi của các đối tượng tham gia nghiên cứu."
+      },
+      {
+        "id": "Area of Long Xuyen (106.87 km2)",
+        "type": "Metric",
+        "description": "Diện tích địa bàn nghiên cứu thành phố Long Xuyên."
+      },
+      {
+        "id": "Travel distance limit (5-7 km)",
+        "type": "Metric",
+        "description": "Khoảng cách di chuyển bằng xe đạp được người tham gia cho là phù hợp."
+      },
+      {
+        "id": "Habit",
+        "type": "Concept",
+        "description": "Yếu tố thói quen ảnh hưởng đến lựa chọn phương tiện di chuyển."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Attitudes towards cycling in Long Xuyen, Viet Nam: An exploratory study",
+        "target": "Urban Planning and Transportation",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Vo Thi Hong Nhung",
+        "target": "University of Melbourne",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Qualitative approach",
+        "target": "Sample size (12 participants)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Qualitative approach",
+        "target": "Age range (18-69 years old)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Semi-structured interview method",
+        "target": "Cycling behavior",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Grounded Theory",
+        "target": "Charmaz coding approach",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Theory of Planned Behavior (TPB)",
+        "target": "Cycling behavior",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

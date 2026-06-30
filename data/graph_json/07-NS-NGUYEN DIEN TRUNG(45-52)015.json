@@ -1,0 +1,200 @@
+{
+  "filename": "07-NS-NGUYEN DIEN TRUNG(45-52)015.json",
+  "paper_title": "Al2TiO5/SBA-15 promoting photocatalytic degradation of cinnamic acid",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Photocatalysis",
+        "type": "Domain",
+        "description": "The research field focusing on chemical reactions that occur in the presence of light and a catalyst."
+      },
+      {
+        "id": "Materials Science",
+        "type": "Domain",
+        "description": "The field concerned with the synthesis and characterization of materials like Al2TiO5 and SBA-15."
+      },
+      {
+        "id": "Photocatalytic degradation",
+        "type": "Concept",
+        "description": "The process of breaking down organic pollutants using light and catalysts."
+      },
+      {
+        "id": "Water pollution",
+        "type": "Concept",
+        "description": "The environmental issue caused by disposal of organic dyes, phenolic acids, and pesticides into water."
+      },
+      {
+        "id": "Cinnamic acid (CA)",
+        "type": "Concept",
+        "description": "A phenolic acid selected as a decompositional model for the study."
+      },
+      {
+        "id": "Nguyen Dien Trung",
+        "type": "Author",
+        "description": "Author from the School of Education, Can Tho University."
+      },
+      {
+        "id": "Nguyen Thanh Nhuan",
+        "type": "Author",
+        "description": "Author from the School of Education, Can Tho University."
+      },
+      {
+        "id": "Mai Van Hieu",
+        "type": "Author",
+        "description": "Author from the College of Natural Sciences, Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Hong Nam",
+        "type": "Author",
+        "description": "Author from the College of Natural Sciences, Can Tho University."
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "Educational department affiliated with authors Trung and Nhuan."
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "Science department affiliated with authors Hieu and Hong."
+      },
+      {
+        "id": "Sol-gel method",
+        "type": "Method",
+        "description": "A synthesis technique used to produce Al2TiO5/SBA-15 catalysts."
+      },
+      {
+        "id": "75ATO/SBA",
+        "type": "Method",
+        "description": "A specific hybrid catalyst containing 75% Al2TiO5 and SBA-15."
+      },
+      {
+        "id": "SBA-15",
+        "type": "Method",
+        "description": "A mesoporous silica material used as a catalyst host."
+      },
+      {
+        "id": "Aluminum nitrate nonahydrate",
+        "type": "Method",
+        "description": "A chemical precursor used in the synthesis process."
+      },
+      {
+        "id": "Titanium isopropoxide",
+        "type": "Method",
+        "description": "A chemical precursor used to synthesize ATO."
+      },
+      {
+        "id": "X-ray diffraction analysis (XRD)",
+        "type": "Method",
+        "description": "Analytical technique used to determine phase formation."
+      },
+      {
+        "id": "UV-Vis diffuse reflectance spectroscopy (DRS)",
+        "type": "Method",
+        "description": "Technique used to examine the bandgap of the catalysts."
+      },
+      {
+        "id": "CA conversion percentage (80.2%)",
+        "type": "Metric",
+        "description": "The highest degradation efficiency achieved for cinnamic acid."
+      },
+      {
+        "id": "Catalyst dosage (0.75 g/L)",
+        "type": "Metric",
+        "description": "The optimum concentration of catalyst for the reaction."
+      },
+      {
+        "id": "Initial pH (3.8)",
+        "type": "Metric",
+        "description": "The optimum acidity level for CA photodegradation."
+      },
+      {
+        "id": "Airflow rate (0.3 L/min)",
+        "type": "Metric",
+        "description": "The optimum rate of oxygen supply for the process."
+      },
+      {
+        "id": "Bandgap energy (3.42 eV)",
+        "type": "Metric",
+        "description": "The measured energy gap for the 75ATO/SBA catalyst."
+      },
+      {
+        "id": "Surface area (609-777 m2/g)",
+        "type": "Metric",
+        "description": "The range of surface area for the SBA-15 material."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Al2TiO5/SBA-15 promoting photocatalytic degradation of cinnamic acid",
+        "target": "Photocatalysis",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Al2TiO5/SBA-15 promoting photocatalytic degradation of cinnamic acid",
+        "target": "Materials Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Dien Trung",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thanh Nhuan",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mai Van Hieu",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Hong Nam",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Sol-gel method",
+        "target": "Photocatalytic degradation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "75ATO/SBA",
+        "target": "Cinnamic acid (CA)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "75ATO/SBA",
+        "target": "CA conversion percentage (80.2%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "75ATO/SBA",
+        "target": "Initial pH (3.8)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "75ATO/SBA",
+        "target": "Catalyst dosage (0.75 g/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "75ATO/SBA",
+        "target": "Airflow rate (0.3 L/min)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "75ATO/SBA",
+        "target": "Bandgap energy (3.42 eV)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "SBA-15",
+        "target": "Surface area (609-777 m2/g)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

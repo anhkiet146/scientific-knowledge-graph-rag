@@ -1,0 +1,140 @@
+{
+  "filename": "07-773-TRAN THI NGOC NHUNG(66-74)292.json",
+  "paper_title": "Can Tho University's research collaboration: A view from its publications",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Thi Ngoc Nhung",
+        "type": "Author",
+        "description": "Author from School of Social Sciences and Humanities, Can Tho University."
+      },
+      {
+        "id": "Pham Hoang Son",
+        "type": "Author",
+        "description": "Author affiliated with ECOOM-UHasselt and Hasselt University."
+      },
+      {
+        "id": "Le Ngoc Linh",
+        "type": "Author",
+        "description": "Author from School of Social Sciences and Humanities, Can Tho University."
+      },
+      {
+        "id": "School of Social Sciences and Humanities, Can Tho University",
+        "type": "Institution",
+        "description": "Academic department at Can Tho University, Viet Nam."
+      },
+      {
+        "id": "Centre for Research and Development Monitoring (ECOOM-UHasselt)",
+        "type": "Institution",
+        "description": "Research center based in Belgium."
+      },
+      {
+        "id": "Data Science Institute, Hasselt University",
+        "type": "Institution",
+        "description": "Institute focused on data science at Hasselt University, Belgium."
+      },
+      {
+        "id": "Scientometrics",
+        "type": "Domain",
+        "description": "The field of study concerned with measuring and analyzing scientific literature."
+      },
+      {
+        "id": "Research collaboration",
+        "type": "Concept",
+        "description": "The process where researchers work together to achieve a common goal of producing new scientific knowledge."
+      },
+      {
+        "id": "Coauthorship network analysis",
+        "type": "Method",
+        "description": "A method used to identify collaborative efforts by examining authors who publish together."
+      },
+      {
+        "id": "Publication metadata analysis",
+        "type": "Method",
+        "description": "Analyzing details such as author affiliations, publication dates, and fields from database records."
+      },
+      {
+        "id": "Dimensions database",
+        "type": "Dataset",
+        "description": "A scholarly database containing publication metadata used for the study."
+      },
+      {
+        "id": "3,322 publications (2012-2023)",
+        "type": "Metric",
+        "description": "Total number of CTU-affiliated publications analyzed."
+      },
+      {
+        "id": "51 industry collaboration papers",
+        "type": "Metric",
+        "description": "Number of papers authored in collaboration with companies."
+      },
+      {
+        "id": "711 Agricultural, Veterinary, and Food Sciences publications",
+        "type": "Metric",
+        "description": "Highest publication count by area."
+      },
+      {
+        "id": "International collaboration",
+        "type": "Concept",
+        "description": "Collaboration involving organizations located in foreign countries."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Thi Ngoc Nhung",
+        "target": "School of Social Sciences and Humanities, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Ngoc Linh",
+        "target": "School of Social Sciences and Humanities, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Hoang Son",
+        "target": "Centre for Research and Development Monitoring (ECOOM-UHasselt)",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Hoang Son",
+        "target": "Data Science Institute, Hasselt University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Coauthorship network analysis",
+        "target": "Research collaboration",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Publication metadata analysis",
+        "target": "Research collaboration",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Coauthorship network analysis",
+        "target": "Dimensions database",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Publication metadata analysis",
+        "target": "Dimensions database",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Coauthorship network analysis",
+        "target": "3,322 publications (2012-2023)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Publication metadata analysis",
+        "target": "51 industry collaboration papers",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Publication metadata analysis",
+        "target": "711 Agricultural, Veterinary, and Food Sciences publications",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

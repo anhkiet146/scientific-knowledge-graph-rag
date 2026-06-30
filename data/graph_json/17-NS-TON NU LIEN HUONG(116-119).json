@@ -1,0 +1,160 @@
+{
+  "filename": "17-NS-TON NU LIEN HUONG(116-119).json",
+  "paper_title": "TWO NEW ALKALOIDS AND A CARBOHYDRATE COMPOUND FROM THE SPECIES Hydrocotyle bonariensis COMM. EX LAM., FAMILY APIACEAE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Two new alkaloids and a carbohydrate compound from the species Hydrocotyle bonariensis Comm. Ex lam., family apiaceae",
+        "type": "Concept",
+        "description": "Research paper title regarding the isolation and identification of chemical compounds."
+      },
+      {
+        "id": "Ton Nu Lien Huong",
+        "type": "Author",
+        "description": "Researcher and lead author from Can Tho University."
+      },
+      {
+        "id": "Tran Thị Y Khoanh",
+        "type": "Author",
+        "description": "Co-author of the phytochemical study."
+      },
+      {
+        "id": "Nguyen Van Vu",
+        "type": "Author",
+        "description": "Co-author of the phytochemical study."
+      },
+      {
+        "id": "College of Natural Sciences, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution located in Vietnam."
+      },
+      {
+        "id": "Phytochemistry",
+        "type": "Domain",
+        "description": "The study of chemicals derived from plants."
+      },
+      {
+        "id": "Alkaloid extraction",
+        "type": "Concept",
+        "description": "The process of extracting nitrogenous organic compounds from plant material."
+      },
+      {
+        "id": "Maceration",
+        "type": "Method",
+        "description": "Extraction method using ethanol acidification at room temperature."
+      },
+      {
+        "id": "Chloroform extraction",
+        "type": "Method",
+        "description": "The use of chloroform to isolate isoquinoline alkaloids."
+      },
+      {
+        "id": "Flash column chromatography",
+        "type": "Method",
+        "description": "Separation technique used to isolate pure compounds from the extract."
+      },
+      {
+        "id": "NMR spectroscopy",
+        "type": "Method",
+        "description": "Nuclear Magnetic Resonance used for structural elucidation."
+      },
+      {
+        "id": "HR-ESI-MS",
+        "type": "Method",
+        "description": "High-resolution Electrospray Ionization Mass Spectrometry for molecular weight determination."
+      },
+      {
+        "id": "Table 10",
+        "type": "Dataset",
+        "description": "Data table containing NMR and MS data for compounds 1 and 2."
+      },
+      {
+        "id": "Table 3",
+        "type": "Dataset",
+        "description": "Data table containing NMR and MS data for compound 3."
+      },
+      {
+        "id": "Yield of tetrahydropalmatine (16 mg)",
+        "type": "Metric",
+        "description": "The amount of compound 1 isolated from the plant."
+      },
+      {
+        "id": "Yield of (-)-(S)-xylopinine (35 mg)",
+        "type": "Metric",
+        "description": "The amount of compound 2 isolated from the plant."
+      },
+      {
+        "id": "Yield of ethyl 2-O-α-fructofuranoside (10 mg)",
+        "type": "Metric",
+        "description": "The amount of compound 3 isolated from the plant."
+      },
+      {
+        "id": "m/z 356.1857",
+        "type": "Metric",
+        "description": "Mass-to-charge ratio found for compound 1 via HR-ESI-MS."
+      },
+      {
+        "id": "Specific rotation [αD = -262]",
+        "type": "Metric",
+        "description": "Polarization measurement for compound 2."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Two new alkaloids and a carbohydrate compound from the species Hydrocotyle bonariensis Comm. Ex lam., family apiaceae",
+        "target": "Phytochemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ton Nu Lien Huong",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thị Y Khoanh",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Vu",
+        "target": "College of Natural Sciences, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Chloroform extraction",
+        "target": "Alkaloid extraction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Flash column chromatography",
+        "target": "Yield of tetrahydropalmatine (16 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Flash column chromatography",
+        "target": "Yield of (-)-(S)-xylopinine (35 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Flash column chromatography",
+        "target": "Yield of ethyl 2-O-α-fructofuranoside (10 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "HR-ESI-MS",
+        "target": "m/z 356.1857",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NMR spectroscopy",
+        "target": "Table 10",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "NMR spectroscopy",
+        "target": "Table 3",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

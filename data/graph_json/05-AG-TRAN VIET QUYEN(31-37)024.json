@@ -1,0 +1,155 @@
+{
+  "filename": "05-AG-TRAN VIET QUYEN(31-37)024.json",
+  "paper_title": "Disease-reducing effects of antagonistic soil bacteria on Fusarium basal rot of shallot caused by Fusarium oxysporum in Vĩnh Châu, Sóc Trăng",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Viet Quyen",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Chau Hoang Trung Tin",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Nguyen Dac Khoa",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "Affiliated institution of the researchers in Vietnam"
+      },
+      {
+        "id": "Plant Pathology",
+        "type": "Domain",
+        "description": "The main field of study concerning plant diseases and control"
+      },
+      {
+        "id": "Fusarium basal rot",
+        "type": "Concept",
+        "description": "A destructive disease of shallots caused by Fusarium oxysporum"
+      },
+      {
+        "id": "Biological control",
+        "type": "Concept",
+        "description": "Sustainable disease control measure using antagonistic bacteria"
+      },
+      {
+        "id": "Fusarium oxysporum",
+        "type": "Concept",
+        "description": "The fungal pathogen causing basal rot in shallots"
+      },
+      {
+        "id": "Dual culture technique",
+        "type": "Method",
+        "description": "Method used to test antagonistic effects on mycelial growth"
+      },
+      {
+        "id": "Bulb coating",
+        "type": "Method",
+        "description": "Application method for antagonistic bacteria on shallot bulbs"
+      },
+      {
+        "id": "Soil drenching",
+        "type": "Method",
+        "description": "Application method for antagonistic bacteria in the soil"
+      },
+      {
+        "id": "ATB-24",
+        "type": "Method",
+        "description": "Specific antagonistic soil bacterial isolate"
+      },
+      {
+        "id": "ATA-33",
+        "type": "Method",
+        "description": "Specific antagonistic soil bacterial isolate"
+      },
+      {
+        "id": "Score 250 EC",
+        "type": "Method",
+        "description": "Fungicide used as a positive control in the study"
+      },
+      {
+        "id": "Inhibition zone diameter (23 mm)",
+        "type": "Metric",
+        "description": "Measurement of the inhibitory effect of isolate ATB-24"
+      },
+      {
+        "id": "Cell density (3.84*10^8 CFU/mL)",
+        "type": "Metric",
+        "description": "Optimal concentration for effective disease reduction"
+      },
+      {
+        "id": "Assessment period (65 days after planting)",
+        "type": "Metric",
+        "description": "Duration through which the disease-reducing effects remained"
+      },
+      {
+        "id": "Significance level (P <= 0.05)",
+        "type": "Metric",
+        "description": "Statistical threshold for rejecting hypotheses"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Viet Quyen",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Chau Hoang Trung Tin",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Dac Khoa",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Methodology",
+        "target": "Plant Pathology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Dual culture technique",
+        "target": "Fusarium oxysporum",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ATB-24",
+        "target": "Inhibition zone diameter (23 mm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ATB-24",
+        "target": "Cell density (3.84*10^8 CFU/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ATA-33",
+        "target": "Cell density (3.84*10^8 CFU/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bulb coating",
+        "target": "Fusarium basal rot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Soil drenching",
+        "target": "Fusarium basal rot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ATB-24",
+        "target": "Assessment period (65 days after planting)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

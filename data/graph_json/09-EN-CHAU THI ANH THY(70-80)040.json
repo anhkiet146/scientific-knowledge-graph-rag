@@ -1,0 +1,125 @@
+{
+  "filename": "09-EN-CHAU THI ANH THY(70-80)040.json",
+  "paper_title": "Syntrophic interaction in organochlorine bioremediation: A review",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Chau Thi Anh Thy",
+        "type": "Author",
+        "description": "The author of the review paper from Can Tho University."
+      },
+      {
+        "id": "College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "The institutional affiliation of the author in Vietnam."
+      },
+      {
+        "id": "Bioremediation",
+        "type": "Domain",
+        "description": "The primary research field focusing on cleaning up contaminated environments using microorganisms."
+      },
+      {
+        "id": "Syntrophic interaction",
+        "type": "Concept",
+        "description": "An obligate form of mutualism where microorganisms depend on each other to metabolize substances."
+      },
+      {
+        "id": "Organochlorine bioremediation",
+        "type": "Concept",
+        "description": "The process of using biological agents to degrade organochlorine pollutants."
+      },
+      {
+        "id": "Organohalide respiration",
+        "type": "Concept",
+        "description": "An anaerobic respiration process using halogenated hydrocarbons as terminal electron acceptors."
+      },
+      {
+        "id": "Reductive dechlorination",
+        "type": "Method",
+        "description": "A process involving the sequential replacement of chlorine atoms with hydrogen atoms."
+      },
+      {
+        "id": "Co-culture of ORB and Desulfovibrio vulgaris",
+        "type": "Method",
+        "description": "A laboratory method using multiple microbial species to enhance degradation rates."
+      },
+      {
+        "id": "Transcriptomic analysis",
+        "type": "Method",
+        "description": "A molecular method used to study gene expression under specific conditions."
+      },
+      {
+        "id": "Proteomics",
+        "type": "Method",
+        "description": "The large-scale study of proteins expressed by an organism or system."
+      },
+      {
+        "id": "13C-labeling",
+        "type": "Method",
+        "description": "A technique using stable isotopes to track metabolic pathways."
+      },
+      {
+        "id": "Dehalorespiration rates (2 to 3 folds)",
+        "type": "Metric",
+        "description": "The measured increase in the rate of dehalorespiration in co-cultures compared to isolation."
+      },
+      {
+        "id": "Half-live in soil (5 to 20 years)",
+        "type": "Metric",
+        "description": "The persistence measurement of organochlorines like HCB and PCBs in the environment."
+      },
+      {
+        "id": "Differentially expressed genes (102)",
+        "type": "Metric",
+        "description": "The number of genes found to be significantly up or down regulated in transcriptomic analysis."
+      },
+      {
+        "id": "Differentially expressed proteins (120)",
+        "type": "Metric",
+        "description": "The number of proteins expressed differently in the coculture of DE195 and D. vulgaris."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Syntrophic interaction in organochlorine bioremediation: A review",
+        "target": "Bioremediation",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Chau Thi Anh Thy",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Reductive dechlorination",
+        "target": "Organochlorine bioremediation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Transcriptomic analysis",
+        "target": "Organohalide respiration",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Co-culture of ORB and Desulfovibrio vulgaris",
+        "target": "Dehalorespiration rates (2 to 3 folds)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Transcriptomic analysis",
+        "target": "Differentially expressed genes (102)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Proteomics",
+        "target": "Differentially expressed proteins (120)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "13C-labeling",
+        "target": "Syntrophic interaction",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+    "filename": "04-EC-LA HONG LIEN(24-36)035.json",
+    "paper_title": "A literature review on organizational culture and organizational effectiveness",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Business Administration",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính về quản trị và tổ chức."
+            },
+            {
+                "id": "La Hong Lien",
+                "type": "Author",
+                "description": "Tác giả từ Trường Cao đẳng Kinh tế - Kỹ thuật Cần Thơ."
+            },
+            {
+                "id": "Luu Tien Thuan",
+                "type": "Author",
+                "description": "Tác giả từ Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Can Tho Technical Economic College",
+                "type": "Institution",
+                "description": "Cơ quan công tác của tác giả La Hong Lien."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Cơ quan công tác của tác giả Luu Tien Thuan."
+            },
+            {
+                "id": "Organizational Culture",
+                "type": "Concept",
+                "description": "Khái niệm về các giá trị, niềm tin và giả định chung trong một tổ chức."
+            },
+            {
+                "id": "Organizational Effectiveness",
+                "type": "Concept",
+                "description": "Khái niệm về mức độ một tổ chức đạt được các mục tiêu của mình."
+            },
+            {
+                "id": "Competing Values Framework (CVF)",
+                "type": "Method",
+                "description": "Mô hình phổ biến nhất để nghiên cứu văn hóa tổ chức với bốn loại: clan, adhocracy, market và hierarchy."
+            },
+            {
+                "id": "Organizational Culture Assessment Instrument (OCAI)",
+                "type": "Method",
+                "description": "Công cụ đo lường tương ứng với khung CVF để xác định loại hình văn hóa."
+            },
+            {
+                "id": "Structural Equation Model (SEM)",
+                "type": "Method",
+                "description": "Kỹ thuật phân tích chính để nghiên cứu mối quan hệ gián tiếp."
+            },
+            {
+                "id": "Descriptive Analysis",
+                "type": "Method",
+                "description": "Phương pháp thống kê mô tả dùng để phân loại và tổng hợp kết quả nghiên cứu."
+            },
+            {
+                "id": "Literature Review",
+                "type": "Method",
+                "description": "Quy trình rà soát tài liệu có hệ thống từ các nghiên cứu trước đó."
+            },
+            {
+                "id": "Proquest database",
+                "type": "Dataset",
+                "description": "Cơ sở dữ liệu số dùng để tìm kiếm các bài báo nghiên cứu."
+            },
+            {
+                "id": "EBSCOHost Research Databases",
+                "type": "Dataset",
+                "description": "Cơ sở dữ liệu nghiên cứu trực tuyến được sử dụng trong bài báo."
+            },
+            {
+                "id": "Google Scholar",
+                "type": "Dataset",
+                "description": "Công cụ tìm kiếm tài liệu học thuật trực tuyến."
+            },
+            {
+                "id": "69 articles",
+                "type": "Metric",
+                "description": "Số lượng bài báo được phân tích nội dung trong nghiên cứu."
+            },
+            {
+                "id": "Studies using CVF (58%)",
+                "type": "Metric",
+                "description": "Tỷ lệ các nghiên cứu sử dụng mô hình CVF và công cụ OCAI."
+            },
+            {
+                "id": "Correlation supported (98%)",
+                "type": "Metric",
+                "description": "Tỷ lệ các nghiên cứu chứng minh mối quan hệ giữa văn hóa và hiệu quả tổ chức."
+            },
+            {
+                "id": "Mean correlation for Clan culture (M=0.42)",
+                "type": "Metric",
+                "description": "Giá trị trung bình của mối tương quan thuận giữa văn hóa Clan và hiệu quả tổ chức."
+            },
+            {
+                "id": "Non-financial indicators (82%)",
+                "type": "Metric",
+                "description": "Tỷ lệ nghiên cứu sử dụng các chỉ số phi tài chính để đo lường hiệu quả."
+            }
+        ],
+        "relations": [
+            {
+                "source": "A literature review on organizational culture and organizational effectiveness",
+                "target": "Business Administration",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "La Hong Lien",
+                "target": "Can Tho Technical Economic College",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luu Tien Thuan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Competing Values Framework (CVF)",
+                "target": "Organizational Culture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Organizational Culture Assessment Instrument (OCAI)",
+                "target": "Organizational Culture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Literature Review",
+                "target": "Proquest database",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Literature Review",
+                "target": "EBSCOHost Research Databases",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Literature Review",
+                "target": "69 articles",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Analysis",
+                "target": "Studies using CVF (58%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Analysis",
+                "target": "Correlation supported (98%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Analysis",
+                "target": "Mean correlation for Clan culture (M=0.42)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive Analysis",
+                "target": "Non-financial indicators (82%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Structural Equation Model (SEM)",
+                "target": "Organizational Effectiveness",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

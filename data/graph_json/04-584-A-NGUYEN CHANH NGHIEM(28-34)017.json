@@ -1,0 +1,240 @@
+{
+  "filename": "04-584-A-NGUYEN CHANH NGHIEM(28-34)017.json",
+  "paper_title": "Design of a smart doorbell for a leader's office with availability status notification and visitor recognition features",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Smart home and office systems",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về các hệ thống thông minh cho gia đình và văn phòng."
+      },
+      {
+        "id": "Smart doorbell for a leader's office",
+        "type": "Concept",
+        "description": "Hệ thống chuông cửa thông minh được thiết kế riêng cho văn phòng lãnh đạo."
+      },
+      {
+        "id": "Face recognition",
+        "type": "Concept",
+        "description": "Nhận diện khuôn mặt khách đến thăm."
+      },
+      {
+        "id": "Biometric authentication",
+        "type": "Concept",
+        "description": "Xác thực sinh trắc học thông qua khuôn mặt."
+      },
+      {
+        "id": "Availability status notification",
+        "type": "Concept",
+        "description": "Thông báo trạng thái rảnh/bận của lãnh đạo trên module chuông cửa."
+      },
+      {
+        "id": "MobileNet model",
+        "type": "Method",
+        "description": "Mô hình mạng nơ-ron sâu được sử dụng để nhận diện khuôn mặt."
+      },
+      {
+        "id": "Transfer learning",
+        "type": "Method",
+        "description": "Phương pháp học chuyển tiếp áp dụng cho mô hình MobileNet."
+      },
+      {
+        "id": "Data augmentation",
+        "type": "Method",
+        "description": "Kỹ thuật tăng cường dữ liệu hình ảnh (xoay, lật, phóng to)."
+      },
+      {
+        "id": "Private Wi-Fi network",
+        "type": "Method",
+        "description": "Mạng không dây nội bộ không kết nối Internet để đảm bảo bảo mật."
+      },
+      {
+        "id": "Keras library",
+        "type": "Method",
+        "description": "Thư viện phần mềm sử dụng để thực hiện tăng cường dữ liệu."
+      },
+      {
+        "id": "LFW face database",
+        "type": "Dataset",
+        "description": "Cơ sở dữ liệu hình ảnh khuôn mặt tự do (Labeled Faces in the Wild)."
+      },
+      {
+        "id": "Generated Media database",
+        "type": "Dataset",
+        "description": "Cơ sở dữ liệu chứa 1.068 hình ảnh khuôn mặt do AI tạo ra để kiểm tra FAR."
+      },
+      {
+        "id": "Training dataset (9,185 images)",
+        "type": "Dataset",
+        "description": "Tập dữ liệu huấn luyện sau khi tăng cường."
+      },
+      {
+        "id": "Validation dataset (2,500 images)",
+        "type": "Dataset",
+        "description": "Tập dữ liệu xác thực sau khi tăng cường."
+      },
+      {
+        "id": "Testing dataset (5,000 images)",
+        "type": "Dataset",
+        "description": "Tập dữ liệu kiểm tra sau khi tăng cường."
+      },
+      {
+        "id": "Confidence level (0.945)",
+        "type": "Metric",
+        "description": "Mức độ tin cậy được lựa chọn cho mô hình."
+      },
+      {
+        "id": "False Acceptance Rate (0)",
+        "type": "Metric",
+        "description": "Tỷ lệ chấp nhận sai đạt giá trị bằng không."
+      },
+      {
+        "id": "Accuracy (0.960)",
+        "type": "Metric",
+        "description": "Độ chính xác của hệ thống nhận diện."
+      },
+      {
+        "id": "Recall (0.960)",
+        "type": "Metric",
+        "description": "Chỉ số triệu hồi của hệ thống."
+      },
+      {
+        "id": "F-score (0.978)",
+        "type": "Metric",
+        "description": "Chỉ số F-score đo lường hiệu suất mô hình."
+      },
+      {
+        "id": "Training accuracy (100%)",
+        "type": "Metric",
+        "description": "Độ chính xác trên tập huấn luyện."
+      },
+      {
+        "id": "Validation accuracy (99.2%)",
+        "type": "Metric",
+        "description": "Độ chính xác trên tập xác thực."
+      },
+      {
+        "id": "Nguyen Khac-Nguyen",
+        "type": "Author",
+        "description": "Tác giả của bài báo."
+      },
+      {
+        "id": "Nguyen Chanh-Nghiem",
+        "type": "Author",
+        "description": "Tác giả liên hệ của bài báo."
+      },
+      {
+        "id": "Bui Huu-Danh",
+        "type": "Author",
+        "description": "Tác giả của bài báo."
+      },
+      {
+        "id": "Tran Minh-Tuong",
+        "type": "Author",
+        "description": "Tác giả của bài báo."
+      },
+      {
+        "id": "Lam Chanh-Nghia",
+        "type": "Author",
+        "description": "Tác giả của bài báo."
+      },
+      {
+        "id": "Truong Quoc Bao",
+        "type": "Author",
+        "description": "Tác giả của bài báo."
+      },
+      {
+        "id": "Nguyen Hoang Dung",
+        "type": "Author",
+        "description": "Tác giả của bài báo."
+      },
+      {
+        "id": "Nguyen Chi Ngon",
+        "type": "Author",
+        "description": "Tác giả của bài báo."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Trường Đại học Cần Thơ, Việt Nam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Smart doorbell for a leader's office",
+        "target": "Smart home and office systems",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "MobileNet model",
+        "target": "Accuracy (0.960)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MobileNet model",
+        "target": "F-score (0.978)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MobileNet model",
+        "target": "False Acceptance Rate (0)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MobileNet model",
+        "target": "Face recognition",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "MobileNet model",
+        "target": "Testing dataset (5,000 images)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "MobileNet model",
+        "target": "Generated Media database",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Nguyen Khac-Nguyen",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Chanh-Nghiem",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Huu-Danh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Minh-Tuong",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lam Chanh-Nghia",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Quoc Bao",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hoang Dung",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Chi Ngon",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

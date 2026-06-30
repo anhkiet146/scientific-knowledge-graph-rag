@@ -1,0 +1,135 @@
+{
+    "filename": "05-680-VU DUC VINH(39-46)033.json",
+    "paper_title": "Detecting Vietnamese fake news",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Vo Duc Vinh",
+                "type": "Author",
+                "description": "The primary author of the paper, affiliated with VNPT - Dong Nai."
+            },
+            {
+                "id": "Do Phuc",
+                "type": "Author",
+                "description": "A co-author of the paper, affiliated with the University of Information Technology, VN-HCM."
+            },
+            {
+                "id": "VNPT - Dong Nai",
+                "type": "Institution",
+                "description": "An organization in Viet Nam where Vo Duc Vinh is based."
+            },
+            {
+                "id": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "A higher education institution in Viet Nam where Do Phuc is based."
+            },
+            {
+                "id": "Fake news detection",
+                "type": "Domain",
+                "description": "The primary research field focusing on identifying non-factual information."
+            },
+            {
+                "id": "Vietnamese fake news",
+                "type": "Concept",
+                "description": "The specific research problem involving misinformation in the Vietnamese language."
+            },
+            {
+                "id": "LSTM",
+                "type": "Method",
+                "description": "Long Short-Term Memory, a type of recurrent neural network for sequence data."
+            },
+            {
+                "id": "Bi-LSTM",
+                "type": "Method",
+                "description": "Bidirectional Long Short-Term Memory, processing data in both forward and backward directions."
+            },
+            {
+                "id": "CNN-BiLSTM",
+                "type": "Method",
+                "description": "A hybrid model combining Convolutional Neural Networks and Bi-LSTM."
+            },
+            {
+                "id": "VNDF-Vietnamese-fake-news-datasets",
+                "type": "Dataset",
+                "description": "A Vietnamese false news dataset archived between 2017 and 2019."
+            },
+            {
+                "id": "True_VietNam_CSV.csv",
+                "type": "Dataset",
+                "description": "A digital file containing 21,527 messages of factual news."
+            },
+            {
+                "id": "Fake_VietNam_CSV.csv",
+                "type": "Dataset",
+                "description": "A digital file containing 22,475 news segments of false news."
+            },
+            {
+                "id": "Precision (0.95)",
+                "type": "Metric",
+                "description": "A measurement indicator where 95% of predictions were correct for the LSTM model."
+            },
+            {
+                "id": "Training set (28162 records)",
+                "type": "Metric",
+                "description": "The portion of the dataset (64%) used for model training."
+            },
+            {
+                "id": "Test set (8800 records)",
+                "type": "Metric",
+                "description": "The portion of the dataset (20%) used for testing model performance."
+            },
+            {
+                "id": "Validation set (7040 records)",
+                "type": "Metric",
+                "description": "The portion of the dataset (16%) used for model validation."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Vo Duc Vinh",
+                "target": "VNPT - Dong Nai",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Phuc",
+                "target": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "LSTM",
+                "target": "Vietnamese fake news",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Bi-LSTM",
+                "target": "Vietnamese fake news",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CNN-BiLSTM",
+                "target": "Vietnamese fake news",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "LSTM",
+                "target": "VNDF-Vietnamese-fake-news-datasets",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Bi-LSTM",
+                "target": "VNDF-Vietnamese-fake-news-datasets",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "CNN-BiLSTM",
+                "target": "VNDF-Vietnamese-fake-news-datasets",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "LSTM",
+                "target": "Precision (0.95)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

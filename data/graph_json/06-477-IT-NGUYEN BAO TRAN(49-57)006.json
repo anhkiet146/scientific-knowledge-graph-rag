@@ -1,0 +1,225 @@
+{
+  "filename": "06-477-IT-NGUYEN BAO TRAN(49-57)006.json",
+  "paper_title": "Object detection by the combination of generic roi extractor and dynamic R-CNN with side-aware boundary localization in aerial images",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Object detection",
+        "type": "Domain",
+        "description": "The research field of identifying and locating objects in images or videos."
+      },
+      {
+        "id": "Vehicle detection",
+        "type": "Domain",
+        "description": "The specific task of identifying vehicles within object recognition tasks."
+      },
+      {
+        "id": "Aerial image detection",
+        "type": "Domain",
+        "description": "Detecting objects from images captured by UAVs or drones."
+      },
+      {
+        "id": "Tran Nguyen Bao",
+        "type": "Author",
+        "description": "Primary researcher of the study."
+      },
+      {
+        "id": "Phan Tan Tai",
+        "type": "Author",
+        "description": "Co-author of the research."
+      },
+      {
+        "id": "Bui Cao Doanh",
+        "type": "Author",
+        "description": "Co-author of the research."
+      },
+      {
+        "id": "Vo Duy Nguyen",
+        "type": "Author",
+        "description": "Co-author of the research."
+      },
+      {
+        "id": "Nguyen Tan Tran Minh Khang",
+        "type": "Author",
+        "description": "Co-author of the research."
+      },
+      {
+        "id": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+        "type": "Institution",
+        "description": "The academic institution of the authors."
+      },
+      {
+        "id": "Generic RoI Extractor (GroIE)",
+        "type": "Method",
+        "description": "A method that leverages all FPN layers to improve Region of Interest extraction."
+      },
+      {
+        "id": "Dynamic R-CNN",
+        "type": "Method",
+        "description": "A dynamic training strategy that adjusts the IoU threshold during training."
+      },
+      {
+        "id": "Side-aware Boundary Localization (SABL)",
+        "type": "Method",
+        "description": "A mechanism that regresses bounding box offsets via boundary features."
+      },
+      {
+        "id": "Faster R-CNN",
+        "type": "Method",
+        "description": "A classic two-stage object detection framework."
+      },
+      {
+        "id": "ResNet-101",
+        "type": "Method",
+        "description": "A deep residual network used as a backbone architecture."
+      },
+      {
+        "id": "ResNeXt-101",
+        "type": "Method",
+        "description": "An upgraded ResNet backbone using cardinality to reduce hyperparameters."
+      },
+      {
+        "id": "ResNeSt-101",
+        "type": "Method",
+        "description": "A Split-Attention network backbone for improved cross-channel information extraction."
+      },
+      {
+        "id": "Cross-Entropy Loss",
+        "type": "Method",
+        "description": "A loss function used for evaluating classification robustness."
+      },
+      {
+        "id": "Focal Loss",
+        "type": "Method",
+        "description": "An improved loss function for addressing class imbalance by weighting difficult samples."
+      },
+      {
+        "id": "XDUAV",
+        "type": "Dataset",
+        "description": "A challenging aerial image dataset containing 4344 images across 6 vehicle classes."
+      },
+      {
+        "id": "Partial occlusion",
+        "type": "Concept",
+        "description": "A challenge where objects are partially blocked by other elements."
+      },
+      {
+        "id": "Object truncation",
+        "type": "Concept",
+        "description": "A challenge where only a portion of the object is visible within the image frame."
+      },
+      {
+        "id": "Object multi-angle rotation",
+        "type": "Concept",
+        "description": "The variation in object orientation in aerial imagery."
+      },
+      {
+        "id": "mAP (71%)",
+        "type": "Metric",
+        "description": "Mean Average Precision achieved with ResNet-101 backbone approach."
+      },
+      {
+        "id": "Bus AP (86%)",
+        "type": "Metric",
+        "description": "Average Precision for the 'bus' class achieved by the hybrid model."
+      },
+      {
+        "id": "Motor AP (55%)",
+        "type": "Metric",
+        "description": "Average Precision for the 'motor' class achieved by the hybrid model."
+      },
+      {
+        "id": "Tanker AP (75%)",
+        "type": "Metric",
+        "description": "Average Precision for the 'tanker' class using ResNeSt-101."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tran Nguyen Bao",
+        "target": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Tan Tai",
+        "target": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Cao Doanh",
+        "target": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Duy Nguyen",
+        "target": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tan Tran Minh Khang",
+        "target": "University of Information Technology, Viet Nam National University Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Generic RoI Extractor (GroIE)",
+        "target": "Object detection",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Dynamic R-CNN",
+        "target": "Object detection",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Side-aware Boundary Localization (SABL)",
+        "target": "Object detection",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Generic RoI Extractor (GroIE)",
+        "target": "XDUAV",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Dynamic R-CNN",
+        "target": "XDUAV",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "ResNet-101",
+        "target": "mAP (71%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ResNeSt-101",
+        "target": "mAP (71%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Cross-Entropy Loss",
+        "target": "mAP (71%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Dynamic R-CNN",
+        "target": "Partial occlusion",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Side-aware Boundary Localization (SABL)",
+        "target": "Object truncation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Object detection",
+        "target": "Aerial image detection",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Vehicle detection",
+        "target": "Object detection",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+    "filename": "425-EN-LE VAN TIEN(8-16)037.json",
+    "paper_title": "Application of socio-hydrological approach to study water-related hazards in Can Tho City",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Le Van Thuy Tien",
+                "type": "Author",
+                "description": "The corresponding author and researcher at Mekong Delta Development Research Institute."
+            },
+            {
+                "id": "Nguyen Thanh Binh",
+                "type": "Author",
+                "description": "Co-author and researcher at Mekong Delta Development Research Institute."
+            },
+            {
+                "id": "Mekong Delta Development Research Institute",
+                "type": "Institution",
+                "description": "An institute under Can Tho University focused on development research."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "A major university in Vietnam, located in Can Tho City."
+            },
+            {
+                "id": "Water resource management",
+                "type": "Domain",
+                "description": "The field of managing water-related hazards and urban water regimes."
+            },
+            {
+                "id": "Socio-hydrology",
+                "type": "Concept",
+                "description": "The study of the interactions and feedback loops between human and water systems."
+            },
+            {
+                "id": "Water-related hazards",
+                "type": "Concept",
+                "description": "Complex phenomena including floods, droughts, and salinity intrusion under climate change."
+            },
+            {
+                "id": "Socio-hydrological approach",
+                "type": "Method",
+                "description": "A method used to explore the interaction between urban development and water-related hazards."
+            },
+            {
+                "id": "Key informant interview (KII)",
+                "type": "Method",
+                "description": "Semi-structured interviews conducted with experts in various water-related sub-departments."
+            },
+            {
+                "id": "Focus Group Discussion (FGD)",
+                "type": "Method",
+                "description": "A qualitative research tool used to collect data from grassroots stakeholders and citizens."
+            },
+            {
+                "id": "Rainfall and water level data",
+                "type": "Dataset",
+                "description": "Secondary data collected from hydrometeorology stations and relevant departments in Can Tho."
+            },
+            {
+                "id": "Total annual damage (VND 14.3 billion)",
+                "type": "Metric",
+                "description": "Average estimated financial loss due to natural disasters in Can Tho City."
+            },
+            {
+                "id": "Population density in Ninh Kieu (9,741 persons/km2)",
+                "type": "Metric",
+                "description": "A measure of population concentration in the Ninh Kieu district."
+            },
+            {
+                "id": "Salinity level (3.5 per mille)",
+                "type": "Metric",
+                "description": "The highest recorded salinity level on the Hau River in February 2020."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Van Thuy Tien",
+                "target": "Mekong Delta Development Research Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Van Thuy Tien",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Binh",
+                "target": "Mekong Delta Development Research Institute",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Binh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Socio-hydrological approach",
+                "target": "Water-related hazards",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Socio-hydrological approach",
+                "target": "Socio-hydrology",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Socio-hydrological approach",
+                "target": "Rainfall and water level data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Socio-hydrological approach",
+                "target": "Total annual damage (VND 14.3 billion)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Key informant interview (KII)",
+                "target": "Water-related hazards",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Focus Group Discussion (FGD)",
+                "target": "Water-related hazards",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Socio-hydrological approach",
+                "target": "Salinity level (3.5 per mille)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

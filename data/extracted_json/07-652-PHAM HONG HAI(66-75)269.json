@@ -1,0 +1,170 @@
+{
+    "filename": "07-652-PHAM HONG HAI(66-75)269.json",
+    "paper_title": "Calculation of electromagnetic force and temperature distribution of amorphous transformers in different operating modes by finite element method",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Electrical Engineering",
+                "type": "Domain",
+                "description": "The main field of research involving transformer analysis and electromagnetic force calculation."
+            },
+            {
+                "id": "Pham Hong Hai",
+                "type": "Author",
+                "description": "Author from the School of Electrical and Electronic Engineering, Hanoi University of Science and Technology."
+            },
+            {
+                "id": "Bao Doan Thanh",
+                "type": "Author",
+                "description": "Author from the Faculty of Engineering and Technology, Quy Nhon University."
+            },
+            {
+                "id": "Hanoi University of Science and Technology",
+                "type": "Institution",
+                "description": "Institution located in Viet Nam."
+            },
+            {
+                "id": "Quy Nhon University",
+                "type": "Institution",
+                "description": "Institution located in Viet Nam."
+            },
+            {
+                "id": "Electromagnetic force (EMF) distribution",
+                "type": "Concept",
+                "description": "The distribution of internal forces generated in the transformer windings."
+            },
+            {
+                "id": "Temperature distribution",
+                "type": "Concept",
+                "description": "The heat profile across the high and low voltage windings and oil tank."
+            },
+            {
+                "id": "Short circuit (SC) fault",
+                "type": "Concept",
+                "description": "A fault condition causing high current and thermodynamic stress."
+            },
+            {
+                "id": "Finite element method (FEM)",
+                "type": "Method",
+                "description": "Numerical method used for simulation and calculation."
+            },
+            {
+                "id": "ANSYS 3D",
+                "type": "Method",
+                "description": "Simulation software used for calculating electromagnetic and thermal distributions."
+            },
+            {
+                "id": "Ansys Maxwell 3D",
+                "type": "Method",
+                "description": "Specific software module for electromagnetic analysis."
+            },
+            {
+                "id": "CFD (Computational Fluid Dynamics)",
+                "type": "Method",
+                "description": "Software used for thermal analysis and temperature distribution."
+            },
+            {
+                "id": "Amorphous steel core 3 phase transformer (ASCT)",
+                "type": "Method",
+                "description": "The specific device material and structure used in the study."
+            },
+            {
+                "id": "Power (1000kVA)",
+                "type": "Metric",
+                "description": "Rated power of the transformer."
+            },
+            {
+                "id": "Voltage (22/0.4kV)",
+                "type": "Metric",
+                "description": "Operating voltage levels."
+            },
+            {
+                "id": "No-load loss reduction (70%)",
+                "type": "Metric",
+                "description": "Efficiency improvement of ASCT compared to silicon steel transformers."
+            },
+            {
+                "id": "Max SC current on low VW (40524.28A)",
+                "type": "Metric",
+                "description": "Peak current during short circuit on low voltage winding."
+            },
+            {
+                "id": "Largest EMF (7.5005x10^7 N/m^2)",
+                "type": "Metric",
+                "description": "Maximum electromagnetic force calculated on the windings."
+            },
+            {
+                "id": "Highest temperature on low VW (175.63 °C)",
+                "type": "Metric",
+                "description": "Maximum temperature reached during short circuit fault."
+            },
+            {
+                "id": "Highest temperature on high VW (162.5 °C)",
+                "type": "Metric",
+                "description": "Maximum temperature on high voltage winding during fault."
+            },
+            {
+                "id": "Highest temperature outside oil tank (121.89 °C)",
+                "type": "Metric",
+                "description": "Maximum external temperature during fault condition."
+            },
+            {
+                "id": "Number of meshed elements (15,600,000)",
+                "type": "Metric",
+                "description": "Simulation resolution parameter."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Pham Hong Hai",
+                "target": "Hanoi University of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bao Doan Thanh",
+                "target": "Quy Nhon University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Finite element method (FEM)",
+                "target": "Electromagnetic force (EMF) distribution",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Finite element method (FEM)",
+                "target": "Temperature distribution",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ANSYS 3D",
+                "target": "Power (1000kVA)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ANSYS 3D",
+                "target": "Largest EMF (7.5005x10^7 N/m^2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CFD (Computational Fluid Dynamics)",
+                "target": "Highest temperature on low VW (175.63 °C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "CFD (Computational Fluid Dynamics)",
+                "target": "Highest temperature outside oil tank (121.89 °C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ansys Maxwell 3D",
+                "target": "Max SC current on low VW (40524.28A)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pham Hong Hai",
+                "target": "Electrical Engineering",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

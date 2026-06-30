@@ -1,0 +1,165 @@
+{
+    "filename": "12-SE-NGUYEN THUY TRANG(89-99)045.json",
+    "paper_title": "Value chain and competitiveness of OCOP standardized clown knife fish products in Hau Giang province",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Value chain and competitiveness of OCOP standardized clown knife fish products in Hau Giang province",
+                "type": "Concept",
+                "description": "The main research problem focusing on the competitive advantage and market structure of OCOP certified fish products."
+            },
+            {
+                "id": "Agricultural Economics",
+                "type": "Domain",
+                "description": "The primary field of study involving the economic analysis of aquaculture and value chains."
+            },
+            {
+                "id": "Nguyen Thuy Trang",
+                "type": "Author",
+                "description": "Lead author of the research paper."
+            },
+            {
+                "id": "Vo Hong Tu",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "College of Rural Development",
+                "type": "Institution",
+                "description": "The specific college affiliation of the authors."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The university where the authors are based."
+            },
+            {
+                "id": "Value chain analysis",
+                "type": "Method",
+                "description": "A method used to analyze the full range of activities and actors involved in bringing the fish products to market."
+            },
+            {
+                "id": "Porter's five forces model",
+                "type": "Method",
+                "description": "A framework for analyzing the competitive environment of the knife fish industry."
+            },
+            {
+                "id": "Economic analysis",
+                "type": "Method",
+                "description": "Specific quantitative analysis of added value and financial efficiency across distribution channels."
+            },
+            {
+                "id": "Survey and in-depth interviews",
+                "type": "Method",
+                "description": "Data collection procedure involving stakeholders in the value chain."
+            },
+            {
+                "id": "73 observations",
+                "type": "Dataset",
+                "description": "Numerical dataset collected from participants involved in the clown knife fish value chain."
+            },
+            {
+                "id": "Market share sold to middlemen (80.15%)",
+                "type": "Metric",
+                "description": "Percentage of fresh knife fish sold by farmers to middlemen."
+            },
+            {
+                "id": "Feed cost share (80.47%)",
+                "type": "Metric",
+                "description": "Proportion of total production cost attributed to fish feed."
+            },
+            {
+                "id": "Production cost (27,850 VND/kg)",
+                "type": "Metric",
+                "description": "Average cost to produce one kilogram of fresh fish."
+            },
+            {
+                "id": "Average farming density (18.35 fish heads/m2)",
+                "type": "Metric",
+                "description": "The intensity of fish culture per square meter."
+            },
+            {
+                "id": "Conversion rate (2.2 kg fresh fish to 1 kg fish ball)",
+                "type": "Metric",
+                "description": "The weight ratio used to calculate processing efficiency."
+            },
+            {
+                "id": "Specialized farming rate (88.33%)",
+                "type": "Metric",
+                "description": "Percentage of farmers practicing specialized fish culture."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Value chain and competitiveness of OCOP standardized clown knife fish products in Hau Giang province",
+                "target": "Agricultural Economics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thuy Trang",
+                "target": "College of Rural Development",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thuy Trang",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Hong Tu",
+                "target": "College of Rural Development",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Hong Tu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Value chain analysis",
+                "target": "Value chain and competitiveness of OCOP standardized clown knife fish products in Hau Giang province",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Porter's five forces model",
+                "target": "Value chain and competitiveness of OCOP standardized clown knife fish products in Hau Giang province",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Value chain analysis",
+                "target": "73 observations",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Economic analysis",
+                "target": "Market share sold to middlemen (80.15%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Economic analysis",
+                "target": "Feed cost share (80.47%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Economic analysis",
+                "target": "Production cost (27,850 VND/kg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Value chain analysis",
+                "target": "Average farming density (18.35 fish heads/m2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Economic analysis",
+                "target": "Conversion rate (2.2 kg fresh fish to 1 kg fish ball)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Value chain analysis",
+                "target": "Specialized farming rate (88.33%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

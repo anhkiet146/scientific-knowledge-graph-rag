@@ -1,0 +1,275 @@
+{
+    "filename": "10-NS-NGO QUOC LUAN(71-78)043.json",
+    "paper_title": "Primary investigating chemical constituents of bioactive extract from Centrostachys aquatica (R.Br.) Wall. ex Moq.-Tand",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Natural Products Chemistry",
+                "type": "Domain",
+                "description": "The study of chemical substances found in living organisms."
+            },
+            {
+                "id": "Ngo Quoc Luan",
+                "type": "Author",
+                "description": "Corresponding author from Can Tho University."
+            },
+            {
+                "id": "Ta Thao Cuong",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Tran Thi Manh Huynh",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Le Minh Dan",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Ngo Khac Khong Minh",
+                "type": "Author",
+                "description": "Author from Nam Can Tho University."
+            },
+            {
+                "id": "Ngo Trong Nghia",
+                "type": "Author",
+                "description": "Author from Kien Giang University."
+            },
+            {
+                "id": "Nguyen Diep Xuan Ky",
+                "type": "Author",
+                "description": "Author from VAST."
+            },
+            {
+                "id": "Phan Nhat Minh",
+                "type": "Author",
+                "description": "Author from VAST."
+            },
+            {
+                "id": "Nguyen Tan Phat",
+                "type": "Author",
+                "description": "Author from VAST."
+            },
+            {
+                "id": "School of Education, Can Tho University",
+                "type": "Institution",
+                "description": "Institution in Viet Nam."
+            },
+            {
+                "id": "Medical Faculty, Nam Can Tho University",
+                "type": "Institution",
+                "description": "Institution in Viet Nam."
+            },
+            {
+                "id": "Faculty of Environment and Natural Resource, Kien Giang University",
+                "type": "Institution",
+                "description": "Institution in Viet Nam."
+            },
+            {
+                "id": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "Research institute in Viet Nam."
+            },
+            {
+                "id": "University of Science and Technology, Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "University in Viet Nam."
+            },
+            {
+                "id": "Antimicrobial activity",
+                "type": "Concept",
+                "description": "Ability to inhibit growth or kill microorganisms."
+            },
+            {
+                "id": "Cytotoxicity",
+                "type": "Concept",
+                "description": "The quality of being toxic to cells, specifically cancer cell line LU-1."
+            },
+            {
+                "id": "Antioxidant activity",
+                "type": "Concept",
+                "description": "Ability to inhibit oxidation by trapping free radicals."
+            },
+            {
+                "id": "Centrostachys aquatica",
+                "type": "Method",
+                "description": "Plant material used for extraction and bioactive testing."
+            },
+            {
+                "id": "Crude methanol extract",
+                "type": "Method",
+                "description": "Extract obtained from C. aquatica using methanol."
+            },
+            {
+                "id": "Ethyl acetate subextract",
+                "type": "Method",
+                "description": "Bioactive subextract obtained through solvent distribution."
+            },
+            {
+                "id": "n-hexane subextract",
+                "type": "Method",
+                "description": "Subextract tested for antimicrobial activity."
+            },
+            {
+                "id": "NMR spectroscopy",
+                "type": "Method",
+                "description": "Nuclear Magnetic Resonance used for structural elucidation."
+            },
+            {
+                "id": "ESI-MS",
+                "type": "Method",
+                "description": "Electrospray Ionization Mass Spectrometry for molecular weight determination."
+            },
+            {
+                "id": "Column chromatography",
+                "type": "Method",
+                "description": "Used for isolation and purification of compounds."
+            },
+            {
+                "id": "DPPH assay",
+                "type": "Method",
+                "description": "Method to test antioxidant activity."
+            },
+            {
+                "id": "MIC (100 µg/mL)",
+                "type": "Metric",
+                "description": "Minimum Inhibitory Concentration of n-hexane subextract."
+            },
+            {
+                "id": "MIC (200 µg/mL)",
+                "type": "Metric",
+                "description": "Minimum Inhibitory Concentration of methanol and ethyl acetate extracts."
+            },
+            {
+                "id": "IC50 (27.66 µg/mL)",
+                "type": "Metric",
+                "description": "Half maximal inhibitory concentration of ethyl acetate extract against LU-1."
+            },
+            {
+                "id": "Melting point (306-308°C)",
+                "type": "Metric",
+                "description": "Physical property of Oleanolic acid."
+            },
+            {
+                "id": "Published data",
+                "type": "Dataset",
+                "description": "Comparison data from literature for structural identification."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Primary investigating chemical constituents of bioactive extract from Centrostachys aquatica",
+                "target": "Natural Products Chemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Ngo Quoc Luan",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ta Thao Cuong",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Manh Huynh",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Minh Dan",
+                "target": "School of Education, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Khac Khong Minh",
+                "target": "Medical Faculty, Nam Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Trong Nghia",
+                "target": "Faculty of Environment and Natural Resource, Kien Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Diep Xuan Ky",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Diep Xuan Ky",
+                "target": "University of Science and Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Nhat Minh",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Nhat Minh",
+                "target": "University of Science and Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Tan Phat",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Tan Phat",
+                "target": "University of Science and Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "n-hexane subextract",
+                "target": "MIC (100 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Crude methanol extract",
+                "target": "MIC (200 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ethyl acetate subextract",
+                "target": "MIC (200 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ethyl acetate subextract",
+                "target": "IC50 (27.66 µg/mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DPPH assay",
+                "target": "Antioxidant activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "NMR spectroscopy",
+                "target": "Published data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "ESI-MS",
+                "target": "Published data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Crude methanol extract",
+                "target": "Antimicrobial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ethyl acetate subextract",
+                "target": "Cytotoxicity",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "filename": "10-BE-NGUYEN THI MY TUYEN(61-68).json",
+    "paper_title": "EFFECT OF ENZYMATIC TREATMENTS ON LYCOPENE In vitro BIOACCESSIBILITY IN HIGH PRESSURE HOMOGENIZED TOMATO PUREE AND CHROMOPLAST FRACTION",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Thi My Tuyen",
+                "type": "Author",
+                "description": "Researcher from the Department of Food Technology, Can Tho University."
+            },
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "Researcher from the Department of Food Technology, Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Vietnam."
+            },
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "The primary field of research concerning food processing and nutrient bioaccessibility."
+            },
+            {
+                "id": "Lycopene in vitro bioaccessibility",
+                "type": "Concept",
+                "description": "The fraction of lycopene released from the food matrix and incorporated into micelles during digestion."
+            },
+            {
+                "id": "Chromoplast sub-structure",
+                "type": "Concept",
+                "description": "Physical structural barriers within plant cells where lycopene is embedded."
+            },
+            {
+                "id": "High pressure homogenization",
+                "type": "Method",
+                "description": "A process at 1000 bars used to break down plant cells and create a tomato puree."
+            },
+            {
+                "id": "Pectinex Ultra SP-L",
+                "type": "Method",
+                "description": "A cell wall degrading enzyme (pectinase) from Aspergillus aculeatus."
+            },
+            {
+                "id": "Viscozyme",
+                "type": "Method",
+                "description": "A multi-enzyme complex containing endo-1,3(4)-beta glucanase used for fiber degradation."
+            },
+            {
+                "id": "Phospholipase D",
+                "type": "Method",
+                "description": "Enzyme used to treat the chromoplast fraction to enhance lycopene release."
+            },
+            {
+                "id": "Protease",
+                "type": "Method",
+                "description": "Enzyme applied to degrade lycopene-protein complexes in chromoplasts."
+            },
+            {
+                "id": "In vitro digestion assay",
+                "type": "Method",
+                "description": "A simulation procedure to investigate lycopene bioaccessibility."
+            },
+            {
+                "id": "Spectrophotometry at 472 nm",
+                "type": "Method",
+                "description": "Analytical technique used for lycopene quantification."
+            },
+            {
+                "id": "Tukey's Standarized Range Test",
+                "type": "Method",
+                "description": "Statistical method used to evaluate significant differences (P<0.05)."
+            },
+            {
+                "id": "Bioaccessibility value (12-15%)",
+                "type": "Metric",
+                "description": "The measured range of lycopene in vitro bioaccessibility after enzymatic treatments."
+            },
+            {
+                "id": "Bostwick consistency index (20 cm)",
+                "type": "Metric",
+                "description": "Measurement of consistency for homogenized tomato puree without enzyme treatment."
+            },
+            {
+                "id": "Bostwick consistency index (>24 cm)",
+                "type": "Metric",
+                "description": "Measurement of consistency for tomato puree treated with Viscozyme or Pectinex Ultra SP-L."
+            },
+            {
+                "id": "Significance level (P<0.05)",
+                "type": "Metric",
+                "description": "The statistical threshold used for data analysis."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi My Tuyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "EFFECT OF ENZYMATIC TREATMENTS ON LYCOPENE In vitro BIOACCESSIBILITY IN HIGH PRESSURE HOMOGENIZED TOMATO PUREE AND CHROMOPLAST FRACTION",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Pectinex Ultra SP-L",
+                "target": "Lycopene in vitro bioaccessibility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Viscozyme",
+                "target": "Lycopene in vitro bioaccessibility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "In vitro digestion assay",
+                "target": "Lycopene in vitro bioaccessibility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Pectinex Ultra SP-L",
+                "target": "Bioaccessibility value (12-15%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Viscozyme",
+                "target": "Bostwick consistency index (>24 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "High pressure homogenization",
+                "target": "Bostwick consistency index (20 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Tukey's Standarized Range Test",
+                "target": "Significance level (P<0.05)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

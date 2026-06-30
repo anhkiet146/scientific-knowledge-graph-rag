@@ -1,0 +1,185 @@
+{
+  "filename": "04-ED-NGO MY TRAN(27-37)021.json",
+  "paper_title": "Effects of using E-learning system on learning outcomes of students in Can Tho University",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Effects of using E-learning system on learning outcomes of students in Can Tho University",
+        "type": "Concept",
+        "description": "The title and primary research focus of the study"
+      },
+      {
+        "id": "Education",
+        "type": "Domain",
+        "description": "The primary research field of the paper"
+      },
+      {
+        "id": "Ngo My Tran",
+        "type": "Author",
+        "description": "Primary author of the research"
+      },
+      {
+        "id": "Nguyen Ngoc Thao",
+        "type": "Author",
+        "description": "Co-author and alumni"
+      },
+      {
+        "id": "Thach Keo Sa Rate",
+        "type": "Author",
+        "description": "Co-author"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution in Vietnam where the study was conducted"
+      },
+      {
+        "id": "E-learning",
+        "type": "Concept",
+        "description": "Electronic learning system used as a support tool in education"
+      },
+      {
+        "id": "Learning outcomes",
+        "type": "Concept",
+        "description": "The educational results manifested by comprehension levels and scores"
+      },
+      {
+        "id": "Technology Acceptance Model (TAM)",
+        "type": "Method",
+        "description": "Model describing individual acceptance of information systems based on usefulness and ease of use"
+      },
+      {
+        "id": "Information system success model (D&M model)",
+        "type": "Method",
+        "description": "Model classifying system success through quality, usage, and satisfaction"
+      },
+      {
+        "id": "Structural Equation Model (SEM)",
+        "type": "Method",
+        "description": "Analysis method used to evaluate the impact of variables on learning outcomes"
+      },
+      {
+        "id": "Exploratory Factor Analysis (EFA)",
+        "type": "Method",
+        "description": "Statistical method to extract underlying factors from survey data"
+      },
+      {
+        "id": "Confirmatory Factor Analysis (CFA)",
+        "type": "Method",
+        "description": "Statistical method used to verify the factor structure of a set of observed variables"
+      },
+      {
+        "id": "5-level Likert scale",
+        "type": "Method",
+        "description": "Scaling method used for measuring attitudes and beliefs"
+      },
+      {
+        "id": "Surveyed data from 294 students",
+        "type": "Dataset",
+        "description": "The numerical dataset collected via convenient sampling at Can Tho University"
+      },
+      {
+        "id": "Cronbach's Alpha (> 0.6)",
+        "type": "Metric",
+        "description": "Reliability coefficient value for all scales"
+      },
+      {
+        "id": "Total extracted variance (55.621%)",
+        "type": "Metric",
+        "description": "The amount of variability explained by the extracted factors in EFA"
+      },
+      {
+        "id": "Variability of learning assistance (35.8%)",
+        "type": "Metric",
+        "description": "Percentage of variability explained by factors in the model"
+      },
+      {
+        "id": "Variation of community building assistance (64.9%)",
+        "type": "Metric",
+        "description": "Percentage of variation explained by perceived motivation"
+      },
+      {
+        "id": "Variation of perceived learning outcome (77.1%)",
+        "type": "Metric",
+        "description": "The total variation explained by the three primary factors in the model"
+      },
+      {
+        "id": "Standardized regression weights (> 0.5)",
+        "type": "Metric",
+        "description": "Metric indicating the model achieves convergence value"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of using E-learning system on learning outcomes of students in Can Tho University",
+        "target": "Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ngo My Tran",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ngoc Thao",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thach Keo Sa Rate",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Structural Equation Model (SEM)",
+        "target": "E-learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Structural Equation Model (SEM)",
+        "target": "Learning outcomes",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Technology Acceptance Model (TAM)",
+        "target": "E-learning",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Structural Equation Model (SEM)",
+        "target": "Surveyed data from 294 students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Exploratory Factor Analysis (EFA)",
+        "target": "Surveyed data from 294 students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Exploratory Factor Analysis (EFA)",
+        "target": "Cronbach's Alpha (> 0.6)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Exploratory Factor Analysis (EFA)",
+        "target": "Total extracted variance (55.621%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Confirmatory Factor Analysis (CFA)",
+        "target": "Standardized regression weights (> 0.5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Structural Equation Model (SEM)",
+        "target": "Variation of perceived learning outcome (77.1%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Structural Equation Model (SEM)",
+        "target": "Variability of learning assistance (35.8%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

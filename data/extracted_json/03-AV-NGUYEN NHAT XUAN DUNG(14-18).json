@@ -1,0 +1,180 @@
+{
+    "filename": "03-AV-NGUYEN NHAT XUAN DUNG(14-18).json",
+    "paper_title": "EVALUATION OF QUALITY TRAITS, CHEMICAL COMPOSITION AND EGG YOLK LIPID COMPONENTS OF NOI LAI CHICKEN",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Nhut Xuan Dung",
+                "type": "Author",
+                "description": "First author of the study from Can Tho University."
+            },
+            {
+                "id": "Luu Huu Manh",
+                "type": "Author",
+                "description": "Co-author of the study from Can Tho University."
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliation of the authors in Vietnam."
+            },
+            {
+                "id": "Animal Science",
+                "type": "Domain",
+                "description": "The primary research field focusing on poultry and egg quality."
+            },
+            {
+                "id": "Egg quality traits",
+                "type": "Concept",
+                "description": "The physical characteristics determining the internal and external quality of chicken eggs."
+            },
+            {
+                "id": "Chemical composition",
+                "type": "Concept",
+                "description": "The nutritional components including protein, fat, ash, and minerals in eggs."
+            },
+            {
+                "id": "Egg yolk lipid components",
+                "type": "Concept",
+                "description": "Specific fats such as cholesterol, triglycerides, and HDL-cholesterol in the yolk."
+            },
+            {
+                "id": "Spherometer",
+                "type": "Method",
+                "description": "Device used to measure yolk and albumen height."
+            },
+            {
+                "id": "Micrometer screw gauge",
+                "type": "Method",
+                "description": "Tool used for measuring shell thickness."
+            },
+            {
+                "id": "Vernier callipers",
+                "type": "Method",
+                "description": "Used to measure yolk width, egg length, and egg width."
+            },
+            {
+                "id": "Roche color fan",
+                "type": "Method",
+                "description": "Standard tool for determining yolk color."
+            },
+            {
+                "id": "AOAC (1990)",
+                "type": "Method",
+                "description": "Standard procedures for analyzing moisture, crude protein, ether extract, and minerals."
+            },
+            {
+                "id": "Enzyme-substrate reactions",
+                "type": "Method",
+                "description": "Method for determining cholesterol, triglycerides, and HDL-cholesterol using diagnostic kits."
+            },
+            {
+                "id": "Two sample-t test",
+                "type": "Method",
+                "description": "Statistical method used to measure variations between eggs of young and old hens."
+            },
+            {
+                "id": "Minitab 13",
+                "type": "Method",
+                "description": "Software used for statistical analysis."
+            },
+            {
+                "id": "Noi lai chicken egg litter records",
+                "type": "Dataset",
+                "description": "Numerical data collected from 60 litters of Noi lai chickens."
+            },
+            {
+                "id": "Egg weight young (39.2 g)",
+                "type": "Metric",
+                "description": "Average weight of eggs from young hens."
+            },
+            {
+                "id": "Egg weight old (41.9 g)",
+                "type": "Metric",
+                "description": "Average weight of eggs from old hens."
+            },
+            {
+                "id": "Yolk index young (0.275)",
+                "type": "Metric",
+                "description": "Measurement of yolk shape in young hens' eggs."
+            },
+            {
+                "id": "Haugh unit young (83.2)",
+                "type": "Metric",
+                "description": "Index of egg protein quality and freshness for young hens."
+            },
+            {
+                "id": "Cholesterol content young (8.0 mg/g yolk)",
+                "type": "Metric",
+                "description": "Amount of cholesterol in the yolk of young hens' eggs."
+            },
+            {
+                "id": "HDL-C young (4.70 mg/g yolk)",
+                "type": "Metric",
+                "description": "High-density lipoprotein cholesterol in young hens' eggs."
+            },
+            {
+                "id": "Triglyceride content young (7.4 mg/g yolk)",
+                "type": "Metric",
+                "description": "Level of triglycerides recorded in young hens' eggs."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Nhut Xuan Dung",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luu Huu Manh",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Animal Science",
+                "target": "Egg quality traits",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Spherometer",
+                "target": "Egg quality traits",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "AOAC (1990)",
+                "target": "Chemical composition",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Enzyme-substrate reactions",
+                "target": "Egg yolk lipid components",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "AOAC (1990)",
+                "target": "Egg weight young (39.2 g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Spherometer",
+                "target": "Haugh unit young (83.2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Enzyme-substrate reactions",
+                "target": "Cholesterol content young (8.0 mg/g yolk)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Two sample-t test",
+                "target": "Noi lai chicken egg litter records",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Minitab 13",
+                "target": "Noi lai chicken egg litter records",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

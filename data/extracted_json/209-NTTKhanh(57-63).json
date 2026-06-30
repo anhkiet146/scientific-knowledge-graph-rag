@@ -1,0 +1,130 @@
+{
+    "filename": "209-NTTKhanh(57-63).json",
+    "paper_title": "MICROALGAL CULTURE WITH DIGESTATE FROM METHANE FERMENTATION -LIGHT ENVIRONMENT IN THE CULTURE SOLUTION WITH DIFFERENT DIGESTATE CONCENTRATIONS AND MICROALGAL CELL DENSITIES",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Renewable Energy",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo về năng lượng tái tạo."
+            },
+            {
+                "id": "Nguyen Khanh",
+                "type": "Author",
+                "description": "Tác giả từ trường Đại học An Giang."
+            },
+            {
+                "id": "Maeda Yasuaki",
+                "type": "Author",
+                "description": "Tác giả từ trường Đại học Osaka Prefecture."
+            },
+            {
+                "id": "An Giang University",
+                "type": "Institution",
+                "description": "Tổ chức tại Việt Nam nơi tác giả Nguyen Khanh làm việc."
+            },
+            {
+                "id": "Osaka Prefecture University",
+                "type": "Institution",
+                "description": "Tổ chức tại Nhật Bản nơi tác giả Maeda Yasuaki làm việc."
+            },
+            {
+                "id": "Microalgal culture",
+                "type": "Concept",
+                "description": "Quá trình nuôi cấy vi tảo trong môi trường dịch thải biogas."
+            },
+            {
+                "id": "Light intensity",
+                "type": "Concept",
+                "description": "Cường độ ánh sáng trong dung dịch nuôi cấy vi tảo."
+            },
+            {
+                "id": "Digestate",
+                "type": "Method",
+                "description": "Dịch thải từ quá trình lên men methane dùng làm môi trường nuôi cấy."
+            },
+            {
+                "id": "Lambert-Beer's law",
+                "type": "Method",
+                "description": "Định luật vật lý mô tả sự giảm cường độ ánh sáng theo độ sâu."
+            },
+            {
+                "id": "Spectrophotometer",
+                "type": "Method",
+                "description": "Thiết bị quang phổ dùng để xác định các đặc tính quang học của dung dịch."
+            },
+            {
+                "id": "Linear regression",
+                "type": "Method",
+                "description": "Phương pháp hồi quy tuyến tính để xác định mối quan hệ giữa hệ số hấp thụ và nồng độ."
+            },
+            {
+                "id": "Euglena gracilis",
+                "type": "Method",
+                "description": "Loại vi tảo cụ thể được sử dụng trong nghiên cứu."
+            },
+            {
+                "id": "Specific growth rate (0.047 h-1)",
+                "type": "Metric",
+                "description": "Tốc độ tăng trưởng riêng tối đa của Euglena gracilis trong 10% digestate."
+            },
+            {
+                "id": "Absorption coefficient (βdigestate = 0.0546 × conc + 0.005)",
+                "type": "Metric",
+                "description": "Hệ số hấp thụ ánh sáng của dịch thải theo nồng độ."
+            },
+            {
+                "id": "Absorption coefficient (βmicroalgae = 0.0655 × density + 0.0402)",
+                "type": "Metric",
+                "description": "Hệ số hấp thụ ánh sáng của vi tảo theo mật độ tế bào."
+            },
+            {
+                "id": "Light transmission (>10%)",
+                "type": "Metric",
+                "description": "Tỷ lệ truyền ánh sáng đạt được ở độ sâu dưới 15 mm với 20% digestate."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Khanh",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Maeda Yasuaki",
+                "target": "Osaka Prefecture University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lambert-Beer's law",
+                "target": "Light intensity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Spectrophotometer",
+                "target": "Microalgal culture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Linear regression",
+                "target": "Absorption coefficient (βdigestate = 0.0546 × conc + 0.005)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Linear regression",
+                "target": "Absorption coefficient (βmicroalgae = 0.0655 × density + 0.0402)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Digestate",
+                "target": "Light transmission (>10%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Euglena gracilis",
+                "target": "Specific growth rate (0.047 h-1)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

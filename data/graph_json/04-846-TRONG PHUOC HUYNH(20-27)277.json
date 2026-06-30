@@ -1,0 +1,170 @@
+{
+  "filename": "04-846-TRONG PHUOC HUYNH(20-27)277.json",
+  "paper_title": "Properties of unfired solid bricks produced primarily from thermal power plant fly ash and bottom ash",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Civil Engineering",
+        "type": "Domain",
+        "description": "The main field of research focusing on construction and building materials."
+      },
+      {
+        "id": "Trong-Phuoc Huynh",
+        "type": "Author",
+        "description": "Author from the Faculty of Civil Engineering, Can Tho University."
+      },
+      {
+        "id": "Van-Dung Nguyen",
+        "type": "Author",
+        "description": "Corresponding author from Hong Duc University."
+      },
+      {
+        "id": "Vu-Linh Nguyen",
+        "type": "Author",
+        "description": "Author from the Department of Engineering and Technology, Hong Duc University."
+      },
+      {
+        "id": "Thi-Thuong Le",
+        "type": "Author",
+        "description": "Author from the Department of Engineering and Technology, Hong Duc University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam, specifically the College of Engineering."
+      },
+      {
+        "id": "Hong Duc University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam, specifically the Department of Engineering and Technology."
+      },
+      {
+        "id": "Unfired solid brick",
+        "type": "Concept",
+        "description": "A type of brick produced without the firing process, often using industrial waste."
+      },
+      {
+        "id": "Pozzolanic reaction",
+        "type": "Concept",
+        "description": "The chemical reaction between fly ash and cement hydration products."
+      },
+      {
+        "id": "Fly ash (FA)",
+        "type": "Method",
+        "description": "Industrial by-product from Nghi Son coal-fired power plant used as binder replacement."
+      },
+      {
+        "id": "Bottom ash (BA)",
+        "type": "Method",
+        "description": "Industrial by-product used as a fine aggregate in brick production."
+      },
+      {
+        "id": "Cement PCB40",
+        "type": "Method",
+        "description": "Type of cement used as a primary binder material."
+      },
+      {
+        "id": "Scanning electron microscope (FE-SEM)",
+        "type": "Method",
+        "description": "Imaging technique used to observe the microstructure of materials."
+      },
+      {
+        "id": "Unit weight (1.51 - 1.68 T/m3)",
+        "type": "Metric",
+        "description": "The measured density of the produced bricks."
+      },
+      {
+        "id": "Compressive strength (28.1 - 52.7 MPa)",
+        "type": "Metric",
+        "description": "The capacity of the brick to withstand loads before failure."
+      },
+      {
+        "id": "Water absorption (11.7% - 16.10%)",
+        "type": "Metric",
+        "description": "The percentage of water the brick can soak up."
+      },
+      {
+        "id": "Water permeability (3.68 - 11.69 L/m2h)",
+        "type": "Metric",
+        "description": "The rate at which water passes through the brick structure."
+      },
+      {
+        "id": "Thermal conductivity (1.56 - 2.20 W/mK)",
+        "type": "Metric",
+        "description": "The measure of the brick's heat insulation capability."
+      },
+      {
+        "id": "Loss on ignition (15.9%)",
+        "type": "Metric",
+        "description": "The measure of unburnt impurities in the Fly Ash."
+      },
+      {
+        "id": "TCVN 6477:2016",
+        "type": "Dataset",
+        "description": "The Vietnamese standard used to classify and evaluate brick properties."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Trong-Phuoc Huynh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Van-Dung Nguyen",
+        "target": "Hong Duc University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vu-Linh Nguyen",
+        "target": "Hong Duc University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thi-Thuong Le",
+        "target": "Hong Duc University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Fly ash (FA)",
+        "target": "Unfired solid brick",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Bottom ash (BA)",
+        "target": "Unfired solid brick",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Fly ash (FA)",
+        "target": "Unit weight (1.51 - 1.68 T/m3)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fly ash (FA)",
+        "target": "Compressive strength (28.1 - 52.7 MPa)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fly ash (FA)",
+        "target": "Water absorption (11.7% - 16.10%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fly ash (FA)",
+        "target": "Water permeability (3.68 - 11.69 L/m2h)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fly ash (FA)",
+        "target": "Thermal conductivity (1.56 - 2.20 W/mK)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fly ash (FA)",
+        "target": "TCVN 6477:2016",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

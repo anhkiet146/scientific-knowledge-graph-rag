@@ -1,0 +1,145 @@
+{
+    "filename": "07-BT-NGUYEN NGOC THANH TIEN(44-50)023.json",
+    "paper_title": "Quality changes and in vitro digestibility of bread substituted with tuber starches modified by citric acid and heat-moisture treatment",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Technology",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về công nghệ thực phẩm và chế biến thực phẩm."
+            },
+            {
+                "id": "Nguyen Ngoc Thanh Tien",
+                "type": "Author",
+                "description": "Tác giả chính của bài báo, công tác tại Đại học Quốc tế."
+            },
+            {
+                "id": "Dang Thai An",
+                "type": "Author",
+                "description": "Đồng tác giả bài báo."
+            },
+            {
+                "id": "Pham Hoai Thanh",
+                "type": "Author",
+                "description": "Đồng tác giả bài báo."
+            },
+            {
+                "id": "Pham Van Hung",
+                "type": "Author",
+                "description": "Đồng tác giả bài báo."
+            },
+            {
+                "id": "International University, Vietnam National University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "Cơ quan công tác của các tác giả tại Việt Nam."
+            },
+            {
+                "id": "Resistant starch",
+                "type": "Concept",
+                "description": "Tinh bột kháng, đóng vai trò quan trọng trong việc giảm tiểu đường và béo phì."
+            },
+            {
+                "id": "In vitro digestibility",
+                "type": "Concept",
+                "description": "Khả năng tiêu hóa trong ống nghiệm của sản phẩm bánh mì."
+            },
+            {
+                "id": "CAHMT",
+                "type": "Method",
+                "description": "Xử lý nhiệt-ẩm kết hợp với acid citric (Citric acid and heat-moisture treatment) để biến tính tinh bột."
+            },
+            {
+                "id": "20CSB",
+                "type": "Method",
+                "description": "Mẫu bánh mì bổ sung 20% hỗn hợp tinh bột sắn biến tính và gluten."
+            },
+            {
+                "id": "Method 10-10B",
+                "type": "Method",
+                "description": "Quy trình nướng bánh mì được áp dụng trong nghiên cứu."
+            },
+            {
+                "id": "Experimental Data Table",
+                "type": "Dataset",
+                "description": "Bảng dữ liệu kết quả thí nghiệm về thể tích, cấu trúc và độ tiêu hóa."
+            },
+            {
+                "id": "RS content (32.0%)",
+                "type": "Metric",
+                "description": "Hàm lượng tinh bột kháng trong mẫu 20CSB."
+            },
+            {
+                "id": "Hardness value (14.94 N)",
+                "type": "Metric",
+                "description": "Độ cứng của mẫu bánh mì 20CSB."
+            },
+            {
+                "id": "Specific volume (3.34 cm3/g)",
+                "type": "Metric",
+                "description": "Thể tích riêng của mẫu bánh mì 20CSB."
+            },
+            {
+                "id": "Overall acceptability score (4.10/5.00)",
+                "type": "Metric",
+                "description": "Điểm chấp nhận chung của mẫu 20CSB qua đánh giá cảm quan."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Quality changes and in vitro digestibility of bread substituted with tuber starches modified by citric acid and heat-moisture treatment",
+                "target": "Food Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Ngoc Thanh Tien",
+                "target": "International University, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thai An",
+                "target": "International University, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Hoai Thanh",
+                "target": "International University, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Van Hung",
+                "target": "International University, Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "CAHMT",
+                "target": "Resistant starch",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "20CSB",
+                "target": "RS content (32.0%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "20CSB",
+                "target": "Hardness value (14.94 N)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "20CSB",
+                "target": "Specific volume (3.34 cm3/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "20CSB",
+                "target": "Overall acceptability score (4.10/5.00)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "20CSB",
+                "target": "Experimental Data Table",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "filename": "08-TRUONG MINH UT(61-68)031.json",
+    "paper_title": "Antimicrobial activity of herbal extracts against Vibrio spp. bacteria isolated from white feces syndrome on white leg shrimp (Litopenaeus vannamei) in some provinces in the mekong delta",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Truong Minh Ut",
+                "type": "Author",
+                "description": "PhD student, College of Aquaculture and Fisheries, Can Tho University"
+            },
+            {
+                "id": "Dao Thi Tu Uyen",
+                "type": "Author",
+                "description": "Researcher at College of Aquaculture and Fisheries, Can Tho University"
+            },
+            {
+                "id": "Tu Thanh Dung",
+                "type": "Author",
+                "description": "Researcher at College of Aquaculture and Fisheries, Can Tho University"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "A major university in Vietnam specializing in agriculture and aquaculture research"
+            },
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The cultivation of aquatic organisms such as fish and crustaceans"
+            },
+            {
+                "id": "White feces syndrome",
+                "type": "Concept",
+                "description": "A disease in shrimp associated with Vibrio bacteria and microsporidian EHP"
+            },
+            {
+                "id": "Antibacterial activity",
+                "type": "Concept",
+                "description": "The ability of a substance to inhibit the growth or kill bacteria"
+            },
+            {
+                "id": "Vibrio spp.",
+                "type": "Concept",
+                "description": "A genus of Gram-negative bacteria often associated with aquatic diseases"
+            },
+            {
+                "id": "Well diffusion method",
+                "type": "Method",
+                "description": "A standard laboratory technique used to test the susceptibility of microorganisms to antimicrobial agents"
+            },
+            {
+                "id": "Minimum Inhibitory Concentration (MIC)",
+                "type": "Method",
+                "description": "The lowest concentration of a chemical which prevents visible growth of a bacterium"
+            },
+            {
+                "id": "Minimum Bactericidal Concentration (MBC)",
+                "type": "Method",
+                "description": "The lowest concentration of an antibacterial agent required to kill a bacterium"
+            },
+            {
+                "id": "API 20E kit",
+                "type": "Method",
+                "description": "A biochemical identification system for Enterobacteriaceae and other non-fastidious Gram-negative rods"
+            },
+            {
+                "id": "16S rRNA gene sequencing",
+                "type": "Method",
+                "description": "A method used for bacterial identification and phylogeny"
+            },
+            {
+                "id": "Psidium guajava extract",
+                "type": "Method",
+                "description": "Herbal extract from guava used for its antimicrobial properties"
+            },
+            {
+                "id": "Phyllanthus urinaria L extract",
+                "type": "Method",
+                "description": "Herbal extract from leafflower used for its antimicrobial properties"
+            },
+            {
+                "id": "Wedelia biflora (L.) DC extract",
+                "type": "Method",
+                "description": "Herbal extract from beach daisy tested for antimicrobial activity"
+            },
+            {
+                "id": "GenBank",
+                "type": "Dataset",
+                "description": "An open access, annotated collection of all publicly available DNA sequences"
+            },
+            {
+                "id": "MIC (0.2 mg/ml)",
+                "type": "Metric",
+                "description": "The lowest concentration of P. urinaria L extract inhibiting Vibrio growth"
+            },
+            {
+                "id": "MBC (0.39 mg/ml)",
+                "type": "Metric",
+                "description": "The lowest concentration of P. urinaria L extract killing Vibrio bacteria"
+            },
+            {
+                "id": "Inhibition zone (24.85 mm)",
+                "type": "Metric",
+                "description": "Diameter of the clear zone showing antibacterial effect of P. urinaria L on V. alginolyticus CM3IB2"
+            },
+            {
+                "id": "Percentage of V. alginolyticus (50 %)",
+                "type": "Metric",
+                "description": "The abundance of V. alginolyticus in the studied shrimp samples"
+            },
+            {
+                "id": "Similarity (100%)",
+                "type": "Metric",
+                "description": "The sequence similarity of isolated bacterial genes compared to GenBank records"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Truong Minh Ut",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dao Thi Tu Uyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tu Thanh Dung",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Aquaculture",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Well diffusion method",
+                "target": "Antibacterial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Minimum Inhibitory Concentration (MIC)",
+                "target": "Antibacterial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Minimum Bactericidal Concentration (MBC)",
+                "target": "Antibacterial activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "API 20E kit",
+                "target": "Vibrio spp.",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "16S rRNA gene sequencing",
+                "target": "GenBank",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Phyllanthus urinaria L extract",
+                "target": "MIC (0.2 mg/ml)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Phyllanthus urinaria L extract",
+                "target": "MBC (0.39 mg/ml)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Phyllanthus urinaria L extract",
+                "target": "Inhibition zone (24.85 mm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "16S rRNA gene sequencing",
+                "target": "Similarity (100%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

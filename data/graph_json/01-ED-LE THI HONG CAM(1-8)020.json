@@ -1,0 +1,155 @@
+{
+  "filename": "01-ED-LE THI HONG CAM(1-8)020.json",
+  "paper_title": "A Phenomenological study of challenges encountered by mountainous high school students in Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "English Language Teaching",
+        "type": "Domain",
+        "description": "The primary field of research concerning instruction and learning of the English language."
+      },
+      {
+        "id": "Le Thi Hong Cam",
+        "type": "Author",
+        "description": "Researcher affiliated with Can Tho University."
+      },
+      {
+        "id": "Phuong Hoang Yen",
+        "type": "Author",
+        "description": "Researcher affiliated with Can Tho University."
+      },
+      {
+        "id": "School of Foreign Languages",
+        "type": "Institution",
+        "description": "A specific academic department within Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "A major university in Vietnam."
+      },
+      {
+        "id": "Challenges in English writing",
+        "type": "Concept",
+        "description": "The main research problem focusing on difficulties students face when writing in English."
+      },
+      {
+        "id": "Phenomenological study",
+        "type": "Method",
+        "description": "The qualitative research design used to study the phenomenon of writing challenges."
+      },
+      {
+        "id": "Five-point Likert-scale questionnaires",
+        "type": "Method",
+        "description": "The instrument used to collect quantitative data from students."
+      },
+      {
+        "id": "SPSS software 20.0",
+        "type": "Method",
+        "description": "The statistical tool used for data processing."
+      },
+      {
+        "id": "Descriptive Statistics tests",
+        "type": "Method",
+        "description": "Statistical method used to calculate mean and standard deviation."
+      },
+      {
+        "id": "One-Sample T-Test",
+        "type": "Method",
+        "description": "Statistical test to compare mean scores against a test value."
+      },
+      {
+        "id": "Pearson correlation test",
+        "type": "Method",
+        "description": "Statistical test used to find relationships between different challenges."
+      },
+      {
+        "id": "Survey data from 520 grade-12 students",
+        "type": "Dataset",
+        "description": "Numerical data collected from three high schools in mountainous areas."
+      },
+      {
+        "id": "Overall mean score of challenges (M=3.3; S.D=.45)",
+        "type": "Metric",
+        "description": "General level of challenges encountered by participants."
+      },
+      {
+        "id": "One-sample T-test result (t=14.9; p=.00)",
+        "type": "Metric",
+        "description": "Significance of the difference between mean score and test value."
+      },
+      {
+        "id": "Mean score for poor spelling (M=3.67; S.D=.74)",
+        "type": "Metric",
+        "description": "Measurement of the most frequent challenge identified."
+      },
+      {
+        "id": "Correlation between spelling and grammar (r=.616; p=.00)",
+        "type": "Metric",
+        "description": "Statistical relationship between two linguistic challenges."
+      },
+      {
+        "id": "Above-average GCSE marks (17.2%)",
+        "type": "Metric",
+        "description": "The percentage of students performing well in the 2014-2015 national exam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Thi Hong Cam",
+        "target": "School of Foreign Languages",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Hong Cam",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phuong Hoang Yen",
+        "target": "School of Foreign Languages",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phuong Hoang Yen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "A Phenomenological study of challenges encountered by mountainous high school students in Vietnam",
+        "target": "English Language Teaching",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Phenomenological study",
+        "target": "Challenges in English writing",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Survey data from 520 grade-12 students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Descriptive Statistics tests",
+        "target": "Overall mean score of challenges (M=3.3; S.D=.45)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive Statistics tests",
+        "target": "Mean score for poor spelling (M=3.67; S.D=.74)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "One-Sample T-Test",
+        "target": "One-sample T-test result (t=14.9; p=.00)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pearson correlation test",
+        "target": "Correlation between spelling and grammar (r=.616; p=.00)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

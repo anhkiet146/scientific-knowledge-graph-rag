@@ -1,0 +1,125 @@
+{
+    "filename": "13-NS-TRAN VAN LY(90-99).json",
+    "paper_title": "STOCHASTIC MODELING FOR DAILY CLEARNESS INDEX SEQUENCE IN CAN THO CITY",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Tran Van Ly",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam affiliated with the author"
+            },
+            {
+                "id": "Meteorology",
+                "type": "Domain",
+                "description": "The primary field of study regarding solar radiation and climate modeling"
+            },
+            {
+                "id": "Daily Clearness Index (CIS)",
+                "type": "Concept",
+                "description": "The ratio of the global solar radiation to the extraterrestrial solar radiation"
+            },
+            {
+                "id": "Hidden Markov Model (HMM)",
+                "type": "Method",
+                "description": "A stochastic model used to represent the CIS under random effects of meteorological events"
+            },
+            {
+                "id": "Expectation Maximization (EM) algorithm",
+                "type": "Method",
+                "description": "An iterative method to find maximum likelihood estimates of parameters"
+            },
+            {
+                "id": "Maximum Likelihood estimation (MLE)",
+                "type": "Method",
+                "description": "A method of estimating the parameters of a probability distribution"
+            },
+            {
+                "id": "Gaussian kernel estimator",
+                "type": "Method",
+                "description": "A non-parametric way to estimate the probability density function of a random variable"
+            },
+            {
+                "id": "DATA0114",
+                "type": "Dataset",
+                "description": "Daily CIS observed in January 2014 in Can Tho city"
+            },
+            {
+                "id": "DATA0614",
+                "type": "Dataset",
+                "description": "Daily CIS observed in June 2014 in Can Tho city"
+            },
+            {
+                "id": "Average annual humidity (83%)",
+                "type": "Metric",
+                "description": "Humidity level recorded in the study area"
+            },
+            {
+                "id": "Temperature (27°C)",
+                "type": "Metric",
+                "description": "Average temperature in Can Tho city"
+            },
+            {
+                "id": "100 iterations",
+                "type": "Metric",
+                "description": "Number of iterations performed by the EM algorithm"
+            },
+            {
+                "id": "N=2 states",
+                "type": "Metric",
+                "description": "Number of states chosen for the HMM based on AIC"
+            },
+            {
+                "id": "5000 simulated paths",
+                "type": "Metric",
+                "description": "The quantity of simulated paths generated from the estimated model"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Tran Van Ly",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hidden Markov Model (HMM)",
+                "target": "Daily Clearness Index (CIS)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Expectation Maximization (EM) algorithm",
+                "target": "Maximum Likelihood estimation (MLE)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hidden Markov Model (HMM)",
+                "target": "DATA0114",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Hidden Markov Model (HMM)",
+                "target": "DATA0614",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Expectation Maximization (EM) algorithm",
+                "target": "100 iterations",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hidden Markov Model (HMM)",
+                "target": "N=2 states",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hidden Markov Model (HMM)",
+                "target": "5000 simulated paths",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "filename": "04-AV-NGUYEN THI KIM DONG(19-24).json",
+    "paper_title": "A RESPONSE OF NUTRIENT INTAKE, DIGESTIBILITY AND GROWTH RATE OF RABBITS (Oryctolaguc cuniculus) FED WATER SPINACH OR SWEET POTATO VINES WITH OR WITHOUT FIBER SUPPLEMENT",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Animal Science",
+                "type": "Domain",
+                "description": "The main research field of the paper focused on rabbit nutrition and growth."
+            },
+            {
+                "id": "Nguyen Thi Kim Dong",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Nguyen Van Thu",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution located in Vietnam."
+            },
+            {
+                "id": "Nutrient intake",
+                "type": "Concept",
+                "description": "The process of taking in and processing nutrients from feed."
+            },
+            {
+                "id": "Growth rate of rabbits",
+                "type": "Concept",
+                "description": "The measurement of the increase in weight or size of rabbits over time."
+            },
+            {
+                "id": "Digestibility",
+                "type": "Concept",
+                "description": "The ability of the animal's body to break down and absorb nutrients."
+            },
+            {
+                "id": "2*3 factorial design",
+                "type": "Method",
+                "description": "Experimental design with two factors and three levels/replications."
+            },
+            {
+                "id": "AOAC procedure (1990)",
+                "type": "Method",
+                "description": "Standard method for analyzing chemical composition of feeds."
+            },
+            {
+                "id": "Water spinach (WS)",
+                "type": "Method",
+                "description": "Ipomoea aquatica, used as a primary vegetable feed source."
+            },
+            {
+                "id": "Sweet potato vines (SPV)",
+                "type": "Method",
+                "description": "Ipomoea batatas, used as a primary vegetable feed source."
+            },
+            {
+                "id": "Hymenache acutigluma (HA)",
+                "type": "Method",
+                "description": "Mom grass, used as a fiber supplement material."
+            },
+            {
+                "id": "Wedelia trilobata (WT)",
+                "type": "Method",
+                "description": "Cuc, used as a fiber supplement material."
+            },
+            {
+                "id": "Minitab Reference Manual Release 13.21",
+                "type": "Method",
+                "description": "Software used for statistical analysis of experimental data."
+            },
+            {
+                "id": "Table 1: Chemical composition",
+                "type": "Dataset",
+                "description": "Data table containing the nutrient breakdown of ingredients."
+            },
+            {
+                "id": "Table 3: Growth performance",
+                "type": "Dataset",
+                "description": "Data table showing weight gain and feed conversion ratios."
+            },
+            {
+                "id": "Daily weight gain (14.8-16.0g)",
+                "type": "Metric",
+                "description": "Specific range of daily growth measured in grams."
+            },
+            {
+                "id": "Feed conversion ratio (3.63-4.42)",
+                "type": "Metric",
+                "description": "Measure of feed efficiency values recorded in the experiment."
+            },
+            {
+                "id": "DM digestibility (62.7-73.0%)",
+                "type": "Metric",
+                "description": "Percentage range of dry matter digestibility for water spinach."
+            },
+            {
+                "id": "CP digestibility (82.0-84.5%)",
+                "type": "Metric",
+                "description": "Percentage range of crude protein digestibility."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Thi Kim Dong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Thu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Animal Science",
+                "target": "Animal Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "2*3 factorial design",
+                "target": "Growth rate of rabbits",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "AOAC procedure (1990)",
+                "target": "Nutrient intake",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Water spinach (WS)",
+                "target": "Daily weight gain (14.8-16.0g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Water spinach (WS)",
+                "target": "DM digestibility (62.7-73.0%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Sweet potato vines (SPV)",
+                "target": "Feed conversion ratio (3.63-4.42)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "2*3 factorial design",
+                "target": "Table 3: Growth performance",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Minitab Reference Manual Release 13.21",
+                "target": "Table 1: Chemical composition",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "filename": "08-E9-NGUYEN DUY TAN(54-61)095.json",
+    "paper_title": "Bioactive compounds, pigment content and antioxidant activity of Pouzolzia zeylanica plant collected at different growth stages",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo về nông nghiệp và cây dược liệu."
+            },
+            {
+                "id": "Nguyen Duy Tan",
+                "type": "Author",
+                "description": "Tác giả từ Khoa Nông nghiệp và Tài nguyên thiên nhiên, Đại học An Giang."
+            },
+            {
+                "id": "Vo Thi Xuan Tuyen",
+                "type": "Author",
+                "description": "Tác giả từ Khoa Nông nghiệp và Tài nguyên thiên nhiên, Đại học An Giang."
+            },
+            {
+                "id": "Nguyen Minh Thuy",
+                "type": "Author",
+                "description": "Tác giả từ Khoa Nông nghiệp và Phát triển Nông thôn, Đại học Cần Thơ."
+            },
+            {
+                "id": "An Giang University",
+                "type": "Institution",
+                "description": "Tổ chức học thuật tại Việt Nam."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Tổ chức học thuật tại Việt Nam."
+            },
+            {
+                "id": "Growth stages",
+                "type": "Concept",
+                "description": "Nghiên cứu ảnh hưởng của các giai đoạn sinh trưởng (cây non và cây trưởng thành) đến chất lượng cây."
+            },
+            {
+                "id": "Bioactive compounds",
+                "type": "Concept",
+                "description": "Các hợp chất có hoạt tính sinh học như anthocyanin, flavonoid, polyphenol và tannin."
+            },
+            {
+                "id": "Antioxidant activity",
+                "type": "Concept",
+                "description": "Khả năng chống oxy hóa của dịch chiết từ cây thuốc."
+            },
+            {
+                "id": "Ethanol extraction",
+                "type": "Method",
+                "description": "Quy trình chiết xuất bằng dung môi ethanol 60% ở 60 độ C trong 60 phút."
+            },
+            {
+                "id": "pH differential method",
+                "type": "Method",
+                "description": "Phương pháp xác định hàm lượng anthocyanin tổng số."
+            },
+            {
+                "id": "Aluminum chloride colorimetric method",
+                "type": "Method",
+                "description": "Phương pháp so màu nhôm clorua để xác định flavonoid."
+            },
+            {
+                "id": "Folin-Ciocalteu reagent method",
+                "type": "Method",
+                "description": "Phương pháp xác định hàm lượng polyphenol tổng số."
+            },
+            {
+                "id": "DPPH scavenging capacity",
+                "type": "Method",
+                "description": "Phương pháp đánh giá khả năng khử gốc tự do 2,2-diphenyl-1-picrylhydrazyl."
+            },
+            {
+                "id": "FRAP method",
+                "type": "Method",
+                "description": "Phương pháp đo khả năng khử sắt (ferrous reducing ability power)."
+            },
+            {
+                "id": "CIE L* a* b* color system",
+                "type": "Method",
+                "description": "Hệ thống đo lường các thông số màu sắc của thân và lá."
+            },
+            {
+                "id": "Anthocyanin content (1.98-3.86 mgCE/g)",
+                "type": "Metric",
+                "description": "Hàm lượng anthocyanin đo được trong cây."
+            },
+            {
+                "id": "Flavonoid content (14.97-18.46 mgQE/g)",
+                "type": "Metric",
+                "description": "Hàm lượng flavonoid đo được trong cây."
+            },
+            {
+                "id": "Polyphenol content (33.43-38.68 mgGAE/g)",
+                "type": "Metric",
+                "description": "Hàm lượng polyphenol tổng số đo được."
+            },
+            {
+                "id": "DPPH scavenging (82.53%)",
+                "type": "Metric",
+                "description": "Tỷ lệ khử gốc tự do DPPH của dịch chiết."
+            },
+            {
+                "id": "FRAP (659.72-673.71 uM FeSO4/g)",
+                "type": "Metric",
+                "description": "Giá trị khả năng khử sắt của dịch chiết."
+            },
+            {
+                "id": "AAI (4.18-4.52)",
+                "type": "Metric",
+                "description": "Chỉ số khả năng chống oxy hóa (Antioxidant Ability Index)."
+            },
+            {
+                "id": "Moisture content (86.24-89.40%)",
+                "type": "Metric",
+                "description": "Độ ẩm của cây ở các giai đoạn khác nhau."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Duy Tan",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Thi Xuan Tuyen",
+                "target": "An Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Thuy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ethanol extraction",
+                "target": "Bioactive compounds",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ethanol extraction",
+                "target": "Antioxidant activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "pH differential method",
+                "target": "Anthocyanin content (1.98-3.86 mgCE/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Aluminum chloride colorimetric method",
+                "target": "Flavonoid content (14.97-18.46 mgQE/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Folin-Ciocalteu reagent method",
+                "target": "Polyphenol content (33.43-38.68 mgGAE/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DPPH scavenging capacity",
+                "target": "DPPH scavenging (82.53%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "FRAP method",
+                "target": "FRAP (659.72-673.71 uM FeSO4/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Growth stages",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

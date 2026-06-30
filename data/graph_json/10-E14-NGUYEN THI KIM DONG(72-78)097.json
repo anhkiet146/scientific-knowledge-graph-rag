@@ -1,0 +1,150 @@
+{
+  "filename": "10-E14-NGUYEN THI KIM DONG(72-78)097.json",
+  "paper_title": "A response of feed utilization, nutrient digestibility and growth rate of crossbred rabbits to sugarcane stalk residue in the basal diet with Operculina turpethum supplementation",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Thi Kim Dong",
+        "type": "Author",
+        "description": "First author of the research paper from Tay Do University"
+      },
+      {
+        "id": "Nguyen Van Thu",
+        "type": "Author",
+        "description": "Co-author of the research paper from Can Tho University"
+      },
+      {
+        "id": "Tay Do University",
+        "type": "Institution",
+        "description": "Institution located in Can Tho, Vietnam, specifically the College of Applied Biology"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Vietnam, specifically the College of Agriculture and Applied Biology"
+      },
+      {
+        "id": "Agriculture",
+        "type": "Domain",
+        "description": "The primary field of research concerning livestock and feed utilization"
+      },
+      {
+        "id": "Feed utilization",
+        "type": "Concept",
+        "description": "The efficiency with which rabbits process and use the provided feed"
+      },
+      {
+        "id": "Nutrient Digestibility",
+        "type": "Concept",
+        "description": "The extent to which nutrients in the feed are absorbed by the rabbits"
+      },
+      {
+        "id": "Growth rate",
+        "type": "Concept",
+        "description": "The speed at which the rabbits increase in body mass over time"
+      },
+      {
+        "id": "Factorial design",
+        "type": "Method",
+        "description": "Experimental setup involving two factors: SSR length and OT supplementation levels"
+      },
+      {
+        "id": "Sugarcane stalk residue (SSR)",
+        "type": "Method",
+        "description": "A basal diet material tested at lengths of 3 cm and 10 cm"
+      },
+      {
+        "id": "Operculina turpethum (OT)",
+        "type": "Method",
+        "description": "A protein supplement provided at various dosage levels"
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Statistical analysis method used to evaluate variance between experimental groups"
+      },
+      {
+        "id": "AOAC procedure (1990)",
+        "type": "Method",
+        "description": "Standard method for analyzing dry matter, organic matter, and crude protein"
+      },
+      {
+        "id": "Daily weight gain (15.2 to 20.0 g/day)",
+        "type": "Metric",
+        "description": "Observed measurement of daily mass increase in rabbits"
+      },
+      {
+        "id": "Final live weight (1685 to 2167 g/rabbit)",
+        "type": "Metric",
+        "description": "The measured weight of the rabbits at the end of the experiment"
+      },
+      {
+        "id": "Feed conversion ratio (3.48 to 3.73)",
+        "type": "Metric",
+        "description": "The ratio measuring the efficiency of converting feed into body mass"
+      },
+      {
+        "id": "CP digestibility (74.3 to 80.6%)",
+        "type": "Metric",
+        "description": "The digestibility coefficient of crude protein found in the trial"
+      },
+      {
+        "id": "Nitrogen retention (0.480-0.510 g/kgW0.75)",
+        "type": "Metric",
+        "description": "The amount of nitrogen retained by the growing rabbits"
+      }
+    ],
+    "relations": [
+      {
+        "source": "A response of feed utilization, nutrient digestibility and growth rate of crossbred rabbits to sugarcane stalk residue in the basal diet with Operculina turpethum supplementation",
+        "target": "Agriculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi Kim Dong",
+        "target": "Tay Do University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Thu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Factorial design",
+        "target": "Daily weight gain (15.2 to 20.0 g/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Factorial design",
+        "target": "Final live weight (1685 to 2167 g/rabbit)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Factorial design",
+        "target": "Feed conversion ratio (3.48 to 3.73)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "AOAC procedure (1990)",
+        "target": "CP digestibility (74.3 to 80.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sugarcane stalk residue (SSR)",
+        "target": "Growth rate",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Operculina turpethum (OT)",
+        "target": "Nutrient Digestibility",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Factorial design",
+        "target": "Feed utilization",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

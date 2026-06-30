@@ -1,0 +1,130 @@
+{
+    "filename": "11-SE-HUYNH THI DAN XUAN(79-88)044.json",
+    "paper_title": "Estimating economic value of household municipal solid waste reduction program: A willingness-to-accept (WTA) approach",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Huynh Thi Dan Xuan",
+                "type": "Author",
+                "description": "Researcher from the College of Economics, Can Tho University."
+            },
+            {
+                "id": "Khong Tien Dung",
+                "type": "Author",
+                "description": "Corresponding author from the College of Economics, Can Tho University."
+            },
+            {
+                "id": "Huynh Viet Khai",
+                "type": "Author",
+                "description": "Researcher from the College of Economics, Can Tho University."
+            },
+            {
+                "id": "College of Economics, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam where the authors are affiliated."
+            },
+            {
+                "id": "Environmental Economics",
+                "type": "Domain",
+                "description": "The primary research field focusing on economic valuation of environmental services."
+            },
+            {
+                "id": "Municipal solid waste (MSW) reduction program",
+                "type": "Concept",
+                "description": "The program evaluated for its economic value and public acceptance in the Mekong Delta."
+            },
+            {
+                "id": "MSW classification at source",
+                "type": "Concept",
+                "description": "The process of separating waste at the point of generation to improve recycling and management."
+            },
+            {
+                "id": "Willingness-to-accept (WTA) approach",
+                "type": "Method",
+                "description": "A non-market valuation method used to estimate the minimum compensation required for an individual to accept a change."
+            },
+            {
+                "id": "Contingent valuation methodology (CVM)",
+                "type": "Method",
+                "description": "A survey-based economic technique for the valuation of non-market resources."
+            },
+            {
+                "id": "Logit model",
+                "type": "Method",
+                "description": "A statistical model used to analyze the factors affecting willingness to accept."
+            },
+            {
+                "id": "Survey of 578 respondents in Mekong Delta",
+                "type": "Dataset",
+                "description": "Data collected from four cities (Can Tho, Long Xuyen, Vi Thanh, Vinh Long) for stratification."
+            },
+            {
+                "id": "Average WTA (30,000 VND/month)",
+                "type": "Metric",
+                "description": "The estimated average compensation people are willing to accept for participating in the program."
+            },
+            {
+                "id": "Participation rate (> 70%)",
+                "type": "Metric",
+                "description": "Percentage of people willing to participate in the MSW reduction program."
+            },
+            {
+                "id": "Full fee for MSW collection (150,000 VND/month)",
+                "type": "Metric",
+                "description": "The estimated actual cost of MSW management without government subsidies."
+            },
+            {
+                "id": "Agreement at 130,000 VND bid (93.96%)",
+                "type": "Metric",
+                "description": "The high acceptance rate when the compensation bid is at its highest level."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Thi Dan Xuan",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Khong Tien Dung",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Viet Khai",
+                "target": "College of Economics, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Municipal solid waste (MSW) reduction program",
+                "target": "Environmental Economics",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Willingness-to-accept (WTA) approach",
+                "target": "Municipal solid waste (MSW) reduction program",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Willingness-to-accept (WTA) approach",
+                "target": "Average WTA (30,000 VND/month)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Logit model",
+                "target": "Average WTA (30,000 VND/month)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Logit model",
+                "target": "Survey of 578 respondents in Mekong Delta",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Willingness-to-accept (WTA) approach",
+                "target": "Participation rate (> 70%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

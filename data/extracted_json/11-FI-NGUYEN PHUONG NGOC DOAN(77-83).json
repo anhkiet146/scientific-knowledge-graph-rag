@@ -1,0 +1,170 @@
+{
+    "filename": "11-FI-NGUYEN PHUONG NGOC DOAN(77-83).json",
+    "paper_title": "DYNAMICS OF NITROGEN IN INTENSIVE CULTURE OF WHITELEG SHRIMP IN (Litopenaeus vannamei) TANK INTEGRATED WITH HYBRID CONSTRUCTED WETLANDS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính về nuôi trồng thủy sản."
+            },
+            {
+                "id": "Intensive whiteleg shrimp culture",
+                "type": "Concept",
+                "description": "Hệ thống nuôi tôm thẻ chân trắng thâm canh trong bể."
+            },
+            {
+                "id": "Dynamics of nitrogen",
+                "type": "Concept",
+                "description": "Sự biến động và chu trình của các hợp chất nitơ trong hệ thống nuôi."
+            },
+            {
+                "id": "Water quality",
+                "type": "Concept",
+                "description": "Chất lượng nước trong môi trường nuôi trồng thủy sản."
+            },
+            {
+                "id": "Nguyen Phuong Ngoc Doan",
+                "type": "Author",
+                "description": "Tác giả từ Trung tâm Quan trắc Tài nguyên và Môi trường Kiên Giang."
+            },
+            {
+                "id": "Lam Thi Nhu Mo",
+                "type": "Author",
+                "description": "Tác giả từ Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Ngo Thuy Diem Trang",
+                "type": "Author",
+                "description": "Tác giả từ Trường Đại học Cần Thơ."
+            },
+            {
+                "id": "Kien Giang Center of Natural Resources and Environment Monitoring",
+                "type": "Institution",
+                "description": "Tổ chức nghiên cứu tại Việt Nam."
+            },
+            {
+                "id": "College of Environment and Natural Resources, Can Tho University",
+                "type": "Institution",
+                "description": "Đơn vị đào tạo và nghiên cứu thuộc Đại học Cần Thơ."
+            },
+            {
+                "id": "Hybrid constructed wetlands (CWs)",
+                "type": "Method",
+                "description": "Hệ thống đất ngập nước nhân tạo kết hợp để xử lý nước."
+            },
+            {
+                "id": "Typha orientalis (C. Presl)",
+                "type": "Method",
+                "description": "Loài thực vật (cỏ nến) được trồng trong hệ thống đất ngập nước."
+            },
+            {
+                "id": "Vertical subsurface flow (VF)",
+                "type": "Method",
+                "description": "Kiểu dòng chảy ngầm thẳng đứng trong đất ngập nước."
+            },
+            {
+                "id": "Horizontal subsurface flow (HF)",
+                "type": "Method",
+                "description": "Kiểu dòng chảy ngầm nằm ngang trong đất ngập nước."
+            },
+            {
+                "id": "Surface flow (SF)",
+                "type": "Method",
+                "description": "Kiểu dòng chảy bề mặt trong đất ngập nước."
+            },
+            {
+                "id": "Statgraphics Centurion XV",
+                "type": "Method",
+                "description": "Phần mềm sử dụng để phân tích thống kê."
+            },
+            {
+                "id": "Temperature (25-29.8 °C)",
+                "type": "Metric",
+                "description": "Khoảng nhiệt độ đo được trong bể nuôi."
+            },
+            {
+                "id": "pH (7.45-8.23)",
+                "type": "Metric",
+                "description": "Chỉ số pH đo được trong môi trường nuôi tôm."
+            },
+            {
+                "id": "Salinity (6.2-11.2‰)",
+                "type": "Metric",
+                "description": "Độ mặn thực tế đo được trong quá trình thí nghiệm."
+            },
+            {
+                "id": "DO (4.79±0.6 mg/L)",
+                "type": "Metric",
+                "description": "Hàm lượng oxy hòa tan trung bình trong nghiệm thức có trồng cây."
+            },
+            {
+                "id": "NH3-N (0.02-0.05 mg/L)",
+                "type": "Metric",
+                "description": "Nồng độ Ammonia nitrogen trong các nghiệm thức có hệ thống CWs."
+            },
+            {
+                "id": "NO2-N (0.25-0.31 mg/L)",
+                "type": "Metric",
+                "description": "Nồng độ Nitrite nitrogen trong nghiệm thức đất ngập nước có trồng cây."
+            },
+            {
+                "id": "Shrimp mortality (65%)",
+                "type": "Metric",
+                "description": "Tỷ lệ tôm chết cao trong nghiệm thức đối chứng không có CWs."
+            }
+        ],
+        "relations": [
+            {
+                "source": "DYNAMICS OF NITROGEN IN INTENSIVE CULTURE OF WHITELEG SHRIMP IN (Litopenaeus vannamei) TANK INTEGRATED WITH HYBRID CONSTRUCTED WETLANDS",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Phuong Ngoc Doan",
+                "target": "Kien Giang Center of Natural Resources and Environment Monitoring",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lam Thi Nhu Mo",
+                "target": "College of Environment and Natural Resources, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Thuy Diem Trang",
+                "target": "College of Environment and Natural Resources, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hybrid constructed wetlands (CWs)",
+                "target": "Intensive whiteleg shrimp culture",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hybrid constructed wetlands (CWs)",
+                "target": "Dynamics of nitrogen",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Typha orientalis (C. Presl)",
+                "target": "Hybrid constructed wetlands (CWs)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Hybrid constructed wetlands (CWs)",
+                "target": "NH3-N (0.02-0.05 mg/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hybrid constructed wetlands (CWs)",
+                "target": "NO2-N (0.25-0.31 mg/L)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hybrid constructed wetlands (CWs)",
+                "target": "DO (4.79±0.6 mg/L)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

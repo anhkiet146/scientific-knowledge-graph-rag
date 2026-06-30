@@ -1,0 +1,215 @@
+{
+  "filename": "03-CE-NGUYEN HONG TIN(18-29)003.json",
+  "paper_title": "SUSTAINABILITY AND LIVELIHOOD OPPORTUNITIES FOR MANGROVE-SHRIMP FARMERS IN THE COASTAL AREAS OF SOCTRANG PROVINCE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Hong Tin",
+        "type": "Author",
+        "description": "Researcher at Mekong Delta Development Research Institute, Can Tho University"
+      },
+      {
+        "id": "To Lan Phuong",
+        "type": "Author",
+        "description": "Researcher at Mekong Delta Development Research Institute, Can Tho University"
+      },
+      {
+        "id": "Dang Kieu Nhan",
+        "type": "Author",
+        "description": "Researcher at Mekong Delta Development Research Institute, Can Tho University"
+      },
+      {
+        "id": "Lam Thanh Si",
+        "type": "Author",
+        "description": "Researcher at Mekong Delta Development Research Institute, Can Tho University"
+      },
+      {
+        "id": "Roel Bosma",
+        "type": "Author",
+        "description": "Researcher at Wageningen University, the Netherlands"
+      },
+      {
+        "id": "Mekong Delta Development Research Institute, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "A research institute located in Vietnam"
+      },
+      {
+        "id": "Wageningen University",
+        "type": "Institution",
+        "description": "A research university in the Netherlands"
+      },
+      {
+        "id": "Aquaculture and Sustainability",
+        "type": "Domain",
+        "description": "The study of sustainable farming practices in aquatic environments"
+      },
+      {
+        "id": "Integrated mangrove shrimp system",
+        "type": "Concept",
+        "description": "A farming system combining mangrove conservation with shrimp aquaculture"
+      },
+      {
+        "id": "Sustainability",
+        "type": "Concept",
+        "description": "The ability to maintain system productivity and environmental health overtime"
+      },
+      {
+        "id": "Livelihood improvement",
+        "type": "Concept",
+        "description": "Enhancing the income and living conditions of local farmers"
+      },
+      {
+        "id": "Climate change impacts",
+        "type": "Concept",
+        "description": "Effects of ocean warming, sea level rise, and saline intrusion on coastal areas"
+      },
+      {
+        "id": "Baseline assessment",
+        "type": "Method",
+        "description": "Initial evaluation using focus group discussions and interviews"
+      },
+      {
+        "id": "Focused group discussion",
+        "type": "Method",
+        "description": "Qualitative research technique involving groups of participants (24 farmers)"
+      },
+      {
+        "id": "Household Interviews",
+        "type": "Method",
+        "description": "Individual surveys conducted with 35 farmers"
+      },
+      {
+        "id": "Field trials",
+        "type": "Method",
+        "description": "On-farm experiments testing improved aquaculture techniques"
+      },
+      {
+        "id": "Ponds cleaning",
+        "type": "Method",
+        "description": "Technical intervention to improve pond environment and shrimp productivity"
+      },
+      {
+        "id": "Post larvae nursing",
+        "type": "Method",
+        "description": "Keeping shrimp seeds in clear ponds for 1-1.5 months before release"
+      },
+      {
+        "id": "Low shrimp seed density releasing",
+        "type": "Method",
+        "description": "Releasing ≤5 shrimp-post larvae per square meter"
+      },
+      {
+        "id": "Household farming diary",
+        "type": "Dataset",
+        "description": "Records of production costs and revenue maintained by farmers"
+      },
+      {
+        "id": "Survey data and indicators",
+        "type": "Dataset",
+        "description": "Gathered data related to natural, financial, and environmental sustainability"
+      },
+      {
+        "id": "Production costs (3.6 ±0.9 million VND/ha/year)",
+        "type": "Metric",
+        "description": "The average annual investment cost per hectare of water surface"
+      },
+      {
+        "id": "Net revenue (24 million VND/ha/year)",
+        "type": "Metric",
+        "description": "The average annual profit earned by farmers from the system"
+      },
+      {
+        "id": "Shrimp yield (73 kg/ha/year)",
+        "type": "Metric",
+        "description": "The average annual production of shrimp in the integrated system"
+      },
+      {
+        "id": "OAA yield (99 kg/ha/year)",
+        "type": "Metric",
+        "description": "The yield of Other Aquatic Animals like crabs and wild fish"
+      },
+      {
+        "id": "Mangrove coverage (30-50%)",
+        "type": "Metric",
+        "description": "The optimal percentage of forest area within an integrated system"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Hong Tin",
+        "target": "Mekong Delta Development Research Institute, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "To Lan Phuong",
+        "target": "Mekong Delta Development Research Institute, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dang Kieu Nhan",
+        "target": "Mekong Delta Development Research Institute, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lam Thanh Si",
+        "target": "Mekong Delta Development Research Institute, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Roel Bosma",
+        "target": "Wageningen University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Paper",
+        "target": "Aquaculture and Sustainability",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Field trials",
+        "target": "Net revenue (24 million VND/ha/year)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Field trials",
+        "target": "Shrimp yield (73 kg/ha/year)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Field trials",
+        "target": "OAA yield (99 kg/ha/year)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Ponds cleaning",
+        "target": "Integrated mangrove shrimp system",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Post larvae nursing",
+        "target": "Integrated mangrove shrimp system",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Baseline assessment",
+        "target": "Sustainability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Baseline assessment",
+        "target": "Survey data and indicators",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Field trials",
+        "target": "Household farming diary",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Low shrimp seed density releasing",
+        "target": "Production costs (3.6 ±0.9 million VND/ha/year)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

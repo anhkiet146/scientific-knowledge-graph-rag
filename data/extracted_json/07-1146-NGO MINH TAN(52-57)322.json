@@ -1,0 +1,155 @@
+{
+    "filename": "07-1146-NGO MINH TAN(52-57)322.json",
+    "paper_title": "Fine-tuned PhoBERT for sentiment analysis of Vietnamese phone reviews",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Sentiment Analysis",
+                "type": "Concept",
+                "description": "The process of extracting subjective information from text to determine sentiment."
+            },
+            {
+                "id": "Natural Language Processing",
+                "type": "Domain",
+                "description": "The primary research field of the paper."
+            },
+            {
+                "id": "Ngo Minh Tan",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Ngo Ba Hung",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Stuchilin Vladimir Valerievich",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Viet Nam."
+            },
+            {
+                "id": "NUST MISIS",
+                "type": "Institution",
+                "description": "Educational institution in Russia."
+            },
+            {
+                "id": "PhoBERT-base-v2",
+                "type": "Method",
+                "description": "State-of-the-art pre-trained language model specifically designed for Vietnamese."
+            },
+            {
+                "id": "naive Bayes",
+                "type": "Method",
+                "description": "Traditional machine learning classifier used as a baseline."
+            },
+            {
+                "id": "Support Vector Machine",
+                "type": "Method",
+                "description": "Traditional machine learning classifier used as a baseline."
+            },
+            {
+                "id": "Text Standardization",
+                "type": "Method",
+                "description": "Preprocessing technique to correct spelling and normalize slang/emojis."
+            },
+            {
+                "id": "VNCoreNLP",
+                "type": "Method",
+                "description": "Vietnamese Word Segmenter tool used for text segmentation."
+            },
+            {
+                "id": "AdamW",
+                "type": "Method",
+                "description": "Optimizer used during the learning stage."
+            },
+            {
+                "id": "UIT-ViSFD",
+                "type": "Dataset",
+                "description": "Vietnamese Smartphone Feedback Dataset used for training and evaluation."
+            },
+            {
+                "id": "Web-scraped dataset",
+                "type": "Dataset",
+                "description": "Data collected from Vietnamese phone retailer websites."
+            },
+            {
+                "id": "OSCAR-2301",
+                "type": "Dataset",
+                "description": "Large-scale dataset used for training PhoBERT-base-v2."
+            },
+            {
+                "id": "Accuracy (92.74%)",
+                "type": "Metric",
+                "description": "The performance result achieved by the final PhoBERT model."
+            },
+            {
+                "id": "F1-score",
+                "type": "Metric",
+                "description": "Measurement metric for precision and recall."
+            }
+        ],
+        "relations": [
+            {
+                "source": "PhoBERT-base-v2",
+                "target": "Natural Language Processing",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "PhoBERT-base-v2",
+                "target": "Accuracy (92.74%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PhoBERT-base-v2",
+                "target": "Sentiment Analysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PhoBERT-base-v2",
+                "target": "UIT-ViSFD",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "PhoBERT-base-v2",
+                "target": "Web-scraped dataset",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "naive Bayes",
+                "target": "Sentiment Analysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Support Vector Machine",
+                "target": "Sentiment Analysis",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ngo Minh Tan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Minh Tan",
+                "target": "NUST MISIS",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Ba Hung",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Stuchilin Vladimir Valerievich",
+                "target": "NUST MISIS",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

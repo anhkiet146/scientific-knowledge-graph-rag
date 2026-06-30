@@ -1,0 +1,185 @@
+{
+    "filename": "10-NS-RAHEN MAHMUDA(80-84)027.json",
+    "paper_title": "In vitro anti-inflammatory resorcinol derivatives and their in silico analysis",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "In vitro anti-inflammatory resorcinol derivatives and their in silico analysis",
+                "type": "Concept",
+                "description": "The title and core study investigating resorcinol derivatives for anti-inflammatory potential."
+            },
+            {
+                "id": "Medicinal Chemistry",
+                "type": "Domain",
+                "description": "The main field of research involving chemical synthesis and biological evaluation."
+            },
+            {
+                "id": "Rahen Mahmuda",
+                "type": "Author",
+                "description": "Researcher from Department of Pharmacy, Jagannath University."
+            },
+            {
+                "id": "Shahenul Islam",
+                "type": "Author",
+                "description": "Researcher from Department of Pharmacy, Jagannath University."
+            },
+            {
+                "id": "Negar Sultana Shoshi",
+                "type": "Author",
+                "description": "Researcher from Department of Pharmacy, Jagannath University."
+            },
+            {
+                "id": "Khadija Akhter Poly",
+                "type": "Author",
+                "description": "Researcher from Department of Pharmacy, Jagannath University."
+            },
+            {
+                "id": "Pranoy Saha",
+                "type": "Author",
+                "description": "Researcher from Department of Pharmacy, Jagannath University."
+            },
+            {
+                "id": "Shamima Akhter",
+                "type": "Author",
+                "description": "Researcher from Department of Pharmacy, Jagannath University."
+            },
+            {
+                "id": "Tran Quang De",
+                "type": "Author",
+                "description": "Researcher from Department of Chemistry, Can Tho University."
+            },
+            {
+                "id": "Sukumar Bepary",
+                "type": "Author",
+                "description": "Corresponding author from Department of Pharmacy, Jagannath University."
+            },
+            {
+                "id": "Department of Pharmacy, Jagannath University",
+                "type": "Institution",
+                "description": "Institution located in Dhaka, Bangladesh."
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Institution located in Vietnam."
+            },
+            {
+                "id": "In silico docking analysis",
+                "type": "Method",
+                "description": "Computational method to observe binding modes in enzymes."
+            },
+            {
+                "id": "Autodock Vina",
+                "type": "Method",
+                "description": "Software used for docking ligands into receptor PDBQT files."
+            },
+            {
+                "id": "Flash column chromatography",
+                "type": "Method",
+                "description": "Technique used to purify synthetic derivatives."
+            },
+            {
+                "id": "Resorcinol",
+                "type": "Method",
+                "description": "Chemical material used for derivatization."
+            },
+            {
+                "id": "Protein Data Bank (PDB)",
+                "type": "Dataset",
+                "description": "Digital database containing enzyme protein structures for docking."
+            },
+            {
+                "id": "Yield (82-88%)",
+                "type": "Metric",
+                "description": "The percentage of product obtained from chemical synthesis."
+            },
+            {
+                "id": "Inhibition of heat-induced hemolysis (51%)",
+                "type": "Metric",
+                "description": "Anti-inflammatory activity of compound 02 at 200 µg/mL."
+            },
+            {
+                "id": "Inhibition of heat-induced hemolysis (70%)",
+                "type": "Metric",
+                "description": "Anti-inflammatory activity of compound 02 at 400 µg/mL."
+            },
+            {
+                "id": "Anti-inflammatory potential",
+                "type": "Concept",
+                "description": "The ability of a substance to reduce inflammation."
+            },
+            {
+                "id": "Cyclooxygenase (COX)",
+                "type": "Concept",
+                "description": "Enzyme responsible for formation of prostanoids and inflammation."
+            }
+        ],
+        "relations": [
+            {
+                "source": "In vitro anti-inflammatory resorcinol derivatives and their in silico analysis",
+                "target": "Medicinal Chemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Rahen Mahmuda",
+                "target": "Department of Pharmacy, Jagannath University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Shahenul Islam",
+                "target": "Department of Pharmacy, Jagannath University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Negar Sultana Shoshi",
+                "target": "Department of Pharmacy, Jagannath University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Khadija Akhter Poly",
+                "target": "Department of Pharmacy, Jagannath University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pranoy Saha",
+                "target": "Department of Pharmacy, Jagannath University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Shamima Akhter",
+                "target": "Department of Pharmacy, Jagannath University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Sukumar Bepary",
+                "target": "Department of Pharmacy, Jagannath University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Quang De",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Flash column chromatography",
+                "target": "Yield (82-88%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "In silico docking analysis",
+                "target": "Cyclooxygenase (COX)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Autodock Vina",
+                "target": "Protein Data Bank (PDB)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Resorcinol",
+                "target": "Anti-inflammatory potential",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

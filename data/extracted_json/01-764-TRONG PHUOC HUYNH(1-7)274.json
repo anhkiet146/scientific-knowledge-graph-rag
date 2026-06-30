@@ -1,0 +1,170 @@
+{
+    "filename": "01-764-TRONG PHUOC HUYNH(1-7)274.json",
+    "paper_title": "Utilizing coal combustion bottom ash as a sustainable alternative to natural aggregate in eco-friendly building bricks",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Civil Engineering",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu chính của bài báo về vật liệu xây dựng"
+            },
+            {
+                "id": "Trong-Phuoc Huynh",
+                "type": "Author",
+                "description": "Tác giả bài báo"
+            },
+            {
+                "id": "Si-Huy Ngo",
+                "type": "Author",
+                "description": "Tác giả bài báo"
+            },
+            {
+                "id": "Van-Dung Nguyen",
+                "type": "Author",
+                "description": "Tác giả bài báo"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Trường đại học tại Việt Nam"
+            },
+            {
+                "id": "Hong Duc University",
+                "type": "Institution",
+                "description": "Trường đại học tại Việt Nam"
+            },
+            {
+                "id": "Green bricks",
+                "type": "Concept",
+                "description": "Gạch xanh thân thiện với môi trường làm từ vật liệu thay thế"
+            },
+            {
+                "id": "Unburnt bricks",
+                "type": "Concept",
+                "description": "Gạch không nung hình thành từ phản ứng thủy hóa"
+            },
+            {
+                "id": "Coal-combustion bottom ash (CCBA)",
+                "type": "Method",
+                "description": "Tro đáy từ nhà máy nhiệt điện dùng làm cốt liệu thay thế"
+            },
+            {
+                "id": "Stone powder",
+                "type": "Method",
+                "description": "Bột đá, phế phẩm từ quá trình nghiền đá"
+            },
+            {
+                "id": "Cement PCB40",
+                "type": "Method",
+                "description": "Loại xi măng sử dụng làm chất kết dính"
+            },
+            {
+                "id": "ISOMET 2114",
+                "type": "Method",
+                "description": "Thiết bị dùng để đo độ dẫn nhiệt"
+            },
+            {
+                "id": "TCVN 6477:2016",
+                "type": "Method",
+                "description": "Tiêu chuẩn quốc gia Việt Nam về gạch bê tông"
+            },
+            {
+                "id": "Water-to-binder (w/b) ratios (0.35 and 0.40)",
+                "type": "Metric",
+                "description": "Tỷ lệ nước trên chất kết dính"
+            },
+            {
+                "id": "Compressive strength (28.1 - 52.7 MPa)",
+                "type": "Metric",
+                "description": "Cường độ nén của mẫu gạch ở 28 ngày"
+            },
+            {
+                "id": "Ultrasonic pulse velocity (3680 - 4208 m/s)",
+                "type": "Metric",
+                "description": "Tốc độ xung siêu âm đánh giá chất lượng gạch"
+            },
+            {
+                "id": "Water absorption (increased by 11.6 - 42.5%)",
+                "type": "Metric",
+                "description": "Độ hút nước của gạch"
+            },
+            {
+                "id": "Water permeability (0.77 - 2.72 L/m2.h)",
+                "type": "Metric",
+                "description": "Độ xuyên nước của gạch"
+            },
+            {
+                "id": "Electrical resistance (> 20 kΩ.cm)",
+                "type": "Metric",
+                "description": "Điện trở suất thể hiện khả năng chống xâm thực hóa học"
+            },
+            {
+                "id": "Thermal conductivity (1.56 - 2.20 W/mK)",
+                "type": "Metric",
+                "description": "Độ dẫn nhiệt của mẫu gạch"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Utilizing coal combustion bottom ash as a sustainable alternative to natural aggregate in eco-friendly building bricks",
+                "target": "Civil Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Trong-Phuoc Huynh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Si-Huy Ngo",
+                "target": "Hong Duc University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Van-Dung Nguyen",
+                "target": "Hong Duc University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Coal-combustion bottom ash (CCBA)",
+                "target": "Green bricks",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Coal-combustion bottom ash (CCBA)",
+                "target": "Compressive strength (28.1 - 52.7 MPa)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coal-combustion bottom ash (CCBA)",
+                "target": "Ultrasonic pulse velocity (3680 - 4208 m/s)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coal-combustion bottom ash (CCBA)",
+                "target": "Water absorption (increased by 11.6 - 42.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coal-combustion bottom ash (CCBA)",
+                "target": "Water permeability (0.77 - 2.72 L/m2.h)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coal-combustion bottom ash (CCBA)",
+                "target": "Thermal conductivity (1.56 - 2.20 W/mK)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coal-combustion bottom ash (CCBA)",
+                "target": "Electrical resistance (> 20 kΩ.cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Cement PCB40",
+                "target": "Unburnt bricks",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

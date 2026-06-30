@@ -1,0 +1,255 @@
+{
+    "filename": "12-AE-NGUYEN VAN DAT(101-108)012.json",
+    "paper_title": "APPLICATION OF RESPONSE SURFACE METHODOLOGY FOR OPTIMIZING TRANSESTERIFICATION OF COCONUT OIL",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Van Dat",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Nguyen Quoc Chau Thanh",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Le Thi Men",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Duong Nguyen Thach Thao",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Trac Hue Phuong",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Cao Dang Khoa",
+                "type": "Author",
+                "description": "Researcher at College of Natural Sciences, Can Tho University"
+            },
+            {
+                "id": "Do Vo Anh Khoa",
+                "type": "Author",
+                "description": "Researcher at College of Agriculture and Applied Biology, Can Tho University"
+            },
+            {
+                "id": "Ho Quoc Phong",
+                "type": "Author",
+                "description": "Researcher at College of Engineering Technology, Can Tho University"
+            },
+            {
+                "id": "Phan Viet Hai",
+                "type": "Author",
+                "description": "Researcher at College of Environment and Natural Resources, Can Tho University"
+            },
+            {
+                "id": "Luu Cam Loc",
+                "type": "Author",
+                "description": "Researcher at Institute of Chemical Technology, Vietnam Academy of Science and Technology"
+            },
+            {
+                "id": "College of Natural Sciences, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "College of Engineering Technology, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "College of Environment and Natural Resources, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "Institution",
+                "description": "Research institute in Vietnam"
+            },
+            {
+                "id": "Biofuel Production",
+                "type": "Domain",
+                "description": "The synthesis and optimization of renewable fuels"
+            },
+            {
+                "id": "Transesterification",
+                "type": "Concept",
+                "description": "Chemical process of converting coconut oil into biodiesel"
+            },
+            {
+                "id": "Biodiesel Yield",
+                "type": "Concept",
+                "description": "Efficiency of the transesterification process"
+            },
+            {
+                "id": "Optimization",
+                "type": "Concept",
+                "description": "Determining the best conditions for a chemical reaction"
+            },
+            {
+                "id": "Response surface methodology (RSM)",
+                "type": "Method",
+                "description": "Statistical method for process optimization"
+            },
+            {
+                "id": "Central composite design (CCD)",
+                "type": "Method",
+                "description": "Experimental design used in RSM to evaluate factors"
+            },
+            {
+                "id": "Coconut oil",
+                "type": "Method",
+                "description": "Feedstock material for biodiesel synthesis"
+            },
+            {
+                "id": "Methanol",
+                "type": "Method",
+                "description": "Chemical reactant used in transesterification"
+            },
+            {
+                "id": "KOH",
+                "type": "Method",
+                "description": "Alkaline catalyst used in the reaction"
+            },
+            {
+                "id": "GC-MS",
+                "type": "Method",
+                "description": "Gas chromatography mass spectrometer for fatty acid analysis"
+            },
+            {
+                "id": "FT-IR Spectroscopy",
+                "type": "Method",
+                "description": "Method to determine functional groups"
+            },
+            {
+                "id": "1H NMR",
+                "type": "Method",
+                "description": "Nuclear Magnetic Resonance for structural analysis"
+            },
+            {
+                "id": "Experimental design data (20 experiments)",
+                "type": "Dataset",
+                "description": "The dataset of 20 experimental runs generated via CCD"
+            },
+            {
+                "id": "Optimum biodiesel yield (93.03%)",
+                "type": "Metric",
+                "description": "Maximum conversion rate achieved"
+            },
+            {
+                "id": "Methanol content (23.67 wt.%)",
+                "type": "Metric",
+                "description": "Optimal concentration of methanol"
+            },
+            {
+                "id": "Catalyst concentration (0.5 wt.%)",
+                "type": "Metric",
+                "description": "Optimal concentration of KOH catalyst"
+            },
+            {
+                "id": "Reaction time (120 minutes)",
+                "type": "Metric",
+                "description": "Optimal duration for the reaction"
+            },
+            {
+                "id": "R2 (0.9448)",
+                "type": "Metric",
+                "description": "Coefficient of determination for the regression model"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Biofuel Production",
+                "target": "Transesterification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "Optimum biodiesel yield (93.03%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "R2 (0.9448)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "Optimization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Central composite design (CCD)",
+                "target": "Experimental design data (20 experiments)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Response surface methodology (RSM)",
+                "target": "Experimental design data (20 experiments)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Nguyen Van Dat",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quoc Chau Thanh",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thi Men",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Nguyen Thach Thao",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Trac Hue Phuong",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cao Dang Khoa",
+                "target": "College of Natural Sciences, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Vo Anh Khoa",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Quoc Phong",
+                "target": "College of Engineering Technology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Viet Hai",
+                "target": "College of Environment and Natural Resources, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luu Cam Loc",
+                "target": "Institute of Chemical Technology, Vietnam Academy of Science and Technology",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

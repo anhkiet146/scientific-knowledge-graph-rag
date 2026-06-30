@@ -1,0 +1,120 @@
+{
+  "filename": "04-AE-TRUONG PHONG TUYEN(19-26).json",
+  "paper_title": "FPGA IMPLEMENTATION OF LIFTING SCHEME DAUBECHIES DISCRETE WAVELET TRANSFORM FOR REAL-TIME SIGNAL COMPRESSION",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "FPGA IMPLEMENTATION OF LIFTING SCHEME DAUBECHIES DISCRETE WAVELET TRANSFORM FOR REAL-TIME SIGNAL COMPRESSION",
+        "type": "Concept",
+        "description": "The primary research topic focusing on hardware-based signal compression."
+      },
+      {
+        "id": "Signal Processing",
+        "type": "Domain",
+        "description": "The general field of study covering signal compression and transformation."
+      },
+      {
+        "id": "Truong Phong Tuyen",
+        "type": "Author",
+        "description": "The researcher who conducted the study."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "The academic organization the author is affiliated with in Vietnam."
+      },
+      {
+        "id": "Real-time signal compression",
+        "type": "Concept",
+        "description": "The problem of compressing signals with high-speed requirements."
+      },
+      {
+        "id": "Lifting Scheme Daubechies Discrete Wavelet Transform",
+        "type": "Method",
+        "description": "A memory-efficient version of the wavelet transform used for analysis and compression."
+      },
+      {
+        "id": "FPGA",
+        "type": "Method",
+        "description": "Field Programmable Gate Array used for hardware implementation."
+      },
+      {
+        "id": "Altera Cyclone II FPGA (EP2C35F672)",
+        "type": "Method",
+        "description": "Specific hardware device used as the prototyping platform."
+      },
+      {
+        "id": "Verilog HDL",
+        "type": "Method",
+        "description": "Hardware description language used for the design."
+      },
+      {
+        "id": "MATLAB",
+        "type": "Method",
+        "description": "Software tool used for initial algorithm evaluation and plotting."
+      },
+      {
+        "id": "Compression ratio (8:1)",
+        "type": "Metric",
+        "description": "Efficiency of the 3-level speech compression."
+      },
+      {
+        "id": "Compression percentage (87.5%)",
+        "type": "Metric",
+        "description": "The amount of original sound components reduced."
+      },
+      {
+        "id": "FPGA resource usage (1,724)",
+        "type": "Metric",
+        "description": "The amount of logic resources consumed on the chip."
+      },
+      {
+        "id": "Maximum compression levels (6 levels)",
+        "type": "Metric",
+        "description": "The limit for real-time processing constraints."
+      }
+    ],
+    "relations": [
+      {
+        "source": "FPGA IMPLEMENTATION OF LIFTING SCHEME DAUBECHIES DISCRETE WAVELET TRANSFORM FOR REAL-TIME SIGNAL COMPRESSION",
+        "target": "Signal Processing",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Truong Phong Tuyen",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lifting Scheme Daubechies Discrete Wavelet Transform",
+        "target": "Real-time signal compression",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "FPGA",
+        "target": "Real-time signal compression",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Lifting Scheme Daubechies Discrete Wavelet Transform",
+        "target": "Compression ratio (8:1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Lifting Scheme Daubechies Discrete Wavelet Transform",
+        "target": "Compression percentage (87.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Altera Cyclone II FPGA (EP2C35F672)",
+        "target": "FPGA resource usage (1,724)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Lifting Scheme Daubechies Discrete Wavelet Transform",
+        "target": "Maximum compression levels (6 levels)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

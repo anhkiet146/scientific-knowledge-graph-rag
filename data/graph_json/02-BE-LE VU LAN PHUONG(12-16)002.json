@@ -1,0 +1,180 @@
+{
+  "filename": "02-BE-LE VU LAN PHUONG(12-16)002.json",
+  "paper_title": "Establishment of a spontaneously started sourdough in Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Establishment of a spontaneously started sourdough in Vietnam",
+        "type": "Concept",
+        "description": "The main research topic focusing on the creation and analysis of sourdough in Vietnam."
+      },
+      {
+        "id": "Food Technology",
+        "type": "Domain",
+        "description": "The primary research field of the paper."
+      },
+      {
+        "id": "Microbiology",
+        "type": "Domain",
+        "description": "The study of microorganisms within the sourdough."
+      },
+      {
+        "id": "Le Vu Lan Phuong",
+        "type": "Author",
+        "description": "Researcher at Can Tho University of Technology."
+      },
+      {
+        "id": "Huynh Thi Sua",
+        "type": "Author",
+        "description": "Researcher at Can Tho University of Technology."
+      },
+      {
+        "id": "Le Tri An",
+        "type": "Author",
+        "description": "Researcher at Can Tho University of Technology."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "Spontaneously started sourdough propagation",
+        "type": "Method",
+        "description": "The process of developing sourdough without added commercial starters."
+      },
+      {
+        "id": "Sequencing analysis",
+        "type": "Method",
+        "description": "Analytical method used to identify microbial species."
+      },
+      {
+        "id": "Bread flour (BF)",
+        "type": "Method",
+        "description": "Material used to propagate sourdough with higher protein content."
+      },
+      {
+        "id": "All-purpose flour (AF)",
+        "type": "Method",
+        "description": "Material used to propagate sourdough with lower protein content."
+      },
+      {
+        "id": "Lactobacillus plantarum",
+        "type": "Method",
+        "description": "Lactic acid bacteria species used/identified in the study."
+      },
+      {
+        "id": "Wickerhamomyces anomalus",
+        "type": "Method",
+        "description": "Yeast species identified on the 10th day."
+      },
+      {
+        "id": "Saccharomyces cerevisiae D3",
+        "type": "Method",
+        "description": "Yeast species identified on the 15th day."
+      },
+      {
+        "id": "Sourdough",
+        "type": "Concept",
+        "description": "A mixture of flour and water fermented by lactic acid bacteria and yeast."
+      },
+      {
+        "id": "Microbial ecology",
+        "type": "Concept",
+        "description": "The study of the relationship between microorganisms in the sourdough environment."
+      },
+      {
+        "id": "pH value (3.66)",
+        "type": "Metric",
+        "description": "The acidity level reached by BF sourdough at maturation."
+      },
+      {
+        "id": "LAB density (3.9 x 10^8 CFU g-1)",
+        "type": "Metric",
+        "description": "Concentration of lactic acid bacteria in BF sourdough."
+      },
+      {
+        "id": "Yeast density (1.0 x 10^8 CFU g-1)",
+        "type": "Metric",
+        "description": "Concentration of yeast in BF sourdough."
+      },
+      {
+        "id": "Maturation time (15 days)",
+        "type": "Metric",
+        "description": "Duration required for the BF sourdough to reach maturity."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Establishment of a spontaneously started sourdough in Vietnam",
+        "target": "Food Technology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Establishment of a spontaneously started sourdough in Vietnam",
+        "target": "Microbiology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Le Vu Lan Phuong",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Thi Sua",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Tri An",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Spontaneously started sourdough propagation",
+        "target": "Sourdough",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sequencing analysis",
+        "target": "Microbial ecology",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Bread flour (BF)",
+        "target": "pH value (3.66)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bread flour (BF)",
+        "target": "LAB density (3.9 x 10^8 CFU g-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bread flour (BF)",
+        "target": "Yeast density (1.0 x 10^8 CFU g-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Bread flour (BF)",
+        "target": "Maturation time (15 days)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "All-purpose flour (AF)",
+        "target": "pH value (3.66)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "All-purpose flour (AF)",
+        "target": "LAB density (3.9 x 10^8 CFU g-1)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "All-purpose flour (AF)",
+        "target": "Yeast density (1.0 x 10^8 CFU g-1)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

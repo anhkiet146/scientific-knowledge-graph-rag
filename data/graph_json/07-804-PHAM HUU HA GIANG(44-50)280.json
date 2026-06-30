@@ -1,0 +1,190 @@
+{
+  "filename": "07-804-PHAM HUU HA GIANG(44-50)280.json",
+  "paper_title": "Enhancing riverbank stability: A case study on soil improvement through Jet grouting along Can Tho riverbank",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Geotechnical Engineering",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về kỹ thuật đất đai và nền móng"
+      },
+      {
+        "id": "Pham Huu Ha Giang",
+        "type": "Author",
+        "description": "Tác giả từ College of Engineering Technology, Can Tho University"
+      },
+      {
+        "id": "Le Hai Tri",
+        "type": "Author",
+        "description": "Tác giả từ College of Engineering Technology, Can Tho University"
+      },
+      {
+        "id": "Phan Thanh Ngoc Phuong",
+        "type": "Author",
+        "description": "Tác giả từ School of Foreign Languages, Can Tho University"
+      },
+      {
+        "id": "Nguyen Truong Phat",
+        "type": "Author",
+        "description": "Tác giả từ College of Engineering Technology, Can Tho University"
+      },
+      {
+        "id": "Tran Hoang Nam",
+        "type": "Author",
+        "description": "Tác giả từ College of Engineering Technology, Can Tho University"
+      },
+      {
+        "id": "Nguyen Xuan Cuong",
+        "type": "Author",
+        "description": "Tác giả từ Ninh Kieu District Land Fund Development and Investment Project Management Board"
+      },
+      {
+        "id": "Hoang Vi Minh",
+        "type": "Author",
+        "description": "Tác giả từ College of Engineering Technology, Can Tho University"
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam"
+      },
+      {
+        "id": "School of Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam"
+      },
+      {
+        "id": "Ninh Kieu District Land Fund Development and Investment Project Management Board",
+        "type": "Institution",
+        "description": "Đơn vị quản lý dự án tại Cần Thơ, Việt Nam"
+      },
+      {
+        "id": "Riverbank stability",
+        "type": "Concept",
+        "description": "Sự ổn định của bờ sông chống lại sạt lở"
+      },
+      {
+        "id": "Soil improvement",
+        "type": "Concept",
+        "description": "Cải tạo tính chất cơ lý của đất yếu"
+      },
+      {
+        "id": "Jet grouting",
+        "type": "Method",
+        "description": "Phương pháp bơm vữa áp lực cao để cải tạo đất"
+      },
+      {
+        "id": "Soil cement mixing (SCM)",
+        "type": "Method",
+        "description": "Phương pháp trộn đất với xi măng"
+      },
+      {
+        "id": "Unconfined compressive strength",
+        "type": "Method",
+        "description": "Thí nghiệm nén đơn để xác định cường độ của mẫu"
+      },
+      {
+        "id": "YBM Jet Grouting Pump SG-75SV",
+        "type": "Method",
+        "description": "Hệ thống máy bơm vữa áp lực cao từ Nhật Bản"
+      },
+      {
+        "id": "HNBS-Y350L",
+        "type": "Method",
+        "description": "Hệ thống điều khiển trộn vữa tự động"
+      },
+      {
+        "id": "8627 field test results of DSM",
+        "type": "Dataset",
+        "description": "Tập dữ liệu kết quả thí nghiệm hiện trường từ nghiên cứu của Pan et al. (2021)"
+      },
+      {
+        "id": "Compressive strength (8.6-12.3 daN/cm2)",
+        "type": "Metric",
+        "description": "Cường độ nén của cọc B1, B2 với hàm lượng xi măng 400 kg/m3"
+      },
+      {
+        "id": "Injection pressure (30-40 MPa)",
+        "type": "Metric",
+        "description": "Áp lực phun của hệ thống máy SG-75SV"
+      },
+      {
+        "id": "Cement content (400 kg/m3)",
+        "type": "Metric",
+        "description": "Hàm lượng xi măng được xác định là phù hợp cho khu vực Cần Thơ"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Enhancing riverbank stability: A case study on soil improvement through Jet grouting along Can Tho riverbank",
+        "target": "Geotechnical Engineering",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Pham Huu Ha Giang",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Hai Tri",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Thanh Ngoc Phuong",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Truong Phat",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Hoang Nam",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Xuan Cuong",
+        "target": "Ninh Kieu District Land Fund Development and Investment Project Management Board",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hoang Vi Minh",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Jet grouting",
+        "target": "Riverbank stability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Soil cement mixing (SCM)",
+        "target": "Soil improvement",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Jet grouting",
+        "target": "Compressive strength (8.6-12.3 daN/cm2)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Jet grouting",
+        "target": "Cement content (400 kg/m3)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "YBM Jet Grouting Pump SG-75SV",
+        "target": "Injection pressure (30-40 MPa)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Soil cement mixing (SCM)",
+        "target": "8627 field test results of DSM",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

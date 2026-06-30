@@ -1,0 +1,140 @@
+{
+  "filename": "03-ED-PHUONG HOANG YEN(17-22)022.json",
+  "paper_title": "Factors inhibiting teachers from research engagement: A review",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Educational Research",
+        "type": "Domain",
+        "description": "The primary field of study concerning teaching practices and teacher development."
+      },
+      {
+        "id": "Phuong Hoang Yen",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Vo Phuong Quyen",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Ly Thi Bich Phuong",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Luu Bich Ngoc",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "School of Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "The educational institution located in Vietnam."
+      },
+      {
+        "id": "Teachers' research engagement",
+        "type": "Concept",
+        "description": "The involvement of teachers in doing research as well as reading and using research."
+      },
+      {
+        "id": "Professional Development",
+        "type": "Concept",
+        "description": "The process of improving and increasing capabilities of staff through access to education and training."
+      },
+      {
+        "id": "Non-collaborative school culture",
+        "type": "Concept",
+        "description": "A factor inhibiting research engagement due to lack of support or collaboration."
+      },
+      {
+        "id": "Literature review",
+        "type": "Method",
+        "description": "The systematic review of existing literature on language teachers' research engagement."
+      },
+      {
+        "id": "Action research",
+        "type": "Method",
+        "description": "A method used to investigate changes in practice through systematic inquiry."
+      },
+      {
+        "id": "Borg (2009) Survey",
+        "type": "Method",
+        "description": "A study conducted with teachers across 13 countries regarding research inhibiting reasons."
+      },
+      {
+        "id": "Survey of Borg (2009)",
+        "type": "Dataset",
+        "description": "Data collected from 505 teachers in 13 countries."
+      },
+      {
+        "id": "Sample size (505 teachers)",
+        "type": "Metric",
+        "description": "The number of participants in the cited study by Borg (2009)."
+      },
+      {
+        "id": "Annual research time (1/3 working hours)",
+        "type": "Metric",
+        "description": "The minimum time requirement for lecturers to spend on research as per Circular 47/2014/TT-BGDDT."
+      },
+      {
+        "id": "Inhibiting reasons (>60 teachers)",
+        "type": "Metric",
+        "description": "The number of teachers claiming they need advice but none is available in the Borg (2009) study."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Phuong Hoang Yen",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Phuong Quyen",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ly Thi Bich Phuong",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luu Bich Ngoc",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Literature review",
+        "target": "Teachers' research engagement",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Literature review",
+        "target": "Educational Research",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Borg (2009) Survey",
+        "target": "Sample size (505 teachers)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Borg (2009) Survey",
+        "target": "Inhibiting reasons (>60 teachers)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Borg (2009) Survey",
+        "target": "Survey of Borg (2009)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Action research",
+        "target": "Professional Development",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

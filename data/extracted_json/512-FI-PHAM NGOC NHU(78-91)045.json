@@ -1,0 +1,190 @@
+{
+    "filename": "512-FI-PHAM NGOC NHU(78-91)045.json",
+    "paper_title": "Effects of guava (Psidium guajava L.) and bhumi amla (Phyllanthus amarus Chum et Thonn) extracts on haematological parameters and oxidative stress of striped catfish (Pangasianodon hypophthalmus) fingerlings exposed to high-temperature stress",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Haematological parameters",
+                "type": "Concept",
+                "description": "Blood-related physiological measures used to assess health and stress in fish."
+            },
+            {
+                "id": "Oxidative stress",
+                "type": "Concept",
+                "description": "An imbalance between free radicals and antioxidants in the body, leading to cell damage."
+            },
+            {
+                "id": "High-temperature stress",
+                "type": "Concept",
+                "description": "Stress induced by elevated environmental temperatures, affecting fish metabolism and survival."
+            },
+            {
+                "id": "Lipid peroxidation",
+                "type": "Concept",
+                "description": "The oxidative degradation of lipids, a biomarker of oxidative stress."
+            },
+            {
+                "id": "Homeostasis",
+                "type": "Concept",
+                "description": "The state of steady internal physical and chemical conditions maintained by living systems."
+            },
+            {
+                "id": "Psidium guajava L. extract",
+                "type": "Method",
+                "description": "Ethanolic extract of guava leaves used as a dietary supplement."
+            },
+            {
+                "id": "Phyllanthus amarus extract",
+                "type": "Method",
+                "description": "Ethanolic extract of bhumi amla used as a dietary supplement."
+            },
+            {
+                "id": "Pg0.2",
+                "type": "Method",
+                "description": "Diet supplemented with 0.2% P. guajava extract."
+            },
+            {
+                "id": "Pa0.5",
+                "type": "Method",
+                "description": "Diet supplemented with 0.5% P. amarus extract."
+            },
+            {
+                "id": "Mix",
+                "type": "Method",
+                "description": "Diet supplemented with a mixture of 0.2% P. guajava and 0.5% P. amarus extracts."
+            },
+            {
+                "id": "Ethanol extraction",
+                "type": "Method",
+                "description": "The process of using 96% ethanol to extract bioactive compounds from dried plant powder."
+            },
+            {
+                "id": "SPSS version 20",
+                "type": "Method",
+                "description": "Software used for statistical analysis of experimental data."
+            },
+            {
+                "id": "Glucose concentration (57.4±1.34 mg/100 mL)",
+                "type": "Metric",
+                "description": "The lowest glucose level recorded in the Pg0.2 group after 14 days of thermal exposure."
+            },
+            {
+                "id": "Glucose concentration (58.9±1.87 mg/100 mL)",
+                "type": "Metric",
+                "description": "Blood glucose level recorded in the Mix group after 14 days of thermal exposure."
+            },
+            {
+                "id": "RBC count (3.04±0.073×10^6 cells/mm^3)",
+                "type": "Metric",
+                "description": "Highest red blood cell count observed at 31°C."
+            },
+            {
+                "id": "Haematocrit (27.5±1.37%)",
+                "type": "Metric",
+                "description": "Lowest increase in Hct obtained after 24h exposure to 35°C."
+            },
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The farming of aquatic organisms such as fish."
+            },
+            {
+                "id": "Pham Ngoc Nhu",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Bui Thi Bich Hang",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Nguyen Thanh Phuong",
+                "type": "Author",
+                "description": "Researcher at Can Tho University."
+            },
+            {
+                "id": "Patrick Kestemont",
+                "type": "Author",
+                "description": "Researcher at University of Namur."
+            },
+            {
+                "id": "Do Thi Thanh Huong",
+                "type": "Author",
+                "description": "Corresponding author at Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Can Tho city, Viet Nam."
+            },
+            {
+                "id": "University of Namur",
+                "type": "Institution",
+                "description": "University located in Namur, Belgium."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Effects of guava (Psidium guajava L.) and bhumi amla (Phyllanthus amarus Chum et Thonn) extracts on haematological parameters and oxidative stress of striped catfish (Pangasianodon hypophthalmus) fingerlings exposed to high-temperature stress",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Pg0.2",
+                "type": "USED_FOR",
+                "target": "High-temperature stress"
+            },
+            {
+                "source": "Mix",
+                "type": "USED_FOR",
+                "target": "High-temperature stress"
+            },
+            {
+                "source": "Pg0.2",
+                "target": "Glucose concentration (57.4±1.34 mg/100 mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mix",
+                "target": "Glucose concentration (58.9±1.87 mg/100 mL)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pham Ngoc Nhu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Thi Bich Hang",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Phuong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Thi Thanh Huong",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Patrick Kestemont",
+                "target": "University of Namur",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Psidium guajava L. extract",
+                "target": "Oxidative stress",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ethanol extraction",
+                "target": "Psidium guajava L. extract",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

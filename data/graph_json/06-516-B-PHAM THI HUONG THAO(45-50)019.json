@@ -1,0 +1,185 @@
+{
+  "filename": "06-516-B-PHAM THI HUONG THAO(45-50)019.json",
+  "paper_title": "Effects of different plant growth regulators as the foliar application on growth and flower quality of potted rose (Rosa chinensis Jacq. cv. Nhung)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Effects of plant growth regulators on potted rose Nhung",
+        "type": "Concept",
+        "description": "The study of how different plant growth regulators affect the growth and flower quality of Rosa chinensis Jacq. cv. Nhung"
+      },
+      {
+        "id": "Petal senescence",
+        "type": "Concept",
+        "description": "The process of aging and withering in flower petals"
+      },
+      {
+        "id": "Flower lifespan",
+        "type": "Concept",
+        "description": "The duration of time a flower remains open and fresh"
+      },
+      {
+        "id": "Horticulture",
+        "type": "Domain",
+        "description": "The science and art of growing plants, specifically ornamental roses in this context"
+      },
+      {
+        "id": "Naphthalene acetic acid (NAA)",
+        "type": "Method",
+        "description": "A synthetic auxin plant hormone used as a foliar spray"
+      },
+      {
+        "id": "Benzyladenine (BA)",
+        "type": "Method",
+        "description": "A synthetic cytokinin plant hormone used as a foliar spray"
+      },
+      {
+        "id": "Gibberellic acid (GA3)",
+        "type": "Method",
+        "description": "A plant hormone involved in stem elongation and flowering"
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "Experimental design where treatments are assigned to units entirely at random"
+      },
+      {
+        "id": "SPSS",
+        "type": "Method",
+        "description": "Statistical software used for data analysis"
+      },
+      {
+        "id": "Minolta chlorophyll meter SPAD-502Plus",
+        "type": "Method",
+        "description": "Device used to measure the relative chlorophyll content of leaves"
+      },
+      {
+        "id": "ColorPix software",
+        "type": "Method",
+        "description": "Software used to identify RGB values for petal color analysis"
+      },
+      {
+        "id": "Pham Thi Phuong Thao",
+        "type": "Author",
+        "description": "Lead author of the research paper"
+      },
+      {
+        "id": "Le Van Hoa",
+        "type": "Author",
+        "description": "Co-author of the research paper"
+      },
+      {
+        "id": "Le Thanh Toan",
+        "type": "Author",
+        "description": "Co-author of the research paper"
+      },
+      {
+        "id": "Trinh Van Ban",
+        "type": "Author",
+        "description": "Co-author and student involved in the research"
+      },
+      {
+        "id": "College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "Affiliation of the main researchers in Vietnam"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam"
+      },
+      {
+        "id": "Experimental observation dataset",
+        "type": "Dataset",
+        "description": "Numerical data recorded in tables regarding growth parameters and flower quality"
+      },
+      {
+        "id": "Maximum number of flower (3.80 flower/plant)",
+        "type": "Metric",
+        "description": "Highest flower count achieved using BA 50 ppm"
+      },
+      {
+        "id": "Length of branches (over 26 cm)",
+        "type": "Metric",
+        "description": "Maximum branch length achieved using BA or GA3"
+      },
+      {
+        "id": "Average daily temperature (29-30 oC)",
+        "type": "Metric",
+        "description": "Environmental condition during the experiment"
+      },
+      {
+        "id": "Average humidity (70-88%)",
+        "type": "Metric",
+        "description": "Environmental condition during the experiment"
+      },
+      {
+        "id": "Number of new branches (5.40 to 6.00)",
+        "type": "Metric",
+        "description": "Range of branch initiation observed across treatments"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of plant growth regulators on potted rose Nhung",
+        "target": "Horticulture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Pham Thi Phuong Thao",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Van Hoa",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thanh Toan",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Trinh Van Ban",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Benzyladenine (BA)",
+        "target": "Maximum number of flower (3.80 flower/plant)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gibberellic acid (GA3)",
+        "target": "Length of branches (over 26 cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Benzyladenine (BA)",
+        "target": "Length of branches (over 26 cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Naphthalene acetic acid (NAA)",
+        "target": "Effects of plant growth regulators on potted rose Nhung",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Benzyladenine (BA)",
+        "target": "Effects of plant growth regulators on potted rose Nhung",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Gibberellic acid (GA3)",
+        "target": "Effects of plant growth regulators on potted rose Nhung",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "SPSS",
+        "target": "Experimental observation dataset",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "filename": "527-LE UYEN THANH(68-73)030.json",
+  "paper_title": "Isolation and identification of the antagonistic bacteria against Xanthomonas spp. causing the leaf spot from Rosa spp",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Le Uyen Thanh",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Dong Thap University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam where the author is affiliated"
+      },
+      {
+        "id": "Plant Pathology",
+        "type": "Domain",
+        "description": "Main research field concerning plant diseases and their control"
+      },
+      {
+        "id": "Leaf spot from Rosa spp",
+        "type": "Concept",
+        "description": "A plant disease caused by Xanthomonas spp. affecting rose plants"
+      },
+      {
+        "id": "Antagonistic activity",
+        "type": "Concept",
+        "description": "The ability of certain bacteria to inhibit the growth of pathogens"
+      },
+      {
+        "id": "Biocontrol agents",
+        "type": "Concept",
+        "description": "Natural organisms used to control pests and diseases in agriculture"
+      },
+      {
+        "id": "MALDI-TOF-MS",
+        "type": "Method",
+        "description": "Matrix-assisted laser desorption ionization time-of-flight mass spectrometry used for bacterial identification"
+      },
+      {
+        "id": "16S rRNA gene sequencing",
+        "type": "Method",
+        "description": "A molecular method used for identifying and classifying bacteria based on genetic sequences"
+      },
+      {
+        "id": "PCR",
+        "type": "Method",
+        "description": "Polymerase Chain Reaction used for DNA amplification using 27F and 1492R primers"
+      },
+      {
+        "id": "BLAST-N",
+        "type": "Method",
+        "description": "Bioinformatics program used for comparing primary biological sequence information"
+      },
+      {
+        "id": "In vitro screening",
+        "type": "Method",
+        "description": "Laboratory process to test the antagonistic effects of bacterial isolates on petri plates"
+      },
+      {
+        "id": "GenBank",
+        "type": "Dataset",
+        "description": "An open access, annotated collection of all publicly available DNA sequences"
+      },
+      {
+        "id": "NCBI database",
+        "type": "Dataset",
+        "description": "National Center for Biotechnology Information database used for sequence alignment"
+      },
+      {
+        "id": "Similarity value (99.11%)",
+        "type": "Metric",
+        "description": "Highest similarity value for Bacillus velezensis and Bacillus subtilis isolates"
+      },
+      {
+        "id": "Zone of inhibition (25.33 ± 0.35 mm)",
+        "type": "Metric",
+        "description": "Range of inhibition zones produced by antagonistic isolates"
+      },
+      {
+        "id": "MALDI-TOF score (1.700 to 1.775)",
+        "type": "Metric",
+        "description": "Scores achieved for genus identification consistency"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Uyen Thanh",
+        "target": "Dong Thap University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Isolation and identification of the antagonistic bacteria against Xanthomonas spp. causing the leaf spot from Rosa spp",
+        "target": "Plant Pathology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "MALDI-TOF-MS",
+        "target": "MALDI-TOF score (1.700 to 1.775)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "16S rRNA gene sequencing",
+        "target": "Similarity value (99.11%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "16S rRNA gene sequencing",
+        "target": "Similarity value (99.11%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "In vitro screening",
+        "target": "Zone of inhibition (25.33 ± 0.35 mm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MALDI-TOF-MS",
+        "target": "Antagonistic activity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "16S rRNA gene sequencing",
+        "target": "Leaf spot from Rosa spp",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "16S rRNA gene sequencing",
+        "target": "GenBank",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "BLAST-N",
+        "target": "NCBI database",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

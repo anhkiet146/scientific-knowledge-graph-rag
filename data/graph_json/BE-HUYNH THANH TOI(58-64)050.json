@@ -1,0 +1,140 @@
+{
+  "filename": "BE-HUYNH THANH TOI(58-64)050.json",
+  "paper_title": "Effect of associated bacteria on gnotobiotic Artemia performance",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Huynh Thanh Toi",
+        "type": "Author",
+        "description": "The primary author of the research paper."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution where the research was conducted, located in Vietnam."
+      },
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The primary field of study regarding the farming of aquatic organisms."
+      },
+      {
+        "id": "Gnotobiotic Artemia performance",
+        "type": "Concept",
+        "description": "The study of Artemia growth and survival in controlled, bacteria-free or known-bacteria environments."
+      },
+      {
+        "id": "Water bio-remediation",
+        "type": "Concept",
+        "description": "The process where bacteria improve water quality by removing toxic metabolites."
+      },
+      {
+        "id": "Gnotobiotic culture conditions",
+        "type": "Method",
+        "description": "A controlled laboratory culture system used to evaluate the effect of specific bacteria."
+      },
+      {
+        "id": "Saccharomyces cerevisiae strain wild-type (WT)",
+        "type": "Method",
+        "description": "Bacteria-free baker’s yeast used as the main food source for Artemia."
+      },
+      {
+        "id": "Bacteria strains (HT1-HT9)",
+        "type": "Method",
+        "description": "Nine unidentified bacteria strains isolated from culture water used as supplements."
+      },
+      {
+        "id": "Decapsulation",
+        "type": "Method",
+        "description": "The process of removing Artemia cyst shells using sodium hypochlorite."
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "One-way analysis of variance used for statistical comparison of datasets."
+      },
+      {
+        "id": "Artemia performance datasets",
+        "type": "Dataset",
+        "description": "Numerical data on survival and individual length checked for homogeneity and normal distribution."
+      },
+      {
+        "id": "Mean survival (40-100%)",
+        "type": "Metric",
+        "description": "The range of survival rates observed in Artemia across different treatments."
+      },
+      {
+        "id": "Bacterial concentration (5x10^6 cells/mL)",
+        "type": "Metric",
+        "description": "The specific density at which bacteria were added to the culture."
+      },
+      {
+        "id": "Individual length (1.2-1.4 mm)",
+        "type": "Metric",
+        "description": "The measurement of the physical growth of the Artemia nauplii."
+      },
+      {
+        "id": "Salinity (30 g/L)",
+        "type": "Metric",
+        "description": "The concentration of salt in the artificial seawater used for the culture."
+      },
+      {
+        "id": "Temperature (28.0±1.0 °C)",
+        "type": "Metric",
+        "description": "The controlled thermal environment for the experimental tubes."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Huynh Thanh Toi",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Gnotobiotic culture conditions",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Gnotobiotic culture conditions",
+        "target": "Gnotobiotic Artemia performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Bacteria strains (HT1-HT9)",
+        "target": "Gnotobiotic Artemia performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Bacteria strains (HT1-HT9)",
+        "target": "Water bio-remediation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Bacteria strains (HT1-HT9)",
+        "target": "Mean survival (40-100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Saccharomyces cerevisiae strain wild-type (WT)",
+        "target": "Individual length (1.2-1.4 mm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Artemia performance datasets",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Gnotobiotic culture conditions",
+        "target": "Salinity (30 g/L)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gnotobiotic culture conditions",
+        "target": "Temperature (28.0±1.0 °C)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

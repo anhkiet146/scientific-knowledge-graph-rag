@@ -1,0 +1,155 @@
+{
+  "filename": "BE-HUYNH KIM DIEU(45-50)048.json",
+  "paper_title": "The genetic diversity and the antibacterial activity of Ageratum conyzoides Linn",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Plant Science",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về di truyền thực vật và hoạt tính kháng khuẩn."
+      },
+      {
+        "id": "Genetic diversity",
+        "type": "Concept",
+        "description": "Sự đa dạng di truyền của các mẫu cây Ageratum conyzoides tại Đồng bằng sông Cửu Long."
+      },
+      {
+        "id": "Antibacterial activity",
+        "type": "Concept",
+        "description": "Khả năng ức chế sự phát triển của vi khuẩn từ dịch chiết cây cỏ hôi."
+      },
+      {
+        "id": "Huynh Kim Dieu",
+        "type": "Author",
+        "description": "Tác giả từ Khoa Nông nghiệp và Sinh học Ứng dụng, Đại học Cần Thơ."
+      },
+      {
+        "id": "Nguyen Thi Han Ni",
+        "type": "Author",
+        "description": "Tác giả từ Trạm Thú y Ninh Kiều."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Trường Đại học Cần Thơ, Việt Nam."
+      },
+      {
+        "id": "Ninh Kieu Veterinary Station",
+        "type": "Institution",
+        "description": "Trạm Thú y Ninh Kiều, Cần Thơ, Việt Nam."
+      },
+      {
+        "id": "Random Amplified Polymorphic DNA (RAPD)",
+        "type": "Method",
+        "description": "Kỹ thuật đánh dấu phân tử để phân tích đa dạng di truyền."
+      },
+      {
+        "id": "Inter Simple Sequence Repeat (ISSR)",
+        "type": "Method",
+        "description": "Kỹ thuật đánh dấu phân tử ISSR."
+      },
+      {
+        "id": "Agar dilution method",
+        "type": "Method",
+        "description": "Phương pháp pha loãng thạch để xác định nồng độ ức chế tối thiểu."
+      },
+      {
+        "id": "UPGMA cluster analysis",
+        "type": "Method",
+        "description": "Phương pháp phân tích cụm dựa trên khoảng cách Euclidean."
+      },
+      {
+        "id": "STATISTICA ver. 5.5",
+        "type": "Method",
+        "description": "Phần mềm sử dụng để phân tích dữ liệu di truyền."
+      },
+      {
+        "id": "Cetyltrimethylammonium bromide method",
+        "type": "Method",
+        "description": "Quy trình tách chiết DNA tổng số."
+      },
+      {
+        "id": "Binary matrix",
+        "type": "Dataset",
+        "description": "Ma trận nhị phân (0, 1) xây dựng từ kết quả điện di băng DNA."
+      },
+      {
+        "id": "MIC values (128 - 4096 µg/ml)",
+        "type": "Metric",
+        "description": "Nồng độ ức chế tối thiểu chung đối với các chủng vi khuẩn thử nghiệm."
+      },
+      {
+        "id": "MIC against Edwardsiella ictaluri (128 - 512 µg/ml)",
+        "type": "Metric",
+        "description": "Chỉ số MIC cụ thể đối với vi khuẩn gây bệnh gan thận mủ trên cá."
+      },
+      {
+        "id": "Rate of polymorphism (59.78%)",
+        "type": "Metric",
+        "description": "Tỷ lệ đa hình di truyền giữa các giống thử nghiệm."
+      },
+      {
+        "id": "Genetic distance (2.646 - 5.568)",
+        "type": "Metric",
+        "description": "Khoảng cách di truyền giữa các mẫu Ageratum conyzoides."
+      }
+    ],
+    "relations": [
+      {
+        "source": "The genetic diversity and the antibacterial activity of Ageratum conyzoides Linn",
+        "target": "Plant Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Huynh Kim Dieu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Han Ni",
+        "target": "Ninh Kieu Veterinary Station",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Random Amplified Polymorphic DNA (RAPD)",
+        "target": "Genetic diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Inter Simple Sequence Repeat (ISSR)",
+        "target": "Genetic diversity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "UPGMA cluster analysis",
+        "target": "Binary matrix",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Agar dilution method",
+        "target": "MIC values (128 - 4096 µg/ml)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agar dilution method",
+        "target": "MIC against Edwardsiella ictaluri (128 - 512 µg/ml)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Random Amplified Polymorphic DNA (RAPD)",
+        "target": "Rate of polymorphism (59.78%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "UPGMA cluster analysis",
+        "target": "Genetic distance (2.646 - 5.568)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Agar dilution method",
+        "target": "Antibacterial activity",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

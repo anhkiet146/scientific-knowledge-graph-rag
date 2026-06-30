@@ -1,0 +1,140 @@
+{
+    "filename": "04-CE-PHUONG HOANG YEN(30-38)004.json",
+    "paper_title": "TASK-BASED LANGUAGE TEACHING AND ITS IMPACT ON VIETNAMESE STUDENTS' USE OF SELF-REGULATED LEARNING STRATEGIES IN A WRITING CLASSROOM",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Phuong Hoang Yen",
+                "type": "Author",
+                "description": "The author of the research paper."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the author is affiliated."
+            },
+            {
+                "id": "Applied Linguistics",
+                "type": "Domain",
+                "description": "The primary research field of the paper focusing on language teaching."
+            },
+            {
+                "id": "Task-based language teaching (TBLT)",
+                "type": "Method",
+                "description": "An analytical approach to language pedagogy used to instruct students in this study."
+            },
+            {
+                "id": "Self-regulated learning (SRL)",
+                "type": "Concept",
+                "description": "The process by which students are metacognitively, motivationally, and behaviorally active in their own learning."
+            },
+            {
+                "id": "Self-regulatory writing strategies",
+                "type": "Concept",
+                "description": "Specific strategies used by students to regulate environmental, behavioral, and personal processes in writing."
+            },
+            {
+                "id": "Questionnaire on self-regulatory writing strategies",
+                "type": "Method",
+                "description": "A 30-statement instrument based on Zimmerman and Risemberg’s model using a 7-point Likert-scale."
+            },
+            {
+                "id": "Focused group interviews",
+                "type": "Method",
+                "description": "Qualitative research instrument conducted in small groups to share ideas and experiences."
+            },
+            {
+                "id": "Video recordings",
+                "type": "Method",
+                "description": "Observational method used to provide supportive evidence for students' self-regulatory strategies."
+            },
+            {
+                "id": "Repeated measure ANOVAs (RM-ANOVAs)",
+                "type": "Method",
+                "description": "Statistical analysis used to measure improvements in scores over time."
+            },
+            {
+                "id": "Pretest, immediate posttest, and delayed posttest data",
+                "type": "Dataset",
+                "description": "The longitudinal numerical data collected from sixty-nine student participants."
+            },
+            {
+                "id": "Cronbach's alpha (0.86)",
+                "type": "Metric",
+                "description": "Reliability score of the questionnaire used in the study."
+            },
+            {
+                "id": "Overall strategy pretest (M = 4.24)",
+                "type": "Metric",
+                "description": "Mean score of self-regulatory writing strategies before the course."
+            },
+            {
+                "id": "Overall strategy delayed posttest (M = 4.94)",
+                "type": "Metric",
+                "description": "Mean score of self-regulatory writing strategies ten weeks after the course."
+            },
+            {
+                "id": "Personal self-regulation pretest (M = 4.48)",
+                "type": "Metric",
+                "description": "Initial mean score for personal process self-regulation."
+            },
+            {
+                "id": "Personal self-regulation immediate posttest (M = 4.80)",
+                "type": "Metric",
+                "description": "Mean score for personal process self-regulation right after the writing course."
+            },
+            {
+                "id": "Personal self-regulation delayed posttest (M = 4.94)",
+                "type": "Metric",
+                "description": "Mean score for personal process self-regulation ten weeks after the writing course."
+            },
+            {
+                "id": "Effect size d = 0.92",
+                "type": "Metric",
+                "description": "High effect size calculated between pretest and delayed posttest for overall strategies."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Phuong Hoang Yen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Task-based language teaching (TBLT)",
+                "target": "Self-regulated learning (SRL)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Task-based language teaching (TBLT)",
+                "target": "Self-regulatory writing strategies",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Task-based language teaching (TBLT)",
+                "target": "Pretest, immediate posttest, and delayed posttest data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Task-based language teaching (TBLT)",
+                "target": "Overall strategy delayed posttest (M = 4.94)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Task-based language teaching (TBLT)",
+                "target": "Personal self-regulation delayed posttest (M = 4.94)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Task-based language teaching (TBLT)",
+                "target": "Effect size d = 0.92",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire on self-regulatory writing strategies",
+                "target": "Cronbach's alpha (0.86)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

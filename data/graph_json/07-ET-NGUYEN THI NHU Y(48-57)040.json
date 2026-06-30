@@ -1,0 +1,215 @@
+{
+  "filename": "07-ET-NGUYEN THI NHU Y(48-57)040.json",
+  "paper_title": "Synthesis of lignin-based phenol-formaldehyde adhesive -A sustainable alternative to petrochemical",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Sustainable Materials Synthesis",
+        "type": "Domain",
+        "description": "Research on creating eco-friendly alternatives to petrochemical-based materials."
+      },
+      {
+        "id": "Nguyen Thi Nhu Y",
+        "type": "Author",
+        "description": "Author of the paper."
+      },
+      {
+        "id": "Nguyen Thi Yen Nhi",
+        "type": "Author",
+        "description": "Author of the paper."
+      },
+      {
+        "id": "Tran Thi Minh Thu",
+        "type": "Author",
+        "description": "Author of the paper."
+      },
+      {
+        "id": "Nguyen Thi Ven",
+        "type": "Author",
+        "description": "Author of the paper."
+      },
+      {
+        "id": "Tran Nguyen Phuong Lan",
+        "type": "Author",
+        "description": "Author of the paper."
+      },
+      {
+        "id": "Luong Huynh Vu Thanh",
+        "type": "Author",
+        "description": "Corresponding author of the paper."
+      },
+      {
+        "id": "College of Engineering Technology, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam."
+      },
+      {
+        "id": "Lignin-based phenol-formaldehyde adhesive (LBPFA)",
+        "type": "Concept",
+        "description": "A sustainable adhesive produced by substituting phenol with lignin."
+      },
+      {
+        "id": "Petrochemical substitution",
+        "type": "Concept",
+        "description": "Replacing oil-based ingredients with biomass to reduce environmental impact."
+      },
+      {
+        "id": "LBPFA synthetic process",
+        "type": "Method",
+        "description": "Process involving non-chemical modifications to produce adhesive from lignin and formaldehyde."
+      },
+      {
+        "id": "Fourier transformed infrared spectroscopy (FTIR)",
+        "type": "Method",
+        "description": "Technique used to analyze specific chemical bondings in the adhesive."
+      },
+      {
+        "id": "Differential scanning calorimetry (DSC)",
+        "type": "Method",
+        "description": "Technique used to test the thermal stability and curing temperature of the adhesive."
+      },
+      {
+        "id": "Titration method (ISO 9397: 1997)",
+        "type": "Method",
+        "description": "Used to determine free formaldehyde content."
+      },
+      {
+        "id": "Hot-pressing (Panstone P-100 PCD)",
+        "type": "Method",
+        "description": "Equipment and process used to press samples for mechanical testing."
+      },
+      {
+        "id": "Coir pith",
+        "type": "Method",
+        "description": "Agricultural by-product used as the source for lignin extraction."
+      },
+      {
+        "id": "Optimum reaction time (180 minutes)",
+        "type": "Metric",
+        "description": "Ideal duration identified for the synthesis process."
+      },
+      {
+        "id": "Optimum reaction temperature (90°C)",
+        "type": "Metric",
+        "description": "Ideal temperature for LBPFA synthesis."
+      },
+      {
+        "id": "Lignin replacement content (40% wt/wt)",
+        "type": "Metric",
+        "description": "Optimal substitution level of lignin for phenol."
+      },
+      {
+        "id": "Highest dry tensile strength (14.42 MPa)",
+        "type": "Metric",
+        "description": "Peak mechanical performance of LBPFA on wooden boards."
+      },
+      {
+        "id": "LBPFA bending strength (15.97 MPa)",
+        "type": "Metric",
+        "description": "Bending strength achieved by LBPFA on plywood."
+      },
+      {
+        "id": "Free formaldehyde content (0.072%)",
+        "type": "Metric",
+        "description": "Low toxic byproduct level achieved at optimal conditions."
+      },
+      {
+        "id": "Cure temperature (115.6°C)",
+        "type": "Metric",
+        "description": "Solidification temperature of the LBPFA adhesive."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Synthesis of lignin-based phenol-formaldehyde adhesive",
+        "target": "Sustainable Materials Synthesis",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Thi Nhu Y",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Yen Nhi",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Minh Thu",
+        "target": "College of Engineering Technology, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Ven",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Nguyen Phuong Lan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luong Huynh Vu Thanh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "USED_FOR",
+        "target": "Lignin-based phenol-formaldehyde adhesive (LBPFA)"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "USED_FOR",
+        "target": "Petrochemical substitution"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "ACHIEVED",
+        "target": "Optimum reaction time (180 minutes)"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "ACHIEVED",
+        "target": "Optimum reaction temperature (90°C)"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "ACHIEVED",
+        "target": "Lignin replacement content (40% wt/wt)"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "ACHIEVED",
+        "target": "Highest dry tensile strength (14.42 MPa)"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "ACHIEVED",
+        "target": "Highest dry tensile strength (14.42 MPa)"
+      },
+      {
+        "source": "LBPFA synthetic process",
+        "type": "ACHIEVED",
+        "target": "LBPFA bending strength (15.97 MPa)"
+      },
+      {
+        "source": "Titration method (ISO 9397: 1997)",
+        "type": "ACHIEVED",
+        "target": "Free formaldehyde content (0.072%)"
+      },
+      {
+        "source": "Differential scanning calorimetry (DSC)",
+        "type": "ACHIEVED",
+        "target": "Cure temperature (115.6°C)"
+      }
+    ]
+  }
+}

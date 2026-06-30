@@ -1,0 +1,175 @@
+{
+  "filename": "09-ET-NGUYEN TRUNG TRUC(63-68).json",
+  "paper_title": "DATA-BASED MECHANISTIC MODELING APPROACH FOR PREDICTING THERMAL RESPONSE OF CONDUCTIVE FOOD DURING HEATING PROCESSES",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Trung Truc",
+        "type": "Author",
+        "description": "Author from Vinh Long University of Technology Education"
+      },
+      {
+        "id": "To Quang Truong",
+        "type": "Author",
+        "description": "Author from National Agro-Forestry-Fisheries Quality Assurance Department"
+      },
+      {
+        "id": "Le Thi Hoa Xuan",
+        "type": "Author",
+        "description": "Author from Dong thap Community College"
+      },
+      {
+        "id": "Vo Tan Thanh",
+        "type": "Author",
+        "description": "Author from Can Tho University"
+      },
+      {
+        "id": "Vinh Long University of Technology Education",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam"
+      },
+      {
+        "id": "National Agro-Forestry-Fisheries Quality Assurance Department (zone 5)",
+        "type": "Institution",
+        "description": "Quality assurance department in Vietnam"
+      },
+      {
+        "id": "Dong Thap Community College",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam"
+      },
+      {
+        "id": "Department of Food Technology, College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "Department within Can Tho University, Vietnam"
+      },
+      {
+        "id": "Food Science and Thermal Processing",
+        "type": "Domain",
+        "description": "The main research field of the paper"
+      },
+      {
+        "id": "Thermal response of conductive food",
+        "type": "Concept",
+        "description": "Study of temperature changes in food during heating"
+      },
+      {
+        "id": "Heat transfer coefficient",
+        "type": "Concept",
+        "description": "Parameter representing the rate of heat transfer"
+      },
+      {
+        "id": "Data-based mechanistic (DBM) modeling",
+        "type": "Method",
+        "description": "Modeling approach combining data analysis and physical interpretation"
+      },
+      {
+        "id": "Simplified refined instrumental variable (SRIV) algorithm",
+        "type": "Method",
+        "description": "Algorithm used for model parameter identification"
+      },
+      {
+        "id": "First order transfer function model",
+        "type": "Method",
+        "description": "Mathematical model to describe heat transfer"
+      },
+      {
+        "id": "Minced fish",
+        "type": "Method",
+        "description": "Material used as the conductive food specimen"
+      },
+      {
+        "id": "307x113 steel cans",
+        "type": "Method",
+        "description": "Equipment used to contain the food product"
+      },
+      {
+        "id": "Type T thermocouples",
+        "type": "Method",
+        "description": "Sensors used to measure center temperature"
+      },
+      {
+        "id": "Experimental temperature time-series",
+        "type": "Dataset",
+        "description": "High frequent data (10-second interval) recorded during heating"
+      },
+      {
+        "id": "R2 (> 0.99)",
+        "type": "Metric",
+        "description": "Coefficient of determination indicating high statistical significance"
+      },
+      {
+        "id": "Heating time (160 minutes)",
+        "type": "Metric",
+        "description": "Total duration of the heating process monitoring"
+      },
+      {
+        "id": "Temperature range (50 to 80 oC)",
+        "type": "Metric",
+        "description": "Adjustment range for heating medium temperature"
+      },
+      {
+        "id": "YIC (Young Identification Criterion)",
+        "type": "Metric",
+        "description": "Statistical criterion for model order identification"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Trung Truc",
+        "target": "Vinh Long University of Technology Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "To Quang Truong",
+        "target": "National Agro-Forestry-Fisheries Quality Assurance Department (zone 5)",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Hoa Xuan",
+        "target": "Dong Thap Community College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vo Tan Thanh",
+        "target": "Department of Food Technology, College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thermal response of conductive food",
+        "target": "Food Science and Thermal Processing",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Data-based mechanistic (DBM) modeling",
+        "target": "Thermal response of conductive food",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Simplified refined instrumental variable (SRIV) algorithm",
+        "target": "Data-based mechanistic (DBM) modeling",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "First order transfer function model",
+        "target": "Experimental temperature time-series",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "First order transfer function model",
+        "target": "R2 (> 0.99)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "First order transfer function model",
+        "target": "YIC (Young Identification Criterion)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Simplified refined instrumental variable (SRIV) algorithm",
+        "target": "Heat transfer coefficient",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

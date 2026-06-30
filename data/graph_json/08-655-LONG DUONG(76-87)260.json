@@ -1,0 +1,165 @@
+{
+  "filename": "08-655-LONG DUONG(76-87)260.json",
+  "paper_title": "The effects of trade on national productivity -A stimulant or its handmaiden: An empirical evidence from ASEAN nations",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Duong Hoang Long",
+        "type": "Author",
+        "description": "The primary author of the research paper."
+      },
+      {
+        "id": "College of Economics, Can Tho University",
+        "type": "Institution",
+        "description": "The academic institution where the author is affiliated."
+      },
+      {
+        "id": "International Trade",
+        "type": "Domain",
+        "description": "The main field of study concerning the exchange of goods and services between nations."
+      },
+      {
+        "id": "Economics",
+        "type": "Domain",
+        "description": "The broader scientific field investigating production, consumption, and transfer of wealth."
+      },
+      {
+        "id": "Trade",
+        "type": "Concept",
+        "description": "The core concept being investigated as a stimulant or handmaiden of growth."
+      },
+      {
+        "id": "National Productivity",
+        "type": "Concept",
+        "description": "The research problem proxied by economic growth rate in ASEAN nations."
+      },
+      {
+        "id": "FDI Inward Flow",
+        "type": "Concept",
+        "description": "Foreign direct investment used as a variable influencing growth."
+      },
+      {
+        "id": "Trade Openness",
+        "type": "Concept",
+        "description": "The degree to which an economy allows or encourages international trade."
+      },
+      {
+        "id": "Handmaiden of Growth",
+        "type": "Concept",
+        "description": "The theory that trade acts as a translator of growth rather than a direct driver."
+      },
+      {
+        "id": "Feasible Generalized Least Squares (FGLS)",
+        "type": "Method",
+        "description": "A statistical method used to regress the causal relationship between trade and growth while bypassing autocorrelation and heteroskedasticity."
+      },
+      {
+        "id": "Structural Equation Modelling (SEM)",
+        "type": "Method",
+        "description": "A multivariate statistical analysis technique used to measure mediating effects."
+      },
+      {
+        "id": "Linear-based bootstrapping",
+        "type": "Method",
+        "description": "A resampling method used within the SEM framework."
+      },
+      {
+        "id": "ASEAN Statistical Yearbook",
+        "type": "Dataset",
+        "description": "The source of data for the 10-year span (2012-2021) study of ASEAN nations."
+      },
+      {
+        "id": "Penn World Table",
+        "type": "Dataset",
+        "description": "A secondary dataset mentioned in literature review regarding export-led growth."
+      },
+      {
+        "id": "Breusch-Pagan p-value (67.56%)",
+        "type": "Metric",
+        "description": "Indicator of homoskedasticity in the regression model."
+      },
+      {
+        "id": "VIF indicators (under 5)",
+        "type": "Metric",
+        "description": "Metric measuring multicollinearity among variables."
+      },
+      {
+        "id": "Singapore trade openness index (1.36 points)",
+        "type": "Metric",
+        "description": "Specific measurement of trade openness for Singapore in 2012."
+      },
+      {
+        "id": "FDI Inward Investment coefficient (0.12 to 0.91)",
+        "type": "Metric",
+        "description": "The shift in coefficient after inducing for Trade Incentive."
+      },
+      {
+        "id": "Singapore FDI projects over GDP (5.01-point)",
+        "type": "Metric",
+        "description": "Metric for FDI attraction performance in 2021."
+      },
+      {
+        "id": "Export from FDI sectors in Vietnam (76.3%)",
+        "type": "Metric",
+        "description": "The proportion of total exports attributed to foreign-invested sectors."
+      }
+    ],
+    "relations": [
+      {
+        "source": "The effects of trade on national productivity",
+        "target": "International Trade",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "The effects of trade on national productivity",
+        "target": "Economics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Duong Hoang Long",
+        "target": "College of Economics, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Feasible Generalized Least Squares (FGLS)",
+        "target": "National Productivity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Structural Equation Modelling (SEM)",
+        "target": "National Productivity",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Feasible Generalized Least Squares (FGLS)",
+        "target": "ASEAN Statistical Yearbook",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Structural Equation Modelling (SEM)",
+        "target": "ASEAN Statistical Yearbook",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Feasible Generalized Least Squares (FGLS)",
+        "target": "Breusch-Pagan p-value (67.56%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Feasible Generalized Least Squares (FGLS)",
+        "target": "VIF indicators (under 5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Structural Equation Modelling (SEM)",
+        "target": "FDI Inward Investment coefficient (0.12 to 0.91)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Linear-based bootstrapping",
+        "target": "Structural Equation Modelling (SEM)",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

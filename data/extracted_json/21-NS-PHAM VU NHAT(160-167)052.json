@@ -1,0 +1,125 @@
+{
+    "filename": "21-NS-PHAM VU NHAT(160-167)052.json",
+    "paper_title": "A DFT study of copper(II) binding to glycyl-L-histidyl-L-Lysine tripeptide",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "A DFT study of copper(II) binding to glycyl-L-histidyl-L-Lysine tripeptide",
+                "type": "Concept",
+                "description": "The title and primary research focus of the paper."
+            },
+            {
+                "id": "Quantum Chemistry",
+                "type": "Domain",
+                "description": "The primary field of research involving density functional theory and molecular interactions."
+            },
+            {
+                "id": "Pham Vu Nhat",
+                "type": "Author",
+                "description": "The primary author of the research paper."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "The academic institution where the author is affiliated, specifically the Department of Chemistry."
+            },
+            {
+                "id": "Density Functional Theory",
+                "type": "Method",
+                "description": "A computational quantum mechanical modeling method used to investigate electronic structures."
+            },
+            {
+                "id": "B3LYP",
+                "type": "Method",
+                "description": "A hybrid functional used in DFT for geometry optimization and energy calculations."
+            },
+            {
+                "id": "6-311++G(d,p)",
+                "type": "Method",
+                "description": "The full-electron basis set used in conjunction with B3LYP."
+            },
+            {
+                "id": "Gaussian 09",
+                "type": "Method",
+                "description": "The software suite used to perform all quantum chemical calculations."
+            },
+            {
+                "id": "IEF-PCM",
+                "type": "Method",
+                "description": "The polarizable continuum model used to simulate solvent effects (aqueous solution)."
+            },
+            {
+                "id": "Copper(II) binding",
+                "type": "Concept",
+                "description": "The interaction mechanism between Cu2+ ions and the GHK tripeptide."
+            },
+            {
+                "id": "GHK peptide",
+                "type": "Method",
+                "description": "The glycyl-L-histidyl-L-lysine tripeptide used as a ligand in the binding study."
+            },
+            {
+                "id": "Thermodynamic parameters",
+                "type": "Concept",
+                "description": "Properties such as enthalpy and Gibbs energy investigated in the study."
+            },
+            {
+                "id": "Binding energy (-24.7 kcal/mol)",
+                "type": "Metric",
+                "description": "The calculated binding energy of the most stable complex in aqueous solution."
+            },
+            {
+                "id": "Gibbs energy change (-25 kcal/mol)",
+                "type": "Metric",
+                "description": "The calculated change in Gibbs free energy for the complexation process in solvent."
+            },
+            {
+                "id": "Accuracy of DFT (± 3 kcal/mol)",
+                "type": "Metric",
+                "description": "The expected accuracy of the density functional theory methods used."
+            },
+            {
+                "id": "Experimental Gibbs energy (-22.5 kcal/mol)",
+                "type": "Metric",
+                "description": "The experimental value used for comparison with calculated results."
+            }
+        ],
+        "relations": [
+            {
+                "source": "A DFT study of copper(II) binding to glycyl-L-histidyl-L-Lysine tripeptide",
+                "target": "Quantum Chemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Pham Vu Nhat",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Density Functional Theory",
+                "target": "Copper(II) binding",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "B3LYP",
+                "target": "Binding energy (-24.7 kcal/mol)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "B3LYP",
+                "target": "Gibbs energy change (-25 kcal/mol)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Gaussian 09",
+                "target": "Thermodynamic parameters",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "IEF-PCM",
+                "target": "Gibbs energy change (-25 kcal/mol)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

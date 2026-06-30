@@ -1,0 +1,160 @@
+{
+  "filename": "04-ET-NGO SI HUY(28-36)017.json",
+  "paper_title": "Characteristics of lightweight foamed concrete with various contents of polypropylene fiber",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Lightweight foamed concrete (LFC)",
+        "type": "Concept",
+        "description": "The main study object, a porous construction material with low density."
+      },
+      {
+        "id": "Mechanical properties",
+        "type": "Concept",
+        "description": "Includes compressive and flexural strengths being investigated."
+      },
+      {
+        "id": "Thermal isolation",
+        "type": "Concept",
+        "description": "The ability of the material to resist heat transfer."
+      },
+      {
+        "id": "Polypropylene (PP) fiber",
+        "type": "Method",
+        "description": "Material used at various contents (0-0.8%) to enhance concrete properties."
+      },
+      {
+        "id": "Scanning electron microscope (FE-SEM)",
+        "type": "Method",
+        "description": "Method used to observe the microstructure of the concrete."
+      },
+      {
+        "id": "Fly ash",
+        "type": "Method",
+        "description": "Industrial byproduct used as a binder material."
+      },
+      {
+        "id": "Ground granulated blast furnace slag (GGBFS)",
+        "type": "Method",
+        "description": "Binder material used partially to substitute cement."
+      },
+      {
+        "id": "ISOMET-2014",
+        "type": "Method",
+        "description": "Device used for measuring thermal conductivity."
+      },
+      {
+        "id": "MATEST-C369N",
+        "type": "Method",
+        "description": "Device used for ultrasonic pulse velocity (UPV) testing."
+      },
+      {
+        "id": "Compressive strength increase (11.85%)",
+        "type": "Metric",
+        "description": "The improvement in compression resistance at 28 days with 0.8% PP fiber."
+      },
+      {
+        "id": "Flexural strength increase (41.8%)",
+        "type": "Metric",
+        "description": "The improvement in bending resistance at 28 days with 0.8% PP fiber."
+      },
+      {
+        "id": "Thermal conductivity (0.347 to 0.328 W/mK)",
+        "type": "Metric",
+        "description": "The range of heat transfer values observed."
+      },
+      {
+        "id": "Dry density reduction (6.22%)",
+        "type": "Metric",
+        "description": "The decrease in density as PP fiber content increased to 0.8%."
+      },
+      {
+        "id": "Civil Engineering",
+        "type": "Domain",
+        "description": "The primary field of research for construction materials."
+      },
+      {
+        "id": "Ngo Si Huy",
+        "type": "Author",
+        "description": "Researcher from Hong Duc University."
+      },
+      {
+        "id": "Ho Si Lanh",
+        "type": "Author",
+        "description": "Researcher from University of Transport Technology."
+      },
+      {
+        "id": "Huynh Trong Phuoc",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "Hong Duc University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam."
+      },
+      {
+        "id": "University of Transport Technology",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ngo Si Huy",
+        "target": "Hong Duc University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ho Si Lanh",
+        "target": "University of Transport Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Trong Phuoc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Polypropylene (PP) fiber",
+        "target": "Lightweight foamed concrete (LFC)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Polypropylene (PP) fiber",
+        "target": "Compressive strength increase (11.85%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Polypropylene (PP) fiber",
+        "target": "Flexural strength increase (41.8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Polypropylene (PP) fiber",
+        "target": "Dry density reduction (6.22%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Scanning electron microscope (FE-SEM)",
+        "target": "Mechanical properties",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ISOMET-2014",
+        "target": "Thermal conductivity (0.347 to 0.328 W/mK)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Lightweight foamed concrete (LFC)",
+        "target": "Civil Engineering",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

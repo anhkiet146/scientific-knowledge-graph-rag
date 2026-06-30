@@ -1,0 +1,170 @@
+{
+  "filename": "05-1136-HOANG TU VO(35-41)320.json",
+  "paper_title": "Exploring multiple optimization algorithms in transfer learning with EfficientNet models for agricultural insect classification",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Exploring multiple optimization algorithms in transfer learning with EfficientNet models for agricultural insect classification",
+        "type": "Concept",
+        "description": "The title and primary research topic of the paper"
+      },
+      {
+        "id": "Hoang-Tu Vo",
+        "type": "Author",
+        "description": "Researcher from FPT University"
+      },
+      {
+        "id": "Nhon Nguyen Thien",
+        "type": "Author",
+        "description": "Researcher from FPT University"
+      },
+      {
+        "id": "Kheo Chau Mui",
+        "type": "Author",
+        "description": "Researcher from FPT University"
+      },
+      {
+        "id": "Huan Lam Le",
+        "type": "Author",
+        "description": "Researcher from FPT University"
+      },
+      {
+        "id": "Phuc Pham Tien",
+        "type": "Author",
+        "description": "Researcher from FPT University"
+      },
+      {
+        "id": "FPT University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam"
+      },
+      {
+        "id": "Agriculture",
+        "type": "Domain",
+        "description": "The primary field of research"
+      },
+      {
+        "id": "Agricultural insect classification",
+        "type": "Concept",
+        "description": "The core problem of identifying dangerous insects in farming"
+      },
+      {
+        "id": "Transfer learning",
+        "type": "Concept",
+        "description": "Machine learning technique utilizing pre-trained models"
+      },
+      {
+        "id": "Explainable Artificial Intelligence (XAI)",
+        "type": "Concept",
+        "description": "Techniques to make AI decisions more transparent"
+      },
+      {
+        "id": "EfficientNetB3",
+        "type": "Method",
+        "description": "A specific deep learning architecture used for feature extraction"
+      },
+      {
+        "id": "AdamW",
+        "type": "Method",
+        "description": "Optimization algorithm with decoupled weight decay"
+      },
+      {
+        "id": "Adam",
+        "type": "Method",
+        "description": "Adaptive Moment Estimation optimization algorithm"
+      },
+      {
+        "id": "RMSprop",
+        "type": "Method",
+        "description": "Root Mean Squared Propagation optimization algorithm"
+      },
+      {
+        "id": "Grad-CAM",
+        "type": "Method",
+        "description": "Gradient-weighted Class Activation Mapping for visualization"
+      },
+      {
+        "id": "Agricultural insect dataset",
+        "type": "Dataset",
+        "description": "Dataset of 1591 photos containing 15 distinct insect species"
+      },
+      {
+        "id": "Accuracy (95.56% to 100%)",
+        "type": "Metric",
+        "description": "Highest accuracy achieved by EfficientNetB3 and AdamW"
+      },
+      {
+        "id": "Batch size (32)",
+        "type": "Metric",
+        "description": "Hyperparameter for training the models"
+      },
+      {
+        "id": "Epochs (40)",
+        "type": "Metric",
+        "description": "Number of training iterations"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Exploring multiple optimization algorithms in transfer learning with EfficientNet models for agricultural insect classification",
+        "target": "Agriculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Hoang-Tu Vo",
+        "target": "FPT University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nhon Nguyen Thien",
+        "target": "FPT University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Kheo Chau Mui",
+        "target": "FPT University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huan Lam Le",
+        "target": "FPT University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phuc Pham Tien",
+        "target": "FPT University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "EfficientNetB3",
+        "target": "Agricultural insect classification",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "AdamW",
+        "target": "Agricultural insect classification",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Grad-CAM",
+        "target": "Explainable Artificial Intelligence (XAI)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "EfficientNetB3",
+        "target": "Agricultural insect dataset",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "EfficientNetB3",
+        "target": "Accuracy (95.56% to 100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "AdamW",
+        "target": "Accuracy (95.56% to 100%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

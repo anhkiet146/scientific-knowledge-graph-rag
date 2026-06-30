@@ -1,0 +1,155 @@
+{
+  "filename": "08-ED-LE TRAN THANH LIEM(63-69)039.json",
+  "paper_title": "Research on environmental education through extra-curricular activities organized by community resources for primary students in rural areas of Hau Giang province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Le Tran Thanh Liem",
+        "type": "Author",
+        "description": "The primary author of the research paper."
+      },
+      {
+        "id": "College of Rural Development, Can Tho University",
+        "type": "Institution",
+        "description": "The educational institution in Vietnam where the author is affiliated."
+      },
+      {
+        "id": "Environmental Education Science",
+        "type": "Domain",
+        "description": "The primary field of research concerning education about the environment."
+      },
+      {
+        "id": "EEtE-CAObCR",
+        "type": "Concept",
+        "description": "Environmental education through extra-curricular activities organized by community resources."
+      },
+      {
+        "id": "Sustainable development",
+        "type": "Concept",
+        "description": "The organizing principle for meeting human development goals while simultaneously sustaining the ability of natural systems."
+      },
+      {
+        "id": "Sociological survey",
+        "type": "Method",
+        "description": "Method used to gather primary data from teachers and parents."
+      },
+      {
+        "id": "Binary logistic regression model",
+        "type": "Method",
+        "description": "Statistical model used to identify factors affecting the outcomes of environmental education."
+      },
+      {
+        "id": "Non-probability sampling",
+        "type": "Method",
+        "description": "Sampling technique used to collect primary data."
+      },
+      {
+        "id": "Score method",
+        "type": "Method",
+        "description": "A band score scale from 0 to 10 used to evaluate impacts and importance of factors."
+      },
+      {
+        "id": "Primary data from 50 teachers and 30 parents",
+        "type": "Dataset",
+        "description": "Digital dataset collected from 10 primary schools in Hau Giang province."
+      },
+      {
+        "id": "Loge P(Y=1)/P(Y=0) = -5.933 + 2.840X1 + 3.319X2 + 2.729X3 + 3.582X4",
+        "type": "Metric",
+        "description": "The specific regression equation derived from the model."
+      },
+      {
+        "id": "B value for Equipment (2.840)",
+        "type": "Metric",
+        "description": "Statistical coefficient for the equipment variable in the regression model."
+      },
+      {
+        "id": "Sig. value (0.029)",
+        "type": "Metric",
+        "description": "Statistical significance value for the equipment factor."
+      },
+      {
+        "id": "Score for school yards (9.2)",
+        "type": "Metric",
+        "description": "Average score indicating the willingness of schools to allow use of playgrounds."
+      },
+      {
+        "id": "Score for mobile sound system (8)",
+        "type": "Metric",
+        "description": "Average score for school willingness to provide sound equipment."
+      },
+      {
+        "id": "Teacher support agreement (51%)",
+        "type": "Metric",
+        "description": "Percentage of teachers agreeing that school direction is important."
+      },
+      {
+        "id": "Parental transport support (45%)",
+        "type": "Metric",
+        "description": "Highest ratio of parents willing to take and pick up children for activities."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Tran Thanh Liem",
+        "target": "College of Rural Development, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "EEtE-CAObCR",
+        "target": "Environmental Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Sociological survey",
+        "target": "EEtE-CAObCR",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "EEtE-CAObCR",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Primary data from 50 teachers and 30 parents",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Loge P(Y=1)/P(Y=0) = -5.933 + 2.840X1 + 3.319X2 + 2.729X3 + 3.582X4",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "B value for Equipment (2.840)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Binary logistic regression model",
+        "target": "Sig. value (0.029)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Score method",
+        "target": "Score for school yards (9.2)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Score method",
+        "target": "Score for mobile sound system (8)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sociological survey",
+        "target": "Teacher support agreement (51%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Sociological survey",
+        "target": "Parental transport support (45%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

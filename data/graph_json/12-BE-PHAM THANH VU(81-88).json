@@ -1,0 +1,150 @@
+{
+  "filename": "12-BE-PHAM THANH VU(81-88).json",
+  "paper_title": "AGRO-ECOLOGICAL DYNAMICS IN THE COASTAL AREAS OF THE VIETNAMESE MEKONG DELTA IN THE CONTEXT OF CLIMATE CHANGE: A CASE STUDY IN BAC LIEU PROVINCE",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Agro-ecological dynamics",
+        "type": "Concept",
+        "description": "The interaction between physical properties and anthropological impacts leading to land use changes."
+      },
+      {
+        "id": "Climate change",
+        "type": "Concept",
+        "description": "Environmental changes affecting surface water resources and livelihood in coastal areas."
+      },
+      {
+        "id": "Sea Level Rise",
+        "type": "Concept",
+        "description": "An environmental threat leading to saline intrusion in the coastal plains."
+      },
+      {
+        "id": "Saline Intrusion",
+        "type": "Concept",
+        "description": "The movement of saline water into freshwater areas, a key driver of land use change."
+      },
+      {
+        "id": "Participatory Rural Appraisal (PRA)",
+        "type": "Method",
+        "description": "An approach used to collect primary data from local governmental staffs and farmers."
+      },
+      {
+        "id": "Household Interviews",
+        "type": "Method",
+        "description": "A method used to collect primary data from local farmers regarding farming systems."
+      },
+      {
+        "id": "Numerical modelling",
+        "type": "Method",
+        "description": "Used to generate results for predicting changes in agro-ecological zones."
+      },
+      {
+        "id": "Mechanicalisation",
+        "type": "Method",
+        "description": "Improved farming technologies that eased the pressure on labor."
+      },
+      {
+        "id": "Historical records of upstream discharge",
+        "type": "Dataset",
+        "description": "Secondary numerical data used in combination with sea level rise scenarios."
+      },
+      {
+        "id": "Secondary data from governmental organizations",
+        "type": "Dataset",
+        "description": "Data collected from various governmental offices in the 7 districts of Bac Lieu."
+      },
+      {
+        "id": "Sea level rise (+17cm)",
+        "type": "Metric",
+        "description": "Specific scenario value used for predicting agro-ecological changes."
+      },
+      {
+        "id": "300 households",
+        "type": "Metric",
+        "description": "The total number of households interviewed in the study area."
+      },
+      {
+        "id": "Environmental Science",
+        "type": "Domain",
+        "description": "The research field focusing on environmental dynamics and climate impacts."
+      },
+      {
+        "id": "Pham Thanh Vu",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Phan Hoang Vu",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Van Pham Dang Tri",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "Nguyen Hieu Trung",
+        "type": "Author",
+        "description": "Researcher at Can Tho University."
+      },
+      {
+        "id": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the authors are affiliated."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Agro-ecological dynamics",
+        "target": "Environmental Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Participatory Rural Appraisal (PRA)",
+        "target": "Agro-ecological dynamics",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Numerical modelling",
+        "target": "Agro-ecological dynamics",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Numerical modelling",
+        "target": "Historical records of upstream discharge",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Numerical modelling",
+        "target": "Sea level rise (+17cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Household Interviews",
+        "target": "300 households",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pham Thanh Vu",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Hoang Vu",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Van Pham Dang Tri",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Hieu Trung",
+        "target": "College of Environment and Natural Resources, Can Tho University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

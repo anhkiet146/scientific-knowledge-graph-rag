@@ -1,0 +1,170 @@
+{
+  "filename": "519-LUU TANG PHUC KHANG(7-16)023.json",
+  "paper_title": "Histopathological characteristics of striped catfish (Pangasianodon hypophthalmus) challenged with Edwardsiella ictaluri",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The main field of research involving the farming of aquatic organisms."
+      },
+      {
+        "id": "Luu Tang Phuc Khang",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Huu Giau",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Tran Thi Phuong Dung",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Ho Chi Minh City University of Education",
+        "type": "Institution",
+        "description": "Academic institution of the authors."
+      },
+      {
+        "id": "SaiGon University",
+        "type": "Institution",
+        "description": "Academic institution of the author Nguyen Huu Giau."
+      },
+      {
+        "id": "Histopathological characteristics",
+        "type": "Concept",
+        "description": "The study of changes in tissues caused by disease."
+      },
+      {
+        "id": "Bacillary necrosis of Pangasius (BNP)",
+        "type": "Concept",
+        "description": "A serious bacterial disease in striped catfish caused by Edwardsiella ictaluri."
+      },
+      {
+        "id": "Disease resistance",
+        "type": "Concept",
+        "description": "The ability of the fish to survive or resist the bacterial infection."
+      },
+      {
+        "id": "Cohabitant method",
+        "type": "Method",
+        "description": "A challenge method where infected fish are reared with healthy fish to spread the disease."
+      },
+      {
+        "id": "Histopathological analysis",
+        "type": "Method",
+        "description": "The process of examining tissue samples using staining and microscopy."
+      },
+      {
+        "id": "Hematoxylin and Eosin staining",
+        "type": "Method",
+        "description": "A common staining method used in histology to visualize tissue structures."
+      },
+      {
+        "id": "One-way ANOVA",
+        "type": "Method",
+        "description": "Statistical method used to compare mean values of histopathological indices."
+      },
+      {
+        "id": "SPSS statistical software",
+        "type": "Method",
+        "description": "Software used for statistical data analysis."
+      },
+      {
+        "id": "Edwardsiella ictaluri Gly09M",
+        "type": "Method",
+        "description": "The specific bacterial strain used to challenge the experimental fish."
+      },
+      {
+        "id": "Microtome machine",
+        "type": "Method",
+        "description": "Equipment used for cutting tissue samples into thin sections."
+      },
+      {
+        "id": "Mortality rate (highest at 312 hpi)",
+        "type": "Metric",
+        "description": "The peak death rate observed at the end of the experimental period."
+      },
+      {
+        "id": "Liver necrotic tissue index at 312 hpi (413.40 ± 65.49 μm)",
+        "type": "Metric",
+        "description": "Measurement of liver tissue damage at 312 hours post infection."
+      },
+      {
+        "id": "Kidney hemorrhage index at 24 hpi (146.90 ± 42.32 μm)",
+        "type": "Metric",
+        "description": "Measurement of kidney tissue damage shortly after infection."
+      },
+      {
+        "id": "Spleen hemorrhage index at 24 hpi (313.09 ± 52.42 μm)",
+        "type": "Metric",
+        "description": "Measurement of spleen tissue damage shortly after infection."
+      },
+      {
+        "id": "Bacterial dose (10^6 CFU/0.2 mL)",
+        "type": "Metric",
+        "description": "The concentration of bacteria injected into the cohabitant fish."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Histopathological characteristics of striped catfish challenged with Edwardsiella ictaluri",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Luu Tang Phuc Khang",
+        "target": "Ho Chi Minh City University of Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Phuong Dung",
+        "target": "Ho Chi Minh City University of Education",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Huu Giau",
+        "target": "SaiGon University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Cohabitant method",
+        "target": "Bacillary necrosis of Pangasius (BNP)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Histopathological analysis",
+        "target": "Histopathological characteristics",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Histopathological analysis",
+        "target": "Liver necrotic tissue index at 312 hpi (413.40 ± 65.49 μm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Histopathological analysis",
+        "target": "Kidney hemorrhage index at 24 hpi (146.90 ± 42.32 μm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Histopathological analysis",
+        "target": "Spleen hemorrhage index at 24 hpi (313.09 ± 52.42 μm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Cohabitant method",
+        "target": "Mortality rate (highest at 312 hpi)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Edwardsiella ictaluri Gly09M",
+        "target": "Bacterial dose (10^6 CFU/0.2 mL)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

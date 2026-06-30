@@ -1,0 +1,120 @@
+{
+  "filename": "14-NS-LE TRUONG GIANG(100-103)014.json",
+  "paper_title": "A weak law of large numbers and Poisson approximation problem for extension random sums of m-dependent random variables",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Probability theory",
+        "type": "Domain",
+        "description": "Lĩnh vực toán học nghiên cứu về xác suất và các biến ngẫu nhiên."
+      },
+      {
+        "id": "Le Truong Giang",
+        "type": "Author",
+        "description": "Tác giả từ University of Finance - Marketing."
+      },
+      {
+        "id": "Trinh Huu Nghiem",
+        "type": "Author",
+        "description": "Tác giả từ Nam Can Tho University."
+      },
+      {
+        "id": "University of Finance - Marketing",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam."
+      },
+      {
+        "id": "Nam Can Tho University",
+        "type": "Institution",
+        "description": "Tổ chức nghiên cứu tại Việt Nam."
+      },
+      {
+        "id": "m-dependent random variables",
+        "type": "Concept",
+        "description": "Dãy các biến ngẫu nhiên phụ thuộc lẫn nhau trong một khoảng m nhất định."
+      },
+      {
+        "id": "extension random sums",
+        "type": "Concept",
+        "description": "Mở rộng của tổng ngẫu nhiên các biến ngẫu nhiên."
+      },
+      {
+        "id": "Weak law of large numbers",
+        "type": "Method",
+        "description": "Luật yếu số lớn áp dụng cho tổng ngẫu nhiên mở rộng."
+      },
+      {
+        "id": "Poisson approximation",
+        "type": "Method",
+        "description": "Xấp xỉ Poisson cho các tổng ngẫu nhiên của biến ngẫu nhiên phụ thuộc m."
+      },
+      {
+        "id": "Characteristic function",
+        "type": "Method",
+        "description": "Hàm đặc trưng được xây dựng để nghiên cứu hình dạng tiệm cận."
+      },
+      {
+        "id": "Taylor expansion",
+        "type": "Method",
+        "description": "Khai triển Taylor bậc nhất được sử dụng trong chứng minh định lý."
+      },
+      {
+        "id": "p_n -> 0",
+        "type": "Metric",
+        "description": "Điều kiện hội tụ của xác suất p_n khi n tiến tới vô cùng."
+      },
+      {
+        "id": "np_n -> lambda",
+        "type": "Metric",
+        "description": "Điều kiện hội tụ của kỳ vọng np_n tiến tới tham số lambda."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Le Truong Giang",
+        "target": "University of Finance - Marketing",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Trinh Huu Nghiem",
+        "target": "Nam Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Weak law of large numbers",
+        "target": "extension random sums",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Poisson approximation",
+        "target": "extension random sums",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Characteristic function",
+        "target": "m-dependent random variables",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Poisson approximation",
+        "target": "p_n -> 0",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Poisson approximation",
+        "target": "np_n -> lambda",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Weak law of large numbers",
+        "target": "Probability theory",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Poisson approximation",
+        "target": "Probability theory",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

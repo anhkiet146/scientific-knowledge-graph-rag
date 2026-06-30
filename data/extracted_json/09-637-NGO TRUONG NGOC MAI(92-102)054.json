@@ -1,0 +1,205 @@
+{
+    "filename": "09-637-NGO TRUONG NGOC MAI(92-102)054.json",
+    "paper_title": "Study of the activation of Truc Thon ball clay by acids",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Materials Science",
+                "type": "Domain",
+                "description": "Lĩnh vực nghiên cứu về vật liệu và khoáng vật"
+            },
+            {
+                "id": "Acid activation",
+                "type": "Concept",
+                "description": "Quá trình kích hoạt khoáng vật sét bằng axit để thay đổi cấu trúc và diện tích bề mặt"
+            },
+            {
+                "id": "Adsorption",
+                "type": "Concept",
+                "description": "Khả năng hấp phụ các chất ô nhiễm trong môi trường nước"
+            },
+            {
+                "id": "Truc Thon white ball clay",
+                "type": "Method",
+                "description": "Vật liệu sét trắng từ mỏ Trúc Thôn, Hải Dương, Việt Nam"
+            },
+            {
+                "id": "H2SO4",
+                "type": "Method",
+                "description": "Axit Sunfuric dùng để kích hoạt sét"
+            },
+            {
+                "id": "HCl",
+                "type": "Method",
+                "description": "Axit Clohydric dùng để kích hoạt sét"
+            },
+            {
+                "id": "H3PO4",
+                "type": "Method",
+                "description": "Axit Photphoric dùng để kích hoạt sét"
+            },
+            {
+                "id": "Calcination at 700 °C",
+                "type": "Method",
+                "description": "Quá trình nung sét ở 700 độ C trong 10 giờ"
+            },
+            {
+                "id": "X-ray fluorescence",
+                "type": "Method",
+                "description": "Phương pháp huỳnh quang tia X để phân tích thành phần hóa học"
+            },
+            {
+                "id": "X-Ray Diffraction",
+                "type": "Method",
+                "description": "Phương pháp nhiễu xạ tia X để phân tích cấu trúc tinh thể"
+            },
+            {
+                "id": "Fourier transform infrared spectroscopy",
+                "type": "Method",
+                "description": "Phương pháp phổ hồng ngoại biến đổi Fourier"
+            },
+            {
+                "id": "Brunauer-Emmett-Teller (BET) method",
+                "type": "Method",
+                "description": "Phương pháp xác định diện tích bề mặt cụ thể"
+            },
+            {
+                "id": "Table 1",
+                "type": "Dataset",
+                "description": "Bảng dữ liệu về độ giảm khối lượng sau khi kích hoạt"
+            },
+            {
+                "id": "Table 2",
+                "type": "Dataset",
+                "description": "Bảng dữ liệu về thành phần hóa học của sét thô và sét kích hoạt"
+            },
+            {
+                "id": "Table 4",
+                "type": "Dataset",
+                "description": "Bảng dữ liệu so sánh diện tích bề mặt SBET"
+            },
+            {
+                "id": "Specific surface area (178.53 m2.g-1)",
+                "type": "Metric",
+                "description": "Diện tích bề mặt cụ thể cao nhất đạt được sau khi xử lý HCl"
+            },
+            {
+                "id": "Weight loss (44.00%)",
+                "type": "Metric",
+                "description": "Độ giảm khối lượng cao nhất khi kích hoạt bằng HCl trong 18 giờ"
+            },
+            {
+                "id": "SiO2 content (97.1%)",
+                "type": "Metric",
+                "description": "Hàm lượng Silica trong sét sau khi kích hoạt bằng HCl"
+            },
+            {
+                "id": "Point of zero charge (pHpzc = 4)",
+                "type": "Metric",
+                "description": "Điểm đẳng điện của sét sau khi kích hoạt bằng HCl"
+            },
+            {
+                "id": "Ngo Truong Ngoc Mai",
+                "type": "Author",
+                "description": "Tác giả chính của bài báo"
+            },
+            {
+                "id": "Nguyen Minh Nhut",
+                "type": "Author",
+                "description": "Tác giả tham gia nghiên cứu"
+            },
+            {
+                "id": "Cao Luu Ngoc Hanh",
+                "type": "Author",
+                "description": "Tác giả tham gia nghiên cứu"
+            },
+            {
+                "id": "Tran Thi Bich Quyen",
+                "type": "Author",
+                "description": "Tác giả tham gia nghiên cứu"
+            },
+            {
+                "id": "Nguyen Viet Nhan Hoa",
+                "type": "Author",
+                "description": "Tác giả tham gia nghiên cứu"
+            },
+            {
+                "id": "Tran Nguyen Phuong Lan",
+                "type": "Author",
+                "description": "Tác giả tham gia nghiên cứu"
+            },
+            {
+                "id": "College of Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "Trường Đại học Cần Thơ, Việt Nam"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Acid activation",
+                "target": "Materials Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "HCl",
+                "target": "Specific surface area (178.53 m2.g-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HCl",
+                "target": "Weight loss (44.00%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HCl",
+                "target": "SiO2 content (97.1%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Acid activation",
+                "target": "Adsorption",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "X-Ray Diffraction",
+                "target": "Table 2",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Brunauer-Emmett-Teller (BET) method",
+                "target": "Table 4",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Ngo Truong Ngoc Mai",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Minh Nhut",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Cao Luu Ngoc Hanh",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Bich Quyen",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Viet Nhan Hoa",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Nguyen Phuong Lan",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "filename": "02-AG-TRAN VAN HAU(7-15)018.json",
+    "paper_title": "The effects of uniconazole dosages and suitable periods for bud break on the flowering of 'Dai Loan' mango (Mangifera indica L.) grown in Cho Moi district, An Giang province, 2016",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Horticulture",
+                "type": "Domain",
+                "description": "The study of plant cultivation, specifically regarding mango flowering induction."
+            },
+            {
+                "id": "Crop Science",
+                "type": "Domain",
+                "description": "Scientific field related to crop production and plant protection."
+            },
+            {
+                "id": "Tran Van Hau",
+                "type": "Author",
+                "description": "Lead author from Can Tho University."
+            },
+            {
+                "id": "Phan Van Ut",
+                "type": "Author",
+                "description": "Author from Tinh Bien Crop Production and Plant Protection Department."
+            },
+            {
+                "id": "Phan Huynh Anh",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Tran Sy Hieu",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam, specifically the Crop Science Department."
+            },
+            {
+                "id": "Tinh Bien Crop Production and Plant Protection Department",
+                "type": "Institution",
+                "description": "Plant protection department in Vietnam."
+            },
+            {
+                "id": "Flowering induction",
+                "type": "Concept",
+                "description": "The process of stimulating a plant to produce flowers, especially off-season."
+            },
+            {
+                "id": "Off-season flowering",
+                "type": "Concept",
+                "description": "Manipulating the production cycle to produce fruit outside the normal season."
+            },
+            {
+                "id": "Uniconazole (UCZ)",
+                "type": "Method",
+                "description": "A plant growth regulator used as a flower bud initiation agent."
+            },
+            {
+                "id": "Paclobutrazol (PBZ)",
+                "type": "Method",
+                "description": "A triazole plant growth retardant used as a control in flowering induction."
+            },
+            {
+                "id": "KNO3 2.5%",
+                "type": "Method",
+                "description": "A chemical agent used to stimulate bud break and flowering."
+            },
+            {
+                "id": "Collar drenching",
+                "type": "Method",
+                "description": "Application method of plant growth regulators to the base of the tree."
+            },
+            {
+                "id": "HPLC",
+                "type": "Method",
+                "description": "High pressure liquid chromatography used to analyze GA-like compounds."
+            },
+            {
+                "id": "Loss on ignition - LOI method",
+                "type": "Method",
+                "description": "Method used to determine total carbon content in leaves."
+            },
+            {
+                "id": "Flowering ratio (85.5 - 90.0%)",
+                "type": "Metric",
+                "description": "The highest range of flowering ratio achieved with UCZ and KNO3 at 75 DABIT."
+            },
+            {
+                "id": "Fruit yield (50.3 kg/tree)",
+                "type": "Metric",
+                "description": "The highest yield achieved using UCZ 1.5 g a.i. with bud break at 75 DABIT."
+            },
+            {
+                "id": "Fruit yield (40.8 kg/tree)",
+                "type": "Metric",
+                "description": "Yield achieved using PBZ with bud break at 75 DABIT."
+            },
+            {
+                "id": "Number of hermaphrodite flowers (377.5 - 422.9)",
+                "type": "Metric",
+                "description": "Number of flowers per inflorescence using higher UCZ dosages."
+            },
+            {
+                "id": "Inflorescence length (38.7 - 44.3 cm)",
+                "type": "Metric",
+                "description": "Length of the flower clusters measured after Triazole application."
+            },
+            {
+                "id": "Fruit set ratio (10.2%)",
+                "type": "Metric",
+                "description": "Highest fruit set ratio achieved with UCZ 1.0 g a.i. and bud break at 45 DABIT."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Tran Van Hau",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Huynh Anh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Sy Hieu",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Phan Van Ut",
+                "target": "Tinh Bien Crop Production and Plant Protection Department",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Uniconazole (UCZ)",
+                "target": "Flowering induction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Paclobutrazol (PBZ)",
+                "target": "Flowering induction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Uniconazole (UCZ)",
+                "target": "Flowering ratio (85.5 - 90.0%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Uniconazole (UCZ)",
+                "target": "Fruit yield (50.3 kg/tree)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Paclobutrazol (PBZ)",
+                "target": "Fruit yield (40.8 kg/tree)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Uniconazole (UCZ)",
+                "target": "Number of hermaphrodite flowers (377.5 - 422.9)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Uniconazole (UCZ)",
+                "target": "Inflorescence length (38.7 - 44.3 cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Uniconazole (UCZ)",
+                "target": "Fruit set ratio (10.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Horticulture",
+                "target": "Flowering induction",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

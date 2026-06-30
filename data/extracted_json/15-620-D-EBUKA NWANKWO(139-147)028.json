@@ -1,0 +1,150 @@
+{
+    "filename": "15-620-D-EBUKA NWANKWO(139-147)028.json",
+    "paper_title": "Theoretical and experimental assessment of the effect of adhesive bond thickness on the flexural capacity of CFRP strengthened beams",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ebuka Nwankwo",
+                "type": "Author",
+                "description": "Author of the research paper from the University of Benin."
+            },
+            {
+                "id": "TrustGod John",
+                "type": "Author",
+                "description": "Author of the research paper from the University of Benin."
+            },
+            {
+                "id": "University of Benin",
+                "type": "Institution",
+                "description": "Department of Civil Engineering, University of Benin, Nigeria."
+            },
+            {
+                "id": "Civil Engineering",
+                "type": "Domain",
+                "description": "The primary field of research for the study."
+            },
+            {
+                "id": "Structural strengthening of reinforced concrete (RC) elements",
+                "type": "Concept",
+                "description": "The process of improving the load-carrying capacity of concrete structures using external materials."
+            },
+            {
+                "id": "Flexural capacity of CFRP strengthened beams",
+                "type": "Concept",
+                "description": "The research problem investigating how adhesive thickness affects the bending strength of beams."
+            },
+            {
+                "id": "Adhesive bond thickness",
+                "type": "Concept",
+                "description": "The thickness of the material used to bond CFRP to concrete surfaces."
+            },
+            {
+                "id": "ACI 440-2R-17",
+                "type": "Method",
+                "description": "Guide for the Design and Construction of Externally Bonded FRP Systems for Strengthening Concrete Structures."
+            },
+            {
+                "id": "Carbon Fiber Reinforced Polymer (CFRP)",
+                "type": "Method",
+                "description": "Material used for structural strengthening, specifically wraps HM-30, HM-45, and HM-60."
+            },
+            {
+                "id": "Structural adhesives",
+                "type": "Method",
+                "description": "Chemical agents used to bond CFRP fabrics to RC beams."
+            },
+            {
+                "id": "Electronic magnetic thickness gauge",
+                "type": "Method",
+                "description": "Device used to measure the thickness of the adhesive layers."
+            },
+            {
+                "id": "ACI-318 stress-block principles",
+                "type": "Method",
+                "description": "Theoretical procedure used to obtain the moment of resistance of unstrengthened beams."
+            },
+            {
+                "id": "Experimental test data of 38 RC beams",
+                "type": "Dataset",
+                "description": "Numerical records and measurements obtained from laboratory tests on 38 cast beams."
+            },
+            {
+                "id": "Beam length (1.2m)",
+                "type": "Metric",
+                "description": "The physical length of the reinforced concrete beams used in the experiment."
+            },
+            {
+                "id": "Elastic Modulus (259251 Mpa)",
+                "type": "Metric",
+                "description": "The mechanical property value for all CFRP wraps used."
+            },
+            {
+                "id": "Experimental flexural capacity (27.5kNm)",
+                "type": "Metric",
+                "description": "The flexural capacity value obtained experimentally for the control specimen."
+            },
+            {
+                "id": "Theoretical flexural moment capacity (28.09kNm)",
+                "type": "Metric",
+                "description": "The capacity value obtained from theoretical calculations for the control specimen."
+            },
+            {
+                "id": "Factored shear capacity (237.81kN)",
+                "type": "Metric",
+                "description": "The estimated shear strength of the original beam."
+            },
+            {
+                "id": "Maximum shear force (162.5kN)",
+                "type": "Metric",
+                "description": "The shear force obtained for an HM-60 strengthened beam."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ebuka Nwankwo",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "TrustGod John",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Carbon Fiber Reinforced Polymer (CFRP)",
+                "target": "Structural strengthening of reinforced concrete (RC) elements",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ACI 440-2R-17",
+                "target": "Flexural capacity of CFRP strengthened beams",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "ACI 440-2R-17",
+                "target": "Theoretical flexural moment capacity (28.09kNm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "ACI-318 stress-block principles",
+                "target": "Factored shear capacity (237.81kN)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Carbon Fiber Reinforced Polymer (CFRP)",
+                "target": "Elastic Modulus (259251 Mpa)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Electronic magnetic thickness gauge",
+                "target": "Experimental test data of 38 RC beams",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Structural adhesives",
+                "target": "Adhesive bond thickness",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

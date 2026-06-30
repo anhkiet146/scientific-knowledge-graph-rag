@@ -1,0 +1,310 @@
+{
+  "filename": "12-496-NS-NGO QUOC LUAN(91-97)012.json",
+  "paper_title": "Isolation and identification of triterpenoid compounds from Couroupita guianensis Aubl",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Phytochemistry",
+        "type": "Domain",
+        "description": "The study of chemical processes and compounds derived from plants."
+      },
+      {
+        "id": "Ngo Quoc Luan",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Phu Thach",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Van Minh Em",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Thi Ngoc Phuong",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Phan Nhu Thao",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Ngo Khac Khong Minh",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Ngo Trong Nghia",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Phan Nhat Minh",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Tan Phat",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "School of Education, Viet Nam."
+      },
+      {
+        "id": "Nguyen Van Con High School",
+        "type": "Institution",
+        "description": "Tien Giang Province, Viet Nam."
+      },
+      {
+        "id": "Nam Can Tho University",
+        "type": "Institution",
+        "description": "Medical Faculty, Viet Nam."
+      },
+      {
+        "id": "Tien Giang University",
+        "type": "Institution",
+        "description": "Faculty of Environment and Natural Resource, Viet Nam."
+      },
+      {
+        "id": "Institute of Chemical Technology",
+        "type": "Institution",
+        "description": "Vietnam Academy of Science and Technology, Viet Nam."
+      },
+      {
+        "id": "University of Science and Technology",
+        "type": "Institution",
+        "description": "Vietnam Academy of Science and Technology, Viet Nam."
+      },
+      {
+        "id": "Triterpenoid compounds",
+        "type": "Concept",
+        "description": "A group of natural compounds identified from Couroupita guianensis."
+      },
+      {
+        "id": "Couroupita guianensis",
+        "type": "Concept",
+        "description": "Plant species (fruit and leaves) used for isolation of compounds."
+      },
+      {
+        "id": "Betulinic acid",
+        "type": "Concept",
+        "description": "Compound 1 isolated from the plant."
+      },
+      {
+        "id": "Oleanolic acid",
+        "type": "Concept",
+        "description": "Compound 2 isolated from the plant."
+      },
+      {
+        "id": "β-amyrin",
+        "type": "Concept",
+        "description": "Compound 3 isolated from the plant."
+      },
+      {
+        "id": "Friedelin",
+        "type": "Concept",
+        "description": "Compound 4 isolated from the plant."
+      },
+      {
+        "id": "Chromatographic methods",
+        "type": "Method",
+        "description": "Technique used for isolation of extracts."
+      },
+      {
+        "id": "NMR",
+        "type": "Method",
+        "description": "Nuclear Magnetic Resonance used for structural elucidation."
+      },
+      {
+        "id": "MS",
+        "type": "Method",
+        "description": "Mass Spectrometry used for identification."
+      },
+      {
+        "id": "TLC",
+        "type": "Method",
+        "description": "Thin layer chromatography used for chemical profiling."
+      },
+      {
+        "id": "NP-CC",
+        "type": "Method",
+        "description": "Normal phase column chromatography."
+      },
+      {
+        "id": "RE-52A rotary evaporator",
+        "type": "Method",
+        "description": "Equipment used for solvent evaporation."
+      },
+      {
+        "id": "Methanol",
+        "type": "Method",
+        "description": "Solvent used for extraction."
+      },
+      {
+        "id": "Melting point (316-318°C)",
+        "type": "Metric",
+        "description": "Melting point recorded for betulinic acid."
+      },
+      {
+        "id": "Melting point (271-273°C)",
+        "type": "Metric",
+        "description": "Melting point recorded for oleanolic acid."
+      },
+      {
+        "id": "Melting point (197-198°C)",
+        "type": "Metric",
+        "description": "Melting point recorded for β-amyrin."
+      },
+      {
+        "id": "Yield (19.1 mg)",
+        "type": "Metric",
+        "description": "The amount of betulinic acid isolated."
+      },
+      {
+        "id": "Yield (15.2 mg)",
+        "type": "Metric",
+        "description": "The amount of oleanolic acid isolated."
+      },
+      {
+        "id": "Yield (10.5 mg)",
+        "type": "Metric",
+        "description": "The amount of β-amyrin isolated."
+      },
+      {
+        "id": "Yield (12.3 mg)",
+        "type": "Metric",
+        "description": "The amount of friedelin isolated."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Isolation and identification of triterpenoid compounds from Couroupita guianensis Aubl",
+        "target": "Phytochemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ngo Quoc Luan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Phu Thach",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Minh Em",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Ngoc Phuong",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Nhu Thao",
+        "target": "Nguyen Van Con High School",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Khac Khong Minh",
+        "target": "Nam Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ngo Trong Nghia",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Nhat Minh",
+        "target": "Institute of Chemical Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Phan Nhat Minh",
+        "target": "University of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tan Phat",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tan Phat",
+        "target": "Institute of Chemical Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Chromatographic methods",
+        "target": "Triterpenoid compounds",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "NMR",
+        "target": "Triterpenoid compounds",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "MS",
+        "target": "Triterpenoid compounds",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "NP-CC",
+        "target": "Betulinic acid",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NP-CC",
+        "target": "Yield (19.1 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NP-CC",
+        "target": "Yield (15.2 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NP-CC",
+        "target": "Yield (10.5 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "NP-CC",
+        "target": "Yield (12.3 mg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Betulinic acid",
+        "target": "Melting point (316-318°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Oleanolic acid",
+        "target": "Melting point (271-273°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "β-amyrin",
+        "target": "Melting point (197-198°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Friedelin",
+        "target": "Melting point (271-273°C)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

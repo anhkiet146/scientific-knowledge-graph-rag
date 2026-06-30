@@ -1,0 +1,150 @@
+{
+  "filename": "11-FI-NGO THI THU THAO(78-86)011.json",
+  "paper_title": "Evaluating the effects of single cell detritus from red seaweed (Gracillaria tenuistipitata) and gutweed (Enteromorpha sp.) on growth of Artemia franciscana",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The study's primary research field focused on cultivating aquatic organisms."
+      },
+      {
+        "id": "Ngo Thi Thu Thao",
+        "type": "Author",
+        "description": "Researcher affiliated with Can Tho University."
+      },
+      {
+        "id": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam where the research was conducted."
+      },
+      {
+        "id": "Single cell detritus (SCD)",
+        "type": "Concept",
+        "description": "Food separated from body fragments of seaweed into single cells, used as an alternative feed source."
+      },
+      {
+        "id": "Growth Performance",
+        "type": "Concept",
+        "description": "Measurement of the increase in size and length of the study subject."
+      },
+      {
+        "id": "Reproductive characteristics",
+        "type": "Concept",
+        "description": "Traits related to the breeding and offspring production of Artemia."
+      },
+      {
+        "id": "Yeast fermentation",
+        "type": "Method",
+        "description": "A process using Saccharomyces cerevisiae and glucose to produce single cell detritus from seaweed."
+      },
+      {
+        "id": "Reverse osmosis technique",
+        "type": "Method",
+        "description": "Modified technique involving homogenization, shaking, and fermentation to prepare SCD."
+      },
+      {
+        "id": "Artemia franciscana",
+        "type": "Method",
+        "description": "Biological subject used to test the effectiveness of SCD diets."
+      },
+      {
+        "id": "Gracillaria tenuistipitata",
+        "type": "Method",
+        "description": "Red seaweed species used as a raw material for SCD production."
+      },
+      {
+        "id": "Enteromorpha sp.",
+        "type": "Method",
+        "description": "Green seaweed (gutweed) used as a raw material for SCD production."
+      },
+      {
+        "id": "Saccharomyces cerevisiae D3",
+        "type": "Method",
+        "description": "Yeast species used for the fermentation process."
+      },
+      {
+        "id": "Improved Newbauer",
+        "type": "Method",
+        "description": "Cell counting device used for determining SCD and yeast density."
+      },
+      {
+        "id": "Commercial feed No. 0",
+        "type": "Method",
+        "description": "Shrimp postlarvae feed used as a control diet in Experiment 2."
+      },
+      {
+        "id": "SCD density (88.480±2.769×10^6 cells/mL)",
+        "type": "Metric",
+        "description": "Highest density achieved for red seaweed SCD at day 7 with 10^6 yeast cells/mL."
+      },
+      {
+        "id": "NH4+ concentration (5-10 mg/L)",
+        "type": "Metric",
+        "description": "Concentration of ammonium in green seaweed fermentation."
+      },
+      {
+        "id": "Survival rate (93.3 to 100%)",
+        "type": "Metric",
+        "description": "Highest survival rate of Artemia recorded at day 14 in the 50% SCD replacement treatment."
+      },
+      {
+        "id": "Artemia length (7.45 mm)",
+        "type": "Metric",
+        "description": "Total length of Artemia at day 13 when fed 50% SCD."
+      },
+      {
+        "id": "Fecundity (40-75 offspring/brood)",
+        "type": "Metric",
+        "description": "Average offspring produced per female Artemia."
+      },
+      {
+        "id": "Matching rate (20.5±1.25%)",
+        "type": "Metric",
+        "description": "The rate of reproductive pairing in Artemia after 21 days."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ngo Thi Thu Thao",
+        "target": "College of Aquaculture and Fisheries (CAF), Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Yeast fermentation",
+        "target": "SCD density (88.480±2.769×10^6 cells/mL)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Yeast fermentation",
+        "target": "Single cell detritus (SCD)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Reverse osmosis technique",
+        "target": "Single cell detritus (SCD)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Artemia franciscana",
+        "target": "Survival rate (93.3 to 100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Artemia franciscana",
+        "target": "Artemia length (7.45 mm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Artemia franciscana",
+        "target": "Growth Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Commercial feed No. 0",
+        "target": "Matching rate (20.5±1.25%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

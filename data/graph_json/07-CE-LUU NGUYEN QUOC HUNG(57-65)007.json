@@ -1,0 +1,145 @@
+{
+  "filename": "07-CE-LUU NGUYEN QUOC HUNG(57-65)007.json",
+  "paper_title": "Teaching English online at a center for foreign languages: Challenges and opportunities",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Luu Nguyen Quoc Hung",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Center for Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "The institution where the author is affiliated"
+      },
+      {
+        "id": "English Language Teaching (ELT)",
+        "type": "Domain",
+        "description": "The primary field of research"
+      },
+      {
+        "id": "Online instruction",
+        "type": "Concept",
+        "description": "Teaching and learning via internet connection rather than in person"
+      },
+      {
+        "id": "Teacher-student interaction",
+        "type": "Concept",
+        "description": "Communication and engagement between educators and learners"
+      },
+      {
+        "id": "Online survey",
+        "type": "Method",
+        "description": "Questionnaire with close-ended and open-ended questions used for data collection"
+      },
+      {
+        "id": "Zoom",
+        "type": "Method",
+        "description": "Software platform used for conducting online lessons"
+      },
+      {
+        "id": "Skype",
+        "type": "Method",
+        "description": "Internet Protocol Telephony software for interaction"
+      },
+      {
+        "id": "Google Meet",
+        "type": "Method",
+        "description": "Internet Protocol Telephony software for interaction"
+      },
+      {
+        "id": "Survey responses from 15 teachers",
+        "type": "Dataset",
+        "description": "Data collected from 12 female and 3 male teachers regarding online teaching"
+      },
+      {
+        "id": "Support for 4th industrial revolution (73.3%)",
+        "type": "Metric",
+        "description": "Percentage of respondents identifying teaching styles appropriate for the revolution"
+      },
+      {
+        "id": "Increased autonomy and motivation (53.3%)",
+        "type": "Metric",
+        "description": "Percentage of respondents identifying autonomy as an advantage"
+      },
+      {
+        "id": "Need for diverse teaching materials (80%)",
+        "type": "Metric",
+        "description": "Percentage of respondents suggesting better material sources"
+      },
+      {
+        "id": "Prediction of online courses as alternative (53.3%)",
+        "type": "Metric",
+        "description": "Percentage of participants predicting online courses will replace face-to-face in 5-10 years"
+      },
+      {
+        "id": "Total participants (15 teachers)",
+        "type": "Metric",
+        "description": "Sample size of the study"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Luu Nguyen Quoc Hung",
+        "target": "Center for Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Teaching English online at a center for foreign languages: Challenges and opportunities",
+        "target": "English Language Teaching (ELT)",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Online survey",
+        "target": "Survey responses from 15 teachers",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Online survey",
+        "target": "Support for 4th industrial revolution (73.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Online survey",
+        "target": "Increased autonomy and motivation (53.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Online survey",
+        "target": "Need for diverse teaching materials (80%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Online survey",
+        "target": "Prediction of online courses as alternative (53.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Online survey",
+        "target": "Total participants (15 teachers)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Zoom",
+        "target": "Online instruction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Online survey",
+        "target": "Online instruction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Skype",
+        "target": "Teacher-student interaction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Google Meet",
+        "target": "Teacher-student interaction",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

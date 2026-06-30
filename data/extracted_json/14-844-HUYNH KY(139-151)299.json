@@ -1,0 +1,195 @@
+{
+    "filename": "14-844-HUYNH KY(139-151)299.json",
+    "paper_title": "The application of Gene Function Markers for identification of high quality of Vietnamese traditional rice varieties",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Genetics and Plant Breeding",
+                "type": "Domain",
+                "description": "The primary field of study focused on crop improvement and genetic identification."
+            },
+            {
+                "id": "Huynh Ky",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Pham An Tinh",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Van Manh",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Pham Vo Thao Nguyen",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Huynh Nhu Dien",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Le Thi Hong Thanh",
+                "type": "Author",
+                "description": "Author from Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational and research institution in Viet Nam."
+            },
+            {
+                "id": "Gene Function Markers",
+                "type": "Concept",
+                "description": "Molecular markers used to identify specific functional traits in genes."
+            },
+            {
+                "id": "High-quality rice identification",
+                "type": "Concept",
+                "description": "Process of selecting rice varieties based on traits like aroma, grain length, and texture."
+            },
+            {
+                "id": "DRR-GL marker",
+                "type": "Method",
+                "description": "Molecular marker used for grain length identification (gene GS3)."
+            },
+            {
+                "id": "Wxin1 marker",
+                "type": "Method",
+                "description": "Molecular marker used for amylose content identification (gene Wx)."
+            },
+            {
+                "id": "BADH2 marker",
+                "type": "Method",
+                "description": "Molecular marker used for aroma identification."
+            },
+            {
+                "id": "PCR",
+                "type": "Method",
+                "description": "Polymerase Chain Reaction technique used for DNA amplification."
+            },
+            {
+                "id": "Juliano method",
+                "type": "Method",
+                "description": "Method for measuring amylose content."
+            },
+            {
+                "id": "Graham's method",
+                "type": "Method",
+                "description": "Method for measuring gelatinization temperature."
+            },
+            {
+                "id": "Grain length (7.13 mm)",
+                "type": "Metric",
+                "description": "Measurement of the length of the Nep Trong Vo rice variety."
+            },
+            {
+                "id": "Amylose content (17.58%)",
+                "type": "Metric",
+                "description": "Measurement of the starch component in Nep Trong Vo rice."
+            },
+            {
+                "id": "Gel consistency (grade 3)",
+                "type": "Metric",
+                "description": "Measure of texture softness for Nep Trong Vo rice."
+            },
+            {
+                "id": "Heat resistance (grade 3)",
+                "type": "Metric",
+                "description": "Indicator of cooking quality for Nep Trong Vo rice."
+            },
+            {
+                "id": "Long-grain phenotype expression (90%)",
+                "type": "Metric",
+                "description": "Percentage of phenotype explained by DRR-GL marker."
+            },
+            {
+                "id": "Amylose variation explanation (90%)",
+                "type": "Metric",
+                "description": "Percentage of variation explained by Wxin1 marker."
+            },
+            {
+                "id": "Aroma phenotype expression (100%)",
+                "type": "Metric",
+                "description": "Accuracy of the BADH2 marker in identifying aroma traits."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Ky",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham An Tinh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Van Manh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Vo Thao Nguyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Nhu Dien",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Thi Hong Thanh",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "DRR-GL marker",
+                "target": "High-quality rice identification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Wxin1 marker",
+                "target": "High-quality rice identification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "BADH2 marker",
+                "target": "High-quality rice identification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DRR-GL marker",
+                "target": "Long-grain phenotype expression (90%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Wxin1 marker",
+                "target": "Amylose variation explanation (90%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BADH2 marker",
+                "target": "Aroma phenotype expression (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Juliano method",
+                "target": "Amylose content (17.58%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "The application of Gene Function Markers for identification of high quality of Vietnamese traditional rice varieties",
+                "target": "Genetics and Plant Breeding",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

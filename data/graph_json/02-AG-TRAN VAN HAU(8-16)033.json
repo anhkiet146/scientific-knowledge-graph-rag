@@ -1,0 +1,165 @@
+{
+  "filename": "02-AG-TRAN VAN HAU(8-16)033.json",
+  "paper_title": "Effects of fertilizer doses on yield and quality of gandaria (Bouea oppositifolia (Roxb.) Meisne.) grown in Binh Minh town, Vinh Long province, Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Crop Science",
+        "type": "Domain",
+        "description": "The primary research field of the study focusing on plant cultivation and management."
+      },
+      {
+        "id": "Tran Van Huu",
+        "type": "Author",
+        "description": "Researcher at the Crop Science Department, Can Tho University."
+      },
+      {
+        "id": "Nguyen Le Khanh Linh",
+        "type": "Author",
+        "description": "Student at Can Tho University majoring in Crop Science."
+      },
+      {
+        "id": "Nguyen Thuy Thao Nguyen",
+        "type": "Author",
+        "description": "Researcher at the Crop Science Department, Can Tho University."
+      },
+      {
+        "id": "Tran Sy Hieu",
+        "type": "Author",
+        "description": "Researcher at the Crop Science Department, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "The educational and research organization where the authors are affiliated."
+      },
+      {
+        "id": "Yield and quality of gandaria",
+        "type": "Concept",
+        "description": "The main research problem investigating how fertilizer affects the production and characteristics of Bouea oppositifolia."
+      },
+      {
+        "id": "Completely randomized block design",
+        "type": "Method",
+        "description": "The experimental setup used for arranging fertilizer treatments."
+      },
+      {
+        "id": "Fertilizer dose of 3-4 kg/tree/year",
+        "type": "Method",
+        "description": "The specific high-dose fertilizer treatment used in the experiment."
+      },
+      {
+        "id": "Urea",
+        "type": "Method",
+        "description": "A nitrogen-providing chemical fertilizer used in the study."
+      },
+      {
+        "id": "KCl",
+        "type": "Method",
+        "description": "Potassium chloride fertilizer used to supply potassium."
+      },
+      {
+        "id": "Diammonium phosphate - DAP",
+        "type": "Method",
+        "description": "A phosphate fertilizer used in the nutrient treatments."
+      },
+      {
+        "id": "Kjeldahl methods",
+        "type": "Method",
+        "description": "The analytical procedure used to determine total Nitrogen in leaves."
+      },
+      {
+        "id": "AAS",
+        "type": "Method",
+        "description": "Atomic Absorption Spectroscopy used to measure total Potassium content."
+      },
+      {
+        "id": "Fruit yield (99.5-107.1 kg/tree)",
+        "type": "Metric",
+        "description": "The weight of fruit harvested per tree at high fertilizer doses."
+      },
+      {
+        "id": "Flowering duration (79.4 days)",
+        "type": "Metric",
+        "description": "The period from first inflorescence to pollination finish at high fertilizer doses."
+      },
+      {
+        "id": "Total soluble solids (14.0-14.4%)",
+        "type": "Metric",
+        "description": "A measure of fruit sweetness (TSS) achieved with 3-4 kg fertilizer."
+      },
+      {
+        "id": "Fruit set ratio (15.96-16.98%)",
+        "type": "Metric",
+        "description": "The percentage of flowers that successfully developed into fruit."
+      },
+      {
+        "id": "Number of inflorescences per shoot (5.2-5.3)",
+        "type": "Metric",
+        "description": "The density of flowering clusters per shoot under high fertilization."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of fertilizer doses on yield and quality of gandaria",
+        "target": "Crop Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Van Huu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Le Khanh Linh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thuy Thao Nguyen",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Sy Hieu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Fertilizer dose of 3-4 kg/tree/year",
+        "target": "Fruit yield (99.5-107.1 kg/tree)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fertilizer dose of 3-4 kg/tree/year",
+        "target": "Flowering duration (79.4 days)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fertilizer dose of 3-4 kg/tree/year",
+        "target": "Total soluble solids (14.0-14.4%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Fertilizer dose of 3-4 kg/tree/year",
+        "target": "Fruit set ratio (15.96-16.98%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Completely randomized block design",
+        "target": "Yield and quality of gandaria",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Kjeldahl methods",
+        "target": "Yield and quality of gandaria",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Urea",
+        "target": "Yield and quality of gandaria",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

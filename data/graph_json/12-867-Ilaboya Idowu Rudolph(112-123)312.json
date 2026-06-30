@@ -1,0 +1,175 @@
+{
+  "filename": "12-867-Ilaboya Idowu Rudolph(112-123)312.json",
+  "paper_title": "Assessing aquifer vulnerability near cemeteries using dipole-dipole and vertical electrical sounding methods",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Environmental Hydrogeology",
+        "type": "Domain",
+        "description": "The main field of research focusing on groundwater and environmental impact."
+      },
+      {
+        "id": "Ilaboya Idowu Rudolph",
+        "type": "Author",
+        "description": "Lead author of the study from the University of Benin."
+      },
+      {
+        "id": "Omosefe Eghosa Blessing",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Ambrose-Agabi Enoredia Esther",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "University of Benin",
+        "type": "Institution",
+        "description": "Academic institution located in Nigeria."
+      },
+      {
+        "id": "Aquifer vulnerability",
+        "type": "Concept",
+        "description": "The susceptibility of an aquifer to contamination from surface activities."
+      },
+      {
+        "id": "Groundwater contamination",
+        "type": "Concept",
+        "description": "Pollution of underground water resources by anthropogenic activities."
+      },
+      {
+        "id": "Leachate plume",
+        "type": "Concept",
+        "description": "A concentrated volume of contaminated water originating from burial sites."
+      },
+      {
+        "id": "Vertical Electrical Sounding (VES)",
+        "type": "Method",
+        "description": "A 1-D geophysical resistivity method used to investigate subsurface layers."
+      },
+      {
+        "id": "Dipole-dipole profiling",
+        "type": "Method",
+        "description": "A 2-D electrical resistivity tomography technique for subsurface imaging."
+      },
+      {
+        "id": "ABEM Terrameter SAS 300C",
+        "type": "Method",
+        "description": "The specific geophysical equipment used for resistivity measurements."
+      },
+      {
+        "id": "Schlumberger array",
+        "type": "Method",
+        "description": "The electrode configuration used for the VES investigation."
+      },
+      {
+        "id": "DIPROWIN software version 4.01",
+        "type": "Method",
+        "description": "Software used for interpreting 2-D resistivity data."
+      },
+      {
+        "id": "winRESIST software version 1.0",
+        "type": "Method",
+        "description": "A computer-assisted 1-D forward modeling tool for VES data interpretation."
+      },
+      {
+        "id": "Resistivity data",
+        "type": "Dataset",
+        "description": "Digital field data collected from geophysical investigations."
+      },
+      {
+        "id": "Leachate plume depth (5 to 20 meters)",
+        "type": "Metric",
+        "description": "The identified depth range of subsurface contamination."
+      },
+      {
+        "id": "Overburden thickness (0.7762m to 0.8074m)",
+        "type": "Metric",
+        "description": "The thickness range of the upper geoelectric layers."
+      },
+      {
+        "id": "Overburden resistivity (57.318Ωm to 2831.4Ωm)",
+        "type": "Metric",
+        "description": "The electrical resistance range measured for the topsoil/overburden."
+      },
+      {
+        "id": "Clay layer resistivity (203.52Ωm)",
+        "type": "Metric",
+        "description": "The average resistivity value for the third geoelectric layer."
+      },
+      {
+        "id": "Clay layer thickness (11.48 meters)",
+        "type": "Metric",
+        "description": "The average thickness of the protective clay barrier."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Assessing aquifer vulnerability near cemeteries using dipole-dipole and vertical electrical sounding methods",
+        "target": "Environmental Hydrogeology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Ilaboya Idowu Rudolph",
+        "target": "University of Benin",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Omosefe Eghosa Blessing",
+        "target": "University of Benin",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ambrose-Agabi Enoredia Esther",
+        "target": "University of Benin",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Vertical Electrical Sounding (VES)",
+        "target": "Aquifer vulnerability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Dipole-dipole profiling",
+        "target": "Aquifer vulnerability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ABEM Terrameter SAS 300C",
+        "target": "Aquifer vulnerability",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Vertical Electrical Sounding (VES)",
+        "target": "Resistivity data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Dipole-dipole profiling",
+        "target": "Resistivity data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Dipole-dipole profiling",
+        "target": "Leachate plume depth (5 to 20 meters)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vertical Electrical Sounding (VES)",
+        "target": "Overburden thickness (0.7762m to 0.8074m)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vertical Electrical Sounding (VES)",
+        "target": "Overburden resistivity (57.318Ωm to 2831.4Ωm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Vertical Electrical Sounding (VES)",
+        "target": "Clay layer resistivity (203.52Ωm)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+    "filename": "05-NGUYEN THI VAN(32-42)028.json",
+    "paper_title": "The effect of heating factors on the properties of heat-induced surimi gel under ohmic heating",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Science and Technology",
+                "type": "Domain",
+                "description": "The main research field of the paper involving food processing and material properties."
+            },
+            {
+                "id": "Nguyen Thi Van",
+                "type": "Author",
+                "description": "Primary author from Nha Trang University."
+            },
+            {
+                "id": "Nguyen Hong Ngan",
+                "type": "Author",
+                "description": "Co-author from Nha Trang University."
+            },
+            {
+                "id": "Emiko Okazaki",
+                "type": "Author",
+                "description": "Co-author from Tokyo University of Marine Science and Technology."
+            },
+            {
+                "id": "Nha Trang University",
+                "type": "Institution",
+                "description": "Institution located in Viet Nam."
+            },
+            {
+                "id": "Tokyo University of Marine Science and Technology",
+                "type": "Institution",
+                "description": "Institution located in Japan."
+            },
+            {
+                "id": "Ohmic heating",
+                "type": "Method",
+                "description": "A method where heat is generated within food due to electrical resistance."
+            },
+            {
+                "id": "Conventional water-bath heating",
+                "type": "Method",
+                "description": "Traditional heating method used as a control comparison."
+            },
+            {
+                "id": "Croaker surimi (SA grade)",
+                "type": "Method",
+                "description": "The primary biological material used in the experiment."
+            },
+            {
+                "id": "Sodium chloride (NaCl)",
+                "type": "Method",
+                "description": "Chemical used to extract proteins and adjust electrical conductivity."
+            },
+            {
+                "id": "SDS-PAGE",
+                "type": "Method",
+                "description": "Method used to investigate changes in protein patterns."
+            },
+            {
+                "id": "Texture analyzer (RE-3350B)",
+                "type": "Method",
+                "description": "Equipment used for puncture tests to evaluate deformability."
+            },
+            {
+                "id": "Gelation",
+                "type": "Concept",
+                "description": "The process of forming a gel network in surimi proteins."
+            },
+            {
+                "id": "Electrical conductivity",
+                "type": "Concept",
+                "description": "The ability of the surimi paste to conduct electricity, affecting heating rate."
+            },
+            {
+                "id": "Heating rates (3, 5, 10, 40, 80 and 120 oC/min)",
+                "type": "Metric",
+                "description": "Specific rates of temperature increase applied during ohmic heating."
+            },
+            {
+                "id": "Salt concentration (1.5% or 2.5% w/w)",
+                "type": "Metric",
+                "description": "Specific concentrations of NaCl added to the surimi paste."
+            },
+            {
+                "id": "Moisture content (80.0%)",
+                "type": "Metric",
+                "description": "Standardized water content in the surimi paste preparation."
+            },
+            {
+                "id": "Energy efficiency (>90%)",
+                "type": "Metric",
+                "description": "The efficiency of heat generation in ohmic heating by Joule effect."
+            },
+            {
+                "id": "Target temperature (90 oC)",
+                "type": "Metric",
+                "description": "The final internal temperature reached by the surimi gels."
+            },
+            {
+                "id": "Holding time (0 and 120 sec)",
+                "type": "Metric",
+                "description": "Duration the samples were held at the target temperature."
+            }
+        ],
+        "relations": [
+            {
+                "source": "The effect of heating factors on the properties of heat-induced surimi gel under ohmic heating",
+                "target": "Food Science and Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Thi Van",
+                "target": "Nha Trang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hong Ngan",
+                "target": "Nha Trang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Emiko Okazaki",
+                "target": "Tokyo University of Marine Science and Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ohmic heating",
+                "target": "Gelation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ohmic heating",
+                "target": "Heating rates (3, 5, 10, 40, 80 and 120 oC/min)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ohmic heating",
+                "target": "Energy efficiency (>90%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Sodium chloride (NaCl)",
+                "target": "Electrical conductivity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Conventional water-bath heating",
+                "target": "Gelation",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

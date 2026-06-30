@@ -1,0 +1,165 @@
+{
+  "filename": "01-704-LE THI TU ANH(1-9)286.json",
+  "paper_title": "Resistance of Citrus species (Citrus spp.) to the root lesion nematode Pratylenchus sp",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Resistance of Citrus species",
+        "type": "Concept",
+        "description": "The ability of various citrus species to withstand the root lesion nematode Pratylenchus sp."
+      },
+      {
+        "id": "Rootstock selection",
+        "type": "Concept",
+        "description": "The process of choosing appropriate root systems for grafting in citrus cultivation."
+      },
+      {
+        "id": "Reproductive Index (RI)",
+        "type": "Concept",
+        "description": "A metric used to classify the resistance capability of species based on nematode reproduction."
+      },
+      {
+        "id": "Agricultural Science",
+        "type": "Domain",
+        "description": "The primary research field focusing on crop resistance and nematode management."
+      },
+      {
+        "id": "Le Thi Tu Anh",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Quoc Si",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "La Hoang Chau",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Nguyen Ba Phu",
+        "type": "Author",
+        "description": "Corresponding author of the study."
+      },
+      {
+        "id": "College of Agriculture, Can Tho University",
+        "type": "Institution",
+        "description": "Academic institution in Viet Nam."
+      },
+      {
+        "id": "ATREM Science and Technology Co. Ltd",
+        "type": "Institution",
+        "description": "Private science and technology company in Viet Nam."
+      },
+      {
+        "id": "Completely randomized design",
+        "type": "Method",
+        "description": "Experimental setup involving 19 treatments and 30 repeats."
+      },
+      {
+        "id": "Nematode extraction protocol",
+        "type": "Method",
+        "description": "A procedure involving a blender and sieves to isolate nematodes from roots and soil."
+      },
+      {
+        "id": "Toshiba blender (MX-60T)",
+        "type": "Method",
+        "description": "Equipment used for the renovated grinding method of nematode extraction."
+      },
+      {
+        "id": "Olympus CX23 microscope",
+        "type": "Method",
+        "description": "Instrument used for counting nematode populations."
+      },
+      {
+        "id": "Duncan Post-hoc tests",
+        "type": "Method",
+        "description": "Statistical analysis used for grouping citrus species by resistance."
+      },
+      {
+        "id": "Lime water (Ca(OH)2 0.2%)",
+        "type": "Method",
+        "description": "Chemical solution used to treat growing media and roots."
+      },
+      {
+        "id": "Correlation coefficient r (0.509)",
+        "type": "Metric",
+        "description": "Statistical value showing the positive correlation between nematode densities in media and roots."
+      },
+      {
+        "id": "pH range (6-7)",
+        "type": "Metric",
+        "description": "The adjusted acidity level of the growing medium."
+      },
+      {
+        "id": "Relative humidity (roughly 80%)",
+        "type": "Metric",
+        "description": "Moisturization level maintained for the growing media."
+      },
+      {
+        "id": "Nematode density in P. trifoliatus (1,509 individuals/g of roots)",
+        "type": "Metric",
+        "description": "Measurement value indicating susceptibility of the specific species."
+      },
+      {
+        "id": "Crop yield losses (up to 85%)",
+        "type": "Metric",
+        "description": "Potential impact of Pratylenchus species on citrus production."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Resistance of Citrus species",
+        "target": "Agricultural Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Le Thi Tu Anh",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Quoc Si",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "La Hoang Chau",
+        "target": "ATREM Science and Technology Co. Ltd",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Ba Phu",
+        "target": "College of Agriculture, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Completely randomized design",
+        "target": "Resistance of Citrus species",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Nematode extraction protocol",
+        "target": "Nematode density in P. trifoliatus (1,509 individuals/g of roots)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Duncan Post-hoc tests",
+        "target": "Correlation coefficient r (0.509)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Lime water (Ca(OH)2 0.2%)",
+        "target": "pH range (6-7)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Toshiba blender (MX-60T)",
+        "target": "Nematode extraction protocol",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

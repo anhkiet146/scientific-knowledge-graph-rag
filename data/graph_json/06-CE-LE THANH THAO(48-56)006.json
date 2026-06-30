@@ -1,0 +1,135 @@
+{
+  "filename": "06-CE-LE THANH THAO(48-56)006.json",
+  "paper_title": "ELT pedagogical reforms: EFL high-school teachers' perceptions and responses",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "ELT pedagogical reforms",
+        "type": "Concept",
+        "description": "Educational changes focused on transforming English language teaching pedagogy from traditional to new forms."
+      },
+      {
+        "id": "Teachers' perceptions",
+        "type": "Concept",
+        "description": "The overall understanding, beliefs, and awareness of high-school teachers regarding pedagogical reforms."
+      },
+      {
+        "id": "Mixed methods approach",
+        "type": "Method",
+        "description": "A research design combining both quantitative and qualitative methods (questionnaire and interviews)."
+      },
+      {
+        "id": "Questionnaires",
+        "type": "Method",
+        "description": "A tool consisting of 34 items using Likert-scales sent via Google Form to collect data."
+      },
+      {
+        "id": "Semi-structured individual interviews",
+        "type": "Method",
+        "description": "Interviews conducted online via Zalo, Zoom, and Skype to gain deeper insights."
+      },
+      {
+        "id": "One-Sample T-Test",
+        "type": "Method",
+        "description": "Statistical test used to compare the mean scores against a test value of 3.50."
+      },
+      {
+        "id": "Data from 102 EFL teachers",
+        "type": "Dataset",
+        "description": "Quantitative and qualitative data collected from 102 teachers in the Mekong Delta."
+      },
+      {
+        "id": "Mean score of overall perceptions (M = 3.80)",
+        "type": "Metric",
+        "description": "Relatively high score indicating teachers' awareness of reforms."
+      },
+      {
+        "id": "Mean score of understanding (M = 4.28)",
+        "type": "Metric",
+        "description": "High level of knowledge regarding definitions and needs for ELT reforms."
+      },
+      {
+        "id": "Mean score of practice (M = 3.68)",
+        "type": "Metric",
+        "description": "Metric indicating that teachers' actual implementation is above average but lower than understanding."
+      },
+      {
+        "id": "P < 0.05",
+        "type": "Metric",
+        "description": "Statistical significance level used to validate the results."
+      },
+      {
+        "id": "English Language Teaching (ELT)",
+        "type": "Domain",
+        "description": "The field of education focused on teaching English to non-native speakers."
+      },
+      {
+        "id": "Le Thanh Thao",
+        "type": "Author",
+        "description": "Master student and lead researcher of the study."
+      },
+      {
+        "id": "Le Xuan Mai",
+        "type": "Author",
+        "description": "Corresponding author and academic supervisor."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "The primary university affiliation for the authors in Vietnam."
+      },
+      {
+        "id": "School of Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "The specific academic unit of the corresponding author."
+      }
+    ],
+    "relations": [
+      {
+        "source": "ELT pedagogical reforms",
+        "target": "English Language Teaching (ELT)",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Mixed methods approach",
+        "target": "ELT pedagogical reforms",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Data from 102 EFL teachers",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Semi-structured individual interviews",
+        "target": "Data from 102 EFL teachers",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "One-Sample T-Test",
+        "target": "Mean score of overall perceptions (M = 3.80)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "One-Sample T-Test",
+        "target": "P < 0.05",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Questionnaires",
+        "target": "Mean score of understanding (M = 4.28)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Le Thanh Thao",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Xuan Mai",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

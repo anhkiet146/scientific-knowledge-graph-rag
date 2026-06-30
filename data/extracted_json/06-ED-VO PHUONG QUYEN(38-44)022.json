@@ -1,0 +1,170 @@
+{
+    "filename": "06-ED-VO PHUONG QUYEN(38-44)022.json",
+    "paper_title": "Challenges to speaking skills encountered by English-majored students: A story of one Vietnamese university in the Mekong Delta",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "English Language Teaching (EFL)",
+                "type": "Domain",
+                "description": "The field of teaching and learning English as a foreign language in a tertiary context."
+            },
+            {
+                "id": "Vo Phuong Quyen",
+                "type": "Author",
+                "description": "Author from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Pham Thi My Nga",
+                "type": "Author",
+                "description": "Author from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Ho Thao Nguyen",
+                "type": "Author",
+                "description": "Author from the School of Foreign Languages, Can Tho University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "A university located in the Mekong Delta, Vietnam."
+            },
+            {
+                "id": "Challenges to speaking skills",
+                "type": "Concept",
+                "description": "Internal and external factors hindering English-majored freshmen from achieving fluency."
+            },
+            {
+                "id": "English speaking proficiency",
+                "type": "Concept",
+                "description": "The ability of students to speak English fluently and accurately for communication."
+            },
+            {
+                "id": "Mixed method",
+                "type": "Method",
+                "description": "Research design combining qualitative and quantitative data analysis."
+            },
+            {
+                "id": "Questionnaire",
+                "type": "Method",
+                "description": "A 26-item tool on a 3-point Likert scale used to collect data from 131 students."
+            },
+            {
+                "id": "Individual interviews",
+                "type": "Method",
+                "description": "Semi-structured interviews conducted with lecturers to gain insights."
+            },
+            {
+                "id": "Focus group interviews",
+                "type": "Method",
+                "description": "Qualitative data collection with two groups of student participants."
+            },
+            {
+                "id": "Class observation",
+                "type": "Method",
+                "description": "Direct observation of four English speaking classes."
+            },
+            {
+                "id": "Survey data from 131 students",
+                "type": "Dataset",
+                "description": "Quantitative results collected from the student questionnaire."
+            },
+            {
+                "id": "Cronbach's alpha (0.811)",
+                "type": "Metric",
+                "description": "Reliability coefficient for the questionnaire used in the study."
+            },
+            {
+                "id": "Lacking vocabulary (79.4%)",
+                "type": "Metric",
+                "description": "Percentage of participants identifying vocabulary as a major internal difficulty."
+            },
+            {
+                "id": "Mother tongue usage (73.3%)",
+                "type": "Metric",
+                "description": "Percentage of students agreeing that native language use limits proficiency."
+            },
+            {
+                "id": "Limitation of native lecturers (68.7%)",
+                "type": "Metric",
+                "description": "Agreement rate on the lack of native teachers as an external factor."
+            },
+            {
+                "id": "English speaking strategies limitation (65%)",
+                "type": "Metric",
+                "description": "Percentage of students identifying strategy limitation as a problem."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Challenges to speaking skills",
+                "target": "English Language Teaching (EFL)",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Vo Phuong Quyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Thi My Nga",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Thao Nguyen",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Mixed method",
+                "target": "Challenges to speaking skills",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Cronbach's alpha (0.811)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Lacking vocabulary (79.4%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Mother tongue usage (73.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Limitation of native lecturers (68.7%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "English speaking strategies limitation (65%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Questionnaire",
+                "target": "Survey data from 131 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Individual interviews",
+                "target": "Challenges to speaking skills",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Focus group interviews",
+                "target": "Challenges to speaking skills",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Class observation",
+                "target": "Challenges to speaking skills",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

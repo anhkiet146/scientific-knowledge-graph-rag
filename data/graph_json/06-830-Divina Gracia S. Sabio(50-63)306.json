@@ -1,0 +1,170 @@
+{
+  "filename": "06-830-Divina Gracia S. Sabio(50-63)306.json",
+  "paper_title": "A comparative study of teaching internship practices: Insights from Can Tho University and Quirino State University",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Teacher Education",
+        "type": "Domain",
+        "description": "The primary field of research concerning the preparation and professional development of teachers."
+      },
+      {
+        "id": "Divina Gracia S. Sabio",
+        "type": "Author",
+        "description": "First author of the study from Quirino State University."
+      },
+      {
+        "id": "Agaton P. Pattalitan, Jr.",
+        "type": "Author",
+        "description": "Author of the study from Quirino State University."
+      },
+      {
+        "id": "Huynh Thi Thuy Diem",
+        "type": "Author",
+        "description": "Corresponding author from Can Tho University."
+      },
+      {
+        "id": "Mai Phuc Thinh",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "College of Teacher Education, Quirino State University",
+        "type": "Institution",
+        "description": "Educational institution in the Philippines."
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      },
+      {
+        "id": "Teaching internship practices",
+        "type": "Concept",
+        "description": "Guidelines and implementations of student teaching programs."
+      },
+      {
+        "id": "Pre-service teaching",
+        "type": "Concept",
+        "description": "The bridge between theoretical foundation and actual application for teacher candidates."
+      },
+      {
+        "id": "Qualitative research approach",
+        "type": "Method",
+        "description": "Research methodology used to explore similarities and differences through non-numerical data."
+      },
+      {
+        "id": "Thematic analysis (Braun and Clarke, 2006)",
+        "type": "Method",
+        "description": "Method for identifying and reporting patterns within data."
+      },
+      {
+        "id": "Delve Software",
+        "type": "Method",
+        "description": "Software used for coding qualitative data."
+      },
+      {
+        "id": "Document analysis",
+        "type": "Method",
+        "description": "Data collection method analyzing university guidelines and best practices."
+      },
+      {
+        "id": "Corpus of pre-service teaching practices",
+        "type": "Dataset",
+        "description": "Collection of best practices and implementing guidelines from CTU and QSU."
+      },
+      {
+        "id": "CTU TI Duration (2 months)",
+        "type": "Metric",
+        "description": "The length of time for the teaching internship at Can Tho University."
+      },
+      {
+        "id": "QSU TI Duration (18 weeks)",
+        "type": "Metric",
+        "description": "The length of time for the teaching internship at Quirino State University."
+      },
+      {
+        "id": "CTU TI Units (3 units)",
+        "type": "Metric",
+        "description": "The credit weight of the internship course at CTU."
+      },
+      {
+        "id": "QSU TI Units (6 units)",
+        "type": "Metric",
+        "description": "The credit weight of the internship course at QSU."
+      },
+      {
+        "id": "Evaluation scale (10 points)",
+        "type": "Metric",
+        "description": "The grading system scale used at Can Tho University."
+      },
+      {
+        "id": "Actual daily teaching performance weight (40%)",
+        "type": "Metric",
+        "description": "Evaluation weighting for daily performance at QSU."
+      },
+      {
+        "id": "Actual teaching requirements (25 teachings for BSED)",
+        "type": "Metric",
+        "description": "Specific number of required teaching sessions for QSU BSED students."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Teaching internship practices",
+        "target": "Teacher Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Divina Gracia S. Sabio",
+        "target": "College of Teacher Education, Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Agaton P. Pattalitan, Jr.",
+        "target": "College of Teacher Education, Quirino State University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Thi Thuy Diem",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Mai Phuc Thinh",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Qualitative research approach",
+        "target": "Teaching internship practices",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Thematic analysis (Braun and Clarke, 2006)",
+        "target": "Corpus of pre-service teaching practices",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Document analysis",
+        "target": "Corpus of pre-service teaching practices",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Document analysis",
+        "target": "CTU TI Duration (2 months)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Document analysis",
+        "target": "QSU TI Duration (18 weeks)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Thematic analysis (Braun and Clarke, 2006)",
+        "target": "Actual daily teaching performance weight (40%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

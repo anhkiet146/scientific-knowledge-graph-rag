@@ -1,0 +1,165 @@
+{
+  "filename": "04-AG-NGUYEN VAN VINH(23-30)023.json",
+  "paper_title": "Disease-reducing effects of aqueous leaf extracts of Annona glabra and Wedelia calendulacea on Fusarium basal rot of shallot caused by Fusarium oxysporum",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Plant Pathology",
+        "type": "Domain",
+        "description": "The study of diseases in plants."
+      },
+      {
+        "id": "Fusarium basal rot",
+        "type": "Concept",
+        "description": "A destructive disease of shallot caused by Fusarium oxysporum."
+      },
+      {
+        "id": "Bio-control",
+        "type": "Concept",
+        "description": "Biological control of plant diseases using natural antimicrobial activities."
+      },
+      {
+        "id": "Fusarium oxysporum",
+        "type": "Concept",
+        "description": "The fungal pathogen causing basal rot in shallots."
+      },
+      {
+        "id": "Nguyen Van Vinh",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Lam Tan Hao",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Nguyen Dac Khoa",
+        "type": "Author",
+        "description": "Author of the research paper."
+      },
+      {
+        "id": "Biotechnology Research and Development Institute",
+        "type": "Institution",
+        "description": "Affiliated institute of the authors."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Affiliated university of the authors."
+      },
+      {
+        "id": "Aqueous leaf extract of Annona glabra",
+        "type": "Method",
+        "description": "Extract used for its antifungal properties against F. oxysporum."
+      },
+      {
+        "id": "Aqueous leaf extract of Wedelia calendulacea",
+        "type": "Method",
+        "description": "Extract used for its inhibitory effects on mycelial growth."
+      },
+      {
+        "id": "Disc diffusion assay",
+        "type": "Method",
+        "description": "Laboratory method to measure inhibitory effects on mycelial growth."
+      },
+      {
+        "id": "Soil drenching",
+        "type": "Method",
+        "description": "Application method used under net house conditions."
+      },
+      {
+        "id": "Inhibitory effect on mycelial growth of F. oxysporum (25.7%)",
+        "type": "Metric",
+        "description": "Maximum inhibition achieved by A. glabra extract."
+      },
+      {
+        "id": "Suppression in germination (95.3%)",
+        "type": "Metric",
+        "description": "Suppression of conidia germination by A. glabra extract."
+      },
+      {
+        "id": "Disease reduction in infected bulbs (100% at 37 DAP)",
+        "type": "Metric",
+        "description": "Maximum reduction in disease incidence at 5% A. glabra concentration."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Aqueous leaf extract of Annona glabra",
+        "target": "Plant Pathology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Van Vinh",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Vinh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lam Tan Hao",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lam Tan Hao",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Dac Khoa",
+        "target": "Biotechnology Research and Development Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Dac Khoa",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Aqueous leaf extract of Annona glabra",
+        "target": "Inhibitory effect on mycelial growth of F. oxysporum (25.7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Aqueous leaf extract of Annona glabra",
+        "target": "Suppression in germination (95.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Aqueous leaf extract of Annona glabra",
+        "target": "Disease reduction in infected bulbs (100% at 37 DAP)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Aqueous leaf extract of Wedelia calendulacea",
+        "target": "Inhibitory effect on mycelial growth of F. oxysporum (25.7%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Aqueous leaf extract of Annona glabra",
+        "target": "Fusarium basal rot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Aqueous leaf extract of Wedelia calendulacea",
+        "target": "Fusarium basal rot",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Soil drenching",
+        "target": "Bio-control",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Disc diffusion assay",
+        "target": "Fusarium oxysporum",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

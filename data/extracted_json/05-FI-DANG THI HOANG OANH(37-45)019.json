@@ -1,0 +1,165 @@
+{
+    "filename": "05-FI-DANG THI HOANG OANH(37-45)019.json",
+    "paper_title": "Disease incidence in shrimp farms located in east coastal region of the Mekong Delta, Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Disease incidence in shrimp farms located in east coastal region of the Mekong Delta, Viet Nam",
+                "type": "Concept",
+                "description": "The main research topic focusing on the frequency and occurrence of shrimp diseases."
+            },
+            {
+                "id": "Dang Thi Hoang Oanh",
+                "type": "Author",
+                "description": "Corresponding author from Can Tho University."
+            },
+            {
+                "id": "Truong Quoc Phu",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "Nguyen Thanh Phuong",
+                "type": "Author",
+                "description": "Co-author from Can Tho University."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Viet Nam."
+            },
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The primary research field."
+            },
+            {
+                "id": "Acute hepatopancreatic necrosis disease (AHPND)",
+                "type": "Concept",
+                "description": "A severe bacterial disease impacting shrimp farming."
+            },
+            {
+                "id": "White feces disease",
+                "type": "Concept",
+                "description": "A common disease in cultured shrimp characterized by white fecal strings."
+            },
+            {
+                "id": "White spot disease",
+                "type": "Concept",
+                "description": "A viral disease appearing during low temperature seasons."
+            },
+            {
+                "id": "Field study",
+                "type": "Method",
+                "description": "The overarching research approach involving water quality and disease monitoring."
+            },
+            {
+                "id": "Bacterial isolation and identification",
+                "type": "Method",
+                "description": "Laboratory process using TCBS agar and Gram-staining."
+            },
+            {
+                "id": "PCR detection",
+                "type": "Method",
+                "description": "Molecular technique using AP3 primers to identify V. parahaemolyticus."
+            },
+            {
+                "id": "Mercury thermometer",
+                "type": "Method",
+                "description": "Equipment used for measuring water temperature."
+            },
+            {
+                "id": "Refractometer",
+                "type": "Method",
+                "description": "Equipment used for measuring water salinity."
+            },
+            {
+                "id": "pH meter",
+                "type": "Method",
+                "description": "Equipment used for measuring water pH level."
+            },
+            {
+                "id": "Field survey records",
+                "type": "Dataset",
+                "description": "Numerical data collected from 960 samples over 8 months."
+            },
+            {
+                "id": "Highest prevalence in July (39.2%)",
+                "type": "Metric",
+                "description": "Peak occurrence rate of white feces disease."
+            },
+            {
+                "id": "Lowest prevalence in September (4.9%)",
+                "type": "Metric",
+                "description": "Minimum occurrence rate of white feces disease."
+            },
+            {
+                "id": "Total samples (960)",
+                "type": "Metric",
+                "description": "The total number of shrimp samples collected."
+            },
+            {
+                "id": "Incubation temperature (28 o C)",
+                "type": "Metric",
+                "description": "The specific temperature used for bacterial culture."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Disease incidence in shrimp farms located in east coastal region of the Mekong Delta, Viet Nam",
+                "target": "Aquaculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Dang Thi Hoang Oanh",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Quoc Phu",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thanh Phuong",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Field study",
+                "target": "Total samples (960)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Field study",
+                "target": "Highest prevalence in July (39.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Field study",
+                "target": "Lowest prevalence in September (4.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Bacterial isolation and identification",
+                "target": "Incubation temperature (28 o C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PCR detection",
+                "target": "Acute hepatopancreatic necrosis disease (AHPND)",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Field study",
+                "target": "White feces disease",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Field study",
+                "target": "Field survey records",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

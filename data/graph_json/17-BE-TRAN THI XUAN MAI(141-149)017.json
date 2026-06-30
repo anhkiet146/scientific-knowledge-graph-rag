@@ -1,0 +1,185 @@
+{
+  "filename": "17-BE-TRAN THI XUAN MAI(141-149)017.json",
+  "paper_title": "DEVELOPMENT OF AN EFFICIENT in vitro PLANT REGENERATION PROTOCOL FOR INDICA RICE VARIETIES (Oryza sativa L.) IN THE MEKONG DELTA OF VIETNAM",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tran Thi Xuan Mai",
+        "type": "Author",
+        "description": "Researcher at Biotechnology Research and Development Institute, Can Tho University."
+      },
+      {
+        "id": "Nguyen Thi Lien",
+        "type": "Author",
+        "description": "Researcher at Biotechnology Research and Development Institute, Can Tho University."
+      },
+      {
+        "id": "Tran Thi Cuc Hoa",
+        "type": "Author",
+        "description": "Researcher at Omon Rice Institute, Vietnam."
+      },
+      {
+        "id": "Geert Angenon",
+        "type": "Author",
+        "description": "Researcher at Laboratory of plant genetics, Vrije Universiteit Brussel, Belgium."
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "Academic and research institution in Vietnam."
+      },
+      {
+        "id": "Omon Rice Institute",
+        "type": "Institution",
+        "description": "Agricultural research institute in Vietnam."
+      },
+      {
+        "id": "Laboratory of plant genetics, Vrije Universiteit Brussel",
+        "type": "Institution",
+        "description": "Genetics laboratory in Belgium."
+      },
+      {
+        "id": "Biotechnology",
+        "type": "Domain",
+        "description": "The primary field of research involving plant tissue culture and genetic engineering."
+      },
+      {
+        "id": "in vitro Plant Regeneration",
+        "type": "Concept",
+        "description": "The process of regenerating whole plants from tissue culture."
+      },
+      {
+        "id": "Callus Induction",
+        "type": "Concept",
+        "description": "The formation of unorganized cell masses from plant explants."
+      },
+      {
+        "id": "MS (Murashige and Skoog) Medium",
+        "type": "Method",
+        "description": "A plant growth medium used for in vitro cell culture."
+      },
+      {
+        "id": "N6 Chu Medium",
+        "type": "Method",
+        "description": "A basal medium specifically developed for cereal tissue culture."
+      },
+      {
+        "id": "2,4-D",
+        "type": "Method",
+        "description": "A synthetic auxin used to induce callus formation."
+      },
+      {
+        "id": "BAP (6-Benzylaminopurine)",
+        "type": "Method",
+        "description": "A cytokinin used for shoot induction."
+      },
+      {
+        "id": "NAA (1-Naphthaleneacetic acid)",
+        "type": "Method",
+        "description": "A synthetic plant hormone in the auxin family."
+      },
+      {
+        "id": "Proline",
+        "type": "Method",
+        "description": "An amino acid used as a nitrogen source to enhance callus growth."
+      },
+      {
+        "id": "Casein hydrolysate",
+        "type": "Method",
+        "description": "A complex organic supplement used in culture media."
+      },
+      {
+        "id": "Sorbitol",
+        "type": "Method",
+        "description": "An osmotic agent used to enhance shoot regeneration."
+      },
+      {
+        "id": "ANOVA",
+        "type": "Method",
+        "description": "Statistical analysis of variance used for experimental data evaluation."
+      },
+      {
+        "id": "Callus induction frequency (46% in IR64)",
+        "type": "Metric",
+        "description": "Measurement of successful callus formation from IR64 seeds on MS medium."
+      },
+      {
+        "id": "Callus induction frequency (44.7% in MTL250)",
+        "type": "Metric",
+        "description": "Measurement of successful callus formation from MTL250 seeds on MS medium."
+      },
+      {
+        "id": "Shoot induction frequency (46.3% in IR64)",
+        "type": "Metric",
+        "description": "Measurement of successful shoot regeneration for IR64 on SIM-B1 medium."
+      },
+      {
+        "id": "Shoot induction frequency (37.0% in MTL250)",
+        "type": "Metric",
+        "description": "Measurement of successful shoot regeneration for MTL250 on SIM-B1 medium."
+      },
+      {
+        "id": "pH (5.7-5.8)",
+        "type": "Metric",
+        "description": "Acidity/alkalinity level of the culture media."
+      }
+    ],
+    "relations": [
+      {
+        "source": "DEVELOPMENT OF AN EFFICIENT in vitro PLANT REGENERATION PROTOCOL FOR INDICA RICE VARIETIES",
+        "target": "Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Thi Xuan Mai",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thi Lien",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Thi Cuc Hoa",
+        "target": "Omon Rice Institute",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Geert Angenon",
+        "target": "Laboratory of plant genetics, Vrije Universiteit Brussel",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "MS (Murashige and Skoog) Medium",
+        "target": "Callus induction frequency (46% in IR64)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MS (Murashige and Skoog) Medium",
+        "target": "Callus induction frequency (44.7% in MTL250)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "BAP (6-Benzylaminopurine)",
+        "target": "Shoot induction frequency (46.3% in IR64)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MS (Murashige and Skoog) Medium",
+        "target": "Callus Induction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sorbitol",
+        "target": "in vitro Plant Regeneration",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "ANOVA",
+        "target": "Callus induction frequency (46% in IR64)",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

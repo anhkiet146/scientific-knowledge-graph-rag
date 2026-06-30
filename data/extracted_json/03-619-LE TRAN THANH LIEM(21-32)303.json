@@ -1,0 +1,175 @@
+{
+    "filename": "03-619-LE TRAN THANH LIEM(21-32)303.json",
+    "paper_title": "Greenhouse gases emission trade-offs for benefits gain -An analysis from paddy rice and upland crops cultivation in Hau Giang province, Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Agriculture",
+                "type": "Domain",
+                "description": "The main research field of the paper focusing on crop cultivation and environmental impact."
+            },
+            {
+                "id": "Environmental Science",
+                "type": "Domain",
+                "description": "Research related to greenhouse gas emissions and carbon footprint."
+            },
+            {
+                "id": "Le Tran Thanh Liem",
+                "type": "Author",
+                "description": "Author from Rural Technology Department, College of Rural Development, Can Tho University."
+            },
+            {
+                "id": "Pham Ngoc Nhan",
+                "type": "Author",
+                "description": "Corresponding author from College of Economics and Law, Tra Vinh University."
+            },
+            {
+                "id": "Nguyen Thi Kim Phuoc",
+                "type": "Author",
+                "description": "Author from Department of Natural Resources, Faculty of Natural Resources - Environment, Kien Giang University."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Viet Nam."
+            },
+            {
+                "id": "Tra Vinh University",
+                "type": "Institution",
+                "description": "University located in Viet Nam."
+            },
+            {
+                "id": "Kien Giang University",
+                "type": "Institution",
+                "description": "University located in Viet Nam."
+            },
+            {
+                "id": "Carbon balance",
+                "type": "Concept",
+                "description": "The equilibrium between carbon inputs and outputs in agricultural systems."
+            },
+            {
+                "id": "Greenhouse gases (GHGs) emission",
+                "type": "Concept",
+                "description": "Emission of gases that contribute to the greenhouse effect."
+            },
+            {
+                "id": "Life cycle assessment (LCA) methodology",
+                "type": "Method",
+                "description": "A technique to assess environmental impacts associated with all the stages of a product's life."
+            },
+            {
+                "id": "Walkley-Black method",
+                "type": "Method",
+                "description": "A method used for plant biomass carbon analysis."
+            },
+            {
+                "id": "IPCC coefficients guideline",
+                "type": "Method",
+                "description": "Guidelines used to convert emissions to CO2 equivalents."
+            },
+            {
+                "id": "Paddy rice (PR) cultivation",
+                "type": "Method",
+                "description": "The process of growing rice in flooded fields."
+            },
+            {
+                "id": "Corn cultivation",
+                "type": "Method",
+                "description": "The process of growing corn as an upland crop."
+            },
+            {
+                "id": "FAOSTAST database",
+                "type": "Dataset",
+                "description": "A database for rice production and emission data."
+            },
+            {
+                "id": "Survey of 240 households",
+                "type": "Dataset",
+                "description": "Primary data collected in Long My district, Hau Giang province."
+            },
+            {
+                "id": "Net carbon source (1,280.9–18,915 kg-C ha–1)",
+                "type": "Metric",
+                "description": "The resulting range of carbon sequestration for PR and upland crops."
+            },
+            {
+                "id": "Emission trade-offs per calorie (115.19–501.81 mg-CO2e)",
+                "type": "Metric",
+                "description": "The amount of CO2 equivalent traded to gain one calorie from grain."
+            },
+            {
+                "id": "Carbon sustainability index of corn (13.2)",
+                "type": "Metric",
+                "description": "Measure of sustainability for corn cultivation."
+            },
+            {
+                "id": "GHGs emission of rice (7,514.2 kg-CO2e ha-1)",
+                "type": "Metric",
+                "description": "Total greenhouse gas emissions from paddy rice farming."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Tran Thanh Liem",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Ngoc Nhan",
+                "target": "Tra Vinh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Kim Phuoc",
+                "target": "Kien Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Life cycle assessment (LCA) methodology",
+                "target": "Agriculture",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Life cycle assessment (LCA) methodology",
+                "target": "Carbon balance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Life cycle assessment (LCA) methodology",
+                "target": "Net carbon source (1,280.9–18,915 kg-C ha–1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Life cycle assessment (LCA) methodology",
+                "target": "Emission trade-offs per calorie (115.19–501.81 mg-CO2e)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Paddy rice (PR) cultivation",
+                "target": "GHGs emission of rice (7,514.2 kg-CO2e ha-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Corn cultivation",
+                "target": "Carbon sustainability index of corn (13.2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Walkley-Black method",
+                "target": "Carbon balance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Paddy rice (PR) cultivation",
+                "target": "Survey of 240 households",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Greenhouse gases (GHGs) emission",
+                "target": "FAOSTAST database",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

@@ -1,0 +1,175 @@
+{
+  "filename": "14-NS-TRAN THANH MEN(106-110)030.json",
+  "paper_title": "A simple spectrophotometric method for quantifying total lipids in plants and animals",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Lipid Analysis",
+        "type": "Domain",
+        "description": "The research field focused on the quantification and study of lipid compounds."
+      },
+      {
+        "id": "Tran Thanh Men",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Quoc Chau Thanh",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Nguyen Dinh Hai Yen",
+        "type": "Author",
+        "description": "Author from Kyoto Institute of Technology."
+      },
+      {
+        "id": "Tran Duy Binh",
+        "type": "Author",
+        "description": "Author from Kyoto Institute of Technology."
+      },
+      {
+        "id": "Dai Thi Xuan Trang",
+        "type": "Author",
+        "description": "Author from Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University in Vietnam."
+      },
+      {
+        "id": "Kyoto Institute of Technology",
+        "type": "Institution",
+        "description": "Institute in Japan."
+      },
+      {
+        "id": "Total lipid quantification",
+        "type": "Concept",
+        "description": "The process of measuring the total amount of lipids in a biological sample."
+      },
+      {
+        "id": "Spectrophotometric methods",
+        "type": "Method",
+        "description": "A method to measure how much a chemical substance absorbs light."
+      },
+      {
+        "id": "Colorimetric sulfo-phosphovanillin (SPV) assay",
+        "type": "Method",
+        "description": "A rapid and economical assay developed to quantify total lipids."
+      },
+      {
+        "id": "96-well microplate",
+        "type": "Method",
+        "description": "A flat plate with multiple wells used as small test tubes."
+      },
+      {
+        "id": "SH-1200 microplate reader",
+        "type": "Method",
+        "description": "Equipment used to measure absorbance in microplates."
+      },
+      {
+        "id": "Sulfuric acid",
+        "type": "Method",
+        "description": "Chemical reagent used in the lipid reaction."
+      },
+      {
+        "id": "Phospho-vanillin reagent",
+        "type": "Method",
+        "description": "Reagent mixture of vanillin and phosphoric acid for color development."
+      },
+      {
+        "id": "Chloroform/methanol",
+        "type": "Method",
+        "description": "Solvent mixture used for lipid extraction."
+      },
+      {
+        "id": "Soybean oil",
+        "type": "Method",
+        "description": "Standard lipid material used for plant-based comparisons."
+      },
+      {
+        "id": "Triolein",
+        "type": "Method",
+        "description": "Standard triglyceride material used for lipid quantification."
+      },
+      {
+        "id": "Correlation coefficient of Soybean oil (0.9999)",
+        "type": "Metric",
+        "description": "R-squared value showing the linear relationship for soybean oil."
+      },
+      {
+        "id": "Correlation coefficient of Triolein (0.9924)",
+        "type": "Metric",
+        "description": "R-squared value showing the linear relationship for triolein."
+      },
+      {
+        "id": "Absorbance wavelength (400-600 nm)",
+        "type": "Metric",
+        "description": "The specific wavelength used for measuring the pink-colored complex."
+      },
+      {
+        "id": "Analysis time (< 2 hours)",
+        "type": "Metric",
+        "description": "The duration required to analyze a large number of samples."
+      },
+      {
+        "id": "Sample volume (< 100 μL)",
+        "type": "Metric",
+        "description": "Recommended volume to ensure complete reaction."
+      }
+    ],
+    "relations": [
+      {
+        "source": "A simple spectrophotometric method for quantifying total lipids in plants and animals",
+        "target": "Lipid Analysis",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Thanh Men",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Quoc Chau Thanh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Dai Thi Xuan Trang",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Dinh Hai Yen",
+        "target": "Kyoto Institute of Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Duy Binh",
+        "target": "Kyoto Institute of Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Colorimetric sulfo-phosphovanillin (SPV) assay",
+        "target": "Total lipid quantification",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Colorimetric sulfo-phosphovanillin (SPV) assay",
+        "target": "Correlation coefficient of Soybean oil (0.9999)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Colorimetric sulfo-phosphovanillin (SPV) assay",
+        "target": "Correlation coefficient of Triolein (0.9924)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Colorimetric sulfo-phosphovanillin (SPV) assay",
+        "target": "Analysis time (< 2 hours)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

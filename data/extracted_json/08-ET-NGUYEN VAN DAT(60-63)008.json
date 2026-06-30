@@ -1,0 +1,155 @@
+{
+    "filename": "08-ET-NGUYEN VAN DAT(60-63)008.json",
+    "paper_title": "The preparation of Ca 2+ -selective electrodes",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Ion-selective electrode (ISE)",
+                "type": "Concept",
+                "description": "Electrochemical sensors for potentiometric determination of ionic species."
+            },
+            {
+                "id": "Potentiometric determination",
+                "type": "Concept",
+                "description": "The measurement of the activity of an ionic species using electrochemical sensors."
+            },
+            {
+                "id": "Nernst equation",
+                "type": "Concept",
+                "description": "Theory governing the potential of indicator electrodes in galvanic cells."
+            },
+            {
+                "id": "Analytical Chemistry",
+                "type": "Domain",
+                "description": "The primary field of research concerning chemical measurements."
+            },
+            {
+                "id": "Electrochemistry",
+                "type": "Domain",
+                "description": "The study of chemical processes that cause electrons to move."
+            },
+            {
+                "id": "Nguyen Van Dat",
+                "type": "Author",
+                "description": "Primary researcher and corresponding author."
+            },
+            {
+                "id": "Huynh Thanh Tuan",
+                "type": "Author",
+                "description": "Researcher from Can Tho University."
+            },
+            {
+                "id": "Ronny Purwadi",
+                "type": "Author",
+                "description": "Researcher from Institut Teknologi Bandung."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "University located in Vietnam."
+            },
+            {
+                "id": "Institut Teknologi Bandung",
+                "type": "Institution",
+                "description": "University located in Indonesia."
+            },
+            {
+                "id": "Ca2+-selective electrode",
+                "type": "Method",
+                "description": "The specific electrochemical sensor prepared in this study."
+            },
+            {
+                "id": "Single-barrelled microelectrodes",
+                "type": "Method",
+                "description": "Type of electrode structure used for manufacture."
+            },
+            {
+                "id": "Cocktail A",
+                "type": "Method",
+                "description": "Organic liquid membrane material used for the electrode tip."
+            },
+            {
+                "id": "EGTA",
+                "type": "Method",
+                "description": "Ethylene glycol-bis(2-aminoethylether)-N,N,N',N'-tetraacetic acid used for buffering."
+            },
+            {
+                "id": "Digital pH meter benchtop-Orion 3 Star",
+                "type": "Method",
+                "description": "Equipment used for potential measurements."
+            },
+            {
+                "id": "Scanning Electro Microscope Olympus SZ51",
+                "type": "Method",
+                "description": "Equipment used to introduce the sensor into the tip."
+            },
+            {
+                "id": "Lower detection limit (10-6 M)",
+                "type": "Metric",
+                "description": "The minimum concentration of Ca2+ detectable."
+            },
+            {
+                "id": "Nernstian slope (28.57 mV/decade)",
+                "type": "Metric",
+                "description": "The sensitivity of the electrode response."
+            },
+            {
+                "id": "Response time (10 seconds)",
+                "type": "Metric",
+                "description": "The time taken for the electrode to stabilize potential."
+            },
+            {
+                "id": "Dynamic linear range (1x10-6 - 1x10-1 mol L-1)",
+                "type": "Metric",
+                "description": "The range over which the electrode response is linear."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Analytical Chemistry",
+                "target": "Electrochemistry",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Van Dat",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Huynh Thanh Tuan",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ronny Purwadi",
+                "target": "Institut Teknologi Bandung",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ca2+-selective electrode",
+                "target": "Potentiometric determination",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Ca2+-selective electrode",
+                "target": "Lower detection limit (10-6 M)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ca2+-selective electrode",
+                "target": "Nernstian slope (28.57 mV/decade)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ca2+-selective electrode",
+                "target": "Response time (10 seconds)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Ca2+-selective electrode",
+                "target": "Dynamic linear range (1x10-6 - 1x10-1 mol L-1)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

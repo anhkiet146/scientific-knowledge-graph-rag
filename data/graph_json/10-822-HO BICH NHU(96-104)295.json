@@ -1,0 +1,165 @@
+{
+  "filename": "10-822-HO BICH NHU(96-104)295.json",
+  "paper_title": "The effects of implementing the flipped class model on non-English majored students' writing performance",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Ho Bich Nhu",
+        "type": "Author",
+        "description": "Corresponding author from Kien Giang University"
+      },
+      {
+        "id": "Nguyen Van Loi",
+        "type": "Author",
+        "description": "Author from Can Tho University City"
+      },
+      {
+        "id": "Bui Phuong Thao",
+        "type": "Author",
+        "description": "Author from Kien Giang University"
+      },
+      {
+        "id": "Nguyen Van Thong",
+        "type": "Author",
+        "description": "Author from Kien Giang University"
+      },
+      {
+        "id": "Nguyen Trung Cang",
+        "type": "Author",
+        "description": "Author from Kien Giang University"
+      },
+      {
+        "id": "Tien Giang University",
+        "type": "Institution",
+        "description": "University located in Viet Nam"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University located in Can Tho City, Viet Nam"
+      },
+      {
+        "id": "EFL Education",
+        "type": "Domain",
+        "description": "English as a Foreign Language teaching and learning"
+      },
+      {
+        "id": "Writing Performance",
+        "type": "Concept",
+        "description": "The ability of students to produce written work in English"
+      },
+      {
+        "id": "Student-centred learning",
+        "type": "Concept",
+        "description": "Pedagogical approach focusing on the student as the center of the learning process"
+      },
+      {
+        "id": "Flipped class model",
+        "type": "Method",
+        "description": "Pedagogical approach combining in-class discussion with pre-class video instruction"
+      },
+      {
+        "id": "Bloom's Taxonomy",
+        "type": "Method",
+        "description": "Framework used to structure cognitive aspects of learning and writing sessions"
+      },
+      {
+        "id": "Quasi-experimental design",
+        "type": "Method",
+        "description": "Research design involving an experimental group and a control group"
+      },
+      {
+        "id": "LMS Schoology",
+        "type": "Method",
+        "description": "Learning Management System used for delivering materials and interaction"
+      },
+      {
+        "id": "Cambridge Preliminary English Test (PET) format",
+        "type": "Method",
+        "description": "Standardized test format used for data collection instruments"
+      },
+      {
+        "id": "Writing test data of 80 non-English major students",
+        "type": "Dataset",
+        "description": "Numeric scores from pre-tests and post-tests of two student groups"
+      },
+      {
+        "id": "Inter-rater reliability (r=0.99)",
+        "type": "Metric",
+        "description": "Kappa value for writing pre-test scores"
+      },
+      {
+        "id": "EG pre-test mean score (5.18)",
+        "type": "Metric",
+        "description": "Mean score of experimental group before treatment"
+      },
+      {
+        "id": "CG pre-test mean score (5.22)",
+        "type": "Metric",
+        "description": "Mean score of control group before treatment"
+      },
+      {
+        "id": "T-test value (t = -.12)",
+        "type": "Metric",
+        "description": "Statistical result comparing pre-test scores"
+      },
+      {
+        "id": "P-value (p = .90)",
+        "type": "Metric",
+        "description": "Statistical significance for pre-test difference"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ho Bich Nhu",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Phuong Thao",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Thong",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Trung Cang",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Van Loi",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "The effects of implementing the flipped class model on non-English majored students' writing performance",
+        "target": "EFL Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Flipped class model",
+        "target": "Writing Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Flipped class model",
+        "target": "Writing test data of 80 non-English major students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Flipped class model",
+        "target": "EG pre-test mean score (5.18)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Quasi-experimental design",
+        "target": "Inter-rater reliability (r=0.99)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

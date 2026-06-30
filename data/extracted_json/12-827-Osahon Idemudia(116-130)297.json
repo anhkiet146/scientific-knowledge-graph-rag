@@ -1,0 +1,185 @@
+{
+    "filename": "12-827-Osahon Idemudia(116-130)297.json",
+    "paper_title": "Evaluating the performance of Random Forest, Decision Tree, Support Vector Regression and Gradient Boosting for streamflow prediction",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Hydrology",
+                "type": "Domain",
+                "description": "The scientific study of the movement, distribution, and management of water on Earth."
+            },
+            {
+                "id": "Streamflow prediction",
+                "type": "Concept",
+                "description": "The process of estimating the volume of water flowing through a river channel over time."
+            },
+            {
+                "id": "Hydrological modeling",
+                "type": "Concept",
+                "description": "Mathematical representation of the water cycle to simulate river flow and water resources."
+            },
+            {
+                "id": "Random Forest",
+                "type": "Method",
+                "description": "An ensemble learning method for regression that operates by constructing a multitude of decision trees."
+            },
+            {
+                "id": "Decision Tree",
+                "type": "Method",
+                "description": "A non-parametric supervised learning method used for classification and regression."
+            },
+            {
+                "id": "Support Vector Regression",
+                "type": "Method",
+                "description": "A type of Support Vector Machine used for regression challenges."
+            },
+            {
+                "id": "Gradient Boosting",
+                "type": "Method",
+                "description": "A machine learning technique for regression and classification which produces a prediction model in the form of an ensemble of weak prediction models."
+            },
+            {
+                "id": "Soil and Water Assessment Tool",
+                "type": "Method",
+                "description": "A small-watershed to river basin-scale model used to simulate the quality and quantity of surface and ground water."
+            },
+            {
+                "id": "Hydromet System",
+                "type": "Method",
+                "description": "A multi-parameter instrument used for acquiring hourly gage height, temperature, and atmospheric pressure."
+            },
+            {
+                "id": "Min-Max scaling",
+                "type": "Method",
+                "description": "A normalization technique to scale numerical features to a standardized range between 0 and 1."
+            },
+            {
+                "id": "Osahon Idemudia",
+                "type": "Author",
+                "description": "Researcher in the Department of Civil Engineering, University of Benin."
+            },
+            {
+                "id": "Jacob Odeh Ehiorobo",
+                "type": "Author",
+                "description": "Researcher in the Department of Civil Engineering, University of Benin."
+            },
+            {
+                "id": "Osadolor Christopher Izinyon",
+                "type": "Author",
+                "description": "Researcher in the Department of Civil Engineering, University of Benin."
+            },
+            {
+                "id": "Idowu Rudolph Ilaboya",
+                "type": "Author",
+                "description": "Corresponding author from the Department of Civil Engineering, University of Benin."
+            },
+            {
+                "id": "University of Benin",
+                "type": "Institution",
+                "description": "Educational institution in Nigeria."
+            },
+            {
+                "id": "Ikpoba River rating curve data (2015-2020)",
+                "type": "Dataset",
+                "description": "Historical gage and streamflow data used for curve fitting and model calibration."
+            },
+            {
+                "id": "Hydromet System Measurements",
+                "type": "Dataset",
+                "description": "Hourly measurements of gage height, ambient temperature, and atmospheric pressure collected in 2022."
+            },
+            {
+                "id": "Mean Square Error (0.02)",
+                "type": "Metric",
+                "description": "Performance indicator for the Random Forest model."
+            },
+            {
+                "id": "Coefficient of determination (0.98)",
+                "type": "Metric",
+                "description": "Statistical measure representing the proportion of the variance for a dependent variable for Random Forest."
+            },
+            {
+                "id": "Root-Mean-Square Error (0.02)",
+                "type": "Metric",
+                "description": "Performance indicator achieved by both Random Forest and Decision Tree models."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Streamflow prediction",
+                "target": "Hydrology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Random Forest",
+                "target": "Mean Square Error (0.02)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random Forest",
+                "target": "Coefficient of determination (0.98)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random Forest",
+                "target": "Root-Mean-Square Error (0.02)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Decision Tree",
+                "target": "Root-Mean-Square Error (0.02)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Random Forest",
+                "target": "Streamflow prediction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Decision Tree",
+                "target": "Streamflow prediction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Support Vector Regression",
+                "target": "Streamflow prediction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Gradient Boosting",
+                "target": "Streamflow prediction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Soil and Water Assessment Tool",
+                "target": "Streamflow prediction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Random Forest",
+                "target": "Ikpoba River rating curve data (2015-2020)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Osahon Idemudia",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Jacob Odeh Ehiorobo",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Osadolor Christopher Izinyon",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Idowu Rudolph Ilaboya",
+                "target": "University of Benin",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

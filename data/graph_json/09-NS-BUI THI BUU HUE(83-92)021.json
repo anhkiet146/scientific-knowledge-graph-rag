@@ -1,0 +1,135 @@
+{
+  "filename": "09-NS-BUI THI BUU HUE(83-92)021.json",
+  "paper_title": "Docking-Based Virtual Screening for the Discovery of 1,3,4-Oxadiazoles as Aminoacyl-tRNA Synthetase Inhibitors",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Docking-Based Virtual Screening for the Discovery of 1,3,4-Oxadiazoles as Aminoacyl-tRNA Synthetase Inhibitors",
+        "type": "Concept",
+        "description": "The title and core research focus of the paper."
+      },
+      {
+        "id": "Medicinal Chemistry",
+        "type": "Domain",
+        "description": "The primary field of research involving drug discovery and chemical synthesis."
+      },
+      {
+        "id": "Bui Thi Buu Hue",
+        "type": "Author",
+        "description": "Corresponding author of the research paper."
+      },
+      {
+        "id": "Nguyen Cuong Quoc",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "Tran Quang De",
+        "type": "Author",
+        "description": "Co-author of the research paper."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Institution located in Viet Nam where the research was conducted."
+      },
+      {
+        "id": "Aminoacyl-tRNA Synthetase Inhibitors",
+        "type": "Concept",
+        "description": "Targets for the development of antibiotic agents."
+      },
+      {
+        "id": "MetRS inhibitors",
+        "type": "Concept",
+        "description": "Specific inhibitors targeting methionyl-tRNA synthetase."
+      },
+      {
+        "id": "Structure-based virtual screening",
+        "type": "Method",
+        "description": "Computational technique used to identify lead molecules by docking compounds against a protein site."
+      },
+      {
+        "id": "Autodock Vina",
+        "type": "Method",
+        "description": "Molecular docking software used for binding affinity predictions."
+      },
+      {
+        "id": "Gaussview",
+        "type": "Method",
+        "description": "Software used for creating 3D structures of designed compounds."
+      },
+      {
+        "id": "Gaussian 09",
+        "type": "Method",
+        "description": "Computational chemistry software used for energy minimization."
+      },
+      {
+        "id": "6MES",
+        "type": "Dataset",
+        "description": "PDB ID for the crystal structure of methionyl-tRNA synthetase from T. brucei."
+      },
+      {
+        "id": "Binding energy (-24.7 kcal/mol)",
+        "type": "Metric",
+        "description": "The lowest free binding energy achieved by compound 22."
+      },
+      {
+        "id": "RMSD (0.8208 Å)",
+        "type": "Metric",
+        "description": "Root-mean-square deviation value used to validate the docking protocol."
+      },
+      {
+        "id": "IC50 (< 40 nM)",
+        "type": "Metric",
+        "description": "Inhibitory concentration value for compound A as a TbMetRS inhibitor."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Docking-Based Virtual Screening for the Discovery of 1,3,4-Oxadiazoles as Aminoacyl-tRNA Synthetase Inhibitors",
+        "target": "Medicinal Chemistry",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Bui Thi Buu Hue",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Cuong Quoc",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Quang De",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Structure-based virtual screening",
+        "target": "MetRS inhibitors",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Autodock Vina",
+        "target": "6MES",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Autodock Vina",
+        "target": "Binding energy (-24.7 kcal/mol)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Autodock Vina",
+        "target": "RMSD (0.8208 Å)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Gaussian 09",
+        "target": "MetRS inhibitors",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

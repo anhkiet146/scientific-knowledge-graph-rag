@@ -1,0 +1,195 @@
+{
+    "filename": "03-557-A-THAI LE TRUONG GIANG(20-27)016.json",
+    "paper_title": "Enhancement of photocatalytic activity of TIO2 for gaseous toluene removal by simple mechanical mixing with modified zeolite",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Photocatalysis",
+                "type": "Concept",
+                "description": "Lĩnh vực nghiên cứu về sự xúc tác quang học trong việc xử lý khí thải."
+            },
+            {
+                "id": "Volatile organic compounds (VOCs)",
+                "type": "Concept",
+                "description": "Các hợp chất hữu cơ dễ bay hơi được xử lý trong nghiên cứu như toluene, benzene."
+            },
+            {
+                "id": "Gaseous toluene removal",
+                "type": "Concept",
+                "description": "Vấn đề nghiên cứu chính liên quan đến việc loại bỏ toluene trong pha khí."
+            },
+            {
+                "id": "Microwave-assisted method (MWA)",
+                "type": "Method",
+                "description": "Phương pháp sử dụng vi sóng để biến tính zeolite tạo cấu trúc mao quản trung bình."
+            },
+            {
+                "id": "Mechanical mixing",
+                "type": "Method",
+                "description": "Phương pháp trộn cơ học giữa TiO2 và zeolite biến tính."
+            },
+            {
+                "id": "TiO2 (P25)",
+                "type": "Method",
+                "description": "Chất xúc tác quang học thương mại được sử dụng trong thí nghiệm."
+            },
+            {
+                "id": "Mesoporous zeolite Y",
+                "type": "Method",
+                "description": "Vật liệu zeolite sau khi được biến tính để tăng diện tích bề mặt."
+            },
+            {
+                "id": "XRD (D8 ADVANCE)",
+                "type": "Method",
+                "description": "Thiết bị nhiễu xạ tia X dùng để phân tích cấu trúc tinh thể."
+            },
+            {
+                "id": "Quantachrome NOVA 2200E",
+                "type": "Method",
+                "description": "Thiết bị phân tích diện tích bề mặt và thể tích lỗ xốp."
+            },
+            {
+                "id": "Spray coating method",
+                "type": "Method",
+                "description": "Phương pháp phủ xúc tác lên ống phản ứng."
+            },
+            {
+                "id": "External surface area (increased 5 to 10 times)",
+                "type": "Metric",
+                "description": "Chỉ số diện tích bề mặt ngoài tăng sau khi biến tính."
+            },
+            {
+                "id": "Toluene conversion rate (0.205 mmol-1.g-1.TiO2.h-1)",
+                "type": "Metric",
+                "description": "Tỷ lệ chuyển hóa toluene đạt được cao nhất bởi mẫu TiO2-M60."
+            },
+            {
+                "id": "Toluene concentration (314 ppmv)",
+                "type": "Metric",
+                "description": "Nồng độ toluene đầu vào trong thí nghiệm."
+            },
+            {
+                "id": "Optimal mixing ratio (30 wt% TiO2 and 70 wt% zeolite)",
+                "type": "Metric",
+                "description": "Tỷ lệ phối trộn tối ưu cho hiệu quả cao nhất."
+            },
+            {
+                "id": "Chemical Engineering",
+                "type": "Domain",
+                "description": "Lĩnh vực Kỹ thuật Hóa học."
+            },
+            {
+                "id": "Thai Le Truong Giang",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Quang Thi Hue Minh",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Thai Nguyen Trieu Nguyen",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Cu Hoang Minh",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Le Ky Anh",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Mai Hai Nghi",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Le Huy Hoang",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Nguyen Quang Long",
+                "type": "Author",
+                "description": "Tác giả bài báo (tác giả liên hệ)."
+            },
+            {
+                "id": "Ngo Tran Hoang Duong",
+                "type": "Author",
+                "description": "Tác giả bài báo."
+            },
+            {
+                "id": "Ho Chi Minh City University of Technology",
+                "type": "Institution",
+                "description": "Trường Đại học Bách Khoa TP.HCM."
+            },
+            {
+                "id": "Vietnam National University Ho Chi Minh City",
+                "type": "Institution",
+                "description": "Đại học Quốc gia TP.HCM."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Enhancement of photocatalytic activity of TIO2 for gaseous toluene removal by simple mechanical mixing with modified zeolite",
+                "target": "Chemical Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Thai Le Truong Giang",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quang Long",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Quang Long",
+                "target": "Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Tran Hoang Duong",
+                "target": "Ho Chi Minh City University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ngo Tran Hoang Duong",
+                "target": "Vietnam National University Ho Chi Minh City",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Microwave-assisted method (MWA)",
+                "target": "Mesoporous zeolite Y",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Mechanical mixing",
+                "target": "Gaseous toluene removal",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Mechanical mixing",
+                "target": "Toluene conversion rate (0.205 mmol-1.g-1.TiO2.h-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Microwave-assisted method (MWA)",
+                "target": "External surface area (increased 5 to 10 times)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "TiO2 (P25)",
+                "target": "Photocatalysis",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

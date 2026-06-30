@@ -1,0 +1,150 @@
+{
+  "filename": "448-ED-TRAN THI KHANH LAM(32-39)040.json",
+  "paper_title": "Common mistakes in pronouncing English consonant clusters: A case study of Vietnamese learners",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "English Language Teaching (ELT)",
+        "type": "Domain",
+        "description": "The general field of teaching and learning English as a foreign or second language."
+      },
+      {
+        "id": "Phonology",
+        "type": "Domain",
+        "description": "The study of the patterns of sounds in a language, specifically English and Vietnamese in this study."
+      },
+      {
+        "id": "Tran Thi Khanh Lam",
+        "type": "Author",
+        "description": "Author and student at Can Tho University."
+      },
+      {
+        "id": "Nguyen Thu Anh",
+        "type": "Author",
+        "description": "Author and lecturer at the School of Foreign Languages, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational institution in Viet Nam."
+      },
+      {
+        "id": "School of Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "A specific department within Can Tho University."
+      },
+      {
+        "id": "English consonant clusters",
+        "type": "Concept",
+        "description": "Groups of consonants with no intervening vowels, occurring at the onset or coda of a syllable."
+      },
+      {
+        "id": "Pronunciation mistakes",
+        "type": "Concept",
+        "description": "Errors in sound production made by language learners."
+      },
+      {
+        "id": "L1 transfer",
+        "type": "Concept",
+        "description": "The influence of a learner's first language on their acquisition of a second language."
+      },
+      {
+        "id": "Quantitative method",
+        "type": "Method",
+        "description": "A research strategy that focuses on quantifying the collection and analysis of data."
+      },
+      {
+        "id": "Pronunciation test",
+        "type": "Method",
+        "description": "An instrument comprising wordlist, question-response, and long-speech tests to measure phonetic accuracy."
+      },
+      {
+        "id": "Pearson's correlation coefficient",
+        "type": "Method",
+        "description": "A statistical measure used to assess interrater reliability."
+      },
+      {
+        "id": "Descriptive statistics",
+        "type": "Method",
+        "description": "Statistical analysis used to identify common mistake types and frequencies."
+      },
+      {
+        "id": "1080 tokens of consonant clusters",
+        "type": "Dataset",
+        "description": "The numerical dataset derived from the recordings of 36 participants used for mistake identification."
+      },
+      {
+        "id": "FC in CC clusters (77.4%)",
+        "type": "Metric",
+        "description": "Feature Change was the most frequent mistake in two-consonant clusters."
+      },
+      {
+        "id": "Deletion in CCC clusters (78.2%)",
+        "type": "Metric",
+        "description": "The frequency of deleting a consonant in two-consonant clusters."
+      },
+      {
+        "id": "Inter-rater reliability (r=0.99)",
+        "type": "Metric",
+        "description": "The strength of correlation between the two independent examiners."
+      },
+      {
+        "id": "Epenthesis in CCC clusters (5.2%)",
+        "type": "Metric",
+        "description": "The percentage of vowel insertion mistakes in three-consonant clusters."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Common mistakes in pronouncing English consonant clusters: A case study of Vietnamese learners",
+        "target": "English Language Teaching (ELT)",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Common mistakes in pronouncing English consonant clusters: A case study of Vietnamese learners",
+        "target": "Phonology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Thi Khanh Lam",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Thu Anh",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pronunciation test",
+        "target": "English consonant clusters",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Descriptive statistics",
+        "target": "Pronunciation mistakes",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pronunciation test",
+        "target": "1080 tokens of consonant clusters",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Pearson's correlation coefficient",
+        "target": "Inter-rater reliability (r=0.99)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive statistics",
+        "target": "FC in CC clusters (77.4%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive statistics",
+        "target": "Deletion in CCC clusters (78.2%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+    "filename": "08-FT-DUONG THI NGOC DIEP(74-80)008.json",
+    "paper_title": "Impact of temperature and relative humidity on physicochemical properties of the spray dried red flesh pitaya powder during storage",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Food Science and Technology",
+                "type": "Domain",
+                "description": "The primary research field of the paper concerning food processing and storage."
+            },
+            {
+                "id": "Duong Thi Ngoc Diep",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Nguyen Hong Ngoan",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Hoang Quang Binh",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "Institution",
+                "description": "Academic institution located in Ho Chi Minh City, Viet Nam."
+            },
+            {
+                "id": "Physicochemical properties",
+                "type": "Concept",
+                "description": "Physical and chemical characteristics of pitaya powder during storage."
+            },
+            {
+                "id": "Betacyanin degradation",
+                "type": "Concept",
+                "description": "The process of loss or change in betacyanin compounds due to temperature."
+            },
+            {
+                "id": "Moisture sorption isotherms",
+                "type": "Concept",
+                "description": "The relationship between moisture content and water activity at constant temperature."
+            },
+            {
+                "id": "Spray-drying",
+                "type": "Method",
+                "description": "The technique used to produce pitaya powder from flesh and peel extracts."
+            },
+            {
+                "id": "GAB equation",
+                "type": "Method",
+                "description": "Guggenheim-Anderson-de Boer equation used to calculate monolayer moisture content."
+            },
+            {
+                "id": "BET equation",
+                "type": "Method",
+                "description": "Brunauer-Emmett-Teller equation used for moisture sorption analysis."
+            },
+            {
+                "id": "First-order reaction",
+                "type": "Method",
+                "description": "Kinetic model used to describe the degradation of bioactive compounds."
+            },
+            {
+                "id": "Maltodextrin DE10",
+                "type": "Method",
+                "description": "Wall material used in the spray-drying process."
+            },
+            {
+                "id": "Pectinex Ultra SP-L",
+                "type": "Method",
+                "description": "Enzyme used for hydrolysis of pitaya flesh and peel."
+            },
+            {
+                "id": "Experimental storage results",
+                "type": "Dataset",
+                "description": "Numerical data generated from the 40-day storage experiment."
+            },
+            {
+                "id": "Half-life of betacyanin at 50C (71 days)",
+                "type": "Metric",
+                "description": "Measure of stability for betacyanin at high temperature."
+            },
+            {
+                "id": "Half-life of polyphenol at 50C (85 days)",
+                "type": "Metric",
+                "description": "Measure of stability for total phenolic content at high temperature."
+            },
+            {
+                "id": "GAB Mo (4.3%)",
+                "type": "Metric",
+                "description": "Monolayer moisture content calculated via GAB equation."
+            },
+            {
+                "id": "BET Mo (2.2%)",
+                "type": "Metric",
+                "description": "Monolayer moisture content calculated via BET equation."
+            },
+            {
+                "id": "Isotherm curve (y = 3,2655e0,0106x)",
+                "type": "Metric",
+                "description": "The mathematical representation of the pitaya powder moisture sorption."
+            },
+            {
+                "id": "Delta E at 50C (6.8)",
+                "type": "Metric",
+                "description": "The total color difference after 40 days of storage at 50 degrees Celsius."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Impact of temperature and relative humidity on physicochemical properties of the spray dried red flesh pitaya powder during storage",
+                "target": "Food Science and Technology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Duong Thi Ngoc Diep",
+                "target": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Hong Ngoan",
+                "target": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Quang Binh",
+                "target": "Faculty of Chemical Engineering and Food Technology, Nong Lam University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Spray-drying",
+                "target": "Physicochemical properties",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "First-order reaction",
+                "target": "Betacyanin degradation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "GAB equation",
+                "target": "GAB Mo (4.3%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "BET equation",
+                "target": "BET Mo (2.2%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "First-order reaction",
+                "target": "Half-life of betacyanin at 50C (71 days)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "First-order reaction",
+                "target": "Half-life of polyphenol at 50C (85 days)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "GAB equation",
+                "target": "Experimental storage results",
+                "type": "EVALUATED_ON"
+            }
+        ]
+    }
+}

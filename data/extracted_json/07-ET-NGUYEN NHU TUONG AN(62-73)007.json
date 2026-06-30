@@ -1,0 +1,210 @@
+{
+    "filename": "07-ET-NGUYEN NHU TUONG AN(62-73)007.json",
+    "paper_title": "Application of different control algorithms on a 'home-made' temperature control lab kit",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Control Engineering",
+                "type": "Domain",
+                "description": "The main field of research focusing on control systems and algorithms."
+            },
+            {
+                "id": "Nguyen Nhu Tuong An",
+                "type": "Author",
+                "description": "Author from the Faculty of Mechanical Engineering."
+            },
+            {
+                "id": "Tran Nguyen Tuan",
+                "type": "Author",
+                "description": "Student author of Automation & Control Engineering."
+            },
+            {
+                "id": "Pham The Thinh",
+                "type": "Author",
+                "description": "Author from the Faculty of Mechanical Engineering."
+            },
+            {
+                "id": "Do Vinh Quang",
+                "type": "Author",
+                "description": "Corresponding author from the Faculty of Mechanical Engineering."
+            },
+            {
+                "id": "Can Tho University of Technology",
+                "type": "Institution",
+                "description": "The university where the authors are affiliated in Viet Nam."
+            },
+            {
+                "id": "System modelling",
+                "type": "Concept",
+                "description": "The process of representing dynamics of a physical system by mathematical equations."
+            },
+            {
+                "id": "System identification",
+                "type": "Concept",
+                "description": "Deriving a mathematical model from measured input/output data."
+            },
+            {
+                "id": "Classical control",
+                "type": "Concept",
+                "description": "Traditional control theories and methods."
+            },
+            {
+                "id": "Advanced control algorithms",
+                "type": "Concept",
+                "description": "Complex control strategies like Fuzzy logic."
+            },
+            {
+                "id": "Home-made temperature control lab kit",
+                "type": "Method",
+                "description": "A low-cost laboratory kit made from common electronics components including TIP41C heater and LM35 sensor."
+            },
+            {
+                "id": "Matlab/Simulink",
+                "type": "Method",
+                "description": "Software environment used for simulation and verification of mathematical models."
+            },
+            {
+                "id": "On/Off control",
+                "type": "Method",
+                "description": "A simple control algorithm that switches the actuator fully on or off."
+            },
+            {
+                "id": "PID control",
+                "type": "Method",
+                "description": "Proportional-Integral-Derivative control technique tuned using IMC method."
+            },
+            {
+                "id": "Fuzzy control",
+                "type": "Method",
+                "description": "Intelligent control technique based on Mamdani type and centroid defuzzification."
+            },
+            {
+                "id": "FOPDT model",
+                "type": "Method",
+                "description": "First Order Plus Dead Time mathematical model used for system identification."
+            },
+            {
+                "id": "Measured input/output data",
+                "type": "Dataset",
+                "description": "Numerical data recorded from the physical kit's open-loop response for system identification."
+            },
+            {
+                "id": "Temperature deviation (±3°C)",
+                "type": "Metric",
+                "description": "The range of temperature difference between derived models and the physical kit."
+            },
+            {
+                "id": "Process gain K (52)",
+                "type": "Metric",
+                "description": "Identified gain value for the FOPDT model."
+            },
+            {
+                "id": "Processing time constant (120)",
+                "type": "Metric",
+                "description": "Identified time constant value for the FOPDT model."
+            },
+            {
+                "id": "Process time delay (4)",
+                "type": "Metric",
+                "description": "Identified dead time value for the system."
+            },
+            {
+                "id": "Overshoot (10%)",
+                "type": "Metric",
+                "description": "Peak deviation from the setpoint observed in On/Off control."
+            },
+            {
+                "id": "Rise time (50 seconds)",
+                "type": "Metric",
+                "description": "Time taken for the response to reach the vicinity of the setpoint in PID control."
+            },
+            {
+                "id": "Settling time (60 seconds)",
+                "type": "Metric",
+                "description": "Time after which the response stays within a specific range of the setpoint."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Nhu Tuong An",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Nguyen Tuan",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham The Thinh",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Do Vinh Quang",
+                "target": "Can Tho University of Technology",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Home-made temperature control lab kit",
+                "target": "Control Engineering",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Matlab/Simulink",
+                "target": "System modelling",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "FOPDT model",
+                "target": "System identification",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PID control",
+                "target": "Classical control",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Fuzzy control",
+                "target": "Advanced control algorithms",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "FOPDT model",
+                "target": "Measured input/output data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Home-made temperature control lab kit",
+                "target": "Temperature deviation (±3°C)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "FOPDT model",
+                "target": "Process gain K (52)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "FOPDT model",
+                "target": "Process time delay (4)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "On/Off control",
+                "target": "Overshoot (10%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PID control",
+                "target": "Rise time (50 seconds)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "PID control",
+                "target": "Settling time (60 seconds)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

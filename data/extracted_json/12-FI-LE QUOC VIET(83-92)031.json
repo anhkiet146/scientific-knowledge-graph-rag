@@ -1,0 +1,170 @@
+{
+    "filename": "12-FI-LE QUOC VIET(83-92)031.json",
+    "paper_title": "Effects of photoperiods on growth and quality of white leg shrimp (Litopenaeus vannamei) in biofloc system",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Aquaculture",
+                "type": "Domain",
+                "description": "The study focus on shrimp farming and biofloc technology."
+            },
+            {
+                "id": "Biofloc technology",
+                "type": "Concept",
+                "description": "A technology used in aquaculture to improve water quality and provide nutrition."
+            },
+            {
+                "id": "Photoperiod regime",
+                "type": "Concept",
+                "description": "The period of time during which an organism receives light."
+            },
+            {
+                "id": "Growth performance",
+                "type": "Concept",
+                "description": "Measurement of weight and length gain of shrimp over time."
+            },
+            {
+                "id": "Le Quoc Viet",
+                "type": "Author",
+                "description": "Lead author of the research."
+            },
+            {
+                "id": "Truong Van Ngan",
+                "type": "Author",
+                "description": "Co-author of the research."
+            },
+            {
+                "id": "Tran Minh Phu",
+                "type": "Author",
+                "description": "Co-author of the research."
+            },
+            {
+                "id": "Tran Ngoc Hai",
+                "type": "Author",
+                "description": "Co-author of the research."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam."
+            },
+            {
+                "id": "24-hour light (24L:0D)",
+                "type": "Method",
+                "description": "Continuous photoperiod treatment used in the experiment."
+            },
+            {
+                "id": "55w compact fluorescent",
+                "type": "Method",
+                "description": "Lighting equipment providing ~ 6000 lux."
+            },
+            {
+                "id": "Rice flour",
+                "type": "Method",
+                "description": "Carbon source used to maintain C:N ratio."
+            },
+            {
+                "id": "NaHCO3",
+                "type": "Method",
+                "description": "Chemical used to maintain alkalinity."
+            },
+            {
+                "id": "TA.XTplus Texture Analyser",
+                "type": "Method",
+                "description": "Device used to measure shrimp toughness."
+            },
+            {
+                "id": "Survival rate (71.9%)",
+                "type": "Metric",
+                "description": "Highest survival rate achieved in treatment v."
+            },
+            {
+                "id": "Shrimp biomass (2.47 kg/m3)",
+                "type": "Metric",
+                "description": "Productivity measurement in the continuous light treatment."
+            },
+            {
+                "id": "Mean body weight (18.28 to 22.96 g)",
+                "type": "Metric",
+                "description": "Range of final shrimp weight after 90 days."
+            },
+            {
+                "id": "Growth rate (3.69%/day)",
+                "type": "Metric",
+                "description": "Specific growth rate for treatment 24L:0D."
+            },
+            {
+                "id": "FCR (1.68)",
+                "type": "Metric",
+                "description": "Feed Conversion Ratio achieved in treatment 24L:0D."
+            },
+            {
+                "id": "Toughness (477-535 g.cm)",
+                "type": "Metric",
+                "description": "Physical quality measure of the shrimp flesh."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Le Quoc Viet",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Van Ngan",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Minh Phu",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Ngoc Hai",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "24-hour light (24L:0D)",
+                "target": "Survival rate (71.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "24-hour light (24L:0D)",
+                "target": "Shrimp biomass (2.47 kg/m3)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "24-hour light (24L:0D)",
+                "target": "Growth rate (3.69%/day)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "24-hour light (24L:0D)",
+                "target": "FCR (1.68)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "55w compact fluorescent",
+                "target": "Photoperiod regime",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Rice flour",
+                "target": "Biofloc technology",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "TA.XTplus Texture Analyser",
+                "target": "Toughness (477-535 g.cm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Biofloc technology",
+                "target": "Growth performance",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

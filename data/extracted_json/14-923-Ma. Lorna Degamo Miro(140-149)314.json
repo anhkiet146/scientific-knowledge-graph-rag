@@ -1,0 +1,205 @@
+{
+    "filename": "14-923-Ma. Lorna Degamo Miro(140-149)314.json",
+    "paper_title": "K to 12 implementation in Siquijor: The senior high school students' lived experience",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Education",
+                "type": "Domain",
+                "description": "The main research field focusing on curriculum implementation and student experiences."
+            },
+            {
+                "id": "Ma. Lorna Degamo Miro",
+                "type": "Author",
+                "description": "First author of the study."
+            },
+            {
+                "id": "Judy Ann Ferrrater-Gimena",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Renato Calago Sagayno",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Rex Torres Argate",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Moma Dela Torre Ortega",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Aurora Cannu Miro",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Rithsun Jayawon Mamacos",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Fe Reston Janiola",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Chuchi Montenegro",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Gino Gasang Sumalinog",
+                "type": "Author",
+                "description": "Corresponding author of the study."
+            },
+            {
+                "id": "University of San Jose Recoletes",
+                "type": "Institution",
+                "description": "Institution located in the Philippines."
+            },
+            {
+                "id": "University of Cebu",
+                "type": "Institution",
+                "description": "Institution located in the Philippines."
+            },
+            {
+                "id": "Holy Name University",
+                "type": "Institution",
+                "description": "Institution located in the Philippines."
+            },
+            {
+                "id": "Silliman University",
+                "type": "Institution",
+                "description": "Institution located in the Philippines."
+            },
+            {
+                "id": "Cebu Normal University",
+                "type": "Institution",
+                "description": "Institution located in the Philippines."
+            },
+            {
+                "id": "K to 12 implementation",
+                "type": "Concept",
+                "description": "The shift to a 12-year basic education cycle in the Philippines."
+            },
+            {
+                "id": "Lived experience",
+                "type": "Concept",
+                "description": "The personal perspectives and experiences of Senior High School students."
+            },
+            {
+                "id": "Future-ready skills",
+                "type": "Concept",
+                "description": "Skills and competencies intended to prepare students for the workforce or tertiary education."
+            },
+            {
+                "id": "Qualitative research design",
+                "type": "Method",
+                "description": "A research approach used to explore student experiences."
+            },
+            {
+                "id": "Interpretative Phenomenological Analysis",
+                "type": "Method",
+                "description": "A 5-step process used for data analysis to interpret student responses."
+            },
+            {
+                "id": "Semi-structured interview guide",
+                "type": "Method",
+                "description": "A tool used to conduct interviews with students."
+            },
+            {
+                "id": "Number of informants (10 students)",
+                "type": "Metric",
+                "description": "Sample size of the study."
+            },
+            {
+                "id": "Interview duration (60-90 minutes)",
+                "type": "Metric",
+                "description": "The length of time each interview lasted until data saturation."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Ma. Lorna Degamo Miro",
+                "target": "University of San Jose Recoletes",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Judy Ann Ferrrater-Gimena",
+                "target": "University of Cebu",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Renato Calago Sagayno",
+                "target": "University of Cebu",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Rex Torres Argate",
+                "target": "University of Cebu",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Moma Dela Torre Ortega",
+                "target": "University of Cebu",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Aurora Cannu Miro",
+                "target": "University of Cebu",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Rithsun Jayawon Mamacos",
+                "target": "University of Cebu",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Fe Reston Janiola",
+                "target": "Holy Name University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chuchi Montenegro",
+                "target": "Silliman University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Gino Gasang Sumalinog",
+                "target": "Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Qualitative research design",
+                "target": "Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Interpretative Phenomenological Analysis",
+                "target": "Lived experience",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Semi-structured interview guide",
+                "target": "Lived experience",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Semi-structured interview guide",
+                "target": "Number of informants (10 students)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Semi-structured interview guide",
+                "target": "Interview duration (60-90 minutes)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

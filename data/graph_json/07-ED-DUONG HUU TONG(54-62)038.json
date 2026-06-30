@@ -1,0 +1,185 @@
+{
+  "filename": "07-ED-DUONG HUU TONG(54-62)038.json",
+  "paper_title": "Solving a mathematical problem in different ways: A case of calculating the distance from a point to a plane",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Mathematics Education",
+        "type": "Domain",
+        "description": "The primary field of research involving teaching and learning of mathematics."
+      },
+      {
+        "id": "Problem solving",
+        "type": "Concept",
+        "description": "A process of exploring, thinking, and applying knowledge to find solutions."
+      },
+      {
+        "id": "Creative thinking",
+        "type": "Concept",
+        "description": "The ability to develop new ideas and solutions during mathematical tasks."
+      },
+      {
+        "id": "Calculating the distance from a point to a plane",
+        "type": "Concept",
+        "description": "The specific mathematical problem addressed in the study."
+      },
+      {
+        "id": "Classical geometry method",
+        "type": "Method",
+        "description": "A traditional geometric approach to solving space geometry problems."
+      },
+      {
+        "id": "Volume method",
+        "type": "Method",
+        "description": "A method using the volume of polyhedra to calculate distances."
+      },
+      {
+        "id": "Coordinate method",
+        "type": "Method",
+        "description": "The method of using Oxyz coordinates to solve spatial problems."
+      },
+      {
+        "id": "S3.1 (Specific Coordinate way)",
+        "type": "Method",
+        "description": "A specific application of the coordinate method using plane equations and distance formulas."
+      },
+      {
+        "id": "Survey data of 138 grade-12 students",
+        "type": "Dataset",
+        "description": "Results collected from 138 students in Can Tho and Hau Giang province regarding their problem-solving approaches."
+      },
+      {
+        "id": "Students addressing problem in two ways (32 students)",
+        "type": "Metric",
+        "description": "The number of students who found two different solutions."
+      },
+      {
+        "id": "Preference rate for S3.1 (51.4%)",
+        "type": "Metric",
+        "description": "The percentage of students who chose the S3.1 coordinate method."
+      },
+      {
+        "id": "Correct solution rate for S3.1 (91.5%)",
+        "type": "Metric",
+        "description": "The percentage of students using S3.1 who arrived at the correct answer."
+      },
+      {
+        "id": "Correct solution rate for S1.2 in Can Tho (97.6%)",
+        "type": "Metric",
+        "description": "Performance metric for a specific geometric way in Can Tho city."
+      },
+      {
+        "id": "Correct solution rate for S1.2 in Hau Giang (50%)",
+        "type": "Metric",
+        "description": "Performance metric for a specific geometric way in Hau Giang province."
+      },
+      {
+        "id": "Duong Huu Tong",
+        "type": "Author",
+        "description": "Primary author and correspondence."
+      },
+      {
+        "id": "Bui Phuong Uyen",
+        "type": "Author",
+        "description": "Co-author."
+      },
+      {
+        "id": "Ha Hoang Quoc Thi",
+        "type": "Author",
+        "description": "Co-author."
+      },
+      {
+        "id": "Nguyen Quoc Khanh",
+        "type": "Author",
+        "description": "Co-author and Master student."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University located in Vietnam."
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "Specific faculty within Can Tho University."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Solving a mathematical problem in different ways: A case of calculating the distance from a point to a plane",
+        "target": "Mathematics Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Duong Huu Tong",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Phuong Uyen",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Hoang Quoc Thi",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Quoc Khanh",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Coordinate method",
+        "target": "Calculating the distance from a point to a plane",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Classical geometry method",
+        "target": "Calculating the distance from a point to a plane",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Volume method",
+        "target": "Calculating the distance from a point to a plane",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "S3.1 (Specific Coordinate way)",
+        "target": "Preference rate for S3.1 (51.4%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "S3.1 (Specific Coordinate way)",
+        "target": "Correct solution rate for S3.1 (91.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Classical geometry method",
+        "target": "Correct solution rate for S1.2 in Can Tho (97.6%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Classical geometry method",
+        "target": "Correct solution rate for S1.2 in Hau Giang (50%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Coordinate method",
+        "target": "Survey data of 138 grade-12 students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Classical geometry method",
+        "target": "Survey data of 138 grade-12 students",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Problem solving",
+        "target": "Creative thinking",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

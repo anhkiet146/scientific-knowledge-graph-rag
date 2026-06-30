@@ -1,0 +1,145 @@
+{
+  "filename": "15-SH-NGUYEN THI MY HANH(91-97)031.json",
+  "paper_title": "The effect of task-based language teaching on EFL learners' writing performance at Tien Giang University",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Writing Performance",
+        "type": "Concept",
+        "description": "The ability of learners to produce written language effectively, measured across five components."
+      },
+      {
+        "id": "Writing motivation",
+        "type": "Concept",
+        "description": "A mediating variable influencing the engagement and success of learners in writing tasks."
+      },
+      {
+        "id": "English as a foreign language (EFL)",
+        "type": "Concept",
+        "description": "The study of English by people who live in places where it is not the first language."
+      },
+      {
+        "id": "Task-Based Language Teaching (TBLT)",
+        "type": "Method",
+        "description": "An approach based on the use of communicative and interactive tasks as the core unit of instruction."
+      },
+      {
+        "id": "Quasi-experimental design",
+        "type": "Method",
+        "description": "Research design involving a control group and an experimental group without random assignment."
+      },
+      {
+        "id": "Willis's TBLT framework",
+        "type": "Method",
+        "description": "A framework consisting of pre-task, task cycle, and language focus stages."
+      },
+      {
+        "id": "Analytic Marking Scale",
+        "type": "Method",
+        "description": "A rubric used for marking tests based on content, organization, grammar, vocabulary, and mechanics."
+      },
+      {
+        "id": "Independent samples t-test",
+        "type": "Method",
+        "description": "Statistical test used to compare the means of two independent groups."
+      },
+      {
+        "id": "Weaving It Together 1",
+        "type": "Method",
+        "description": "The specific course book used as teaching material during the experiment."
+      },
+      {
+        "id": "Applied Linguistics",
+        "type": "Domain",
+        "description": "The primary field of research concerning language teaching and learning."
+      },
+      {
+        "id": "Nguyen Thi My Hanh",
+        "type": "Author",
+        "description": "Lead author and researcher from Tien Giang University."
+      },
+      {
+        "id": "Luu Trong Tuan",
+        "type": "Author",
+        "description": "Co-author from the University of Economics Ho Chi Minh City."
+      },
+      {
+        "id": "Tien Giang University",
+        "type": "Institution",
+        "description": "Educational institution located in Viet Nam where the study was conducted."
+      },
+      {
+        "id": "University of Economics Ho Chi Minh City",
+        "type": "Institution",
+        "description": "Higher education institution in Viet Nam."
+      },
+      {
+        "id": "Correlation coefficient (R2 = 0.97-0.99)",
+        "type": "Metric",
+        "description": "The measure of positive correlation between writing motivation and performance in the experimental group."
+      },
+      {
+        "id": "Contribution to performance (37%)",
+        "type": "Metric",
+        "description": "The percentage that writing motivation contributes to the improvement of writing performance."
+      },
+      {
+        "id": "Significant difference (p = 0.00)",
+        "type": "Metric",
+        "description": "Statistical significance value showing the effective influence of TBLT on the experimental group."
+      },
+      {
+        "id": "Sample size (40 freshmen)",
+        "type": "Metric",
+        "description": "The total number of participants involved in the research."
+      },
+      {
+        "id": "Experiment duration (15 weeks)",
+        "type": "Metric",
+        "description": "The total time period over which the study was conducted."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Task-Based Language Teaching (TBLT)",
+        "target": "Applied Linguistics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Task-Based Language Teaching (TBLT)",
+        "target": "Writing Performance",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Task-Based Language Teaching (TBLT)",
+        "target": "Writing motivation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Task-Based Language Teaching (TBLT)",
+        "target": "Significant difference (p = 0.00)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Task-Based Language Teaching (TBLT)",
+        "target": "Contribution to performance (37%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Independent samples t-test",
+        "target": "Significant difference (p = 0.00)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Nguyen Thi My Hanh",
+        "target": "Tien Giang University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luu Trong Tuan",
+        "target": "University of Economics Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

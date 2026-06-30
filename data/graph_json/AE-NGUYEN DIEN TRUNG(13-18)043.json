@@ -1,0 +1,155 @@
+{
+  "filename": "AE-NGUYEN DIEN TRUNG(13-18)043.json",
+  "paper_title": "Determination of coke on promoted zirconium oxide catalysts in the isomerization reaction of pentane and hexane mixture at high pressure",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Heterogeneous Catalysis",
+        "type": "Domain",
+        "description": "The research field focusing on chemical reactions where the catalyst and reactants are in different phases."
+      },
+      {
+        "id": "Nguyen Dien Trung",
+        "type": "Author",
+        "description": "Author from Department of Chemistry, School of Education, Can Tho University."
+      },
+      {
+        "id": "Luu Cam Loc",
+        "type": "Author",
+        "description": "Author from Institute of Chemical Technology, Vietnam Academy of Science and Technology."
+      },
+      {
+        "id": "Nguyen Tri",
+        "type": "Author",
+        "description": "Author from Institute of Chemical Technology, Vietnam Academy of Science and Technology."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational and research institution in Vietnam."
+      },
+      {
+        "id": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "Institution",
+        "description": "Research institute under the Vietnam Academy of Science and Technology."
+      },
+      {
+        "id": "Isomerization reaction of pentane and hexane mixture",
+        "type": "Concept",
+        "description": "The chemical process of converting unbranched paraffins to branched iso-paraffins."
+      },
+      {
+        "id": "Coke formation",
+        "type": "Concept",
+        "description": "The deposition of carbon-rich material on the catalyst surface leading to deactivation."
+      },
+      {
+        "id": "Pt/ZrO2-gamma-Al2O3 (Pt/ZrAl)",
+        "type": "Method",
+        "description": "Bifunctional catalyst supported on alumina-modified zirconia."
+      },
+      {
+        "id": "Pt/ZrO2-SO4 (Pt/ZrS)",
+        "type": "Method",
+        "description": "Bifunctional catalyst supported on sulfated zirconia."
+      },
+      {
+        "id": "Pt/ZrO2-WO3 (Pt/ZrW)",
+        "type": "Method",
+        "description": "Bifunctional catalyst supported on tungstated zirconia."
+      },
+      {
+        "id": "Burn-off method",
+        "type": "Method",
+        "description": "Analytical procedure used to determine the mass of coke by burning it off."
+      },
+      {
+        "id": "X-ray diffraction analysis (XRD)",
+        "type": "Method",
+        "description": "Technique used for characterizing the structure of the catalysts."
+      },
+      {
+        "id": "Mass of coke on Pt/ZrAl (5.23%)",
+        "type": "Metric",
+        "description": "Percentage of coke deposited on Pt/ZrAl catalyst."
+      },
+      {
+        "id": "Reaction pressure (7 atm)",
+        "type": "Metric",
+        "description": "The pressure maintained during the isomerization reaction."
+      },
+      {
+        "id": "Productivity of Pt/ZrS (45%)",
+        "type": "Metric",
+        "description": "The catalytic yield achieved using the Pt/ZrS catalyst."
+      },
+      {
+        "id": "Research Octane Number (72.5)",
+        "type": "Metric",
+        "description": "The measurement of fuel performance after the reaction."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Dien Trung",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luu Cam Loc",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Tri",
+        "target": "Institute of Chemical Technology - Vietnam Academy of Science and Technology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pt/ZrO2-gamma-Al2O3 (Pt/ZrAl)",
+        "target": "Isomerization reaction of pentane and hexane mixture",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pt/ZrO2-SO4 (Pt/ZrS)",
+        "target": "Isomerization reaction of pentane and hexane mixture",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pt/ZrO2-WO3 (Pt/ZrW)",
+        "target": "Isomerization reaction of pentane and hexane mixture",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Pt/ZrO2-gamma-Al2O3 (Pt/ZrAl)",
+        "target": "Mass of coke on Pt/ZrAl (5.23%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pt/ZrO2-SO4 (Pt/ZrS)",
+        "target": "Mass of coke on Pt/ZrAl (5.23%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pt/ZrO2-WO3 (Pt/ZrW)",
+        "target": "Mass of coke on Pt/ZrAl (5.23%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pt/ZrO2-SO4 (Pt/ZrS)",
+        "target": "Productivity of Pt/ZrS (45%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pt/ZrO2-WO3 (Pt/ZrW)",
+        "target": "Research Octane Number (72.5)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Burn-off method",
+        "target": "Coke formation",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

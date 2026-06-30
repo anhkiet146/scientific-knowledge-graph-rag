@@ -1,0 +1,175 @@
+{
+    "filename": "10-BE-HUYNH TRUONG GIANG(71-80)45.json",
+    "paper_title": "CHEMICAL COMPOSITION, ANTIOXIDANT ACTIVITY OF CRUDE POLYSACCHARIDE EXTRACTED FROM BROWN SEAWEED Sargassum microcystum AND ITS EFFECT ON GROWTH PERFORMANCE AND SURVIVAL OF WHITELEG SHRIMP Litopenaeus vannamei VIA DIETARY ADMINISTRATION",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Huynh Truong Giang",
+                "type": "Author",
+                "description": "First author of the study."
+            },
+            {
+                "id": "Tran Trung Giang",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Duong Thi Hoang Oanh",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Tran Suong Ngoc",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "Vu Ngoc Ut",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "Institution",
+                "description": "Affiliated institution in Vietnam."
+            },
+            {
+                "id": "Aquaculture and Fisheries",
+                "type": "Domain",
+                "description": "Primary research field of the paper."
+            },
+            {
+                "id": "Antioxidant activity",
+                "type": "Concept",
+                "description": "The ability of the extract to scavenge free radicals."
+            },
+            {
+                "id": "Growth performance",
+                "type": "Concept",
+                "description": "The rate and efficiency of shrimp growth during the trial."
+            },
+            {
+                "id": "Survival of whiteleg shrimp",
+                "type": "Concept",
+                "description": "The study of Litopenaeus vannamei survival under dietary administration."
+            },
+            {
+                "id": "Sargassum microcystum",
+                "type": "Method",
+                "description": "Brown seaweed species used as the material for polysaccharide extraction."
+            },
+            {
+                "id": "Hot-water extraction within 6 h",
+                "type": "Method",
+                "description": "The method that yielded the highest antioxidant activity."
+            },
+            {
+                "id": "0.1N HCl extraction within 3 h",
+                "type": "Method",
+                "description": "The method that yielded the highest quantity of crude polysaccharide."
+            },
+            {
+                "id": "Dietary administration of 1.0% extract",
+                "type": "Method",
+                "description": "Feeding trial method involving incorporating extract into pellet diets."
+            },
+            {
+                "id": "DPPH assay",
+                "type": "Method",
+                "description": "A chemical method used to measure radical scavenging activity."
+            },
+            {
+                "id": "Protein concentration (1.3 to 6.8%)",
+                "type": "Metric",
+                "description": "Measured concentration of protein in the extracts."
+            },
+            {
+                "id": "Yield of polysaccharide (18.9±0.5%)",
+                "type": "Metric",
+                "description": "Highest yield obtained using 0.1N HCl extraction for 3 h."
+            },
+            {
+                "id": "IC50 (0.434 mg mL-1)",
+                "type": "Metric",
+                "description": "Median inhibition concentration for hot-water extract at 6 h."
+            },
+            {
+                "id": "Survival rate (56.7±11.9%)",
+                "type": "Metric",
+                "description": "Highest survival rate achieved by shrimp fed 1.0% extract."
+            },
+            {
+                "id": "FCR (lowest in 1% group)",
+                "type": "Metric",
+                "description": "Feed conversion ratio improvement observed in the 1% dietary group."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Truong Giang",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Trung Giang",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Duong Thi Hoang Oanh",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Suong Ngoc",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vu Ngoc Ut",
+                "target": "College of Aquaculture and Fisheries, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Aquaculture and Fisheries",
+                "target": "Aquaculture and Fisheries",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Hot-water extraction within 6 h",
+                "target": "IC50 (0.434 mg mL-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "0.1N HCl extraction within 3 h",
+                "target": "Yield of polysaccharide (18.9±0.5%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Dietary administration of 1.0% extract",
+                "target": "Survival rate (56.7±11.9%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Dietary administration of 1.0% extract",
+                "target": "FCR (lowest in 1% group)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Hot-water extraction within 6 h",
+                "target": "Antioxidant activity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Dietary administration of 1.0% extract",
+                "target": "Growth performance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "DPPH assay",
+                "target": "Antioxidant activity",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

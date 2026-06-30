@@ -1,0 +1,135 @@
+{
+  "filename": "03-ED-LUU NGUYEN QUOC HUNG(17-26)020.json",
+  "paper_title": "Teachers' motivation and its influence on quality education: A study at a center for foreign languages in Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Luu Nguyen Quoc Hung",
+        "type": "Author",
+        "description": "Tác giả chính của nghiên cứu từ Đại học Cần Thơ."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Trường Đại học tại Việt Nam nơi tác giả công tác."
+      },
+      {
+        "id": "Center for Foreign Languages",
+        "type": "Institution",
+        "description": "Trung tâm Ngoại ngữ trực thuộc Đại học Cần Thơ."
+      },
+      {
+        "id": "Education Management",
+        "type": "Domain",
+        "description": "Lĩnh vực nghiên cứu về quản lý giáo dục và động lực giáo viên."
+      },
+      {
+        "id": "Teachers' motivation",
+        "type": "Concept",
+        "description": "Động lực của giáo viên và các yếu tố thúc đẩy sự tham gia giảng dạy."
+      },
+      {
+        "id": "Quality education",
+        "type": "Concept",
+        "description": "Giáo dục chất lượng, mục tiêu và tiêu chuẩn trong hệ thống giáo dục."
+      },
+      {
+        "id": "Maslow's Theory (Hierarchy of Needs)",
+        "type": "Concept",
+        "description": "Lý thuyết tháp nhu cầu của Maslow được sử dụng để phân tích động lực."
+      },
+      {
+        "id": "Herzberg's Two Factor Theory",
+        "type": "Concept",
+        "description": "Lý thuyết hai nhân tố (động lực và duy trì) của Herzberg."
+      },
+      {
+        "id": "Mixed-methods research design",
+        "type": "Method",
+        "description": "Thiết kế nghiên cứu hỗn hợp kết hợp khảo sát và phỏng vấn."
+      },
+      {
+        "id": "Descriptive survey",
+        "type": "Method",
+        "description": "Phương pháp khảo sát mô tả sử dụng bảng câu hỏi."
+      },
+      {
+        "id": "Focused group discussion",
+        "type": "Method",
+        "description": "Thảo luận nhóm tập trung để thu thập dữ liệu định tính."
+      },
+      {
+        "id": "Teacher Motivation and Job Satisfaction Survey (Mertler, 2001)",
+        "type": "Method",
+        "description": "Công cụ khảo sát được thích nghi để đo lường động lực giáo viên."
+      },
+      {
+        "id": "Average teacher motivation (4.20)",
+        "type": "Metric",
+        "description": "Giá trị trung bình về mức độ động lực của giáo viên."
+      },
+      {
+        "id": "Percentage strongly motivated by responsibility (61.9%)",
+        "type": "Metric",
+        "description": "Tỷ lệ giáo viên bị thúc đẩy mạnh mẽ bởi trách nhiệm công việc."
+      },
+      {
+        "id": "Mean value for Status (4.21)",
+        "type": "Metric",
+        "description": "Chỉ số trung bình cho yếu tố địa vị nghề nghiệp."
+      },
+      {
+        "id": "Mean value for Recognition (4.17)",
+        "type": "Metric",
+        "description": "Chỉ số trung bình cho yếu tố sự công nhận."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Luu Nguyen Quoc Hung",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Luu Nguyen Quoc Hung",
+        "target": "Center for Foreign Languages",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Education Management",
+        "target": "Education Management",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Mixed-methods research design",
+        "target": "Teachers' motivation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Descriptive survey",
+        "target": "Average teacher motivation (4.20)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive survey",
+        "target": "Percentage strongly motivated by responsibility (61.9%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Descriptive survey",
+        "target": "Mean value for Status (4.21)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Focused group discussion",
+        "target": "Quality education",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Descriptive survey",
+        "target": "Teachers' motivation",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+    "filename": "14-NS-LAM QUOC ANH(94-101).json",
+    "paper_title": "STABILITY AND WELL-POSEDNESS IN VECTOR LEXICOGRAPHIC EQUILIBRIUM PROBLEMS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Vector lexicographic equilibrium problems",
+                "type": "Concept",
+                "description": "The main research problem involving vector equilibrium using lexicographic order."
+            },
+            {
+                "id": "Stability",
+                "type": "Concept",
+                "description": "Property of solution mappings including closedness, semicontinuity, and continuity."
+            },
+            {
+                "id": "Well-posedness",
+                "type": "Concept",
+                "description": "The existence and behavior of approximating sequences in equilibrium problems."
+            },
+            {
+                "id": "Lexicographic order",
+                "type": "Concept",
+                "description": "An ordering strategy used to consider vector equilibrium problems."
+            },
+            {
+                "id": "Classes of generalized continuous function",
+                "type": "Method",
+                "description": "Mathematical tools used to establish sufficient conditions for stability."
+            },
+            {
+                "id": "Metric spaces",
+                "type": "Method",
+                "description": "The mathematical framework in which the equilibrium problems are studied."
+            },
+            {
+                "id": "Lexicographic cone",
+                "type": "Method",
+                "description": "A mathematical structure used to induce total order in finite dimensional spaces."
+            },
+            {
+                "id": "Optimization Theory",
+                "type": "Domain",
+                "description": "The broader field of research containing equilibrium and variational problems."
+            },
+            {
+                "id": "Lam Quoc Anh",
+                "type": "Author",
+                "description": "Researcher affiliated with Can Tho University."
+            },
+            {
+                "id": "Nguyen Thi Thao Truc",
+                "type": "Author",
+                "description": "Researcher affiliated with Can Tho University."
+            },
+            {
+                "id": "Dang Thi My Van",
+                "type": "Author",
+                "description": "Researcher affiliated with Can Tho College."
+            },
+            {
+                "id": "Pham Thi Vui",
+                "type": "Author",
+                "description": "Researcher affiliated with Can Tho University."
+            },
+            {
+                "id": "School of Education, Can Tho University, Vietnam",
+                "type": "Institution",
+                "description": "Academic institution for authors Anh, Truc, and Vui."
+            },
+            {
+                "id": "Department of Mathematics, Can Tho College, Vietnam",
+                "type": "Institution",
+                "description": "Academic institution for author Dang Thi My Van."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Lam Quoc Anh",
+                "target": "School of Education, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Thao Truc",
+                "target": "School of Education, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Pham Thi Vui",
+                "target": "School of Education, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thi My Van",
+                "target": "Department of Mathematics, Can Tho College, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vector lexicographic equilibrium problems",
+                "target": "Optimization Theory",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Classes of generalized continuous function",
+                "target": "Stability",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Classes of generalized continuous function",
+                "target": "Well-posedness",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Lexicographic cone",
+                "target": "Vector lexicographic equilibrium problems",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

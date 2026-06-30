@@ -1,0 +1,160 @@
+{
+    "filename": "04-E4-HUYNH THI THUY AN(26-33)091.json",
+    "paper_title": "The prevalence and antibiotic resistance of Salmonella spp. isolated from pigs and farm environments in vinh long province",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Huynh Thi Thuy An",
+                "type": "Author",
+                "description": "Author of the research paper"
+            },
+            {
+                "id": "Ly Thi Lien Khai",
+                "type": "Author",
+                "description": "Author and correspondence of the research paper"
+            },
+            {
+                "id": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "Institution",
+                "description": "The institution the authors are affiliated with"
+            },
+            {
+                "id": "Veterinary Medicine",
+                "type": "Domain",
+                "description": "The primary field of study regarding animal health and disease"
+            },
+            {
+                "id": "Salmonella prevalence",
+                "type": "Concept",
+                "description": "The study of the occurrence of Salmonella in a specific population"
+            },
+            {
+                "id": "Antibiotic resistance",
+                "type": "Concept",
+                "description": "The ability of bacteria to resist the effects of an antibiotic"
+            },
+            {
+                "id": "Disc diffusion method",
+                "type": "Method",
+                "description": "Method used for antimicrobial resistance testing"
+            },
+            {
+                "id": "TCVN 4829:2005",
+                "type": "Method",
+                "description": "National standards of Vietnam for isolation and identification of Salmonella"
+            },
+            {
+                "id": "Chi-square test",
+                "type": "Method",
+                "description": "Statistical method used for data analysis"
+            },
+            {
+                "id": "Trimethoprim/sulfamethoxazole",
+                "type": "Method",
+                "description": "Antibiotic disc used in the experiment"
+            },
+            {
+                "id": "Chloramphenicol",
+                "type": "Method",
+                "description": "Antibiotic disc used in the experiment"
+            },
+            {
+                "id": "Ampicillin",
+                "type": "Method",
+                "description": "Antibiotic disc used in the experiment"
+            },
+            {
+                "id": "880 collected samples",
+                "type": "Dataset",
+                "description": "The numerical record of 240 fecal and 640 environmental samples collected"
+            },
+            {
+                "id": "Overall Salmonella prevalence (8.64%)",
+                "type": "Metric",
+                "description": "The total percentage of positive Salmonella samples"
+            },
+            {
+                "id": "Prevalence in feces (14.58%)",
+                "type": "Metric",
+                "description": "The positive rate of Salmonella in pig fecal samples"
+            },
+            {
+                "id": "Prevalence in environment (6.40%)",
+                "type": "Metric",
+                "description": "The positive rate of Salmonella in farm environmental samples"
+            },
+            {
+                "id": "Prevalence in household farms (20.20%)",
+                "type": "Metric",
+                "description": "Salmonella isolation rate in small-scale household farms"
+            },
+            {
+                "id": "Prevalence in commercial farms (2.44%)",
+                "type": "Metric",
+                "description": "Salmonella isolation rate in large-scale commercial farms"
+            },
+            {
+                "id": "Resistance to trimethoprim/sulfamethoxazole (64.47%)",
+                "type": "Metric",
+                "description": "The rate of isolates showing resistance to this antibiotic"
+            },
+            {
+                "id": "Resistance to chloramphenicol (52.63%)",
+                "type": "Metric",
+                "description": "The rate of isolates showing resistance to chloramphenicol"
+            },
+            {
+                "id": "Sensitivity to ceftazidime (100%)",
+                "type": "Metric",
+                "description": "Complete sensitivity rate of Salmonella strains to ceftazidime"
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Thi Thuy An",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ly Thi Lien Khai",
+                "target": "College of Agriculture and Applied Biology, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Antibiotic resistance",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "TCVN 4829:2005",
+                "target": "Salmonella prevalence",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Resistance to trimethoprim/sulfamethoxazole (64.47%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Resistance to chloramphenicol (52.63%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Disc diffusion method",
+                "target": "Sensitivity to ceftazidime (100%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Chi-square test",
+                "target": "880 collected samples",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "The prevalence and antibiotic resistance of Salmonella spp. isolated from pigs and farm environments in vinh long province",
+                "target": "Veterinary Medicine",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

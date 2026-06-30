@@ -1,0 +1,130 @@
+{
+    "filename": "05-AE-NGUYEN VAN CAN(28-35)40.json",
+    "paper_title": "A SIMULATION STUDY FOR OPTIMIZING STAFF NUMBERS OF SECURITY CHECK-POINT AT THE AIRPORT TERMINAL",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "A SIMULATION STUDY FOR OPTIMIZING STAFF NUMBERS OF SECURITY CHECK-POINT AT THE AIRPORT TERMINAL",
+                "type": "Concept",
+                "description": "The primary research study focused on airport security staffing"
+            },
+            {
+                "id": "Airport terminal analysis",
+                "type": "Domain",
+                "description": "The field of studying and optimizing operations within airport terminals"
+            },
+            {
+                "id": "Nguyen Van Can",
+                "type": "Author",
+                "description": "Author from the College of Engineering Technology"
+            },
+            {
+                "id": "Nguyen Thi Le Thuy",
+                "type": "Author",
+                "description": "Author from the College of Engineering Technology"
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Educational institution in Vietnam"
+            },
+            {
+                "id": "Staff numbers optimization",
+                "type": "Concept",
+                "description": "The problem of determining the ideal number of staff to balance cost and service"
+            },
+            {
+                "id": "SIMIO software",
+                "type": "Method",
+                "description": "Simulation modeling software used for developing the terminal model"
+            },
+            {
+                "id": "OptQuest",
+                "type": "Method",
+                "description": "An add-in optimization tool used within Simio to find best combinations"
+            },
+            {
+                "id": "Airport terminal input data",
+                "type": "Dataset",
+                "description": "Dataset containing ticketing processing times, passenger arrival rates, and process times"
+            },
+            {
+                "id": "Average time in queue (<= 6 minutes)",
+                "type": "Metric",
+                "description": "The time limit constraint for the precheck area queue"
+            },
+            {
+                "id": "Weekly cost ($60,712.49)",
+                "type": "Metric",
+                "description": "The optimized total cost per week for the staffing plan"
+            },
+            {
+                "id": "Security checkpoint time (90% < 45 minutes)",
+                "type": "Metric",
+                "description": "Policy metric where 90% of passengers spend less than 45 minutes in security"
+            },
+            {
+                "id": "Flight reach time (99% > 15 minutes)",
+                "type": "Metric",
+                "description": "Metric ensuring 99% of passengers reach flights at least 15 mins before departure"
+            },
+            {
+                "id": "Increase in air traffic (3.6%)",
+                "type": "Metric",
+                "description": "The forecasted growth rate of air traffic until 2020"
+            }
+        ],
+        "relations": [
+            {
+                "source": "A SIMULATION STUDY FOR OPTIMIZING STAFF NUMBERS OF SECURITY CHECK-POINT AT THE AIRPORT TERMINAL",
+                "target": "Airport terminal analysis",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Van Can",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Thi Le Thuy",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "SIMIO software",
+                "target": "Staff numbers optimization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "OptQuest",
+                "target": "Staff numbers optimization",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "SIMIO software",
+                "target": "Airport terminal input data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SIMIO software",
+                "target": "Average time in queue (<= 6 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SIMIO software",
+                "target": "Weekly cost ($60,712.49)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SIMIO software",
+                "target": "Security checkpoint time (90% < 45 minutes)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "SIMIO software",
+                "target": "Flight reach time (99% > 15 minutes)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

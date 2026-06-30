@@ -1,0 +1,160 @@
+{
+  "filename": "14-BE-NGUYEN TRI YEN CHI(100-104)49.json",
+  "paper_title": "SCREENING OF AROMATIC RICE LINES BY USING MOLECULAR MARKER AND SENSORY TEST",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Nguyen Tri Yen Chi",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Truong Trong Ngon",
+        "type": "Author",
+        "description": "Author of the research paper"
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "The institution where the research was conducted"
+      },
+      {
+        "id": "Agricultural Biotechnology",
+        "type": "Domain",
+        "description": "The primary research field of the paper"
+      },
+      {
+        "id": "Aromatic rice screening",
+        "type": "Concept",
+        "description": "The process of identifying and selecting rice lines with aroma traits"
+      },
+      {
+        "id": "fgr gene locus",
+        "type": "Concept",
+        "description": "The genetic determinant of fragrance in rice"
+      },
+      {
+        "id": "2-acetyl-1-pyrroline (2AP)",
+        "type": "Concept",
+        "description": "The key aroma constituent of fragrant rice"
+      },
+      {
+        "id": "Sensory test (KOH method)",
+        "type": "Method",
+        "description": "Traditional method of detecting aroma using potassium hydroxide and human smelling"
+      },
+      {
+        "id": "Microsatellite markers",
+        "type": "Method",
+        "description": "Molecular markers used for genotypic analysis of aroma"
+      },
+      {
+        "id": "Allele Specific Amplification (ASA)",
+        "type": "Method",
+        "description": "PCR-based method used to identify specific alleles at the fgr locus"
+      },
+      {
+        "id": "CTAB method",
+        "type": "Method",
+        "description": "Protocol used for DNA isolation from plant leaf samples"
+      },
+      {
+        "id": "Multiplex PCR",
+        "type": "Method",
+        "description": "Polymerase Chain Reaction using multiple primers in a single reaction"
+      },
+      {
+        "id": "1.7% potassium hydroxide (KOH)",
+        "type": "Method",
+        "description": "Chemical solution used in the sensory test"
+      },
+      {
+        "id": "Primers (EAP, ESP, INSP, IFAP)",
+        "type": "Method",
+        "description": "Specific DNA sequences used for PCR amplification"
+      },
+      {
+        "id": "BC1F1 population segregation ratio (1:1)",
+        "type": "Metric",
+        "description": "The observed segregation ratio of homozygous fragrant to heterozygous non-fragrant"
+      },
+      {
+        "id": "Expected fragment size (580 bp)",
+        "type": "Metric",
+        "description": "The size of the positive control DNA fragment in PCR"
+      },
+      {
+        "id": "Fragrant marker band (257 bp)",
+        "type": "Metric",
+        "description": "The size of the DNA fragment indicating fragrant genotype"
+      },
+      {
+        "id": "Non-aromatic marker band (355 bp)",
+        "type": "Metric",
+        "description": "The size of the DNA fragment indicating non-aromatic genotype"
+      },
+      {
+        "id": "Linkage distance (5.8 cM)",
+        "type": "Metric",
+        "description": "Genetic distance between RG28 and fgr locus"
+      },
+      {
+        "id": "Sensory score (0-2 scale)",
+        "type": "Metric",
+        "description": "Rating scale for aroma intensity (0: non-aroma, 1: slight, 2: aroma)"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Tri Yen Chi",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Truong Trong Ngon",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Aromatic rice screening",
+        "target": "Agricultural Biotechnology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Sensory test (KOH method)",
+        "type": "USED_FOR",
+        "target": "Aromatic rice screening"
+      },
+      {
+        "source": "Microsatellite markers",
+        "type": "USED_FOR",
+        "target": "Aromatic rice screening"
+      },
+      {
+        "source": "Allele Specific Amplification (ASA)",
+        "type": "USED_FOR",
+        "target": "fgr gene locus"
+      },
+      {
+        "source": "Sensory test (KOH method)",
+        "type": "ACHIEVED",
+        "target": "Sensory score (0-2 scale)"
+      },
+      {
+        "source": "Multiplex PCR",
+        "type": "ACHIEVED",
+        "target": "Expected fragment size (580 bp)"
+      },
+      {
+        "source": "Multiplex PCR",
+        "type": "ACHIEVED",
+        "target": "Fragrant marker band (257 bp)"
+      },
+      {
+        "source": "Multiplex PCR",
+        "type": "ACHIEVED",
+        "target": "BC1F1 population segregation ratio (1:1)"
+      }
+    ]
+  }
+}

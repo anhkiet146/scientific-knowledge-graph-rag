@@ -1,0 +1,150 @@
+{
+    "filename": "526-TRAN NGOC BAO TRAM(61-67)029.json",
+    "paper_title": "Morphological variation, chromosome number, and DNA barcoding of Giant Duckweed (Spirodela polyrhiza) in Viet Nam",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Duckweed Biodiversity",
+                "type": "Concept",
+                "description": "The variety of duckweed species and their genetic/morphological differences in Viet Nam."
+            },
+            {
+                "id": "Genome Size Evolution",
+                "type": "Concept",
+                "description": "The study of changes in genome size and its diagnostic value for taxonomy."
+            },
+            {
+                "id": "DNA Barcoding",
+                "type": "Method",
+                "description": "Molecular technique using plastid markers (atpF-atpH and psbK-psbI) for species identification."
+            },
+            {
+                "id": "Flow Cytometry",
+                "type": "Method",
+                "description": "Method used for genome size measurement and nuclear replication state estimation."
+            },
+            {
+                "id": "PCR",
+                "type": "Method",
+                "description": "Polymerase Chain Reaction used to amplify DNA fragments."
+            },
+            {
+                "id": "DNeasy Plant Mini Kit",
+                "type": "Method",
+                "description": "Kit used for isolating genomic DNA from plant samples."
+            },
+            {
+                "id": "Image J",
+                "type": "Method",
+                "description": "Software used to calculate the diameter of fronds and stomata from images."
+            },
+            {
+                "id": "CyFlow Space flow cytometer",
+                "type": "Method",
+                "description": "Equipment used for performing genome size measurements."
+            },
+            {
+                "id": "NCBI",
+                "type": "Dataset",
+                "description": "National Center for Biotechnology Information database used for BLASTN sequence comparison."
+            },
+            {
+                "id": "Genome size (163-170 Mbp)",
+                "type": "Metric",
+                "description": "Measured absolute DNA content per 1C for Vietnamese S. polyrhiza clones."
+            },
+            {
+                "id": "Chromosome number (2n=40)",
+                "type": "Metric",
+                "description": "Uniformly recorded chromosome count for the studied Spirodela clones."
+            },
+            {
+                "id": "Frond size (0.80-1.25 cm2)",
+                "type": "Metric",
+                "description": "Variation in the surface area of the largest frond clusters."
+            },
+            {
+                "id": "Stomata length (20.57-24.00 um)",
+                "type": "Metric",
+                "description": "Measurement of the longitudinal dimension of stomata."
+            },
+            {
+                "id": "Root number (4.75-6.69 roots)",
+                "type": "Metric",
+                "description": "The average number of roots recorded among representatives."
+            },
+            {
+                "id": "Plant Biology",
+                "type": "Domain",
+                "description": "The primary field of research concerning botanical characteristics and genetics."
+            },
+            {
+                "id": "Tran Ngoc Bao Tram",
+                "type": "Author",
+                "description": "Researcher/Author of the paper."
+            },
+            {
+                "id": "Tran Thi Nhung",
+                "type": "Author",
+                "description": "Researcher/Author of the paper."
+            },
+            {
+                "id": "Hoang Thi Nhu Phuong",
+                "type": "Author",
+                "description": "Corresponding Author of the paper."
+            },
+            {
+                "id": "Faculty of Biology, Dalat University",
+                "type": "Institution",
+                "description": "The academic organization the authors are affiliated with."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Morphological variation, chromosome number, and DNA barcoding of Giant Duckweed (Spirodela polyrhiza) in Viet Nam",
+                "target": "Plant Biology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Flow Cytometry",
+                "target": "Genome size (163-170 Mbp)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DNA Barcoding",
+                "target": "Chromosome number (2n=40)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Image J",
+                "target": "Frond size (0.80-1.25 cm2)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "DNA Barcoding",
+                "target": "Duckweed Biodiversity",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "PCR",
+                "target": "NCBI",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Tran Ngoc Bao Tram",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Tran Thi Nhung",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Hoang Thi Nhu Phuong",
+                "target": "Faculty of Biology, Dalat University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

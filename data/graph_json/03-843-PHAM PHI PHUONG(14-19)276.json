@@ -1,0 +1,150 @@
+{
+  "filename": "03-843-PHAM PHI PHUONG(14-19)276.json",
+  "paper_title": "An investigation of timber frame housing in Vietnamese Mekong River Delta",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Timber frame housing",
+        "type": "Concept",
+        "description": "Common structures in many countries and a traditional construction method in the Vietnamese Mekong River Delta."
+      },
+      {
+        "id": "Mortise and tenon joints",
+        "type": "Concept",
+        "description": "Traditional woodworking joints used to connect columns and beams in timber frame construction."
+      },
+      {
+        "id": "Architecture and Construction",
+        "type": "Domain",
+        "description": "The field of study focusing on housing structures and building techniques."
+      },
+      {
+        "id": "On-site investigation",
+        "type": "Method",
+        "description": "Methodology involving direct observation and data collection at the location of local housings."
+      },
+      {
+        "id": "Field measurement",
+        "type": "Method",
+        "description": "The process of measuring physical dimensions of buildings using specific tools."
+      },
+      {
+        "id": "Electronic distance meter",
+        "type": "Method",
+        "description": "A tool used for measuring the distance between two points in a building."
+      },
+      {
+        "id": "Photogrammetry techniques",
+        "type": "Method",
+        "description": "Technology used to capture details of building exteriors and structures via photography."
+      },
+      {
+        "id": "Ten local housings survey data",
+        "type": "Dataset",
+        "description": "The collection of measurements, drawings, and photos from ten surveyed houses in the VMRD."
+      },
+      {
+        "id": "Floor beams spacing (0.4-0.6 m)",
+        "type": "Metric",
+        "description": "The measured distance between parallel floor beams in stilt housing."
+      },
+      {
+        "id": "Floor joists width (30-40 cm)",
+        "type": "Metric",
+        "description": "The measured width of floor joists in stilt housing."
+      },
+      {
+        "id": "Post spacing (2-3 m)",
+        "type": "Metric",
+        "description": "The distance between frame posts placed on the ground."
+      },
+      {
+        "id": "Number of housings (10 samples)",
+        "type": "Metric",
+        "description": "The total number of local houses investigated in the study."
+      },
+      {
+        "id": "Pham Phi Phuong",
+        "type": "Author",
+        "description": "Researcher from Mien Tay Construction University."
+      },
+      {
+        "id": "Pham Duy Quan",
+        "type": "Author",
+        "description": "Researcher from Mien Tay Construction University."
+      },
+      {
+        "id": "Le Hoang Thien Long",
+        "type": "Author",
+        "description": "Researcher from Mien Tay Construction University."
+      },
+      {
+        "id": "Le Thi Binh Phuong",
+        "type": "Author",
+        "description": "Researcher from Mien Tay Construction University."
+      },
+      {
+        "id": "Architecture Faculty, Mien Tay Construction University",
+        "type": "Institution",
+        "description": "Academic department in Vinh Long, Viet Nam."
+      },
+      {
+        "id": "Adcademic Affairs Department, Mien Tay Construction University",
+        "type": "Institution",
+        "description": "Administrative/Academic department in Vinh Long, Viet Nam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "An investigation of timber frame housing in Vietnamese Mekong River Delta",
+        "target": "Architecture and Construction",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "On-site investigation",
+        "target": "Timber frame housing",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Field measurement",
+        "target": "Ten local housings survey data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Field measurement",
+        "target": "Floor beams spacing (0.4-0.6 m)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Field measurement",
+        "target": "Floor joists width (30-40 cm)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "On-site investigation",
+        "target": "Number of housings (10 samples)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Pham Phi Phuong",
+        "target": "Architecture Faculty, Mien Tay Construction University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Hoang Thien Long",
+        "target": "Architecture Faculty, Mien Tay Construction University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Le Thi Binh Phuong",
+        "target": "Architecture Faculty, Mien Tay Construction University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Duy Quan",
+        "target": "Adcademic Affairs Department, Mien Tay Construction University",
+        "type": "AFFILIATED_WITH"
+      }
+    ]
+  }
+}

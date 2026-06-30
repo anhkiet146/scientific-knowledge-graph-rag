@@ -1,0 +1,160 @@
+{
+    "filename": "04-ED-HUYNH NGOC TUYEN(20-30).json",
+    "paper_title": "AN INVESTIGATION INTO ENGLISH-MAJORED STUDENTS' ATTITUDES AND MOTIVATION TOWARD SPEAKING LEARNING WITH ENGLISH VOLUNTEERS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Huynh Ngoc Tuyen",
+                "type": "Author",
+                "description": "The first author of the research paper."
+            },
+            {
+                "id": "Thai Cong Dan",
+                "type": "Author",
+                "description": "The second author of the research paper."
+            },
+            {
+                "id": "School of Foreign Languages, Can Tho University",
+                "type": "Institution",
+                "description": "The affiliation of the first author."
+            },
+            {
+                "id": "School of Social Sciences & Humanities, Can Tho University",
+                "type": "Institution",
+                "description": "The affiliation of the second author."
+            },
+            {
+                "id": "English Language Teaching",
+                "type": "Domain",
+                "description": "The primary research field of the study."
+            },
+            {
+                "id": "Attitude",
+                "type": "Concept",
+                "description": "Learners' feelings and response dispositions toward language learning."
+            },
+            {
+                "id": "Motivation",
+                "type": "Concept",
+                "description": "Internal drive or desire to achieve goals in language learning, categorized into intrinsic and extrinsic."
+            },
+            {
+                "id": "Speaking Learning",
+                "type": "Concept",
+                "description": "The process of building and sharing meaning through verbal symbols."
+            },
+            {
+                "id": "Quantitative method (Questionnaire)",
+                "type": "Method",
+                "description": "A survey instrument translated into Vietnamese to collect numerical data."
+            },
+            {
+                "id": "Qualitative method (Interviews)",
+                "type": "Method",
+                "description": "Sequential interviews used to supplement and cross-validate quantitative data."
+            },
+            {
+                "id": "Classroom observation",
+                "type": "Method",
+                "description": "Observation used to examine students' actual behavior and attitudes in class."
+            },
+            {
+                "id": "SPSS 20.0",
+                "type": "Method",
+                "description": "Software used for the calculation of reliability index and statistical analysis."
+            },
+            {
+                "id": "Five-point Likert scale",
+                "type": "Method",
+                "description": "A rating scale used in the questionnaire to measure student agreement."
+            },
+            {
+                "id": "Survey data from 103 students",
+                "type": "Dataset",
+                "description": "Digital response records from the participants who completed the questionnaire."
+            },
+            {
+                "id": "Cronbach's alpha (0.93)",
+                "type": "Metric",
+                "description": "The reliability index calculation for the questionnaire."
+            },
+            {
+                "id": "Mean score of attitude (4.13)",
+                "type": "Metric",
+                "description": "The average level of student attitudes towards speaking learning with volunteers."
+            },
+            {
+                "id": "Mean score of intrinsic motivation (3.93)",
+                "type": "Metric",
+                "description": "The measured average level of intrinsic motivation among students."
+            },
+            {
+                "id": "Mean score of extrinsic motivation (3.61)",
+                "type": "Metric",
+                "description": "The measured average level of extrinsic motivation among students."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Huynh Ngoc Tuyen",
+                "target": "School of Foreign Languages, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Thai Cong Dan",
+                "target": "School of Social Sciences & Humanities, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "English Language Teaching",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "Attitude",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "Motivation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "Cronbach's alpha (0.93)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "Mean score of attitude (4.13)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "Mean score of intrinsic motivation (3.93)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "Mean score of extrinsic motivation (3.61)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Quantitative method (Questionnaire)",
+                "target": "Survey data from 103 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "SPSS 20.0",
+                "target": "Survey data from 103 students",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Qualitative method (Interviews)",
+                "target": "Speaking Learning",
+                "type": "USED_FOR"
+            }
+        ]
+    }
+}

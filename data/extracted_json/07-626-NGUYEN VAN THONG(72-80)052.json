@@ -1,0 +1,145 @@
+{
+    "filename": "07-626-NGUYEN VAN THONG(72-80)052.json",
+    "paper_title": "Using lesson study for teacher development: A case study of Vietnamese EFL teachers' reflections",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Nguyen Van Thong",
+                "type": "Author",
+                "description": "Lead author of the research paper."
+            },
+            {
+                "id": "Nguyen Trung Cang",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "Ho Bich Nhu",
+                "type": "Author",
+                "description": "Co-author of the research paper."
+            },
+            {
+                "id": "Faculty of Foreign Languages, Kien Giang University",
+                "type": "Institution",
+                "description": "The academic institution where the authors are affiliated."
+            },
+            {
+                "id": "English as a foreign language (EFL) teaching",
+                "type": "Domain",
+                "description": "The primary research field of the study."
+            },
+            {
+                "id": "Lesson Study",
+                "type": "Method",
+                "description": "A collaborative approach for teacher professional development involving designing, teaching, and refining lessons."
+            },
+            {
+                "id": "Case study",
+                "type": "Method",
+                "description": "The research design used to examine Vietnamese EFL teachers' reflections."
+            },
+            {
+                "id": "Thematic analysis",
+                "type": "Method",
+                "description": "Creswell's five-step process used to analyze qualitative data."
+            },
+            {
+                "id": "Interview",
+                "type": "Method",
+                "description": "A qualitative data collection tool using open-ended questions."
+            },
+            {
+                "id": "Reflective writing",
+                "type": "Method",
+                "description": "A data collection method where participants document their thoughts and experiences."
+            },
+            {
+                "id": "Observation",
+                "type": "Method",
+                "description": "Firsthand data collection during specific teaching sessions."
+            },
+            {
+                "id": "Teacher development",
+                "type": "Concept",
+                "description": "The process of improving teacher professional competence and instruction."
+            },
+            {
+                "id": "Qualitative data (Interviews, Reflective writing, Observations)",
+                "type": "Dataset",
+                "description": "The set of non-numerical data collected from the four participants."
+            },
+            {
+                "id": "Number of participants (4 female teachers)",
+                "type": "Metric",
+                "description": "The final count of teachers who completed the study cycles."
+            },
+            {
+                "id": "Average age (25 years)",
+                "type": "Metric",
+                "description": "The mean age of the research participants."
+            },
+            {
+                "id": "Teaching experience (5-9 years)",
+                "type": "Metric",
+                "description": "The range of professional teaching experience of the participants."
+            },
+            {
+                "id": "Number of research lessons (2 lessons)",
+                "type": "Metric",
+                "description": "The quantity of teaching sessions conducted during the study."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Nguyen Van Thong",
+                "target": "Faculty of Foreign Languages, Kien Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Nguyen Trung Cang",
+                "target": "Faculty of Foreign Languages, Kien Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Bich Nhu",
+                "target": "Faculty of Foreign Languages, Kien Giang University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Lesson Study",
+                "target": "English as a foreign language (EFL) teaching",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Lesson Study",
+                "target": "Teacher development",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Thematic analysis",
+                "target": "Qualitative data (Interviews, Reflective writing, Observations)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Lesson Study",
+                "target": "Number of research lessons (2 lessons)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "Number of participants (4 female teachers)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "Average age (25 years)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Case study",
+                "target": "Teaching experience (5-9 years)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

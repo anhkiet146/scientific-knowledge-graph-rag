@@ -1,0 +1,130 @@
+{
+  "filename": "05-AV-TIEN NGOC TIEN(36-41)005.json",
+  "paper_title": "Comparision of genetic variation between avian influenza type A H5N1 virus causing disease and circulating on poultry in some provinces in the Mekong Delta in 2016",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Tien Ngoc Tien",
+        "type": "Author",
+        "description": "Researcher and PhD student at Can Tho University specializing in Pathology and Treatment of Animals."
+      },
+      {
+        "id": "Ly Thi Lien Khai",
+        "type": "Author",
+        "description": "Researcher at the Department of Veterinary Medicine, Can Tho University."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational and research institution in Vietnam hosting the study."
+      },
+      {
+        "id": "Veterinary Medicine",
+        "type": "Domain",
+        "description": "The branch of medicine that deals with the prevention, control, diagnosis, and treatment of disease, disorder, and injury in animals."
+      },
+      {
+        "id": "Genetic variation of H5N1",
+        "type": "Concept",
+        "description": "The study of differences in DNA/RNA sequences among H5N1 virus strains."
+      },
+      {
+        "id": "Clade 2.3.2.1c",
+        "type": "Concept",
+        "description": "A specific genetic group/lineage of the avian influenza virus identified in the study."
+      },
+      {
+        "id": "rRT-PCR",
+        "type": "Method",
+        "description": "Real-time reverse transcription polymerase chain reaction used to detect H5N1 virus."
+      },
+      {
+        "id": "HA gene sequencing",
+        "type": "Method",
+        "description": "The process of determining the nucleic acid sequence in the Hemagglutinin gene."
+      },
+      {
+        "id": "MEGA 6.0",
+        "type": "Method",
+        "description": "Molecular Evolutionary Genetics Analysis software used for sequence processing and homology calculation."
+      },
+      {
+        "id": "Neighbor-Joining method",
+        "type": "Method",
+        "description": "A bottom-up clustering method used for the creation of phylogenetic trees."
+      },
+      {
+        "id": "Nucleotides homology rate (94.5% to 98.5%)",
+        "type": "Metric",
+        "description": "Percentage similarity of nucleotide sequences between virus strains."
+      },
+      {
+        "id": "Amino acids homology rate (92.5% to 99.3%)",
+        "type": "Metric",
+        "description": "Percentage similarity of amino acid sequences between virus strains."
+      },
+      {
+        "id": "Nucleotide differentiation rate (1.5% to 5.5%)",
+        "type": "Metric",
+        "description": "Percentage of genetic difference between the studied virus strains."
+      },
+      {
+        "id": "Prevalence of type A H5N1 (6.5%)",
+        "type": "Metric",
+        "description": "The proportion of a population found to have the virus in 2015."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Tien Ngoc Tien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ly Thi Lien Khai",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Genetic variation of H5N1",
+        "target": "Veterinary Medicine",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "rRT-PCR",
+        "target": "Genetic variation of H5N1",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "HA gene sequencing",
+        "target": "Genetic variation of H5N1",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "MEGA 6.0",
+        "target": "HA gene sequencing",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Neighbor-Joining method",
+        "target": "Clade 2.3.2.1c",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "HA gene sequencing",
+        "target": "Nucleotides homology rate (94.5% to 98.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "HA gene sequencing",
+        "target": "Amino acids homology rate (92.5% to 99.3%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "MEGA 6.0",
+        "target": "Nucleotide differentiation rate (1.5% to 5.5%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

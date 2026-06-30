@@ -1,0 +1,195 @@
+{
+  "filename": "02-BT-BUI THANH THU(11-18)033.json",
+  "paper_title": "Identification of shallot pathogens in Vĩnh Châu town of Sóc Trăng province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Plant Pathology",
+        "type": "Domain",
+        "description": "The study of diseases in plants, specifically focusing on shallot pathogens."
+      },
+      {
+        "id": "Identification of shallot pathogens",
+        "type": "Concept",
+        "description": "The primary research problem involving identifying organisms causing diseases in shallots."
+      },
+      {
+        "id": "Soft rot",
+        "type": "Concept",
+        "description": "A disease symptom characterized by the breakdown of plant tissues, caused by Erwinia carotovora."
+      },
+      {
+        "id": "Bulb rot",
+        "type": "Concept",
+        "description": "A disease causing decay in the bulbs of shallots."
+      },
+      {
+        "id": "Black mold",
+        "type": "Concept",
+        "description": "A disease caused by Aspergillus niger, resulting in black spores on bulbs."
+      },
+      {
+        "id": "Anthracnose",
+        "type": "Concept",
+        "description": "A fungal disease caused by Colletotrichum gloeosporioides."
+      },
+      {
+        "id": "Basal rot",
+        "type": "Concept",
+        "description": "A disease affecting the base of the shallot bulb, caused by Fusarium oxysporum."
+      },
+      {
+        "id": "Bui Thanh Thu",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Tran Quoc Tuan",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Nguyen Dac Khoa",
+        "type": "Author",
+        "description": "Corresponding author of the research article."
+      },
+      {
+        "id": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "Institution",
+        "description": "The affiliation of the researchers in Vietnam."
+      },
+      {
+        "id": "Koch's postulates",
+        "type": "Method",
+        "description": "A set of criteria to establish a causative relationship between a microbe and a disease."
+      },
+      {
+        "id": "Morphological observation",
+        "type": "Method",
+        "description": "Identifying pathogens based on physical characteristics under a microscope."
+      },
+      {
+        "id": "PCR",
+        "type": "Method",
+        "description": "Polymerase Chain Reaction used to amplify specific DNA sequences for identification."
+      },
+      {
+        "id": "16S rRNA gene sequencing",
+        "type": "Method",
+        "description": "A molecular technique used to identify bacterial species by sequencing their ribosomal RNA genes."
+      },
+      {
+        "id": "Nutrient agar (NA) medium",
+        "type": "Method",
+        "description": "A culture medium used for the isolation of bacteria."
+      },
+      {
+        "id": "Potato dextrose agar (PDA) medium",
+        "type": "Method",
+        "description": "A culture medium used for the isolation of fungi."
+      },
+      {
+        "id": "Ethanol 70%",
+        "type": "Method",
+        "description": "A chemical used for surface sterilization of samples."
+      },
+      {
+        "id": "Gen-Bank database (NCBI)",
+        "type": "Dataset",
+        "description": "A public database of nucleotide sequences used for comparative analysis."
+      },
+      {
+        "id": "98% similarity",
+        "type": "Metric",
+        "description": "The degree of sequence identity found for P. aeruginosa identification."
+      },
+      {
+        "id": "pH (6.0)",
+        "type": "Metric",
+        "description": "The acidity level of the NA medium used."
+      },
+      {
+        "id": "434 bp",
+        "type": "Metric",
+        "description": "The size of the PCR product for E. carotovora identification."
+      },
+      {
+        "id": "650 bp",
+        "type": "Metric",
+        "description": "The size of the PCR product for Pseudomonas sp. identification."
+      },
+      {
+        "id": "363 bp",
+        "type": "Metric",
+        "description": "The size of the PCR product for Aspergillus niger identification."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Identification of shallot pathogens in Vĩnh Châu town of Sóc Trăng province",
+        "target": "Plant Pathology",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Bui Thanh Thu",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Quoc Tuan",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Dac Khoa",
+        "target": "Biotechnology Resesearch and Development Insitute, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Koch's postulates",
+        "target": "Identification of shallot pathogens",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "PCR",
+        "target": "Identification of shallot pathogens",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "16S rRNA gene sequencing",
+        "target": "Identification of shallot pathogens",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "16S rRNA gene sequencing",
+        "target": "Gen-Bank database (NCBI)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "16S rRNA gene sequencing",
+        "target": "98% similarity",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCR",
+        "target": "434 bp",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCR",
+        "target": "650 bp",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "PCR",
+        "target": "363 bp",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Nutrient agar (NA) medium",
+        "target": "pH (6.0)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

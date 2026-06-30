@@ -1,0 +1,110 @@
+{
+  "filename": "01-CE-DO XUAN HAI(1-9)001.json",
+  "paper_title": "SUB-DISCIPLINARY VARIATION IN THE MOVE STRUCTURE OF ENGLISH-MEDIUM RESEARCH ARTICLE INTRODUCTIONS IN APPLIED LINGUISTICS",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Do Xuan Hai",
+        "type": "Author",
+        "description": "The author of the research article."
+      },
+      {
+        "id": "School of Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "The institutional affiliation of the author in Vietnam."
+      },
+      {
+        "id": "Applied Linguistics",
+        "type": "Domain",
+        "description": "The primary field of research for the study."
+      },
+      {
+        "id": "English for Specific Purposes (ESP)",
+        "type": "Concept",
+        "description": "A sub-field of linguistics focused on specific communicative needs."
+      },
+      {
+        "id": "Move structure",
+        "type": "Concept",
+        "description": "The schematic and organizational structure of research article introductions."
+      },
+      {
+        "id": "Genre analysis",
+        "type": "Concept",
+        "description": "The investigative approach used to study the rhetorical structure of texts."
+      },
+      {
+        "id": "Language Learning & Teaching (LLT)",
+        "type": "Concept",
+        "description": "A sub-disciplinary area of applied linguistics examined in the study."
+      },
+      {
+        "id": "Pragmatics & Discourse Analysis (PDA)",
+        "type": "Concept",
+        "description": "A sub-disciplinary area of applied linguistics examined in the study."
+      },
+      {
+        "id": "Swales' CARS (1990, 2004) models",
+        "type": "Method",
+        "description": "A widely used analytical framework for identifying moves in research article introductions."
+      },
+      {
+        "id": "Mann-Whitney U test",
+        "type": "Method",
+        "description": "A non-parametric statistical test used to identify significant differences."
+      },
+      {
+        "id": "SPSS software version 11.5",
+        "type": "Method",
+        "description": "The statistical software used for data analysis."
+      },
+      {
+        "id": "Corpus of 30 RAIs",
+        "type": "Dataset",
+        "description": "A collection of 30 Research Article Introductions extracted from high-impact journals (2011-2013)."
+      },
+      {
+        "id": "Intra-rater agreement rate for step tier (92%)",
+        "type": "Metric",
+        "description": "The reliability score for the move analysis."
+      },
+      {
+        "id": "M3S4 statistical difference (z = -2.45, p < 0.01, r = 0.4)",
+        "type": "Metric",
+        "description": "Statistical measurement for Move 1 variation between LLT and PDA."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Do Xuan Hai",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Swales' CARS (1990, 2004) models",
+        "target": "Move structure",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Swales' CARS (1990, 2004) models",
+        "target": "Corpus of 30 RAIs",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Mann-Whitney U test",
+        "target": "M3S4 statistical difference (z = -2.45, p < 0.01, r = 0.4)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Mann-Whitney U test",
+        "target": "M3S4 statistical difference (z = -2.45, p < 0.01, r = 0.4)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Genre analysis",
+        "target": "Applied Linguistics",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

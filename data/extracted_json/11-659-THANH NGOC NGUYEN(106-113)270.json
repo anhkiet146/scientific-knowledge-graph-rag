@@ -1,0 +1,165 @@
+{
+    "filename": "11-659-THANH NGOC NGUYEN(106-113)270.json",
+    "paper_title": "Repurpose the antimicrobial peptide Buforin II for plasmid transformation into Escherichia coli",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Synthetic biology",
+                "type": "Domain",
+                "description": "The main field of research involving the design and construction of new biological parts and systems."
+            },
+            {
+                "id": "Genetic engineering",
+                "type": "Domain",
+                "description": "The direct manipulation of an organism's genes using biotechnology."
+            },
+            {
+                "id": "Thanh Ngoc Nguyen",
+                "type": "Author",
+                "description": "First and corresponding author of the study."
+            },
+            {
+                "id": "Le Minh Bui",
+                "type": "Author",
+                "description": "Co-author of the study."
+            },
+            {
+                "id": "NTT Hi-tech Institute, Nguyen Tat Thanh University",
+                "type": "Institution",
+                "description": "Research institution in Vietnam."
+            },
+            {
+                "id": "Universitas Airlangga",
+                "type": "Institution",
+                "description": "University in Indonesia."
+            },
+            {
+                "id": "Plasmid transformation",
+                "type": "Concept",
+                "description": "The process of introducing foreign plasmid DNA into a bacterial cell."
+            },
+            {
+                "id": "Gene delivery",
+                "type": "Concept",
+                "description": "The process of introducing foreign genetic material into cells."
+            },
+            {
+                "id": "B2(KH)6",
+                "type": "Method",
+                "description": "A novel fusion peptide consisting of Buforin II and a polycation tail (KH)6 used for delivery."
+            },
+            {
+                "id": "Buforin II",
+                "type": "Method",
+                "description": "An antimicrobial peptide derived from histone H2A with cell-penetrating activity."
+            },
+            {
+                "id": "pGEX-RG-(TAG)5",
+                "type": "Method",
+                "description": "The specific plasmid (7,142 bp) used for transformation experiments."
+            },
+            {
+                "id": "Escherichia coli OmniMAX",
+                "type": "Method",
+                "description": "The bacterial strain used as competent cells for transformation."
+            },
+            {
+                "id": "Heat-shock method",
+                "type": "Method",
+                "description": "The conventional chemical transformation technique used as a comparison control."
+            },
+            {
+                "id": "HPLC",
+                "type": "Method",
+                "description": "High Performance Liquid Chromatography used to purify the peptide."
+            },
+            {
+                "id": "Transformation efficiency (73,258 CFU/µg)",
+                "type": "Metric",
+                "description": "The highest efficiency achieved using 5 µg/mL of the peptide system."
+            },
+            {
+                "id": "Normalized transformation efficiency (7.83 times higher)",
+                "type": "Metric",
+                "description": "The comparative improvement over the heat-shock method."
+            },
+            {
+                "id": "Cell viability (over 90%)",
+                "type": "Metric",
+                "description": "The survival rate of E. coli cells at 5 µg/mL peptide concentration."
+            },
+            {
+                "id": "Peptide concentration (5 µg/mL)",
+                "type": "Metric",
+                "description": "The optimal concentration for the B2(KH)6 delivery system."
+            },
+            {
+                "id": "N/P ratio (1.25)",
+                "type": "Metric",
+                "description": "The molar ratio between cation and anion groups at the optimal concentration."
+            },
+            {
+                "id": "Peptide purity (>97%)",
+                "type": "Metric",
+                "description": "The quality of the synthesized B2(KH)6 peptide."
+            }
+        ],
+        "relations": [
+            {
+                "source": "B2(KH)6",
+                "target": "Plasmid transformation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "B2(KH)6",
+                "target": "Gene delivery",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "B2(KH)6",
+                "target": "Transformation efficiency (73,258 CFU/µg)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "B2(KH)6",
+                "target": "Normalized transformation efficiency (7.83 times higher)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "B2(KH)6",
+                "target": "Cell viability (over 90%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Heat-shock method",
+                "target": "Plasmid transformation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Thanh Ngoc Nguyen",
+                "target": "NTT Hi-tech Institute, Nguyen Tat Thanh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Minh Bui",
+                "target": "NTT Hi-tech Institute, Nguyen Tat Thanh University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Le Minh Bui",
+                "target": "Universitas Airlangga",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "B2(KH)6",
+                "target": "Synthetic biology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "B2(KH)6",
+                "target": "Genetic engineering",
+                "type": "BELONGS_TO"
+            }
+        ]
+    }
+}

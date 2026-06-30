@@ -1,0 +1,175 @@
+{
+    "filename": "10-AE-NGUYEN DINH TRUNG(87-94)010.json",
+    "paper_title": "SORPTION OF AS 5+ FROM AQUEOUS SOLUTION BY LEPIDOCROCIT (γ-FEOOH) NANOPARTICLE",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Environmental Science",
+                "type": "Domain",
+                "description": "The study of environmental protection and water treatment from pollutants."
+            },
+            {
+                "id": "Sorption of As5+ from aqueous solution by lepidocrocit (γ-feooh) nanoparticle",
+                "type": "Concept",
+                "description": "The research title and primary study focus."
+            },
+            {
+                "id": "Nguyen Dinh Trung",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Truong Dong Phuong",
+                "type": "Author",
+                "description": "Author of the research paper."
+            },
+            {
+                "id": "Institute of Environmental research, Dalat University",
+                "type": "Institution",
+                "description": "Organization where the researchers are affiliated."
+            },
+            {
+                "id": "Arsenic removal",
+                "type": "Concept",
+                "description": "The process of eliminating toxic arsenic from water sources."
+            },
+            {
+                "id": "Adsorption",
+                "type": "Concept",
+                "description": "The adhesion of atoms, ions or molecules from a gas, liquid or dissolved solid to a surface."
+            },
+            {
+                "id": "γ-FeOOH nanorods",
+                "type": "Method",
+                "description": "The primary adsorbent material used in the study."
+            },
+            {
+                "id": "Chemical co-precipitation method",
+                "type": "Method",
+                "description": "The process used to synthesize the lepidocrocite nanoparticles."
+            },
+            {
+                "id": "Freundlich isotherms",
+                "type": "Method",
+                "description": "Adsorption model used to describe the equilibrium data."
+            },
+            {
+                "id": "Langmuir isotherms",
+                "type": "Method",
+                "description": "Adsorption model used to describe the maximum uptake capacity."
+            },
+            {
+                "id": "Pseudo-second-order reaction model",
+                "type": "Method",
+                "description": "Kinetic model used to describe the adsorption rate."
+            },
+            {
+                "id": "Atomic Absorption Spectrometer",
+                "type": "Method",
+                "description": "Equipment used for analyzing arsenic concentrations."
+            },
+            {
+                "id": "X-ray diffraction (XRD)",
+                "type": "Method",
+                "description": "Technique used to characterize the crystalline structure of the adsorbent."
+            },
+            {
+                "id": "Scanning electron microscopy (SEM)",
+                "type": "Method",
+                "description": "Technique used to observe the morphology of the nanorods."
+            },
+            {
+                "id": "Maximum adsorption capacity (63.75 mg/g)",
+                "type": "Metric",
+                "description": "The peak ability of the material to adsorb As5+."
+            },
+            {
+                "id": "pH (6.0)",
+                "type": "Metric",
+                "description": "The optimal acidity level for the adsorption process."
+            },
+            {
+                "id": "Adsorption equilibrium (90 min)",
+                "type": "Metric",
+                "description": "The time required for the adsorption process to reach a steady state."
+            },
+            {
+                "id": "Removal rate (97%)",
+                "type": "Metric",
+                "description": "The efficiency of arsenic elimination at 90 minutes."
+            },
+            {
+                "id": "Correlation coefficient R2 (>0.99)",
+                "type": "Metric",
+                "description": "The statistical fit for the pseudo-second-order model."
+            },
+            {
+                "id": "Adsorption data",
+                "type": "Dataset",
+                "description": "Experimental values collected from batch sorption and kinetic tests."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Sorption of As5+ from aqueous solution by lepidocrocit (γ-feooh) nanoparticle",
+                "target": "Environmental Science",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Nguyen Dinh Trung",
+                "target": "Institute of Environmental research, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Truong Dong Phuong",
+                "target": "Institute of Environmental research, Dalat University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chemical co-precipitation method",
+                "target": "Arsenic removal",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "γ-FeOOH nanorods",
+                "target": "Adsorption",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "γ-FeOOH nanorods",
+                "target": "Maximum adsorption capacity (63.75 mg/g)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "γ-FeOOH nanorods",
+                "target": "Removal rate (97%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Pseudo-second-order reaction model",
+                "target": "Correlation coefficient R2 (>0.99)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Freundlich isotherms",
+                "target": "Adsorption data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Langmuir isotherms",
+                "target": "Adsorption data",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "γ-FeOOH nanorods",
+                "target": "pH (6.0)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "γ-FeOOH nanorods",
+                "target": "Adsorption equilibrium (90 min)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

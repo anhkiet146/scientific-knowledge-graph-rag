@@ -1,0 +1,165 @@
+{
+  "filename": "16-BE-NGUYEN MINH THUY(132-140)016.json",
+  "paper_title": "THE KINETICS STUDY ON 5-FORMYLTETRAHYDROFOLIC ACID DEGRADATION AND 5,10-METHENYLTETRAHYDROFOLIC ACID FORMATION DURING THERMAL AND COMBINED HIGH PRESSURE THERMAL TREATMENTS",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "5-formyltetrahydrofolic acid degradation",
+        "type": "Concept",
+        "description": "The breakdown process of 5-CHOH4PteGlu under thermal and high pressure conditions."
+      },
+      {
+        "id": "5,10-methenyltetrahydrofolic acid formation",
+        "type": "Concept",
+        "description": "The conversion of 5-CHOH4PteGlu into 5,10-CH=H4PteGlu during processing."
+      },
+      {
+        "id": "Oxidation",
+        "type": "Concept",
+        "description": "A chemical reaction causing folate loss, resulting in biologically inactive forms."
+      },
+      {
+        "id": "Thermal processing",
+        "type": "Method",
+        "description": "Heat treatment used to study the stability of folate compounds."
+      },
+      {
+        "id": "Combined high pressure thermal treatment",
+        "type": "Method",
+        "description": "Processing involving both high pressure and elevated temperature."
+      },
+      {
+        "id": "Reverse Phase HPLC",
+        "type": "Method",
+        "description": "High-performance liquid chromatography used for identifying and quantifying folates."
+      },
+      {
+        "id": "Multiple response analysis",
+        "type": "Method",
+        "description": "Statistical modeling applied to describe the kinetics of degradation."
+      },
+      {
+        "id": "Ascorbic acid",
+        "type": "Method",
+        "description": "An antioxidant used as a protective agent against folate oxidation."
+      },
+      {
+        "id": "Athena Visual software",
+        "type": "Method",
+        "description": "Software used for multiresponse modeling and kinetic parameter estimation."
+      },
+      {
+        "id": "SAS",
+        "type": "Method",
+        "description": "Statistical analysis software used for data processing."
+      },
+      {
+        "id": "pH levels (3.4 to 7.0)",
+        "type": "Metric",
+        "description": "Acidity levels tested for their effect on folate stability."
+      },
+      {
+        "id": "Thermal range (80-110°C)",
+        "type": "Metric",
+        "description": "Temperature range used during thermal treatments."
+      },
+      {
+        "id": "High pressure range (100-800 MPa)",
+        "type": "Metric",
+        "description": "Pressure range used during high pressure thermal processing."
+      },
+      {
+        "id": "Correlation coefficient (R2 = 0.97-0.99)",
+        "type": "Metric",
+        "description": "The measure of accuracy for the standard curve in HPLC analysis."
+      },
+      {
+        "id": "Retention time (11.2-11.6 min)",
+        "type": "Metric",
+        "description": "Specific elution time for 5,10-CH=H4PteGlu in HPLC."
+      },
+      {
+        "id": "Food Science",
+        "type": "Domain",
+        "description": "The primary field of research involving food processing and nutrient stability."
+      },
+      {
+        "id": "Nguyen Minh Thuy",
+        "type": "Author",
+        "description": "Lead author of the study."
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "University where the research was conducted."
+      },
+      {
+        "id": "College of Agricultural and Applied Biology",
+        "type": "Institution",
+        "description": "Specific department/college of the author."
+      }
+    ],
+    "relations": [
+      {
+        "source": "5-formyltetrahydrofolic acid degradation",
+        "target": "Food Science",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Nguyen Minh Thuy",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Nguyen Minh Thuy",
+        "target": "College of Agricultural and Applied Biology",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thermal processing",
+        "target": "5-formyltetrahydrofolic acid degradation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Combined high pressure thermal treatment",
+        "target": "5-formyltetrahydrofolic acid degradation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Reverse Phase HPLC",
+        "target": "5,10-methenyltetrahydrofolic acid formation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Multiple response analysis",
+        "target": "5-formyltetrahydrofolic acid degradation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Thermal processing",
+        "target": "Thermal range (80-110°C)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Combined high pressure thermal treatment",
+        "target": "High pressure range (100-800 MPa)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Reverse Phase HPLC",
+        "target": "Correlation coefficient (R2 = 0.97-0.99)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Reverse Phase HPLC",
+        "target": "Retention time (11.2-11.6 min)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Multiple response analysis",
+        "target": "pH levels (3.4 to 7.0)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

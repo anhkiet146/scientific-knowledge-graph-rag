@@ -1,0 +1,160 @@
+{
+    "filename": "09-860-Oluwakemi Tovide(84-91)309.json",
+    "paper_title": "Physicochemical and toxicological characteristics of leachates and water quality around dumpsites in Lagos Nigeria",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Groundwater contamination",
+                "type": "Concept",
+                "description": "The degradation of subsurface water resources due to improper waste disposal."
+            },
+            {
+                "id": "Leachate pollution",
+                "type": "Concept",
+                "description": "Contamination caused by toxic fluids seeping through waste materials into soil and water."
+            },
+            {
+                "id": "Waste Management",
+                "type": "Domain",
+                "description": "The primary field of study regarding the collection, disposal, and analysis of waste."
+            },
+            {
+                "id": "Oluwakemi Tovide",
+                "type": "Author",
+                "description": "Researcher from the Department of Chemistry, Lagos State University."
+            },
+            {
+                "id": "Peter Sanjo Adewale",
+                "type": "Author",
+                "description": "Researcher from the Department of Environmental Education, Osun State University."
+            },
+            {
+                "id": "Ifeoluwa Esther Oladimeji",
+                "type": "Author",
+                "description": "Researcher from the Centre for Environmental Studies and Sustainable Development, Lagos State University."
+            },
+            {
+                "id": "Lagos State University",
+                "type": "Institution",
+                "description": "Academic institution in Nigeria hosting departments of Chemistry and Environmental Studies."
+            },
+            {
+                "id": "Osun State University",
+                "type": "Institution",
+                "description": "Academic institution in Nigeria hosting the Department of Environmental Education."
+            },
+            {
+                "id": "Atomic Absorption Spectrophotometry (AAS)",
+                "type": "Method",
+                "description": "Analytical technique used to measure the concentrations of heavy metals."
+            },
+            {
+                "id": "American Public Health Association (APHA) standards",
+                "type": "Method",
+                "description": "Standardized methods used for the characterization of water and leachate samples."
+            },
+            {
+                "id": "Nitric acid (HNO3)",
+                "type": "Method",
+                "description": "Chemical used for the digestion of organic molecules in water samples."
+            },
+            {
+                "id": "Purposive sampling technique",
+                "type": "Method",
+                "description": "A specific method used to collect leachate and borehole water samples."
+            },
+            {
+                "id": "Shimadzu AA650 model",
+                "type": "Method",
+                "description": "The specific machine model used for heavy metal analysis."
+            },
+            {
+                "id": "Physicochemical Analysis Data (Table 1)",
+                "type": "Dataset",
+                "description": "The quantitative results of borehole water and leachate analysis from the Soluos dumpsite."
+            },
+            {
+                "id": "pH of groundwater (5.40-6.34)",
+                "type": "Metric",
+                "description": "The acidity level recorded in water samples from boreholes."
+            },
+            {
+                "id": "pH of leachate (7.69-8.05)",
+                "type": "Metric",
+                "description": "The alkaline level recorded in leachate samples."
+            },
+            {
+                "id": "Conductivity of leachate (1293.0-11,700.00)",
+                "type": "Metric",
+                "description": "Electrical conductivity measurement in leachate samples."
+            },
+            {
+                "id": "Total Dissolved Solids in leachate (3,010.00-6,450.00)",
+                "type": "Metric",
+                "description": "Measurement of inorganic/organic substances in leachate."
+            },
+            {
+                "id": "Chemical Oxygen Demand in leachate (max 1430 mg/L)",
+                "type": "Metric",
+                "description": "Measurement of oxygen required to chemically oxidize pollutants in leachate."
+            },
+            {
+                "id": "BOD5 in leachate (14.00-22.00 mg/L)",
+                "type": "Metric",
+                "description": "Biological oxygen demand over five days for leachate samples."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Physicochemical and toxicological characteristics of leachates and water quality around dumpsites in Lagos Nigeria",
+                "target": "Waste Management",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Oluwakemi Tovide",
+                "target": "Lagos State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Peter Sanjo Adewale",
+                "target": "Osun State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ifeoluwa Esther Oladimeji",
+                "target": "Lagos State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Atomic Absorption Spectrophotometry (AAS)",
+                "target": "Leachate pollution",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "American Public Health Association (APHA) standards",
+                "target": "pH of groundwater (5.40-6.34)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "American Public Health Association (APHA) standards",
+                "target": "pH of leachate (7.69-8.05)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Shimadzu AA650 model",
+                "target": "Physicochemical Analysis Data (Table 1)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "American Public Health Association (APHA) standards",
+                "target": "Physicochemical Analysis Data (Table 1)",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Atomic Absorption Spectrophotometry (AAS)",
+                "target": "Chemical Oxygen Demand in leachate (max 1430 mg/L)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

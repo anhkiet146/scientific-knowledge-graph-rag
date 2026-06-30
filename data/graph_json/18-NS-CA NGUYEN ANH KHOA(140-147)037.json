@@ -1,0 +1,150 @@
+{
+  "filename": "18-NS-CA NGUYEN ANH KHOA(140-147)037.json",
+  "paper_title": "Molecular dynamics simulation of rutile -anatase heterojunction",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Ca Nguyen Anh Khoa",
+        "type": "Author",
+        "description": "First author from Hoang Thai Hieu High School"
+      },
+      {
+        "id": "Huynh Anh Huy",
+        "type": "Author",
+        "description": "Second author from Can Tho University"
+      },
+      {
+        "id": "Hoang Thai Hieu High School",
+        "type": "Institution",
+        "description": "Educational institution in Vinh Long, Vietnam"
+      },
+      {
+        "id": "School of Education, Can Tho University",
+        "type": "Institution",
+        "description": "Academic department in Can Tho University, Vietnam"
+      },
+      {
+        "id": "Photocatalysis",
+        "type": "Domain",
+        "description": "The primary research field of the study"
+      },
+      {
+        "id": "Rutile-anatase heterojunction",
+        "type": "Concept",
+        "description": "The specific mixed-phase semiconductor interface being studied"
+      },
+      {
+        "id": "Electronic structure",
+        "type": "Concept",
+        "description": "Study of the arrangement of electrons in the material"
+      },
+      {
+        "id": "Density functional based tight-binding (DFTB)",
+        "type": "Method",
+        "description": "Quantum mechanical simulation method used to study structural properties"
+      },
+      {
+        "id": "Molecular dynamics (MD) simulation",
+        "type": "Method",
+        "description": "Simulation technique for physical movements of atoms"
+      },
+      {
+        "id": "Near coincidence site lattice (NCSL) theory",
+        "type": "Method",
+        "description": "Method used to construct initial interface models"
+      },
+      {
+        "id": "DFTB+ code",
+        "type": "Method",
+        "description": "Software package for performing DFTB calculations"
+      },
+      {
+        "id": "Anatase (100) surface",
+        "type": "Method",
+        "description": "Specific surface material used to create the interface"
+      },
+      {
+        "id": "Rutile (100) surface",
+        "type": "Method",
+        "description": "Specific surface material used to create the interface"
+      },
+      {
+        "id": "Band offset in VB (0.51 eV)",
+        "type": "Metric",
+        "description": "Conduction band offset value"
+      },
+      {
+        "id": "Band gap of anatase (3.15 eV)",
+        "type": "Metric",
+        "description": "Calculated band gap for anatase"
+      },
+      {
+        "id": "Band gap of rutile (3.09 eV)",
+        "type": "Metric",
+        "description": "Calculated band gap for rutile"
+      },
+      {
+        "id": "Band gap of interfaces (2.12 eV)",
+        "type": "Metric",
+        "description": "Reduced band gap calculated at the junction"
+      },
+      {
+        "id": "Ti-O bond length (1.90-1.92 Å)",
+        "type": "Metric",
+        "description": "Calculated interatomic distance at the interface"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ca Nguyen Anh Khoa",
+        "target": "Hoang Thai Hieu High School",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Huynh Anh Huy",
+        "target": "School of Education, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Molecular dynamics simulation of rutile - anatase heterojunction",
+        "target": "Photocatalysis",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Density functional based tight-binding (DFTB)",
+        "target": "Rutile-anatase heterojunction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Near coincidence site lattice (NCSL) theory",
+        "target": "Rutile-anatase heterojunction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Density functional based tight-binding (DFTB)",
+        "target": "Band offset in VB (0.51 eV)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Density functional based tight-binding (DFTB)",
+        "target": "Band offset in VB (0.51 eV)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Density functional based tight-binding (DFTB)",
+        "target": "Band gap of interfaces (2.12 eV)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Molecular dynamics (MD) simulation",
+        "target": "Ti-O bond length (1.90-1.92 Å)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "DFTB+ code",
+        "target": "Electronic structure",
+        "type": "USED_FOR"
+      }
+    ]
+  }
+}

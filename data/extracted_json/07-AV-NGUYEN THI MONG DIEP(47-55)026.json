@@ -1,0 +1,135 @@
+{
+    "filename": "07-AV-NGUYEN THI MONG DIEP(47-55)026.json",
+    "paper_title": "Metformin -An agent stimulating motility and acrosome reaction in chicken sperm",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Metformin",
+                "type": "Method",
+                "description": "An agent/chemical (1,1-dimethylbiguanide hydrochloride) used to stimulate sperm motility and acrosome reaction."
+            },
+            {
+                "id": "Chicken sperm motility",
+                "type": "Concept",
+                "description": "The ability of chicken sperm to move spontaneously and actively."
+            },
+            {
+                "id": "Acrosome reaction",
+                "type": "Concept",
+                "description": "A physiological process in sperm necessary for oocyte fertilization."
+            },
+            {
+                "id": "Cryopreservation",
+                "type": "Concept",
+                "description": "Technique for long-term storage of sperm at very low temperatures causing potential damage."
+            },
+            {
+                "id": "CASA system",
+                "type": "Method",
+                "description": "Computer-assisted sperm analysis system used to evaluate sperm motility parameters."
+            },
+            {
+                "id": "Western-Blotting",
+                "type": "Method",
+                "description": "Analytical technique used to detect specific protein phosphorylation (AMPK)."
+            },
+            {
+                "id": "Lake PC",
+                "type": "Method",
+                "description": "A specific extender or buffer used for diluting semen during cryopreservation."
+            },
+            {
+                "id": "Sperm motility increase (41%)",
+                "type": "Metric",
+                "description": "Percentage increase in fresh sperm motility observed with 1mM Metformin."
+            },
+            {
+                "id": "Acrosome reaction increase (39%)",
+                "type": "Metric",
+                "description": "Percentage increase in acrosome reaction rate observed with 1mM Metformin."
+            },
+            {
+                "id": "Post-thaw motility increase (23%)",
+                "type": "Metric",
+                "description": "Increase in motility of cryopreserved sperm treated with Metformin compared to control."
+            },
+            {
+                "id": "Sperm viability increase (10%)",
+                "type": "Metric",
+                "description": "Increase in viability of cryopreserved sperm treated with Metformin."
+            },
+            {
+                "id": "AMPK phosphorylation increase (30%)",
+                "type": "Metric",
+                "description": "Measured increase in AMPK activation after Metformin treatment during freeze-thaw."
+            },
+            {
+                "id": "Animal Reproductive Biology",
+                "type": "Domain",
+                "description": "The primary research area focusing on sperm function and cryopreservation."
+            },
+            {
+                "id": "Nguyen Thi Mong Diep",
+                "type": "Author",
+                "description": "Lead author of the study from Quy Nhon University."
+            },
+            {
+                "id": "Quy Nhon University",
+                "type": "Institution",
+                "description": "Institution located in Vietnam where the author is affiliated."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Metformin - An agent stimulating motility and acrosome reaction in chicken sperm",
+                "target": "Animal Reproductive Biology",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Metformin",
+                "target": "Sperm motility increase (41%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Metformin",
+                "target": "Acrosome reaction increase (39%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Metformin",
+                "target": "Post-thaw motility increase (23%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Metformin",
+                "target": "Sperm viability increase (10%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Western-Blotting",
+                "target": "AMPK phosphorylation increase (30%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Metformin",
+                "target": "Chicken sperm motility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Metformin",
+                "target": "Acrosome reaction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "CASA system",
+                "target": "Chicken sperm motility",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Nguyen Thi Mong Diep",
+                "target": "Quy Nhon University",
+                "type": "AFFILIATED_WITH"
+            }
+        ]
+    }
+}

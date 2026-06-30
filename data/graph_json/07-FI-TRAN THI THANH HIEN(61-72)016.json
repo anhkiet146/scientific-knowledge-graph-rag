@@ -1,0 +1,160 @@
+{
+  "filename": "07-FI-TRAN THI THANH HIEN(61-72)016.json",
+  "paper_title": "Effects of dietary protein and lipid levels on growth, feed utilization and meat quality of clown knifefish (Chitala chitala)",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Effects of dietary protein and lipid levels on growth, feed utilization and meat quality of clown knifefish (Chitala chitala)",
+        "type": "Concept",
+        "description": "Main research topic focusing on nutritional requirements of Chitala chitala"
+      },
+      {
+        "id": "Aquaculture",
+        "type": "Domain",
+        "description": "The primary field of research"
+      },
+      {
+        "id": "Tran Thi Thanh Hien",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Lam My Lan",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Tran Le Cam Tu",
+        "type": "Author",
+        "description": "Researcher from Can Tho University"
+      },
+      {
+        "id": "Can Tho University",
+        "type": "Institution",
+        "description": "Educational and research institution in Viet Nam"
+      },
+      {
+        "id": "4 x 3 factorial design",
+        "type": "Method",
+        "description": "Experimental design with four protein and three lipid levels"
+      },
+      {
+        "id": "Texture Analyzer (TA-XT2i)",
+        "type": "Method",
+        "description": "Equipment used for measuring fish muscle hardness and chewiness"
+      },
+      {
+        "id": "Parr 6100 calorimeter machine",
+        "type": "Method",
+        "description": "Device used for measuring energy content"
+      },
+      {
+        "id": "SPSS program Version 20.0",
+        "type": "Method",
+        "description": "Statistical software used for data analysis"
+      },
+      {
+        "id": "Protein and energy requirements",
+        "type": "Concept",
+        "description": "Study of nutritional needs for optimal growth"
+      },
+      {
+        "id": "Meat quality",
+        "type": "Concept",
+        "description": "Physical attributes of fish flesh like chewiness and hardness"
+      },
+      {
+        "id": "Experimental Data Tables",
+        "type": "Dataset",
+        "description": "Numerical data on growth, feed utilization, and chemical composition"
+      },
+      {
+        "id": "Optimal dietary protein (32.8%)",
+        "type": "Metric",
+        "description": "Recommended protein level for clown knifefish"
+      },
+      {
+        "id": "Dietary energy (19 MJ/kg)",
+        "type": "Metric",
+        "description": "Recommended energy level for clown knifefish"
+      },
+      {
+        "id": "P/E ratio (18.6)",
+        "type": "Metric",
+        "description": "Protein to Energy ratio achieved for optimal growth"
+      },
+      {
+        "id": "Survival rate (93.3 to 100%)",
+        "type": "Metric",
+        "description": "Percentage of fish remaining at the end of the experiment"
+      },
+      {
+        "id": "SGR (2.60±0.02 %/day)",
+        "type": "Metric",
+        "description": "Specific growth rate achieved at optimal protein level"
+      },
+      {
+        "id": "Initial weight (407 ± 5.0 g)",
+        "type": "Metric",
+        "description": "Starting weight of the experimental fish"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Effects of dietary protein and lipid levels on growth, feed utilization and meat quality of clown knifefish (Chitala chitala)",
+        "target": "Aquaculture",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Tran Thi Thanh Hien",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Lam My Lan",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Tran Le Cam Tu",
+        "target": "Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "4 x 3 factorial design",
+        "target": "Protein and energy requirements",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Texture Analyzer (TA-XT2i)",
+        "target": "Meat quality",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "4 x 3 factorial design",
+        "target": "Optimal dietary protein (32.8%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "4 x 3 factorial design",
+        "target": "Dietary energy (19 MJ/kg)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "4 x 3 factorial design",
+        "target": "SGR (2.60±0.02 %/day)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "4 x 3 factorial design",
+        "target": "Survival rate (93.3 to 100%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "SPSS program Version 20.0",
+        "target": "Experimental Data Tables",
+        "type": "EVALUATED_ON"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "01-AG-NGUYEN HUU HAO(1-10)032.json",
+  "paper_title": "Applying AHP method and GIS to evaluate land suitability for paddy rice crop in Quang Xuong district, Thanh Hoa province",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Land suitability evaluation for paddy rice",
+        "type": "Concept",
+        "description": "The assessment of land capacity and restrictions for rice production in Quang Xuong district."
+      },
+      {
+        "id": "Sustainable land management",
+        "type": "Concept",
+        "description": "The practice of managing land resources to satisfy socio-economic needs while protecting the ecological environment."
+      },
+      {
+        "id": "Analytic Hierarchy Process (AHP)",
+        "type": "Method",
+        "description": "A multi-criteria decision-making tool used to derive weightings for various criteria through pairwise comparison."
+      },
+      {
+        "id": "Geographical Information Systems (GIS)",
+        "type": "Method",
+        "description": "A system used to integrate, store, and analyze spatial information for land suitability mapping."
+      },
+      {
+        "id": "ArcGIS software",
+        "type": "Method",
+        "description": "Software used for processing spatial data and overlaying thematic layers to generate suitability maps."
+      },
+      {
+        "id": "FAO instructions of land assessment",
+        "type": "Method",
+        "description": "Framework used for collecting and evaluating land data, modified for Vietnamese conditions."
+      },
+      {
+        "id": "Geometric mean method",
+        "type": "Method",
+        "description": "Method used to aggregate a comparison matrix of experts' judgments."
+      },
+      {
+        "id": "Soil map data",
+        "type": "Dataset",
+        "description": "Spatial data reflecting the soil characteristics of Thanh Hoa province."
+      },
+      {
+        "id": "Land use map",
+        "type": "Dataset",
+        "description": "Spatial database of existing land use patterns in the study area."
+      },
+      {
+        "id": "Moderate suitability level S2 (24.82%)",
+        "type": "Metric",
+        "description": "Percentage of examined area classified as moderately suitable for rice production."
+      },
+      {
+        "id": "Marginal suitability level S3 (52.33%)",
+        "type": "Metric",
+        "description": "Percentage of examined area classified as marginally suitable for rice production."
+      },
+      {
+        "id": "Currently unsuitable level N1 (18.40%)",
+        "type": "Metric",
+        "description": "Percentage of examined area classified as currently unsuitable for rice production."
+      },
+      {
+        "id": "Permanently unsuitable level N2 (4.45%)",
+        "type": "Metric",
+        "description": "Percentage of examined area classified as permanently unsuitable for rice production."
+      },
+      {
+        "id": "Consistency Ratio (CR < 10%)",
+        "type": "Metric",
+        "description": "Measurement of variation allowed in pairwise comparison matrices to ensure consistency."
+      },
+      {
+        "id": "Agricultural land use planning",
+        "type": "Domain",
+        "description": "The field of assessing and planning land resources for agricultural optimization."
+      },
+      {
+        "id": "Nguyen Huu Hao",
+        "type": "Author",
+        "description": "Lead author of the study."
+      },
+      {
+        "id": "Pham Van Van",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Khuong Manh Ha",
+        "type": "Author",
+        "description": "Co-author of the study."
+      },
+      {
+        "id": "Hong Duc University",
+        "type": "Institution",
+        "description": "Faculty of Agriculture Forestry and Fishery, Vietnam."
+      },
+      {
+        "id": "Vietnam National University of Agriculture",
+        "type": "Institution",
+        "description": "Faculty of Land Management, Vietnam."
+      },
+      {
+        "id": "Bac Giang Agriculture and Forestry University",
+        "type": "Institution",
+        "description": "Faculty of Environment and Resources, Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Nguyen Huu Hao",
+        "target": "Hong Duc University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Pham Van Van",
+        "target": "Vietnam National University of Agriculture",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Khuong Manh Ha",
+        "target": "Bac Giang Agriculture and Forestry University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Analytic Hierarchy Process (AHP)",
+        "target": "Land suitability evaluation for paddy rice",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Geographical Information Systems (GIS)",
+        "target": "Land suitability evaluation for paddy rice",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Analytic Hierarchy Process (AHP)",
+        "target": "Moderate suitability level S2 (24.82%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Analytic Hierarchy Process (AHP)",
+        "target": "Consistency Ratio (CR < 10%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "ArcGIS software",
+        "target": "Soil map data",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "ArcGIS software",
+        "target": "Land use map",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Land suitability evaluation for paddy rice",
+        "target": "Agricultural land use planning",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

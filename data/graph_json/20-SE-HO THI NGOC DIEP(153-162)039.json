@@ -1,0 +1,135 @@
+{
+  "filename": "20-SE-HO THI NGOC DIEP(153-162)039.json",
+  "paper_title": "Determinants of income diversification and its effects on rural household income in Vietnam",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Income diversification",
+        "type": "Concept",
+        "description": "The process of rural households engaging in multiple income-generating activities to manage risk and improve livelihoods."
+      },
+      {
+        "id": "Rural household income",
+        "type": "Concept",
+        "description": "The total income earned by households living in rural areas, often analyzed for growth and stability."
+      },
+      {
+        "id": "Rural poverty",
+        "type": "Concept",
+        "description": "The state of poverty in rural regions, which income diversification aims to alleviate."
+      },
+      {
+        "id": "Poisson regression",
+        "type": "Method",
+        "description": "A regression method used to analyze the number of income sources (count data)."
+      },
+      {
+        "id": "Tobit regression",
+        "type": "Method",
+        "description": "A regression model used for censored data, applied to the Simpson index and non-farm income share."
+      },
+      {
+        "id": "Instrumental variables (IV) method - 2SLS",
+        "type": "Method",
+        "description": "Two-stage least squares method used to address endogeneity in the impact analysis of diversification on income."
+      },
+      {
+        "id": "VHLSS (2002-2010)",
+        "type": "Dataset",
+        "description": "Vietnam Household Living Standard Surveys, a digital dataset used for cross-sectional and trend analysis."
+      },
+      {
+        "id": "Annual economic growth rate (6-8%)",
+        "type": "Metric",
+        "description": "The national economic growth rate in Vietnam since the early 1990s."
+      },
+      {
+        "id": "Poverty rate in 2010 (14.23%)",
+        "type": "Metric",
+        "description": "The percentage of the population living in poverty in Vietnam in 2010."
+      },
+      {
+        "id": "Average number of income sources in 2010 (4.36)",
+        "type": "Metric",
+        "description": "The average value of the NIS measure for rural households in 2010."
+      },
+      {
+        "id": "Income increase per additional source (32,977,000 VND)",
+        "type": "Metric",
+        "description": "The average impact of adding one more income source on total household income."
+      },
+      {
+        "id": "Development Economics",
+        "type": "Domain",
+        "description": "The primary field of research concerning economic development and rural household welfare."
+      },
+      {
+        "id": "Ho Thi Ngoc Diep",
+        "type": "Author",
+        "description": "Researcher affiliated with University of Economics Ho Chi Minh City."
+      },
+      {
+        "id": "Ha Thuc Vien",
+        "type": "Author",
+        "description": "Researcher affiliated with Vietnamese - German University."
+      },
+      {
+        "id": "University of Economics Ho Chi Minh City",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      },
+      {
+        "id": "Vietnamese - German University, Vietnam",
+        "type": "Institution",
+        "description": "Academic institution in Vietnam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ho Thi Ngoc Diep",
+        "target": "University of Economics Ho Chi Minh City",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Ha Thuc Vien",
+        "target": "Vietnamese - German University, Vietnam",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Development Economics",
+        "target": "Development Economics",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Poisson regression",
+        "target": "Income diversification",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Tobit regression",
+        "target": "Income diversification",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Poisson regression",
+        "target": "VHLSS (2002-2010)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Tobit regression",
+        "target": "VHLSS (2002-2010)",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Instrumental variables (IV) method - 2SLS",
+        "target": "Income increase per additional source (32,977,000 VND)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Poisson regression",
+        "target": "Average number of income sources in 2010 (4.36)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

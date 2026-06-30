@@ -1,0 +1,165 @@
+{
+    "filename": "11-825-Liriolyn B. Pacursa(105-115)296.json",
+    "paper_title": "The art of classroom observation: The Case of Quirino State University and Can Tho University",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Education",
+                "type": "Domain",
+                "description": "The primary field of research focusing on teaching and learning processes."
+            },
+            {
+                "id": "Liriolyn B. Pacursa",
+                "type": "Author",
+                "description": "Researcher from the College of Teacher Education, Quirino State University."
+            },
+            {
+                "id": "Eduard P. Alip",
+                "type": "Author",
+                "description": "Researcher from the College of Teacher Education, Quirino State University."
+            },
+            {
+                "id": "Thi Phuong Thao-Do",
+                "type": "Author",
+                "description": "Researcher from the School of Education, Can Tho University."
+            },
+            {
+                "id": "Trinh Chi Tham",
+                "type": "Author",
+                "description": "Researcher from the School of Education, Can Tho University."
+            },
+            {
+                "id": "Quirino State University-Maddela Campus",
+                "type": "Institution",
+                "description": "Higher education institution in the Philippines."
+            },
+            {
+                "id": "Can Tho University",
+                "type": "Institution",
+                "description": "Higher education institution in Viet Nam."
+            },
+            {
+                "id": "Classroom observation",
+                "type": "Concept",
+                "description": "A professional development model for lecturers to gain teaching experience through cooperation."
+            },
+            {
+                "id": "Professional development",
+                "type": "Concept",
+                "description": "The process of improving and increasing capabilities of staff through access to education and training opportunities."
+            },
+            {
+                "id": "Descriptive-comparative design",
+                "type": "Method",
+                "description": "Research design used to gather information and compare differences between institutions."
+            },
+            {
+                "id": "Survey",
+                "type": "Method",
+                "description": "Primary instrument for data gathering using questionnaires."
+            },
+            {
+                "id": "Quota sampling technique",
+                "type": "Method",
+                "description": "Sampling method used to select the 40 lecturer participants."
+            },
+            {
+                "id": "Likert scale",
+                "type": "Method",
+                "description": "A psychometric scale commonly involved in research that employs questionnaires (1. Very Low to 5. Very High)."
+            },
+            {
+                "id": "SPSS",
+                "type": "Method",
+                "description": "Statistical software used for data analysis."
+            },
+            {
+                "id": "Kruskal-Wallis H test",
+                "type": "Method",
+                "description": "Statistical tool to determine significant differences among multiple groups."
+            },
+            {
+                "id": "Mann-Whitney U Test",
+                "type": "Method",
+                "description": "Statistical tool used to determine significant differences between two university groups."
+            },
+            {
+                "id": "Survey responses from 40 lecturers",
+                "type": "Dataset",
+                "description": "Digital data collected from the faculty members of QSU and CTU."
+            },
+            {
+                "id": "Grand Mean of advantages (M=4.23, SD=0.16)",
+                "type": "Metric",
+                "description": "Overall perceived advantage score of classroom observation."
+            },
+            {
+                "id": "Grand Mean of disadvantages (M=3.86, SD=0.16)",
+                "type": "Metric",
+                "description": "Overall perceived disadvantage score of classroom observation."
+            },
+            {
+                "id": "Average passing percentage of graduates (31%)",
+                "type": "Metric",
+                "description": "National passing rate for the Licensure Examination for Teachers in the Philippines."
+            },
+            {
+                "id": "Significance level (p < 0.05)",
+                "type": "Metric",
+                "description": "The threshold for statistical significance in the comparative analysis."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Liriolyn B. Pacursa",
+                "target": "Quirino State University-Maddela Campus",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Eduard P. Alip",
+                "target": "Quirino State University-Maddela Campus",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Thi Phuong Thao-Do",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Trinh Chi Tham",
+                "target": "Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "The art of classroom observation: The Case of Quirino State University and Can Tho University",
+                "target": "Education",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Survey",
+                "target": "Classroom observation",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Descriptive-comparative design",
+                "target": "Survey responses from 40 lecturers",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Descriptive-comparative design",
+                "target": "Grand Mean of advantages (M=4.23, SD=0.16)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Descriptive-comparative design",
+                "target": "Grand Mean of disadvantages (M=3.86, SD=0.16)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Mann-Whitney U Test",
+                "target": "Significance level (p < 0.05)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

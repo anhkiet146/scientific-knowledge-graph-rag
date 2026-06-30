@@ -1,0 +1,165 @@
+{
+    "filename": "10-ET-TRAN THI BICH QUYEN(61-70).json",
+    "paper_title": "ENERGY EFFICIENCY RESEARCH OF HEAT INSULATION SOLAR GLASS ON BUILDINGS",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "ENERGY EFFICIENCY RESEARCH OF HEAT INSULATION SOLAR GLASS ON BUILDINGS",
+                "type": "Concept",
+                "description": "The title and primary research topic of the paper"
+            },
+            {
+                "id": "Sustainable Building and Energy Efficiency",
+                "type": "Domain",
+                "description": "The main research field involving building materials and energy conservation"
+            },
+            {
+                "id": "Tran Thi Bich Quyen",
+                "type": "Author",
+                "description": "Researcher from Can Tho University"
+            },
+            {
+                "id": "Chin-Huai Young",
+                "type": "Author",
+                "description": "Researcher from National Taiwan Univ. of Science and Technology"
+            },
+            {
+                "id": "Chieh-Yu Chang",
+                "type": "Author",
+                "description": "Researcher from National Taiwan Univ. of Science and Technology"
+            },
+            {
+                "id": "Bui Le Anh Tuan",
+                "type": "Author",
+                "description": "Researcher from Can Tho University"
+            },
+            {
+                "id": "College of Engineering and Technology, Can Tho University, Vietnam",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "Dept. of Civil and Construction Engineering, National Taiwan Univ. of Science and Technology, Taiwan",
+                "type": "Institution",
+                "description": "Academic institution in Taiwan"
+            },
+            {
+                "id": "Dept. of Civil Engineering, Can Tho University, Vietnam",
+                "type": "Institution",
+                "description": "Academic institution in Vietnam"
+            },
+            {
+                "id": "Heat insulation solar glass (HISG)",
+                "type": "Method",
+                "description": "A multifunctional solar glass module for energy saving and power generation"
+            },
+            {
+                "id": "Ordinary house",
+                "type": "Method",
+                "description": "Experimental control setup using normal glass"
+            },
+            {
+                "id": "Low-E glass house",
+                "type": "Method",
+                "description": "Experimental setup using Low-E glass for comparison"
+            },
+            {
+                "id": "HISG house",
+                "type": "Method",
+                "description": "Experimental house model integrated with HISG modules"
+            },
+            {
+                "id": "Nano photocatalyst",
+                "type": "Method",
+                "description": "Material coated on the HISG module surface for self-cleaning"
+            },
+            {
+                "id": "SAMPO HX-YB12P: 1250W",
+                "type": "Method",
+                "description": "Heater device used for testing energy consumption"
+            },
+            {
+                "id": "TECO LT63FP1-41003",
+                "type": "Method",
+                "description": "Air conditioner device used for testing energy consumption"
+            },
+            {
+                "id": "Energy saving",
+                "type": "Concept",
+                "description": "Reducing power consumption in buildings"
+            },
+            {
+                "id": "Greenhouse gas reduction",
+                "type": "Concept",
+                "description": "Mitigating environmental impact of building operations"
+            },
+            {
+                "id": "Cooling energy-saving efficiency (70.68%)",
+                "type": "Metric",
+                "description": "Efficiency achieved by HISG house compared to Ordinary house"
+            },
+            {
+                "id": "Heating energy-saving efficiency (23.53%)",
+                "type": "Metric",
+                "description": "Efficiency achieved by HISG house compared to Ordinary house"
+            },
+            {
+                "id": "Energy efficiency (~19.59–37.07%)",
+                "type": "Metric",
+                "description": "Reduction in energy consumption at outdoor temperature above 30°C"
+            }
+        ],
+        "relations": [
+            {
+                "source": "ENERGY EFFICIENCY RESEARCH OF HEAT INSULATION SOLAR GLASS ON BUILDINGS",
+                "target": "Sustainable Building and Energy Efficiency",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Tran Thi Bich Quyen",
+                "target": "College of Engineering and Technology, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chin-Huai Young",
+                "target": "Dept. of Civil and Construction Engineering, National Taiwan Univ. of Science and Technology, Taiwan",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Chieh-Yu Chang",
+                "target": "Dept. of Civil and Construction Engineering, National Taiwan Univ. of Science and Technology, Taiwan",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Bui Le Anh Tuan",
+                "target": "Dept. of Civil Engineering, Can Tho University, Vietnam",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Heat insulation solar glass (HISG)",
+                "target": "Energy saving",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Heat insulation solar glass (HISG)",
+                "target": "Greenhouse gas reduction",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "HISG house",
+                "target": "Cooling energy-saving efficiency (70.68%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HISG house",
+                "target": "Heating energy-saving efficiency (23.53%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "HISG house",
+                "target": "Energy efficiency (~19.59–37.07%)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

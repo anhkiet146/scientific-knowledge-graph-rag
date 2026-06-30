@@ -1,0 +1,190 @@
+{
+    "filename": "06-625-CAO LUU NGOC HANH(64-71)051.json",
+    "paper_title": "Preparation and characterization of magnetic-lignin nanoparticles with potential applications for drug delivery",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Cao Luu Ngoc Hanh",
+                "type": "Author",
+                "description": "Corresponding author from College of Engineering, Can Tho University."
+            },
+            {
+                "id": "Luong Huynh Vu Thanh",
+                "type": "Author",
+                "description": "Author from College of Engineering, Can Tho University."
+            },
+            {
+                "id": "Dang Huynh Giao",
+                "type": "Author",
+                "description": "Author from College of Engineering, Can Tho University."
+            },
+            {
+                "id": "Ho Quoc Phong",
+                "type": "Author",
+                "description": "Author from College of Engineering, Can Tho University."
+            },
+            {
+                "id": "Vo Thi Nhu Y",
+                "type": "Author",
+                "description": "Graduate student at College of Engineering, Can Tho University."
+            },
+            {
+                "id": "Dang Thi Viet Anh",
+                "type": "Author",
+                "description": "Graduate student at College of Engineering, Can Tho University."
+            },
+            {
+                "id": "College of Engineering, Can Tho University",
+                "type": "Institution",
+                "description": "The academic organization in Viet Nam where the research was conducted."
+            },
+            {
+                "id": "Drug delivery",
+                "type": "Domain",
+                "description": "The primary research field involving the transport of pharmaceutical compounds."
+            },
+            {
+                "id": "Magnetic-lignin nanoparticles",
+                "type": "Concept",
+                "description": "Hybrid nanoparticles (Fe3O4@lignin) synthesized for targeted medical use."
+            },
+            {
+                "id": "Targeted drug delivery",
+                "type": "Concept",
+                "description": "The method of delivering medication to a patient in a manner that increases the concentration of the medication in some parts of the body relative to others."
+            },
+            {
+                "id": "Super-paramagnetism",
+                "type": "Concept",
+                "description": "A form of magnetism which appears in small ferromagnetic or ferrimagnetic nanoparticles."
+            },
+            {
+                "id": "Coprecipitation technique",
+                "type": "Method",
+                "description": "The chemical method used to synthesize Fe3O4 nanoparticles."
+            },
+            {
+                "id": "Lignin extraction",
+                "type": "Method",
+                "description": "Process of obtaining lignin from sugarcane bagasse using NaOH and H2SO4."
+            },
+            {
+                "id": "Scanning electron microscope (SEM)",
+                "type": "Method",
+                "description": "Imaging technique used to determine morphology and particle size."
+            },
+            {
+                "id": "Vibrating sample magnetometer (VSM)",
+                "type": "Method",
+                "description": "Instrument used to measure the magnetic properties of the material."
+            },
+            {
+                "id": "Fourier transform infrared (FTIR)",
+                "type": "Method",
+                "description": "Analytical technique used to identify functional groups and chemical bonds."
+            },
+            {
+                "id": "Thermogravimetric analysis (TGA)",
+                "type": "Method",
+                "description": "Method to assess thermal stability and mass loss of the nanoparticles."
+            },
+            {
+                "id": "Average diameter (53.42 ± 5.12 nm)",
+                "type": "Metric",
+                "description": "Size measurement of the synthesized nanoparticles obtained from SEM images."
+            },
+            {
+                "id": "Magnetic saturation (50.8 emu.g-1)",
+                "type": "Metric",
+                "description": "Saturation magnetization value for Fe3O4/lignin nanoparticles."
+            },
+            {
+                "id": "Lignin content (32.82%)",
+                "type": "Metric",
+                "description": "Estimated percentage of lignin in the hybrid nanoparticles."
+            },
+            {
+                "id": "Ratio of Fe3O4/lignin (1:0.5)",
+                "type": "Metric",
+                "description": "The optimal mass ratio for synthesizing magnetic-lignin nanoparticles."
+            },
+            {
+                "id": "Reaction time (9 hours)",
+                "type": "Metric",
+                "description": "The optimal synthesis duration for the nanoparticles."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Cao Luu Ngoc Hanh",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Luong Huynh Vu Thanh",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Huynh Giao",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Ho Quoc Phong",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Vo Thi Nhu Y",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Dang Thi Viet Anh",
+                "target": "College of Engineering, Can Tho University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Magnetic-lignin nanoparticles",
+                "target": "Drug delivery",
+                "type": "BELONGS_TO"
+            },
+            {
+                "source": "Magnetic-lignin nanoparticles",
+                "target": "Targeted drug delivery",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Coprecipitation technique",
+                "target": "Magnetic-lignin nanoparticles",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Scanning electron microscope (SEM)",
+                "target": "Average diameter (53.42 ± 5.12 nm)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Vibrating sample magnetometer (VSM)",
+                "target": "Magnetic saturation (50.8 emu.g-1)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Thermogravimetric analysis (TGA)",
+                "target": "Lignin content (32.82%)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coprecipitation technique",
+                "target": "Ratio of Fe3O4/lignin (1:0.5)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Coprecipitation technique",
+                "target": "Reaction time (9 hours)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

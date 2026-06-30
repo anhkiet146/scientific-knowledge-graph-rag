@@ -1,0 +1,140 @@
+{
+    "filename": "15-987-Henreyna Jane C. Redublado(150-162)315.json",
+    "paper_title": "Efficacy of Jigsaw learning in teaching volleyball skills to grade 12 students",
+    "extraction_result": {
+        "entities": [
+            {
+                "id": "Physical Education",
+                "type": "Domain",
+                "description": "The research field focusing on physical activity and sports education."
+            },
+            {
+                "id": "Henreyna Jane C. Redublado",
+                "type": "Author",
+                "description": "First author of the study."
+            },
+            {
+                "id": "Gino Gasang Sumalinog",
+                "type": "Author",
+                "description": "Second and corresponding author of the study."
+            },
+            {
+                "id": "Biliran Province State University",
+                "type": "Institution",
+                "description": "University where the first author is affiliated and the study environment."
+            },
+            {
+                "id": "Cebu Normal University",
+                "type": "Institution",
+                "description": "University where the second author is affiliated."
+            },
+            {
+                "id": "Jigsaw learning",
+                "type": "Method",
+                "description": "A cooperative learning method where students work in groups to master and teach specific skills."
+            },
+            {
+                "id": "Quantitative descriptive-correlation research design",
+                "type": "Method",
+                "description": "The systematic empirical investigation used in the study."
+            },
+            {
+                "id": "Scoring rubric",
+                "type": "Method",
+                "description": "A 4-point rating system tool used to assess volleyball skills performance."
+            },
+            {
+                "id": "Volleyball skills",
+                "type": "Concept",
+                "description": "The core fundamental skills including serving, passing, setting, spiking, and blocking."
+            },
+            {
+                "id": "Mann Whitney U-Test",
+                "type": "Method",
+                "description": "Statistical tool used to determine significant differences in performance."
+            },
+            {
+                "id": "Skills performance dataset of 100 respondents",
+                "type": "Dataset",
+                "description": "The numerical data collected from 100 Grade 12 student respondents."
+            },
+            {
+                "id": "Mean serving skills after (3.60)",
+                "type": "Metric",
+                "description": "The average score for serving skill after applying Jigsaw learning."
+            },
+            {
+                "id": "Mean passing skills after (3.56)",
+                "type": "Metric",
+                "description": "The average score for passing skill after applying Jigsaw learning."
+            },
+            {
+                "id": "Mean setting skills after (3.30)",
+                "type": "Metric",
+                "description": "The average score for setting skill after applying Jigsaw learning."
+            },
+            {
+                "id": "Mean blocking skills after (2.88)",
+                "type": "Metric",
+                "description": "The average score for blocking skill after applying Jigsaw learning."
+            },
+            {
+                "id": "Computed z-value (-9.532)",
+                "type": "Metric",
+                "description": "Statistical value from the significance test."
+            },
+            {
+                "id": "p-value (0.001)",
+                "type": "Metric",
+                "description": "The probability value indicating high statistical significance."
+            }
+        ],
+        "relations": [
+            {
+                "source": "Physical Education",
+                "target": "Jigsaw learning",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Henreyna Jane C. Redublado",
+                "target": "Biliran Province State University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Gino Gasang Sumalinog",
+                "target": "Cebu Normal University",
+                "type": "AFFILIATED_WITH"
+            },
+            {
+                "source": "Jigsaw learning",
+                "target": "Volleyball skills",
+                "type": "USED_FOR"
+            },
+            {
+                "source": "Quantitative descriptive-correlation research design",
+                "target": "Skills performance dataset of 100 respondents",
+                "type": "EVALUATED_ON"
+            },
+            {
+                "source": "Jigsaw learning",
+                "target": "Mean serving skills after (3.60)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Jigsaw learning",
+                "target": "Mean passing skills after (3.56)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Jigsaw learning",
+                "target": "Mean setting skills after (3.30)",
+                "type": "ACHIEVED"
+            },
+            {
+                "source": "Jigsaw learning",
+                "target": "p-value (0.001)",
+                "type": "ACHIEVED"
+            }
+        ]
+    }
+}

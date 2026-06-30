@@ -1,0 +1,185 @@
+{
+  "filename": "08-768-VU AN TRAN(51-57)281.json",
+  "paper_title": "Effect of fiber type on performance of fiber reinforced concrete applied for hydraulic construction",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Vu-An Tran",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu từ Trường Đại học Cần Thơ."
+      },
+      {
+        "id": "Bui Le Anh Tuan",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu từ Trường Đại học Cần Thơ."
+      },
+      {
+        "id": "Duc-Cuong Nguyen",
+        "type": "Author",
+        "description": "Tác giả nghiên cứu từ Trường Đại học Cần Thơ."
+      },
+      {
+        "id": "Hoang-Anh Nguyen",
+        "type": "Author",
+        "description": "Tác giả liên hệ từ Trường Đại học Cần Thơ."
+      },
+      {
+        "id": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "Institution",
+        "description": "Khoa Kỹ thuật Xây dựng, Trường Bách khoa, Đại học Cần Thơ, Việt Nam."
+      },
+      {
+        "id": "Civil Engineering",
+        "type": "Domain",
+        "description": "Lĩnh vực kỹ thuật xây dựng và vật liệu."
+      },
+      {
+        "id": "Hydraulic Construction",
+        "type": "Concept",
+        "description": "Các công trình thủy lợi, thủy điện."
+      },
+      {
+        "id": "Fiber Reinforced Concrete (FRC)",
+        "type": "Concept",
+        "description": "Bê tông cốt sợi, một loại vật liệu xây dựng composite."
+      },
+      {
+        "id": "Durability",
+        "type": "Concept",
+        "description": "Độ bền và khả năng chống chịu của bê tông trong điều kiện vận hành."
+      },
+      {
+        "id": "Polypropylene (PP) fiber",
+        "type": "Method",
+        "description": "Sợi tổng hợp được thêm vào bê tông để cải thiện tính chất."
+      },
+      {
+        "id": "Glass fiber",
+        "type": "Method",
+        "description": "Sợi thủy tinh được sử dụng làm vật liệu gia cường cho bê tông."
+      },
+      {
+        "id": "Steel fiber",
+        "type": "Method",
+        "description": "Sợi thép được sử dụng để tăng cường khả năng chịu lực của bê tông."
+      },
+      {
+        "id": "TCVN 3118",
+        "type": "Method",
+        "description": "Tiêu chuẩn quốc gia về phương pháp thử cường độ nén của bê tông."
+      },
+      {
+        "id": "Slump value (7.7-9.2 cm)",
+        "type": "Metric",
+        "description": "Giá trị độ sụt đo được của các hỗn hợp bê tông."
+      },
+      {
+        "id": "Unit weight (2497-2574 kg/m3)",
+        "type": "Metric",
+        "description": "Khối lượng thể tích của các mẫu bê tông."
+      },
+      {
+        "id": "Air entrained volume (1.8-2.4%)",
+        "type": "Metric",
+        "description": "Hàm lượng bọt khí trong hỗn hợp bê tông."
+      },
+      {
+        "id": "28-day flexural strength (8.2 MPa)",
+        "type": "Metric",
+        "description": "Cường độ kéo khi uốn trung bình của FRC tại 28 ngày."
+      },
+      {
+        "id": "28-day compressive strength (41.0-45.7 MPa)",
+        "type": "Metric",
+        "description": "Cường độ nén của các mẫu bê tông tại 28 ngày."
+      },
+      {
+        "id": "Water absorption (5.5%)",
+        "type": "Metric",
+        "description": "Độ hút nước trung bình của bê tông cốt sợi."
+      },
+      {
+        "id": "UPV (4334-4412 m/s)",
+        "type": "Metric",
+        "description": "Vận tốc xung siêu âm của các mẫu bê tông cứng hóa."
+      },
+      {
+        "id": "Classification M40(28)-M45(28)",
+        "type": "Metric",
+        "description": "Phân loại mác bê tông theo tiêu chuẩn kỹ thuật cho công trình thủy lợi."
+      }
+    ],
+    "relations": [
+      {
+        "source": "Vu-An Tran",
+        "target": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Bui Le Anh Tuan",
+        "target": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Duc-Cuong Nguyen",
+        "target": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Hoang-Anh Nguyen",
+        "target": "Faculty of Civil Engineering, College of Engineering, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Steel fiber",
+        "target": "28-day flexural strength (8.2 MPa)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Polypropylene (PP) fiber",
+        "target": "Water absorption (5.5%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Steel fiber",
+        "target": "28-day compressive strength (41.0-45.7 MPa)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Steel fiber",
+        "target": "UPV (4334-4412 m/s)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Polypropylene (PP) fiber",
+        "target": "Fiber Reinforced Concrete (FRC)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Glass fiber",
+        "target": "Fiber Reinforced Concrete (FRC)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Steel fiber",
+        "target": "Fiber Reinforced Concrete (FRC)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Fiber Reinforced Concrete (FRC)",
+        "target": "Hydraulic Construction",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "TCVN 3118",
+        "target": "Fiber Reinforced Concrete (FRC)",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Fiber Reinforced Concrete (FRC)",
+        "target": "Civil Engineering",
+        "type": "BELONGS_TO"
+      }
+    ]
+  }
+}

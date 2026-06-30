@@ -1,0 +1,145 @@
+{
+  "filename": "08-ED-DOAN THI LOAN(56-66)008.json",
+  "paper_title": "An evaluation of general English course from non-English major students' learning needs analysis",
+  "extraction_result": {
+    "entities": [
+      {
+        "id": "Doan Thi Loan",
+        "type": "Author",
+        "description": "Author of the research article."
+      },
+      {
+        "id": "Thai Cong Dan",
+        "type": "Author",
+        "description": "Author and correspondence for the research article."
+      },
+      {
+        "id": "The Southern Transport College",
+        "type": "Institution",
+        "description": "Educational institution in Vietnam where Doan Thi Loan is affiliated."
+      },
+      {
+        "id": "School of Foreign Languages, Can Tho University",
+        "type": "Institution",
+        "description": "Department and university in Vietnam where Thai Cong Dan is affiliated."
+      },
+      {
+        "id": "Language Education",
+        "type": "Domain",
+        "description": "The primary field of research concerning English language teaching and curriculum evaluation."
+      },
+      {
+        "id": "Learning needs analysis",
+        "type": "Concept",
+        "description": "Process of identifying and evaluating the language learning requirements of students."
+      },
+      {
+        "id": "General English course (GEC) evaluation",
+        "type": "Concept",
+        "description": "The systematic assessment of the quality and effectiveness of English courses for non-majors."
+      },
+      {
+        "id": "Stufflebeam’s (1983) CIPP evaluation model",
+        "type": "Method",
+        "description": "Context, Input, Process, and Product approach used for educational evaluation."
+      },
+      {
+        "id": "Sarah Cook’s (2005) ADDE model",
+        "type": "Method",
+        "description": "Analysis, Design, Delivery, and Evaluation model for course design and assessment."
+      },
+      {
+        "id": "Five-point Likert-scale questionnaires",
+        "type": "Method",
+        "description": "Quantitative survey tool measuring levels of agreement and satisfaction."
+      },
+      {
+        "id": "Semi-structured individual interviews",
+        "type": "Method",
+        "description": "Qualitative data collection tool conducted with students and teachers."
+      },
+      {
+        "id": "SPSS program Version 20.0",
+        "type": "Method",
+        "description": "Statistical software used to analyze quantitative data from questionnaires."
+      },
+      {
+        "id": "Student questionnaire responses",
+        "type": "Dataset",
+        "description": "Quantitative data collected from 145/148 non-English major student participants."
+      },
+      {
+        "id": "Reliability coefficient (alpha = 0.752)",
+        "type": "Metric",
+        "description": "Statistical reliability measure for the learning needs questionnaire."
+      },
+      {
+        "id": "Listening satisfaction (64%)",
+        "type": "Metric",
+        "description": "Degree of student satisfaction specifically for listening skill development."
+      },
+      {
+        "id": "Passing the final exam (83%)",
+        "type": "Metric",
+        "description": "The percentage of students who successfully completed the final course examination."
+      },
+      {
+        "id": "A2 level national exam willingness (62%)",
+        "type": "Metric",
+        "description": "The proportion of students willing to register for the national A2 level proficiency exam."
+      }
+    ],
+    "relations": [
+      {
+        "source": "An evaluation of general English course from non-English major students' learning needs analysis",
+        "target": "Language Education",
+        "type": "BELONGS_TO"
+      },
+      {
+        "source": "Doan Thi Loan",
+        "target": "The Southern Transport College",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Thai Cong Dan",
+        "target": "School of Foreign Languages, Can Tho University",
+        "type": "AFFILIATED_WITH"
+      },
+      {
+        "source": "Stufflebeam’s (1983) CIPP evaluation model",
+        "target": "General English course (GEC) evaluation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Sarah Cook’s (2005) ADDE model",
+        "target": "General English course (GEC) evaluation",
+        "type": "USED_FOR"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Student questionnaire responses",
+        "type": "EVALUATED_ON"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Reliability coefficient (alpha = 0.752)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "Five-point Likert-scale questionnaires",
+        "target": "Reliability coefficient (alpha = 0.752)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "General English course (GEC) evaluation",
+        "target": "Listening satisfaction (64%)",
+        "type": "ACHIEVED"
+      },
+      {
+        "source": "General English course (GEC) evaluation",
+        "target": "Passing the final exam (83%)",
+        "type": "ACHIEVED"
+      }
+    ]
+  }
+}

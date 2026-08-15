@@ -3,10 +3,10 @@ title: Scientific Knowledge Graph RAG
 message: If you use this repository, please cite it using the metadata below.
 type: software
 authors:
-  - family-names: Kiet
-    given-names: Nguyen Anh
-  - family-names: Dien
-    given-names: Tran Thanh
+  - family-names: Nguyen
+    given-names: Anh Kiet
+  - family-names: Tran
+    given-names: Thanh Dien
 repository-code: https://github.com/anhkiet146/scientific-knowledge-graph-rag
 version: 1.0.0
 date-released: 2026-06-30

@@ -1,0 +1,48 @@
+{
+  "protocol_id": "strict-extraction-v3.0",
+  "status": "offline_hardening_not_live_validated",
+  "entity_types": [
+    "Concept",
+    "Method",
+    "Dataset",
+    "Metric",
+    "Domain",
+    "Author",
+    "Institution"
+  ],
+  "relation_signatures": {
+    "BELONGS_TO": [
+      "Concept",
+      "Domain"
+    ],
+    "USED_FOR": [
+      "Method",
+      "Concept"
+    ],
+    "EVALUATED_ON": [
+      "Method",
+      "Dataset"
+    ],
+    "ACHIEVED": [
+      "Method",
+      "Metric"
+    ],
+    "AFFILIATED_WITH": [
+      "Author",
+      "Institution"
+    ]
+  },
+  "metric_identity_fields": [
+    "endpoint",
+    "value",
+    "unit",
+    "object",
+    "condition",
+    "uncertainty",
+    "source_report"
+  ],
+  "matching": "Non-Metric: exact typed identifier; Metric: exact structured measurement fields; directed typed endpoints; NFKC/whitespace only",
+  "default_pilot_limit": 2,
+  "default_api_budget": 2,
+  "graph_requires_bound_review": true
+}

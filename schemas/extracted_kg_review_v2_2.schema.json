@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Review extraction v2.2 evidence-bearing envelope",
+  "description": "Structural validation only. Semantic correctness, evidence support and endpoint signatures require separate validation.",
+  "type": "object",
+  "required": [
+    "filename",
+    "paper_title",
+    "extraction_result"
+  ],
+  "properties": {
+    "filename": {
+      "type": "string"
+    },
+    "paper_title": {
+      "type": "string"
+    },
+    "extraction_result": {
+      "type": "object",
+      "properties": {
+        "entities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "Concept",
+                  "Method",
+                  "Dataset",
+                  "Metric",
+                  "Domain",
+                  "Author",
+                  "Institution"
+                ]
+              },
+              "description": {
+                "type": "string"
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "section_id": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "section_id",
+                    "text"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "description",
+              "evidence"
+            ]
+          }
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string"
+              },
+              "target": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "BELONGS_TO",
+                  "USED_FOR",
+                  "EVALUATED_ON",
+                  "ACHIEVED",
+                  "AFFILIATED_WITH"
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "section_id": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "section_id",
+                    "text"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "source",
+              "target",
+              "type",
+              "evidence"
+            ]
+          }
+        }
+      },
+      "required": [
+        "entities",
+        "relations"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

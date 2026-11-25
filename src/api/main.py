@@ -11,6 +11,7 @@ Thay đổi:
 - GET  /api/sessions/{session_id}/meta → lấy tên + thời gian tạo session
 """
 
+import copy
 import os
 import uuid
 import logging
@@ -20,13 +21,14 @@ from datetime import datetime
 
 from fastapi import FastAPI, UploadFile, File, BackgroundTasks, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from neo4j import GraphDatabase
 
 from database_mongo import MongoManager
 from graphrag_engine import ask_graphrag, get_followup_suggestions
 
 from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
+from graph_connection import graph_session
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
@@ -59,6 +61,12 @@ class AskRequest(BaseModel):
     question: str
     scope: str = "all"
 
+class GraphReviewRequest(BaseModel):
+    reviewer: str
+    notes: str
+    payload_sha256: str
+    acknowledged_issues: List[dict] = Field(default_factory=list)
+
 class CreateSessionRequest(BaseModel):
     title: Optional[str] = None   # tên cuộc trò chuyện (tuỳ chọn)
 
@@ -77,11 +85,16 @@ def _extract_only_background(file_id: str, file_path: str, original_name: str):
         db.update_queue_status(file_id, "extracting", progress=15)
 
         from web_backend import parse_pdf
-        paper_data = parse_pdf(file_path)
+        if file_path.lower().endswith(".json"):
+            from src.extraction.workflow_io import read_json
+            paper_data=read_json(file_path)
+        else:
+            paper_data = parse_pdf(file_path)
         if not paper_data:
             raise ValueError("PDF parsing failed")
         db.update_queue_status(file_id, "extracting", progress=45)
 
+        paper_data["filename"]=os.path.basename(original_name)
         from web_backend import extract_knowledge
         knowledge = extract_knowledge(paper_data)
         if not knowledge:
@@ -97,11 +110,12 @@ def _extract_only_background(file_id: str, file_path: str, original_name: str):
             abstract   = knowledge.get("abstract", ""),
             entities   = entities,
             relations  = relations,
+            candidate  = knowledge,
         )
 
         db.update_queue_status(
             file_id,
-            status    = "extracted",   # ← trạng thái mới: đã extract, chờ commit
+            status    = "quarantined" if knowledge.get("candidate_status")=="quarantined" else "extracted",
             progress  = 100,
             entities  = len(entities),
             relations = len(relations),
@@ -174,53 +188,38 @@ def preview_extraction(file_id: str):
     data = db.get_extraction_result(file_id)
     if not data:
         raise HTTPException(404, "Không tìm thấy kết quả extraction cho file này.")
+    from src.extraction.graph_policy import review_hash
+    if isinstance(data.get("candidate"),dict):data["candidate_sha256"]=review_hash(data["candidate"])
     return data
 
 
 @app.post("/api/upload/{file_id}/commit")
-def commit_to_neo4j(file_id: str):
-    """
-    Người dùng bấm nút "Nạp vào Neo4j" → lấy kết quả đã extract và lưu vào graph.
-    """
-    data = db.get_extraction_result(file_id)
-    if not data:
-        raise HTTPException(404, "Không tìm thấy kết quả extraction. Hãy upload và chờ extract xong.")
-
-    file_info = db.get_file_by_id(file_id)
-    if not file_info:
-        raise HTTPException(404, "Không tìm thấy file trong hàng đợi.")
-
-    status = file_info.get("status", "")
-    if status == "committed":
-        raise HTTPException(400, "File này đã được nạp vào Neo4j rồi.")
-    if status not in ("extracted",):
-        raise HTTPException(400, f"File chưa sẵn sàng (status: {status}). Vui lòng chờ extraction xong.")
-
+def commit_to_neo4j(file_id: str, review: Optional[GraphReviewRequest] = None):
+    """Review-bound import. Mongo state and Neo4j are not a shared transaction."""
+    from src.extraction.graph_policy import require_graph_review
+    data=db.get_extraction_result(file_id)
+    if not data:raise HTTPException(404,"Không tìm thấy kết quả extraction.")
+    if not isinstance(data.get("candidate"),dict):
+        raise HTTPException(409,"Kết quả cũ thiếu provenance; cần trích xuất và rà soát lại.")
+    if review is None:raise HTTPException(409,"Cần thông tin rà soát gắn với kết quả preview trước khi nạp graph.")
+    candidate=copy.deepcopy(data["candidate"])
+    fields=review.model_dump() if hasattr(review,"model_dump") else review.dict()
+    candidate["review"]={**fields,"decision":"approved"}
+    try:require_graph_review(candidate)
+    except ValueError as exc:raise HTTPException(409,str(exc)) from None
+    if not db.claim_graph_commit(file_id):
+        raise HTTPException(409,"File đã được nạp hoặc một yêu cầu khác đang xử lý; kiểm tra trạng thái hàng đợi.")
     try:
         from web_backend import save_to_neo4j
-        knowledge_payload = {
-            "filename":  file_info["name"],
-            "title":     data.get("title", file_info["name"]),
-            "abstract":  data.get("abstract", ""),
-            "extraction_result": {
-                "entities":  data.get("entities",  []),
-                "relations": data.get("relations", []),
-            },
-        }
-        stats = save_to_neo4j(knowledge_payload)
-        db.update_queue_status(
-            file_id,
-            status    = "committed",
-            progress  = 100,
-            entities  = stats.get("entities_saved",  0),
-            relations = stats.get("relations_saved", 0),
-        )
-        logger.info(f"[{file_id}] Committed to Neo4j: {stats}")
-        return {"status": "committed", "entities_saved": stats["entities_saved"], "relations_saved": stats["relations_saved"]}
-
-    except Exception as e:
-        logger.error(f"[{file_id}] Commit error: {e}")
-        raise HTTPException(500, f"Lỗi nạp vào Neo4j: {str(e)}")
+        stats=save_to_neo4j(candidate)
+        db.update_queue_status(file_id,status="committed",progress=100,
+            entities=stats["entities_saved"],relations=stats["relations_saved"])
+        return {"status":"committed",**stats}
+    except Exception as exc:
+        logger.error("Graph commit outcome requires inspection (%s)",type(exc).__name__)
+        try:db.update_queue_status(file_id,status="commit_in_doubt",error_msg="Kiểm tra kết quả graph trước khi thử lại.")
+        except Exception:logger.error("Could not persist commit uncertainty")
+        raise HTTPException(503,"Chưa xác nhận được kết quả nạp graph; cần kiểm tra trước khi thử lại.") from None
 
 
 @app.delete("/api/upload/{file_id}")
@@ -249,7 +248,7 @@ def delete_from_queue(file_id: str):
 def get_dynamic_graph(search: Optional[str] = None, limit: int = 200):
     driver = get_neo4j_driver()
     nodes, links, node_ids = [], [], set()
-    with driver.session() as session:
+    with graph_session(driver) as session:
         if search and search.strip():
             query = """
             MATCH (n)
@@ -284,7 +283,7 @@ def get_dynamic_graph(search: Optional[str] = None, limit: int = 200):
 @app.get("/api/graph/stats")
 def get_graph_stats():
     driver = get_neo4j_driver()
-    with driver.session() as session:
+    with graph_session(driver) as session:
         nc = session.run("MATCH (n) RETURN count(n) AS c").single()["c"]
         ec = session.run("MATCH ()-[r]->() RETURN count(r) AS c").single()["c"]
     driver.close()
@@ -300,7 +299,7 @@ def get_entities_table(entity_type: Optional[str] = None, min_rels: int = 0, lim
     driver = get_neo4j_driver()
     label_filter = "IN ['Paper','Document','Article']" if not entity_type else f"= '{entity_type}'"
     data = []
-    with driver.session() as session:
+    with graph_session(driver) as session:
         result = session.run(f"""
             MATCH (n)
             WHERE labels(n)[0] {label_filter}
@@ -338,7 +337,7 @@ def get_entities_table(entity_type: Optional[str] = None, min_rels: int = 0, lim
 def get_analytics():
     driver = get_neo4j_driver()
     stats = {"nodes_by_label": {}, "relations_by_type": {}, "top_entities": []}
-    with driver.session() as session:
+    with graph_session(driver) as session:
         for r in session.run("MATCH (n) RETURN labels(n)[0] AS label, count(*) AS count ORDER BY count DESC"):
             if r["label"]: stats["nodes_by_label"][r["label"]] = r["count"]
         for r in session.run("MATCH ()-[r]->() RETURN type(r) AS type, count(*) AS count ORDER BY count DESC"):

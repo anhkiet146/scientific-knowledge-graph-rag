@@ -1,3 +1,5 @@
+# LEGACY exploratory LLM-reference workflow. Not an independent gold benchmark.
+# New review scoring: score_independent_extraction.py and docs/ANNOTATION_GUIDELINES_VI.md.
 """
 evaluate_prf1.py
 ════════════════════════════════════════════════════════════════

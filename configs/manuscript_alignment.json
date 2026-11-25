@@ -1,0 +1,33 @@
+{
+  "profile": "PAPER023031-1_aligned_revision_2026-11-25",
+  "historical_qa": {
+    "question_count": 45,
+    "systems": 3,
+    "answer_runs_per_system": 1,
+    "judge_model_author_confirmed": "OpenAI GPT-5.5",
+    "judge_identity_basis": "author_confirmation",
+    "judge_endpoint": null,
+    "judge_temperature": null,
+    "scoring_method": "llm_rubric_ragas_informed",
+    "direct_ragas_execution_verified": false,
+    "independent_gold": false,
+    "held_out_questions": false,
+    "comparable_judge_context_representation": false
+  },
+  "snapshots": {
+    "historical_reported_entity_records": 9575,
+    "current_482_file_entity_records": 9608,
+    "historical_graph_identity_verified": false
+  },
+  "historical_normalization": {
+    "strategy": "exact",
+    "manual_pair_labels_recovered": false,
+    "correctness_verified": false
+  },
+  "new_run_defaults": {
+    "normalization_strategy": "source_preserving",
+    "claim_verification": false,
+    "judge_model_requested": "gpt-5.5",
+    "model_identity_from_response_required": true
+  }
+}

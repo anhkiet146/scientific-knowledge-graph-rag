@@ -1,0 +1,323 @@
+{
+  "notice": "Fictional teaching examples, not source evidence or evaluation-set annotations. Never copy them into another article output.",
+  "examples": [
+    {
+      "purpose": "A place is not a field; a chosen setting is not an outcome; preserve affiliation markers.",
+      "article_sections": [
+        {
+          "section_id": "s000",
+          "kind": "header",
+          "title": "Header",
+          "text": "A. Rao (1); B. Lin (2). (1) North Institute. (2) West Institute."
+        },
+        {
+          "section_id": "s001",
+          "kind": "body",
+          "title": "Current experiment",
+          "text": "This materials-science study investigated mortar durability at Riverland Delta. We tested Mix A for mortar durability at a chosen curing temperature of 60 C. Mix A achieved a compressive strength of 42 MPa."
+        }
+      ],
+      "expected_output": {
+        "entities": [
+          {
+            "id": "mortar durability",
+            "type": "Concept",
+            "description": "The investigated performance of the mortar.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "This materials-science study investigated mortar durability at Riverland Delta."
+              }
+            ]
+          },
+          {
+            "id": "Materials Science",
+            "type": "Domain",
+            "description": "The scientific discipline of this study.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "This materials-science study investigated mortar durability at Riverland Delta."
+              }
+            ]
+          },
+          {
+            "id": "Mix A",
+            "type": "Method",
+            "description": "The material tested at a chosen curing temperature of 60 C.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "We tested Mix A for mortar durability at a chosen curing temperature of 60 C."
+              }
+            ]
+          },
+          {
+            "id": "compressive strength (Mix A, 42 MPa)",
+            "type": "Metric",
+            "description": "The compressive strength achieved by Mix A was 42 MPa.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "Mix A achieved a compressive strength of 42 MPa."
+              }
+            ]
+          },
+          {
+            "id": "A. Rao",
+            "type": "Author",
+            "description": "An author affiliated with North Institute under marker 1.",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "A. Rao (1); B. Lin (2). (1) North Institute. (2) West Institute."
+              }
+            ]
+          },
+          {
+            "id": "B. Lin",
+            "type": "Author",
+            "description": "An author affiliated with West Institute under marker 2.",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "A. Rao (1); B. Lin (2). (1) North Institute. (2) West Institute."
+              }
+            ]
+          },
+          {
+            "id": "North Institute",
+            "type": "Institution",
+            "description": "The affiliation identified by marker 1.",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "(1) North Institute."
+              }
+            ]
+          },
+          {
+            "id": "West Institute",
+            "type": "Institution",
+            "description": "The affiliation identified by marker 2.",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "(2) West Institute."
+              }
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "source": "mortar durability",
+            "type": "BELONGS_TO",
+            "target": "Materials Science",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "This materials-science study investigated mortar durability at Riverland Delta."
+              }
+            ]
+          },
+          {
+            "source": "Mix A",
+            "type": "USED_FOR",
+            "target": "mortar durability",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "We tested Mix A for mortar durability at a chosen curing temperature of 60 C."
+              }
+            ]
+          },
+          {
+            "source": "Mix A",
+            "type": "ACHIEVED",
+            "target": "compressive strength (Mix A, 42 MPa)",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "Mix A achieved a compressive strength of 42 MPa."
+              }
+            ]
+          },
+          {
+            "source": "A. Rao",
+            "type": "AFFILIATED_WITH",
+            "target": "North Institute",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "A. Rao (1); B. Lin (2). (1) North Institute. (2) West Institute."
+              }
+            ]
+          },
+          {
+            "source": "B. Lin",
+            "type": "AFFILIATED_WITH",
+            "target": "West Institute",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "A. Rao (1); B. Lin (2). (1) North Institute. (2) West Institute."
+              }
+            ]
+          }
+        ]
+      },
+      "exclusions": [
+        "Riverland Delta is a place, not a Domain.",
+        "Chosen 60 C is a condition, not a measured outcome.",
+        "Do not add cross-affiliations or expand author initials."
+      ]
+    },
+    {
+      "purpose": "Separate cited results from current results and preserve the model/dataset/value tuple.",
+      "article_sections": [
+        {
+          "section_id": "s000",
+          "kind": "body",
+          "title": "Related work",
+          "text": "Previous work reported 99.8% accuracy using Learner B on Corpus S."
+        },
+        {
+          "section_id": "s001",
+          "kind": "body",
+          "title": "Our experiment",
+          "text": "We applied Learner A to image classification. We evaluated Learner A on Benchmark R. Learner A achieved 91.2% accuracy on Benchmark R."
+        }
+      ],
+      "expected_output": {
+        "entities": [
+          {
+            "id": "image classification",
+            "type": "Concept",
+            "description": "The task investigated here.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "We applied Learner A to image classification."
+              }
+            ]
+          },
+          {
+            "id": "Learner A",
+            "type": "Method",
+            "description": "The model applied and evaluated in this experiment.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "We applied Learner A to image classification."
+              }
+            ]
+          },
+          {
+            "id": "Benchmark R",
+            "type": "Dataset",
+            "description": "The dataset used to evaluate Learner A.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "We evaluated Learner A on Benchmark R."
+              }
+            ]
+          },
+          {
+            "id": "accuracy (Learner A, Benchmark R, 91.2%)",
+            "type": "Metric",
+            "description": "Learner A achieved 91.2% accuracy on Benchmark R.",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "Learner A achieved 91.2% accuracy on Benchmark R."
+              }
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "source": "Learner A",
+            "type": "USED_FOR",
+            "target": "image classification",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "We applied Learner A to image classification."
+              }
+            ]
+          },
+          {
+            "source": "Learner A",
+            "type": "EVALUATED_ON",
+            "target": "Benchmark R",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "We evaluated Learner A on Benchmark R."
+              }
+            ]
+          },
+          {
+            "source": "Learner A",
+            "type": "ACHIEVED",
+            "target": "accuracy (Learner A, Benchmark R, 91.2%)",
+            "evidence": [
+              {
+                "section_id": "s001",
+                "text": "Learner A achieved 91.2% accuracy on Benchmark R."
+              }
+            ]
+          }
+        ]
+      },
+      "exclusions": [
+        "Learner B, Corpus S and 99.8% are only cited prior work.",
+        "Do not transfer the 99.8% result to Learner A.",
+        "Do not force a Domain without clear disciplinary support."
+      ]
+    },
+    {
+      "purpose": "Keep supported isolated entities when the ontology has no valid edge.",
+      "article_sections": [
+        {
+          "section_id": "s000",
+          "kind": "body",
+          "title": "Observation",
+          "text": "We investigated the leaf extract of Plant Q. The measured inhibitory concentration IC50 of the Plant Q extract was 2.4 ug/mL."
+        }
+      ],
+      "expected_output": {
+        "entities": [
+          {
+            "id": "Plant Q leaf extract",
+            "type": "Concept",
+            "description": "The investigated biological extract.",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "We investigated the leaf extract of Plant Q."
+              }
+            ]
+          },
+          {
+            "id": "IC50 (Plant Q extract, 2.4 ug/mL)",
+            "type": "Metric",
+            "description": "The measured IC50 of the Plant Q extract was 2.4 ug/mL.",
+            "evidence": [
+              {
+                "section_id": "s000",
+                "text": "The measured inhibitory concentration IC50 of the Plant Q extract was 2.4 ug/mL."
+              }
+            ]
+          }
+        ],
+        "relations": []
+      },
+      "exclusions": [
+        "The investigated extract is not automatically an applied Method.",
+        "No applied method is supplied; do not fabricate an ACHIEVED edge or a new Concept-to-Metric label."
+      ]
+    }
+  ]
+}

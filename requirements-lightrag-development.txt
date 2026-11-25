@@ -1,0 +1,5 @@
+# Install in an isolated environment. Full transitive versions from the tested
+# run are recorded in outputs/released_sota_2026-11-14/environment_freeze.txt.
+lightrag-hku==1.5.7
+# The local SentenceTransformer environment is reused and fingerprinted by the
+# run manifest; do not silently download another embedding model.

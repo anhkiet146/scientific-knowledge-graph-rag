@@ -11,9 +11,11 @@ The pipeline combines:
 from __future__ import annotations
 
 import logging
+import copy
 import math
 import re
 import threading
+from graph_connection import graph_session, selected_database
 import unicodedata
 from difflib import SequenceMatcher
 from typing import Any, Dict, Iterable, List, Sequence, Tuple
@@ -28,7 +30,7 @@ MAX_CANDIDATES = 180
 MAX_CONTEXT_ITEMS = 10
 
 _index_lock = threading.Lock()
-_index_ready = False
+_index_ready = set()
 
 _GENERIC_QUERY_WORDS = {
     "a",
@@ -360,6 +362,14 @@ def _detect_answer_type(question: str) -> str:
     # "dataset" in the title from overriding "what species/method/value".
     intent_text = re.sub(r'["“][^"”]+["”]', " ", question)
     normalized = normalize_text(intent_text)
+    # Explicit requests for author identity outrank subject words such as
+    # "rate", "dataset" or "relationship" in an unquoted study description.
+    # Mentioning authors inside a method/value question does not trigger this.
+    if (re.search(r"\bwho\s+(?:is|are|was|were)\s+(?:the\s+)?authors?\b", normalized)
+        or re.search(r"\bwho\s+(?:authored|wrote)\b", normalized)
+        or re.search(r"\bai la\s+(?:cac\s+)?tac gia\b", normalized)
+        or (re.match(r"^(?:cac|nhung) tac gia\b", normalized) and re.search(r"\bla ai\b|\bgom nhung ai\b", normalized))):
+        return "author"
     if (
         re.search(r"\bthuoc\s+(?:ho|chi|bo)(?:\s+\w+){0,3}\s+nao\b", normalized)
         or re.search(r"\bwhich\s+(?:family|genus|order)\b", normalized)
@@ -627,8 +637,13 @@ def build_query_plan(question: str, llm_payload: Any = None) -> Dict[str, Any]:
             if len(content_tokens) >= size:
                 _add_phrase(search_terms, " ".join(content_tokens[:size]))
 
+    query_alias_groups = []
+    definition_alias = re.match(r'^\s*([A-Za-z][A-Za-z -]{2,80})\s*\(([^()]{2,100})\)', question)
+    if definition_alias and any(marker in normalized for marker in ('dinh nghia', 'defined', 'definition')):
+        query_alias_groups.append([definition_alias.group(1).strip(), definition_alias.group(2).strip()])
     return {
         "answer_type": answer_type,
+        "query_alias_groups": query_alias_groups,
         "paper_title": paper_title,
         "title_evidence_answer": title_evidence_answer,
         "single_answer": answer_type == "dataset"
@@ -656,20 +671,20 @@ def build_query_plan(question: str, llm_payload: Any = None) -> Dict[str, Any]:
 
 def ensure_fulltext_index(driver) -> bool:
     """Create one cross-label full-text index over searchable node properties."""
-    global _index_ready
-    if _index_ready:
+    key=(driver,selected_database())
+    if key in _index_ready:
         return True
     with _index_lock:
-        if _index_ready:
+        if key in _index_ready:
             return True
         try:
-            with driver.session() as session:
+            with graph_session(driver) as session:
                 existing = session.run(
                     "SHOW FULLTEXT INDEXES YIELD name WHERE name = $name RETURN count(*) AS count",
                     name=FULLTEXT_INDEX_NAME,
                 ).single()
                 if existing and int(existing["count"]) > 0:
-                    _index_ready = True
+                    _index_ready.add(key)
                     return True
 
                 labels = [
@@ -693,7 +708,7 @@ def ensure_fulltext_index(driver) -> bool:
                     "CALL db.awaitIndex($name, 30)",
                     name=FULLTEXT_INDEX_NAME,
                 ).consume()
-            _index_ready = True
+            _index_ready.add(key)
             logger.info("Neo4j full-text index '%s' is ready", FULLTEXT_INDEX_NAME)
             return True
         except Exception as exc:
@@ -728,27 +743,31 @@ def _scope_matches(scope: str, labels: Iterable[str]) -> bool:
     return True
 
 
-def _fulltext_anchors(driver, terms: Sequence[str], scope: str) -> List[Dict[str, Any]]:
+def _fulltext_anchors(driver, terms: Sequence[str], scope: str, allowed_papers=None) -> List[Dict[str, Any]]:
     if not terms or not ensure_fulltext_index(driver):
         return []
     query = _lucene_query(terms)
     if not query:
         return []
     cypher = """
-    CALL db.index.fulltext.queryNodes($index_name, $lucene_query, {limit: $limit})
+    CALL db.index.fulltext.queryNodes($index_name, $lucene_query)
     YIELD node, score
+    WHERE $allowed_papers IS NULL OR (node:Paper AND node.key IN $allowed_papers)
+       OR EXISTS { MATCH (p:Paper)-[:MENTIONS]->(node) WHERE p.key IN $allowed_papers }
     RETURN elementId(node) AS id, labels(node) AS labels, score,
            coalesce(node.name, node.title, node.id, '') AS name
     ORDER BY score DESC
+    LIMIT $limit
     """
     anchors = []
     try:
-        with driver.session() as session:
+        with graph_session(driver) as session:
             for record in session.run(
                 cypher,
                 index_name=FULLTEXT_INDEX_NAME,
                 lucene_query=query,
                 limit=MAX_ANCHORS,
+                allowed_papers=allowed_papers,
             ):
                 if _scope_matches(scope, record["labels"]):
                     anchors.append(
@@ -765,7 +784,7 @@ def _fulltext_anchors(driver, terms: Sequence[str], scope: str) -> List[Dict[str
     return anchors
 
 
-def _lexical_anchors(driver, terms: Sequence[str], scope: str) -> List[Dict[str, Any]]:
+def _lexical_anchors(driver, terms: Sequence[str], scope: str, allowed_papers=None) -> List[Dict[str, Any]]:
     normalized_queries = []
     for term in terms:
         normalized = normalize_text(term)
@@ -790,7 +809,9 @@ def _lexical_anchors(driver, terms: Sequence[str], scope: str) -> List[Dict[str,
              replace(replace(replace(replace(replace(replace(
                  coalesce(anchor.name, anchor.id, anchor.title, '') + ' ' +
                  coalesce(anchor.description, anchor.abstract, '') + ' ' +
-                 coalesce(toString(anchor.aliases), ''),
+                 CASE WHEN anchor.aliases IS NULL THEN ''
+                      WHEN toStringOrNull(anchor.aliases) IS NOT NULL THEN toStringOrNull(anchor.aliases)
+                      ELSE reduce(text = '', alias IN anchor.aliases | text + ' ' + toString(alias)) END,
                  '/', ' '), '-', ' '), '_', ' '), '(', ' '), ')', ' '), ':', ' ')
          ) AS search_text
     WHERE
@@ -802,6 +823,8 @@ def _lexical_anchors(driver, terms: Sequence[str], scope: str) -> List[Dict[str,
         search_text CONTAINS q.normalized
         OR size([token IN q.tokens WHERE search_text CONTAINS token]) >= q.min_matches
       )
+      AND ($allowed_papers IS NULL OR (anchor:Paper AND anchor.key IN $allowed_papers)
+           OR EXISTS { MATCH (p:Paper)-[:MENTIONS]->(anchor) WHERE p.key IN $allowed_papers })
     WITH anchor, q, search_text,
          CASE
            WHEN search_text CONTAINS q.normalized THEN 4.0
@@ -814,12 +837,13 @@ def _lexical_anchors(driver, terms: Sequence[str], scope: str) -> List[Dict[str,
     LIMIT $limit
     """
     anchors = []
-    with driver.session() as session:
+    with graph_session(driver) as session:
         for record in session.run(
             cypher,
             queries=normalized_queries,
             scope=scope,
             limit=MAX_ANCHORS,
+            allowed_papers=allowed_papers,
         ):
             anchors.append(
                 {
@@ -852,7 +876,9 @@ def _merge_anchors(*anchor_groups: Sequence[Dict[str, Any]]) -> List[Dict[str, A
     return ordered[:MAX_ANCHORS]
 
 
-def _expand_anchors(driver, anchors: Sequence[Dict[str, Any]], scope: str) -> List[Dict[str, Any]]:
+def _expand_anchors(driver, anchors: Sequence[Dict[str, Any]], scope: str, max_hops: int = 2, allowed_papers=None) -> List[Dict[str, Any]]:
+    if max_hops not in (0, 1, 2):
+        raise ValueError("max_hops must be 0, 1, or 2")
     if not anchors:
         return []
     cypher = """
@@ -861,45 +887,58 @@ def _expand_anchors(driver, anchors: Sequence[Dict[str, Any]], scope: str) -> Li
     WHERE elementId(anchor) = anchor_hit.id
     MATCH path = (anchor)-[*0..2]-(n)
     WHERE
-        $scope = 'all'
+        ($scope = 'all'
         OR ($scope = 'paper' AND any(label IN labels(n) WHERE label IN ['Paper','Document','Article']))
         OR ($scope = 'author' AND 'Author' IN labels(n))
-        OR ($scope = 'method' AND 'Method' IN labels(n))
+        OR ($scope = 'method' AND 'Method' IN labels(n)))
+      AND ($allowed_papers IS NULL OR all(v IN nodes(path) WHERE
+           (v:Paper AND v.key IN $allowed_papers)
+           OR EXISTS { MATCH (p:Paper)-[:MENTIONS]->(v) WHERE p.key IN $allowed_papers }))
     WITH n,
          min(length(path)) AS hop_distance,
          max(anchor_hit.score / (1.0 + length(path))) AS retrieval_score,
          collect(DISTINCT anchor_hit.query)[0..8] AS matched_queries,
          collect(DISTINCT anchor_hit.mode)[0..4] AS retrieval_modes
     OPTIONAL MATCH (n)-[r]-(m)
+    WHERE $allowed_papers IS NULL OR (m:Paper AND m.key IN $allowed_papers)
+       OR EXISTS { MATCH (p:Paper)-[:MENTIONS]->(m) WHERE p.key IN $allowed_papers }
     WITH n, hop_distance, retrieval_score, matched_queries, retrieval_modes,
          count(DISTINCT r) AS degree,
          collect(DISTINCT {
              relation: type(r),
-             related_type: labels(m)[0],
+             related_type: head([label IN labels(m) WHERE label <> 'Entity']),
              related_name: coalesce(m.name, m.id, m.title),
              related_desc: coalesce(m.description, m.abstract, '')
          })[0..24] AS connections
     OPTIONAL MATCH (paper:Paper)-[]-(n)
+    WHERE $allowed_papers IS NULL OR paper.key IN $allowed_papers
     WITH n, hop_distance, retrieval_score, matched_queries, retrieval_modes,
          degree, connections, count(DISTINCT paper) AS source_count,
-         collect(DISTINCT coalesce(paper.title, paper.name, paper.id))[0..8] AS source_papers
-    RETURN labels(n)[0] AS entity_type,
+         collect(DISTINCT coalesce(paper.title, paper.name, paper.id))[0..8] AS source_papers,
+         collect(DISTINCT paper.key) AS source_paper_keys
+    RETURN head([label IN labels(n) WHERE label <> 'Entity']) AS entity_type,
            labels(n) AS labels,
            coalesce(n.name, n.id, n.title) AS entity_name,
            coalesce(n.description, n.abstract, '') AS entity_desc,
            n.order AS process_order,
-           hop_distance, degree, source_count, source_papers,
+           hop_distance, degree, source_count, source_papers, source_paper_keys,
            retrieval_score, matched_queries, retrieval_modes, connections
     ORDER BY retrieval_score DESC, hop_distance ASC
     LIMIT $candidate_limit
     """
-    with driver.session() as session:
-        return session.run(
+    cypher = cypher.replace("[*0..2]", "[*0..%d]" % max_hops)
+    with graph_session(driver) as session:
+        rows = session.run(
             cypher,
             anchors=list(anchors),
             scope=scope,
             candidate_limit=MAX_CANDIDATES,
+            allowed_papers=allowed_papers,
         ).data()
+        if max_hops == 0:
+            # Full-text-only ablation must not leak graph neighbors into evidence.
+            rows = [{**row, "connections": [], "degree": 0} for row in rows]
+        return rows
 
 
 def retrieve_candidates(
@@ -907,12 +946,19 @@ def retrieve_candidates(
     question: str,
     plan: Dict[str, Any],
     scope: str = "all",
+    max_hops: int = 2,
+    allowed_papers: Sequence[str] | None = None,
 ) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
-    terms = plan.get("search_terms", [])[:MAX_QUERY_TERMS]
-    fulltext = _fulltext_anchors(driver, terms, scope)
-    lexical = _lexical_anchors(driver, terms, scope)
+    if allowed_papers is not None:
+        if isinstance(allowed_papers, (str, bytes)) or any(not isinstance(p, str) or not p for p in allowed_papers):
+            raise ValueError('allowed_papers must contain nonempty paper keys')
+        allowed_papers = sorted(set(allowed_papers))
+    query_aliases = [alias for group in plan.get('query_alias_groups', []) for alias in group]
+    terms = list(dict.fromkeys(query_aliases + plan.get("search_terms", [])))[:MAX_QUERY_TERMS]
+    fulltext = _fulltext_anchors(driver, terms, scope, allowed_papers=allowed_papers)
+    lexical = _lexical_anchors(driver, terms, scope, allowed_papers=allowed_papers)
     anchors = _merge_anchors(fulltext, lexical)
-    candidates = _expand_anchors(driver, anchors, scope)
+    candidates = _expand_anchors(driver, anchors, scope, max_hops=max_hops, allowed_papers=allowed_papers)
     diagnostics = {
         "search_terms": terms,
         "answer_type": plan.get("answer_type"),
@@ -920,6 +966,7 @@ def retrieve_candidates(
         "lexical_anchors": len(lexical),
         "merged_anchors": len(anchors),
         "candidates": len(candidates),
+        "allowed_papers": allowed_papers,
     }
     return candidates, diagnostics
 
@@ -975,7 +1022,13 @@ def _entity_match(plan: Dict[str, Any], item: Dict[str, Any]) -> float:
     entities = plan.get("entities", [])
     if not entities:
         return 0.5
-    hits = sum(1 for entity in entities if normalize_text(entity) in entity_text)
+    def matches(entity):
+        aliases = [entity]
+        for group in plan.get('query_alias_groups', []):
+            if any(normalize_text(entity) == normalize_text(alias) for alias in group):
+                aliases.extend(group)
+        return any(_contains_phrase(entity_text, normalize_text(alias)) for alias in aliases)
+    hits = sum(1 for entity in entities if matches(entity))
     return hits / len(entities)
 
 
@@ -1228,8 +1281,17 @@ def rerank_candidates(
     plan: Dict[str, Any],
     candidates: Sequence[Dict[str, Any]],
     max_context: int = MAX_CONTEXT_ITEMS,
+    signal_multipliers: Dict[str, float] | None = None,
+    audit: Dict[str, Any] | None = None,
 ) -> List[Dict[str, Any]]:
+    if audit is not None:
+        if not isinstance(audit,dict):raise ValueError('Audit must be a dictionary')
+        audit.clear()
+        audit.update(candidate_count=len(candidates),stages=[])
+    if max_context < 1:
+        raise ValueError("max_context must be positive")
     if not candidates:
+        if audit is not None:audit['termination']='no_candidates'
         return []
 
     max_source = max(int(item.get("source_count") or 0) for item in candidates)
@@ -1276,17 +1338,20 @@ def rerank_candidates(
         }
         comparison = max(comparison_scores.values(), default=0.0)
 
-        score = (
-            0.32 * semantic
-            + 0.14 * entity
-            + 0.16 * answer_type
-            + 0.11 * relation
-            + 0.09 * path
-            + 0.05 * source
-            + 0.08 * evidence
-            + 0.04 * retrieval
-            + 0.01 * degree
-        )
+        base_weights = dict(semantic=0.32, entity=0.14, answer_type=0.16,
+                            relation=0.11, path=0.09, source=0.05,
+                            evidence=0.08, retrieval=0.04, degree=0.01)
+        multipliers = signal_multipliers or {}
+        if set(multipliers) - set(base_weights):
+            raise ValueError("Unknown ranking signal")
+        weights = {key: value * float(multipliers.get(key, 1.0))
+                   for key, value in base_weights.items()}
+        if any(not math.isfinite(w) or w < 0 for w in weights.values()) or sum(weights.values()) <= 0:
+            raise ValueError("Ranking weights must be finite, nonnegative, and not all zero")
+        values = dict(semantic=semantic, entity=entity, answer_type=answer_type,
+                      relation=relation, path=path, source=source, evidence=evidence,
+                      retrieval=retrieval, degree=degree)
+        score = sum(weights[key] * values[key] for key in weights) / sum(weights.values())
         if plan.get("answer_type") == "metric" and metric_target_scores:
             # Requested metric semantics are more important than generic
             # numeric-node relevance (e.g. cost/profit versus coverage/yield).
@@ -1350,6 +1415,26 @@ def rerank_candidates(
         "relationship": 0.35,
         "solvent": 0.40,
     }.get(requested_answer_type, 0.25)
+    def rejection_reasons(item):
+        reasons=[]
+        if normalize_text(item.get('entity_type','')) not in expected:reasons.append('unexpected_entity_type')
+        if item['ranking']['evidence']<minimum_evidence:reasons.append('below_minimum_evidence')
+        if not matches_required_entity(item):reasons.append('required_entity_missing')
+        if requested_answer_type=='taxonomy' and item['ranking']['answer_type']<0.80:reasons.append('taxonomy_match_below_threshold')
+        if plan.get('entities') and item['ranking']['entity']<0.5:reasons.append('entity_match_below_threshold')
+        return reasons
+
+    def record_stage(name,items):
+        if audit is not None:
+            audit['stages'].append({'stage':name,'count':len(items),'selected_names':[i.get('entity_name') for i in items]})
+
+    if audit is not None:
+        audit.update(answer_type=requested_answer_type,expected_labels=sorted(expected),required_entities=required_entities,
+            minimum_evidence=minimum_evidence,
+            scored_candidates=[{'entity_name':i.get('entity_name'),'entity_type':i.get('entity_type'),
+                'source_papers':copy.deepcopy(i.get('source_papers',[])),'description_preview':str(i.get('entity_desc',''))[:1000],
+                'description_is_preview':len(str(i.get('entity_desc','')))>1000,
+                'ranking':copy.deepcopy(i['ranking']),'base_direct_rejection_reasons':rejection_reasons(i)} for i in ranked])
     direct_answers = [
         item
         for item in ranked
@@ -1365,6 +1450,7 @@ def rerank_candidates(
             or item["ranking"]["entity"] >= 0.5
         )
     ]
+    record_stage('base_direct_answers',direct_answers)
 
     if requested_answer_type == "method" and plan.get("novelty_requested"):
         proposed_methods = [
@@ -1381,6 +1467,7 @@ def rerank_candidates(
         ]
         if proposed_methods:
             direct_answers = proposed_methods
+        record_stage('novel_method_override',direct_answers)
 
     if requested_answer_type == "metric" and plan.get("metric_targets"):
         selected_by_target: List[Dict[str, Any]] = []
@@ -1405,6 +1492,7 @@ def rerank_candidates(
                     selected_metric_names.add(best.get("entity_name"))
         if selected_by_target:
             direct_answers = selected_by_target
+        record_stage('metric_target_selection',direct_answers)
 
     if requested_answer_type == "metric" and plan.get("requested_items"):
         selected_by_item: List[Dict[str, Any]] = []
@@ -1431,6 +1519,7 @@ def rerank_candidates(
                     selected_by_item.append(best)
                     selected_item_names.add(best.get("entity_name"))
         direct_answers = selected_by_item
+        record_stage('requested_item_override',direct_answers)
 
     if (
         requested_answer_type == "metric"
@@ -1462,6 +1551,7 @@ def rerank_candidates(
                         comparison_matrix_answers.append(best)
                         selected_names.add(best.get("entity_name"))
         direct_answers = comparison_matrix_answers
+        record_stage('comparison_matrix_override',direct_answers)
     if plan.get("entities") and direct_answers:
         best_entity_match = max(item["ranking"]["entity"] for item in direct_answers)
         direct_answers = [
@@ -1469,6 +1559,7 @@ def rerank_candidates(
             for item in direct_answers
             if item["ranking"]["entity"] >= max(0.5, best_entity_match - 0.25)
         ]
+        record_stage('best_entity_filter',direct_answers)
 
     if requested_answer_type == "process" and direct_answers:
         direct_answers.sort(key=lambda item: int(item.get("process_order") or 999))
@@ -1491,10 +1582,12 @@ def rerank_candidates(
         if name not in selected_names:
             selected.append(item)
             selected_names.add(name)
+    record_stage('deduplicated_direct_answers',selected)
 
     # If the requested answer type has no direct evidence, never promote a
     # Paper/Concept/supporting node into the answer position.
     if expected and not selected:
+        if audit is not None:audit['termination']='no_direct_evidence_for_expected_type'
         return []
 
     # Add supporting paper/concept/source nodes after direct answers.
@@ -1532,7 +1625,11 @@ def rerank_candidates(
     # Named entities are hard constraints. Do not substitute a merely
     # top-ranked but unrelated node when none of the candidates match.
     if (plan.get("entities") or required_entities) and not selected:
+        if audit is not None:audit['termination']='named_constraints_unsatisfied'
         return []
+    if audit is not None:
+        audit['termination']='selected_context' if selected else 'ranked_fallback'
+        record_stage('final_context',selected[:max_context] or ranked[:1])
     return selected[:max_context] or ranked[:1]
 
 

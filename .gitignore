@@ -19,3 +19,10 @@ credentials.json
 *.pickle
 node_modules/
 .DS_Store
+
+# Local runs and credentials are never part of a code release.
+outputs/
+work/
+*_api_keys.json
+*credentials*.json
+api_keys*.json

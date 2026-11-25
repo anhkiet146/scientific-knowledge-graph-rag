@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Strict v3.1 materialized extraction with source names",
+  "description": "Runtime additionally enforces Metric-only measurement fields and source grounding; JSON Schema alone is insufficient.",
+  "type": "object",
+  "properties": {
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2048
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Concept",
+              "Method",
+              "Dataset",
+              "Metric",
+              "Domain",
+              "Author",
+              "Institution"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "section_id": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "section_id",
+                "text"
+              ]
+            }
+          },
+          "measurement": {
+            "type": "object",
+            "properties": {
+              "endpoint": {
+                "type": "string",
+                "maxLength": 1000,
+                "minLength": 1
+              },
+              "value": {
+                "type": "string",
+                "maxLength": 1000,
+                "pattern": "^(?:[+\\-−]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:\\s*[eE]\\s*[+\\-−–]?\\s*\\d+)?(?:\\s*(?:to|[-–—])\\s*[+\\-−]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)(?:\\s*[eE]\\s*[+\\-−–]?\\s*\\d+)?)?)$"
+              },
+              "unit": {
+                "type": "string",
+                "maxLength": 1000
+              },
+              "object": {
+                "type": "string",
+                "maxLength": 1000,
+                "minLength": 1
+              },
+              "condition": {
+                "type": "string",
+                "maxLength": 1000
+              },
+              "uncertainty": {
+                "type": "string",
+                "maxLength": 1000
+              },
+              "source_report": {
+                "type": "string",
+                "enum": [
+                  "abstract",
+                  "prose",
+                  "table"
+                ],
+                "maxLength": 1000
+              }
+            },
+            "required": [
+              "endpoint",
+              "value",
+              "unit",
+              "object",
+              "condition",
+              "uncertainty",
+              "source_report"
+            ],
+            "additionalProperties": false
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2048
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "description",
+          "evidence",
+          "name"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "Metric"
+                }
+              },
+              "required": [
+                "type"
+              ]
+            },
+            "then": {
+              "required": [
+                "measurement"
+              ]
+            },
+            "else": {
+              "not": {
+                "required": [
+                  "measurement"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "BELONGS_TO",
+              "USED_FOR",
+              "EVALUATED_ON",
+              "ACHIEVED",
+              "AFFILIATED_WITH"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "section_id": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "section_id",
+                "text"
+              ]
+            }
+          }
+        },
+        "required": [
+          "source",
+          "target",
+          "type",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entities",
+    "relations"
+  ]
+}

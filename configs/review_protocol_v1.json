@@ -1,0 +1,84 @@
+{
+  "protocol_id": "review-protocol-v1",
+  "status": "offline_specification_locked_execution_pending",
+  "entity_types": [
+    "Concept",
+    "Method",
+    "Dataset",
+    "Metric",
+    "Domain",
+    "Author",
+    "Institution"
+  ],
+  "relation_signatures": {
+    "BELONGS_TO": [
+      "Concept",
+      "Domain"
+    ],
+    "USED_FOR": [
+      "Method",
+      "Concept"
+    ],
+    "EVALUATED_ON": [
+      "Method",
+      "Dataset"
+    ],
+    "ACHIEVED": [
+      "Method",
+      "Metric"
+    ],
+    "AFFILIATED_WITH": [
+      "Author",
+      "Institution"
+    ]
+  },
+  "extraction_prompt_version": "review-extraction-v2.2",
+  "development": {
+    "known_pilot_files": [
+      "01-1108-NGO DUC LUU(1-7)316.pdf",
+      "01-590-Shola H. Awojide(1-11)046.pdf"
+    ],
+    "additional_papers": 10,
+    "exclude_from_independent_40": true
+  },
+  "extraction_evaluation": {
+    "unit": "paper",
+    "matching": "strict typed identifiers; Unicode NFKC and whitespace only; values/units preserved; no fuzzy/LLM matching",
+    "gold_status_required": "adjudicated",
+    "predicted_duplicate_policy": "extra predictions count as false positives",
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 20261112,
+    "macro_policy": "exclude absent-in-both types; explicitly report undefined denominators"
+  },
+  "qa": {
+    "questions": 45,
+    "repeats": 5,
+    "inference_unit": "question; average repeats within question",
+    "planned_variants": [
+      "bm25",
+      "vector",
+      "released_sota",
+      "kg",
+      "kg_no_expansion",
+      "kg_raw",
+      "kg_no_semantic",
+      "kg_no_relation",
+      "kg_verified"
+    ],
+    "primary_quality_metric": "independent source-supported answer correctness; rubric frozen before labeling",
+    "secondary": [
+      "faithfulness",
+      "relevancy",
+      "context_precision",
+      "context_recall",
+      "unsupported_claim_rate",
+      "false_refusal_rate",
+      "coverage",
+      "online_latency"
+    ],
+    "paired_tests": "question-level paired sign flip; Wilcoxon supplementary when available; Holm across reported sign-flip comparisons",
+    "failure_policy": "report failures and coverage for every method; quality failure=0 in end-to-end utility; conditional paired results disclosed separately; missing repeat grids block confirmatory reporting"
+  },
+  "leakage_policy": "No tuning on the 40-paper holdout or 45 QA test questions; the QA set is legacy project-internal, not an unseen external benchmark",
+  "limits": "Model semantic accuracy, human independence, benchmark completion and SOTA support are not established by this protocol file."
+}

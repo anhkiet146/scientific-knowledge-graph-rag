@@ -1,3 +1,4 @@
+from pathlib import Path
 import os
 import requests
 import json
@@ -8,8 +9,8 @@ import fitz  # PyMuPDF
 
 
 # --- CẤU HÌNH ---
-INPUT_FOLDER = r'E:\LLM\pdf'
-OUTPUT_FOLDER = r'E:\LLM\data\json'
+INPUT_FOLDER = os.getenv("PDF_DIR", str(Path(__file__).resolve().parents[2]/"data/pdfs"))
+OUTPUT_FOLDER = os.getenv("CORPUS_JSON_DIR", str(Path(__file__).resolve().parents[2]/"data/parsed_json"))
 GROBID_URL = "http://localhost:8070/api/processFulltextDocument"
 
 SECTION_KEYWORDS = {

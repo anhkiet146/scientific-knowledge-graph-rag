@@ -1,226 +1,97 @@
-import os
+"""Exact same-type normalization; semantic similarity never triggers an automatic merge."""
+import argparse
+import csv
 import json
-import numpy as np
-from tqdm import tqdm
-from sentence_transformers import SentenceTransformer
-from rapidfuzz import fuzz
-from sklearn.metrics.pairwise import cosine_similarity
+import re
+import unicodedata
+from collections import Counter, defaultdict
+from pathlib import Path
 
-# --- CẤU HÌNH ---
-INPUT_FOLDER = r'E:\LLM\data\extracted'     # Thư mục chứa JSON đã trích xuất
-OUTPUT_FOLDER = r'E:\LLM\data\final_graph'  # Thư mục chứa JSON sạch để nạp Neo4j
-MAPPING_LOG_FILE = 'entity_mapping.json'    # File ghi lại nhật ký gộp từ (để kiểm tra)
+ROOT=Path(__file__).resolve().parents[2]
 
-# Ngưỡng (Threshold)
-SEMANTIC_THRESHOLD_HIGH = 0.92  # Nếu > 92% giống nghĩa -> Gộp luôn
-SEMANTIC_THRESHOLD_MID = 0.80   # Nếu > 80% giống nghĩa...
-FUZZY_THRESHOLD = 90            # ... và > 90% giống mặt chữ -> Gộp
+def normalize_surface(value):
+    """Legacy punctuation-stripping key, retained for historical replay only."""
+    value=unicodedata.normalize("NFKC",str(value)).casefold()
+    return " ".join(re.sub(r"[^\w\s]"," ",value).split())
 
-# --- LOAD MODEL ---
-print("⏳ Đang tải model Embedding (all-MiniLM-L6-v2)...")
-model = SentenceTransformer('all-MiniLM-L6-v2')
 
-def load_entities(folder):
-    all_entities = {} 
-    
-    files = [f for f in os.listdir(folder) if f.endswith('.json')]
-    print(f"📂 Đang đọc {len(files)} files để tìm thực thể...")
+def source_surface(value):
+    return " ".join(unicodedata.normalize("NFC", str(value)).split())
 
-    for filename in tqdm(files):
-        with open(os.path.join(folder, filename), 'r', encoding='utf-8') as f:
-            try:
-                data = json.load(f)
-            except Exception:
-                continue
 
-            # --- KIỂM TRA TYPE AN TOÀN ---
-            if not isinstance(data, dict):
-                continue
-                
-            result = data.get('extraction_result', data)
-            if not isinstance(result, dict):
-                continue
-                
-            entities = result.get('entities', [])
-            if not isinstance(entities, list):
-                continue
+def normalization_key(typ, name, paper, strategy):
+    if strategy == "source_preserving":
+        return typ, paper if typ in {"Author", "Metric"} else "", source_surface(name)
+    return typ, "", normalize_surface(name)
 
-            for ent in entities:
-                if not isinstance(ent, dict):
-                    continue
-                e_type = ent.get('type')
-                e_id = ent.get('id')
-                if not e_type or not e_id:
-                    continue
-                e_type = str(e_type).strip()
-                e_id = str(e_id).strip()
+def extraction_payload(document):
+    payload=document.get("extraction_result",document)
+    if isinstance(payload,list):
+        payload={"entities":[e for part in payload for e in part.get("entities",[])],
+                 "relations":[r for part in payload for r in part.get("relations",[])]}
+    if not isinstance(payload,dict): raise ValueError("Invalid extraction payload")
+    return payload
 
-                if e_type not in all_entities:
-                    all_entities[e_type] = set()
-                all_entities[e_type].add(e_id)
+def normalize_folder(input_dir,output_dir,strategy="exact"):
+    if strategy not in {"exact", "identity", "source_preserving"}:
+        raise ValueError("Unknown normalization strategy")
+    if input_dir.resolve()==output_dir.resolve(): raise ValueError("Use a separate output directory")
+    if output_dir.exists() and any(output_dir.iterdir()):
+        raise FileExistsError("Use a new output directory; existing artifacts are not overwritten")
+    documents=[];groups=defaultdict(Counter)
+    for path in sorted(p for p in input_dir.glob("*.json") if not p.name.startswith("_")):
+        d=json.loads(path.read_text(encoding="utf-8"));p=extraction_payload(d)
+        documents.append((path,d,p))
+        for e in p.get("entities",[]):
+            name=(e.get("name") or e.get("id", "")) if strategy=="source_preserving" else e.get("id",e.get("name",""));typ=e.get("type","")
+            if name and typ: groups[normalization_key(typ,name,path.name,strategy)][name]+=1
+    canonical={key:sorted(names,key=lambda s:(-names[s],s))[0] for key,names in groups.items()}
+    output_dir.mkdir(parents=True,exist_ok=True)
+    issues=[];changed=0;raw_names=set()
+    for path,d,p in documents:
+        mapping=defaultdict(set)
+        for e in p.get("entities",[]):
+            name=(e.get("name") or e.get("id", "")) if strategy=="source_preserving" else e.get("id",e.get("name",""));typ=e.get("type","")
+            if not name or not typ: continue
+            identifier=e.get("id",name)
+            raw_names.add((typ,name))
+            target=canonical[normalization_key(typ,name,path.name,strategy)] if strategy!="identity" else name
+            target_id=identifier if strategy=="source_preserving" else target
+            mapping[identifier].add(target_id)
+            if target!=name:
+                e.setdefault("aliases",[])
+                if name not in e["aliases"]: e["aliases"].append(name)
+                if strategy=="source_preserving":e["name"]=target
+                else:e["id"]=target
+                changed+=1
+            if strategy=="source_preserving":
+                e["identity_scope"]="paper" if typ in {"Author","Metric"} else "corpus"
+            e["normalization_provenance"]={"original_name":name,"strategy":strategy,"paper":path.name}
+        for r in p.get("relations",[]):
+            for field in ("source","target"):
+                values=mapping.get(r.get(field),set())
+                if len(values)==1: r[field]=next(iter(values))
+                else: issues.append({"paper":path.name,"relation":r,"endpoint":field,"reason":"missing or ambiguous untyped endpoint"})
+        if "extraction_result" in d: d["extraction_result"]=p
+        (output_dir/path.name).write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding="utf-8")
+    report={"papers":len(documents),"strategy":strategy,"unique_original_typed_names":len(raw_names),
+            "canonical_typed_names":len(groups) if strategy!="identity" else len(raw_names),
+            "changed_mentions":changed,"unresolved_relation_endpoints":len(issues),
+            "key_policy":"NFC and whitespace only; Author/Metric scoped by paper" if strategy=="source_preserving" else "Legacy NFKC/casefold/punctuation stripping; not a correctness guarantee",
+            "homonym_policy":"Paper scoping prevents automatic cross-paper Author/Metric merges; within-paper disambiguation remains unverified." if strategy=="source_preserving" else "Same name/type can still be homonymous across papers; provenance retained, human disambiguation required.",
+            "issues":issues}
+    (output_dir/"_normalization_audit.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
+    with (output_dir/"_normalization_review.csv").open("w",encoding="utf-8-sig",newline="") as f:
+        writer=csv.writer(f);writer.writerow(["entity_type","paper_scope","normalized_surface","surface_forms","decision","notes"])
+        for (typ,scope,surface),names in sorted(groups.items()):
+            if len(names)>1: writer.writerow([typ,scope,surface,json.dumps(dict(names),ensure_ascii=False),"",""])
+    return report
 
-    return {k: list(v) for k, v in all_entities.items()}
-
-def resolve_entities(entity_list):
-    """
-    Thuật toán Hybrid: Kết hợp Embedding + Fuzzy để tìm các nhóm từ đồng nghĩa
-    """
-    if not entity_list: return {}
-    
-    # 1. Mã hóa tất cả tên thành Vector
-    embeddings = model.encode(entity_list)
-    
-    # 2. Tính ma trận tương đồng (Cosine Similarity)
-    sim_matrix = cosine_similarity(embeddings)
-    
-    mapping = {} # { "Tên_Cũ": "Tên_Chuẩn" }
-    processed_indices = set()
-    
-    # 3. Duyệt từng thực thể để gom nhóm
-    for i in range(len(entity_list)):
-        if i in processed_indices: continue
-        
-        current_name = entity_list[i]
-        group_indices = [i]
-        processed_indices.add(i)
-        
-        for j in range(i + 1, len(entity_list)):
-            if j in processed_indices: continue
-            
-            sim_score = sim_matrix[i][j]
-            is_match = False
-            
-            # CASE A: Semantic cực cao (Gần như là một)
-            if sim_score >= SEMANTIC_THRESHOLD_HIGH:
-                is_match = True
-                
-            # CASE B: Semantic khá cao + Fuzzy cao (Viết tắt hoặc sai chính tả nhẹ)
-            elif sim_score >= SEMANTIC_THRESHOLD_MID:
-                fuzzy_score = fuzz.ratio(current_name.lower(), entity_list[j].lower())
-                if fuzzy_score >= FUZZY_THRESHOLD:
-                    is_match = True
-            
-            if is_match:
-                group_indices.append(j)
-                processed_indices.add(j)
-        
-        # Chọn tên chuẩn (Canonical Name) cho nhóm
-        # Chiến thuật: Chọn tên DÀI NHẤT trong nhóm (thường đầy đủ nghĩa nhất)
-        candidates = [entity_list[idx] for idx in group_indices]
-        canonical_name = max(candidates, key=len) 
-        
-        # Lưu mapping
-        for name in candidates:
-            mapping[name] = canonical_name
-            
-    return mapping
-
-def apply_mapping_and_save(input_folder, output_folder, full_mapping):
-    """Áp dụng mapping vào file JSON và lưu ra thư mục mới"""
-    if not os.path.exists(output_folder): os.makedirs(output_folder)
-
-    files = [f for f in os.listdir(input_folder) if f.endswith('.json')]
-    print("💾 Đang chuẩn hóa và lưu file sạch...")
-
-    for filename in tqdm(files):
-        try:
-            with open(os.path.join(input_folder, filename), 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        except:
-            continue
-            
-        if not isinstance(data, dict):
-            continue
-
-        result = data.get('extraction_result', {})
-        if not isinstance(result, dict):
-            result = {}
-            
-        entities = result.get('entities', [])
-        if not isinstance(entities, list):
-            entities = []
-            
-        relations = result.get('relations', [])
-        if not isinstance(relations, list):
-            relations = []
-
-        # 1. Chuẩn hóa Entities
-        new_entities = []
-        seen_ids = set() # Tránh trùng lặp sau khi gộp
-        id_map_local = {} # Map ID cũ -> ID mới trong phạm vi file này
-
-        for ent in entities:
-            if not isinstance(ent, dict): continue
-            old_id = str(ent.get('id', '')).strip()
-            e_type = str(ent.get('type', '')).strip()
-            if not old_id or not e_type: continue
-
-            # Lấy tên mới từ Global Mapping
-            if e_type in full_mapping and old_id in full_mapping[e_type]:
-                new_id = full_mapping[e_type][old_id]
-            else:
-                new_id = old_id # Giữ nguyên nếu không có trong map
-
-            id_map_local[old_id] = new_id
-
-            # Chỉ thêm nếu chưa tồn tại trong file này
-            unique_key = (new_id, e_type)
-            if unique_key not in seen_ids:
-                ent['id'] = new_id
-                new_entities.append(ent)
-                seen_ids.add(unique_key)
-
-        # 2. Chuẩn hóa Relations (Cập nhật source/target theo ID mới)
-        new_relations = []
-        for rel in relations:
-            if not isinstance(rel, dict): continue
-            src = str(rel.get('source', '')).strip()
-            tgt = str(rel.get('target', '')).strip()
-            if not src or not tgt: continue
-
-            # Đổi tên source/target nếu có trong Mapping mù
-            new_src = src
-            new_tgt = tgt
-            for e_type in full_mapping:
-                if src in full_mapping[e_type]: new_src = full_mapping[e_type][src]
-                if tgt in full_mapping[e_type]: new_tgt = full_mapping[e_type][tgt]
-
-            rel['source'] = new_src
-            rel['target'] = new_tgt
-            new_relations.append(rel)
-
-        # Cập nhật data
-        if 'extraction_result' in data and isinstance(data['extraction_result'], dict):
-            data['extraction_result']['entities'] = new_entities
-            data['extraction_result']['relations'] = new_relations
-        else:
-             data['entities'] = new_entities
-             data['relations'] = new_relations
-
-        # Lưu file
-        with open(os.path.join(output_folder, filename), 'w', encoding='utf-8') as f_out:
-            json.dump(data, f_out, ensure_ascii=False, indent=2)
-
-def main():
-    # Bước 1: Load dữ liệu
-    all_entities_by_type = load_entities(INPUT_FOLDER)
-    
-    full_mapping = {}
-    
-    # Bước 2: Tạo Mapping cho từng loại thực thể
-    print("🔄 Đang tính toán hợp nhất thực thể (Fuzzy + Embedding)...")
-    for e_type, names in all_entities_by_type.items():
-        print(f"   -> Đang xử lý loại: {e_type} ({len(names)} thực thể)")
-        full_mapping[e_type] = resolve_entities(names)
-    
-    # Ghi log mapping ra file để bạn kiểm tra
-    with open(MAPPING_LOG_FILE, 'w', encoding='utf-8') as f:
-        json.dump(full_mapping, f, ensure_ascii=False, indent=2)
-    print(f"✅ Đã tạo file nhật ký: {MAPPING_LOG_FILE} (Hãy mở xem thử các từ được gộp!)")
-
-    # Bước 3: Áp dụng vào file JSON
-    apply_mapping_and_save(INPUT_FOLDER, OUTPUT_FOLDER, full_mapping)
-    print(f"🎉 Hoàn tất! Dữ liệu đã chuẩn hóa nằm tại: {OUTPUT_FOLDER}")
-
-if __name__ == "__main__":
-    main()
+if __name__=="__main__":
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input",type=Path,default=ROOT/"data/extracted_json")
+    parser.add_argument("--output",type=Path,required=True)
+    parser.add_argument("--strategy",choices=["source_preserving","exact","identity"],default="source_preserving")
+    args=parser.parse_args()
+    report=normalize_folder(args.input,args.output,args.strategy)
+    print(json.dumps({k:v for k,v in report.items() if k!="issues"},ensure_ascii=False))

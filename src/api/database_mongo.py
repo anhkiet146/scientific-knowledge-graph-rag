@@ -14,15 +14,20 @@ from pymongo.errors import ConnectionFailure, ServerSelectionTimeoutError
 from datetime import datetime
 import logging
 import time
+import os
 
 logger = logging.getLogger(__name__)
 
 
 class MongoManager:
-    def __init__(self, uri: str = "mongodb://localhost:27017/", max_retries: int = 3):
-        self.uri    = uri
+    def __init__(self, uri: str = None, max_retries: int = 3, database: str = None):
+        self.uri    = uri if uri is not None else os.getenv('MONGODB_URI','mongodb://localhost:27017/')
+        name=database if database is not None else os.getenv('MONGODB_DATABASE','graphrag_db')
+        if not self.uri or not name or any(c in name for c in '/\\. "$*<>:|?'):
+            raise ValueError('Invalid MongoDB target')
+        if type(max_retries) is not int or not 1<=max_retries<=3:raise ValueError('Invalid MongoDB retry count')
         self.client = self._connect(max_retries)
-        self.db     = self.client["graphrag_db"]
+        self.db     = self.client[name]
 
         self.messages            = self.db["chat_history"]
         self.upload_queue        = self.db["upload_queue"]
@@ -40,11 +45,10 @@ class MongoManager:
                 logger.info("MongoDB connected")
                 return client
             except (ConnectionFailure, ServerSelectionTimeoutError) as e:
-                logger.warning(f"MongoDB attempt {attempt+1}/{max_retries}: {e}")
+                logger.warning("MongoDB connection attempt %s/%s failed",attempt+1,max_retries)
                 if attempt < max_retries - 1:
                     time.sleep(2 ** attempt)
-        logger.error("MongoDB connect failed; using unverified client")
-        return MongoClient(self.uri)
+        raise RuntimeError('MongoDB unavailable; backend startup stopped') from None
 
     def _ensure_indexes(self):
         try:
@@ -126,14 +130,14 @@ class MongoManager:
     def get_queue_stats(self) -> dict:
         result = list(self.upload_queue.aggregate([{"$group": {"_id": "$status", "count": {"$sum": 1}}}]))
         stats  = {r["_id"]: r["count"] for r in result}
-        return {k: stats.get(k, 0) for k in ("total", "pending", "extracting", "extracted", "committed", "error")} | {"total": sum(stats.values())}
+        return {k: stats.get(k, 0) for k in ("total", "pending", "extracting", "extracted", "quarantined", "committing", "commit_in_doubt", "committed", "error")} | {"total": sum(stats.values())}
 
     # ════════════════════════════════════════════════════════════════════════
     # EXTRACTION RESULTS (preview trước khi commit Neo4j)
     # ════════════════════════════════════════════════════════════════════════
 
     def save_extraction_result(self, file_id: str, title: str, abstract: str,
-                                entities: list, relations: list):
+                                entities: list, relations: list, candidate: dict | None = None):
         """Lưu kết quả extract vào MongoDB. Upsert theo file_id."""
         self.extraction_results.replace_one(
             {"file_id": file_id},
@@ -143,10 +147,17 @@ class MongoManager:
                 "abstract":  abstract,
                 "entities":  entities,
                 "relations": relations,
+                "candidate": candidate,
                 "saved_at":  datetime.utcnow(),
             },
             upsert=True,
         )
+
+    def claim_graph_commit(self, file_id: str) -> bool:
+        """Compare-and-set prevents concurrent commit requests for one upload."""
+        result=self.upload_queue.update_one({"file_id":file_id,"status":"extracted"},
+            {"$set":{"status":"committing"}})
+        return result.modified_count==1
 
     def get_extraction_result(self, file_id: str) -> dict | None:
         doc = self.extraction_results.find_one({"file_id": file_id}, {"_id": 0})

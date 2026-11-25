@@ -1,0 +1,96 @@
+{
+  "protocol_id": "review-fair488-v1.1",
+  "status": "locked_plan_not_completed_experiment",
+  "context_methods": [
+    "bm25",
+    "vector",
+    "kg",
+    "lightrag",
+    "kg_no_expansion",
+    "kg_raw",
+    "kg_no_semantic",
+    "kg_no_relation"
+  ],
+  "paired_verifier_method": "kg_verified",
+  "shared_inputs": {
+    "corpus_sha256": "79309f14abd09133d41c88c6b8899ef49dc1f3227e46e68bd512fa1da445af42",
+    "question_sha256": "f94ac24a7918340639b61644f4ad5d8255429a8c619be5b79ab4549bf5df7fe9",
+    "query_sha256": "985d72075aaadc7945edd5257fac2437384c14a4e08e90652690b352e1302241",
+    "scope_policy": "whole_corpus",
+    "context_limit_tokens": 2000,
+    "context_tokenizer": "o200k_base",
+    "packing_policy": "pack_v2_whole_records"
+  },
+  "shared_dense_methods": [
+    "vector",
+    "lightrag"
+  ],
+  "dense_conditions": {
+    "model_files_sha256": "cdf609f5ee2eeb7204517d51b88b8079fb53624531a28ee74c524b58acf36caa",
+    "dimension": 384,
+    "normalize": true,
+    "metric": "cosine",
+    "backend": "nano-vectordb==0.0.4.3",
+    "device": "cpu",
+    "threads": 4,
+    "threshold": -1.0,
+    "dtype": "float32"
+  },
+  "released_sota": "LightRAG 1.5.7",
+  "generation": {
+    "model": "gemini-2.5-flash",
+    "temperature": 0,
+    "thinking_budget": 0,
+    "max_output_tokens": 1024,
+    "shared_prompt_implementation_sha256": "04c06fa2147033b9c181c977ff0bcdb7cadc17ffa8d618673867f457c6d536d3",
+    "references_in_prompt": false,
+    "automatic_retry": false,
+    "key_rotation": false
+  },
+  "repeats": 5,
+  "question_count": 45,
+  "inference_unit": "question; average repeats within question before paired inference",
+  "paired_statistics": "question bootstrap CI and paired sign flip; Holm correction across declared comparisons",
+  "planned_generation_calls": 1800,
+  "planned_verification_calls": 225,
+  "execution_authorized_by_config_alone": false,
+  "timing": {
+    "indexing": "separate extraction/normalization/embedding/index build costs",
+    "online": "query processing+retrieval+context packing+generation; verifier reported separately and in verified total",
+    "throttling": "separately logged; do not mix service-only and full wall intervals",
+    "hardware": "same machine CPU4 threads; sequential method runs; freeze package versions and memory config; no concurrent workload claim without evidence"
+  },
+  "missingness": "same local abstention policy for empty contexts; failures, unknown calls and missing grading recorded separately; do not treat unstarted tasks as zero quality",
+  "sota_limits": "Native LightRAG chunking/query stages are method differences to disclose; local custom KG is not LightRAG. Count all method-specific online API calls and indexing calls.",
+  "evaluation": "independent human grading pending; any automated judge separately labelled proxy, exact model/params logged",
+  "development_disclosure": "All45questions have been used during development; not an unseen holdout",
+  "ablation": "Same frozen KG ontology/extraction; remove exactly one declared component per track; do not confound normalization with repairs or scope changes.",
+  "primary_track": "Controlled generation: method-native retrieval contexts followed by one shared answer prompt/model; native end-to-end timings are a separate disclosed track.",
+  "lightrag_execution": "Use official LightRAG retrieval-context mode; count and report any model-assisted query/keyword stages. Shared answer synthesis outside LightRAG is labelled controlled generation, not native LightRAG end-to-end.",
+  "minimum_known_qa_calls": 2025,
+  "total_planned_qa_api_calls": null,
+  "additional_method_stage_calls": "Not yet determined; LightRAG query stages, repairs and all indexing/extraction calls are additional to the2025knownanswer+verificationcalls.",
+  "parent_protocol_sha256": "9271a02298cbe8655787dcd2b7659f450332cd35bf00ca901aa6c118c37cd4a5",
+  "cache_policy": {
+    "online_llm_cache": false,
+    "query_embedding_cache": false,
+    "answer_response_cache": false,
+    "index_extraction_resume_cache": true,
+    "cost_reporting": "Cold build and resumed/cached work reported separately; no cached query answers in repeated timing."
+  },
+  "indexing_budget_plan": {
+    "lightrag_unique_chunks": 10074,
+    "lightrag_initial_calls_no_cache": 10074,
+    "custom_kg_supplemental_initial_tasks": 162,
+    "known_answer_and_verification_calls": 2025,
+    "sum_of_known_planned_stages": 12261,
+    "not_included": [
+      "LightRAG description summaries",
+      "LightRAG query/keyword calls",
+      "repairs",
+      "judging"
+    ],
+    "actual_api_calls_authorized_by_this_config": 0,
+    "limits": "No-cache planning counts, not current remaining calls or a final budget. Existing pilot failures are not silently retried."
+  }
+}

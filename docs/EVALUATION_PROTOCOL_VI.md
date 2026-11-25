@@ -1,0 +1,17 @@
+> Tài liệu v1/v1.1 được giữ để tái lập. Lượt strict v3 dùng docs/STRICT_V3_GUIDE_VI.md và Measurement fields mới; không trộn scoring hai phiên bản.
+
+# Protocol thực nghiệm — review-protocol-v1.1
+
+Các thông số máy đọc nằm ở configs/review_protocol_v1_1.json. Đây là specification cho lượt chạy mới, không phải xác nhận mọi baseline/metric đã implement hoặc đã đo.
+
+1. Đóng băng manifest PDF/prepared text/schema/prompt/code và development/evaluation split. Không trộn output phiên bản khác. Giữ nguyên bộ 40 độc lập hiện có; hai bài pilot đã dùng phát triển không thuộc bộ 40.
+2. Gold A/B và adjudication là điều kiện chạy extraction scoring. Chấm strict typed identifiers và directed typed-endpoint triples trong paper; mỗi duplicate prediction thừa tính FP, gold duplicate là lỗi dữ liệu. Không bỏ bài predicted-missing: coi là empty prediction và báo missing count. Dừng nếu manifest nguồn không khớp.
+3. Báo micro P/R/F1, macro theo loại có support, per-type counts; denominator 0=null. Bootstrap theo paper 2000 draws seed 20261112 cho micro F1. Entity/relation bootstrap dùng cùng đơn vị paper, không bootstrap từng entity như độc lập.
+4. QA: 45 câu x 5 repeats; kiểm tra đủ method/question/repeat và metadata giống protocol. Giữ failures. Báo utility với failed generation=0, success coverage và conditional scores riêng; time của failures ghi riêng, không gán 0 latency. Missing repeat grid không đủ điều kiện confirmatory reporting. Independent human correctness là primary quality, faithfulness/retrieval scores là secondary; không gọi Gemini proxy là RAGAS nếu không thực sự dùng package/protocol đó.
+5. Thống kê: repeats trung bình trong từng câu; paired sign flip và bootstrap CI theo câu; Holm trên nhóm so sánh/metric đã khai báo. Wilcoxon bổ sung khi có dependency. Không chọn phép thử theo kết quả p-value. Runner revision_statistics hiện bỏ error rows nên chỉ cho conditional-success analysis; chưa dùng nó làm end-to-end failure-penalized result nếu chưa bổ sung và kiểm chứng.
+6. Các cấu hình có kế hoạch: BM25, Vector, một released SOTA, KG full, no-expansion, raw identities, no-semantic, no-relation, verified. Actual Vector/SOTA chưa được xác nhận sẵn sàng. Controlled snapshot và native system comparison là hai protocol riêng. Không gọi graph-derived seed retrieval là pure text baseline. Sensitivity 0.5x/1x/2x từng nhóm trên development; không tuning bằng 45 QA test.
+7. Cùng corpus/metadata/table access, generator/config/output limits, context/token accounting, hardware/cache/concurrency. Offline indexing/extraction tách online. Lưu query analysis, embedding, retrieval, rerank, generation, verification, network/retry/throttle. Shared query cost chỉ là attribution, không giả là independent call. Báo p50/p95 khi có đủ samples.
+8. Đo normalization qua alias split/merge correctness và retrieval/QA, không chỉ node counts. Claim verification phải đo unsupported claims, false refusal và coverage cùng faithfulness; exact quote chưa đủ chứng minh entailment.
+9. Reporting gates: đủ independent gold; đủ repeat grid; đúng manifest; baseline smoke pass thực tế; metadata đầy đủ; no test tuning; errors/coverage công khai. Chưa đủ thì chỉ ghi exploratory/diagnostic, không công bố superiority.
+
+Source-quality update: prompt v2.3 excludes physical lines containing U+FFFD and keeps separate clean fragments; original PDF/prepared JSON remain unchanged. Independent gold still uses the original PDF, including findings that the parser may miss. Report that input loss; do not remove gold findings just to match model access.

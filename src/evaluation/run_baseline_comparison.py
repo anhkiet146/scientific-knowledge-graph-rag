@@ -6,23 +6,27 @@ import json
 import math
 import os
 import re
+import random
 import sys
 import time
 import urllib.error
 import urllib.request
+import uuid
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
+from run_metadata import save_run_metadata
 
 
-WORKSPACE = Path(__file__).resolve().parent
-OUTPUT_DIR = WORKSPACE / "outputs" / "baseline_comparison"
+WORKSPACE = Path(__file__).resolve().parents[2]
+OUTPUT_DIR = Path(os.getenv("BENCHMARK_OUTPUT_DIR", str(WORKSPACE / "outputs" / "baseline_comparison")))
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-LLM_ROOT = Path(r"E:\LLM")
-BACKEND_DIR = LLM_ROOT / "knowledge-extraction" / "backend"
-DATA_JSON_DIR = LLM_ROOT / "data" / "json"
-TEST_SET_FILE = LLM_ROOT / "scripts" / "tao_test_set_full.py"
+LLM_ROOT = WORKSPACE
+BACKEND_DIR = WORKSPACE / "src" / "retrieval"
+DATA_JSON_DIR = Path(os.getenv("CORPUS_JSON_DIR", str(WORKSPACE / "data" / "parsed_json")))
+TEST_SET_FILE = Path(os.getenv("QA_TEST_SET_FILE", str(WORKSPACE / "data" / "qa_evaluation" / "qa_test_set.py")))
+sys.path.insert(0, str(WORKSPACE))
 
 if str(BACKEND_DIR) not in sys.path:
     sys.path.insert(0, str(BACKEND_DIR))
@@ -32,28 +36,8 @@ GENAI_POOL = None
 
 
 def extract_gemini_keys() -> List[str]:
-    keys: List[str] = []
-
-    def add(value: str):
-        value = (value or "").strip().strip('"').strip("'")
-        if value and value not in keys:
-            keys.append(value)
-
-    for env_name in ("GEMINI_API_KEY", "GOOGLE_API_KEY"):
-        add(os.getenv(env_name, ""))
-
-    config_path = BACKEND_DIR / "config.py"
-    if config_path.exists():
-        text = config_path.read_text(encoding="utf-8", errors="ignore")
-        for match in re.finditer(r"(?:GEMINI_API_KEY\s*=\s*)?[\"']([^\"']{20,})[\"']", text):
-            candidate = match.group(1).strip()
-            if re.match(r"^(AQ\.|AIza|ya29\.|sk-)", candidate):
-                add(candidate)
-        for match in re.finditer(r"#\s*([A-Za-z0-9_.\-]{20,})", text):
-            candidate = match.group(1).strip()
-            if re.match(r"^(AQ\.|AIza|ya29\.|sk-)", candidate):
-                add(candidate)
-    return keys
+    from config import GEMINI_API_KEY
+    return [GEMINI_API_KEY] if GEMINI_API_KEY else []
 
 
 class RotatingGenAI:
@@ -154,7 +138,7 @@ def load_kg_rag():
 
 def ask_kg_via_http(url: str, question: str) -> Tuple[str, List[str], Dict[str, Any]]:
     payload = {
-        "session_id": f"baseline-{hashlib.sha1(question.encode('utf-8')).hexdigest()[:12]}",
+        "session_id": f"baseline-{uuid.uuid4().hex}",
         "question": question,
         "scope": "all",
     }
@@ -224,41 +208,34 @@ def chunk_words(text: str, chunk_size: int = 450, overlap: int = 80) -> List[str
 
 
 def load_corpus(json_dir: Path = DATA_JSON_DIR) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-    sections: List[Dict[str, Any]] = []
-    chunks: List[Dict[str, Any]] = []
+    sections, chunks = [], []
     for file in sorted(json_dir.glob("*.json")):
-        try:
-            data = json.loads(file.read_text(encoding="utf-8"))
-        except Exception:
+        data = json.loads(file.read_text(encoding="utf-8-sig"))
+        if not isinstance(data, dict) or "sections" not in data:
             continue
-        paper_id = data.get("filename") or file.stem
-        title = clean_text(data.get("title", ""))
+        header = data.get("raw_header", "")
+        if not isinstance(header, str): header = json.dumps(header, ensure_ascii=False)
+        header += " " + " ".join(a.get("full_name", "") for a in data.get("authors", []))
+        header += " " + " ".join(a.get("name", a.get("institution", "")) for a in data.get("affiliations", []))
+        paper_sections = [("HEADER_AND_METADATA", header)] if header.strip() else []
         abstract = clean_text(data.get("abstract", ""))
         if abstract:
-            sections.append(
-                {
-                    "paper_id": paper_id,
-                    "title": title,
-                    "section_name": "ABSTRACT",
-                    "text": abstract,
-                    "source_file": str(file),
-                }
-            )
+            paper_sections.append(("ABSTRACT", abstract))
         for section in data.get("sections", []) or []:
-            text = clean_text(section.get("content", ""))
-            if not text:
+            if section.get("category") in {"references", "acknowledgements"}:
                 continue
-            item = {
-                "paper_id": paper_id,
-                "title": title,
-                "section_name": clean_text(section.get("section_title", section.get("category", ""))) or "SECTION",
-                "text": text,
-                "source_file": str(file),
-            }
+            text = section.get("content") or " ".join(p.get("text", "") for p in section.get("paragraphs", []))
+            if clean_text(text):
+                paper_sections.append((section.get("title", section.get("section_title", "SECTION")), clean_text(text)))
+        for name, text in paper_sections:
+            item = {"paper_id": data.get("filename") or file.stem,
+                    "title": clean_text(data.get("title", "")), "section_name": name,
+                    "text": text, "source_file": str(file)}
             sections.append(item)
-        for sec in sections[-(len(data.get("sections", []) or []) + (1 if abstract else 0)) :]:
-            for idx, chunk in enumerate(chunk_words(sec["text"])):
-                chunks.append({**sec, "chunk_id": f"{sec['paper_id']}::{sec['section_name']}::{idx}", "text": chunk})
+            for index, chunk in enumerate(chunk_words(text)):
+                chunks.append({**item, "chunk_id": f"{file.stem}::{name}::{index}", "text": chunk})
+    if not chunks:
+        raise RuntimeError(f"No parsed source text found in {json_dir}")
     return sections, chunks
 
 
@@ -312,7 +289,7 @@ def cache_save(path: Path, data: Any) -> None:
 def call_gemini(client, types, prompt: str, *, json_mode: bool = False, model: str = "gemini-3-flash-preview") -> str:
     config = types.GenerateContentConfig(
         temperature=0,
-        max_output_tokens=768,
+        max_output_tokens=4096,
         response_mime_type="application/json" if json_mode else "text/plain",
     )
     last_error = None
@@ -432,7 +409,7 @@ def build_vector_index(chunks: List[Dict[str, Any]], model_name: str = "sentence
     if cache_path.exists():
         data = np.load(cache_path, allow_pickle=True)
         if str(data["text_hash"]) == text_hash and int(data["count"]) == len(chunks):
-            return {"model": model, "embeddings": data["embeddings"], "model_name": model_name}
+            return {"model": model, "embeddings": data["embeddings"], "model_name": model_name, "cache_hit": True}
 
     texts = [
         f"passage: Title: {c.get('title')}\nSection: {c.get('section_name')}\nContent: {c.get('text')}"
@@ -445,7 +422,7 @@ def build_vector_index(chunks: List[Dict[str, Any]], model_name: str = "sentence
         normalize_embeddings=True,
     )
     np.savez_compressed(cache_path, embeddings=embeddings, text_hash=text_hash, count=len(chunks))
-    return {"model": model, "embeddings": embeddings, "model_name": model_name}
+    return {"model": model, "embeddings": embeddings, "model_name": model_name, "cache_hit": False}
 
 
 def vector_retrieve(vector_index: Dict[str, Any], question_en: str, chunks: List[Dict[str, Any]], k: int = 10):
@@ -518,7 +495,7 @@ Question: {question}
 Reference answer: {reference}
 Generated answer: {answer}
 Retrieved context:
-{format_text_context(contexts, max_chars_per_context=700)}
+{format_text_context(contexts, max_chars_per_context=1200)}
 
 Return one minified JSON object only. No Markdown. No explanation. Use exactly these keys:
 {{"faithfulness":0.0,"relevancy":0.0,"context_precision":0.0,"context_recall":0.0,"unsupported_answer":false,"controlled_refusal":false}}
@@ -543,6 +520,8 @@ def average(values: Iterable[Optional[float]]) -> Optional[float]:
 
 
 def run(args):
+    if args.top_k != 10:
+        raise ValueError("The native manuscript comparison fixes top-k at 10; use a controlled runner for other limits")
     client, types = load_backend_modules()
     questions = read_test_set()
     if args.limit:
@@ -551,14 +530,17 @@ def run(args):
     print(f"Loaded {len(questions)} questions, {len(sections)} sections, {len(chunks)} chunks", flush=True)
 
     translations = translate_questions(client, types, [q["question"] for q in questions])
-    bm25 = BM25([f"{s.get('title')} {s.get('section_name')} {s.get('text')}" for s in sections])
+    started = time.perf_counter()
+    bm25 = BM25([f"{s.get('title')} {s.get('section_name')} {s.get('text')}" for s in chunks])
+    index_preparation = {"bm25": {"seconds": time.perf_counter() - started,
+                                   "scope": "local_index_construction", "cache_hit": False}}
 
     result_path = OUTPUT_DIR / "comparison_results.jsonl"
     csv_path = OUTPUT_DIR / "comparison_results.csv"
 
     completed = set()
     if result_path.exists() and args.resume:
-        for line in result_path.read_text(encoding="utf-8").splitlines():
+        for line in result_path.read_text(encoding="utf-8").split("\n"):
             if not line.strip():
                 continue
             obj = json.loads(line)
@@ -597,14 +579,25 @@ def run(args):
         started = time.perf_counter()
         print("Building/loading vector index ...", flush=True)
         vector_index = build_vector_index(chunks, args.vector_model)
-        print(f"Vector index ready in {time.perf_counter() - started:.2f}s", flush=True)
+        elapsed = time.perf_counter() - started
+        index_preparation["vector"] = {"seconds": elapsed,
+            "scope": "model_load_and_index_build_or_cache_load", "cache_hit": vector_index["cache_hit"]}
+        print(f"Vector index ready in {elapsed:.2f}s", flush=True)
+    save_run_metadata(OUTPUT_DIR / "run_metadata.json", question_file=TEST_SET_FILE,
+                      corpus_dir=DATA_JSON_DIR,
+                      config={"vector_model_requested": args.vector_model, "top_k": args.top_k,
+                              "seed": args.seed, "methods": methods,
+                              "native_pipelines_have_distinct_query_processing": True},
+                      index_preparation=index_preparation)
     with result_path.open("a", encoding="utf-8") as out:
         for qid, item in enumerate(questions, 1):
             q = item["question"]
             ref = item["reference_answer"]
             print(console_text(f"[{qid}/{len(questions)}] {q[:80]}"), flush=True)
 
-            for method in methods:
+            method_order = methods.copy()
+            random.Random(args.seed + qid).shuffle(method_order)
+            for method in method_order:
                 if (method, qid) in completed:
                     continue
                 error = None
@@ -614,7 +607,7 @@ def run(args):
                 generation_time = 0.0
                 try:
                     if method == "Lexical BM25 RAG":
-                        contexts, retrieval_time = bm25_retrieve(q, translations[q], bm25, sections, args.top_k)
+                        contexts, retrieval_time = bm25_retrieve(q, translations[q], bm25, chunks, args.top_k)
                         answer, generation_time = answer_from_context(client, types, q, contexts)
                     elif method == "Vector RAG":
                         contexts, retrieval_time = vector_retrieve(vector_index, translations[q], chunks, args.top_k)
@@ -626,22 +619,21 @@ def run(args):
                         if kg_url:
                             answer, source_nodes, timings = ask_kg_via_http(kg_url, q)
                         else:
-                            answer, source_nodes, timings = ask_graphrag(q, "all", [])
+                            answer, source_nodes, timings = ask_graphrag(q, "all", [], max_context=args.top_k)
                         total = time.perf_counter() - start
+                        if timings.get("error"):
+                            raise RuntimeError("KG pipeline error: " + json.dumps(timings["error"]))
                         retrieval_time = (
                             float(timings.get("retrieval_ms", 0)) + float(timings.get("ranking_ms", 0))
                         ) / 1000.0
                         generation_time = float(timings.get("llm", {}).get("answer_synthesis", 0)) / 1000.0
-                        contexts = [
-                            {
-                                "paper_id": "Neo4j",
-                                "title": name,
-                                "section_name": "KG node/evidence",
-                                "text": name,
-                                "retrieval_score": None,
-                            }
-                            for name in (source_nodes or [])
-                        ]
+                        actual_contexts = timings.get("retrieved_context")
+                        if not isinstance(actual_contexts, list):
+                            raise RuntimeError("KG engine must return actual retrieved_context, not highlight node names")
+                        contexts = [{"paper_id": "; ".join(c.get("source_papers", [])),
+                                     "title": c.get("entity_name", ""),
+                                     "section_name": c.get("entity_type", ""),
+                                     "text": json.dumps(c, ensure_ascii=False)} for c in actual_contexts]
                         if not generation_time:
                             generation_time = max(0.0, total - retrieval_time)
                 except Exception as exc:
@@ -659,7 +651,8 @@ def run(args):
                     "generated_answer": answer,
                     "retrieval_time": retrieval_time,
                     "generation_time": generation_time,
-                    "total_time": retrieval_time + generation_time,
+                    "total_time": total if method == "Proposed KG-RAG" and not error else retrieval_time + generation_time,
+                    "timings": timings if method == "Proposed KG-RAG" and not error else {},
                     "judge_model": "gemini-3-flash-preview" if not args.no_judge else None,
                     "error": error,
                     **judge,
@@ -667,7 +660,7 @@ def run(args):
                 out.write(json.dumps(row, ensure_ascii=False) + "\n")
                 out.flush()
 
-    rows = [json.loads(line) for line in result_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    rows = [json.loads(line) for line in result_path.read_text(encoding="utf-8").split("\n") if line.strip()]
     if args.limit:
         rows = [r for r in rows if r["question_id"] <= args.limit]
 
@@ -742,11 +735,15 @@ def run(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--seed", type=int, default=20261111)
     parser.add_argument("--limit", type=int, default=0, help="Chạy thử N câu đầu; 0 = chạy đủ 45 câu")
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--resume", action="store_true", help="Bỏ qua kết quả đã có trong jsonl")
     parser.add_argument("--rerun-errors", action="store_true", help="Khi dùng --resume, chạy lại các dòng đã có nhưng bị error")
-    parser.add_argument("--no-judge", action="store_true", help="Chỉ sinh câu trả lời/context/time, không chấm metric")
+    parser.add_argument("--no-judge", action="store_true", default=True,
+                        help="Save answers/context/timings; judge separately with the pinned GPT rubric (default)")
+    parser.add_argument("--judge-with-gemini", dest="no_judge", action="store_false",
+                        help="Explicit exploratory Gemini judge; not the manuscript GPT evaluation")
     parser.add_argument("--skip-kg", action="store_true", help="Không chạy Proposed KG-RAG")
     parser.add_argument("--methods", default="", help="Chọn method: bm25,vector,kg. Ví dụ: --methods bm25,kg")
     parser.add_argument("--kg-url", default="http://127.0.0.1:8000/api/ask", help="Endpoint KG-RAG đang chạy")

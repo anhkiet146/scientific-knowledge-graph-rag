@@ -23,6 +23,8 @@ from difflib import SequenceMatcher
 from typing import Tuple, List, Dict, Any
 
 from config import GEMINI_API_KEY, NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
+from graph_connection import graph_session
+from claim_verification import verification_prompt, filter_claims, REFUSAL
 from hybrid_retrieval import (
     build_query_plan,
     deterministic_answer,
@@ -79,7 +81,8 @@ def _call_gemini(prompt: str, json_mode: bool = False, retries: int = 3) -> str:
     """Gọi Gemini bằng Google Gen AI SDK với retry logic."""
     config = types.GenerateContentConfig(
         response_mime_type="application/json" if json_mode else "text/plain",
-        temperature=0 if json_mode else None,
+        temperature=0,
+        max_output_tokens=4096,
         safety_settings=[
             types.SafetySetting(
                 category=item["category"],
@@ -641,7 +644,7 @@ def _query_keyword(kw: str, scope_filter: str) -> Tuple[list, set]:
     """
     local_items, local_sources = [], set()
     try:
-        with _get_driver().session() as session:
+        with graph_session(_get_driver()) as session:
             for item in session.run(
                 query,
                 kw=kw,
@@ -680,7 +683,7 @@ def _detect_intent(question: str, timings: Dict[str, Any]) -> str:
         return "graph"
 
 
-def ask_graphrag(question: str, scope: str = "all", history: list = None) -> Tuple[str, List[str], Dict[str, Any]]:
+def ask_graphrag(question: str, scope: str = "all", history: list = None, *, max_hops: int = 2, max_context: int = 10, signal_multipliers=None, verify_claims: bool = False, evaluation_mode: bool = False) -> Tuple[str, List[str], Dict[str, Any]]:
     """Return answer, selected source node names and per-step timings."""
     request_started = time.perf_counter()
     timings: Dict[str, Any] = {"llm": {}}
@@ -691,7 +694,7 @@ def ask_graphrag(question: str, scope: str = "all", history: list = None) -> Tup
         return answer, sources, timings
 
     history = history or []
-    intent = _detect_intent(question, timings)
+    intent = "graph" if evaluation_mode else _detect_intent(question, timings)
     logger.info("Intent detected: %s", intent)
     if intent == "general":
         try:
@@ -736,8 +739,10 @@ def ask_graphrag(question: str, scope: str = "all", history: list = None) -> Tup
             question,
             query_plan,
             scope=scope,
+            max_hops=max_hops,
         )
     except Exception as e:
+        timings["error"] = {"stage": "retrieval", "type": type(e).__name__}
         logger.error("Neo4j hybrid retrieval error: %s", e)
         return finish(f"❌ **Lỗi kết nối Neo4j:** {e}", [])
     timings["retrieval_ms"] = round((time.perf_counter() - retrieval_started) * 1000, 2)
@@ -756,7 +761,8 @@ def ask_graphrag(question: str, scope: str = "all", history: list = None) -> Tup
     paper_title = str(query_plan.get("paper_title") or "").strip()
     title_evidence = str(query_plan.get("title_evidence_answer") or "").strip()
     if (
-        query_plan.get("answer_type") == "taxon"
+        not evaluation_mode
+        and query_plan.get("answer_type") == "taxon"
         and paper_title
         and title_evidence
     ):
@@ -778,7 +784,10 @@ def ask_graphrag(question: str, scope: str = "all", history: list = None) -> Tup
             return finish(answer, [paper_title])
 
     ranking_started = time.perf_counter()
-    top_context = rerank_candidates(question, query_plan, context_data)
+    top_context = rerank_candidates(question, query_plan, context_data,
+                                    max_context=max_context, signal_multipliers=signal_multipliers)
+    timings["retrieved_context"] = top_context
+    timings["query_plan"] = query_plan
     timings["ranking_ms"] = round((time.perf_counter() - ranking_started) * 1000, 2)
     if not top_context:
         timings["evidence_gate"] = "rejected_no_entity_match"
@@ -839,6 +848,18 @@ Câu trả lời cần viết lại:
         logger.error("Answer synthesis failed: %s", e)
         final_answer = deterministic_answer(question, query_plan, top_context)
         timings["answer_synthesis_mode"] = "deterministic_fallback"
+    if verify_claims:
+        try:
+            verdict = _parse_json_object(_timed_llm_call(
+                "claim_verification", verification_prompt(question, final_answer, top_context),
+                timings, json_mode=True,
+            ))
+            final_answer, audit = filter_claims(final_answer, top_context, verdict)
+            timings["claim_verification"] = audit
+        except Exception as exc:
+            logger.error("Claim verification failed: %s", type(exc).__name__)
+            final_answer = REFUSAL
+            timings["claim_verification_error"] = type(exc).__name__
     return finish(final_answer, source_nodes)
 
 def get_followup_suggestions(question: str, context_summary: str) -> List[str]:

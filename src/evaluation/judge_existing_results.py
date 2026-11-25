@@ -3,6 +3,7 @@ import json
 import argparse
 import os
 import sys
+import hashlib
 from pathlib import Path
 
 from run_baseline_comparison import (
@@ -21,6 +22,26 @@ RESULT_PATH = OUTPUT_DIR / "comparison_results.jsonl"
 CSV_PATH = OUTPUT_DIR / "comparison_results.csv"
 SUMMARY_PATH = OUTPUT_DIR / "comparison_summary.json"
 LATEX_PATH = OUTPUT_DIR / "comparison_table.tex"
+
+
+def configure_outputs(directory):
+    global RESULT_PATH, CSV_PATH, SUMMARY_PATH, LATEX_PATH
+    RESULT_PATH = directory / "comparison_results.jsonl"
+    CSV_PATH = directory / "comparison_results.csv"
+    SUMMARY_PATH = directory / "comparison_summary.json"
+    LATEX_PATH = directory / "comparison_table.tex"
+
+
+def apply_judgment(row, judgment, requested_model, provider):
+    for key in ("judge_model", "judge_model_used", "judge_model_requested", "judge_provider",
+                "judge_temperature", "judge_reasoning_effort", "judge_response_id",
+                "scoring_method", "judge_prompt_sha256"):
+        row.pop(key, None)
+    row.update(judgment)
+    row["judge_model_requested"] = requested_model
+    row["judge_model"] = judgment.get("judge_model_used")
+    row["judge_provider"] = judgment.get("judge_provider", provider)
+    row["scoring_method"] = "llm_rubric_ragas_informed"
 
 
 def load_openai_config():
@@ -84,9 +105,19 @@ Return one minified JSON object only. No Markdown. No explanation. Use exactly t
     response = client.responses.create(
         model=model,
         input=prompt,
-        temperature=0,
+        reasoning={"effort": "low"},
+        max_output_tokens=4096,
+        store=False,
     )
-    return parse_judge_output(response.output_text)
+    if response.status != "completed" or not response.model:
+        raise ValueError("Incomplete response or missing returned judge model")
+    result = parse_judge_output(response.output_text)
+    result.update(judge_model_used=response.model, judge_model_requested=model,
+                  judge_provider="openai_responses", judge_reasoning_effort="low",
+                  judge_temperature="provider_default", judge_response_id=response.id,
+                  scoring_method="llm_rubric_ragas_informed",
+                  judge_prompt_sha256=hashlib.sha256(prompt.encode("utf-8")).hexdigest())
+    return result
 
 
 def openai_error_status(exc: Exception) -> str:
@@ -109,7 +140,8 @@ def judge_answer_openai_auto(question: str, reference: str, answer: str, context
         attempted.append(model)
         try:
             result = judge_answer_openai(question, reference, answer, contexts, model)
-            result["judge_model_used"] = model
+            if not result.get("judge_model_used"):
+                raise ValueError("Returned judge model was not recorded")
             return result
         except Exception as exc:
             last_error = exc
@@ -150,6 +182,9 @@ def write_outputs(rows):
         "error",
         "notes",
         "judge_model",
+        "judge_model_requested", "judge_model_used", "judge_provider",
+        "judge_temperature", "judge_reasoning_effort", "judge_response_id",
+        "scoring_method", "judge_prompt_sha256",
     ]
     with CSV_PATH.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
@@ -202,14 +237,24 @@ def write_outputs(rows):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--judge-model", default="")
-    parser.add_argument("--provider", choices=["gemini", "openai"], default="gemini")
+    parser.add_argument("--provider", choices=["gemini", "openai"], default="openai")
+    parser.add_argument("--input", type=Path, default=RESULT_PATH)
+    parser.add_argument("--output-dir", type=Path, required=True,
+                        help="New directory for regrading; historical inputs are never overwritten")
     parser.add_argument("--reset", action="store_true", help="Reset existing metric fields before judging")
     parser.add_argument(
         "--fallback-models",
-        default="gpt-5.5,gpt-5.1,gpt-5,gpt-4.1,gpt-4o,o4-mini,gpt-4o-mini",
+        default="",
         help="Comma-separated OpenAI model fallback list for judge",
     )
     args = parser.parse_args()
+    source = args.input.resolve()
+    if args.output_dir.exists() and any(args.output_dir.iterdir()):
+        raise ValueError("Use a new output directory for this regrading run")
+    if source == (args.output_dir / RESULT_PATH.name).resolve():
+        raise ValueError("Regrading output must not overwrite its input")
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    configure_outputs(args.output_dir)
 
     client = types = None
     if args.provider == "openai":
@@ -223,7 +268,7 @@ def main():
         if not args.judge_model:
             args.judge_model = "gemini-3-flash-preview"
         client, types = load_backend_modules()
-    rows = [json.loads(line) for line in RESULT_PATH.read_text(encoding="utf-8").splitlines() if line.strip()]
+    rows = [json.loads(line) for line in source.read_text(encoding="utf-8").split("\n") if line.strip()]
     if args.reset:
         metric_keys = [
             "faithfulness",
@@ -274,8 +319,7 @@ def main():
                 "controlled_refusal": None,
                 "notes": f"judge_failed: {exc}",
             }
-        row.update(judge)
-        row["judge_model"] = judge.get("judge_model_used", args.judge_model)
+        apply_judgment(row, judge, args.judge_model, args.provider)
         rows[idx] = row
         write_outputs(rows)
     summary = write_outputs(rows)
